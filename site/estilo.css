@@ -191,5 +191,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,[tabindex]:focus-visibl
 .pagina .aviso{background:var(--m-s1);border:1.5px solid var(--m-line2);border-radius:12px;padding:12px 14px}
 .pagina .meta{color:var(--m-mut);font-size:.9rem}
 .pagina .voltar{display:inline-flex;align-items:center;min-height:44px;font-weight:700}
+.pagina .topo{position:sticky;top:0;z-index:1;display:flex;align-items:center;justify-content:space-between;gap:8px;background:var(--m-bg);padding:4px 0}
+.pagina .partilha{border:0;border-radius:999px;background:var(--m-ink);color:var(--m-bg);font-weight:700;min-height:44px;padding:0 16px}
 .pagina blockquote{margin:12px 0;padding:10px 14px;border-left:4px solid var(--m-line2);background:var(--m-s1);border-radius:0 10px 10px 0}
 .pagina .ir{display:inline-flex;align-items:center;min-height:48px;padding:0 18px;border-radius:14px;background:var(--m-ink);color:var(--m-bg);font-weight:700;text-decoration:none;margin:8px 0}

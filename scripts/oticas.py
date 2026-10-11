@@ -141,6 +141,8 @@ def juntar(rodada, modelo):
             continue
         caminho = RAIZ / info["arquivo"]
         r = json.loads(caminho.read_text(encoding="utf-8"))
+        if not all(r.get("caixas", {}).get(k) for k in "123456"):
+            continue
         verificador, espelho = votos["verificador"].get(rotulo), votos["espelho"].get(rotulo)
         neutra = oticas["neutra"]
         r["revisao"] = {**revisao, "verificador": verificador, "espelho": espelho}

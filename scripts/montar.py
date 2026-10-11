@@ -64,10 +64,11 @@ def pagina(titulo, corpo, descricao, raiz=""):
 </head>
 <body>
 <main class="pagina">
-<a class="voltar" href="{raiz}index.html">← Conhecer Candidatos</a>
+<div class="topo"><a class="voltar" href="{raiz}index.html">← Conhecer Candidatos</a><button class="partilha" data-share="1">Compartilhar</button></div>
 <p class="meta">Feito com IA, pode conter erros. <a href="{raiz}como-funciona.html">Como funciona</a></p>
 {corpo}
 </main>
+<script src="{raiz}partilha.js"></script>
 <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{{"token": "6ed43d34957a49fcb90ec8e43f7db523"}}'></script>
 </body>
 </html>
