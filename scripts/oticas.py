@@ -16,7 +16,9 @@ PESSOAS = ["Luiz Inácio Lula da Silva", "Lula", "Lulinha", "Fábio Luís", "Jan
            "Ricardo Salles", "Eduardo Pazuello", "Pazuello", "Marcelo Queiroga", "Nísia Trindade", "Alexandre Padilha", "Gleisi Hoffmann", "Valdemar Costa Neto",
            "Augusto Heleno", "Walter Braga Netto", "Braga Netto", "Anderson Torres", "Mauro Cid", "Alexandre Ramagem", "Ramagem", "Damares Alves", "Damares",
            "Tarcísio de Freitas", "Tarcísio", "Arthur Lira", "Rodrigo Pacheco", "Hugo Motta", "Davi Alcolumbre", "Daniel Vorcaro", "Ernesto Araújo", "Abraham Weintraub",
-           "Weintraub", "Milton Ribeiro", "Camilo Santana", "Wellington Dias", "Rui Costa", "Simone Tebet", "Silvio Almeida", "Ciro Nogueira", "Onyx Lorenzoni"]
+           "Weintraub", "Milton Ribeiro", "Camilo Santana", "Wellington Dias", "Rui Costa", "Simone Tebet", "Silvio Almeida", "Ciro Nogueira", "Onyx Lorenzoni",
+           "Alexandre de Moraes", "Moraes", "Paulo Figueiredo", "Cristiano Zanin", "Zanin", "Flávio Dino", "Dino", "Jorge Messias", "Messias", "Donald Trump", "Trump",
+           "Gaspar", "Fábio Luís Lula da Silva", "Lula da Silva", "Paulo Gonet", "Gonet", "Augusto Aras", "Aras", "Wolney Queiroz", "Vinícius Carvalho", "Gilmar Mendes", "Dias Toffoli", "Toffoli", "Cármen Lúcia", "Luís Roberto Barroso", "Barroso", "Edson Fachin", "Fachin", "Luiz Fux", "Fux", "André Mendonça", "Nunes Marques", "Javier Milei", "Milei", "Nicolás Maduro", "Maduro"]
 PARTIDOS = ["Partido dos Trabalhadores", "Partido Liberal", "PCdoB", "PSDB", "PSOL", "PSB", "MDB", "PDT", "PSD", "PT", "PL", "PP", "Republicanos", "União Brasil", "Podemos"]
 PROGRAMAS = ["Bolsa Família", "Auxílio Brasil", "Auxílio Emergencial", "Auxílio Gás", "Mais Médicos", "Médicos pelo Brasil", "Minha Casa, Minha Vida", "Minha Casa Minha Vida",
              "Casa Verde e Amarela", "Farmácia Popular", "Novo PAC", "PAC", "Desenrola", "Pé-de-Meia", "Fome Zero", "ProUni", "Prouni", "Fies", "Luz para Todos",
@@ -78,16 +80,16 @@ def espelhar(texto):
     return texto
 
 
-def montar_lotes():
+def montar_lotes(o_que):
     rodada = datetime.datetime.now().strftime("%Y%m%d-%H%M")
     pasta = LOTES / rodada
     pasta.mkdir(parents=True)
     itens = []
-    for p in rascunhos(lambda r: all(r.get("caixas", {}).get(k) for k in "123456") and "revisao" not in r):
+    for p in [] if o_que == "termos" else rascunhos(lambda r: all(r.get("caixas", {}).get(k) for k in "123456") and "revisao" not in r):
         r = json.loads(p.read_text(encoding="utf-8"))
         itens.append({**r, "rotulo": "", "_arquivo": str(p.relative_to(RAIZ))})
     dicionario = json.loads((RAIZ / "dados/dicionario.json").read_text(encoding="utf-8"))
-    itens += [{"id": "termo:" + k, "rotulo": "", "nome": v["nome"], "definicao": v["definicao"]} for k, v in dicionario.items() if "revisao" not in v]
+    itens += [{"id": "termo:" + k, "rotulo": "", "nome": v["nome"], "definicao": v["definicao"]} for k, v in dicionario.items() if "revisao" not in v and o_que != "fatos"]
     random.shuffle(itens)
     rotulos = random.sample(range(1000, 9999), len(itens))
     chave = {}
@@ -118,7 +120,7 @@ def respostas(pasta, nome):
 
 
 def juntar(rodada, modelo):
-    pasta = LOTES / rodada / ("opus" if modelo == "opus" else "")
+    pasta = LOTES / rodada / ("opus" if modelo == "opus" and (LOTES / rodada / "opus").exists() else "")
     chave = json.loads((RAIZ / "estado/vendas" / f"{rodada}.json").read_text(encoding="utf-8"))
     votos = {o: respostas(pasta, o) for o in OTICAS + ["verificador", "espelho"]}
     dicionario = json.loads((RAIZ / "dados/dicionario.json").read_text(encoding="utf-8"))
@@ -166,7 +168,7 @@ def lotes_desacordo(rodada):
 if __name__ == "__main__":
     comando = sys.argv[1]
     if comando == "vendar":
-        montar_lotes()
+        montar_lotes(sys.argv[2] if len(sys.argv) > 2 else "tudo")
     elif comando == "juntar":
         juntar(sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else "sonnet")
     elif comando == "desacordo":

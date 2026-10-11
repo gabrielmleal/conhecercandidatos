@@ -1,11 +1,40 @@
 {
  "5g": {
   "nome": "5G",
-  "definicao": "A quinta geração de internet no celular, mais rápida que a 4G."
+  "definicao": "A quinta geração de internet no celular, mais rápida que a 4G.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F1415",
+    "confere": true,
+    "certeza": 0.95,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição técnica simples e sem juízo."
+   },
+   "contra": {
+    "rotulo": "F1415",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica o termo em palavra comum, sem lado."
+   },
+   "neutra": {
+    "rotulo": "F1415",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição curta e clara."
+   },
+   "modelo": "sonnet",
+   "rodada": "20261011-1126"
+  },
+  "aprovado": true
  },
  "8 de janeiro": {
   "nome": "8 de janeiro",
-  "definicao": "Em 8 de janeiro de 2023, apoiadores de Bolsonaro invadiram e quebraram o Congresso, o Palácio do Planalto e o STF."
+  "definicao": "Em 8 de janeiro de 2023, pessoas que não aceitavam o resultado da eleição de 2022 invadiram e quebraram o Congresso, o Palácio do Planalto e o STF."
  },
  "abin": {
   "nome": "Abin",
@@ -21,15 +50,15 @@
  },
  "arquivamento": {
   "nome": "Arquivamento",
-  "definicao": "Quando um caso é encerrado sem julgamento, por falta de provas ou por erro no processo."
+  "definicao": "Quando um caso é encerrado sem julgamento, por exemplo por falta de provas, porque o fato não é crime ou por erro no processo."
  },
  "autonomia do banco central": {
   "nome": "Autonomia do Banco Central",
-  "definicao": "Lei de 2021 que dá mandato fixo ao presidente e aos diretores do Banco Central, para que decidam os juros sem pressão do governo."
+  "definicao": "Lei de 2021 que dá mandato fixo ao presidente e aos diretores do Banco Central, em período que não coincide com o do presidente da República."
  },
  "banco master": {
   "nome": "Banco Master",
-  "definicao": "Banco de Daniel Vorcaro fechado pelo Banco Central em novembro de 2025 por suspeita de fraude. O caso envolve políticos de vários partidos e ministros do STF."
+  "definicao": "Banco de Daniel Vorcaro que o Banco Central mandou fechar em novembro de 2025, por suspeita de fraude. O caso é investigado pela Polícia Federal. Investigação não é condenação."
  },
  "bolsa família": {
   "nome": "Bolsa Família",
@@ -37,15 +66,15 @@
  },
  "brics": {
   "nome": "BRICS",
-  "definicao": "Grupo de países que inclui Brasil, Rússia, Índia, China e África do Sul, entre outros."
+  "definicao": "Grupo de países que inclui Brasil, Rússia, Índia, China e África do Sul, entre outros, para cooperar em economia e política."
  },
  "centrão": {
   "nome": "Centrão",
-  "definicao": "Grupo de partidos de centro e centro-direita que costuma apoiar governos em troca de cargos e verbas."
+  "definicao": "Grupo de partidos de centro e centro-direita que costuma votar com o governo do momento."
  },
  "concessão": {
   "nome": "Concessão",
-  "definicao": "Quando o governo entrega a uma empresa, por um tempo, uma estrada, porto ou aeroporto, em troca de investimentos e cuidados."
+  "definicao": "Quando o governo passa a uma empresa, por um tempo, a gestão de uma estrada, porto ou aeroporto. A empresa investe e pode cobrar de quem usa."
  },
  "cop30": {
   "nome": "COP30",
@@ -53,19 +82,48 @@
  },
  "cpi": {
   "nome": "CPI e CPMI",
-  "definicao": "Comissão de deputados e/ou senadores que investiga um assunto. Pode pedir que pessoas sejam indiciadas, mas não condena ninguém. CPMI é quando deputados e senadores trabalham juntos."
+  "definicao": "Comissão de deputados e/ou senadores que investiga um assunto. No fim, pode recomendar que a polícia ou o Ministério Público investiguem e acusem pessoas, mas não condena ninguém. CPMI é quando deputados e senadores trabalham juntos."
  },
  "delação premiada": {
   "nome": "Delação premiada",
-  "definicao": "Acordo em que um investigado conta o que sabe em troca de pena menor. Só vale se trouxer provas."
+  "definicao": "Acordo em que um investigado conta o que sabe em troca de pena menor. O que ele conta precisa ser confirmado por outras provas."
  },
  "déficit primário": {
   "nome": "Déficit primário",
-  "definicao": "Quando o governo gasta mais do que arrecada, sem contar os juros da dívida."
+  "definicao": "Quando o governo gasta mais do que arrecada, sem contar os juros da dívida.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F4145",
+    "confere": true,
+    "certeza": 0.95,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição técnica correta, curta e sem juízo de valor."
+   },
+   "contra": {
+    "rotulo": "F4145",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica o termo em palavra comum, sem lado."
+   },
+   "neutra": {
+    "rotulo": "F4145",
+    "confere": true,
+    "certeza": 0.92,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição correta, curta e clara."
+   },
+   "modelo": "sonnet",
+   "rodada": "20261011-1126"
+  },
+  "aprovado": true
  },
  "dívida pública": {
   "nome": "Dívida pública",
-  "definicao": "Quanto o governo deve. É comparada com o PIB: 82,9% quer dizer que a dívida é quase do tamanho de tudo o que o país produz em um ano."
+  "definicao": "Quanto o governo deve. Costuma ser comparada com o PIB, que é tudo o que o país produz em um ano."
  },
  "emendas parlamentares": {
   "nome": "Emendas parlamentares",
@@ -73,15 +131,15 @@
  },
  "escala 6x1": {
   "nome": "Escala 6x1",
-  "definicao": "Jornada em que a pessoa trabalha 6 dias e folga 1. A proposta de Lula reduz a semana para 40 horas sem cortar salário."
+  "definicao": "Jornada em que a pessoa trabalha 6 dias e folga 1 por semana."
  },
  "golpe de estado": {
   "nome": "Golpe de Estado",
-  "definicao": "Tentativa de tomar ou ficar no poder sem respeitar o resultado das eleições ou a Constituição."
+  "definicao": "Tentativa de derrubar, com violência ou grave ameaça, um governo eleito, ou de ficar no poder fora das regras da Constituição."
  },
  "imposto de renda": {
   "nome": "Imposto de Renda",
-  "definicao": "Imposto cobrado sobre salários e outros ganhos. Desde 2026, quem ganha até R$ 5 mil por mês não paga."
+  "definicao": "Imposto cobrado sobre salários e outros ganhos das pessoas e das empresas."
  },
  "indiciamento": {
   "nome": "Indiciamento",
@@ -93,7 +151,36 @@
  },
  "inflação": {
   "nome": "Inflação",
-  "definicao": "Quando os preços sobem de forma geral. Com inflação alta, o mesmo dinheiro compra menos coisas."
+  "definicao": "Quando os preços sobem de forma geral. Com inflação alta, o mesmo dinheiro compra menos coisas.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F3122",
+    "confere": true,
+    "certeza": 0.95,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica o termo e o efeito geral em palavra comum, sem apontar governo nem culpado."
+   },
+   "contra": {
+    "rotulo": "F3122",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica o termo e o efeito em palavra comum, sem lado."
+   },
+   "neutra": {
+    "rotulo": "F3122",
+    "confere": true,
+    "certeza": 0.92,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição clara, com efeito em palavra comum."
+   },
+   "modelo": "sonnet",
+   "rodada": "20261011-1126"
+  },
+  "aprovado": true
  },
  "inteligência artificial": {
   "nome": "Inteligência artificial",
@@ -101,7 +188,7 @@
  },
  "lava jato": {
   "nome": "Lava Jato",
-  "definicao": "Grande investigação sobre corrupção na Petrobras (2014–2021). Condenou políticos e empresários. Várias condenações foram anuladas depois."
+  "definicao": "Grande investigação sobre corrupção na Petrobras (2014–2021). Levou à condenação de políticos e empresários pela Justiça; várias dessas condenações foram anuladas depois."
  },
  "lei da dosimetria": {
   "nome": "Lei da Dosimetria",
@@ -109,19 +196,48 @@
  },
  "lei da liberdade econômica": {
   "nome": "Lei da Liberdade Econômica",
-  "definicao": "Lei de 2019 que diminuiu a burocracia para abrir e manter empresas."
+  "definicao": "Lei de 2019 que muda regras para abrir e manter empresas, com o objetivo de reduzir a burocracia."
  },
  "lei magnitsky": {
   "nome": "Lei Magnitsky",
-  "definicao": "Lei dos EUA que permite punir estrangeiros acusados de violar direitos ou de corrupção, bloqueando bens e vistos."
+  "definicao": "Lei dos EUA que permite punir estrangeiros acusados de violar direitos humanos ou de corrupção, bloqueando bens e vistos."
  },
  "maioridade penal": {
   "nome": "Maioridade penal",
-  "definicao": "Idade a partir da qual a pessoa responde por crimes como adulto. Hoje é 18 anos."
+  "definicao": "Idade a partir da qual a pessoa responde por crimes como adulto. Hoje é 18 anos.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F1964",
+    "confere": true,
+    "certeza": 0.95,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição direta, correta e sem juízo; o valor atual é só a regra vigente."
+   },
+   "contra": {
+    "rotulo": "F1964",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica o termo e a idade atual sem tomar lado."
+   },
+   "neutra": {
+    "rotulo": "F1964",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição clara; 'hoje é 18 anos' é fato simples."
+   },
+   "modelo": "sonnet",
+   "rodada": "20261011-1126"
+  },
+  "aprovado": true
  },
  "mandato": {
   "nome": "Mandato",
-  "definicao": "Período de quatro anos de um governo."
+  "definicao": "Período em que uma pessoa eleita ocupa o cargo. Para presidente, são quatro anos; para senador, oito."
  },
  "mapa da fome": {
   "nome": "Mapa da Fome",
@@ -129,7 +245,7 @@
  },
  "mercosul": {
   "nome": "Mercosul",
-  "definicao": "Bloco de comércio entre Brasil, Argentina, Paraguai e Uruguai."
+  "definicao": "Bloco de comércio da América do Sul. Os países fundadores são Brasil, Argentina, Paraguai e Uruguai."
  },
  "milícia": {
   "nome": "Milícia",
@@ -157,11 +273,40 @@
  },
  "pix": {
   "nome": "Pix",
-  "definicao": "Forma de pagamento na hora e de graça, criada pelo Banco Central e lançada em novembro de 2020."
+  "definicao": "Forma de pagamento na hora, criada pelo Banco Central e lançada em novembro de 2020. Para pessoas, é de graça."
  },
  "ppcdam": {
   "nome": "PPCDAm",
-  "definicao": "Plano do governo federal para prevenir e combater o desmatamento na Amazônia."
+  "definicao": "Plano do governo federal para prevenir e combater o desmatamento na Amazônia.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F3322",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica o termo em palavra comum, curto e sem juízo sobre nenhum governo."
+   },
+   "contra": {
+    "rotulo": "F3322",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica o plano em palavra comum, sem juízo nem resultado atribuído."
+   },
+   "neutra": {
+    "rotulo": "F3322",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica o plano em palavra comum, sem tomar lado."
+   },
+   "modelo": "sonnet",
+   "rodada": "20261011-1126"
+  },
+  "aprovado": true
  },
  "prisão domiciliar": {
   "nome": "Prisão domiciliar",
@@ -189,7 +334,36 @@
  },
  "selic": {
   "nome": "Selic (juros básicos)",
-  "definicao": "A taxa básica de juros do país, decidida pelo Banco Central. Quando ela sobe, empréstimos e compras a prazo ficam mais caros."
+  "definicao": "A taxa básica de juros do país, decidida pelo Banco Central. Quando ela sobe, empréstimos e compras a prazo ficam mais caros.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F2057",
+    "confere": true,
+    "certeza": 0.95,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica a taxa e o efeito geral de a taxa subir, sem tomar lado."
+   },
+   "contra": {
+    "rotulo": "F2057",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica a taxa e o efeito geral do aumento, sem tomar lado."
+   },
+   "neutra": {
+    "rotulo": "F2057",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica a taxa e o efeito nos empréstimos em palavra comum."
+   },
+   "modelo": "sonnet",
+   "rodada": "20261011-1126"
+  },
+  "aprovado": true
  },
  "startup": {
   "nome": "Startup",
@@ -197,18 +371,105 @@
  },
  "stf": {
   "nome": "STF",
-  "definicao": "Supremo Tribunal Federal: o tribunal mais alto do país. Tem 11 ministros, indicados pelo presidente e aprovados pelo Senado."
+  "definicao": "Supremo Tribunal Federal: o tribunal mais alto do país. Tem 11 ministros, indicados pelo presidente e aprovados pelo Senado.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F9394",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Descreve o tribunal e a forma de indicação em fatos, sem elogio nem crítica."
+   },
+   "contra": {
+    "rotulo": "F9394",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Descreve o tribunal e a escolha dos ministros, sem juízo."
+   },
+   "neutra": {
+    "rotulo": "F9394",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Descrição correta e clara de função e composição."
+   },
+   "modelo": "sonnet",
+   "rodada": "20261011-1126"
+  },
+  "aprovado": true
  },
  "superávit": {
   "nome": "Superávit",
-  "definicao": "Quando o governo arrecada mais do que gasta, sem contar os juros. É o contrário do déficit."
+  "definicao": "Quando o governo arrecada mais do que gasta, sem contar os juros. É o contrário do déficit.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F4506",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição técnica curta, em palavra comum, sem juízo de valor sobre nenhum governo."
+   },
+   "contra": {
+    "rotulo": "F4506",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica o termo em palavra comum, sem lado."
+   },
+   "neutra": {
+    "rotulo": "F4506",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição clara, com o contraste com o déficit."
+   },
+   "modelo": "sonnet",
+   "rodada": "20261011-1126"
+  },
+  "aprovado": true
  },
  "série histórica": {
   "nome": "Série histórica",
-  "definicao": "Números medidos do mesmo jeito, ano após ano. Servem para comparar épocas."
+  "definicao": "Números medidos do mesmo jeito, ano após ano. Servem para comparar épocas.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F1537",
+    "confere": true,
+    "certeza": 0.95,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição técnica curta, sem lado e sem número solto."
+   },
+   "contra": {
+    "rotulo": "F1537",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica o termo e para que serve, sem lado."
+   },
+   "neutra": {
+    "rotulo": "F1537",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição simples e correta."
+   },
+   "modelo": "sonnet",
+   "rodada": "20261011-1126"
+  },
+  "aprovado": true
  },
  "tarifa": {
   "nome": "Tarifa",
-  "definicao": "Imposto cobrado quando um produto entra em outro país. Tarifa alta deixa o produto brasileiro mais caro lá fora."
+  "definicao": "Imposto cobrado quando um produto entra em um país. Deixa o produto de fora mais caro e protege quem produz lá dentro."
  }
 }

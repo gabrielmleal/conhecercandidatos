@@ -32,4 +32,4 @@ Grave um arquivo JSON com uma lista, um objeto por item, na ordem do lote:
 [{"rotulo": "F4821", "confere": true, "certeza": 0.95, "tipo": "problema", "peso": 2, "motivo": "até 25 palavras"}]
 ```
 
-`confere` é `true` só quando você publicaria o item exatamente como está. `certeza` vai de 0 a 1. `tipo` e `peso` são os que VOCÊ daria, mesmo quando discorda do proposto.
+`confere` é `true` só quando você publicaria o item exatamente como está. `certeza` vai de 0 a 1: use 0,9 ou mais quando não vê problema concreto, e abaixo disso só quando consegue apontar o problema no `motivo`. `tipo` e `peso` são os que VOCÊ daria, mesmo quando discorda do proposto.
