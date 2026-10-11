@@ -4,6 +4,7 @@ import re
 import sys
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
+from links import onde_ler, registro
 from provar import dois_veiculos, nivel
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
@@ -18,6 +19,8 @@ def sem_ancora(fato):
 fatos = [json.loads(p.read_text(encoding="utf-8")) for p in sorted((RAIZ / "fatos").glob("*.json"))]
 contam = [f for f in fatos if f["tipo"] in ("positivo", "problema")]
 ruins = [f["id"] for f in contam if sem_ancora(f) or not all(f.get("caixas", {}).get(str(n)) for n in range(1, 10))]
+lidos = registro()
+sem_link = [f["id"] for f in fatos if not onde_ler(f["ancora"]["link"], f["ancora"]["trecho"], lidos)]
 paginas = [p for p in [*(RAIZ / "site").glob("*.html"), *(RAIZ / "site/fato").glob("*.html")] if p.name != "404.html"]
 lei = {
     "fatos com pesquisa eleitoral (Lei 9.504/1997, art. 33)": [f["id"] for f in fatos if PESQUISA.search(f["titulo"] + " " + f["frase"])],
@@ -30,4 +33,5 @@ for regra, achados in lei.items():
     print(f"{regra}: {len(achados)}", *achados)
 print(f"fatos publicados: {len(fatos)}, que contam na nota: {len(contam)}")
 print(f"fatos que contam na nota sem âncora oficial ou dupla: {len(ruins)}")
-sys.exit(1 if ruins or any(lei.values()) else 0)
+print(f"fatos cuja fonte não abre no trecho: {len(sem_link)}", *sem_link)
+sys.exit(1 if ruins or sem_link or any(lei.values()) else 0)

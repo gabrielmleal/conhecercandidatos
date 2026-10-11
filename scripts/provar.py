@@ -127,12 +127,27 @@ def provar(caminho, rascunho, copias, achou, outros):
     return rascunho
 
 
+def retexto(caminho, outros):
+    r = {k: v for k, v in json.loads(caminho.read_text(encoding="utf-8")).items() if k not in ("revisao", "classificacao", "peso_final")}
+    mesmo = r.get("hash") == hashlib.sha256(normalizar(r["ancora"]["trecho"]).encode()).hexdigest()
+    return provar(caminho, r, r.get("copias", {}), mesmo and r["caixas"]["3"], outros)
+
+
+def relatar(r):
+    falhas = [k for k, v in r["caixas"].items() if not v]
+    print(f"{r['id']}: {'ok' if not falhas else 'falhou ' + ','.join(falhas)}", flush=True)
+
+
 if __name__ == "__main__":
-    caminhos = [pathlib.Path(c) for c in sys.argv[1:]] or [p for p in sorted((RAIZ / "rascunhos").glob("*.json")) if "caixas" not in json.loads(p.read_text(encoding="utf-8"))]
+    so_texto = sys.argv[1:2] == ["--texto"]
+    caminhos = [pathlib.Path(c) for c in sys.argv[1 + so_texto:]] or [p for p in sorted((RAIZ / "rascunhos").glob("*.json")) if "caixas" not in json.loads(p.read_text(encoding="utf-8"))]
     outros = [r for p in sorted((RAIZ / "fatos").glob("*.json")) + sorted((RAIZ / "rascunhos").glob("*.json")) if "caixas" in (r := json.loads(p.read_text(encoding="utf-8")))]
-    with concurrent.futures.ThreadPoolExecutor(4) as grupo:
-        for caminho, rascunho, copias, achou in grupo.map(buscar, caminhos):
-            r = provar(caminho, rascunho, copias, achou, outros)
-            outros.append(r)
-            falhas = [k for k, v in r["caixas"].items() if not v]
-            print(f"{r['id']}: {'ok' if not falhas else 'falhou ' + ','.join(falhas)}", flush=True)
+    if so_texto:
+        for caminho in caminhos:
+            outros.append(r := retexto(caminho, outros))
+            relatar(r)
+    else:
+        with concurrent.futures.ThreadPoolExecutor(4) as grupo:
+            for caminho, rascunho, copias, achou in grupo.map(buscar, caminhos):
+                outros.append(r := provar(caminho, rascunho, copias, achou, outros))
+                relatar(r)

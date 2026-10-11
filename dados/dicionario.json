@@ -34,7 +34,36 @@
  },
  "8 de janeiro": {
   "nome": "8 de janeiro",
-  "definicao": "Em 8 de janeiro de 2023, pessoas que não aceitavam o resultado da eleição de 2022 invadiram e quebraram o Congresso, o Palácio do Planalto e o Supremo Tribunal Federal (STF)."
+  "definicao": "Em 8 de janeiro de 2023, pessoas que não aceitavam o resultado da eleição de 2022 invadiram e quebraram as sedes do Congresso, da Presidência e do Supremo Tribunal Federal (STF), em Brasília.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F2087",
+    "confere": true,
+    "certeza": 0.85,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "32 palavras, palavra comum. Dá o motivo dos invasores (não aceitavam o resultado), que é a leitura corrente das decisões, mas não é neutro."
+   },
+   "contra": {
+    "rotulo": "F2087",
+    "confere": true,
+    "certeza": 0.85,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "35 palavras, palavra comum, descreve o que aconteceu e onde. O motivo 'não aceitavam o resultado' é consenso, mas ainda é uma descrição de intenção."
+   },
+   "neutra": {
+    "rotulo": "F2087",
+    "confere": true,
+    "certeza": 0.82,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "35 palavras, linguagem comum, sem adjetivo de juízo. Atribui o motivo aos invasores ('não aceitavam o resultado'), único ponto que poderia parecer lado."
+   },
+   "modelo": "sonnet",
+   "rodada": "20261011-1409"
+  },
+  "aprovado": false
  },
  "abin": {
   "nome": "Abin",
@@ -71,7 +100,36 @@
  },
  "anistia": {
   "nome": "Anistia",
-  "definicao": "Perdão aprovado por lei do Congresso que apaga a punição de crimes."
+  "definicao": "Perdão aprovado por lei do Congresso que apaga a punição de crimes.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F2689",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "12 palavras comuns, sem tomar lado."
+   },
+   "contra": {
+    "rotulo": "F2689",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "12 palavras, linguagem comum; diz o que a anistia faz sem dizer quem deve ser anistiado."
+   },
+   "neutra": {
+    "rotulo": "F2689",
+    "confere": true,
+    "certeza": 0.95,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição clara, 12 palavras, sem tomar lado."
+   },
+   "modelo": "sonnet",
+   "rodada": "20261011-1349"
+  },
+  "aprovado": true
  },
  "arcabouço fiscal": {
   "nome": "Arcabouço fiscal",
@@ -108,7 +166,36 @@
  },
  "arquivamento": {
   "nome": "Arquivamento",
-  "definicao": "Quando um caso é encerrado sem julgamento, por exemplo por falta de provas, porque o fato não é crime ou porque passou o prazo para punir."
+  "definicao": "Quando um caso é encerrado sem julgamento, por exemplo por falta de provas, porque o fato não é crime ou porque passou o prazo para punir.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F9682",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica em 26 palavras comuns, sem tomar lado."
+   },
+   "contra": {
+    "rotulo": "F9682",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "26 palavras, linguagem comum, sem tomar lado; deixa claro que o arquivamento ocorre sem julgamento."
+   },
+   "neutra": {
+    "rotulo": "F9682",
+    "confere": true,
+    "certeza": 0.95,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição clara, 26 palavras, sem tomar lado."
+   },
+   "modelo": "sonnet",
+   "rodada": "20261011-1349"
+  },
+  "aprovado": true
  },
  "autonomia do banco central": {
   "nome": "Autonomia do Banco Central",
@@ -145,7 +232,36 @@
  },
  "banco master": {
   "nome": "Banco Master",
-  "definicao": "Banco de Daniel Vorcaro que o Banco Central mandou liquidar em novembro de 2025. O caso também é investigado pela Polícia Federal. Investigação não é condenação."
+  "definicao": "Banco privado que o Banco Central mandou fechar em novembro de 2025. Quando isso acontece, o banco para de funcionar e o que ele tem é vendido para pagar quem tinha dinheiro lá.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F3461",
+    "confere": true,
+    "certeza": 0.87,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "34 palavras, linguagem comum, sem lado; explica o que acontece quando o Banco Central manda fechar um banco."
+   },
+   "contra": {
+    "rotulo": "F3461",
+    "confere": true,
+    "certeza": 0.88,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "34 palavras, palavra comum, sem tomar lado: explica o termo e o que acontece quando o Banco Central manda fechar um banco."
+   },
+   "neutra": {
+    "rotulo": "F3461",
+    "confere": true,
+    "certeza": 0.88,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "34 palavras, palavra comum, sem tomar lado. Data do fechamento não pode ser conferida em trecho, pois definição não tem trecho."
+   },
+   "modelo": "sonnet",
+   "rodada": "20261011-1409"
+  },
+  "aprovado": false
  },
  "bolsa família": {
   "nome": "Bolsa Família",
@@ -215,7 +331,36 @@
  },
  "centrão": {
   "nome": "Centrão",
-  "definicao": "Nome informal de um grupo de partidos de centro e centro-direita que costuma votar com o governo do momento."
+  "definicao": "Nome informal de um grupo de partidos de centro e centro-direita que costuma votar com o governo do momento.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F6524",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição curta, em palavra comum e sem tomar lado."
+   },
+   "contra": {
+    "rotulo": "F6524",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica em palavra comum, em 19 palavras, sem tomar lado."
+   },
+   "neutra": {
+    "rotulo": "F6524",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica em palavra comum, com 19 palavras, sem tomar lado."
+   },
+   "modelo": "sonnet",
+   "rodada": "20261011-1349"
+  },
+  "aprovado": true
  },
  "concessão": {
   "nome": "Concessão",
@@ -285,7 +430,36 @@
  },
  "cpi": {
   "nome": "CPI e CPMI",
-  "definicao": "Comissão de deputados ou senadores que investiga um assunto. Pode recomendar que a polícia ou o Ministério Público investiguem pessoas, mas não condena ninguém. CPMI reúne deputados e senadores."
+  "definicao": "Comissão de deputados ou senadores que investiga um assunto. Pode recomendar que a polícia ou o Ministério Público investiguem pessoas, mas não condena ninguém. CPMI reúne deputados e senadores.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F9852",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição curta, em palavra comum, deixa claro que a comissão não condena ninguém."
+   },
+   "contra": {
+    "rotulo": "F9852",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica em palavra comum, em 29 palavras, sem tomar lado e deixa claro que a comissão não condena."
+   },
+   "neutra": {
+    "rotulo": "F9852",
+    "confere": true,
+    "certeza": 0.92,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica em palavra comum, com 29 palavras, sem tomar lado e sem dizer que condena."
+   },
+   "modelo": "sonnet",
+   "rodada": "20261011-1349"
+  },
+  "aprovado": true
  },
  "delação premiada": {
   "nome": "Delação premiada",
@@ -454,7 +628,36 @@
  },
  "golpe de estado": {
   "nome": "Golpe de Estado",
-  "definicao": "Tentativa de derrubar um governo eleito, ou de impedir a posse de quem venceu, com violência ou grave ameaça."
+  "definicao": "Tentativa de derrubar um governo eleito, ou de impedir a posse de quem venceu, com violência ou grave ameaça.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F7269",
+    "confere": true,
+    "certeza": 0.92,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica em 20 palavras comuns, sem tomar lado."
+   },
+   "contra": {
+    "rotulo": "F7269",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "19 palavras, linguagem comum, sem tomar lado; descreve só derrubar governo eleito ou impedir posse com violência."
+   },
+   "neutra": {
+    "rotulo": "F7269",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição clara, 19 palavras, sem tomar lado."
+   },
+   "modelo": "sonnet",
+   "rodada": "20261011-1349"
+  },
+  "aprovado": true
  },
  "imposto de renda": {
   "nome": "Imposto de Renda",
@@ -491,7 +694,36 @@
  },
  "indiciamento": {
   "nome": "Indiciamento",
-  "definicao": "Quando o delegado conclui, em ato formal, que há indícios de que alguém cometeu um crime. Ainda não é acusação na Justiça nem condenação."
+  "definicao": "Quando o delegado conclui, em ato formal, que há indícios de que alguém cometeu um crime. Ainda não é acusação na Justiça nem condenação.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F1490",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição curta, em palavra comum, correta e sem tomar lado."
+   },
+   "contra": {
+    "rotulo": "F1490",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica em palavra comum, em 24 palavras, sem tomar lado."
+   },
+   "neutra": {
+    "rotulo": "F1490",
+    "confere": true,
+    "certeza": 0.92,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica em palavra comum, com 24 palavras, sem tomar lado."
+   },
+   "modelo": "sonnet",
+   "rodada": "20261011-1349"
+  },
+  "aprovado": true
  },
  "indulto": {
   "nome": "Indulto",
@@ -627,7 +859,36 @@
  },
  "lei da dosimetria": {
   "nome": "Lei da Dosimetria",
-  "definicao": "Lei de 2026 que muda o cálculo das penas de crimes contra a democracia, como os do 8 de janeiro, e pode diminuí-las."
+  "definicao": "Lei de 2026 que muda o cálculo das penas de crimes contra a democracia, como os do 8 de janeiro, e pode diminuí-las.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F7813",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica em 24 palavras comuns, sem tomar lado; 'crimes contra a democracia' é o nome legal."
+   },
+   "contra": {
+    "rotulo": "F7813",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "24 palavras, linguagem comum, descreve o efeito sem elogiar nem criticar."
+   },
+   "neutra": {
+    "rotulo": "F7813",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição clara, 24 palavras, sem tomar lado."
+   },
+   "modelo": "sonnet",
+   "rodada": "20261011-1349"
+  },
+  "aprovado": true
  },
  "lei da liberdade econômica": {
   "nome": "Lei da Liberdade Econômica",
@@ -928,7 +1189,36 @@
  },
  "pec": {
   "nome": "PEC",
-  "definicao": "Proposta de Emenda à Constituição. Precisa de 3 em cada 5 votos, em dois turnos na Câmara e dois no Senado."
+  "definicao": "Proposta de Emenda à Constituição: um projeto que muda a Constituição. Para passar, precisa do voto de 3 em cada 5 deputados e de 3 em cada 5 senadores, em duas votações em cada Casa.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F9263",
+    "confere": true,
+    "certeza": 0.88,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "35 palavras, neutra; três quintos em cada Casa e duas votações estão certos. 'Casa' é termo do Legislativo, mas o texto se entende."
+   },
+   "contra": {
+    "rotulo": "F9263",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "35 palavras, palavra comum, sem tomar lado. Os três quintos e as duas votações em cada Casa estão corretos."
+   },
+   "neutra": {
+    "rotulo": "F9263",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "35 palavras, linguagem comum, sem tomar lado. Três quintos em duas votações em cada Casa descreve o rito corretamente."
+   },
+   "modelo": "sonnet",
+   "rodada": "20261011-1409"
+  },
+  "aprovado": false
  },
  "pf": {
   "nome": "PF",
@@ -1064,27 +1354,201 @@
  },
  "prisão domiciliar": {
   "nome": "Prisão domiciliar",
-  "definicao": "Quando a pessoa fica presa em casa, com regras e vigilância, antes ou depois da condenação. Pode ser dada por motivo de saúde."
+  "definicao": "Quando a pessoa fica presa em casa, com regras e vigilância, antes ou depois da condenação. Pode ser dada por motivo de saúde.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F4760",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição curta, em palavra comum, sem tomar lado."
+   },
+   "contra": {
+    "rotulo": "F4760",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica em palavra comum, curta e sem tomar lado; saúde aparece só como um dos motivos possíveis."
+   },
+   "neutra": {
+    "rotulo": "F4760",
+    "confere": true,
+    "certeza": 0.95,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica em palavra comum, com 23 palavras, sem tomar lado."
+   },
+   "modelo": "sonnet",
+   "rodada": "20261011-1349"
+  },
+  "aprovado": true
  },
  "privatização": {
   "nome": "Privatização",
-  "definicao": "Venda de uma empresa do governo (estatal) para empresas ou investidores privados."
+  "definicao": "Venda de uma empresa do governo (estatal) para empresas ou investidores privados.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F3607",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "12 palavras comuns, sem tomar lado."
+   },
+   "contra": {
+    "rotulo": "F3607",
+    "confere": true,
+    "certeza": 0.92,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "12 palavras, linguagem comum, sem tomar lado."
+   },
+   "neutra": {
+    "rotulo": "F3607",
+    "confere": true,
+    "certeza": 0.95,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição clara, 13 palavras, sem tomar lado."
+   },
+   "modelo": "sonnet",
+   "rodada": "20261011-1349"
+  },
+  "aprovado": true
  },
  "pé-de-meia": {
   "nome": "Pé-de-Meia",
-  "definicao": "Poupança paga pelo governo a alunos de baixa renda do ensino médio público, para que não larguem a escola."
+  "definicao": "Poupança paga pelo governo federal a alunos do ensino médio público de famílias inscritas no Cadastro Único, para que não larguem a escola.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F3322",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Define o programa em 23 palavras, em linguagem comum e sem tomar lado."
+   },
+   "contra": {
+    "rotulo": "F3322",
+    "confere": true,
+    "certeza": 0.92,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "23 palavras, linguagem comum. Poupança paga pelo governo a alunos do ensino médio público do Cadastro Único para continuarem na escola; sem tomar lado."
+   },
+   "neutra": {
+    "rotulo": "F3322",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica o termo em palavra comum, em 23 palavras, sem tomar lado."
+   },
+   "modelo": "sonnet",
+   "rodada": "20261011-1409"
+  },
+  "aprovado": true
  },
  "rachadinha": {
   "nome": "Rachadinha",
-  "definicao": "Nome popular de quando um político fica com parte do salário dos seus assessores. A lei trata como crime, em geral peculato."
+  "definicao": "Nome popular para quando um político fica com parte do salário dos próprios assessores, que é pago com dinheiro público. É crime.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F4369",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica rachadinha em 22 palavras, em linguagem comum. Descreve a prática, sem citar pessoa."
+   },
+   "contra": {
+    "rotulo": "F4369",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "22 palavras, linguagem comum. Político fica com parte do salário de assessores pago com dinheiro público. 'É crime' é fato jurídico, não lado político."
+   },
+   "neutra": {
+    "rotulo": "F4369",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica o termo em palavra comum, em 22 palavras, sem tomar lado."
+   },
+   "modelo": "sonnet",
+   "rodada": "20261011-1409"
+  },
+  "aprovado": true
  },
  "reforma tributária": {
   "nome": "Reforma tributária",
-  "definicao": "Mudança nos impostos sobre o que compramos. Vários impostos dão lugar à CBS (federal), ao IBS (de estados e municípios) e a um imposto seletivo sobre produtos que fazem mal. A troca vai de 2026 a 2033."
+  "definicao": "Mudança nos impostos sobre o que compramos. Vários impostos dão lugar à CBS (federal), ao IBS (de estados e municípios) e a um imposto seletivo sobre itens como cigarro e bebida alcoólica. A troca vai de 2026 a 2033.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F8614",
+    "confere": false,
+    "certeza": 0.8,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Texto neutro e em palavra comum, mas tem 41 palavras e o limite é 40."
+   },
+   "contra": {
+    "rotulo": "F8614",
+    "confere": false,
+    "certeza": 0.85,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "A definição tem 41 palavras, um acima do limite de 40. O conteúdo é neutro e em palavra comum."
+   },
+   "neutra": {
+    "rotulo": "F8614",
+    "confere": false,
+    "certeza": 0.85,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Tem 41 palavras, acima do limite de 40, e usa as siglas CBS e IBS sem explicar. Não toma lado."
+   },
+   "modelo": "sonnet",
+   "rodada": "20261011-1409"
+  },
+  "aprovado": false
  },
  "segundo turno": {
   "nome": "Segundo turno",
-  "definicao": "Segunda votação entre os dois mais votados para presidente, governador ou prefeito de cidade grande, quando ninguém passa de metade dos votos válidos. Em 2026, é no dia 25 de outubro."
+  "definicao": "Segunda votação entre os dois mais votados para presidente, governador ou prefeito de cidade com mais de 200 mil eleitores, quando ninguém tem mais da metade dos votos válidos.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F9624",
+    "confere": true,
+    "certeza": 0.95,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica segundo turno em 29 palavras, em linguagem comum e sem tomar lado."
+   },
+   "contra": {
+    "rotulo": "F9624",
+    "confere": true,
+    "certeza": 0.95,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "29 palavras, linguagem comum, sem tomar lado. Segundo turno entre os dois mais votados quando ninguém passa da metade dos votos válidos, com a regra dos 200 mil eleitores."
+   },
+   "neutra": {
+    "rotulo": "F9624",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica o termo em palavra comum, em 29 palavras, sem tomar lado."
+   },
+   "modelo": "sonnet",
+   "rodada": "20261011-1409"
+  },
+  "aprovado": true
  },
  "selic": {
   "nome": "Selic (juros básicos)",
@@ -1253,6 +1717,35 @@
  },
  "tarifa": {
   "nome": "Tarifa",
-  "definicao": "Imposto cobrado quando um produto entra em um país. Deixa o produto de fora mais caro e pode proteger quem produz lá dentro."
+  "definicao": "Imposto cobrado quando um produto entra em um país. Deixa o produto de fora mais caro e pode proteger quem produz lá dentro.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F9421",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição curta, em palavra comum, mostra o efeito sem tomar lado."
+   },
+   "contra": {
+    "rotulo": "F9421",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica em palavra comum, em 23 palavras, sem tomar lado."
+   },
+   "neutra": {
+    "rotulo": "F9421",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica em palavra comum, com 23 palavras, citando o custo e o efeito de proteção."
+   },
+   "modelo": "sonnet",
+   "rodada": "20261011-1349"
+  },
+  "aprovado": true
  }
 }

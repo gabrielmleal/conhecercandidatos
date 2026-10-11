@@ -18,7 +18,8 @@ Peso 2: dado oficial, lei ou ato oficial com efeito direto, orçamento oficial, 
 
 - A `frase` e o `titulo` dizem só o que os `trechos` dizem. Nenhum número, data ou causa a mais.
 - Nenhum adjetivo de juízo. Acusação sem julgamento termina com "Investigação não é condenação."
-- O `tipo_proposto` e o `peso_proposto` seguem a tabela.
+
+Tipo e peso não entram no `confere`. O `tipo_proposto` e o `peso_proposto` são só a sugestão de quem escreveu. Dê o tipo e o peso que a tabela manda nos seus campos `tipo` e `peso`: o site usa os seus.
 
 ## Definição de dicionário
 
@@ -32,4 +33,4 @@ Grave um arquivo JSON com uma lista, um objeto por item, na ordem do lote:
 [{"rotulo": "F4821", "confere": true, "certeza": 0.95, "tipo": "problema", "peso": 2, "motivo": "até 25 palavras"}]
 ```
 
-`confere` é `true` só quando você publicaria o item exatamente como está. `certeza` vai de 0 a 1: use 0,9 ou mais quando não vê problema concreto, e abaixo disso só quando consegue apontar o problema no `motivo`. `tipo` e `peso` são os que VOCÊ daria, mesmo quando discorda do proposto.
+`confere` é `true` só quando você publicaria o título e a frase exatamente como estão. `certeza` vai de 0 a 1: use 0,9 ou mais quando não vê problema concreto, e abaixo disso só quando consegue apontar o problema no `motivo`. `tipo` e `peso` são os que VOCÊ daria, mesmo quando discorda do proposto.

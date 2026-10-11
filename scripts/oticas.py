@@ -23,6 +23,16 @@ PARTIDOS = ["Partido dos Trabalhadores", "Partido Liberal", "PCdoB", "PSDB", "PS
 PROGRAMAS = ["Bolsa Família", "Auxílio Brasil", "Auxílio Emergencial", "Auxílio Gás", "Mais Médicos", "Médicos pelo Brasil", "Minha Casa, Minha Vida", "Minha Casa Minha Vida",
              "Casa Verde e Amarela", "Farmácia Popular", "Novo PAC", "PAC", "Desenrola", "Pé-de-Meia", "Fome Zero", "ProUni", "Prouni", "Fies", "Luz para Todos",
              "Brasil Sorridente", "Pronampe", "Future-se", "Gás do Povo", "Brasil Carinhoso"]
+MESMA = [["Luiz Inácio Lula da Silva", "Lula da Silva", "Lula"], ["Jair Messias Bolsonaro", "Jair Bolsonaro", "Jair", "Bolsonaro"], ["Flávio Bolsonaro", "Flávio Nantes Bolsonaro", "Flávio"],
+         ["Michelle Bolsonaro", "Michelle"], ["Fábio Luís Lula da Silva", "Fábio Luís", "Lulinha"], ["Rosângela da Silva", "Janja"], ["Geraldo Alckmin", "Alckmin"], ["Hamilton Mourão", "Mourão"],
+         ["Dilma Rousseff", "Dilma"], ["Michel Temer", "Temer"], ["Fernando Haddad", "Haddad"], ["Paulo Guedes", "Guedes"], ["Sergio Moro", "Sérgio Moro", "Moro"], ["Fabrício Queiroz", "Queiroz"],
+         ["Carlos Lupi", "Lupi"], ["Eduardo Pazuello", "Pazuello"], ["Walter Braga Netto", "Braga Netto"], ["Alexandre Ramagem", "Ramagem"], ["Damares Alves", "Damares"],
+         ["Tarcísio de Freitas", "Tarcísio"], ["Abraham Weintraub", "Weintraub"], ["Alexandre de Moraes", "Moraes"], ["Cristiano Zanin", "Zanin"], ["Flávio Dino", "Dino"], ["Jorge Messias", "Messias"],
+         ["Donald Trump", "Trump"], ["Alfredo Gaspar", "Gaspar"], ["Paulo Gonet", "Gonet"], ["Augusto Aras", "Aras"], ["Dias Toffoli", "Toffoli"], ["Luís Roberto Barroso", "Barroso"],
+         ["Edson Fachin", "Fachin"], ["Luiz Fux", "Fux"], ["Javier Milei", "Milei"], ["Nicolás Maduro", "Maduro"], ["Partido dos Trabalhadores", "PT"], ["Partido Liberal", "PL"],
+         ["Minha Casa, Minha Vida", "Minha Casa Minha Vida"], ["ProUni", "Prouni"]]
+ANO = r"(?<!\d)(?:19|20)\d\d(?!\d)"
+CANON = {nome.lower(): grupo[0] for grupo in MESMA for nome in grupo}
 APELIDOS = [(r"\b(petistas?)\b", "pessoa"), (r"\b(bolsonaristas?|lulistas?)\b", "pessoa"), (r"\b(primeiro|segundo|terceiro) mandato\b", "mandato")]
 
 
@@ -32,9 +42,10 @@ def rascunhos(filtro):
 
 def vendar(texto, troca, sorteio):
     def rotulo(tipo, original):
-        if original not in troca:
-            troca[original] = f"{tipo} {next(sorteio)}"
-        return troca[original]
+        nome = CANON.get(original.lower(), original)
+        if nome not in troca:
+            troca[nome] = f"{tipo} {next(sorteio)}"
+        return troca[nome]
 
     for nome in sorted(PESSOAS, key=len, reverse=True):
         texto = re.sub(r"(?<![\w-])" + re.escape(nome) + r"(?![\w-])", lambda m: rotulo("Pessoa", m.group(0)), texto)
@@ -44,10 +55,7 @@ def vendar(texto, troca, sorteio):
         texto = re.sub(r"(?<![\w-])" + re.escape(nome) + r"(?![\w-])", lambda m: rotulo("Programa", m.group(0)), texto, flags=re.I)
     for padrao, tipo in APELIDOS:
         texto = re.sub(padrao, lambda m: rotulo("Grupo" if tipo == "pessoa" else "Mandato", m.group(0).lower()), texto, flags=re.I)
-    anos = sorted(set(re.findall(r"(?<!\d)(?:19|20)\d\d(?!\d)", texto)))
-    for i, ano in enumerate(anos, 1):
-        texto = re.sub(r"(?<!\d)" + ano + r"(?!\d)", f"ano {chr(64 + i)}", texto)
-    return texto
+    return re.sub(ANO, lambda m: troca[m.group(0)], texto)
 
 
 def sorteador():
@@ -57,7 +65,8 @@ def sorteador():
 
 
 def item_vendado(r):
-    troca, sorteio = {}, sorteador()
+    textos = [r[k] for k in ("nome", "definicao", "titulo", "frase") if k in r] + [t["trecho"] for t in [r.get("ancora", {})] + r.get("fontes", []) if t.get("trecho")]
+    troca, sorteio = {ano: f"ano {chr(65 + i)}" for i, ano in enumerate(sorted(set(re.findall(ANO, " ".join(textos)))))}, sorteador()
     if "definicao" in r:
         return {"rotulo": r["rotulo"], "e": "definicao", "termo": vendar(r["nome"], troca, sorteio), "definicao": vendar(r["definicao"], troca, sorteio)}, troca
     item = {"rotulo": r["rotulo"], "e": "fato", "titulo": vendar(r["titulo"], troca, sorteio), "frase": vendar(r["frase"], troca, sorteio), "tipo_proposto": r["tipo"], "peso_proposto": r["peso"],
@@ -167,6 +176,28 @@ def lotes_desacordo(rodada):
     print(len(desacordo), "itens para o Opus em", nova.relative_to(RAIZ))
 
 
+def correcao(rodada):
+    pasta = LOTES / rodada
+    chave = json.loads((RAIZ / "estado/vendas" / f"{rodada}.json").read_text(encoding="utf-8"))
+    votos = {o: respostas(pasta, o) for o in OTICAS + ["verificador"]}
+    itens = []
+    for rotulo, info in chave.items():
+        if not info["arquivo"] or not (RAIZ / info["arquivo"]).exists():
+            continue
+        caixas = json.loads((RAIZ / info["arquivo"]).read_text(encoding="utf-8")).get("caixas", {})
+        if len(caixas) == 9 and all(caixas.values()):
+            continue
+        volta = {v: k for k, v in info["troca"].items()}
+        abrir = lambda t: re.sub("|".join(map(re.escape, sorted(volta, key=len, reverse=True))), lambda m: volta[m.group(0)], t) if volta else t
+        motivos = [f"{o}: {abrir(x['motivo'])}" for o in OTICAS if (x := votos[o].get(rotulo)) and not (x["confere"] and x["certeza"] >= 0.9)]
+        if (v := votos["verificador"].get(rotulo)) and not v["sustenta"]:
+            motivos.append("verificador: " + abrir(v["motivo"]))
+        itens.append({"arquivo": info["arquivo"], "motivos": motivos})
+    for n in range(0, len(itens), 25):
+        (pasta / f"correcao-{n // 25 + 1:02d}.json").write_text(json.dumps(itens[n:n + 25], ensure_ascii=False, indent=1), encoding="utf-8")
+    print(len(itens), "rascunhos para corrigir em", (len(itens) + 24) // 25, "arquivos")
+
+
 if __name__ == "__main__":
     comando = sys.argv[1]
     if comando == "vendar":
@@ -175,3 +206,5 @@ if __name__ == "__main__":
         juntar(sys.argv[2], sys.argv[3] if len(sys.argv) > 3 else "sonnet")
     elif comando == "desacordo":
         lotes_desacordo(sys.argv[2])
+    elif comando == "correcao":
+        correcao(sys.argv[2])

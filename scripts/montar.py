@@ -3,6 +3,10 @@ import html
 import json
 import pathlib
 import re
+import sys
+
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
+from links import onde_ler, registro
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 SITE = RAIZ / "site"
@@ -10,6 +14,7 @@ CURTO = {"renda": "Emprego", "contas": "Contas", "social": "Proteção", "educac
 QUEM = {"flavio": "F", "lula": "L", "brasil": "BR"}
 TIPO = {"positivo": "pos", "problema": "neg", "polemico": "pol", "contexto": "ctx", "promessa": "pro"}
 BRT = datetime.timezone(datetime.timedelta(hours=-3))
+LIDOS = registro()
 
 
 def ler(pasta):
@@ -39,13 +44,21 @@ def data_fato(d):
     return {4: d, 7: f"{d[5:7]}/{d[:4]}"}.get(len(d)) or data_br(d)
 
 
+def fonte(fato):
+    return onde_ler(fato["ancora"]["link"], fato["ancora"]["trecho"], LIDOS) or fato["ancora"]["link"]
+
+
+def outras(fato):
+    return [(f["veiculo"], link) for f in fato.get("fontes", []) if (link := onde_ler(f["link"], f.get("trecho", ""), LIDOS))]
+
+
 def para_site(fato, termos):
     return {
         "id": fato["id"], "c": QUEM[fato["candidato"]], "t": fato.get("tema"), "s": fato.get("subtema"), "d": fato["data"],
         "mk": 2 if fato["candidato"] == "brasil" and fato.get("marco") else 1 if fato.get("marco") else 0,
         "tipo": TIPO[fato["tipo"]], "w": peso(fato), "tit": fato["titulo"], "txt": marcar(fato["frase"], termos),
-        "orgao": fato["ancora"]["orgao"], "doc": fato["ancora"].get("documento", ""), "link": fato["ancora"]["link"],
-        "fontes": [[f["veiculo"], f["link"]] for f in fato.get("fontes", [])], "conf": data_br(fato["conferido_em"]),
+        "orgao": fato["ancora"]["orgao"], "doc": fato["ancora"].get("documento", ""), "link": fonte(fato), "arq": int("web.archive.org" in fonte(fato)),
+        "fontes": outras(fato), "conf": data_br(fato["conferido_em"]),
     }
 
 
@@ -80,7 +93,7 @@ def pagina_fato(fato, temas):
     onde = f"{temas[fato['tema']]['nome']} › {temas[fato['tema']]['subtemas'][fato['subtema']]}" if fato.get("tema") else "Linha do tempo"
     valor = peso(fato)
     nota = "Marco do Brasil" if fato["candidato"] == "brasil" else f"{'+' if valor > 0 else '−'}{abs(valor)} na nota" if valor else "Vale zero"
-    fontes = "".join(f'<li><a href="{html.escape(f["link"])}" rel="noopener">{html.escape(f["veiculo"])}</a></li>' for f in fato.get("fontes", []))
+    fontes = "".join(f'<li><a href="{html.escape(link)}" rel="noopener">{html.escape(veiculo)}</a></li>' for veiculo, link in outras(fato))
     erro = f"mailto:contato@conhecercandidatos.com.br?subject=Apontar%20erro%3A%20{fato['id']}"
     corpo = f"""<script>location.replace("../#f={fato['id']}")</script>
 <p class="meta">{html.escape(nome)} · {html.escape(onde)} · {data_fato(fato['data'])}</p>
@@ -88,7 +101,7 @@ def pagina_fato(fato, temas):
 <p>{html.escape(fato['frase'])}</p>
 <p><b>{html.escape(fato['tipo'].replace('polemico', 'polêmico').capitalize())}</b> · {nota}</p>
 <h2>Fonte oficial</h2>
-<p><a href="{html.escape(fato['ancora']['link'])}" rel="noopener">{html.escape(fato['ancora']['orgao'])}{', ' + html.escape(fato['ancora'].get('documento', '')) if fato['ancora'].get('documento') else ''}</a></p>
+<p><a href="{html.escape(fonte(fato))}" rel="noopener">{html.escape(fato['ancora']['orgao'])}{', ' + html.escape(fato['ancora'].get('documento', '')) if fato['ancora'].get('documento') else ''}{' (cópia arquivada)' if 'web.archive.org' in fonte(fato) else ''}</a></p>
 <blockquote>{html.escape(fato['ancora']['trecho'])}</blockquote>
 {'<h2>Outras fontes</h2><ul>' + fontes + '</ul>' if fontes else ''}
 <p class="meta">Conferido em {data_br(fato['conferido_em'])}. Próxima conferência até {data_br(fato['reavaliar_em'])}. Versão {fato['versao']}.</p>
