@@ -179,7 +179,7 @@ def lotes_desacordo(rodada):
 def correcao(rodada):
     pasta = LOTES / rodada
     chave = json.loads((RAIZ / "estado/vendas" / f"{rodada}.json").read_text(encoding="utf-8"))
-    votos = {o: respostas(pasta, o) for o in OTICAS + ["verificador"]}
+    votos = {o: {**respostas(pasta, o), **respostas(pasta / "opus", o)} for o in OTICAS + ["verificador", "espelho"]}
     itens = []
     for rotulo, info in chave.items():
         if not info["arquivo"] or not (RAIZ / info["arquivo"]).exists():
@@ -192,6 +192,8 @@ def correcao(rodada):
         motivos = [f"{o}: {abrir(x['motivo'])}" for o in OTICAS if (x := votos[o].get(rotulo)) and not (x["confere"] and x["certeza"] >= 0.9)]
         if (v := votos["verificador"].get(rotulo)) and not v["sustenta"]:
             motivos.append("verificador: " + abrir(v["motivo"]))
+        if (e := votos["espelho"].get(rotulo)) and (n := votos["neutra"].get(rotulo)) and e["tipo"] != n["tipo"]:
+            motivos.append(f"espelho: com Lula e Bolsonaro trocados no texto, o tipo vira {e['tipo']}, mas a neutra deu {n['tipo']}; o texto pode tratar os dois lados de jeito diferente")
         itens.append({"arquivo": info["arquivo"], "motivos": motivos})
     for n in range(0, len(itens), 25):
         (pasta / f"correcao-{n // 25 + 1:02d}.json").write_text(json.dumps(itens[n:n + 25], ensure_ascii=False, indent=1), encoding="utf-8")

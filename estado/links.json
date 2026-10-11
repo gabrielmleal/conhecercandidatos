@@ -72,10 +72,12 @@
   "conferido_em": "2026-10-11"
  },
  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf#7b5372e9": {
-  "estado": "nao abre",
+  "estado": "navegador mostra o trecho",
   "erro": "403",
   "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
-  "conferido_em": "2026-10-11"
+  "conferido_em": "2026-10-11",
+  "pdf": true,
+  "pagina": 68
  },
  "https://sbtnews.sbt.com.br/noticia/mundo/eua-usam-lei-magnitsky-para-sancionar-alexandre-de-moraes#2a7bf9ff": {
   "estado": "mostra o trecho",
@@ -91,7 +93,8 @@
  },
  "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2026/02/brasil-apresenta-plano-de-ia-e-reforca-parcerias-estrategicas-na-india#60126057": {
   "estado": "sem o trecho",
-  "final": "https://www.gov.br/mcti/acl_users/credentials_cookie_auth/require_login?came_from=https%3A//www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2026/02/brasil-apresenta-plano-de-ia-e-reforca-parcerias-estrategicas-na-india",
+  "copia": "http://web.archive.org/web/20260511190302/https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2026/02/brasil-apresenta-plano-de-ia-e-reforca-parcerias-estrategicas-na-india",
+  "copia_estado": "nao abre",
   "link": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2026/02/brasil-apresenta-plano-de-ia-e-reforca-parcerias-estrategicas-na-india",
   "conferido_em": "2026-10-11"
  },
@@ -102,10 +105,14 @@
   "conferido_em": "2026-10-11"
  },
  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf#e29b72f8": {
-  "estado": "nao abre",
+  "estado": "navegador mostra o trecho",
   "erro": "403",
+  "copia": "http://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "copia_estado": "nao abre",
   "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
-  "conferido_em": "2026-10-11"
+  "conferido_em": "2026-10-11",
+  "pdf": true,
+  "pagina": 13
  },
  "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14601.htm#6ee191b2": {
   "estado": "mostra o trecho",
@@ -115,7 +122,7 @@
  },
  "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/boletins/epidemiologicos/edicoes/2024/boletim-epidemiologico-volume-55-no-11.pdf#8cce8018": {
   "estado": "mostra o trecho",
-  "final": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/boletins/epidemiologicos/edicoes/2024/boletim-epidemiologico-volume-55-no-11.pdf",
+  "pagina": 7,
   "link": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/boletins/epidemiologicos/edicoes/2024/boletim-epidemiologico-volume-55-no-11.pdf",
   "conferido_em": "2026-10-11"
  },
@@ -163,7 +170,7 @@
  },
  "https://biblioteca.ibge.gov.br/visualizacao/periodicos/2421/pnact_2022_2tri.pdf#d3041f44": {
   "estado": "mostra o trecho",
-  "final": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/2421/pnact_2022_2tri.pdf",
+  "pagina": 7,
   "link": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/2421/pnact_2022_2tri.pdf",
   "conferido_em": "2026-10-11"
  },
@@ -265,7 +272,7 @@
  },
  "https://www.bcb.gov.br/content/estabilidadefinanceira/gt_pagamentos_instantaneos/Requisitos%20fundamentais%20-%20vers%C3%A3o%20final.pdf#a7c08b54": {
   "estado": "mostra o trecho",
-  "final": "https://www.bcb.gov.br/content/estabilidadefinanceira/gt_pagamentos_instantaneos/Requisitos%20fundamentais%20-%20vers%C3%A3o%20final.pdf",
+  "pagina": 2,
   "link": "https://www.bcb.gov.br/content/estabilidadefinanceira/gt_pagamentos_instantaneos/Requisitos%20fundamentais%20-%20vers%C3%A3o%20final.pdf",
   "conferido_em": "2026-10-11"
  },
@@ -319,7 +326,7 @@
  },
  "https://ustr.gov/sites/default/files/files/Press/Releases/2026/FLIP%20301%20Investigation%20Final%20Action%20FRN%207-23-26%20FINAL.pdf#fa7911aa": {
   "estado": "mostra o trecho",
-  "final": "https://ustr.gov/sites/default/files/files/Press/Releases/2026/FLIP%20301%20Investigation%20Final%20Action%20FRN%207-23-26%20FINAL.pdf",
+  "pagina": 18,
   "link": "https://ustr.gov/sites/default/files/files/Press/Releases/2026/FLIP%20301%20Investigation%20Final%20Action%20FRN%207-23-26%20FINAL.pdf",
   "conferido_em": "2026-10-11"
  },
@@ -379,21 +386,23 @@
  },
  "https://www.bcb.gov.br/content/ri/relatorioinflacao/202609/rpm202609p.pdf#7bfaa8cd": {
   "estado": "mostra o trecho",
-  "final": "https://www.bcb.gov.br/content/ri/relatorioinflacao/202609/rpm202609p.pdf",
+  "pagina": 8,
   "link": "https://www.bcb.gov.br/content/ri/relatorioinflacao/202609/rpm202609p.pdf",
   "conferido_em": "2026-10-11"
  },
  "https://www.bcb.gov.br/content/ri/relatorioinflacao/202512/rpm202512p.pdf#cc8be851": {
   "estado": "mostra o trecho",
-  "final": "https://www.bcb.gov.br/content/ri/relatorioinflacao/202512/rpm202512p.pdf",
+  "pagina": 8,
   "link": "https://www.bcb.gov.br/content/ri/relatorioinflacao/202512/rpm202512p.pdf",
   "conferido_em": "2026-10-11"
  },
  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf#045b5c29": {
-  "estado": "nao abre",
+  "estado": "navegador mostra o trecho",
   "erro": "403",
   "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
-  "conferido_em": "2026-10-11"
+  "conferido_em": "2026-10-11",
+  "pdf": true,
+  "pagina": 70
  },
  "https://www.aosfatos.org/noticias/bolsonaro-contradiz-filho-negar-atuacao-eduardo-tarifaco-trump/#730c1e6b": {
   "estado": "mostra o trecho",
@@ -456,10 +465,14 @@
   "conferido_em": "2026-10-11"
  },
  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf#a0c60ed7": {
-  "estado": "nao abre",
+  "estado": "navegador mostra o trecho",
   "erro": "403",
+  "copia": "http://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "copia_estado": "nao abre",
   "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
-  "conferido_em": "2026-10-11"
+  "conferido_em": "2026-10-11",
+  "pdf": true,
+  "pagina": 13
  },
  "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente#3b078884": {
   "estado": "mostra o trecho",
@@ -487,13 +500,15 @@
  },
  "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202501_Texto_de_estatisticas_fiscais.pdf#3eec6d32": {
   "estado": "mostra o trecho",
-  "final": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202501_Texto_de_estatisticas_fiscais.pdf",
+  "pagina": 2,
   "link": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202501_Texto_de_estatisticas_fiscais.pdf",
   "conferido_em": "2026-10-11"
  },
  "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017104726#35f022f3": {
   "estado": "nao abre",
   "erro": "403",
+  "copia": "http://web.archive.org/web/20261003172405/https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017104726",
+  "copia_estado": "nao abre",
   "link": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017104726",
   "conferido_em": "2026-10-11"
  },
@@ -504,10 +519,14 @@
   "conferido_em": "2026-10-11"
  },
  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf#f3e14890": {
-  "estado": "nao abre",
+  "estado": "navegador mostra o trecho",
   "erro": "403",
+  "copia": "http://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "copia_estado": "nao abre",
   "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
-  "conferido_em": "2026-10-11"
+  "conferido_em": "2026-10-11",
+  "pdf": true,
+  "pagina": 25
  },
  "https://www12.senado.leg.br/noticias/materias/2024/04/30/rui-costa-detalha-investimentos-do-pac-e-pede-apoio-de-senadores#c6537687": {
   "estado": "mostra o trecho",
@@ -558,10 +577,14 @@
   "conferido_em": "2026-10-11"
  },
  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf#412e28f0": {
-  "estado": "nao abre",
+  "estado": "navegador mostra o trecho",
   "erro": "403",
+  "copia": "http://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "copia_estado": "nao abre",
   "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
-  "conferido_em": "2026-10-11"
+  "conferido_em": "2026-10-11",
+  "pdf": true,
+  "pagina": 15
  },
  "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/atos-antidemocraticos-stf-condena-todos-os-oito-reus-do-nucleo-principal-da-trama-golpista#9af6380c": {
   "estado": "mostra o trecho",
@@ -570,10 +593,14 @@
   "conferido_em": "2026-10-11"
  },
  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf#d71a3f96": {
-  "estado": "nao abre",
+  "estado": "navegador mostra o trecho",
   "erro": "403",
+  "copia": "https://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "copia_estado": "mostra o trecho",
+  "pagina": 14,
   "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
-  "conferido_em": "2026-10-11"
+  "conferido_em": "2026-10-11",
+  "pdf": true
  },
  "https://www.correiobraziliense.com.br/politica/2026/08/7473976-brasil-decide-rebaixar-relacoes-com-argentina-e-nao-reintegrar-embaixador.html#a685f5ee": {
   "estado": "mostra o trecho",
@@ -583,13 +610,14 @@
  },
  "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2026/02/brasil-apresenta-plano-de-ia-e-reforca-parcerias-estrategicas-na-india#04b78c80": {
   "estado": "sem o trecho",
-  "final": "https://www.gov.br/mcti/acl_users/credentials_cookie_auth/require_login?came_from=https%3A//www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2026/02/brasil-apresenta-plano-de-ia-e-reforca-parcerias-estrategicas-na-india",
+  "copia": "http://web.archive.org/web/20260511190302/https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2026/02/brasil-apresenta-plano-de-ia-e-reforca-parcerias-estrategicas-na-india",
+  "copia_estado": "nao abre",
   "link": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2026/02/brasil-apresenta-plano-de-ia-e-reforca-parcerias-estrategicas-na-india",
   "conferido_em": "2026-10-11"
  },
  "https://biblioteca.ibge.gov.br/visualizacao/periodicos/2421/pnact_2026_2tri.pdf#8b4d3a73": {
   "estado": "mostra o trecho",
-  "final": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/2421/pnact_2026_2tri.pdf",
+  "pagina": 8,
   "link": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/2421/pnact_2026_2tri.pdf",
   "conferido_em": "2026-10-11"
  },
@@ -643,7 +671,7 @@
  },
  "https://ftp.ibge.gov.br/Precos_Indices_de_Precos_ao_Consumidor/INPC/Fasciculo_Indicadores_IBGE/2021/ipca-inpc_202112caderno.pdf#411b1090": {
   "estado": "mostra o trecho",
-  "final": "https://ftp.ibge.gov.br/Precos_Indices_de_Precos_ao_Consumidor/INPC/Fasciculo_Indicadores_IBGE/2021/ipca-inpc_202112caderno.pdf",
+  "pagina": 12,
   "link": "https://ftp.ibge.gov.br/Precos_Indices_de_Precos_ao_Consumidor/INPC/Fasciculo_Indicadores_IBGE/2021/ipca-inpc_202112caderno.pdf",
   "conferido_em": "2026-10-11"
  },
@@ -714,20 +742,22 @@
   "conferido_em": "2026-10-11"
  },
  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf#5e9b32f2": {
-  "estado": "nao abre",
+  "estado": "navegador mostra o trecho",
   "erro": "403",
   "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
-  "conferido_em": "2026-10-11"
+  "conferido_em": "2026-10-11",
+  "pdf": true,
+  "pagina": 44
  },
  "https://www.bcb.gov.br/content/ri/relatorioinflacao/202609/rpm202609p.pdf#a746c814": {
   "estado": "mostra o trecho",
-  "final": "https://www.bcb.gov.br/content/ri/relatorioinflacao/202609/rpm202609p.pdf",
+  "pagina": 1,
   "link": "https://www.bcb.gov.br/content/ri/relatorioinflacao/202609/rpm202609p.pdf",
   "conferido_em": "2026-10-11"
  },
  "https://www.bcb.gov.br/content/publicacoes/Documents/reb/boxesreb2018/boxe_19_pix.pdf#146a964a": {
   "estado": "mostra o trecho",
-  "final": "https://www.bcb.gov.br/content/publicacoes/Documents/reb/boxesreb2018/boxe_19_pix.pdf",
+  "pagina": 1,
   "link": "https://www.bcb.gov.br/content/publicacoes/Documents/reb/boxesreb2018/boxe_19_pix.pdf",
   "conferido_em": "2026-10-11"
  },
@@ -763,7 +793,7 @@
  },
  "https://biblioteca.ibge.gov.br/visualizacao/periodicos/236/inpc_ipca_2026_set.pdf#d95ea517": {
   "estado": "mostra o trecho",
-  "final": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/236/inpc_ipca_2026_set.pdf",
+  "pagina": 8,
   "link": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/236/inpc_ipca_2026_set.pdf",
   "conferido_em": "2026-10-11"
  },
@@ -812,6 +842,8 @@
  "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017104726#6f286b64": {
   "estado": "nao abre",
   "erro": "403",
+  "copia": "http://web.archive.org/web/20261003172405/https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017104726",
+  "copia_estado": "nao abre",
   "link": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017104726",
   "conferido_em": "2026-10-11"
  },
@@ -871,7 +903,7 @@
  },
  "https://biblioteca.ibge.gov.br/visualizacao/periodicos/236/inpc_ipca_2026_ago.pdf#38b9a975": {
   "estado": "mostra o trecho",
-  "final": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/236/inpc_ipca_2026_ago.pdf",
+  "pagina": 1,
   "link": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/236/inpc_ipca_2026_ago.pdf",
   "conferido_em": "2026-10-11"
  },
@@ -967,7 +999,7 @@
  },
  "https://biblioteca.ibge.gov.br/visualizacao/periodicos/236/inpc_ipca_2026_ago.pdf#7fd678f3": {
   "estado": "mostra o trecho",
-  "final": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/236/inpc_ipca_2026_ago.pdf",
+  "pagina": 8,
   "link": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/236/inpc_ipca_2026_ago.pdf",
   "conferido_em": "2026-10-11"
  },
@@ -1068,10 +1100,12 @@
   "conferido_em": "2026-10-11"
  },
  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf#a0a58b91": {
-  "estado": "nao abre",
+  "estado": "navegador mostra o trecho",
   "erro": "403",
   "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
-  "conferido_em": "2026-10-11"
+  "conferido_em": "2026-10-11",
+  "pdf": true,
+  "pagina": 71
  },
  "https://www.gov.br/mre/pt-br/canais_atendimento/imprensa/notas-a-imprensa/agressoes-do-presidente-da-argentina-em-territorio-brasileiro#9720a27d": {
   "estado": "mostra o trecho",
@@ -1099,7 +1133,7 @@
  },
  "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202601_Texto_de_estatisticas_fiscais.pdf#6c9e5f50": {
   "estado": "mostra o trecho",
-  "final": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202601_Texto_de_estatisticas_fiscais.pdf",
+  "pagina": 2,
   "link": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202601_Texto_de_estatisticas_fiscais.pdf",
   "conferido_em": "2026-10-11"
  },
@@ -1147,7 +1181,7 @@
  },
  "http://mtc-m21d.sid.inpe.br/col/sid.inpe.br/mtc-m21d/2023/12.29.14.19/doc/NotaTecnica_consolidado_PRODES_2021_rev.pdf#96180d8e": {
   "estado": "mostra o trecho",
-  "final": "http://mtc-m21d.sid.inpe.br/col/sid.inpe.br/mtc-m21d/2023/12.29.14.19/doc/NotaTecnica_consolidado_PRODES_2021_rev.pdf",
+  "pagina": 1,
   "link": "http://mtc-m21d.sid.inpe.br/col/sid.inpe.br/mtc-m21d/2023/12.29.14.19/doc/NotaTecnica_consolidado_PRODES_2021_rev.pdf",
   "conferido_em": "2026-10-11"
  },
@@ -1194,10 +1228,14 @@
   "conferido_em": "2026-10-11"
  },
  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf#4af01773": {
-  "estado": "nao abre",
+  "estado": "navegador mostra o trecho",
   "erro": "403",
+  "copia": "https://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "copia_estado": "mostra o trecho",
+  "pagina": 15,
   "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
-  "conferido_em": "2026-10-11"
+  "conferido_em": "2026-10-11",
+  "pdf": true
  },
  "https://www.camara.leg.br/deputados/74313/biografia#e5cc2f83": {
   "estado": "mostra o trecho",
@@ -1219,7 +1257,7 @@
  },
  "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/boletins/epidemiologicos/covid-19/2022/boletim-epidemiologico-no-146-boletim-coe-coronavirus/@@download/file/Boletim_COVID_146_6jan23_voc_v1b%20(1).pdf#68b3b206": {
   "estado": "mostra o trecho",
-  "final": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/boletins/epidemiologicos/covid-19/2022/boletim-epidemiologico-no-146-boletim-coe-coronavirus/@@download/file/Boletim_COVID_146_6jan23_voc_v1b%20(1).pdf",
+  "pagina": 7,
   "link": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/boletins/epidemiologicos/covid-19/2022/boletim-epidemiologico-no-146-boletim-coe-coronavirus/@@download/file/Boletim_COVID_146_6jan23_voc_v1b%20(1).pdf",
   "conferido_em": "2026-10-11"
  },
@@ -1238,6 +1276,8 @@
  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf#955c3827": {
   "estado": "nao abre",
   "erro": "403",
+  "copia": "http://web.archive.org/web/20261002034455/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
+  "copia_estado": "nao abre",
   "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
   "conferido_em": "2026-10-11"
  },
@@ -1248,14 +1288,18 @@
   "conferido_em": "2026-10-11"
  },
  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf#5be4334c": {
-  "estado": "nao abre",
+  "estado": "navegador mostra o trecho",
   "erro": "403",
+  "copia": "http://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "copia_estado": "nao abre",
   "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
-  "conferido_em": "2026-10-11"
+  "conferido_em": "2026-10-11",
+  "pdf": true,
+  "pagina": 14
  },
  "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202609_Texto_de_estatisticas_fiscais.pdf#455a61d8": {
   "estado": "mostra o trecho",
-  "final": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202609_Texto_de_estatisticas_fiscais.pdf",
+  "pagina": 2,
   "link": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202609_Texto_de_estatisticas_fiscais.pdf",
   "conferido_em": "2026-10-11"
  },
@@ -1285,7 +1329,7 @@
  },
  "https://mds.gov.br/webarquivos/MDS/2_Acoes_e_Programas/Bolsa_Familia/Informes/2025/Informe_Bolsa_Familia_N_69.pdf#d68fef82": {
   "estado": "mostra o trecho",
-  "final": "https://mds.gov.br/webarquivos/MDS/2_Acoes_e_Programas/Bolsa_Familia/Informes/2025/Informe_Bolsa_Familia_N_69.pdf",
+  "pagina": 4,
   "link": "https://mds.gov.br/webarquivos/MDS/2_Acoes_e_Programas/Bolsa_Familia/Informes/2025/Informe_Bolsa_Familia_N_69.pdf",
   "conferido_em": "2026-10-11"
  },
@@ -1351,7 +1395,7 @@
  },
  "https://biblioteca.ibge.gov.br/visualizacao/periodicos/2421/pnact_2026_2tri.pdf#dc89758d": {
   "estado": "mostra o trecho",
-  "final": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/2421/pnact_2026_2tri.pdf",
+  "pagina": 44,
   "link": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/2421/pnact_2026_2tri.pdf",
   "conferido_em": "2026-10-11"
  },
@@ -1375,7 +1419,7 @@
  },
  "https://static.poder360.com.br/2026/03/2-CPMI-INSS-Relatorio-final-compressed-27mar2026.pdf#95e99f37": {
   "estado": "mostra o trecho",
-  "final": "https://static.poder360.com.br/2026/03/2-CPMI-INSS-Relatorio-final-compressed-27mar2026.pdf",
+  "pagina": 3839,
   "link": "https://static.poder360.com.br/2026/03/2-CPMI-INSS-Relatorio-final-compressed-27mar2026.pdf",
   "conferido_em": "2026-10-11"
  },
@@ -1399,7 +1443,7 @@
  },
  "https://www.cartacapital.com.br/wp-content/uploads/2026/07/0707-Nota-%C3%A0-imprensa-sobre-participa%C3%A7%C3%A3o-do-senador-Fl%C3%A1vio-Bolsonaro-em-audi%C3%AAncia-p%C3%BAblica-sobre-a-se%C3%A7%C3%A3o-301-.pdf#9c51ea81": {
   "estado": "mostra o trecho",
-  "final": "https://www.cartacapital.com.br/wp-content/uploads/2026/07/0707-Nota-%C3%A0-imprensa-sobre-participa%C3%A7%C3%A3o-do-senador-Fl%C3%A1vio-Bolsonaro-em-audi%C3%AAncia-p%C3%BAblica-sobre-a-se%C3%A7%C3%A3o-301-.pdf",
+  "pagina": 1,
   "link": "https://www.cartacapital.com.br/wp-content/uploads/2026/07/0707-Nota-%C3%A0-imprensa-sobre-participa%C3%A7%C3%A3o-do-senador-Fl%C3%A1vio-Bolsonaro-em-audi%C3%AAncia-p%C3%BAblica-sobre-a-se%C3%A7%C3%A3o-301-.pdf",
   "conferido_em": "2026-10-11"
  },
@@ -1411,7 +1455,7 @@
  },
  "https://www.europarl.europa.eu/RegData/etudes/ATAG/2026/785694/EPRS_ATA(2026)785694_EN.pdf#9436c490": {
   "estado": "mostra o trecho",
-  "final": "https://www.europarl.europa.eu/RegData/etudes/ATAG/2026/785694/EPRS_ATA(2026)785694_EN.pdf",
+  "pagina": 1,
   "link": "https://www.europarl.europa.eu/RegData/etudes/ATAG/2026/785694/EPRS_ATA(2026)785694_EN.pdf",
   "conferido_em": "2026-10-11"
  },
@@ -1460,6 +1504,9 @@
  "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017104726#e8e27518": {
   "estado": "nao abre",
   "erro": "403",
+  "copia": "https://web.archive.org/web/20261003172405/https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017104726",
+  "copia_estado": "mostra o trecho",
+  "pagina": 37,
   "link": "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017104726",
   "conferido_em": "2026-10-11"
  },
@@ -1550,6 +1597,8 @@
  "https://www.gov.br/mme/pt-br/assuntos/noticias/silveira-comemora-liberacao-de-licenca-para-exploracao-do-poco-fza-m-59-na-margem-equatorial#f56b2a42": {
   "estado": "nao abre",
   "erro": "404",
+  "copia": "http://web.archive.org/web/20260514052240/https://www.gov.br/mme/pt-br/assuntos/noticias/silveira-comemora-liberacao-de-licenca-para-exploracao-do-poco-fza-m-59-na-margem-equatorial/",
+  "copia_estado": "nao abre",
   "link": "https://www.gov.br/mme/pt-br/assuntos/noticias/silveira-comemora-liberacao-de-licenca-para-exploracao-do-poco-fza-m-59-na-margem-equatorial",
   "conferido_em": "2026-10-11"
  },
@@ -1585,7 +1634,7 @@
  },
  "https://www.bcb.gov.br/content/ri/relatorioinflacao/202512/rpm202512p.pdf#d24e830f": {
   "estado": "mostra o trecho",
-  "final": "https://www.bcb.gov.br/content/ri/relatorioinflacao/202512/rpm202512p.pdf",
+  "pagina": 1,
   "link": "https://www.bcb.gov.br/content/ri/relatorioinflacao/202512/rpm202512p.pdf",
   "conferido_em": "2026-10-11"
  },
@@ -1626,10 +1675,12 @@
   "conferido_em": "2026-10-11"
  },
  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf#7c1f0763": {
-  "estado": "nao abre",
+  "estado": "navegador mostra o trecho",
   "erro": "403",
   "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
-  "conferido_em": "2026-10-11"
+  "conferido_em": "2026-10-11",
+  "pdf": true,
+  "pagina": 30
  },
  "https://www.camara.leg.br/noticias/1196978-diretora-da-controladoria-geral-da-uniao-detalha-apuracao-sobre-descontos-indevidos-feitos-pelo-inss/#62e02d07": {
   "estado": "mostra o trecho",
@@ -1657,7 +1708,7 @@
  },
  "https://biblioteca.ibge.gov.br/visualizacao/periodicos/2421/pnact_2022_2tri.pdf#c52ac1a6": {
   "estado": "mostra o trecho",
-  "final": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/2421/pnact_2022_2tri.pdf",
+  "pagina": 42,
   "link": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/2421/pnact_2022_2tri.pdf",
   "conferido_em": "2026-10-11"
  },
@@ -1699,13 +1750,13 @@
  },
  "https://www.cartacapital.com.br/wp-content/uploads/2026/07/0707-Nota-%C3%A0-imprensa-sobre-participa%C3%A7%C3%A3o-do-senador-Fl%C3%A1vio-Bolsonaro-em-audi%C3%AAncia-p%C3%BAblica-sobre-a-se%C3%A7%C3%A3o-301-.pdf#d9978bcc": {
   "estado": "mostra o trecho",
-  "final": "https://www.cartacapital.com.br/wp-content/uploads/2026/07/0707-Nota-%C3%A0-imprensa-sobre-participa%C3%A7%C3%A3o-do-senador-Fl%C3%A1vio-Bolsonaro-em-audi%C3%AAncia-p%C3%BAblica-sobre-a-se%C3%A7%C3%A3o-301-.pdf",
+  "pagina": 1,
   "link": "https://www.cartacapital.com.br/wp-content/uploads/2026/07/0707-Nota-%C3%A0-imprensa-sobre-participa%C3%A7%C3%A3o-do-senador-Fl%C3%A1vio-Bolsonaro-em-audi%C3%AAncia-p%C3%BAblica-sobre-a-se%C3%A7%C3%A3o-301-.pdf",
   "conferido_em": "2026-10-11"
  },
  "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202609_Texto_de_estatisticas_fiscais.pdf#f7e73f2a": {
   "estado": "mostra o trecho",
-  "final": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202609_Texto_de_estatisticas_fiscais.pdf",
+  "pagina": 2,
   "link": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202609_Texto_de_estatisticas_fiscais.pdf",
   "conferido_em": "2026-10-11"
  },
@@ -1782,10 +1833,14 @@
   "conferido_em": "2026-10-11"
  },
  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf#9f9162f2": {
-  "estado": "nao abre",
+  "estado": "navegador mostra o trecho",
   "erro": "403",
+  "copia": "http://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "copia_estado": "nao abre",
   "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
-  "conferido_em": "2026-10-11"
+  "conferido_em": "2026-10-11",
+  "pdf": true,
+  "pagina": 69
  },
  "https://www.camara.leg.br/noticias/887257-professores-e-dirigentes-de-universidades-criticam-cortes-no-orcamento-da-educacao#d03216f3": {
   "estado": "mostra o trecho",
@@ -1825,7 +1880,7 @@
  },
  "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/boletins/epidemiologicos/edicoes/2024/boletim-epidemiologico-volume-55-no-11.pdf#50be52f6": {
   "estado": "mostra o trecho",
-  "final": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/boletins/epidemiologicos/edicoes/2024/boletim-epidemiologico-volume-55-no-11.pdf",
+  "pagina": 7,
   "link": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/boletins/epidemiologicos/edicoes/2024/boletim-epidemiologico-volume-55-no-11.pdf",
   "conferido_em": "2026-10-11"
  },
@@ -1855,7 +1910,7 @@
  },
  "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202609_Texto_de_estatisticas_fiscais.pdf#a05305b7": {
   "estado": "mostra o trecho",
-  "final": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202609_Texto_de_estatisticas_fiscais.pdf",
+  "pagina": 3,
   "link": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202609_Texto_de_estatisticas_fiscais.pdf",
   "conferido_em": "2026-10-11"
  },
@@ -1939,7 +1994,7 @@
  },
  "https://biblioteca.ibge.gov.br/visualizacao/periodicos/236/inpc_ipca_2026_set.pdf#595152cc": {
   "estado": "mostra o trecho",
-  "final": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/236/inpc_ipca_2026_set.pdf",
+  "pagina": 1,
   "link": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/236/inpc_ipca_2026_set.pdf",
   "conferido_em": "2026-10-11"
  },
@@ -2077,13 +2132,59 @@
  },
  "https://ftp.ibge.gov.br/Precos_Indices_de_Precos_ao_Consumidor/INPC/Fasciculo_Indicadores_IBGE/2021/ipca-inpc_202112caderno.pdf#17fbe232": {
   "estado": "mostra o trecho",
-  "final": "https://ftp.ibge.gov.br/Precos_Indices_de_Precos_ao_Consumidor/INPC/Fasciculo_Indicadores_IBGE/2021/ipca-inpc_202112caderno.pdf",
+  "pagina": 1,
   "link": "https://ftp.ibge.gov.br/Precos_Indices_de_Precos_ao_Consumidor/INPC/Fasciculo_Indicadores_IBGE/2021/ipca-inpc_202112caderno.pdf",
   "conferido_em": "2026-10-11"
  },
  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf#5950b0cb": {
-  "estado": "nao abre",
+  "estado": "navegador mostra o trecho",
   "erro": "403",
+  "copia": "https://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "copia_estado": "mostra o trecho",
+  "pagina": 15,
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "conferido_em": "2026-10-11",
+  "pdf": true
+ },
+ "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf#2180e5e6": {
+  "estado": "navegador mostra o trecho",
+  "pdf": true,
+  "pagina": 43,
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "conferido_em": "2026-10-11"
+ },
+ "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf#6f286b64": {
+  "estado": "navegador mostra o trecho",
+  "pdf": true,
+  "pagina": 35,
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "conferido_em": "2026-10-11"
+ },
+ "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf#9778759f": {
+  "estado": "navegador mostra o trecho",
+  "pdf": true,
+  "pagina": 51,
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "conferido_em": "2026-10-11"
+ },
+ "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf#81df2c78": {
+  "estado": "navegador mostra o trecho",
+  "pdf": true,
+  "pagina": 50,
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "conferido_em": "2026-10-11"
+ },
+ "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf#35f022f3": {
+  "estado": "navegador mostra o trecho",
+  "pdf": true,
+  "pagina": 37,
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "conferido_em": "2026-10-11"
+ },
+ "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf#e8e27518": {
+  "estado": "navegador mostra o trecho",
+  "pdf": true,
+  "pagina": 37,
   "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
   "conferido_em": "2026-10-11"
  }
