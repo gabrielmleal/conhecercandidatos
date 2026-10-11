@@ -4,6 +4,7 @@
   "assets": {
     "directory": "./public"
   },
+  "workers_dev": true,
   "routes": [
     { "pattern": "conhecercandidatos.com.br", "custom_domain": true }
   ]
