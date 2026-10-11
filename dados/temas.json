@@ -1,0 +1,15 @@
+{
+  "renda": {"nome": "Emprego e renda", "governo": true, "subtemas": {"emprego": "Emprego", "salario": "Salário e renda", "precos": "Preços e inflação", "juros": "Juros e dívidas das famílias"}},
+  "contas": {"nome": "Contas públicas", "governo": true, "subtemas": {"divida": "Dívida", "gastos": "Gastos e déficit", "impostos": "Impostos", "previdencia": "Previdência"}},
+  "social": {"nome": "Proteção social", "governo": true, "subtemas": {"fome": "Fome", "transferencia": "Transferência de renda", "moradia": "Moradia", "direitos": "Direitos e inclusão"}},
+  "educacao": {"nome": "Educação", "governo": true, "subtemas": {"creche": "Creche e alfabetização", "medio": "Ensino médio", "universidades": "Universidades", "mec": "Gestão do MEC"}},
+  "saude": {"nome": "Saúde", "governo": true, "subtemas": {"sus": "SUS e médicos", "vacinas": "Vacinas", "epidemias": "Epidemias", "remedios": "Remédios"}},
+  "seguranca": {"nome": "Segurança", "governo": true, "subtemas": {"crime": "Crime organizado", "policia": "Polícia e prisões", "armas": "Armas", "leis": "Leis e penas"}},
+  "ambiente": {"nome": "Meio ambiente", "governo": true, "subtemas": {"desmatamento": "Desmatamento", "clima": "Clima", "energia": "Petróleo e energia", "indigenas": "Povos indígenas e terras"}},
+  "producao": {"nome": "Produção", "governo": true, "subtemas": {"agro": "Agro", "industria": "Indústria e comércio", "pequenas": "Pequenas empresas", "estatais": "Estatais e privatizações"}},
+  "obras": {"nome": "Obras e tecnologia", "governo": true, "subtemas": {"transporte": "Transporte", "saneamento": "Saneamento", "internet": "Internet e telecom", "ciencia": "Ciência e IA"}},
+  "democracia": {"nome": "Democracia e instituições", "governo": true, "subtemas": {"justica": "Justiça e STF", "eleicoes": "Eleições e urnas", "imprensa": "Imprensa e redes", "gestao": "Gestão e servidores"}},
+  "mundo": {"nome": "Brasil no mundo", "governo": true, "subtemas": {"comercio": "Comércio exterior", "eua": "EUA e tarifas", "aliancas": "Alianças", "vizinhos": "Vizinhos"}},
+  "aliados": {"nome": "Aliados", "governo": false, "subtemas": {"partido": "Partido e coligação", "familia": "Família", "apoios": "Apoios no Congresso e no governo", "investigados": "Aliados investigados"}},
+  "candidato": {"nome": "Quem é o candidato", "governo": false, "subtemas": {"trajetoria": "Trajetória", "patrimonio": "Patrimônio e campanha", "investigacoes": "Investigações", "votos": "Votos e discursos"}}
+}

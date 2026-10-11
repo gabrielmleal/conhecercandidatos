@@ -1,0 +1,382 @@
+[
+ {
+  "origem": "mapa:flavio-edu-1",
+  "candidato": "flavio",
+  "area_do_mapa": "Educação",
+  "titulo": "Escândalo no MEC",
+  "tipo_no_mapa": "problema",
+  "natureza": "fato",
+  "texto": "O ministro da Educação Milton Ribeiro caiu após um áudio sobre pastores que ajudavam prefeitos a conseguir verbas. Ele foi preso em 2022. Na época, Flávio defendeu o ministro.",
+  "quem_apoia_diz": "Ribeiro negou ter feito algo errado.",
+  "quem_critica_diz": "Virou símbolo de “balcão de negócios” no MEC.",
+  "destaque": null,
+  "pistas": [
+   {
+    "veiculo": "O Povo",
+    "data": "mar/2022",
+    "titulo": "Pastores no MEC e defesa de Flávio",
+    "link": "https://mais.opovo.com.br/jornal/politica/2022/03/23/milton-ribeiro-balanca-no-cargo-apos-revelacao-de-gabinete-paralelo-no-mec.html"
+   },
+   {
+    "veiculo": "Congresso em Foco",
+    "data": "2022",
+    "titulo": "Os cinco ministros da Educação",
+    "link": "https://congressoemfoco.com.br/area/governo/grandes-polemicas-e-validade-curta-os-cinco-ministros-da-educacao-de-bolsonaro"
+   },
+   {
+    "veiculo": "Todos Pela Educação (via Poder360)",
+    "data": "mar/2022",
+    "titulo": "Nota sobre a saída de Milton Ribeiro",
+    "link": "https://static.poder360.com.br/2022/03/integra-todos-pela-educacao-milton-ribeiro-28.mar_.2022.pdf"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:flavio-edu-2",
+  "candidato": "flavio",
+  "area_do_mapa": "Educação",
+  "titulo": "5 ministros e cortes",
+  "tipo_no_mapa": "problema",
+  "natureza": "fato",
+  "texto": "O MEC teve 5 ministros em menos de 4 anos, e as universidades sofreram bloqueios de verba.",
+  "quem_apoia_diz": "O governo dizia combater ideologia nas escolas.",
+  "quem_critica_diz": "Entidades de educação viram falta de rumo.",
+  "destaque": [
+   "5",
+   "ministros da Educação em menos de 4 anos"
+  ],
+  "pistas": [
+   {
+    "veiculo": "SBT News",
+    "data": "2022",
+    "titulo": "Os ministros da Educação de Bolsonaro",
+    "link": "https://sbtnews.sbt.com.br/noticia/governo/202772-governo-bolsonaro-vai-para-o-quinto-ministro-na-educacao-relembre"
+   },
+   {
+    "veiculo": "Brasil de Fato",
+    "data": "jun/2022",
+    "titulo": "Cortes e escândalos no MEC de Bolsonaro",
+    "link": "https://www.brasildefato.com.br/2022/06/28/bdf-explica-a-balburdia-da-educacao-no-governo-bolsonaro"
+   },
+   {
+    "veiculo": "Todos Pela Educação (via Poder360)",
+    "data": "mar/2022",
+    "titulo": "Nota sobre a saída de Milton Ribeiro",
+    "link": "https://static.poder360.com.br/2022/03/integra-todos-pela-educacao-milton-ribeiro-28.mar_.2022.pdf"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:flavio-edu-3",
+  "candidato": "flavio",
+  "area_do_mapa": "Educação",
+  "titulo": "Escolas cívico-militares",
+  "tipo_no_mapa": "polemico",
+  "natureza": "promessa",
+  "texto": "O governo ampliou escolas com gestão de militares. Flávio promete ampliar mais.",
+  "quem_apoia_diz": "Disciplina e segurança na escola.",
+  "quem_critica_diz": "Educadores criticam a militarização do ensino.",
+  "destaque": null,
+  "pistas": [
+   {
+    "veiculo": "Vermelho (PCdoB)",
+    "data": "jun/2022",
+    "titulo": "Escolas cívico-militares e bloqueios",
+    "link": "https://vermelho.org.br/2022/06/23/incompetencia-e-corrupcao-marcam-gestao-bolsonarista-na-educacao/"
+   },
+   {
+    "veiculo": "Seu Presidente",
+    "data": "2026",
+    "titulo": "Resumo das propostas dos candidatos",
+    "link": "https://seupresidente.com.br/candidatos"
+   },
+   {
+    "veiculo": "De Olho nos Planos",
+    "data": "set/2026",
+    "titulo": "Balanço de quatro anos na educação",
+    "link": "https://deolhonosplanos.org.br/balanco-educacao-governo-lula/"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:flavio-sau-1",
+  "candidato": "flavio",
+  "area_do_mapa": "Saúde",
+  "titulo": "Pandemia: 700 mil mortes",
+  "tipo_no_mapa": "problema",
+  "natureza": "fato",
+  "texto": "O Brasil chegou perto de 700 mil mortes por Covid. A vacinação em massa só começou em 2021, e Bolsonaro minimizou a doença em várias falas.",
+  "quem_apoia_diz": "Defendeu a economia e a liberdade das pessoas.",
+  "quem_critica_diz": "Críticos dizem que muitas mortes poderiam ter sido evitadas.",
+  "destaque": [
+   "~700 mil",
+   "mortes por Covid no Brasil"
+  ],
+  "pistas": [
+   {
+    "veiculo": "O Povo",
+    "data": "dez/2022",
+    "titulo": "Balanço do fim do governo Bolsonaro",
+    "link": "https://mais.opovo.com.br/jornal/politica/2022/12/18/fim-da-linha-para-bolsonaro.html"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:flavio-sau-2",
+  "candidato": "flavio",
+  "area_do_mapa": "Saúde",
+  "titulo": "CPI da Covid",
+  "tipo_no_mapa": "problema",
+  "natureza": "fato",
+  "texto": "Em 2021, uma CPI do Senado aprovou relatório pedindo o indiciamento de Bolsonaro por 9 crimes, como charlatanismo e crime contra a humanidade.",
+  "quem_apoia_diz": "Aliados chamaram a CPI de perseguição.",
+  "quem_critica_diz": "O relatório apontou Bolsonaro como um dos principais responsáveis pela tragédia.",
+  "destaque": [
+   "9",
+   "crimes citados no pedido de indiciamento"
+  ],
+  "pistas": [
+   {
+    "veiculo": "Poder360",
+    "data": "out/2021",
+    "titulo": "CPI da Covid aprova relatório final",
+    "link": "https://www.poder360.com.br/governo/cpi-da-covid-aprova-relatorio-final-com-80-pedidos-de-indiciamento/"
+   },
+   {
+    "veiculo": "Correio Braziliense",
+    "data": "out/2021",
+    "titulo": "CPI culpa Bolsonaro pela tragédia da Covid",
+    "link": "https://www.correiobraziliense.com.br/politica/2021/10/4958390-cpi-encerra-atividades-e-culpa-bolsonaro-por-tragedia-da-covid.html"
+   },
+   {
+    "veiculo": "Revista Oeste",
+    "data": "out/2021",
+    "titulo": "A votação do relatório da CPI",
+    "link": "https://revistaoeste.com/politica/cpi-da-covid-vota-relatorio-final-nesta-terca-feira/"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:flavio-sau-3",
+  "candidato": "flavio",
+  "area_do_mapa": "Saúde",
+  "titulo": "Plano: SUS e prevenção",
+  "tipo_no_mapa": "polemico",
+  "natureza": "promessa",
+  "texto": "Promete corrigir o valor que o SUS paga por atendimentos, ampliar exames de prevenção e produzir vacinas no Brasil.",
+  "quem_apoia_diz": "Foco em prevenir doenças.",
+  "quem_critica_diz": "O plano não diz quanto vai custar.",
+  "destaque": null,
+  "pistas": [
+   {
+    "veiculo": "Plano de Governo 2026 (cópia do TSE)",
+    "data": "ago/2026",
+    "titulo": "Plano de governo de Flávio Bolsonaro",
+    "link": "https://planodegoverno2026.com.br/candidatos/presidente/flavio-bolsonaro/"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:lula-edu-1",
+  "candidato": "lula",
+  "area_do_mapa": "Educação",
+  "titulo": "Pé-de-Meia",
+  "tipo_no_mapa": "positivo",
+  "natureza": "fato",
+  "texto": "O Pé-de-Meia paga uma poupança a alunos pobres do ensino médio para não largarem a escola. Já atendeu mais de 5,6 milhões. O governo diz que o abandono escolar caiu 61%.",
+  "quem_apoia_diz": "Mantém o jovem estudando.",
+  "quem_critica_diz": "Especialistas dizem que, sozinho, não garante qualidade.",
+  "destaque": [
+   "5,6 mi",
+   "estudantes atendidos"
+  ],
+  "pistas": [
+   {
+    "veiculo": "PCdoB (site de partido)",
+    "data": "mar/2026",
+    "titulo": "Tempo integral e Pé-de-Meia no Censo Escolar",
+    "link": "https://pcdob.org.br/2026/03/politica-educacional-do-governo-lula-resulta-em-avancos-no-ensino-medio/"
+   },
+   {
+    "veiculo": "Hora do Povo",
+    "data": "jun/2026",
+    "titulo": "Queda de 61% no abandono escolar",
+    "link": "https://horadopovo.com.br/lula-comemora-reducao-de-61-na-evasao-escolar-fruto-do-pe-de-meia-e-ensino-integral/"
+   },
+   {
+    "veiculo": "De Olho nos Planos",
+    "data": "set/2026",
+    "titulo": "Balanço de quatro anos na educação",
+    "link": "https://deolhonosplanos.org.br/balanco-educacao-governo-lula/"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:lula-edu-2",
+  "candidato": "lula",
+  "area_do_mapa": "Educação",
+  "titulo": "Mais tempo integral",
+  "tipo_no_mapa": "positivo",
+  "natureza": "fato",
+  "texto": "Alunos do ensino médio em tempo integral passaram de 16,7% para 26,8%. Pela primeira vez, a meta do Plano Nacional de Educação para isso foi atingida.",
+  "quem_apoia_diz": "Mais tempo de aula e de cuidado.",
+  "quem_critica_diz": "A verba federal para o tempo integral caiu muito em 2025.",
+  "destaque": [
+   "26,8%",
+   "do ensino médio em tempo integral (era 16,7%)"
+  ],
+  "pistas": [
+   {
+    "veiculo": "PCdoB (site de partido)",
+    "data": "mar/2026",
+    "titulo": "Tempo integral e Pé-de-Meia no Censo Escolar",
+    "link": "https://pcdob.org.br/2026/03/politica-educacional-do-governo-lula-resulta-em-avancos-no-ensino-medio/"
+   },
+   {
+    "veiculo": "Hora do Povo",
+    "data": "jun/2026",
+    "titulo": "Queda de 61% no abandono escolar",
+    "link": "https://horadopovo.com.br/lula-comemora-reducao-de-61-na-evasao-escolar-fruto-do-pe-de-meia-e-ensino-integral/"
+   },
+   {
+    "veiculo": "Metrópoles",
+    "data": "jan/2026",
+    "titulo": "Verba de alfabetização cai enquanto Pé-de-Meia cresce",
+    "link": "https://www.metropoles.com/brasil/governo-reduz-verba-para-a-alfabetizacao-enquanto-infla-o-pe-de-meia"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:lula-edu-3",
+  "candidato": "lula",
+  "area_do_mapa": "Educação",
+  "titulo": "Cortes na alfabetização",
+  "tipo_no_mapa": "problema",
+  "natureza": "fato",
+  "texto": "Em 2025, a verba federal para alfabetização caiu 42% e a do tempo integral despencou, enquanto o Pé-de-Meia crescia dentro do orçamento do MEC.",
+  "quem_apoia_diz": "O governo diz que os resultados da escola melhoraram.",
+  "quem_critica_diz": "Tirou dinheiro da base para pagar o Pé-de-Meia.",
+  "destaque": [
+   "−42%",
+   "verba federal de alfabetização em 2025"
+  ],
+  "pistas": [
+   {
+    "veiculo": "Metrópoles",
+    "data": "jan/2026",
+    "titulo": "Verba de alfabetização cai enquanto Pé-de-Meia cresce",
+    "link": "https://www.metropoles.com/brasil/governo-reduz-verba-para-a-alfabetizacao-enquanto-infla-o-pe-de-meia"
+   },
+   {
+    "veiculo": "Gazeta do Povo",
+    "data": "jan/2026",
+    "titulo": "Cortes em alfabetização e tempo integral",
+    "link": "https://www.gazetadopovo.com.br/vozes/governo-lula-corta-investimentos-em-alfabetizacao-e-educacao-integral/"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:lula-edu-4",
+  "candidato": "lula",
+  "area_do_mapa": "Educação",
+  "titulo": "Plano: 80% alfabetizados",
+  "tipo_no_mapa": "polemico",
+  "natureza": "promessa",
+  "texto": "Promete chegar a 80% das crianças alfabetizadas na idade certa e ampliar creches e escolas em tempo integral.",
+  "quem_apoia_diz": "Foco no começo da vida escolar.",
+  "quem_critica_diz": "Depende de verbas que foram cortadas em 2025.",
+  "destaque": null,
+  "pistas": [
+   {
+    "veiculo": "SBT News",
+    "data": "set/2026",
+    "titulo": "O que Lula propõe para a educação",
+    "link": "https://sbtnews.sbt.com.br/noticia/eleicoes/educacao-o-que-lula-propoe-em-plano-de-governo"
+   },
+   {
+    "veiculo": "Metrópoles",
+    "data": "jan/2026",
+    "titulo": "Verba de alfabetização cai enquanto Pé-de-Meia cresce",
+    "link": "https://www.metropoles.com/brasil/governo-reduz-verba-para-a-alfabetizacao-enquanto-infla-o-pe-de-meia"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:lula-sau-1",
+  "candidato": "lula",
+  "area_do_mapa": "Saúde",
+  "titulo": "Mais Médicos e remédios",
+  "tipo_no_mapa": "positivo",
+  "natureza": "fato",
+  "texto": "O Mais Médicos passou de 12 mil para cerca de 25 mil médicos. A Farmácia Popular voltou, com 95% dos itens de graça.",
+  "quem_apoia_diz": "Mais acesso ao SUS, sobretudo no interior.",
+  "quem_critica_diz": "A fila para especialistas continua sendo um desafio, admite o próprio governo.",
+  "destaque": [
+   "25 mil",
+   "médicos no programa (eram 12 mil)"
+  ],
+  "pistas": [
+   {
+    "veiculo": "PT (site de partido)",
+    "data": "2025",
+    "titulo": "Mais Médicos e Farmácia Popular",
+    "link": "https://pt.org.br/2-anos-de-reconstrucao-lula-fortalece-o-sus-e-amplia-acoes-com-novo-pac-saude/"
+   },
+   {
+    "veiculo": "Congresso em Foco (artigo da ministra)",
+    "data": "2025",
+    "titulo": "Desafios do SUS e especialistas",
+    "link": "https://congressoemfoco.com.br/artigo/106195/ampliar-conquistas-para-a-saude-dos-brasileiros-em-2025"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:lula-sau-2",
+  "candidato": "lula",
+  "area_do_mapa": "Saúde",
+  "titulo": "Vacinação recuperada",
+  "tipo_no_mapa": "positivo",
+  "natureza": "fato",
+  "texto": "A vacinação das crianças voltou a subir, e o Brasil saiu da lista dos 20 países com menor vacinação infantil.",
+  "quem_apoia_diz": "Volta da confiança nas vacinas.",
+  "quem_critica_diz": "Algumas vacinas ainda têm baixa procura.",
+  "destaque": null,
+  "pistas": [
+   {
+    "veiculo": "Outras Palavras",
+    "data": "out/2024",
+    "titulo": "Recuperação da vacinação infantil",
+    "link": "https://outraspalavras.net/outrasaude/os-novos-desafios-da-vacinacao-no-brasil/"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:lula-sau-3",
+  "candidato": "lula",
+  "area_do_mapa": "Saúde",
+  "titulo": "Dengue recorde",
+  "tipo_no_mapa": "problema",
+  "natureza": "fato",
+  "texto": "Em 2024, o Brasil passou de 5 mil mortes por dengue, o ano mais letal da história.",
+  "quem_apoia_diz": "O governo diz que reservou R$ 1,5 bilhão e que a epidemia foi mundial.",
+  "quem_critica_diz": "Críticos dizem que a resposta foi lenta.",
+  "destaque": [
+   "5 mil+",
+   "mortes por dengue em 2024"
+  ],
+  "pistas": [
+   {
+    "veiculo": "Poder360",
+    "data": "ago/2024",
+    "titulo": "Brasil passa de 5 mil mortes por dengue",
+    "link": "https://www.poder360.com.br/poder-saude/brasil-ultrapassa-marca-de-5-000-mortes-por-dengue/"
+   },
+   {
+    "veiculo": "Correio Braziliense",
+    "data": "ago/2024",
+    "titulo": "Dengue: recorde e críticas ao governo",
+    "link": "https://www.correiobraziliense.com.br/brasil/2024/08/6915727-brasil-registrou-mais-de-5-mil-mortes-por-dengue-em-2024.html"
+   }
+  ]
+ }
+]

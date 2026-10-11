@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Conhecer Candidatos: Flávio e Lula com a mesma régua</title>
+<meta name="description" content="Fatos sobre Flávio Bolsonaro e Lula, os candidatos a presidente no 2º turno de 2026, cada um com a fonte oficial e a mesma régua para os dois.">
+<meta property="og:title" content="Conhecer Candidatos">
+<meta property="og:description" content="Fatos sobre Flávio e Lula, cada um com a fonte oficial. Feito com IA, pode conter erros.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#F3F5F8">
+<link rel="preload" href="fontes/atkinson-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+<a class="pular" href="#pxBody">Pular para o conteúdo</a>
+<div class="pxapp" id="px">
+  <header>
+    <div class="pxtop">
+      <div class="pxbrand"><b>Conhecer Candidatos</b><span id="pxConf"></span></div>
+      <div class="pxacts">
+        <button class="pxhelp" data-open="acesso" aria-label="Acessibilidade"><svg class="ico" viewBox="0 0 24 24"><circle cx="16" cy="4" r="1"/><path d="m18 19 1-7-6 1"/><path d="m5 8 3-3 5.5 3-2.36 3.5"/><path d="M4.24 14.5a5 5 0 0 0 6.88 6"/><path d="M13.76 17.5a5 5 0 0 0-6.88-6"/></svg>Acessibilidade</button>
+        <button class="pxhelp" data-open="ajuda"><svg class="ico" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>Como usar</button>
+      </div>
+    </div>
+    <p class="pxaviso">Feito com IA, pode conter erros. <a href="como-funciona.html">Como funciona</a> · <a href="o-que-mudou.html">O que mudou</a></p>
+    <div class="pxctx">
+      <div class="pxseg" role="group" aria-label="Candidato"><button data-c="all" aria-pressed="true">Os dois</button><button data-c="F" aria-pressed="false">Flávio</button><button data-c="L" aria-pressed="false">Lula</button></div>
+      <select id="pxTema" aria-label="Tema"></select>
+    </div>
+  </header>
+  <main class="pxbody" id="pxBody" tabindex="-1"></main>
+  <nav class="pxnav" aria-label="Vistas"><button data-v="mapa" aria-current="true">Mapa</button><button data-v="cmp">Comparar</button><button data-v="tempo">Linha do tempo</button><button data-v="dic">Dicionário</button></nav>
+  <div class="pxscrim" id="pxScrim" hidden></div>
+  <div class="pxsheet" id="pxSheet" role="dialog" aria-modal="true" aria-labelledby="pxTrail" hidden>
+    <div class="pxsh-h"><button class="pxback" id="pxBack">Voltar</button><span class="pxtrail" id="pxTrail"></span><button class="pxclose" id="pxClose" aria-label="Fechar">✕</button></div>
+    <div class="pxsh-b" id="pxShB" tabindex="-1"></div>
+  </div>
+  <div class="tour" id="tour" hidden>
+    <div class="tspot" id="tSpot"></div>
+    <span class="ripple" id="tRip" aria-hidden="true" hidden></span>
+    <svg class="hand tap" id="tHand" viewBox="0 0 24 24" aria-hidden="true" hidden></svg>
+    <div class="tcardx" id="tCard" role="dialog" aria-labelledby="tT">
+      <div class="tch"><div class="tprog"><span id="tProg"></span><div class="tdots" id="tDots"></div></div><button class="tbtn2" id="tSay">Ouvir</button><button class="tbtn2" id="tSkip">Pular</button></div>
+      <h2 id="tT" tabindex="-1"></h2><p class="tx" id="tX"></p><p class="tok" id="tOk" aria-live="polite"></p>
+      <div class="tcf"><button class="tbtn2" id="tPrev">Anterior</button><button class="tnext" id="tNext">Próximo</button></div>
+    </div>
+  </div>
+  <div class="ptoast" id="pxToast" role="status" hidden></div>
+  <p class="pxsr" id="pxSR" aria-live="polite"></p>
+</div>
+<script src="dados.js"></script>
+<script src="app.js"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "6ed43d34957a49fcb90ec8e43f7db523"}'></script>
+</body>
+</html>

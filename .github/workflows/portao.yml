@@ -1,0 +1,19 @@
+name: portao
+on:
+  pull_request:
+  push:
+    branches: [main]
+jobs:
+  portao:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fatos que contam na nota têm âncora
+        run: python3 -I scripts/conferir.py
+      - name: Página inicial abaixo de 200 KB
+        run: python3 -I scripts/peso.py
+      - name: Acessibilidade
+        run: |
+          python3 -m http.server 8787 -d site &
+          sleep 2
+          npx -y @axe-core/cli@4.13.0 http://localhost:8787/ http://localhost:8787/como-funciona.html http://localhost:8787/o-que-mudou.html --load-delay 1500 --chromedriver-path "$CHROMEWEBDRIVER/chromedriver" --exit

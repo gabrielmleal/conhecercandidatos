@@ -1,0 +1,377 @@
+[
+ {
+  "origem": "mapa:flavio-seg-1",
+  "candidato": "flavio",
+  "area_do_mapa": "Segurança",
+  "titulo": "Plano Brasil sem Medo",
+  "tipo_no_mapa": "polemico",
+  "natureza": "promessa",
+  "texto": "Quer tratar PCC, CV e milícias como terroristas, construir 5 presídios no modelo de El Salvador, baixar a maioridade penal para 16 anos, acabar com a saída antecipada da prisão em crimes graves e espalhar 1 milhão de câmeras com reconhecimento facial.",
+  "quem_apoia_diz": "Resposta dura ao crime que assusta o povo.",
+  "quem_critica_diz": "Especialistas questionam custo, resultado e direitos.",
+  "destaque": null,
+  "pistas": [
+   {
+    "veiculo": "Gazeta do Povo",
+    "data": "ago/2026",
+    "titulo": "As propostas de segurança de Flávio",
+    "link": "https://www.gazetadopovo.com.br/eleicoes/2026/propostas-flavio-bolsonaro-plano-de-governo-seguranca-publica/"
+   },
+   {
+    "veiculo": "Band",
+    "data": "ago/2026",
+    "titulo": "Propostas e perfil de Flávio Bolsonaro",
+    "link": "https://www.band.com.br/politica/eleicoes/eleicoes-2026-conheca-as-propostas-e-o-perfil-de-flavio-bolsonaro-pl"
+   },
+   {
+    "veiculo": "Plano de Governo 2026 (cópia do TSE)",
+    "data": "ago/2026",
+    "titulo": "Plano de governo de Flávio Bolsonaro",
+    "link": "https://planodegoverno2026.com.br/candidatos/presidente/flavio-bolsonaro/"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:flavio-seg-2",
+  "candidato": "flavio",
+  "area_do_mapa": "Segurança",
+  "titulo": "Medo é o tema nº 1",
+  "tipo_no_mapa": "contexto",
+  "natureza": "fato",
+  "texto": "Em abril de 2026, a pesquisa Quaest mostrou a segurança como o maior problema do país para os brasileiros. É o tema em que a direita costuma ter vantagem.",
+  "quem_apoia_diz": "",
+  "quem_critica_diz": "",
+  "destaque": null,
+  "pistas": [
+   {
+    "veiculo": "InfoMoney",
+    "data": "2026",
+    "titulo": "Segurança vira tema decisivo da eleição",
+    "link": "https://www.infomoney.com.br/politica/seguranca-vira-campo-decisivo-da-eleicao-veja-propostas-dos-pre-candidatos/"
+   },
+   {
+    "veiculo": "Sul21",
+    "data": "mai/2026",
+    "titulo": "Medo da violência e eleição",
+    "link": "https://sul21.com.br/?p=293704"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:flavio-seg-3",
+  "candidato": "flavio",
+  "area_do_mapa": "Segurança",
+  "titulo": "Proteção às mulheres",
+  "tipo_no_mapa": "polemico",
+  "natureza": "promessa",
+  "texto": "Promete fazer as medidas protetivas para mulheres funcionarem de verdade e passar para famílias de vítimas recursos hoje pagos a famílias de presos.",
+  "quem_apoia_diz": "Prioriza as vítimas.",
+  "quem_critica_diz": "Faltam detalhes de como seria feito.",
+  "destaque": null,
+  "pistas": [
+   {
+    "veiculo": "Gazeta do Povo",
+    "data": "ago/2026",
+    "titulo": "As propostas de segurança de Flávio",
+    "link": "https://www.gazetadopovo.com.br/eleicoes/2026/propostas-flavio-bolsonaro-plano-de-governo-seguranca-publica/"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:flavio-amb-1",
+  "candidato": "flavio",
+  "area_do_mapa": "Meio ambiente",
+  "titulo": "Desmatamento subiu",
+  "tipo_no_mapa": "problema",
+  "natureza": "fato",
+  "texto": "O desmatamento na Amazônia subiu cerca de 73% no governo Bolsonaro e passou de 13 mil km² em 2021. O plano de combate (PPCDAm) foi parado.",
+  "quem_apoia_diz": "Menos burocracia para quem produz.",
+  "quem_critica_diz": "Fiscalização mais fraca e imagem ruim lá fora.",
+  "destaque": [
+   "+73%",
+   "desmatamento na Amazônia no período"
+  ],
+  "pistas": [
+   {
+    "veiculo": "Observador (checagem)",
+    "data": "2022",
+    "titulo": "Desmatamento com Lula e com Bolsonaro",
+    "link": "https://observador.pt/factchecks/fact-check-desmatamento-anual-da-amazonia-foi-48-menor-com-bolsonaro-do-que-com-lula/"
+   },
+   {
+    "veiculo": "Viva (dados do Inpe)",
+    "data": "fev/2026",
+    "titulo": "Desmatamento ano a ano desde 2021",
+    "link": "https://viva.com.br/noticias/desmatamento-na-amazonia-em-2025-caiu-1108-segundo-inpe.html"
+   },
+   {
+    "veiculo": "DGABC",
+    "data": "ago/2026",
+    "titulo": "Desmatamento tem o maior recuo da década",
+    "link": "https://www.dgabc.com.br/Noticia/4340005/desmatamento-na-amazonia-registra-maior-recuo-da-decada"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:flavio-amb-2",
+  "candidato": "flavio",
+  "area_do_mapa": "Meio ambiente",
+  "titulo": "“Passar a boiada”",
+  "tipo_no_mapa": "polemico",
+  "natureza": "fato",
+  "texto": "Numa reunião de 2020, o então ministro do Meio Ambiente sugeriu aproveitar a pandemia para afrouxar regras ambientais.",
+  "quem_apoia_diz": "Seria só simplificar normas.",
+  "quem_critica_diz": "Mostra intenção de desmontar a proteção ambiental.",
+  "destaque": null,
+  "pistas": []
+ },
+ {
+  "origem": "mapa:flavio-tec-1",
+  "candidato": "flavio",
+  "area_do_mapa": "Tecnologia",
+  "titulo": "Leilão do 5G",
+  "tipo_no_mapa": "positivo",
+  "natureza": "fato",
+  "texto": "Em 2021, o leilão da internet 5G arrecadou cerca de R$ 47 bilhões, com a obrigação de levar internet a mais lugares.",
+  "quem_apoia_diz": "Modernizou a internet do país.",
+  "quem_critica_diz": "A imprensa especializada viu uso eleitoral do evento.",
+  "destaque": [
+   "R$ 47 bi",
+   "arrecadados no leilão"
+  ],
+  "pistas": [
+   {
+    "veiculo": "Diario de Pernambuco",
+    "data": "dez/2021",
+    "titulo": "Leilão do 5G arrecada R$ 47 bilhões",
+    "link": "https://www.diariodepernambuco.com.br/noticia/economia/2021/12/governo-e-empresarios-assinam-termo-de-concessao-do-5g.html"
+   },
+   {
+    "veiculo": "Convergência Digital",
+    "data": "nov/2021",
+    "titulo": "Tom eleitoral no leilão do 5G",
+    "link": "https://convergenciadigital.com.br/?p=21094"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:flavio-tec-2",
+  "candidato": "flavio",
+  "area_do_mapa": "Tecnologia",
+  "titulo": "Marco das Startups",
+  "tipo_no_mapa": "polemico",
+  "natureza": "fato",
+  "texto": "Em 2021, uma lei facilitou a vida de empresas novas de tecnologia (startups) e permitiu que o governo as contrate.",
+  "quem_apoia_diz": "Incentivo à inovação.",
+  "quem_critica_diz": "Ao mesmo tempo, verbas de pesquisa, como as do CNPq, foram cortadas.",
+  "destaque": null,
+  "pistas": [
+   {
+    "veiculo": "Acionista",
+    "data": "jun/2021",
+    "titulo": "Sancionado o Marco Legal das Startups",
+    "link": "https://acionista.com.br/startup-bolsonaro-sanciona-marco-legal-do-empreendedorismo-inovador/"
+   },
+   {
+    "veiculo": "Revista Retratos da Escola",
+    "data": "2021",
+    "titulo": "Cortes no MEC e no CNPq",
+    "link": "https://retratosdaescola.emnuvens.com.br/rde/article/download/1357/pdf/4660"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:flavio-tec-3",
+  "candidato": "flavio",
+  "area_do_mapa": "Tecnologia",
+  "titulo": "Pix",
+  "tipo_no_mapa": "polemico",
+  "natureza": "fato",
+  "texto": "O Pix foi lançado em novembro de 2020, no governo Bolsonaro. Mas quem criou foi a equipe técnica do Banco Central, e o projeto começou em 2018.",
+  "quem_apoia_diz": "Aliados dizem que o Pix é mérito do governo.",
+  "quem_critica_diz": "A checagem do Comprova diz que Bolsonaro não criou o Pix.",
+  "destaque": null,
+  "pistas": [
+   {
+    "veiculo": "Estado de Minas (Comprova)",
+    "data": "ago/2022",
+    "titulo": "Checagem: quem criou o Pix",
+    "link": "https://www.em.com.br/app/noticia/nacional/2022/08/01/interna_nacional,1383873/amp.html"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:lula-seg-1",
+  "candidato": "lula",
+  "area_do_mapa": "Segurança",
+  "titulo": "Segurança e PEC parada",
+  "tipo_no_mapa": "polemico",
+  "natureza": "fato",
+  "texto": "A segurança virou o maior problema do país para o eleitor. A PEC da Segurança foi aprovada na Câmara, mas parou no Senado.",
+  "quem_apoia_diz": "O governo aprovou a Lei Antifacção e usa a PF contra o dinheiro do crime.",
+  "quem_critica_diz": "A esquerda perdeu credibilidade no tema.",
+  "destaque": null,
+  "pistas": [
+   {
+    "veiculo": "InfoMoney",
+    "data": "2026",
+    "titulo": "Segurança vira tema decisivo da eleição",
+    "link": "https://www.infomoney.com.br/politica/seguranca-vira-campo-decisivo-da-eleicao-veja-propostas-dos-pre-candidatos/"
+   },
+   {
+    "veiculo": "Diario de Pernambuco",
+    "data": "mar/2026",
+    "titulo": "Câmara aprova a PEC da Segurança",
+    "link": "https://www.diariodepernambuco.com.br/amp/politica/2026/03/11709183-aprovacao-da-pec-da-seguranca-pela-camara-prepara-pais-para-combater-crime-organizado-diz-lula.html"
+   },
+   {
+    "veiculo": "Congresso em Foco (opinião)",
+    "data": "jan/2026",
+    "titulo": "Crítica à PEC da Segurança",
+    "link": "https://www.congressoemfoco.com.br/artigo/115582/pec-da-seguranca-enviada-por-lula-e-um-engodo-politico"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:lula-seg-2",
+  "candidato": "lula",
+  "area_do_mapa": "Segurança",
+  "titulo": "Plano: Ministério da Segurança",
+  "tipo_no_mapa": "polemico",
+  "natureza": "promessa",
+  "texto": "Promete criar um Ministério da Segurança Pública depois que a PEC for aprovada.",
+  "quem_apoia_diz": "Governo federal mais presente no combate ao crime.",
+  "quem_critica_diz": "Críticos chamam a PEC de mudança só de fachada.",
+  "destaque": null,
+  "pistas": [
+   {
+    "veiculo": "Congresso em Foco",
+    "data": "ago/2026",
+    "titulo": "PT registra plano de governo de Lula",
+    "link": "https://www.congressoemfoco.com.br/noticia/121121/pt-registra-novo-plano-de-governo-de-lula-no-tse-veja-a-integra"
+   },
+   {
+    "veiculo": "InfoMoney",
+    "data": "2026",
+    "titulo": "Segurança vira tema decisivo da eleição",
+    "link": "https://www.infomoney.com.br/politica/seguranca-vira-campo-decisivo-da-eleicao-veja-propostas-dos-pre-candidatos/"
+   },
+   {
+    "veiculo": "Congresso em Foco (opinião)",
+    "data": "jan/2026",
+    "titulo": "Crítica à PEC da Segurança",
+    "link": "https://www.congressoemfoco.com.br/artigo/115582/pec-da-seguranca-enviada-por-lula-e-um-engodo-politico"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:lula-amb-1",
+  "candidato": "lula",
+  "area_do_mapa": "Meio ambiente",
+  "titulo": "Menos desmatamento",
+  "tipo_no_mapa": "positivo",
+  "natureza": "fato",
+  "texto": "A Amazônia teve a menor área de alerta de desmatamento em 10 anos (agosto de 2025 a julho de 2026), queda de 36,9%. O plano de combate (PPCDAm) foi retomado.",
+  "quem_apoia_diz": "Maior legado ambiental do governo, dizem ambientalistas.",
+  "quem_critica_diz": "O Cerrado ainda perde muita vegetação.",
+  "destaque": [
+   "−36,9%",
+   "alertas de desmatamento em um ano"
+  ],
+  "pistas": [
+   {
+    "veiculo": "DGABC",
+    "data": "ago/2026",
+    "titulo": "Desmatamento tem o maior recuo da década",
+    "link": "https://www.dgabc.com.br/Noticia/4340005/desmatamento-na-amazonia-registra-maior-recuo-da-decada"
+   },
+   {
+    "veiculo": "Jovem Pan",
+    "data": "dez/2025",
+    "titulo": "Desmatamento no menor nível da série",
+    "link": "https://jovempan.com.br/noticias/brasil/desmatamento-na-amazonia-recua-174-em-2025-e-atinge-menor-nivel-da-serie-do-inpe.html"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:lula-amb-2",
+  "candidato": "lula",
+  "area_do_mapa": "Meio ambiente",
+  "titulo": "Petróleo na Foz do Amazonas",
+  "tipo_no_mapa": "polemico",
+  "natureza": "fato",
+  "texto": "Pouco antes da COP30, o Ibama liberou a Petrobras para procurar petróleo na Foz do Amazonas, depois de pressão do governo.",
+  "quem_apoia_diz": "Pode trazer emprego e renda para o Norte.",
+  "quem_critica_diz": "Ambientalistas chamaram a decisão de “sabotagem” do clima.",
+  "destaque": null,
+  "pistas": [
+   {
+    "veiculo": "Metrópoles",
+    "data": "out/2025",
+    "titulo": "Ibama libera petróleo na Foz do Amazonas",
+    "link": "https://www.metropoles.com/brasil/petrobras-obtem-autorizacao-para-pesquisar-petroleo-na-foz-do-amazonas"
+   },
+   {
+    "veiculo": "Jovem Pan",
+    "data": "out/2025",
+    "titulo": "Ambientalistas reagem à licença",
+    "link": "https://jovempan.com.br/?p=11529"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:lula-tec-1",
+  "candidato": "lula",
+  "area_do_mapa": "Tecnologia",
+  "titulo": "Plano de inteligência artificial",
+  "tipo_no_mapa": "positivo",
+  "natureza": "fato",
+  "texto": "O plano brasileiro de inteligência artificial prevê R$ 23 bilhões até 2028, incluindo um supercomputador. Até o meio de 2026, R$ 6,6 bilhões tinham sido aplicados.",
+  "quem_apoia_diz": "Busca independência em tecnologia.",
+  "quem_critica_diz": "A lei que regula a IA ainda não foi votada.",
+  "destaque": [
+   "R$ 6,6 bi",
+   "aplicados dos R$ 23 bi previstos"
+  ],
+  "pistas": [
+   {
+    "veiculo": "Teletime",
+    "data": "jul/2024",
+    "titulo": "Plano de IA prevê R$ 23 bilhões",
+    "link": "https://teletime.com.br/30/07/2024/plano-de-inteligencia-artificial-preve-r-23-bi-para-a-tecnologia-no-brasil/"
+   },
+   {
+    "veiculo": "Monitor do Mercado",
+    "data": "set/2026",
+    "titulo": "IA, Redata e quanto já foi aplicado",
+    "link": "https://monitordomercado.com.br/noticias/423608-lula-diz-que-brasil-nao-deve-depender-de-china-e-eua-em-ia/"
+   },
+   {
+    "veiculo": "Serpro",
+    "data": "jul/2024",
+    "titulo": "Supercomputador e eixos do plano de IA",
+    "link": "https://serpro.gov.br/menu/noticias/noticias-2024/serpro-plano-nacional-inteligencia-artificial"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:lula-tec-2",
+  "candidato": "lula",
+  "area_do_mapa": "Tecnologia",
+  "titulo": "Data centers (Redata)",
+  "tipo_no_mapa": "polemico",
+  "natureza": "fato",
+  "texto": "Criou incentivo de impostos para centros de dados, aprovado no Senado em setembro de 2026. Lula diz que pode atrair R$ 500 bilhões.",
+  "quem_apoia_diz": "Atrai investimento em tecnologia.",
+  "quem_critica_diz": "Custa R$ 5,2 bilhões em impostos não cobrados em 2026.",
+  "destaque": null,
+  "pistas": [
+   {
+    "veiculo": "Monitor do Mercado",
+    "data": "set/2026",
+    "titulo": "IA, Redata e quanto já foi aplicado",
+    "link": "https://monitordomercado.com.br/noticias/423608-lula-diz-que-brasil-nao-deve-depender-de-china-e-eua-em-ia/"
+   }
+  ]
+ }
+]

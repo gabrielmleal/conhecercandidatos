@@ -1,0 +1,6 @@
+.claude/launch.json
+.DS_Store
+__pycache__/
+rascunhos/
+registros/lotes/
+estado/vendas/
