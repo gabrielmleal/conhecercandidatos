@@ -6,6 +6,7 @@
     "not_found_handling": "404-page"
   },
   "workers_dev": true,
+  "previews": {},
   "routes": [
     { "pattern": "conhecercandidatos.com.br", "custom_domain": true }
   ]
