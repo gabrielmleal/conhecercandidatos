@@ -2,48 +2,58 @@
 <html lang="pt-BR">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Conhecer Candidatos: Flávio e Lula com a mesma régua</title>
 <meta name="description" content="Fatos sobre Flávio Bolsonaro e Lula, os candidatos a presidente no 2º turno de 2026, cada um com a fonte oficial e a mesma régua para os dois.">
 <meta property="og:title" content="Conhecer Candidatos">
 <meta property="og:description" content="Fatos sobre Flávio e Lula, cada um com a fonte oficial. Feito com IA, pode conter erros.">
 <meta property="og:type" content="website">
-<meta name="theme-color" content="#F3F5F8">
+<meta name="theme-color" content="#F6F7F9">
 <link rel="preload" href="fontes/atkinson-400.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
 <a class="pular" href="#pxBody">Pular para o conteúdo</a>
 <div class="pxapp" id="px">
-  <header>
+  <header class="pxhead">
     <div class="pxtop">
-      <div class="pxbrand"><b>Conhecer Candidatos</b><span id="pxConf"></span></div>
-      <div class="pxacts">
-        <button class="pxhelp" data-open="acesso" aria-label="Acessibilidade"><svg class="ico" viewBox="0 0 24 24"><circle cx="16" cy="4" r="1"/><path d="m18 19 1-7-6 1"/><path d="m5 8 3-3 5.5 3-2.36 3.5"/><path d="M4.24 14.5a5 5 0 0 0 6.88 6"/><path d="M13.76 17.5a5 5 0 0 0-6.88-6"/></svg>Acessibilidade</button>
-        <button class="pxhelp" data-open="ajuda"><svg class="ico" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"/><path d="M12 17h.01"/></svg>Como usar</button>
-      </div>
+      <b class="pxbrand">Conhecer Candidatos</b>
+      <button class="pxicon pxshare" id="pxShare" data-share="1"><svg class="ico" viewBox="0 0 24 24"><path d="M4 12v7a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7"/><path d="m16 6-4-4-4 4"/><path d="M12 2v13"/></svg><span>Compartilhar</span></button>
+      <button class="pxicon" data-menu="1" aria-label="Menu"><svg class="ico" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg></button>
     </div>
-    <p class="pxaviso">Feito com IA, pode conter erros. <a href="como-funciona.html">Como funciona</a> · <a href="o-que-mudou.html">O que mudou</a></p>
-    <div class="pxctx">
-      <div class="pxseg" role="group" aria-label="Candidato"><button data-c="all" aria-pressed="true">Os dois</button><button data-c="F" aria-pressed="false">Flávio</button><button data-c="L" aria-pressed="false">Lula</button></div>
-      <select id="pxTema" aria-label="Tema"></select>
-    </div>
+    <p class="pxaviso">Feito com IA, pode conter erros. <a href="como-funciona.html">Como funciona</a> · <span id="pxConf"></span></p>
+    <div class="pxseg" role="group" aria-label="Candidato"><button data-c="all" aria-pressed="true">Os dois</button><button data-c="F" aria-pressed="false">Flávio</button><button data-c="L" aria-pressed="false">Lula</button></div>
   </header>
   <main class="pxbody" id="pxBody" tabindex="-1"></main>
-  <nav class="pxnav" aria-label="Vistas"><button data-v="mapa" aria-current="true">Mapa</button><button data-v="cmp">Comparar</button><button data-v="tempo">Linha do tempo</button><button data-v="dic">Dicionário</button></nav>
+  <nav class="pxnav" aria-label="Telas">
+    <button data-v="mapa" aria-current="true"><svg class="ico" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><circle cx="12" cy="3.5" r="1.5"/><circle cx="20" cy="17" r="1.5"/><circle cx="4" cy="17" r="1.5"/><path d="M12 9V5M14.6 13.5l4 2.5M9.4 13.5l-4 2.5"/></svg>Temas</button>
+    <button data-v="cmp"><svg class="ico" viewBox="0 0 24 24"><path d="M3 7h18M3 17h18"/><circle cx="8" cy="7" r="2.5"/><circle cx="16" cy="17" r="2.5"/></svg>Comparar</button>
+    <button data-v="tempo"><svg class="ico" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Linha do tempo</button>
+    <button data-v="dic"><svg class="ico" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>Buscar</button>
+  </nav>
+  <section class="story" id="story" role="dialog" aria-modal="true" aria-labelledby="stT" hidden>
+    <div class="sthead">
+      <div class="stbars" id="stBars" aria-hidden="true"></div>
+      <div class="strow">
+        <button class="pxicon" id="stClose" aria-label="Fechar"><svg class="ico" viewBox="0 0 24 24"><path d="M18 6 6 18M6 6l12 12"/></svg></button>
+        <span class="stwhere" id="stWhere"></span>
+        <button class="pxicon pxshare" data-share="1"><svg class="ico" viewBox="0 0 24 24"><path d="M4 12v7a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-7"/><path d="m16 6-4-4-4 4"/><path d="M12 2v13"/></svg><span>Compartilhar</span></button>
+      </div>
+    </div>
+    <div class="stcard" id="stCard" tabindex="-1"></div>
+    <div class="stfoot">
+      <button class="stprev" id="stPrev" aria-label="Anterior"><svg class="ico" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></svg></button>
+      <button class="stnext" id="stNext">Próximo</button>
+    </div>
+  </section>
   <div class="pxscrim" id="pxScrim" hidden></div>
-  <div class="pxsheet" id="pxSheet" role="dialog" aria-modal="true" aria-labelledby="pxTrail" hidden>
-    <div class="pxsh-h"><button class="pxback" id="pxBack">Voltar</button><span class="pxtrail" id="pxTrail"></span><button class="pxclose" id="pxClose" aria-label="Fechar">✕</button></div>
-    <div class="pxsh-b" id="pxShB" tabindex="-1"></div>
-  </div>
+  <div class="pxsheet" id="pxSheet" role="dialog" aria-modal="true" aria-labelledby="shT" hidden><div class="pxgrab" aria-hidden="true"></div><div class="pxsh-b" id="pxShB"></div></div>
   <div class="tour" id="tour" hidden>
     <div class="tspot" id="tSpot"></div>
-    <span class="ripple" id="tRip" aria-hidden="true" hidden></span>
-    <svg class="hand tap" id="tHand" viewBox="0 0 24 24" aria-hidden="true" hidden></svg>
     <div class="tcardx" id="tCard" role="dialog" aria-labelledby="tT">
-      <div class="tch"><div class="tprog"><span id="tProg"></span><div class="tdots" id="tDots"></div></div><button class="tbtn2" id="tSay">Ouvir</button><button class="tbtn2" id="tSkip">Pular</button></div>
-      <h2 id="tT" tabindex="-1"></h2><p class="tx" id="tX"></p><p class="tok" id="tOk" aria-live="polite"></p>
-      <div class="tcf"><button class="tbtn2" id="tPrev">Anterior</button><button class="tnext" id="tNext">Próximo</button></div>
+      <div class="tdots" id="tDots" aria-hidden="true"></div>
+      <h2 id="tT" tabindex="-1"></h2><p class="tx" id="tX"></p>
+      <div class="tcf"><button class="tbtn2" id="tSkip">Pular</button><button class="tnext" id="tNext">Próximo</button></div>
     </div>
   </div>
   <div class="ptoast" id="pxToast" role="status" hidden></div>

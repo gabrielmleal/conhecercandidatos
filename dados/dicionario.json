@@ -34,59 +34,291 @@
  },
  "8 de janeiro": {
   "nome": "8 de janeiro",
-  "definicao": "Em 8 de janeiro de 2023, pessoas que não aceitavam o resultado da eleição de 2022 invadiram e quebraram o Congresso, o Palácio do Planalto e o STF."
+  "definicao": "Em 8 de janeiro de 2023, pessoas que não aceitavam o resultado da eleição de 2022 invadiram e quebraram o Congresso, o Palácio do Planalto e o Supremo Tribunal Federal (STF)."
  },
  "abin": {
   "nome": "Abin",
-  "definicao": "Agência Brasileira de Inteligência: órgão do governo que junta informações importantes para a segurança do país."
+  "definicao": "Agência Brasileira de Inteligência: órgão do governo que junta informações importantes para a segurança do país.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F2193",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica a sigla e a função sem tomar lado."
+   },
+   "contra": {
+    "rotulo": "F2193",
+    "confere": true,
+    "certeza": 0.92,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica o órgão em palavra comum, sem favorecer ninguém."
+   },
+   "neutra": {
+    "rotulo": "F2193",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Sigla explicada e função descrita em palavra comum, sem juízo."
+   },
+   "modelo": "opus",
+   "rodada": "20261011-1131"
+  },
+  "aprovado": true
  },
  "anistia": {
   "nome": "Anistia",
-  "definicao": "Perdão aprovado pelo Congresso que apaga o crime, como se ele não tivesse acontecido."
+  "definicao": "Perdão aprovado por lei do Congresso que apaga a punição de crimes."
  },
  "arcabouço fiscal": {
   "nome": "Arcabouço fiscal",
-  "definicao": "Regra criada em 2023 que limita quanto os gastos do governo podem crescer e define metas para as contas."
+  "definicao": "Regra criada em 2023 que limita quanto os gastos do governo podem crescer e define metas para as contas.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F6147",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica limite de gasto e metas em palavra comum, sem juízo."
+   },
+   "contra": {
+    "rotulo": "F6147",
+    "confere": true,
+    "certeza": 0.92,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Descreve limite de gasto e metas sem dizer se a regra funcionou."
+   },
+   "neutra": {
+    "rotulo": "F6147",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica limite de gastos e metas em palavra comum, sem juízo."
+   },
+   "modelo": "opus",
+   "rodada": "20261011-1131"
+  },
+  "aprovado": true
  },
  "arquivamento": {
   "nome": "Arquivamento",
-  "definicao": "Quando um caso é encerrado sem julgamento, por exemplo por falta de provas, porque o fato não é crime ou por erro no processo."
+  "definicao": "Quando um caso é encerrado sem julgamento, por exemplo por falta de provas, porque o fato não é crime ou porque passou o prazo para punir."
  },
  "autonomia do banco central": {
   "nome": "Autonomia do Banco Central",
-  "definicao": "Lei de 2021 que dá mandato fixo ao presidente e aos diretores do Banco Central, em período que não coincide com o do presidente da República."
+  "definicao": "Lei de 2021 que dá mandato fixo ao presidente e aos diretores do Banco Central, em período que não coincide com o do presidente da República.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F1593",
+    "confere": true,
+    "certeza": 0.92,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Descreve o mandato fixo e descasado sem juízo de valor."
+   },
+   "contra": {
+    "rotulo": "F1593",
+    "confere": true,
+    "certeza": 0.92,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Descreve o mandato fixo e descasado sem dizer se a lei é boa ou ruim."
+   },
+   "neutra": {
+    "rotulo": "F1593",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Descreve o que a lei faz (mandato fixo, fora do ciclo presidencial) sem tomar lado e de forma clara."
+   },
+   "modelo": "opus",
+   "rodada": "20261011-1131"
+  },
+  "aprovado": true
  },
  "banco master": {
   "nome": "Banco Master",
-  "definicao": "Banco de Daniel Vorcaro que o Banco Central mandou fechar em novembro de 2025, por suspeita de fraude. O caso é investigado pela Polícia Federal. Investigação não é condenação."
+  "definicao": "Banco de Daniel Vorcaro que o Banco Central mandou liquidar em novembro de 2025. O caso também é investigado pela Polícia Federal. Investigação não é condenação."
  },
  "bolsa família": {
   "nome": "Bolsa Família",
-  "definicao": "Programa que paga um valor por mês a famílias pobres. Em troca, as crianças precisam ir à escola e tomar as vacinas."
+  "definicao": "Programa que paga um valor por mês a famílias pobres. Em troca, as crianças precisam ir à escola e tomar as vacinas.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F1206",
+    "confere": true,
+    "certeza": 0.92,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Descreve pagamento e contrapartidas sem juízo de valor."
+   },
+   "contra": {
+    "rotulo": "F1206",
+    "confere": true,
+    "certeza": 0.92,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Descreve pagamento e contrapartidas sem elogiar resultado do programa."
+   },
+   "neutra": {
+    "rotulo": "F1206",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Descreve pagamento e contrapartidas em palavra comum, sem juízo sobre o programa."
+   },
+   "modelo": "opus",
+   "rodada": "20261011-1131"
+  },
+  "aprovado": true
  },
  "brics": {
   "nome": "BRICS",
-  "definicao": "Grupo de países que inclui Brasil, Rússia, Índia, China e África do Sul, entre outros, para cooperar em economia e política."
+  "definicao": "Grupo de países que inclui Brasil, Rússia, Índia, China e África do Sul, entre outros, para cooperar em economia e política.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F2712",
+    "confere": true,
+    "certeza": 0.95,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Correta e neutra."
+   },
+   "contra": {
+    "rotulo": "F2712",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição factual e neutra."
+   },
+   "neutra": {
+    "rotulo": "F2712",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Correta e neutra; 'entre outros' cobre a ampliação do grupo."
+   },
+   "modelo": "opus",
+   "rodada": "20261011-1131"
+  },
+  "aprovado": true
  },
  "centrão": {
   "nome": "Centrão",
-  "definicao": "Grupo de partidos de centro e centro-direita que costuma votar com o governo do momento."
+  "definicao": "Nome informal de um grupo de partidos de centro e centro-direita que costuma votar com o governo do momento."
  },
  "concessão": {
   "nome": "Concessão",
-  "definicao": "Quando o governo passa a uma empresa, por um tempo, a gestão de uma estrada, porto ou aeroporto. A empresa investe e pode cobrar de quem usa."
+  "definicao": "Quando o governo passa a uma empresa, por um tempo, a gestão de uma estrada, porto ou aeroporto. A empresa investe e pode cobrar de quem usa.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F2343",
+    "confere": true,
+    "certeza": 0.92,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Distingue concessão temporária de venda, sem juízo."
+   },
+   "contra": {
+    "rotulo": "F2343",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica o mecanismo sem dizer se é bom ou ruim."
+   },
+   "neutra": {
+    "rotulo": "F2343",
+    "confere": true,
+    "certeza": 0.92,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica concessão em palavra comum, com exemplos, sem juízo."
+   },
+   "modelo": "opus",
+   "rodada": "20261011-1131"
+  },
+  "aprovado": true
  },
  "cop30": {
   "nome": "COP30",
-  "definicao": "Grande conferência do clima da ONU, realizada em Belém (PA) em novembro de 2025."
+  "definicao": "Grande conferência do clima da ONU, realizada em Belém (PA) em novembro de 2025.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F7612",
+    "confere": true,
+    "certeza": 0.95,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Correta e neutra."
+   },
+   "contra": {
+    "rotulo": "F7612",
+    "confere": true,
+    "certeza": 0.95,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Diz só local e data, sem atribuir sucesso a governo algum."
+   },
+   "neutra": {
+    "rotulo": "F7612",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Correta, com local e data rotulada, sem juízo."
+   },
+   "modelo": "opus",
+   "rodada": "20261011-1131"
+  },
+  "aprovado": true
  },
  "cpi": {
   "nome": "CPI e CPMI",
-  "definicao": "Comissão de deputados e/ou senadores que investiga um assunto. No fim, pode recomendar que a polícia ou o Ministério Público investiguem e acusem pessoas, mas não condena ninguém. CPMI é quando deputados e senadores trabalham juntos."
+  "definicao": "Comissão de deputados ou senadores que investiga um assunto. Pode recomendar que a polícia ou o Ministério Público investiguem pessoas, mas não condena ninguém. CPMI reúne deputados e senadores."
  },
  "delação premiada": {
   "nome": "Delação premiada",
-  "definicao": "Acordo em que um investigado conta o que sabe em troca de pena menor. O que ele conta precisa ser confirmado por outras provas."
+  "definicao": "Acordo em que um investigado conta o que sabe em troca de pena menor. O que ele conta precisa ser confirmado por outras provas.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F4753",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Lembra que a delação precisa de outras provas; justa com o delatado."
+   },
+   "contra": {
+    "rotulo": "F4753",
+    "confere": true,
+    "certeza": 0.92,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Diz a troca e a exigência de prova extra, como a lei manda; neutro."
+   },
+   "neutra": {
+    "rotulo": "F4753",
+    "confere": true,
+    "certeza": 0.92,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Correta, inclui a exigência de outras provas, em palavra comum."
+   },
+   "modelo": "opus",
+   "rodada": "20261011-1131"
+  },
+  "aprovado": true
  },
  "déficit primário": {
   "nome": "Déficit primário",
@@ -123,31 +355,176 @@
  },
  "dívida pública": {
   "nome": "Dívida pública",
-  "definicao": "Quanto o governo deve. Costuma ser comparada com o PIB, que é tudo o que o país produz em um ano."
+  "definicao": "Quanto o governo deve. Costuma ser comparada com o PIB, que é tudo o que o país produz em um ano.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F9791",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição simples e neutra."
+   },
+   "contra": {
+    "rotulo": "F9791",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição neutra, sem dizer se a dívida subiu ou caiu."
+   },
+   "neutra": {
+    "rotulo": "F9791",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Clara e neutra; explica PIB na mesma frase."
+   },
+   "modelo": "opus",
+   "rodada": "20261011-1131"
+  },
+  "aprovado": true
  },
  "emendas parlamentares": {
   "nome": "Emendas parlamentares",
-  "definicao": "Parte do orçamento que deputados e senadores indicam para obras e serviços nas suas regiões."
+  "definicao": "Parte do orçamento que deputados e senadores indicam para obras e serviços nas suas regiões.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F1747",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição simples e neutra."
+   },
+   "contra": {
+    "rotulo": "F1747",
+    "confere": true,
+    "certeza": 0.92,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica o mecanismo sem elogio nem crítica."
+   },
+   "neutra": {
+    "rotulo": "F1747",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica emendas em palavra comum, sem juízo."
+   },
+   "modelo": "opus",
+   "rodada": "20261011-1131"
+  },
+  "aprovado": true
  },
  "escala 6x1": {
   "nome": "Escala 6x1",
-  "definicao": "Jornada em que a pessoa trabalha 6 dias e folga 1 por semana."
+  "definicao": "Jornada em que a pessoa trabalha 6 dias e folga 1 por semana.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F6029",
+    "confere": true,
+    "certeza": 0.95,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição simples e neutra."
+   },
+   "contra": {
+    "rotulo": "F6029",
+    "confere": true,
+    "certeza": 0.95,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Descreve a jornada sem tomar lado no debate sobre ela."
+   },
+   "neutra": {
+    "rotulo": "F6029",
+    "confere": true,
+    "certeza": 0.95,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição exata e em palavra comum."
+   },
+   "modelo": "opus",
+   "rodada": "20261011-1131"
+  },
+  "aprovado": true
  },
  "golpe de estado": {
   "nome": "Golpe de Estado",
-  "definicao": "Tentativa de derrubar, com violência ou grave ameaça, um governo eleito, ou de ficar no poder fora das regras da Constituição."
+  "definicao": "Tentativa de derrubar um governo eleito, ou de impedir a posse de quem venceu, com violência ou grave ameaça."
  },
  "imposto de renda": {
   "nome": "Imposto de Renda",
-  "definicao": "Imposto cobrado sobre salários e outros ganhos das pessoas e das empresas."
+  "definicao": "Imposto cobrado sobre salários e outros ganhos das pessoas e das empresas.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F6555",
+    "confere": true,
+    "certeza": 0.95,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição simples, correta e neutra."
+   },
+   "contra": {
+    "rotulo": "F6555",
+    "confere": true,
+    "certeza": 0.95,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição simples, correta e neutra."
+   },
+   "neutra": {
+    "rotulo": "F6555",
+    "confere": true,
+    "certeza": 0.95,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição correta, curta e em palavra comum."
+   },
+   "modelo": "opus",
+   "rodada": "20261011-1131"
+  },
+  "aprovado": true
  },
  "indiciamento": {
   "nome": "Indiciamento",
-  "definicao": "Quando uma investigação aponta alguém como suspeito de um crime. Ainda não é acusação na Justiça nem condenação."
+  "definicao": "Quando o delegado conclui, em ato formal, que há indícios de que alguém cometeu um crime. Ainda não é acusação na Justiça nem condenação."
  },
  "indulto": {
   "nome": "Indulto",
-  "definicao": "Perdão de pena dado pelo presidente. A pessoa continua condenada, mas deixa de cumprir a pena."
+  "definicao": "Perdão de pena dado pelo presidente. A pessoa continua condenada, mas deixa de cumprir a pena.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F7237",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Distingue bem perdão da pena e condenação que permanece."
+   },
+   "contra": {
+    "rotulo": "F7237",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Deixa claro que a condenação continua; não favorece quem recebe o indulto."
+   },
+   "neutra": {
+    "rotulo": "F7237",
+    "confere": true,
+    "certeza": 0.92,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Distingue bem perdão da pena e condenação, em palavra comum e sem lado."
+   },
+   "modelo": "opus",
+   "rodada": "20261011-1131"
+  },
+  "aprovado": true
  },
  "inflação": {
   "nome": "Inflação",
@@ -184,23 +561,139 @@
  },
  "inteligência artificial": {
   "nome": "Inteligência artificial",
-  "definicao": "Programas de computador que aprendem com dados e conseguem fazer tarefas como escrever, reconhecer imagens ou responder perguntas."
+  "definicao": "Programas de computador que aprendem com dados e conseguem fazer tarefas como escrever, reconhecer imagens ou responder perguntas.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F7226",
+    "confere": true,
+    "certeza": 0.95,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição simples e neutra."
+   },
+   "contra": {
+    "rotulo": "F7226",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição simples e correta."
+   },
+   "neutra": {
+    "rotulo": "F7226",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica em palavra comum com exemplos concretos."
+   },
+   "modelo": "opus",
+   "rodada": "20261011-1131"
+  },
+  "aprovado": true
  },
  "lava jato": {
   "nome": "Lava Jato",
-  "definicao": "Grande investigação sobre corrupção na Petrobras (2014–2021). Levou à condenação de políticos e empresários pela Justiça; várias dessas condenações foram anuladas depois."
+  "definicao": "Grande investigação sobre corrupção na Petrobras (2014–2021). Levou à condenação de políticos e empresários pela Justiça; várias dessas condenações foram anuladas depois.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F2512",
+    "confere": true,
+    "certeza": 0.92,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Equilibrada: cita condenações e também as anulações posteriores."
+   },
+   "contra": {
+    "rotulo": "F2512",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Diz condenações e anulações sem tratar anulação como absolvição."
+   },
+   "neutra": {
+    "rotulo": "F2512",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Equilibrada: cita condenações e anulações, sem adjetivo de juízo."
+   },
+   "modelo": "opus",
+   "rodada": "20261011-1131"
+  },
+  "aprovado": true
  },
  "lei da dosimetria": {
   "nome": "Lei da Dosimetria",
-  "definicao": "Lei de 2026 que muda o cálculo das penas de quem participou do 8 de janeiro e pode diminuí-las."
+  "definicao": "Lei de 2026 que muda o cálculo das penas de crimes contra a democracia, como os do 8 de janeiro, e pode diminuí-las."
  },
  "lei da liberdade econômica": {
   "nome": "Lei da Liberdade Econômica",
-  "definicao": "Lei de 2019 que muda regras para abrir e manter empresas, com o objetivo de reduzir a burocracia."
+  "definicao": "Lei de 2019 que muda regras para abrir e manter empresas, com o objetivo de reduzir a burocracia.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F5497",
+    "confere": true,
+    "certeza": 0.92,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Apresenta o objetivo como objetivo, sem afirmar resultado."
+   },
+   "contra": {
+    "rotulo": "F5497",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Fala em objetivo declarado, não em resultado alcançado; não exagera efeito."
+   },
+   "neutra": {
+    "rotulo": "F5497",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Descreve a lei e o objetivo dela em palavra comum, sem juízo."
+   },
+   "modelo": "opus",
+   "rodada": "20261011-1131"
+  },
+  "aprovado": true
  },
  "lei magnitsky": {
   "nome": "Lei Magnitsky",
-  "definicao": "Lei dos EUA que permite punir estrangeiros acusados de violar direitos humanos ou de corrupção, bloqueando bens e vistos."
+  "definicao": "Lei dos EUA que permite punir estrangeiros acusados de violar direitos humanos ou de corrupção, bloqueando bens e vistos.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F6702",
+    "confere": true,
+    "certeza": 0.92,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica em palavra comum; 'acusados de' não presume culpa de quem é punido."
+   },
+   "contra": {
+    "rotulo": "F6702",
+    "confere": true,
+    "certeza": 0.92,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Descreve a lei americana e o tipo de punição sem juízo sobre quem foi alvo."
+   },
+   "neutra": {
+    "rotulo": "F6702",
+    "confere": true,
+    "certeza": 0.92,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica em palavra comum o que a lei faz e como pune, sem tomar lado."
+   },
+   "modelo": "opus",
+   "rodada": "20261011-1131"
+  },
+  "aprovado": true
  },
  "maioridade penal": {
   "nome": "Maioridade penal",
@@ -237,43 +730,304 @@
  },
  "mandato": {
   "nome": "Mandato",
-  "definicao": "Período em que uma pessoa eleita ocupa o cargo. Para presidente, são quatro anos; para senador, oito."
+  "definicao": "Período em que uma pessoa eleita ocupa o cargo. Para presidente, são quatro anos; para senador, oito.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F4074",
+    "confere": true,
+    "certeza": 0.95,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Correta e neutra."
+   },
+   "contra": {
+    "rotulo": "F4074",
+    "confere": true,
+    "certeza": 0.95,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Prazos corretos e explicação em palavra comum."
+   },
+   "neutra": {
+    "rotulo": "F4074",
+    "confere": true,
+    "certeza": 0.95,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Correta, com prazos de presidente e senador, em palavra comum."
+   },
+   "modelo": "opus",
+   "rodada": "20261011-1131"
+  },
+  "aprovado": true
  },
  "mapa da fome": {
   "nome": "Mapa da Fome",
-  "definicao": "Lista da ONU com os países onde mais de 2,5% da população não come o suficiente."
+  "definicao": "Lista da ONU com os países onde mais de 2,5% da população não come o suficiente.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F9429",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Critério de 2,5% explicado em palavra comum, sem tomar lado."
+   },
+   "contra": {
+    "rotulo": "F9429",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Critério de 2,5% da ONU dito sem atribuir saída ou entrada a governo algum."
+   },
+   "neutra": {
+    "rotulo": "F9429",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Critério de 2,5% e fonte (ONU) explicados em palavra comum, sem juízo."
+   },
+   "modelo": "opus",
+   "rodada": "20261011-1131"
+  },
+  "aprovado": true
  },
  "mercosul": {
   "nome": "Mercosul",
-  "definicao": "Bloco de comércio da América do Sul. Os países fundadores são Brasil, Argentina, Paraguai e Uruguai."
+  "definicao": "Bloco de comércio da América do Sul. Os países fundadores são Brasil, Argentina, Paraguai e Uruguai.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F4882",
+    "confere": true,
+    "certeza": 0.95,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Correta e neutra."
+   },
+   "contra": {
+    "rotulo": "F4882",
+    "confere": true,
+    "certeza": 0.95,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição factual e neutra."
+   },
+   "neutra": {
+    "rotulo": "F4882",
+    "confere": true,
+    "certeza": 0.95,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Correta e em palavra comum."
+   },
+   "modelo": "opus",
+   "rodada": "20261011-1131"
+  },
+  "aprovado": true
  },
  "milícia": {
   "nome": "Milícia",
-  "definicao": "Grupo armado, muitas vezes com policiais ou ex-policiais, que domina bairros e cobra “taxas” dos moradores."
+  "definicao": "Grupo armado, muitas vezes com policiais ou ex-policiais, que domina bairros e cobra “taxas” dos moradores.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F7946",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Descrição corrente do termo, sem apontar pessoa ou partido."
+   },
+   "contra": {
+    "rotulo": "F7946",
+    "confere": true,
+    "certeza": 0.92,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Descreve o fenômeno sem ligar a nenhum político ou partido."
+   },
+   "neutra": {
+    "rotulo": "F7946",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Descreve o fenômeno em palavra comum, sem apontar grupo específico."
+   },
+   "modelo": "opus",
+   "rodada": "20261011-1131"
+  },
+  "aprovado": true
  },
  "minha casa minha vida": {
   "nome": "Minha Casa Minha Vida",
-  "definicao": "Programa que ajuda famílias de renda mais baixa a comprar a casa própria, com parte do valor paga pelo governo."
+  "definicao": "Programa que ajuda famílias de renda mais baixa a comprar a casa própria, com parte do valor paga pelo governo.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F8530",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição simples e neutra."
+   },
+   "contra": {
+    "rotulo": "F8530",
+    "confere": true,
+    "certeza": 0.92,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Descreve o subsídio sem atribuir resultado nem número ao programa."
+   },
+   "neutra": {
+    "rotulo": "F8530",
+    "confere": true,
+    "certeza": 0.92,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Descreve o programa em palavra comum, sem juízo."
+   },
+   "modelo": "opus",
+   "rodada": "20261011-1131"
+  },
+  "aprovado": true
  },
  "pac": {
   "nome": "PAC",
-  "definicao": "Programa de Aceleração do Crescimento: pacote de obras do governo federal, como estradas, saneamento, moradias e postos de saúde."
+  "definicao": "Programa de Aceleração do Crescimento: pacote de obras do governo federal, como estradas, saneamento, moradias e postos de saúde.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F6746",
+    "confere": true,
+    "certeza": 0.92,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Descreve o pacote de obras sem juízo de resultado."
+   },
+   "contra": {
+    "rotulo": "F6746",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Lista obras sem atribuir resultado. Nota: a definição traz o nome por extenso que o rótulo esconde."
+   },
+   "neutra": {
+    "rotulo": "F6746",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Clara e neutra. Obs.: o texto revela o nome real do programa por trás do rótulo."
+   },
+   "modelo": "opus",
+   "rodada": "20261011-1131"
+  },
+  "aprovado": true
  },
  "pec": {
   "nome": "PEC",
-  "definicao": "Proposta de Emenda à Constituição. Precisa de muitos votos (3 em cada 5) na Câmara e no Senado, em duas votações."
+  "definicao": "Proposta de Emenda à Constituição. Precisa de 3 em cada 5 votos, em dois turnos na Câmara e dois no Senado."
  },
  "pf": {
   "nome": "PF",
-  "definicao": "Polícia Federal: investiga crimes como corrupção, tráfico e crimes contra o governo federal."
+  "definicao": "Polícia Federal: investiga crimes como corrupção, tráfico e crimes contra o governo federal.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F3427",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica a sigla e a função sem tomar lado."
+   },
+   "contra": {
+    "rotulo": "F3427",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição neutra em palavra comum."
+   },
+   "neutra": {
+    "rotulo": "F3427",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Sigla explicada e função descrita em palavra comum."
+   },
+   "modelo": "opus",
+   "rodada": "20261011-1131"
+  },
+  "aprovado": true
  },
  "pib": {
   "nome": "PIB",
-  "definicao": "A soma de tudo o que o país produz em um ano. Mostra o tamanho da economia."
+  "definicao": "A soma de tudo o que o país produz em um ano. Mostra o tamanho da economia.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F4477",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Simplificação correta e neutra."
+   },
+   "contra": {
+    "rotulo": "F4477",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição simples e neutra."
+   },
+   "neutra": {
+    "rotulo": "F4477",
+    "confere": true,
+    "certeza": 0.95,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição padrão, em palavra comum."
+   },
+   "modelo": "opus",
+   "rodada": "20261011-1131"
+  },
+  "aprovado": true
  },
  "pix": {
   "nome": "Pix",
-  "definicao": "Forma de pagamento na hora, criada pelo Banco Central e lançada em novembro de 2020. Para pessoas, é de graça."
+  "definicao": "Forma de pagamento na hora, criada pelo Banco Central e lançada em novembro de 2020. Para pessoas, é de graça.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F2492",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição simples e neutra do Pix."
+   },
+   "contra": {
+    "rotulo": "F2492",
+    "confere": true,
+    "certeza": 0.9,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Atribui a criação ao Banco Central, não a um governo; gratuidade para pessoas é a regra geral."
+   },
+   "neutra": {
+    "rotulo": "F2492",
+    "confere": true,
+    "certeza": 0.92,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Explica o Pix em palavra comum; data rotulada e gratuidade para pessoas corretas."
+   },
+   "modelo": "opus",
+   "rodada": "20261011-1131"
+  },
+  "aprovado": true
  },
  "ppcdam": {
   "nome": "PPCDAm",
@@ -310,27 +1064,27 @@
  },
  "prisão domiciliar": {
   "nome": "Prisão domiciliar",
-  "definicao": "Quando a pessoa cumpre a pena em casa, com regras e vigilância. Pode ser dada por motivo de saúde."
+  "definicao": "Quando a pessoa fica presa em casa, com regras e vigilância, antes ou depois da condenação. Pode ser dada por motivo de saúde."
  },
  "privatização": {
   "nome": "Privatização",
-  "definicao": "Venda de uma empresa do governo (estatal) para empresas privadas."
+  "definicao": "Venda de uma empresa do governo (estatal) para empresas ou investidores privados."
  },
  "pé-de-meia": {
   "nome": "Pé-de-Meia",
-  "definicao": "Poupança paga pelo governo a alunos de baixa renda do ensino médio, para que não larguem a escola."
+  "definicao": "Poupança paga pelo governo a alunos de baixa renda do ensino médio público, para que não larguem a escola."
  },
  "rachadinha": {
   "nome": "Rachadinha",
-  "definicao": "Quando um político fica com parte do salário dos seus assessores. É crime."
+  "definicao": "Nome popular de quando um político fica com parte do salário dos seus assessores. A lei trata como crime, em geral peculato."
  },
  "reforma tributária": {
   "nome": "Reforma tributária",
-  "definicao": "Mudança nos impostos sobre o que compramos. Vários impostos viram dois (CBS e IBS). A troca começa em teste em 2026 e termina em 2033."
+  "definicao": "Mudança nos impostos sobre o que compramos. Vários impostos dão lugar à CBS (federal), ao IBS (de estados e municípios) e a um imposto seletivo sobre produtos que fazem mal. A troca vai de 2026 a 2033."
  },
  "segundo turno": {
   "nome": "Segundo turno",
-  "definicao": "Segunda votação entre os dois mais votados, quando ninguém passa de metade dos votos válidos. Em 2026, é no dia 25 de outubro."
+  "definicao": "Segunda votação entre os dois mais votados para presidente, governador ou prefeito de cidade grande, quando ninguém passa de metade dos votos válidos. Em 2026, é no dia 25 de outubro."
  },
  "selic": {
   "nome": "Selic (juros básicos)",
@@ -367,7 +1121,36 @@
  },
  "startup": {
   "nome": "Startup",
-  "definicao": "Empresa nova, geralmente de tecnologia, que cria produtos ou serviços inovadores."
+  "definicao": "Empresa nova, geralmente de tecnologia, que cria produtos ou serviços inovadores.",
+  "revisao": {
+   "favor": {
+    "rotulo": "F9014",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição simples e neutra."
+   },
+   "contra": {
+    "rotulo": "F9014",
+    "confere": true,
+    "certeza": 0.92,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição simples, sem ligação política."
+   },
+   "neutra": {
+    "rotulo": "F9014",
+    "confere": true,
+    "certeza": 0.93,
+    "tipo": "definicao",
+    "peso": 0,
+    "motivo": "Definição comum e sem juízo."
+   },
+   "modelo": "opus",
+   "rodada": "20261011-1131"
+  },
+  "aprovado": true
  },
  "stf": {
   "nome": "STF",
@@ -470,6 +1253,6 @@
  },
  "tarifa": {
   "nome": "Tarifa",
-  "definicao": "Imposto cobrado quando um produto entra em um país. Deixa o produto de fora mais caro e protege quem produz lá dentro."
+  "definicao": "Imposto cobrado quando um produto entra em um país. Deixa o produto de fora mais caro e pode proteger quem produz lá dentro."
  }
 }

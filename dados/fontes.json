@@ -1,18 +1,109 @@
 {
-  "A": {
-    "sufixos": [".gov.br", ".leg.br", ".jus.br", ".mp.br", ".def.br", ".int"],
-    "dominios": ["inpe.br", "fiocruz.br", "un.org", "fao.org", "imf.org", "worldbank.org", "oecd.org", "europa.eu", "ustr.gov", "whitehouse.gov", "federalregister.gov", "state.gov"]
-  },
-  "B": {
-    "dominios": ["lupa.uol.com.br", "lupa.news", "aosfatos.org", "checamos.afp.com", "estadao.com.br/estadao-verifica", "noticias.uol.com.br/confere", "projetocomprova.com.br", "reuters.com/fact-check", "g1.globo.com/fato-ou-fake"]
-  },
-  "C": {
-    "dominios": ["folha.uol.com.br", "estadao.com.br", "oglobo.globo.com", "g1.globo.com", "valor.globo.com", "uol.com.br", "cnnbrasil.com.br", "bbc.com", "poder360.com.br", "gazetadopovo.com.br", "metropoles.com", "correiobraziliense.com.br", "opovo.com.br", "cartacapital.com.br", "nexojornal.com.br", "piaui.folha.uol.com.br", "exame.com", "infomoney.com.br", "veja.abril.com.br", "jovempan.com.br", "revistaoeste.com", "agenciabrasil.ebc.com.br", "reuters.com", "apnews.com", "bloomberg.com", "bloomberglinea.com.br", "terra.com.br", "istoe.com.br", "dw.com", "elpais.com", "jota.info", "conjur.com.br", "migalhas.com.br", "theintercept.com", "brasildefato.com.br", "crusoe.com.br", "r7.com", "band.uol.com.br", "sbtnews.sbt.com.br"]
-  },
-  "D": {
-    "dominios": ["pt.org.br", "pl22.com.br", "partidoliberal.org.br", "lula.com.br", "flaviobolsonaro.com.br", "psb40.org.br"]
-  },
-  "fora": {
-    "dominios": ["wikipedia.org", "infoescola.com", "brasilescola.uol.com.br", "todamateria.com.br", "youtube.com", "x.com", "twitter.com", "facebook.com", "instagram.com", "tiktok.com", "whatsapp.com", "t.me"]
-  }
+ "A": {
+  "sufixos": [
+   ".gov.br",
+   ".leg.br",
+   ".jus.br",
+   ".mp.br",
+   ".def.br",
+   ".int"
+  ],
+  "dominios": [
+   "inpe.br",
+   "fiocruz.br",
+   "un.org",
+   "fao.org",
+   "imf.org",
+   "worldbank.org",
+   "oecd.org",
+   "europa.eu",
+   "ustr.gov",
+   "whitehouse.gov",
+   "federalregister.gov",
+   "state.gov",
+   "treasury.gov"
+  ]
+ },
+ "B": {
+  "dominios": [
+   "lupa.uol.com.br",
+   "lupa.news",
+   "aosfatos.org",
+   "checamos.afp.com",
+   "estadao.com.br/estadao-verifica",
+   "noticias.uol.com.br/confere",
+   "projetocomprova.com.br",
+   "reuters.com/fact-check",
+   "g1.globo.com/fato-ou-fake"
+  ]
+ },
+ "C": {
+  "dominios": [
+   "folha.uol.com.br",
+   "estadao.com.br",
+   "oglobo.globo.com",
+   "g1.globo.com",
+   "valor.globo.com",
+   "uol.com.br",
+   "cnnbrasil.com.br",
+   "bbc.com",
+   "poder360.com.br",
+   "gazetadopovo.com.br",
+   "metropoles.com",
+   "correiobraziliense.com.br",
+   "opovo.com.br",
+   "cartacapital.com.br",
+   "nexojornal.com.br",
+   "piaui.folha.uol.com.br",
+   "exame.com",
+   "infomoney.com.br",
+   "veja.abril.com.br",
+   "jovempan.com.br",
+   "revistaoeste.com",
+   "agenciabrasil.ebc.com.br",
+   "reuters.com",
+   "apnews.com",
+   "bloomberg.com",
+   "bloomberglinea.com.br",
+   "terra.com.br",
+   "istoe.com.br",
+   "dw.com",
+   "elpais.com",
+   "jota.info",
+   "conjur.com.br",
+   "migalhas.com.br",
+   "theintercept.com",
+   "brasildefato.com.br",
+   "crusoe.com.br",
+   "r7.com",
+   "band.uol.com.br",
+   "sbtnews.sbt.com.br"
+  ]
+ },
+ "D": {
+  "dominios": [
+   "pt.org.br",
+   "pl22.com.br",
+   "partidoliberal.org.br",
+   "lula.com.br",
+   "flaviobolsonaro.com.br",
+   "psb40.org.br"
+  ]
+ },
+ "fora": {
+  "dominios": [
+   "wikipedia.org",
+   "infoescola.com",
+   "brasilescola.uol.com.br",
+   "todamateria.com.br",
+   "youtube.com",
+   "x.com",
+   "twitter.com",
+   "facebook.com",
+   "instagram.com",
+   "tiktok.com",
+   "whatsapp.com",
+   "t.me"
+  ]
+ }
 }

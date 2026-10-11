@@ -1,18 +1,36 @@
+import gzip
 import html
 import re
 import subprocess
 import sys
 import tempfile
+import threading
+import time
 import unicodedata
+import urllib.error
 import urllib.request
 
 AGENTE = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"
 
 
+VEZ = threading.Lock()
+
+
 def pegar(link, espera):
     pedido = urllib.request.Request(link, headers={"User-Agent": AGENTE, "Accept-Language": "pt-BR,pt;q=0.9"})
-    with urllib.request.urlopen(pedido, timeout=espera) as resposta:
-        return resposta.read(), resposta.headers.get("Content-Type", "")
+    arquivo = "archive.org" in link
+    for pausa in [30, 90, 180, None] if arquivo else [None]:
+        if arquivo:
+            with VEZ:
+                time.sleep(4)
+        try:
+            with urllib.request.urlopen(pedido, timeout=espera) as resposta:
+                conteudo = resposta.read()
+                return gzip.decompress(conteudo) if conteudo[:2] == b"\x1f\x8b" else conteudo, resposta.headers.get("Content-Type", "")
+        except (urllib.error.URLError, TimeoutError) as erro:
+            if pausa is None or getattr(erro, "code", 429) not in (429, 500, 502, 503, 504):
+                raise
+            time.sleep(pausa)
 
 
 def copia(link):

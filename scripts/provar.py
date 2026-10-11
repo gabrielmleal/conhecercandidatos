@@ -37,8 +37,9 @@ def nivel(link):
 
 def numeros(texto):
     achados = set()
-    for n in re.findall(r"\d+(?:[.,]\d+)*", texto):
+    for n in re.findall(r"(?<![A-Za-z\d])\d+(?:[.,]\d+)*(?![\dºª°A-Za-z])", texto):
         n = re.sub(r",0+$", "", re.sub(r"\.(?=\d{3}(?:\D|$))", "", n))
+        n = re.sub(r"^0+(?=\d)", "", n)
         if not re.fullmatch(r"(19|20)\d\d", n):
             achados.add(n)
     return achados
@@ -70,10 +71,14 @@ def ler_pagina(link):
 
 
 def trecho_existe(link, trecho, guardada):
+    try:
+        if contem(texto_de(*pegar(link, 30)), trecho):
+            return True
+    except Exception:
+        pass
     if guardada:
         try:
-            if contem(texto_de(*pegar(guardada.replace("/http", "id_/http", 1), 90)), trecho):
-                return True
+            return contem(texto_de(*pegar(guardada.replace("/http", "id_/http", 1), 90)), trecho)
         except Exception:
             pass
     return contem(ler_pagina(link), trecho)
