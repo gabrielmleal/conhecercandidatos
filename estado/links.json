@@ -1244,8 +1244,9 @@
   "conferido_em": "2026-10-11"
  },
  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf#88897728": {
-  "estado": "nao abre",
-  "erro": "403",
+  "estado": "navegador mostra o trecho",
+  "pdf": true,
+  "pagina": 49,
   "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
   "conferido_em": "2026-10-11"
  },
@@ -1274,10 +1275,9 @@
   "conferido_em": "2026-10-11"
  },
  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf#955c3827": {
-  "estado": "nao abre",
-  "erro": "403",
-  "copia": "http://web.archive.org/web/20261002034455/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
-  "copia_estado": "nao abre",
+  "estado": "navegador mostra o trecho",
+  "pdf": true,
+  "pagina": 30,
   "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
   "conferido_em": "2026-10-11"
  },
@@ -1701,8 +1701,9 @@
   "conferido_em": "2026-10-11"
  },
  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf#b375229e": {
-  "estado": "nao abre",
-  "erro": "403",
+  "estado": "navegador mostra o trecho",
+  "pdf": true,
+  "pagina": 75,
   "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
   "conferido_em": "2026-10-11"
  },
@@ -2186,6 +2187,41 @@
   "pdf": true,
   "pagina": 37,
   "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "conferido_em": "2026-10-11"
+ },
+ "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf#aa4681c8": {
+  "estado": "navegador mostra o trecho",
+  "pdf": true,
+  "pagina": 32,
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
+  "conferido_em": "2026-10-11"
+ },
+ "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf#cbd21115": {
+  "estado": "navegador mostra o trecho",
+  "pdf": true,
+  "pagina": 31,
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
+  "conferido_em": "2026-10-11"
+ },
+ "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf#68a4cc28": {
+  "estado": "navegador mostra o trecho",
+  "pdf": true,
+  "pagina": 31,
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
+  "conferido_em": "2026-10-11"
+ },
+ "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf#e1b94fd1": {
+  "estado": "navegador mostra o trecho",
+  "pdf": true,
+  "pagina": 31,
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
+  "conferido_em": "2026-10-11"
+ },
+ "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf#694c4691": {
+  "estado": "navegador mostra o trecho",
+  "pdf": true,
+  "pagina": 31,
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
   "conferido_em": "2026-10-11"
  }
 }

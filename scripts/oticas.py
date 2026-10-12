@@ -65,12 +65,12 @@ def sorteador():
 
 
 def item_vendado(r):
-    textos = [r[k] for k in ("nome", "definicao", "titulo", "frase") if k in r] + [t["trecho"] for t in [r.get("ancora", {})] + r.get("fontes", []) if t.get("trecho")]
+    textos = [r[k] for k in ("nome", "definicao", "titulo", "frase") if k in r] + [t["trecho"] for t in [r.get("ancora", {})] + r.get("fontes", []) if t.get("trecho")] + [r.get("ancora", {}).get("documento", "")]
     troca, sorteio = {ano: f"ano {chr(65 + i)}" for i, ano in enumerate(sorted(set(re.findall(ANO, " ".join(textos)))))}, sorteador()
     if "definicao" in r:
         return {"rotulo": r["rotulo"], "e": "definicao", "termo": vendar(r["nome"], troca, sorteio), "definicao": vendar(r["definicao"], troca, sorteio)}, troca
     item = {"rotulo": r["rotulo"], "e": "fato", "titulo": vendar(r["titulo"], troca, sorteio), "frase": vendar(r["frase"], troca, sorteio), "tipo_proposto": r["tipo"], "peso_proposto": r["peso"],
-            "lente": r["lente"], "orgao": r["ancora"]["orgao"], "trechos": [vendar(r["ancora"]["trecho"], troca, sorteio)] + [vendar(f["trecho"], troca, sorteio) for f in r.get("fontes", []) if f.get("trecho")]}
+            "lente": r["lente"], "orgao": r["ancora"]["orgao"], "documento": vendar(r["ancora"]["documento"], troca, sorteio), "trechos": [vendar(r["ancora"]["trecho"], troca, sorteio)] + [vendar(f["trecho"], troca, sorteio) for f in r.get("fontes", []) if f.get("trecho")]}
     return item, troca
 
 
