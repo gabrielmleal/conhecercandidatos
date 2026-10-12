@@ -12,5 +12,6 @@
 <h1>Página não encontrada</h1>
 <p>Este endereço não existe ou o fato foi retirado. Os fatos retirados aparecem em <a href="/o-que-mudou.html">O que mudou</a>, com data e motivo.</p>
 </main>
+<script>var p=location.pathname;try{p=decodeURIComponent(p)}catch(e){}var m=p.match(/\/fato\/([\w-]+)/),h=p.indexOf("#");location.replace("/"+(m?"#f="+m[1]:h>-1?p.slice(h):location.hash))</script>
 </body>
 </html>
