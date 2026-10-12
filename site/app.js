@@ -21,7 +21,7 @@ const vistos=new Set(ler('cc-vistos',[]));
 const PREF=Object.assign({escala:1,contraste:false,lista:false},ler('cc-acesso',{}));
 const ESCALAS=[0.9,1,1.15,1.3,1.5];
 const svgI=p=>`<svg class="ico" viewBox="0 0 24 24" aria-hidden="true">${p}</svg>`;
-const IC={seta:svgI('<path d="m9 18 6-6-6-6"/>'),baixo:svgI('<path d="m6 9 6 6 6-6"/>'),lista:svgI('<path d="M9 6h12M9 12h12M9 18h12M4 6h.01M4 12h.01M4 18h.01"/>'),brilho:svgI('<path d="M12 3l1.9 5.8L20 10l-6.1 1.9L12 18l-1.9-6.1L4 10l6.1-1.2Z"/><path d="M19 17v4M17 19h4"/>'),doc:svgI('<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v5h6"/><path d="M8 13h8M8 17h5"/>'),sai:svgI('<path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>'),zap:svgI('<path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/>'),copia:svgI('<rect width="14" height="14" x="8" y="8" rx="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/>')};
+const IC={seta:svgI('<path d="m9 18 6-6-6-6"/>'),baixo:svgI('<path d="m6 9 6 6 6-6"/>'),lista:svgI('<path d="M9 6h12M9 12h12M9 18h12M4 6h.01M4 12h.01M4 18h.01"/>'),brilho:svgI('<path d="M12 3l1.9 5.8L20 10l-6.1 1.9L12 18l-1.9-6.1L4 10l6.1-1.2Z"/><path d="M19 17v4M17 19h4"/>'),doc:svgI('<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v5h6"/><path d="M8 13h8M8 17h5"/>'),sai:svgI('<path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>'),zap:svgI('<path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/>'),funil:svgI('<path d="M3 5h18l-7 8v5l-4 2v-7Z"/>'),copia:svgI('<rect width="14" height="14" x="8" y="8" rx="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/>')};
 
 function rich(s){return esc(s).replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g,(m,k,d)=>{const key=k.toLowerCase();return TERMS[key]?`<button class="pxterm" data-term="${esc(key)}">${d||k}</button>`:(d||k);});}
 const plain=s=>String(s).replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g,(m,k,d)=>d||k);
@@ -46,9 +46,12 @@ function alterna(fs,prim){
   for(let i=0;i<Math.max(...ls.map(l=>l.length));i++)ls.forEach(l=>{if(l[i])out.push(l[i]);});
   return out;
 }
+const subDe=(t,f)=>D.temas[t].subtemas[f.s]?f.s:'_';
+const subsDe=(t,fs)=>Object.entries(D.temas[t].subtemas).concat(fs.some(f=>subDe(t,f)==='_')?[['_','Outros']]:[]);
 function doTema(t,c){
   const fs=F.filter(f=>f.t===t&&(c==='all'?f.c!=='BR':f.c===c)&&passa(f)).sort(importa);
-  return c==='all'?alterna(fs,ORDEM.indexOf(t)%2?'L':'F'):fs;
+  const parte=xs=>subsDe(t,fs).flatMap(([k])=>{const ys=xs.filter(f=>subDe(t,f)===k);return c==='all'?alterna(ys,ORDEM.indexOf(t)%2?'L':'F'):ys;});
+  return GOV[t]?[...parte(fs.filter(f=>f.tipo==='pro')),...parte(fs.filter(f=>f.tipo!=='pro'))]:parte(fs);
 }
 const doSite=()=>F.filter(f=>(st.c==='all'||f.c===st.c)&&passa(f));
 function todosFatos(){
@@ -127,7 +130,7 @@ function abrir(s,i){
 }
 function abrirTema(t,c,id){
   const fs=doTema(t,c);
-  abrir({itens:fs,t,c,onde:`${c==='all'?'Os dois':WHO[c]} · ${TEMAS[t]}`,res:true},id?fs.findIndex(f=>f.id===id):-1);
+  abrir({itens:fs,t,c,onde:`${c==='all'?'Os dois':WHO[c]} · ${TEMAS[t]}`,res:true,aba:GOV[t]&&fs.some(f=>f.tipo==='pro')?'pro':'fez',aberto:{},mais:{}},id?fs.findIndex(f=>f.id===id):-1);
 }
 function proximoTema(){
   const k=ORDEM.indexOf(S.t);if(!S.res||k<0)return null;
@@ -142,15 +145,28 @@ function cartao(f){
 }
 const so=()=>filtrado()?' · só '+esc(escolhidos()):'';
 const rs=(fs,quem)=>`<ul class="rs">${fs.map(([f,i])=>`<li><button data-ir="${i}">${quem?`<span class="quem ${f.c}" aria-hidden="true">${f.c}</span>`:`<i style="--c:${TIPO[f.tipo][1]}" aria-hidden="true"></i>`}<span>${esc(f.tit)}<small>${quem?[WHO[f.c],CURTO[f.t]].filter(Boolean).map(esc).join(' · ')+' · ':''}${bio(f)?'Biografia':TIPO[f.tipo][0]} · ${mes(f.d)}</small></span></button></li>`).join('')}</ul>`;
+const naAba=f=>!GOV[S.t]||(S.aba==='pro')===(f.tipo==='pro');
 function resumoTema(){
   const t=S.t,outro=S.c==='F'?'L':S.c==='L'?'F':null;
   const cs=S.c==='all'?(ORDEM.indexOf(t)%2?['L','F']:['F','L']):[S.c];
-  const grupos=cs.map(c=>{
-    const fs=S.itens.map((f,i)=>[f,i]).filter(([f])=>f.c===c);
-    return `<h3 class="rsh"><span class="quem ${c}">${c}</span><span><b>${WHO[c]}</b><small>${fs.length?plural(fs.length,'fato'):filtrado()?'nenhum fato destes tipos':'ainda sem fatos neste tema'}</small></span></h3>${fs.length?rs(fs):''}`;
+  const xs=S.itens.map((f,i)=>[f,i]).filter(([f])=>naAba(f)),lista=subsDe(t,S.itens);
+  const doSub=k=>xs.filter(([f])=>subDe(t,f)===k),prim=(lista.find(([k])=>doSub(k).length)||[])[0];
+  const n=a=>S.itens.filter(f=>(a==='pro')===(f.tipo==='pro')).length;
+  const abas=GOV[t]?`<div class="abas" role="group" aria-label="O que mostrar">${[['pro','Propostas'],['fez','O que fez']].map(([k,nome])=>`<button data-aba="${k}" aria-pressed="${S.aba===k}">${nome} <small>${n(k)}</small></button>`).join('')}</div>`:'';
+  const blocos=lista.map(([k,nome])=>{
+    const ys=doSub(k),aberto=k in S.aberto?S.aberto[k]:k===prim;
+    const conta=ys.length?cs.map(c=>{const m=ys.filter(([f])=>f.c===c).length;return `<span class="qn" aria-label="${WHO[c]}: ${plural(m,'fato')}"><span class="quem ${c}" aria-hidden="true">${c}</span><span aria-hidden="true">${m}</span></span>`;}).join(''):'sem fatos';
+    let dentro='',resto=0;
+    if(aberto)dentro=`<div class="sbd">${cs.map(c=>{const zs=ys.filter(([f])=>f.c===c),lim=S.mais[k]||k==='biografia'?zs.length:2;resto+=Math.max(0,zs.length-lim);return `${cs.length>1?`<p class="lane"><span class="quem ${c}" aria-hidden="true">${c}</span>${WHO[c]}</p>`:''}${zs.length?rs(zs.slice(0,lim)):`<p class="vz">Nada de ${WHO[c]} aqui ainda.</p>`}`;}).join('')}${resto?`<button class="pxtodos" data-mais="${k}">Ver mais ${resto} em ${esc(nome)}</button>`:''}</div>`;
+    return `<section class="sb"><h3><button data-sub="${k}" aria-expanded="${!!aberto}"><b>${esc(nome)}</b><small>${conta}</small>${IC.baixo}</button></h3>${dentro}</section>`;
   }).join('');
-  return `<div class="fim"><p class="stmeta">Resumo do tema${so()}</p><h2 id="stT" tabindex="-1">${esc(TEMAS[t])}</h2><p class="stleg">${S.itens.length?'Todos os fatos deste tema, os mais importantes primeiro. Toque num fato para abrir.':'Ainda não há fatos aqui. O robô procura essa lacuna primeiro.'}</p>${grupos}${outro?`<div class="fimbtn"><button data-outro="${outro}">Ver ${WHO[outro]} neste tema ${IC.seta}</button></div>`:''}</div>`;
+  return `<div class="fim"><p class="stmeta">Resumo do tema${so()}</p><h2 id="stT" tabindex="-1">${esc(TEMAS[t])}</h2>${abas}<button class="tfiltro${filtrado()?' on':''}" data-filtro="1" aria-haspopup="dialog">${IC.funil}${filtrado()?'Só '+esc(escolhidos()):'Filtrar'}</button>${xs.length?blocos:`<p class="stleg">${S.itens.length?'Nada aqui ainda. Veja a outra aba.':'Ainda não há fatos aqui. O robô procura essa lacuna primeiro.'}</p>`}${outro?`<div class="fimbtn"><button data-outro="${outro}">Ver ${WHO[outro]} neste tema ${IC.seta}</button></div>`:''}</div>`;
 }
+function redesenha(foco){
+  const y=CARD.scrollTop;CARD.innerHTML=resumoTema();CARD.scrollTop=y;
+  const el=foco&&CARD.querySelector(foco);if(el)el.focus({preventScroll:true});
+}
+function refazStory(){if(ST.hidden||!S||!S.res)return;S.itens=S.t?doTema(S.t,S.c):todosFatos();S.aberto={};S.mais={};S.i=-1;mostrar(0);}
 function resumoTodos(){
   const fs=S.itens.map((f,i)=>[f,i]),novos=fs.filter(([f])=>!S.vistos.has(f.id)),velhos=fs.filter(([f])=>S.vistos.has(f.id));
   const bloco=(xs,nome)=>xs.length?`<h3 class="rsh"><span><b>${nome}</b><small>${plural(xs.length,'fato')}</small></span></h3>${rs(xs,1)}`:'';
@@ -172,6 +188,7 @@ function mostrar(dir){
   q('#stT').focus({preventScroll:true});
 }
 function avancar(){
+  if(S.i<0&&S.t&&GOV[S.t]){const k=S.itens.findIndex(naAba);if(k>=0){S.i=k;return mostrar(1);}}
   if(S.i<S.itens.length-1){S.i++;return mostrar(1);}
   const t=proximoTema();
   if(t)return abrirTema(t,S.c);
@@ -220,18 +237,18 @@ function grupos(base){
 }
 function trocaGrupo(btn){
   st.g=st.g===btn.dataset.grupo?'':btn.dataset.grupo;
-  SH.querySelectorAll('[data-grupo]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.grupo===st.g));render(true);
+  SH.querySelectorAll('[data-grupo]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.grupo===st.g));render(true);refazStory();
 }
 function todos(){
   TIPOS.forEach(k=>st.tipos.add(k));st.g='';
   SH.querySelectorAll('[data-tipo]').forEach(b=>b.setAttribute('aria-pressed','true'));SH.querySelectorAll('[data-grupo]').forEach(b=>b.setAttribute('aria-pressed','false'));
-  render(true);say('Mostrando todos os tipos');
+  render(true);refazStory();say('Mostrando todos os tipos');
 }
 function trocaTipo(btn){
   const k=btn.dataset.tipo;
   if(st.tipos.has(k)&&st.tipos.size===1)return toast('Deixe pelo menos um tipo ligado.');
   st.tipos.has(k)?st.tipos.delete(k):st.tipos.add(k);
-  btn.setAttribute('aria-pressed',st.tipos.has(k));render(true);
+  btn.setAttribute('aria-pressed',st.tipos.has(k));render(true);refazStory();
 }
 
 function partilhar(){
@@ -305,6 +322,9 @@ root.addEventListener('click',e=>{
   if(d.tl){const it=linhaTempo();return abrir({itens:it,onde:'Linha do tempo',fim:false},it.findIndex(f=>f.id===d.tl));}
   if(d.busca)return abrir({itens:achadosFs,onde:'Busca',fim:false},+d.busca);
   if(d.ir){S.i=+d.ir;return mostrar(1);}
+  if(d.aba){S.aba=d.aba;S.aberto={};S.mais={};return redesenha(`[data-aba="${d.aba}"]`);}
+  if(d.sub){S.aberto[d.sub]=t.getAttribute('aria-expanded')!=='true';return redesenha(`[data-sub="${d.sub}"]`);}
+  if(d.mais){S.mais[d.mais]=1;return redesenha(`[data-sub="${d.mais}"]`);}
   if(d.lista)return abrir({itens:todosFatos(),onde:'Todos os fatos',res:true,vistos:new Set(vistos)},-1);
   if(d.surpresa)return surpresa();
   if(d.term)return dica(t);
