@@ -301,16 +301,16 @@ CARD.addEventListener('touchend',e=>{if(x0===null)return;const dx=e.changedTouch
 window.addEventListener('resize',lugar);
 
 function rota(){
-  const h=new URLSearchParams(location.hash.slice(1));
+  const h=new URLSearchParams(location.hash.slice(1)),v=k=>(h.get(k)||'').match(/^[\w-]*/)[0];
   if(!location.hash)return false;
   history.replaceState(null,'',location.pathname+location.search);
-  if(['F','L'].includes(h.get('c')))st.c=h.get('c');
-  if(VIEWS[h.get('v')])st.v=h.get('v');
+  if(['F','L'].includes(v('c')))st.c=v('c');
+  if(VIEWS[v('v')])st.v=v('v');
   render();
-  const id=h.get('f'),f=F.find(x=>x.id===id);
+  const id=v('f'),f=F.find(x=>x.id===id);
   if(id&&!f){toast('Esse fato saiu do site. Veja o motivo em Menu, O que mudou.');return false;}
   if(f){f.t?abrirTema(f.t,st.c==='all'||st.c===f.c?st.c:'all',f.id):abrir({itens:[f],onde:'Linha do tempo',fim:false},0);return true;}
-  if(TEMAS[h.get('t')]){abrirTema(h.get('t'),st.c);return true;}
+  if(TEMAS[v('t')]){abrirTema(v('t'),st.c);return true;}
   return false;
 }
 q('#pxConf').textContent='Conferido em '+quando(D.conferido);
