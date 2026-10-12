@@ -32,7 +32,7 @@ MESMA = [["Luiz Inácio Lula da Silva", "Lula da Silva", "Lula"], ["Jair Messias
          ["Edson Fachin", "Fachin"], ["Luiz Fux", "Fux"], ["Javier Milei", "Milei"], ["Nicolás Maduro", "Maduro"], ["Partido dos Trabalhadores", "PT"], ["Partido Liberal", "PL"],
          ["Minha Casa, Minha Vida", "Minha Casa Minha Vida"], ["ProUni", "Prouni"]]
 ANO = r"(?<!\d)(?:19|20)\d\d(?!\d)"
-CANON = {nome.lower(): grupo[0] for grupo in MESMA for nome in grupo}
+CANON = {nome.lower(): nome for nome in PESSOAS + PARTIDOS + PROGRAMAS} | {nome.lower(): grupo[0] for grupo in MESMA for nome in grupo}
 APELIDOS = [(r"\b(petistas?)\b", "pessoa"), (r"\b(bolsonaristas?|lulistas?)\b", "pessoa"), (r"\b(primeiro|segundo|terceiro) mandato\b", "mandato")]
 
 
@@ -48,7 +48,7 @@ def vendar(texto, troca, sorteio):
         return troca[nome]
 
     for nome in sorted(PESSOAS, key=len, reverse=True):
-        texto = re.sub(r"(?<![\w-])" + re.escape(nome) + r"(?![\w-])", lambda m: rotulo("Pessoa", m.group(0)), texto)
+        texto = re.sub(r"(?<![\w-])" + re.escape(nome) + r"(?![\w-])", lambda m: rotulo("Pessoa", m.group(0)), texto, flags=re.I)
     for nome in sorted(PARTIDOS, key=len, reverse=True):
         texto = re.sub(r"(?<![\w-])" + re.escape(nome) + r"(?![\w-])", lambda m: rotulo("Partido", m.group(0)), texto)
     for nome in sorted(PROGRAMAS, key=len, reverse=True):
