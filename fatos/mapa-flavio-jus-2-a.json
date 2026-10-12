@@ -1,0 +1,123 @@
+{
+ "id": "mapa-flavio-jus-2-a",
+ "origem": "mapa:flavio-jus-2",
+ "candidato": "flavio",
+ "tema": "candidato",
+ "subtema": "investigacoes",
+ "lente": "fez",
+ "data": "2021-11-30",
+ "titulo": "STF anula quatro de cinco relatórios financeiros contra Flávio Bolsonaro; a denúncia foi arquivada",
+ "frase": "O MP do Rio denunciou Flávio Bolsonaro por peculato, lavagem, ocultação de bens e organização criminosa. O STF anulou provas; o TJ-RJ arquivou a denúncia. Não há condenação válida.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Supremo Tribunal Federal",
+  "documento": "Notícia: 2ª Turma decide que provas contra Flávio Bolsonaro no caso das chamadas rachadinhas são ilegais (30/11/2021)",
+  "link": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=477496&ori=1",
+  "trecho": "Por maioria, a Segunda Turma do Supremo Tribunal Federal (STF) deferiu, nesta terça-feira (30), habeas corpus (HC 201965) e anulou quatro dos cinco relatórios de inteligência financeira (RIFs) elaborados pelo Conselho de Controle de Atividades Financeiras (COAF) que embasaram a denúncia contra o senador Flávio Bolsonaro no caso das chamadas “rachadinhas”, ocorrido quando ele ocupava o cargo de deputado estadual."
+ },
+ "fontes": [
+  {
+   "veiculo": "Supremo Tribunal Federal",
+   "nivel": "A",
+   "link": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=477496&ori=1",
+   "trecho": "2ª Turma decide que provas contra Flávio Bolsonaro no caso das chamadas \"rachadinhas\" são ilegais Para o colegiado, os relatórios de informação financeira que embasaram denúncia contra o senador foram obtidos de forma irregular. 30/11/2021 20h29"
+  },
+  {
+   "veiculo": "Supremo Tribunal Federal",
+   "nivel": "A",
+   "link": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=477496&ori=1",
+   "trecho": "Com base nas investigações, ele foi denunciado pela prática, em tese, dos crimes de lavagem de dinheiro, ocultação de bens, peculato e organização criminosa."
+  },
+  {
+   "veiculo": "Poder360",
+   "nivel": "C",
+   "link": "https://www.poder360.com.br/poder-justica/gilmar-nega-pedido-para-reabrir-acao-contra-flavio-por-rachadinha/",
+   "trecho": "Os promotores recorreram ao Supremo, depois que, em maio de 2022, a Corte Especial do TJ-RJ (Tribunal de Justiça do Rio de Janeiro) arquivou a denúncia."
+  },
+  {
+   "veiculo": "Poder360",
+   "nivel": "C",
+   "link": "https://www.poder360.com.br/poder-justica/gilmar-nega-pedido-para-reabrir-acao-contra-flavio-por-rachadinha/",
+   "trecho": "Gilmar Mendes negou na 4ª feira (26.fev.2025) recursos do MPRJ (Ministério Público do Rio de Janeiro) para que fosse reaberto o caso das “rachadinhas” no antigo gabinete do senador Flávio Bolsonaro (PL-RJ)."
+  },
+  {
+   "veiculo": "Poder360",
+   "nivel": "C",
+   "link": "https://www.poder360.com.br/poder-justica/gilmar-nega-pedido-para-reabrir-acao-contra-flavio-por-rachadinha/",
+   "trecho": "A investigação do MP-RJ foi aberta em 2018, após relatório do Coaf (Conselho de Controle de Atividades Financeiras) identificar movimentações atípicas de R$ 1,2 milhão nas contas bancárias de Queiroz."
+  }
+ ],
+ "versao": 1,
+ "publicado_em": "2026-10-12",
+ "copias": {
+  "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=477496&ori=1": "http://web.archive.org/web/20261012200803/https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=477496&ori=1",
+  "https://www.poder360.com.br/poder-justica/gilmar-nega-pedido-para-reabrir-acao-contra-flavio-por-rachadinha/": "http://web.archive.org/web/20261012192428/https://www.poder360.com.br/poder-justica/gilmar-nega-pedido-para-reabrir-acao-contra-flavio-por-rachadinha/"
+ },
+ "hash": "18b568d769f8325b50ec2fbf875104b288cd8e3b4a172f3e56363e774ef2b217",
+ "provado_em": "2026-10-12",
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true,
+  "10": true
+ },
+ "revisao": {
+  "favor": {
+   "rotulo": "F4003",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "polemico",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Trechos apoiam denúncia do MP-RJ, anulação de quatro RIFs pelo STF e arquivamento no TJ-RJ; fecho correto; arquivado é polêmico, peso 0."
+  },
+  "contra": {
+   "rotulo": "F4003",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Diz quem acusou (MP-RJ), os crimes, a anulação de 4 de 5 relatórios e o arquivamento; fecho obrigatório presente; nada favorece além do trecho."
+  },
+  "neutra": {
+   "rotulo": "F4003",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Trechos apoiam denúncia do MP-RJ, anulação de quatro RIFs pelo STF e arquivamento no TJ-RJ; fecho correto para acusação arquivada."
+  },
+  "modelo": "opus",
+  "rodada": "20261012-1741",
+  "verificador": {
+   "rotulo": "F4003",
+   "sustenta": true,
+   "motivo": "Crimes, anulação de 4 de 5 RIFs pelo STF e arquivamento pelo TJ-RJ estão nos trechos; denúncia do MPRJ apoiada por Poder360."
+  },
+  "espelho": {
+   "rotulo": "F4003",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Provas anuladas pelo STF e denúncia arquivada pelo TJ-RJ; sem condenação válida, caso arquivado ou anulado."
+  }
+ },
+ "juridica": {
+  "ok": true,
+  "motivo": "Itens 1 a 11 cumpridos: diz anulação e arquivamento, atribui a denúncia ao MP do Rio, termina com \"Não há condenação válida.\" e não passa das fontes.",
+  "hash": "410deb91136e646f75b6b0696dbe4495d4d04b99404c57ea8fba4c397eb7de17",
+  "em": "2026-10-12"
+ },
+ "para_quem": [],
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19"
+}
