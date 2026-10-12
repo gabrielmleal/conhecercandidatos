@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "art. 13 da LC 182/2021; fiel ao trecho",
+  "hash": "431ea7b07bbcb6293855558426c16870bf0d1dc80f4ebc191fcd344d1eafbf16",
+  "em": "2026-10-12"
+ }
 }

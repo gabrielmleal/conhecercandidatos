@@ -104,5 +104,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "ok; atribuído à PF, com a frase de presunção de inocência; inquérito segue sob sigilo, sem arquivamento encontrado.",
+  "hash": "5f003cb5ee2a9ef2dfd156196e0e6cb30d3ea0ec00c7958f97d09f8043fe6da7",
+  "em": "2026-10-12"
+ }
 }

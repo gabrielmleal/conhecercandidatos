@@ -83,5 +83,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "ok; decisão final do Plenário, atribuída ao STF e fiel à âncora.",
+  "hash": "d1f07c194227cf498a71a8854911486802848fa21a10dccacd05151934659580",
+  "em": "2026-10-12"
+ }
 }

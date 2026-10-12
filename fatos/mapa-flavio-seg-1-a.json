@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "fiel ao trecho do plano no TSE; o rótulo narcoterroristas é do plano e se refere a facções, não a candidato",
+  "hash": "35593133f1c81e4cd9d2a19c1a32b19508e09493677303ebc720b98adf8794a2",
+  "em": "2026-10-12"
+ }
 }

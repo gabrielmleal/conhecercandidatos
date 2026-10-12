@@ -83,5 +83,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "texto da Lei 13.982/2020; valor, prazo e data conferem com art. 2º e assinatura",
+  "hash": "900f878f7ad0bb60f5b7e40642fd42c73dfd84e82ac338e5b881627c439e0d96",
+  "em": "2026-10-12"
+ }
 }

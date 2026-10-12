@@ -84,5 +84,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "Fiel ao Poder360 e à nota da Secom; o repúdio é atribuído ao governo; não há acusação de crime.",
+  "hash": "cd66882f32f848f9fe72182a6276ecbc51c4b21428955fe329a55e083aa07fda",
+  "em": "2026-10-12"
+ }
 }

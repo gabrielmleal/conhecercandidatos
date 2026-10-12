@@ -84,5 +84,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "sugestão: citar que a condenação transitou em julgado; a Lei 15.402/2026, que reduziria a pena, está suspensa por Moraes desde 09/05/2026, sem recálculo encontrado.",
+  "hash": "a70ba207327ebf9d4a769e2db17fcf0e434ab91a478fdcdf31fde4319667fcf2",
+  "em": "2026-10-12"
+ }
 }

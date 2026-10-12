@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "Atribuído à PF, fiel ao trecho da Agência Câmara, sem pessoa nomeada e termina com 'Investigação não é condenação.'",
+  "hash": "f9cea1636a740d7996eef710b20ade49975146e51a94bcdff4e78ec2c9bf3c17",
+  "em": "2026-10-12"
+ }
 }

@@ -24,8 +24,8 @@ sem_link = [f["id"] for f in fatos if not onde_ler(f["ancora"]["link"], f["ancor
 paginas = [p for p in [*(RAIZ / "site").glob("*.html"), *(RAIZ / "site/fato").glob("*.html")] if p.name != "404.html"]
 lei = {
     "fatos com pesquisa eleitoral (Lei 9.504/1997, art. 33)": [f["id"] for f in fatos if PESQUISA.search(f["titulo"] + " " + f["frase"])],
-    "páginas sem o aviso de IA (Res. TSE 23.755/2026, art. 9º-B)": [p.name for p in paginas if not re.search(r"Feito com IA|feito por intelig[êe]ncia artificial", p.read_text(encoding="utf-8"))],
-    "textos que pedem voto (Res. TSE 23.755/2026, art. 28, §1º-C)": [p.name for p in [*paginas, RAIZ / "site/dados.js"] if VOTO.search(p.read_text(encoding="utf-8"))],
+    "páginas sem o aviso de IA (Res. TSE 23.610/2019, art. 9º-B)": [p.name for p in paginas if not re.search(r"Feito com IA|feito por intelig[êe]ncia artificial", p.read_text(encoding="utf-8"))],
+    "textos que pedem voto (Res. TSE 23.610/2019, art. 28, §1º-C)": [p.name for p in [*paginas, RAIZ / "site/dados.js"] if VOTO.search(p.read_text(encoding="utf-8"))],
 }
 for i in ruins:
     print("  sem prova:", i)

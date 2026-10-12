@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "promessa do próprio plano no TSE; número 'mais de meio milhão' está no trecho",
+  "hash": "c73ae478aefebfc3be5a49e7b509930da8f83473e43904ad8661313ea8191252",
+  "em": "2026-10-12"
+ }
 }

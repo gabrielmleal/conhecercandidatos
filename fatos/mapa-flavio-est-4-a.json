@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "Fala atribuída à diretora da CGU, fiel à âncora oficial, sem acusação nem juízo.",
+  "hash": "ee5bb07d215e9e74e0a5725f9be4b8e01532b5f6d7fd970fc2086402ead33f05",
+  "em": "2026-10-12"
+ }
 }

@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "Atribuído ao Ministério da Saúde; números iguais ao trecho da estimativa OMS-Unicef.",
+  "hash": "6428c5d9a78ad1e66a871504dfac9c22b33c87832ab4f97b1be67b03106036ed",
+  "em": "2026-10-12"
+ }
 }

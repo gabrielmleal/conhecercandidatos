@@ -83,5 +83,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "Atribuído à ONU e fiel ao trecho; estudo da FAO não é pesquisa eleitoral.",
+  "hash": "cd4fab2dfbdd24e8cb53c6e68e4fecfb2b6f042155a63e496e389bf3c20fd6c6",
+  "em": "2026-10-12"
+ }
 }

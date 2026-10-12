@@ -89,5 +89,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "declaração atribuída à Delegação da UE, fiel ao trecho e à data da nota",
+  "hash": "a1d64dc4ba7662ab542fb404e3b3600dd49c22cd49546d28c582efa01ad85df9",
+  "em": "2026-10-12"
+ }
 }

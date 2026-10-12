@@ -84,5 +84,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "os três percentuais estão nas notas do Banco Central de 2025 e 2026, atribuídos",
+  "hash": "108ad4c966801811e78f56179b0d0b607afdc7834f5f510330da5c8afece6778",
+  "em": "2026-10-12"
+ }
 }

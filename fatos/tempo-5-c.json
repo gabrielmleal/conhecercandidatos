@@ -90,5 +90,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": false,
+  "motivo": "item 1: a PGR de Augusto Aras recusou dez dos onze pedidos da CPI e quatro foram arquivados definitivamente; título ou frase deve dizer isso.",
+  "hash": "18b986253e6318602e9a38620351ee7307737d348f0e3f8666f87e91097ade2e",
+  "em": "2026-10-12"
+ }
 }

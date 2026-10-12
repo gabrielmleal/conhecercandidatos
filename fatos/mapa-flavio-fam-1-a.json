@@ -84,5 +84,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "Inelegibilidade segue em vigor, confirmada pela Agência Senado em 04/10/2026; atribuída ao TSE e fiel à âncora e à fonte.",
+  "hash": "9afbd95d8e82ca8bf05389fdd846076a74e4354da5ebc50eef7c613d18c0ce37",
+  "em": "2026-10-12"
+ }
 }

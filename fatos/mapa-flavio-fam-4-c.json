@@ -91,5 +91,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "sugestão: em 2026 o STF autorizou inquéritos da PF sobre Lulinha; nenhum arquivamento encontrado até agosto de 2026.",
+  "hash": "572031c60748482e3fe6aa89a8a55b6e8c286e9edea1c2d4dfd531059e5ba27a",
+  "em": "2026-10-12"
+ }
 }

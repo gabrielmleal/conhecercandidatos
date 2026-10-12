@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": false,
+  "motivo": "item 1: a PGR pediu arquivar a maior parte das apurações e o STF arquivou duas frentes contra Bolsonaro em 28/02/2023 (Toffoli); a frase deve dizer isso.",
+  "hash": "6b69b3ccb6691b45ec12e1d0d7dc4c9ea8423c1ac89df5868a7b7cb3b93bae66",
+  "em": "2026-10-12"
+ }
 }

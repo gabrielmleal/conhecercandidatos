@@ -83,5 +83,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "placar, data e indicação por Lula estão no trecho da Agência Senado; sem acusação nem juízo",
+  "hash": "5b7527647d85c02f205cdcccb36f8e31c6e0518e7c1b11e6efdc2653fb8ebe04",
+  "em": "2026-10-12"
+ }
 }

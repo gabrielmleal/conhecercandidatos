@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "número e motivo atribuídos ao ministério, fiéis ao Informe Bolsa Família nº 69",
+  "hash": "68c05adee029d74240241a6368d37b3691a5c147dc69b09b77167fc1aab6ef46",
+  "em": "2026-10-12"
+ }
 }

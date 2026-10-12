@@ -84,5 +84,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "diz o desfecho (anulação), tipo não é problema; placar 8 a 3 e incompetência de Curitiba estão no trecho do STF",
+  "hash": "8e849b52766cf45736506c509adf04c730add770ef10c590c3905a675e09c2f5",
+  "em": "2026-10-12"
+ }
 }

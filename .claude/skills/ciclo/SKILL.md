@@ -1,6 +1,6 @@
 ---
 name: ciclo
-description: Uma rodada completa do robô, na ordem reavaliar, radar, investigar, provar, oticas, decidir e publicar.
+description: Uma rodada completa do robô, na ordem reavaliar, radar, investigar, provar, oticas, juridico, decidir e publicar.
 ---
 
 Rode a partir da raiz do repositório, numa branch nova a partir de `main` atualizada.
@@ -11,8 +11,9 @@ Rode a partir da raiz do repositório, numa branch nova a partir de `main` atual
 4. `investigar`: transforma itens da fila em rascunhos, sempre do lado e do tema com menos fatos primeiro.
 5. `provar`: caixas 1 a 6.
 6. `oticas`: caixas 7 a 9, em lotes de até 10.
-7. `decidir`: publica, polêmico ou quarentena.
-8. `publicar`: monta o site, confere e faz o merge.
-9. Grave em `estado/status.json` a hora da rodada (`procurou_em`, horário de Brasília) e quantos fatos entraram, ficaram presos e saíram.
+7. `juridico`: caixa 10, a revisão jurídica.
+8. `decidir`: publica, polêmico ou quarentena.
+9. `publicar`: monta o site, confere e abre o pedido de mudança. O merge é sempre do Gabriel.
+10. Grave em `estado/status.json` a hora da rodada (`procurou_em`, horário de Brasília) e quantos fatos entraram, ficaram presos e saíram.
 
 A cota do Claude Code é o único teto: quando ela acabar no meio, pare depois do passo que estiver rodando e publique o que já passou.

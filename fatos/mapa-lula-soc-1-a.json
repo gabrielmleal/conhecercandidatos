@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "números e conclusão fiéis ao trecho da ONU Brasil, atribuídos ao relatório SOFI 2025 e ao critério da FAO",
+  "hash": "835e4da3fc4fa982cb8531b78ac3da7157d26d4c80807fe31dc211fbfc281212",
+  "em": "2026-10-12"
+ }
 }

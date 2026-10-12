@@ -91,5 +91,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "fiel às fontes da Agência Senado e do Planalto",
+  "hash": "56aa0af6662b60fbe2c39cb52746f3c1d40a8d8711f46f6d607a6172b3102d23",
+  "em": "2026-10-12"
+ }
 }

@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "fato institucional atribuído à Agência Senado, fiel ao trecho da âncora",
+  "hash": "bdb864abffaf613f810339c1480d8b34438091989e139630fa07e2d20e2090ef",
+  "em": "2026-10-12"
+ }
 }

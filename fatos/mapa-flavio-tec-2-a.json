@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "ementa da LC 182/2021; fiel ao trecho",
+  "hash": "40f51a932ab311bb7457c1f43217d9de2097d24aa43a01135a333cf80c7048c6",
+  "em": "2026-10-12"
+ }
 }

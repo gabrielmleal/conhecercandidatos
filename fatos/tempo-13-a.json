@@ -83,5 +83,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "sugestão: citar que a Primeira Turma referendou a prisão; ela não foi anulada, e a domiciliar de 2026 está no fato tempo-15-b.",
+  "hash": "205370142a7e2a9b076086fb77332248d022630d78976fd3a3ded94749831ec4",
+  "em": "2026-10-12"
+ }
 }

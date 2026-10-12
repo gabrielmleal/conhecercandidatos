@@ -83,5 +83,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "sugestão: governistas entregaram o relatório paralelo ao STF em abril de 2026; nomear Paulo Pimenta como autor.",
+  "hash": "93b358b14f519f37a4672882955ba19d732cffefe5032b5851076ecf10357a2a",
+  "em": "2026-10-12"
+ }
 }

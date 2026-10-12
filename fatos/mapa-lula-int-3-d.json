@@ -90,5 +90,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "Frase fiel ao trecho do G1, sem adjetivo do site.",
+  "hash": "7c80fca8b55f998b930ffa5a7923f218f037844624cd86321a8de10741a5ebcc",
+  "em": "2026-10-12"
+ }
 }

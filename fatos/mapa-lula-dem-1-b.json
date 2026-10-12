@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "fiel ao trecho da PGR; descreve o evento sem acusar pessoa nem usar rótulo",
+  "hash": "3d965af4318cefbefcacd597458fcb7cbef0bf97aa49555d2bdac74c714b3765",
+  "em": "2026-10-12"
+ }
 }

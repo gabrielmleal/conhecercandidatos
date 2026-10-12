@@ -83,5 +83,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "placar, data, indicação e '132 anos' fiéis à Agência Senado",
+  "hash": "da6e139cfd9ea795b9d5449fa6f380527f39543e51dc7a3dd7321972b664f172",
+  "em": "2026-10-12"
+ }
 }

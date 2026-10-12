@@ -23,6 +23,7 @@ for tema, info in temas.items():
                 n = sum(1 for f in fatos if (f["candidato"], f.get("tema"), f.get("subtema")) == (candidato, tema, subtema) and (m == "-" or mandato(f) == m))
                 lacunas.append({"candidato": candidato, "tema": tema, "subtema": subtema, "mandato": m, "fatos": n})
 lacunas.sort(key=lambda c: (c["fatos"], c["tema"], c["subtema"], c["candidato"]))
+(RAIZ / "fila").mkdir(exist_ok=True)
 (RAIZ / "fila/lacunas.json").write_text(json.dumps(lacunas, ensure_ascii=False, indent=1), encoding="utf-8")
 vazias = [c for c in lacunas if not c["fatos"]]
 print(f"{len(vazias)} de {len(lacunas)} células sem fato")

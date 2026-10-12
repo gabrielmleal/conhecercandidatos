@@ -89,5 +89,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "Fiel à Agência Câmara: confirmação do próprio Flávio com a negativa dele; Vorcaro citado por fonte oficial, sem acusação a ele.",
+  "hash": "d16a4d69f1eeebc4b935e3932b4fc910c2f6470d9b25a93cc01ffb8b4582cb07",
+  "em": "2026-10-12"
+ }
 }

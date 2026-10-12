@@ -84,5 +84,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": false,
+  "motivo": "item 1: a condenação foi anulada pelo STF em 2021 (HC 193726) e o fato não diz; dizer no título e na frase e trocar o tipo problema.",
+  "hash": "c9feb2bba5dc088146dd8c4dd518fea540724a005bd1e687f8c9bf01b1afd5d9",
+  "em": "2026-10-12"
+ }
 }

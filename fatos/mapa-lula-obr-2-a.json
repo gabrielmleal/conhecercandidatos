@@ -83,5 +83,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "Dado atribuído ao secretário, com data, fiel ao trecho da Agência Câmara.",
+  "hash": "0fc270eee0b7900d8598d992246b5fe91c4765e787f2fd94e1eb77044ec205e7",
+  "em": "2026-10-12"
+ }
 }

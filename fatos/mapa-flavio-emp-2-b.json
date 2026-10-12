@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "Fiel ao trecho da Agência Senado de 27/08/2021.",
+  "hash": "4aa605304ef403b621487310a92845990ed0e7390ef300141db813505645d34d",
+  "em": "2026-10-12"
+ }
 }

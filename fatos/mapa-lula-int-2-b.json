@@ -98,5 +98,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "60 economias, 12,5% e 37,5% em alguns produtos constam do USTR, O Povo e Poder360",
+  "hash": "11ac647a10f5dadfc474d7b760dc52bf6aa0d3b3a872c908a7f850c3a254f2dd",
+  "em": "2026-10-12"
+ }
 }

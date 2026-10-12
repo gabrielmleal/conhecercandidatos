@@ -90,5 +90,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "ato oficial sem acusar ninguém; texto fiel à ementa e ao § 2º do decreto",
+  "hash": "f43bf3923613f003a8b9b9caf9d9b9378138d5db67d37c4ef7ceb85746c322db",
+  "em": "2026-10-12"
+ }
 }

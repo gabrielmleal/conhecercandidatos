@@ -5,7 +5,7 @@ import sys
 
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 MOTIVO = {"1": "fonte fora da lista", "2": "sem âncora oficial ou dupla", "3": "trecho não encontrado na página", "4": "número sem apoio no trecho",
-          "5": "fato repetido", "6": "palavra carregada", "7": "as três revisões não concordaram", "8": "o texto vai além do trecho", "9": "o espelho deu outro tipo"}
+          "5": "fato repetido", "6": "palavra carregada", "7": "as três revisões não concordaram", "8": "o texto vai além do trecho", "9": "o espelho deu outro tipo", "10": "a revisão jurídica apontou risco"}
 HOJE = datetime.date.today()
 
 
@@ -16,6 +16,10 @@ def ler(p):
 def gravar(p, dado):
     p.parent.mkdir(parents=True, exist_ok=True)
     p.write_text(json.dumps(dado, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+def sem_titulo(r):
+    return {"flavio": "Um fato sobre Flávio Bolsonaro", "lula": "Um fato sobre Lula"}.get(r["candidato"], "Um fato da linha do tempo")
 
 
 def registrar(nome, item):
@@ -44,7 +48,7 @@ def quarentena(r, falhas):
     publicado = RAIZ / "fatos" / f"{r['id']}.json"
     if r.get("reavaliando") and publicado.exists():
         publicado.unlink()
-        registrar("mudancas.json", {"data": HOJE.isoformat(), "id": r["id"], "titulo": r["titulo"], "o_que": "Retirado do site.", "motivo": "Na reconferência, " + MOTIVO[falhas[0]] + "."})
+        registrar("mudancas.json", {"data": HOJE.isoformat(), "id": r["id"], "titulo": sem_titulo(r), "o_que": "Retirado do site.", "motivo": "Na reconferência, " + MOTIVO[falhas[0]] + "."})
 
 
 def decidir():
@@ -53,7 +57,7 @@ def decidir():
         r = ler(p)
         caixas = r.get("caixas", {})
         falhas = [k for k in sorted(caixas) if not caixas[k]]
-        if not falhas and len(caixas) < 9:
+        if not falhas and len(caixas) < 10:
             continue
         if falhas:
             quarentena(r, falhas)
@@ -73,10 +77,10 @@ def voltar():
         r = ler(p)
         dias = (HOJE - datetime.date.fromisoformat(r["entrou_em"])).days
         if dias >= 7:
-            registrar("descartados.json", {"data": HOJE.isoformat(), "id": r["id"], "titulo": r["titulo"], "motivo": "; ".join(r["falhas"])})
+            registrar("descartados.json", {"data": HOJE.isoformat(), "motivo": "; ".join(r["falhas"])})
             p.unlink()
         elif dias < 1:
-            limpo = {k: v for k, v in r.items() if k not in ("caixas", "revisao", "classificacao", "peso_final", "falhas", "copias", "hash", "provado_em")}
+            limpo = {k: v for k, v in r.items() if k not in ("caixas", "revisao", "classificacao", "peso_final", "falhas", "copias", "hash", "provado_em", "juridica")}
             gravar(RAIZ / "rascunhos" / p.name, limpo)
 
 

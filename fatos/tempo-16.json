@@ -89,5 +89,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "sugestão: a Primeira Turma rejeitou os embargos em setembro de 2026 e a condenação transitou em julgado em 03/10/2026, com mandado de prisão expedido.",
+  "hash": "3d1b0ba43b0ff14260d41ecf919129322f7da88cfffb40547f93a9ad19c16f0f",
+  "em": "2026-10-12"
+ }
 }

@@ -75,5 +75,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "fiel ao trecho; idade correta até 26/10/2026, depois do 2º turno",
+  "hash": "e993041ed65e38e3802ae9dcb4b99115654edef4634633437c2a7fc2ff64dfaa",
+  "em": "2026-10-12"
+ }
 }

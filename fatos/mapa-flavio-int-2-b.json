@@ -90,5 +90,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": false,
+  "motivo": "item 1: os EUA revogaram a sanção e retiraram Moraes da lista Magnitsky em 12/12/2025; o título ou a frase deve dizer isso.",
+  "hash": "a83a618461a644b8df3368e14a906d0ec6382becde30f188e8c2503f1812f7fd",
+  "em": "2026-10-12"
+ }
 }

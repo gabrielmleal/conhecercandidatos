@@ -84,5 +84,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "Fiel à nota relatada pelo Poder360 e pelo G1; citação curta e identificada.",
+  "hash": "c1310ab1b611b3b60cb658ed7f1bcef279582d03211ca7785bc4d8aeada7aa46",
+  "em": "2026-10-12"
+ }
 }

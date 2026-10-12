@@ -185,7 +185,7 @@ def correcao(rodada):
         if not info["arquivo"] or not (RAIZ / info["arquivo"]).exists():
             continue
         caixas = json.loads((RAIZ / info["arquivo"]).read_text(encoding="utf-8")).get("caixas", {})
-        if len(caixas) == 9 and all(caixas.values()):
+        if len(caixas) >= 9 and all(caixas.values()):
             continue
         volta = {v: k for k, v in info["troca"].items()}
         abrir = lambda t: re.sub("|".join(map(re.escape, sorted(volta, key=len, reverse=True))), lambda m: volta[m.group(0)], t) if volta else t

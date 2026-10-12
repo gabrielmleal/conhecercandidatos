@@ -90,5 +90,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": false,
+  "motivo": "item 1: o TRF-1 revogou a prisão preventiva em 23/06/2022 e Ribeiro foi solto; acrescentar isso à frase.",
+  "hash": "74b3a5f0e0f672d2138a14add90d4c1b8701a8e3aa2bcfbc489982fe18857635",
+  "em": "2026-10-12"
+ }
 }

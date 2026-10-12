@@ -4,3 +4,5 @@ __pycache__/
 rascunhos/
 registros/lotes/
 estado/vendas/
+fila/
+quarentena/

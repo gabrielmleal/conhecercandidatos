@@ -96,5 +96,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "19,3%, 11,7% e 5,4% fiéis às PNAD Contínua do IBGE",
+  "hash": "553b47b995fe0d321a405877f15acf8e20fbd71d286084bf6c91743aa58823cd",
+  "em": "2026-10-12"
+ }
 }

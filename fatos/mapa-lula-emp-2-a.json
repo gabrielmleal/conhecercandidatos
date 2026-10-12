@@ -83,5 +83,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "decisão do Copom fiel ao comunicado do Banco Central",
+  "hash": "428648098c8f1f2d81ebd8ea77b64dca76d1b75965738f357c4ff5062b716ee2",
+  "em": "2026-10-12"
+ }
 }
