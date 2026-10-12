@@ -71,7 +71,7 @@ def item_vendado(r):
     if "definicao" in r:
         return {"rotulo": r["rotulo"], "e": "definicao", "termo": vendar(r["nome"], troca, sorteio), "definicao": vendar(r["definicao"], troca, sorteio)}, troca
     item = {"rotulo": r["rotulo"], "e": "fato", "titulo": vendar(r["titulo"], troca, sorteio), "frase": vendar(r["frase"], troca, sorteio), "tipo_proposto": r["tipo"], "peso_proposto": r["peso"],
-            "lente": r["lente"], "para_quem_proposto": r.get("para_quem", []), "orgao": r["ancora"]["orgao"], "documento": vendar(r["ancora"]["documento"], troca, sorteio), "trechos": [vendar(r["ancora"]["trecho"], troca, sorteio)] + [vendar(f["trecho"], troca, sorteio) for f in r.get("fontes", []) if f.get("trecho")]}
+            "lente": r["lente"], "para_quem_proposto": r.get("para_quem", []), "orgao": r["ancora"]["orgao"], "documento": vendar(r["ancora"]["documento"], troca, sorteio), "trechos": [vendar(f'{r["ancora"]["orgao"]}: {r["ancora"]["trecho"]}', troca, sorteio)] + [vendar(f'{f["veiculo"]}: {f["trecho"]}', troca, sorteio) for f in r.get("fontes", []) if f.get("trecho")]}
     return item, troca
 
 
