@@ -13,6 +13,7 @@ SITE = RAIZ / "site"
 CURTO = {"renda": "Emprego", "contas": "Contas", "social": "Proteção", "educacao": "Educação", "saude": "Saúde", "seguranca": "Segurança", "ambiente": "Ambiente", "producao": "Produção", "obras": "Obras", "democracia": "Democracia", "mundo": "Mundo", "aliados": "Aliados", "candidato": "Quem é"}
 QUEM = {"flavio": "F", "lula": "L", "brasil": "BR"}
 TIPO = {"positivo": "pos", "problema": "neg", "polemico": "pol", "contexto": "ctx", "promessa": "pro"}
+EXPLICA = {"positivo": "algo que melhorou, mostrado por um número", "problema": "algo que piorou, uma condenação ou uma investigação aberta", "polemico": "o efeito ou a prova ainda estão em disputa", "contexto": "informação sem lado bom ou ruim", "promessa": "o que ainda não aconteceu"}
 BRT = datetime.timezone(datetime.timedelta(hours=-3))
 LIDOS = registro()
 
@@ -21,12 +22,12 @@ def ler(pasta):
     return [json.loads(p.read_text(encoding="utf-8")) for p in sorted((RAIZ / pasta).glob("*.json"))]
 
 
-def marcar(frase, termos):
+def marcar(frase, formas):
     usados = []
-    for chave in sorted(termos, key=len, reverse=True):
-        achado = re.search(r"(?<![\w-])" + re.escape(chave) + r"(?![\w-])", frase, re.I)
-        if achado and not any(a < achado.end() and achado.start() < b for a, b, _ in usados):
-            usados.append((achado.start(), achado.end(), chave))
+    for forma in sorted(formas, key=len, reverse=True):
+        achado = re.search(r"(?<![\w-])" + re.escape(forma) + r"(?![\w-])", frase, re.I)
+        if achado and formas[forma] not in [c for _, _, c in usados] and not any(a < achado.end() and achado.start() < b for a, b, _ in usados):
+            usados.append((achado.start(), achado.end(), formas[forma]))
     for a, b, chave in sorted(usados, reverse=True):
         frase = frase[:a] + f"[[{chave}|{frase[a:b]}]]" + frase[b:]
     return frase
@@ -52,11 +53,11 @@ def outras(fato):
     return [(f["veiculo"], link) for f in fato.get("fontes", []) if (link := onde_ler(f["link"], f.get("trecho", ""), LIDOS))]
 
 
-def para_site(fato, termos):
+def para_site(fato, formas):
     return {
         "id": fato["id"], "c": QUEM[fato["candidato"]], "t": fato.get("tema"), "s": fato.get("subtema"), "d": fato["data"],
         "mk": 2 if fato["candidato"] == "brasil" and fato.get("marco") else 1 if fato.get("marco") else 0,
-        "tipo": TIPO[fato["tipo"]], "w": peso(fato), "tit": fato["titulo"], "txt": marcar(fato["frase"], termos),
+        "tipo": TIPO[fato["tipo"]], "w": peso(fato), "tit": fato["titulo"], "txt": marcar(fato["frase"], formas),
         "orgao": fato["ancora"]["orgao"], "doc": fato["ancora"].get("documento", ""), "link": fonte(fato), "arq": int("web.archive.org" in fonte(fato)),
         "fontes": outras(fato), "conf": data_br(fato["conferido_em"]),
     }
@@ -91,15 +92,13 @@ def pagina(titulo, corpo, descricao, raiz=""):
 def pagina_fato(fato, temas):
     nome = {"flavio": "Flávio Bolsonaro", "lula": "Lula", "brasil": "Brasil"}[fato["candidato"]]
     onde = f"{temas[fato['tema']]['nome']} › {temas[fato['tema']]['subtemas'][fato['subtema']]}" if fato.get("tema") else "Linha do tempo"
-    valor = peso(fato)
-    nota = "Marco do Brasil" if fato["candidato"] == "brasil" else f"{'+' if valor > 0 else '−'}{abs(valor)} na nota" if valor else "Vale zero"
     fontes = "".join(f'<li><a href="{html.escape(link)}" rel="noopener">{html.escape(veiculo)}</a></li>' for veiculo, link in outras(fato))
     erro = f"mailto:contato@conhecercandidatos.com.br?subject=Apontar%20erro%3A%20{fato['id']}"
     corpo = f"""<script>location.replace("../#f={fato['id']}")</script>
 <p class="meta">{html.escape(nome)} · {html.escape(onde)} · {data_fato(fato['data'])}</p>
 <h1>{html.escape(fato['titulo'])}</h1>
 <p>{html.escape(fato['frase'])}</p>
-<p><b>{html.escape(fato['tipo'].replace('polemico', 'polêmico').capitalize())}</b> · {nota}</p>
+<p><b>{html.escape(fato['tipo'].replace('polemico', 'polêmico').capitalize())}</b>: {EXPLICA[fato['tipo']]}</p>
 <h2>Fonte oficial</h2>
 <p><a href="{html.escape(fonte(fato))}" rel="noopener">{html.escape(fato['ancora']['orgao'])}{', ' + html.escape(fato['ancora'].get('documento', '')) if fato['ancora'].get('documento') else ''}{' (cópia arquivada)' if 'web.archive.org' in fonte(fato) else ''}</a></p>
 <blockquote>{html.escape(fato['ancora']['trecho'])}</blockquote>
@@ -121,6 +120,7 @@ def montar():
     temas = json.loads((RAIZ / "dados/temas.json").read_text(encoding="utf-8"))
     dicionario = json.loads((RAIZ / "dados/dicionario.json").read_text(encoding="utf-8"))
     termos = {k: v for k, v in dicionario.items() if v.get("aprovado")}
+    formas = {f: k for k, v in termos.items() for f in [k] + v.get("formas", [])}
     fatos = ler("fatos")
     status = json.loads((RAIZ / "estado/status.json").read_text(encoding="utf-8")) if (RAIZ / "estado/status.json").exists() else {}
     agora = datetime.datetime.now(BRT).isoformat(timespec="minutes")
@@ -128,8 +128,8 @@ def montar():
     dados = {
         "conferido": conferido,
         "temas": {k: {"nome": v["nome"], "curto": CURTO[k], "governo": v["governo"], "subtemas": v["subtemas"]} for k, v in temas.items()},
-        "fatos": [para_site(f, termos) for f in fatos],
-        "termos": {k: [v["nome"], marcar(v["definicao"], [t for t in termos if t != k])] for k, v in termos.items()},
+        "fatos": [para_site(f, formas) for f in fatos],
+        "termos": {k: [v["nome"], marcar(v["definicao"], {f: t for f, t in formas.items() if t != k})] for k, v in termos.items()},
     }
     (SITE / "dados.js").write_text("window.DADOS=" + json.dumps(dados, ensure_ascii=False, separators=(",", ":")) + ";\n", encoding="utf-8")
     (SITE / "fato").mkdir(exist_ok=True)

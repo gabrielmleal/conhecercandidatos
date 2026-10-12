@@ -6,43 +6,42 @@ const esc=s=>String(s==null?'':s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;',
 const TEMAS={},CURTO={},GOV={};
 Object.entries(D.temas).forEach(([k,v])=>{TEMAS[k]=v.nome;CURTO[k]=v.curto;GOV[k]=v.governo;});
 const ORDEM=Object.keys(TEMAS);
-const MS={L:['l1','l2','l3'],F:['b']};
 const WHO={F:'Flávio',L:'Lula',BR:'Brasil'};
-const MANDATO={b:'governo Bolsonaro',l1:'1º mandato',l2:'2º mandato',l3:'3º mandato'};
-const TIPO={pos:['Positivo','var(--dot-pos)'],neg:['Problema','var(--dot-neg)'],pol:['Polêmico','var(--dot-mid)'],ctx:['Contexto','var(--dot-info)'],pro:['Promessa','var(--dot-neu)']};
+const MANDATO={b:'governo Bolsonaro',l1:'primeiro mandato',l2:'segundo mandato',l3:'terceiro mandato'};
+const TIPO={pos:['Positivo','var(--dot-pos)','algo que melhorou, mostrado por um número'],neg:['Problema','var(--dot-neg)','algo que piorou, uma condenação ou uma investigação aberta'],pol:['Polêmico','var(--dot-mid)','o efeito ou a prova ainda estão em disputa'],ctx:['Contexto','var(--dot-info)','informação sem lado bom ou ruim'],pro:['Promessa','var(--dot-neu)','o que ainda não aconteceu']};
+const TIPOS=Object.keys(TIPO);
+const MESES=['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'];
 const TERMS=D.termos;
 function mandOf(c,d,t){if(!t||c==='BR'||!GOV[t])return null;const y=+d.slice(0,4);if(c==='L')return y<=2006?'l1':y<=2010?'l2':y>=2023?'l3':null;return y>=2019&&y<=2022?'b':null;}
 const F=D.fatos.map(f=>({...f,m:mandOf(f.c,f.d,f.t)})).sort((a,b)=>a.d.localeCompare(b.d));
-const st={c:'all',v:'mapa',dq:''};
+const st={c:'all',v:'mapa',dq:'',tipos:new Set(TIPOS)};
 const ler=(k,p)=>{try{return JSON.parse(localStorage.getItem(k))||p;}catch(e){return p;}};
 const guardar=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}};
 const vistos=new Set(ler('cc-vistos',[]));
 const PREF=Object.assign({escala:1,contraste:false,lista:false},ler('cc-acesso',{}));
 const ESCALAS=[0.9,1,1.15,1.3,1.5];
 const svgI=p=>`<svg class="ico" viewBox="0 0 24 24" aria-hidden="true">${p}</svg>`;
-const IC={seta:svgI('<path d="m9 18 6-6-6-6"/>'),brilho:svgI('<path d="M12 3l1.9 5.8L20 10l-6.1 1.9L12 18l-1.9-6.1L4 10l6.1-1.2Z"/><path d="M19 17v4M17 19h4"/>'),doc:svgI('<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v5h6"/><path d="M8 13h8M8 17h5"/>'),sai:svgI('<path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>'),zap:svgI('<path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/>'),copia:svgI('<rect width="14" height="14" x="8" y="8" rx="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/>')};
+const IC={seta:svgI('<path d="m9 18 6-6-6-6"/>'),baixo:svgI('<path d="m6 9 6 6 6-6"/>'),lista:svgI('<path d="M9 6h12M9 12h12M9 18h12M4 6h.01M4 12h.01M4 18h.01"/>'),brilho:svgI('<path d="M12 3l1.9 5.8L20 10l-6.1 1.9L12 18l-1.9-6.1L4 10l6.1-1.2Z"/><path d="M19 17v4M17 19h4"/>'),doc:svgI('<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v5h6"/><path d="M8 13h8M8 17h5"/>'),sai:svgI('<path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>'),zap:svgI('<path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/>'),copia:svgI('<rect width="14" height="14" x="8" y="8" rx="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/>')};
 
-const sgn=v=>(v>0?'+':v<0?'−':'')+Math.abs(v).toFixed(1).replace('.',',');
-function score(c,t){
-  const fs=F.filter(f=>f.c===c&&f.t===t&&f.w);
-  if(!GOV[t])return {v:fs.reduce((a,f)=>a+f.w,0),n:fs.length,gov:false};
-  const per={};fs.filter(f=>f.m).forEach(f=>{per[f.m]=(per[f.m]||0)+f.w;});
-  const got=MS[c].filter(m=>m in per);
-  return {v:got.length?got.reduce((a,m)=>a+per[m],0)/got.length:0,n:got.length,tot:MS[c].length,gov:true};
-}
-const nota=sc=>sc.n?sgn(sc.v):'sem fatos';
 function rich(s){return esc(s).replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g,(m,k,d)=>{const key=k.toLowerCase();return TERMS[key]?`<button class="pxterm" data-term="${esc(key)}">${d||k}</button>`:(d||k);});}
 const plain=s=>String(s).replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g,(m,k,d)=>d||k);
 const norm=s=>String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
-function mes(d){const M=['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'];return d.length<7?d:(d.length>7?+d.slice(8,10)+' ':'')+M[+d.slice(5,7)-1]+' '+d.slice(0,4);}
+const diaMes=d=>(d.length>7?+d.slice(8,10)+' ':'')+MESES[+d.slice(5,7)-1];
+const mes=d=>d.length<7?d:diaMes(d)+' '+d.slice(0,4);
 function quando(iso){return new Date(iso).toLocaleString('pt-BR',{timeZone:'America/Sao_Paulo',day:'numeric',month:'short',hour:'numeric',minute:'2-digit'}).replace(/\./g,'');}
 const say=t=>{q('#pxSR').textContent=t;};
 function toast(m){const el=q('#pxToast');el.textContent=m;el.hidden=false;clearTimeout(toast.t);toast.t=setTimeout(()=>{el.hidden=true;},5000);}
 const plural=(n,s)=>`${n} ${s}${n===1?'':'s'}`;
+const junta=xs=>xs.length>1?xs.slice(0,-1).join(', ')+' e '+xs[xs.length-1]:xs.join('');
+const passa=f=>st.tipos.has(f.tipo);
+const filtrado=()=>st.tipos.size<TIPOS.length;
+const escolhidos=()=>junta(TIPOS.filter(k=>st.tipos.has(k)).map(k=>TIPO[k][0]));
+const daVez=v=>F.filter(f=>v==='tempo'?f.c==='BR'||st.c==='all'||f.c===st.c:f.t&&(st.c==='all'||f.c===st.c));
+const avisoFiltro=()=>filtrado()?`<p class="pxfiltro">Só ${esc(escolhidos())}<button data-todos="1">Mostrar todos</button></p>`:'';
 
 function doTema(t,c){
   const ord=(a,b)=>Math.abs(b.w)-Math.abs(a.w)||b.d.localeCompare(a.d);
-  const por=x=>F.filter(f=>f.c===x&&f.t===t).sort(ord);
+  const por=x=>F.filter(f=>f.c===x&&f.t===t&&passa(f)).sort(ord);
   if(c!=='all')return por(c);
   const [a,b]=ORDEM.indexOf(t)%2?[por('L'),por('F')]:[por('F'),por('L')];
   const out=[];for(let i=0;i<Math.max(a.length,b.length);i++){if(a[i])out.push(a[i]);if(b[i])out.push(b[i]);}
@@ -63,21 +62,34 @@ function constelacao(rs){
   return `<figure class="pxconst"><svg viewBox="-60 10 470 314" role="group" aria-label="Temas">${nos.map(n=>n.lin).join('')}<circle cx="${cx}" cy="${cy}" r="25" fill="var(--m-ink)"/><text x="${cx}" y="${cy+5}" text-anchor="middle" fill="var(--m-bg)" font-weight="700" font-size="15">${st.c==='all'?'F · L':st.c}</text>${nos.map(n=>n.no).join('')}</svg></figure>`;
 }
 function vMapa(){
-  const rs=temas(),fs=F.filter(f=>f.t&&(st.c==='all'||f.c===st.c)),vi=fs.filter(f=>vistos.has(f.id)).length;
+  const rs=temas(),fs=daVez('mapa').filter(passa),vi=fs.filter(f=>vistos.has(f.id)).length;
   const corpo=PREF.lista?rs.map(r=>`<button class="pxrow" data-tema="${r.t}"><span class="tx"><b>${esc(TEMAS[r.t])}</b><small>${resumo(r)}</small></span>${IC.seta}</button>`).join(''):constelacao(rs);
-  return `<p class="pxhint">Toque num tema para ver os fatos</p>${corpo}<div class="pxacao"><button class="pxsurpresa" data-surpresa="1">${IC.brilho}Fato surpresa</button>${fs.length?`<p class="pxvistos"><i aria-hidden="true"><b style="width:${Math.round(vi/fs.length*100)}%"></b></i>Você já viu ${vi} de ${fs.length} fatos</p>`:''}</div>`;
+  return `${avisoFiltro()||'<p class="pxhint">Toque num tema para ver os fatos</p>'}${corpo}<div class="pxacao"><button class="pxsurpresa" data-surpresa="1">${IC.brilho}Fato surpresa</button>${fs.length?`<p class="pxvistos"><i aria-hidden="true"><b style="width:${Math.round(vi/fs.length*100)}%"></b></i>Você já viu ${vi} de ${fs.length} fatos</p>`:''}</div>`;
 }
-function vCmp(){
-  const x=v=>((Math.max(-6,Math.min(6,v))+6)/12*100).toFixed(1)+'%';
-  return `<p class="pxhint">Onde cada um fica em cada tema</p><p class="pxleg" aria-hidden="true"><span>← pior</span><span><span class="quem F">F</span>Flávio <span class="quem L">L</span>Lula</span><span>melhor →</span></p>`+ORDEM.map(t=>{const a=score('F',t),b=score('L',t);return `<button class="pxrow pxcrow" data-cmp="${t}" aria-label="${esc(TEMAS[t])}: Flávio ${nota(a)}, Lula ${nota(b)}"><b>${esc(TEMAS[t])}</b><span class="pxtrack"><span class="quem F${a.n?'':' nf'}" style="--x:${x(a.v)}">F</span><span class="quem L${b.n?'':' nf'}" style="--x:${x(b.v)}">L</span></span><small>Flávio ${nota(a)} · Lula ${nota(b)}</small></button>`;}).join('');
-}
-const PER=[['Antes de 2003',0,2002],['2003 a 2010 · Lula 1 e 2',2003,2010],['2011 a 2018 · Dilma e Temer',2011,2018],['2019 a 2022 · Bolsonaro',2019,2022],['2023 a 2026 · Lula 3',2023,2026]];
-const linhaTempo=()=>F.filter(f=>f.c==='BR'||st.c==='all'||f.c===st.c);
-function linha(f,attr){return `<li><button class="pxrow" ${attr}><span class="quem ${f.c}">${f.c}</span><span class="tx"><span class="${f.mk?'marco':''}">${esc(f.tit)}</span><small>${mes(f.d)}</small></span></button></li>`;}
+
+const PER=[[2023,2026,'Lula (terceiro mandato)'],[2019,2022,'Jair Bolsonaro'],[2011,2018,'Dilma Rousseff e Michel Temer'],[2007,2010,'Lula (segundo mandato)'],[2003,2006,'Lula (primeiro mandato)'],[1995,2002,'Fernando Henrique Cardoso'],[0,1994,'']];
+const anos=p=>p[0]?`${p[0]} a ${p[1]}`:'Antes de 1995';
+const noPer=(fs,p)=>fs.filter(f=>{const y=+f.d.slice(0,4);return y>=p[0]&&y<=p[1];});
+const linhaTempo=()=>daVez('tempo').filter(passa).sort((a,b)=>b.d.localeCompare(a.d));
 function vTempo(){
   const it=linhaTempo();
-  return PER.map(p=>{const fs=it.filter(f=>{const y=+f.d.slice(0,4);return y>=p[1]&&y<=p[2];});return fs.length?`<h2 class="pxper">${p[0]}</h2><ul class="pxtl">${fs.map(f=>linha(f,`data-tl="${f.id}"`)).join('')}</ul>`:'';}).join('')||'<p class="pxhint">Ainda não há fatos.</p>';
+  const blocos=PER.map((p,k)=>{
+    let ano='';
+    const fs=noPer(it,p);
+    return fs.length?`<section id="per${k}"><h2 class="pxper"><button data-pular="1" aria-haspopup="dialog"><span><b>${anos(p)}</b>${p[2]?` · Presidente: ${esc(p[2])}`:''}</span>${IC.baixo}</button></h2><ol class="tl">${fs.map(f=>{
+      const y=f.d.slice(0,4),novo=y!==ano;ano=y;
+      const data=(novo?`<b>${y}</b>`:'')+(f.d.length>4?`<small>${diaMes(f.d)}</small>`:novo?'':`<small>${y}</small>`);
+      return `<li><span class="qd" aria-hidden="true">${data}</span><span class="quem ${f.c}" aria-hidden="true">${f.c}</span><button class="it${f.mk?' marco':''}" data-tl="${f.id}" aria-label="${WHO[f.c]}, ${mes(f.d)}, ${TIPO[f.tipo][0]}: ${esc(f.tit)}"><small><b>${WHO[f.c]}${mandato(f)}</b><i style="--c:${TIPO[f.tipo][1]}"></i>${TIPO[f.tipo][0]}</small><span>${esc(f.tit)}</span></button></li>`;
+    }).join('')}</ol></section>`:'';
+  }).join('');
+  return blocos?`${avisoFiltro()||'<p class="pxhint">Do mais novo ao mais antigo</p>'}${blocos}`:`${avisoFiltro()}<p class="pxhint">Ainda não há fatos.</p>`;
 }
+function pular(){
+  const it=linhaTempo();
+  return `<h2 id="shT" tabindex="-1">Ir para o período</h2><div class="pxmenu">${PER.map((p,k)=>{const n=noPer(it,p).length;return n?`<button data-per="${k}"><span>${anos(p)}<small>${p[2]?`Presidente: ${esc(p[2])} · `:''}${plural(n,'fato')}</small></span>${IC.seta}</button>`:'';}).join('')}</div>`;
+}
+
+function linha(f,attr){return `<li><button class="pxrow" ${attr}><span class="quem ${f.c}">${f.c}</span><span class="tx"><span class="${f.mk?'marco':''}">${esc(f.tit)}</span><small>${mes(f.d)}</small></span></button></li>`;}
 let achadosFs=[];
 function achados(){
   const qn=norm(st.dq.trim());
@@ -86,13 +98,14 @@ function achados(){
   return (achadosFs.length?`<h2 class="pxh">Fatos</h2><ul class="pxtl">${achadosFs.map((f,i)=>linha(f,`data-busca="${i}"`)).join('')}</ul>`:'')+(ks.length?`<h2 class="pxh">${qn?'Palavras':'Palavras explicadas'}</h2>`+ks.map(k=>`<div class="pxrow"><span class="tx"><b>${esc(TERMS[k][0])}</b><small>${esc(plain(TERMS[k][1]))}</small></span></div>`).join(''):'')||'<p class="pxhint">Nada encontrado. Tente outra palavra.</p>';
 }
 const vDic=()=>`<input class="pxsearch" id="pxDq" type="search" placeholder="Buscar palavra ou assunto" value="${esc(st.dq)}" aria-label="Buscar palavras e fatos" autocomplete="off"><div id="pxDl" aria-live="polite">${achados()}</div>`;
-const VIEWS={mapa:[vMapa,'os temas'],cmp:[vCmp,'a comparação'],tempo:[vTempo,'a linha do tempo'],dic:[vDic,'a busca']};
+const VIEWS={mapa:[vMapa,'os temas'],tempo:[vTempo,'a linha do tempo'],dic:[vDic,'a busca']};
 function render(manter){
   const b=q('#pxBody'),y=b.scrollTop;
   b.innerHTML=VIEWS[st.v][0]();b.scrollTop=manter?y:0;
   root.querySelectorAll('.pxnav button').forEach(x=>x.setAttribute('aria-current',x.dataset.v===st.v));
   root.querySelectorAll('.pxseg button').forEach(x=>x.setAttribute('aria-pressed',x.dataset.c===st.c));
-  q('.pxseg').hidden=st.v==='cmp'||st.v==='dic';
+  q('.pxctl').hidden=st.v==='dic';
+  const fb=q('#pxFil');fb.classList.toggle('on',filtrado());fb.setAttribute('aria-label',filtrado()?'Filtrar. Mostrando só '+escolhidos():'Filtrar por tipo de fato');
   const di=q('#pxDq');if(di)di.addEventListener('input',e=>{st.dq=e.target.value;q('#pxDl').innerHTML=achados();});
 }
 
@@ -113,14 +126,19 @@ function proximoTema(){
   return seq.find(t=>doTema(t,S.c).some(f=>!vistos.has(f.id)))||seq.find(t=>doTema(t,S.c).length)||null;
 }
 function erro(f){return `mailto:contato@conhecercandidatos.com.br?subject=${encodeURIComponent('Apontar erro: '+f.id)}&body=${encodeURIComponent('Fato: '+f.tit+'\nO que está errado:\n')}`;}
+const mandato=f=>f.m?f.c==='L'?` (${MANDATO[f.m]})`:' · '+MANDATO[f.m]:'';
 function cartao(f){
-  const tp=TIPO[f.tipo],valor=f.c==='BR'?'marco do Brasil':f.w>0?`+${f.w} na nota`:f.w<0?`−${-f.w} na nota`:'não muda a nota';
-  return `<p class="stmeta"><span class="quem ${f.c}">${f.c}</span><span><b>${WHO[f.c]}</b>${f.m?' · '+MANDATO[f.m]:''} · ${mes(f.d)}</span></p><h2 id="stT" tabindex="-1">${esc(f.tit)}</h2><p class="txt">${rich(f.txt)}</p><p class="tipo" style="--c:${tp[1]}"><i aria-hidden="true"></i>${tp[0]}<small>· ${valor}</small></p><a class="fonte" href="${esc(f.link)}" target="_blank" rel="noopener">${IC.doc}<span>Ver a fonte<small>${esc(f.orgao)}${f.doc?', '+esc(f.doc):''}${f.arq?' · cópia arquivada':''}</small></span>${IC.sai}</a>${f.fontes.length?`<p class="stextra"><span>Também em ${f.fontes.map(x=>`<a href="${esc(x[1])}" target="_blank" rel="noopener">${esc(x[0])}</a>`).join(', ')}</span></p>`:''}<p class="stextra"><span>Conferido em ${esc(f.conf)}</span><a href="${erro(f)}">Apontar erro</a></p>`;
+  const tp=TIPO[f.tipo];
+  return `<p class="stmeta"><span class="quem ${f.c}">${f.c}</span><span><b>${WHO[f.c]}</b>${mandato(f)} · ${mes(f.d)}</span></p><h2 id="stT" tabindex="-1">${esc(f.tit)}</h2><p class="txt">${rich(f.txt)}</p><p class="tipo" style="--c:${tp[1]}"><i aria-hidden="true"></i>${tp[0]}<small>${tp[2]}</small></p><a class="fonte" href="${esc(f.link)}" target="_blank" rel="noopener">${IC.doc}<span>Ver a fonte<small>${esc(f.orgao)}${f.doc?', '+esc(f.doc):''}${f.arq?' · cópia arquivada':''}</small></span>${IC.sai}</a>${f.fontes.length?`<p class="stextra"><span>Também em ${f.fontes.map(x=>`<a href="${esc(x[1])}" target="_blank" rel="noopener">${esc(x[0])}</a>`).join(', ')}</span></p>`:''}<p class="stextra"><span>Conferido em ${esc(f.conf)}</span><a href="${erro(f)}">Apontar erro</a></p>`;
 }
 function fim(){
-  const t=S.t,cs=S.c==='all'?['F','L']:[S.c],outro=S.c==='F'?'L':S.c==='L'?'F':null,tudo=S.itens.length&&S.itens.every(f=>vistos.has(f.id));
-  const linhas=cs.map(c=>{const sc=score(c,t),n=F.filter(f=>f.c===c&&f.t===t).length;return `<div><span class="quem ${c}">${c}</span><span><b>${WHO[c]}</b><small>${n?plural(n,'fato'):'sem fatos ainda'}</small></span><em>${sc.n?sgn(sc.v):'—'}</em></div>`;}).join('');
-  return `<div class="fim"><p class="stmeta">${tudo?'Você viu todos os fatos deste tema':'Resumo'}</p><h2 id="stT" tabindex="-1">${esc(TEMAS[t])}: a nota</h2>${S.itens.length?'':'<p class="stleg">Ainda não há fatos aqui. O robô procura essa lacuna primeiro.</p>'}<div class="nota">${linhas}</div><p class="stleg">Fato positivo soma, problema tira. A mesma régua vale para os dois. <a href="como-funciona.html">Como funciona</a></p><div class="fimbtn">${outro?`<button data-outro="${outro}">Ver ${WHO[outro]} neste tema ${IC.seta}</button>`:''}<button data-fechar="1">Voltar aos temas ${IC.seta}</button></div></div>`;
+  const t=S.t,outro=S.c==='F'?'L':S.c==='L'?'F':null;
+  const cs=S.c==='all'?(ORDEM.indexOf(t)%2?['L','F']:['F','L']):[S.c];
+  const grupos=cs.map(c=>{
+    const fs=S.itens.map((f,i)=>[f,i]).filter(([f])=>f.c===c).sort((a,b)=>b[0].d.localeCompare(a[0].d));
+    return `<h3 class="rsh"><span class="quem ${c}">${c}</span><span><b>${WHO[c]}</b><small>${fs.length?plural(fs.length,'fato'):filtrado()?'nenhum fato destes tipos':'ainda sem fatos neste tema'}</small></span></h3>${fs.length?`<ul class="rs">${fs.map(([f,i])=>`<li><button data-ir="${i}"><i style="--c:${TIPO[f.tipo][1]}" aria-hidden="true"></i><span>${esc(f.tit)}<small>${TIPO[f.tipo][0]} · ${mes(f.d)}</small></span></button></li>`).join('')}</ul>`:''}`;
+  }).join('');
+  return `<div class="fim"><p class="stmeta">Resumo do tema${filtrado()?' · só '+esc(escolhidos()):''}</p><h2 id="stT" tabindex="-1">${esc(TEMAS[t])}</h2><p class="stleg">${S.itens.length?'Todos os fatos deste tema, do mais novo ao mais antigo. Toque num fato para abrir.':'Ainda não há fatos aqui. O robô procura essa lacuna primeiro.'}</p>${grupos}<div class="fimbtn">${outro?`<button data-outro="${outro}">Ver ${WHO[outro]} neste tema ${IC.seta}</button>`:''}<button data-fechar="1">Voltar aos temas ${IC.seta}</button></div></div>`;
 }
 function mostrar(dir){
   const n=S.itens.length,tot=n+(S.fim?1:0),f=S.itens[S.i];
@@ -130,6 +148,7 @@ function mostrar(dir){
   CARD.innerHTML=f?cartao(f):fim();CARD.scrollTop=0;
   if(f){vistos.add(f.id);guardar('cc-vistos',[...vistos]);}
   q('#stPrev').disabled=S.i===0;
+  q('#stRes').hidden=!(S.fim&&f);
   const prox=!f&&proximoTema();
   q('#stNext').textContent=f?(S.i<n-1?'Próximo':S.fim?'Ver o resumo':'Fechar'):prox?'Próximo: '+CURTO[prox]:'Fechar';
   say(f?`Fato ${S.i+1} de ${n}`:'Resumo do tema');
@@ -156,10 +175,10 @@ function dica(btn){
   d.innerHTML=`<b>${esc(t[0])}</b>${esc(plain(t[1]))}`;btn.closest('p').after(d);
 }
 function surpresa(){
-  const cs=(st.c==='all'?['F','L']:[st.c]).map(c=>[c,F.filter(f=>f.c===c&&f.t&&vistos.has(f.id)).length]).sort((a,b)=>a[1]-b[1]||Math.random()-.5).map(x=>x[0]);
+  const cs=(st.c==='all'?['F','L']:[st.c]).map(c=>[c,F.filter(f=>f.c===c&&f.t&&passa(f)&&vistos.has(f.id)).length]).sort((a,b)=>a[1]-b[1]||Math.random()-.5).map(x=>x[0]);
   const sorteia=p=>p[Math.floor(Math.random()*p.length)];
-  for(const c of cs){const p=F.filter(f=>f.c===c&&f.t&&!vistos.has(f.id));if(p.length){const f=sorteia(p);return abrirTema(f.t,st.c,f.id);}}
-  const p=F.filter(f=>f.t&&cs.includes(f.c));
+  for(const c of cs){const p=F.filter(f=>f.c===c&&f.t&&passa(f)&&!vistos.has(f.id));if(p.length){const f=sorteia(p);return abrirTema(f.t,st.c,f.id);}}
+  const p=F.filter(f=>f.t&&passa(f)&&cs.includes(f.c));
   if(p.length){const f=sorteia(p);abrirTema(f.t,st.c,f.id);}
 }
 
@@ -174,6 +193,22 @@ function fecharSheet(){
 }
 const fechar=()=>history.back();
 window.addEventListener('popstate',()=>{if(!SH.hidden)fecharSheet();else if(!ST.hidden)fecharStory();});
+
+function filtro(){
+  const base=daVez(st.v);
+  return `<h2 id="shT" tabindex="-1">Quais fatos mostrar?</h2><p>Toque para ligar ou desligar cada tipo.</p><div class="pxmenu">${TIPOS.map(k=>`<button data-tipo="${k}" aria-pressed="${st.tipos.has(k)}"><span class="tfil"><i style="--c:${TIPO[k][1]}" aria-hidden="true"></i><span>${TIPO[k][0]}<small>${TIPO[k][2]} · ${plural(base.filter(f=>f.tipo===k).length,'fato')}</small></span></span><i class="chave" aria-hidden="true"></i></button>`).join('')}</div><div class="fimbtn"><button data-todos="1">Mostrar todos</button><button class="prim" data-fechar="1">Pronto</button></div>`;
+}
+function todos(){
+  TIPOS.forEach(k=>st.tipos.add(k));
+  SH.querySelectorAll('[data-tipo]').forEach(b=>b.setAttribute('aria-pressed','true'));
+  render(true);say('Mostrando todos os tipos');
+}
+function trocaTipo(btn){
+  const k=btn.dataset.tipo;
+  if(st.tipos.has(k)&&st.tipos.size===1)return toast('Deixe pelo menos um tipo ligado.');
+  st.tipos.has(k)?st.tipos.delete(k):st.tipos.add(k);
+  btn.setAttribute('aria-pressed',st.tipos.has(k));render(true);
+}
 
 function partilhar(){
   const f=S&&S.itens[S.i],base=location.origin+'/';
@@ -230,15 +265,21 @@ root.addEventListener('click',e=>{
   if(t.id==='tNext'){if(ti===TS.length-1)return fecharTour();ti++;return tPasso();}
   if(t.id==='stNext')return avancar();
   if(t.id==='stPrev')return voltar();
+  if(t.id==='stRes'){S.i=S.itens.length;return mostrar(1);}
   if(t.id==='stClose'||d.fechar)return fechar();
   if(d.share)return partilhar();
   if(d.menu)return abrirSheet(menu());
+  if(d.filtro)return abrirSheet(filtro());
+  if(d.tipo)return trocaTipo(t);
+  if(d.todos)return todos();
+  if(d.pular)return abrirSheet(pular());
+  if(d.per){depois=()=>{const el=q('#per'+d.per);if(el){el.scrollIntoView({block:'start'});el.querySelector('button').focus({preventScroll:true});}};return fechar();}
   if(d.v){st.v=d.v;render();return say('Mostrando '+VIEWS[st.v][1]);}
   if(d.c){st.c=d.c;render();return say('Mostrando '+(st.c==='all'?'os dois':WHO[st.c]));}
   if(d.tema)return abrirTema(d.tema,st.c);
-  if(d.cmp)return abrirTema(d.cmp,'all');
   if(d.tl){const it=linhaTempo();return abrir({itens:it,onde:'Linha do tempo',fim:false},it.findIndex(f=>f.id===d.tl));}
   if(d.busca)return abrir({itens:achadosFs,onde:'Busca',fim:false},+d.busca);
+  if(d.ir){S.i=+d.ir;return mostrar(-1);}
   if(d.surpresa)return surpresa();
   if(d.term)return dica(t);
   if(d.outro)return abrirTema(S.t,d.outro);
