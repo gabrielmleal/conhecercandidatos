@@ -22,6 +22,12 @@ Peso 2: dado oficial, lei ou ato oficial com efeito direto, orçamento oficial, 
 
 Tipo e peso não entram no `confere`. O `tipo_proposto` e o `peso_proposto` são só a sugestão de quem escreveu. Dê o tipo e o peso que a tabela manda nos seus campos `tipo` e `peso`: o site usa os seus.
 
+## Para quem
+
+Em `para_quem`, liste os grupos que a frase ou os trechos dizem que são atingidos diretamente, para o bem ou para o mal: `aposentados` (aposentados e pensionistas), `clt` (trabalhadores com carteira), `informais` (autônomos e informais), `servidores` (servidores públicos), `policiais` (policiais e militares), `beneficiarios` (quem recebe benefício social), `estudantes`, `agro` (agricultores e agro), `empresas` (empresas e empreendedores) e `mulheres`.
+
+Marque só o grupo que o texto nomeia ou descreve por definição: "quem recebe o Bolsa Família" é `beneficiarios`; "aposentados do INSS" é `aposentados`. Renda, região ou idade sozinhas não bastam: "quem ganha até R$ 5 mil" não diz se é aposentado ou trabalhador com carteira. Lista vazia é a resposta certa quando o texto não diz. O `para_quem_proposto` é só a sugestão de quem escreveu, e `para_quem` não entra no `confere`.
+
 ## Definição de dicionário
 
 Confere quando explica o termo em palavra comum, em até 40 palavras, sem tomar lado. Use `"tipo": "definicao"` e `"peso": 0`.
@@ -31,7 +37,7 @@ Confere quando explica o termo em palavra comum, em até 40 palavras, sem tomar 
 Grave um arquivo JSON com uma lista, um objeto por item, na ordem do lote:
 
 ```json
-[{"rotulo": "F4821", "confere": true, "certeza": 0.95, "tipo": "problema", "peso": 2, "motivo": "até 25 palavras"}]
+[{"rotulo": "F4821", "confere": true, "certeza": 0.95, "tipo": "problema", "peso": 2, "para_quem": ["aposentados"], "motivo": "até 25 palavras"}]
 ```
 
 `confere` é `true` só quando você publicaria o título e a frase exatamente como estão. `certeza` vai de 0 a 1: use 0,9 ou mais quando não vê problema concreto, e abaixo disso só quando consegue apontar o problema no `motivo`. `tipo` e `peso` são os que VOCÊ daria, mesmo quando discorda do proposto.

@@ -66,6 +66,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,[tabindex]:focus-visibl
 .pxvistos{font-size:.8rem;color:var(--m-mut);display:flex;align-items:center;gap:8px}
 .pxvistos i{display:block;width:90px;height:6px;border-radius:3px;background:var(--m-s2);overflow:hidden}
 .pxvistos i b{display:block;height:100%;background:var(--m-ink);border-radius:3px}
+.pxtodos{display:inline-flex;align-items:center;gap:6px;border:0;background:none;color:var(--m-ink);font-weight:700;font-size:.92rem;min-height:44px;padding:0 12px;text-decoration:underline;text-underline-offset:3px}
 
 .pxrow{display:flex;align-items:center;gap:12px;width:100%;text-align:left;border:0;background:var(--m-s1);border-radius:14px;padding:12px 14px;margin-bottom:8px;min-height:56px}
 .pxrow:active{transform:scale(.99)}
@@ -186,6 +187,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,[tabindex]:focus-visibl
 .rs button>span{flex:1;min-width:0}
 .rs small{display:block;font-size:.78rem;color:var(--m-mut);margin-top:2px}
 .rs i{transform:translateY(-1px)}
+.rs .quem{flex:none;align-self:flex-start}
 .fimbtn{display:grid;gap:8px;margin-top:auto;padding-top:14px}
 .fimbtn button{display:flex;align-items:center;justify-content:space-between;border:0;border-radius:16px;background:var(--m-s2);padding:14px 16px;font-weight:700;font-size:1rem;min-height:56px;text-align:left}
 .fimbtn button.prim{background:var(--m-ink);color:var(--m-bg)}
