@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "promessa fiel ao trecho do plano registrado no TSE, p. 71",
+  "hash": "46ff3e242d2b6afabf95561ba2d3abf0df4e93ef78f6bca68c2892d9c8015fa5",
+  "em": "2026-10-12"
+ }
 }

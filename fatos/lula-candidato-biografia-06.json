@@ -95,5 +95,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "fundação do PT atribuída à Biblioteca da Presidência; filiação atual confirmada pelo Senado",
+  "hash": "b233dce6a1c5a32e72d409850f8eaf0124cff37545aafe4f37c9d4d394fcf4c1",
+  "em": "2026-10-12"
+ }
 }

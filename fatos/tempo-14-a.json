@@ -84,5 +84,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "Fiel à Agência Senado e ao texto da Lei 15.270; sem juízo nem pedido de voto.",
+  "hash": "fed6a9dd3c154d3df0b4d015a6201bd33c99eca13b56c192acc02b6921c0098f",
+  "em": "2026-10-12"
+ }
 }

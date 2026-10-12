@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "fiel ao texto do Decreto 10.004; sem juízo",
+  "hash": "00d1e24fd14fdf1697868fc327c71ea89dc68c6ab1a280b30dd857ee70378e01",
+  "em": "2026-10-12"
+ }
 }

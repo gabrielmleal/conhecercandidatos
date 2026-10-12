@@ -75,5 +75,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "data e tributos instituídos constam da ementa da LC 214 no Planalto",
+  "hash": "f9cc9c2b9b557db19782c83fe87373065e069987773e57e1e2ecd302a5b2d9af",
+  "em": "2026-10-12"
+ }
 }

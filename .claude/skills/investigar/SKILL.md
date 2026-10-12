@@ -11,6 +11,7 @@ Para cada item da fila que receber:
 2. Procure a âncora oficial na web. Leia a página com `python3 -I scripts/texto.py <link>` e copie dali o `trecho` literal; confira com `python3 -I scripts/texto.py <link> "<trecho>"`, que precisa responder `ACHOU`. Nunca escreva um trecho de memória.
 3. Se achar, grave `rascunhos/<id>.json`. Se não achar em 3 buscas, grave `rascunhos/sem-ancora/<id>.json` com `motivo`.
 4. Trate os dois candidatos com o mesmo esforço e o mesmo jeito de escrever.
+5. Acusação, investigação, prisão ou condenação: escreva no título ou na frase quem acusa e o desfecho conhecido até hoje (em andamento, arquivada, anulada, absolvição, pena cumprida), e ponha a fonte do desfecho em `fontes`, com trecho. Condenação anulada nunca aparece só como condenação. Acusação sem julgamento final termina com "Investigação não é condenação."
 
 Formato do rascunho:
 

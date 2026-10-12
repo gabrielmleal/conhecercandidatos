@@ -84,5 +84,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "fiel à âncora e à fonte do Banco Central; sem acusação, juízo ou pesquisa",
+  "hash": "05cac438a39590a746c2c4ef7e9f5715a5fa7fd950b2df8e10fa0c6ec2318f95",
+  "em": "2026-10-12"
+ }
 }

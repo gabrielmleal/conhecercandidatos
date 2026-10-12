@@ -84,5 +84,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "dado do Inpe citado pelo TCU, fiel ao trecho; sem acusação nem juízo",
+  "hash": "f445aa077cd0cebed20875a7da36e65cfc1271ffaa572865c831ab22d0e06b2c",
+  "em": "2026-10-12"
+ }
 }

@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "promessa fiel ao trecho da p. 42; \"combate às fraudes\" é palavra do plano, atribuída a ele",
+  "hash": "b9e78304951129f38456f367cc7dafb695aa92a1fe0a50f6827875ddcf2672e4",
+  "em": "2026-10-12"
+ }
 }

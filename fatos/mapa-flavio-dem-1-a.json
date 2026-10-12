@@ -84,5 +84,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "sugestão: dizer que a condenação transitou em julgado em 25/11/2025; a pena segue 27 anos e 3 meses, com a Lei da Dosimetria suspensa por Moraes.",
+  "hash": "655977505baac1907e342fe548586e38029a828f84d1d5703728391edc72e730",
+  "em": "2026-10-12"
+ }
 }

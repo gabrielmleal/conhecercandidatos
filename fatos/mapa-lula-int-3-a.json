@@ -84,5 +84,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "Proposta fiel ao G1 e ao Terra (DW), sem juízo nem recomendação.",
+  "hash": "7ed953093e644fccf4a66147bb53d8adcdb0f80e0be1eee6f8615a88f80b206f",
+  "em": "2026-10-12"
+ }
 }

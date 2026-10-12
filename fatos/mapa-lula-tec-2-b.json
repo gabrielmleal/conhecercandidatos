@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "estimativa atribuída ao governo, valores e anos fiéis ao trecho",
+  "hash": "27c2c3c188f5f931f872544a90bdfa6ff6b1091b71e22539e19dff24aae7872c",
+  "em": "2026-10-12"
+ }
 }

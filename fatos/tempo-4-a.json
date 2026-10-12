@@ -84,5 +84,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "fiel ao texto da Lei 13.979/2020; sem juízo",
+  "hash": "1283d38a857b9b6c864bb9d7858e30a7bcc11d6124c4dceca0574ae713f6c733",
+  "em": "2026-10-12"
+ }
 }

@@ -88,5 +88,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "cargos e anos do sindicato fiéis ao trecho da Presidência; sem juízo",
+  "hash": "13cd8f39e5eecdbf992583e41538887e9dd1071c0bad04f9eee5797351939fe0",
+  "em": "2026-10-12"
+ }
 }

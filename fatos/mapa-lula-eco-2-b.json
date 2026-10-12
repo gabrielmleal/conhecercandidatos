@@ -83,5 +83,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "dado do IBGE fiel ao trecho, sem acusação nem juízo",
+  "hash": "f8e83deaefa6b9e4ed21c1a89447653c629219b069f0d2a660bf4d7cfe119b3d",
+  "em": "2026-10-12"
+ }
 }

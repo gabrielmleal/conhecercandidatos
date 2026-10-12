@@ -1,6 +1,6 @@
 # Lista de checagem da lei
 
-Leitura feita pelo Claude em 11/10/2026, antes de o site abrir. Não é parecer de advogado. Cada item traz o artigo, o que o site faz e como conferir.
+Leitura feita pelo Claude em 11/10/2026, antes de o site abrir, e revista em 12/10/2026. Não é parecer de advogado. Cada item traz o artigo, o que o site faz e como conferir.
 
 | # | Regra | Artigo | O que o site faz | Como conferir | Passou |
 |---|---|---|---|---|---|
@@ -8,11 +8,17 @@ Leitura feita pelo Claude em 11/10/2026, antes de o site abrir. Não é parecer 
 | 2 | Pessoa natural pode manter site sem comunicar à Justiça Eleitoral, desde que não pague impulsionamento | Lei 9.504/1997, art. 57-B, IV, b, e §1º | Nenhum impulsionamento pago | Conta da Cloudflare e do GitHub sem cobrança | sim |
 | 3 | Propaganda paga na internet é proibida | Lei 9.504/1997, art. 57-C | Não aceita dinheiro, não tem anúncio | "Como funciona", seção "O que este site não faz" | sim |
 | 4 | Anonimato é proibido na campanha | Lei 9.504/1997, art. 57-D | Responsável e contato@ no "Como funciona"; contato@ também em "Apontar erro", em todo fato | `grep -c "Gabriel Martins Leal" site/como-funciona.html` | sim |
-| 5 | Conteúdo feito com IA precisa de aviso | Res. TSE 23.755/2026, art. 9º-B | "Feito com IA, pode conter erros" no topo de toda página | `scripts/conferir.py`, linha "páginas sem o aviso de IA: 0" | sim |
-| 6 | IA aberta ao público não pode recomendar voto | Res. TSE 23.755/2026, art. 28, §1º-C | O site não tem conversa com IA; nenhum texto pede voto | `scripts/conferir.py`, linha "textos que pedem voto: 0" | sim |
-| 7 | Conteúdo sintético com imagem ou voz de candidato é proibido de 72 horas antes a 24 horas depois da votação | Res. TSE 23.755/2026, art. 9º-B, §3º-A | Não usa imagem nem voz de candidato; por escolha própria, não publica nada novo de 22/10 17h a 26/10 17h | `scripts/publicar.sh` recusa nessa janela | sim |
+| 5 | Conteúdo feito com IA precisa de aviso | Res. TSE 23.610/2019, art. 9º-B | "Feito com IA, pode conter erros" no topo de toda página | `scripts/conferir.py`, linha "páginas sem o aviso de IA: 0" | sim |
+| 6 | IA aberta ao público não pode recomendar voto | Res. TSE 23.610/2019, art. 28, §1º-C | O site não tem conversa com IA; nenhum texto pede voto | `scripts/conferir.py`, linha "textos que pedem voto: 0" | sim |
+| 7 | Conteúdo sintético com imagem ou voz de candidato é proibido de 72 horas antes a 24 horas depois da votação | Res. TSE 23.610/2019, art. 9º-B, §3º-A | Não usa imagem nem voz de candidato; por escolha própria, não publica nada novo de 22/10 17h a 26/10 17h | `scripts/silencio.py` recusa nessa janela, em `scripts/publicar.sh` e no portão de todo pedido de mudança | sim |
 | 8 | Pesquisa eleitoral só pode ser divulgada com registro | Lei 9.504/1997, art. 33 | Nenhuma pesquisa eleitoral entra | `scripts/conferir.py`, linha "fatos com pesquisa eleitoral: 0" | sim |
 | 9 | Direito de resposta | Lei 9.504/1997, art. 57-D e art. 58 | "Apontar erro" em todo fato e contato@ no "Como funciona"; o fato é reconferido na rodada seguinte e a correção aparece em "O que mudou" | `site/o-que-mudou.html` | sim |
 | 10 | Fato ofensivo sem prova expõe quem mantém o site | Constituição, art. 5º, IV e V | Todo fato que conta na nota chega a um documento oficial ou a dois veículos; investigação sem julgamento termina com "Investigação não é condenação." | `scripts/conferir.py`, linha "sem âncora oficial ou dupla: 0"; óticas, `referencias/comum.md` | sim |
+| 11 | Fato sabidamente inverídico ou fora de contexto é crime e pode ser removido | Código Eleitoral, art. 323; Res. TSE 23.610/2019, art. 9º-C | Quando uma acusação, prisão ou condenação teve depois um desfecho a favor da pessoa, como arquivamento, anulação ou absolvição, o mesmo fato diz isso | `scripts/juridico.py`, linha "acusações sem desfecho nem \"Investigação não é condenação.\": 0", e item 1 da revisão jurídica | sim |
+| 12 | Calúnia, difamação e injúria valem também na campanha; contra o Presidente da República não cabe prova da verdade | Código Eleitoral, arts. 324, 325 e 326 | Toda acusação diz quem acusa; nenhum adjetivo de juízo | Itens 3 e 5 da revisão jurídica; caixa 6, `dados/palavras-carregadas.txt` | sim |
+| 13 | Publicar conteúdo novo na internet no dia da eleição é crime | Lei 9.504/1997, art. 39, §5º, IV | Nada novo de 22/10 17h a 26/10 17h; a rotina do robô para em 22/10 17h | `scripts/silencio.py` | sim |
+| 14 | Revisão jurídica em todo pedido de mudança | Arts. 323 a 326 do Código Eleitoral e itens 1 a 13 | Cada fato novo ou mudado e cada texto fixo do site passa pela lista `.claude/skills/juridico/referencias/checklist.md`; o carimbo fica ligado ao texto exato | `scripts/juridico.py`, linhas "fatos sem revisão jurídica válida: 0" e "textos fixos do site com revisão jurídica válida: sim" | sim |
+| 15 | Nada vai ao ar sem uma pessoa aprovar | Cuidado do responsável, que responde pelo que publica | O robô só abre o pedido de mudança; o merge é sempre do Gabriel | `grep -c "gh pr merge" scripts/publicar.sh` devolve 0 | sim |
+| 16 | Fato não provado não fica público | Código Eleitoral, art. 323 | `fila/` e `quarentena/` ficam fora do repositório; "O que mudou" mostra só a contagem de fatos recusados | `git ls-files fila quarentena` devolve vazio | sim |
 
-Fontes: texto da Lei 9.504/1997 em planalto.gov.br/ccivil_03/leis/l9504.htm, lido em 11/10/2026; resoluções do TSE conferidas no plano do projeto em 11/10/2026.
+Fontes: texto da Lei 9.504/1997 em planalto.gov.br/ccivil_03/leis/l9504.htm, lido em 11/10/2026; Res. TSE 23.610/2019 compilada, com as Res. 23.732/2024 e 23.755/2026, em tse.jus.br, e Código Eleitoral (Lei 4.737/1965) em planalto.gov.br, lidos em 12/10/2026.

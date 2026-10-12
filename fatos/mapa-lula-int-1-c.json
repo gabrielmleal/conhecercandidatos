@@ -83,5 +83,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "data de encerramento e teor do acordo estão no trecho da ONU",
+  "hash": "1037065fd2a8a8c9647e1fdcf6a5e5550e5bbc7ab0c00e6b7533bf684d852ede",
+  "em": "2026-10-12"
+ }
 }

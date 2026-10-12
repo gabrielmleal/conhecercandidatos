@@ -84,5 +84,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "ok: o próprio fato é o desfecho favorável a Moraes; opcional: 'aplicada a ele em 30 de julho de 2025', pois a esposa entrou em 22/09/2025.",
+  "hash": "eb24d2b2377c00b7251c29ebf81858d0f95ab2945759cb35542422ce899378b1",
+  "em": "2026-10-12"
+ }
 }

@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "fiel ao trecho da p. 37 do plano registrado no TSE, sem juízo",
+  "hash": "e30db4f9f2a41b86e0dc092c4419d0daede08d2397d1f766c433c47b4a8daf6e",
+  "em": "2026-10-12"
+ }
 }

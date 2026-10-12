@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "fiel ao texto da Lei 14.818, sem acusação nem juízo",
+  "hash": "a25a5ebf528b53513a99a072a4ccdd3679abbde85b4690bb8c6e4355dec183eb",
+  "em": "2026-10-12"
+ }
 }

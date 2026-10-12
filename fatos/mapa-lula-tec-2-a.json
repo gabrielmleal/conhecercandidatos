@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "sanção e objeto da Lei 15.504 fiéis ao trecho da Agência Senado",
+  "hash": "4516c4017a24fd355c246e4f7da8e83fd2bdfe1fa62541857accf0cad83e5c44",
+  "em": "2026-10-12"
+ }
 }

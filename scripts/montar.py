@@ -113,9 +113,9 @@ def pagina_fato(fato, temas):
 
 def o_que_mudou(mudancas, descartados):
     linhas = "".join(f"<li><b>{data_br(m['data'])}</b>: {html.escape(m['titulo'])}. {html.escape(m['o_que'])} Motivo: {html.escape(m['motivo'])}</li>" for m in mudancas) or "<li>Nada mudou desde a abertura do site.</li>"
-    fora = "".join(f"<li>{html.escape(d['titulo'])}: {html.escape(d['motivo'])}</li>" for d in descartados) or "<li>Nenhum fato descartado até agora.</li>"
-    corpo = f"<h1>O que mudou</h1><p>Fatos corrigidos ou retirados, com data e motivo.</p><h2>Correções e retiradas</h2><ul>{linhas}</ul><h2>Fatos recusados depois de 7 dias em quarentena</h2><ul>{fora}</ul>"
-    return pagina("O que mudou", corpo, "Fatos corrigidos, retirados e recusados, com data e motivo.")
+    fora = f"Fatos recusados até agora: {len(descartados)}. Fato recusado não aparece no site." if descartados else "Nenhum fato recusado até agora."
+    corpo = f"<h1>O que mudou</h1><p>Fatos corrigidos ou retirados, com data e motivo.</p><h2>Correções e retiradas</h2><ul>{linhas}</ul><h2>Fatos recusados</h2><p>{fora}</p>"
+    return pagina("O que mudou", corpo, "Fatos corrigidos ou retirados, com data e motivo, e quantos foram recusados.")
 
 
 def montar():

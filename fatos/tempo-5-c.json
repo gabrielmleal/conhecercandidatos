@@ -6,10 +6,10 @@
  "subtema": "epidemias",
  "lente": "fez",
  "data": "2021-10-26",
- "titulo": "CPI da Pandemia aprova relatório que recomenda indiciar Bolsonaro por nove infrações",
- "frase": "Em 2021, o relatório final da CPI da Pandemia, aprovado por sete votos a quatro, recomendou o indiciamento de Jair Bolsonaro por nove infrações. Investigação não é condenação.",
- "tipo": "problema",
- "peso": 1,
+ "titulo": "CPI da Pandemia recomenda indiciar Jair Bolsonaro por nove infrações; o STF arquivou duas investigações",
+ "frase": "A CPI recomendou indiciar o então presidente Jair Bolsonaro por nove infrações. Para a PGR, não foi apontado crime, e o STF arquivou duas investigações. Investigação não é condenação.",
+ "tipo": "polemico",
+ "peso": 0,
  "marco": true,
  "ancora": {
   "orgao": "Senado Federal",
@@ -29,8 +29,16 @@
    "nivel": "A",
    "link": "https://www12.senado.leg.br/noticias/materias/2021/10/20/com-nove-crimes-atribuidos-a-bolsonaro-relatorio-da-cpi-e-oficialmente-apresentado",
    "trecho": "20/10/2021, 14h25 Após quase seis meses de trabalho, o senador Renan Calheiros (MDB-AL) apresentou oficialmente, nesta quarta-feira (20), seu relatório à CPI da Pandemia."
+  },
+  {
+   "veiculo": "Agência Brasil",
+   "nivel": "C",
+   "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2023-03/dias-toffoli-arquiva-investigacoes-contra-bolsonaro",
+   "trecho": "O ministro Dias Toffoli, do Supremo Tribunal Federal (STF), arquivou na terça-feira (28) duas frentes de investigação contra o ex-presidente Jair Bolsonaro, abertas em decorrência do relatório final da Comissão Parlamentar de Inquérito (CPI) da Pandemia. Toffoli atendeu a pedido da Procuradoria-Geral da República (PGR), de julho de 2022, para quem não foi apontada a materialidade de nenhum crime praticado por Bolsonaro."
   }
  ],
+ "versao": 2,
+ "publicado_em": "2026-10-12",
  "caixas": {
   "1": true,
   "2": true,
@@ -40,55 +48,65 @@
   "6": true,
   "7": true,
   "8": true,
-  "9": true
+  "9": true,
+  "10": true
  },
  "copias": {
-  "https://www12.senado.leg.br/noticias/materias/2021/10/26/apos-seis-meses-cpi-da-pandemia-e-encerrada-com-80-pedidos-de-indiciamento": "http://web.archive.org/web/20261011164440/https://www12.senado.leg.br/noticias/materias/2021/10/26/apos-seis-meses-cpi-da-pandemia-e-encerrada-com-80-pedidos-de-indiciamento",
-  "https://www12.senado.leg.br/noticias/materias/2021/10/20/com-nove-crimes-atribuidos-a-bolsonaro-relatorio-da-cpi-e-oficialmente-apresentado": null
+  "https://www12.senado.leg.br/noticias/materias/2021/10/26/apos-seis-meses-cpi-da-pandemia-e-encerrada-com-80-pedidos-de-indiciamento": null,
+  "https://www12.senado.leg.br/noticias/materias/2021/10/20/com-nove-crimes-atribuidos-a-bolsonaro-relatorio-da-cpi-e-oficialmente-apresentado": null,
+  "https://agenciabrasil.ebc.com.br/justica/noticia/2023-03/dias-toffoli-arquiva-investigacoes-contra-bolsonaro": null
  },
  "hash": "fe3ae2592f26467d75636ad7802ff25e10cecf193baf3f44d52d9b30ac26d045",
- "provado_em": "2026-10-11",
+ "provado_em": "2026-10-12",
  "revisao": {
   "favor": {
-   "rotulo": "F2665",
+   "rotulo": "F7754",
    "confere": true,
-   "certeza": 0.92,
-   "tipo": "problema",
-   "peso": 1,
-   "motivo": "Placar e nove infrações batem com o trecho; CPI é investigação formal sem julgamento e a ressalva está no fim."
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Texto fiel aos trechos e traz o arquivamento pelo STF a pedido da PGR. Caso arquivado é polemico, não problema; peso 1 seria injusto."
   },
   "contra": {
-   "rotulo": "F2665",
+   "rotulo": "F7754",
    "confere": true,
-   "certeza": 0.93,
-   "tipo": "problema",
-   "peso": 1,
-   "motivo": "Placar de sete a quatro e nove infrações batem com o trecho; investigação formal sem julgamento, com a ressalva."
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Recomendação de nove infrações, posição da PGR e arquivamento de duas frentes estão nos trechos; caso arquivado vira polêmico, peso 0."
   },
   "neutra": {
-   "rotulo": "F2665",
+   "rotulo": "F7754",
    "confere": true,
-   "certeza": 0.92,
-   "tipo": "problema",
-   "peso": 1,
-   "motivo": "Placar 7 a 4 e nove infrações batem; recomendação de CPI é investigação formal sem julgamento."
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Frase fiel aos trechos: CPI acusa, PGR não viu crime, STF arquivou. Caso arquivado é polêmico, peso 0, não problema."
   },
   "modelo": "opus",
-  "rodada": "20261011-1433",
+  "rodada": "20261012-1657",
   "verificador": {
-   "rotulo": "F2665",
+   "rotulo": "F7754",
    "sustenta": true,
-   "motivo": "Relatório de ano A, placar de sete a quatro e indiciamento de Pessoa G por nove infrações constam dos trechos."
+   "motivo": "Parecer aprovado por 7 a 4 recomenda nove infrações; PGR não viu materialidade de crime; ministro do STF arquivou duas frentes de investigação."
   },
   "espelho": {
-   "rotulo": "F2665",
-   "tipo": "problema",
-   "peso": 1,
-   "motivo": "Relatório aprovado da CPI recomenda indiciamento por nove infrações; investigação formal sem julgamento."
+   "rotulo": "F7754",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Recomendação de indiciamento pela CPI; PGR não viu crime e o STF arquivou duas investigações."
   }
  },
+ "juridica": {
+  "ok": true,
+  "motivo": "sugestão: em setembro de 2025, o ministro Flávio Dino (STF) atendeu a PF e abriu inquérito sobre os crimes apontados pela CPI contra Jair Bolsonaro; vale acrescentar.",
+  "hash": "19bbb2d573c52d40a057e97c418d878d903e553cffb54ac0d558244a34baced0",
+  "em": "2026-10-12"
+ },
+ "para_quem": [],
  "conferido_em": "2026-10-12",
- "reavaliar_em": "2026-10-19",
- "versao": 1,
- "publicado_em": "2026-10-12"
+ "reavaliar_em": "2026-10-19"
 }

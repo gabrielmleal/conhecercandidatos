@@ -121,5 +121,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "quatro mandatos e mandato de senador 2019-2027 fiéis às fontes do Senado e da ALERJ",
+  "hash": "a742d36021d9bfa09846b22802e23f7ef0dc41426823f9a3ea13d4a05ca6cf44",
+  "em": "2026-10-12"
+ }
 }

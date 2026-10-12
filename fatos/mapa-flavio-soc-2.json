@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "atribuído à ONU Brasil; datas e causas conferidas na página da ONU; sem acusação a pessoa",
+  "hash": "c8834fc99ac4a97b2a2116f4687b6c1a4a52f099c800871da68b8e3307bc0f61",
+  "em": "2026-10-12"
+ }
 }

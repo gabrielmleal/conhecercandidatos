@@ -91,5 +91,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "ok; fiel às fontes da Câmara e do Senado, sem nomear culpados, e termina com a frase de presunção de inocência.",
+  "hash": "3eb29d50c6fab4927469d631c906f121da128836b812633d22edeaa00f68930c",
+  "em": "2026-10-12"
+ }
 }

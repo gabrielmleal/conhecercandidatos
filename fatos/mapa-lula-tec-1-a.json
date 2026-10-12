@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "valores e prazo atribuídos ao MCTI, fiéis ao trecho",
+  "hash": "e9d06a7b9f3757a02129ec09a7122e04115da9e44ba4b859ce0861d8f78e9280",
+  "em": "2026-10-12"
+ }
 }

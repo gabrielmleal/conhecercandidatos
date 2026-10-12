@@ -19,6 +19,7 @@ Peso 2: dado oficial, lei ou ato oficial com efeito direto, orçamento oficial, 
 - A `frase` e o `titulo` dizem só o que os `trechos` dizem. Nenhum número, data ou causa a mais.
 - O `documento` é o nome da fonte. Ele apoia o nome do programa, da série, da comissão ou do plano citado na frase. Número, data e causa só valem se estiverem nos `trechos`. Cada trecho começa com quem o publicou ("Câmara dos Deputados: ..."); esse nome apoia a atribuição na frase.
 - Nenhum adjetivo de juízo. Acusação sem julgamento termina com "Investigação não é condenação."
+- Acusação, investigação, prisão ou condenação diz no próprio texto quem acusa e o desfecho conhecido (em andamento, arquivada, anulada, absolvição). Sem isso, não confere.
 
 Tipo e peso não entram no `confere`. O `tipo_proposto` e o `peso_proposto` são só a sugestão de quem escreveu. Dê o tipo e o peso que a tabela manda nos seus campos `tipo` e `peso`: o site usa os seus.
 

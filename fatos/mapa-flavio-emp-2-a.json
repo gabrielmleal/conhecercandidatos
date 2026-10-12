@@ -83,5 +83,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "Fiel ao texto e ao cabeçalho da Lei Complementar 179/2021.",
+  "hash": "6f5f43cf3137db2520a65d43dad1722fd9b779ad7d964090678d73267f897b77",
+  "em": "2026-10-12"
+ }
 }

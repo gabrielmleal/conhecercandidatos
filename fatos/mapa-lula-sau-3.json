@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "Número do boletim oficial, atribuído ao Ministério da Saúde, sem culpa atribuída a ninguém.",
+  "hash": "1db3da2da7ae93ca0482716a2770b1d470e6254af0211916639d19951c9362bc",
+  "em": "2026-10-12"
+ }
 }

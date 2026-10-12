@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "ok: dado oficial do Ministério da Saúde citado fielmente, sem causa nem culpa atribuída.",
+  "hash": "21da3ad07cf3300b468f8e0d3db35e439ff7c0ed7ac3846b67298d52b124da1e",
+  "em": "2026-10-12"
+ }
 }

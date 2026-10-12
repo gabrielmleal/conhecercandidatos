@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "Promessa de programa registrado no TSE; título e frase fiéis ao trecho da p. 16.",
+  "hash": "ee0a275cbfcb4f8fdb11d524039eb443d43046e96b678c8a3472d8f3d34b3657",
+  "em": "2026-10-12"
+ }
 }

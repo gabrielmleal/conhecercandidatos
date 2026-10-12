@@ -104,5 +104,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "Atribuído à PF, com o 'possível' da fonte e o aviso final; a investigação segue em andamento sob sigilo, como diz o título.",
+  "hash": "d571b008181935be7d8b157dc77da162c712aef767b338e16d92c5c7445de2be",
+  "em": "2026-10-12"
+ }
 }

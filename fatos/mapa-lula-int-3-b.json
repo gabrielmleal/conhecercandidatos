@@ -96,5 +96,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "Fiel à Gazeta do Povo e ao G1, sem juízo.",
+  "hash": "c05dd123eea9b488fb6b95088e2c738fc81b8fdf474cf6bcb93cf7e1d8af3b7f",
+  "em": "2026-10-12"
+ }
 }

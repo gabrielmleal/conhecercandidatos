@@ -83,5 +83,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "data e valores fiéis ao cabeçalho e ao art. 4º da Lei 14.601",
+  "hash": "c33eff786b69c5b6646ce0829b6abf23b15c3a334816e5575415213a260d33d5",
+  "em": "2026-10-12"
+ }
 }

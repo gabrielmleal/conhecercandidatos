@@ -84,5 +84,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "data, alíquota e base legal estão no comunicado do USTR",
+  "hash": "0a029c3c4b07d6b6afe284c01af62e12eb2aab16b8eaa938fdbb5c95238715fb",
+  "em": "2026-10-12"
+ }
 }

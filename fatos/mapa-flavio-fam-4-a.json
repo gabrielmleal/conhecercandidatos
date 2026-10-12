@@ -84,5 +84,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "Fiel ao trecho da Agência Senado; Gaspar é deputado federal; sem acusação nem juízo.",
+  "hash": "d7163c14f7621dc03321c4fe72a3ca510b6e7cdebce086e26e36fe840d874bf1",
+  "em": "2026-10-12"
+ }
 }

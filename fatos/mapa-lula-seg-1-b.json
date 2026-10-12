@@ -83,5 +83,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "sem acusação; título e frase fiéis ao trecho e à fonte da Agência Senado, com data explícita na frase",
+  "hash": "09101331fe68d9dbb7b7e1aef2cd48dcc4061d3fbd4f7c241b50f94404c6910d",
+  "em": "2026-10-12"
+ }
 }

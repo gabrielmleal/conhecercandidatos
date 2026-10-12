@@ -83,5 +83,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "data do segundo turno fiel à Agência Senado; neutro",
+  "hash": "c340c5827b41c7bb10251a410c1f0d83a253abcc3aacd5e1f3b7a1c1ca0a0df1",
+  "em": "2026-10-12"
+ }
 }

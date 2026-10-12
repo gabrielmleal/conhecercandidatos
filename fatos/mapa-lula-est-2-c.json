@@ -83,5 +83,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "sugestão: em julho e agosto de 2026 o STF autorizou a PF a abrir três inquéritos sobre o filho de Lula.",
+  "hash": "6c75cf652e1e544e4090fcbd46220b53a66bb94fa784ca18c7ff5b3d284a2eba",
+  "em": "2026-10-12"
+ }
 }

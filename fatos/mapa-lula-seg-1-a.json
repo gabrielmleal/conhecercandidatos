@@ -84,5 +84,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "Placar e envio em abril de 2025 conferem com a Câmara e a Agência Senado.",
+  "hash": "ca0e579bb879a7fdde117142484aff516d5e90c4e7643e8d0c3d964500d7e19a",
+  "em": "2026-10-12"
+ }
 }

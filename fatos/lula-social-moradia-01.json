@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "Promessa do plano registrado no TSE, p. 45; título e frase fiéis ao trecho, sem juízo nem acusação; item 1 não se aplica a promessa.",
+  "hash": "11eb5d00758b8d52b2bce54b4a3314a91a5b8f62861da1ebb310d456f29dc0c4",
+  "em": "2026-10-12"
+ }
 }

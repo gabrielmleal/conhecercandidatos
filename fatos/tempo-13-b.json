@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "Liquidação é ato administrativo do BC, fiel ao trecho; não acusa nenhuma pessoa.",
+  "hash": "9a928565ca7e89791f27a01a1640088e82db730fd05478c61f089a089d2488fc",
+  "em": "2026-10-12"
+ }
 }

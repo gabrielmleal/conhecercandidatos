@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "promessa fiel ao trecho; o efeito sobre o déficit fica atribuído ao próprio programa",
+  "hash": "692876dd20577ed5191bf5a8e556fcb4024ef5f7adffacd2857c7c0ba5391ad8",
+  "em": "2026-10-12"
+ }
 }

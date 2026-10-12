@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "resultado oficial de apuração, não pesquisa; números fiéis à Agência Senado; neutro",
+  "hash": "2cf8bc817bf46b9a615db10147caf6cc469ae66546c787f70aba06b9097a0ea6",
+  "em": "2026-10-12"
+ }
 }

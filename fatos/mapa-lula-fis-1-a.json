@@ -84,5 +84,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "82,9% do PIB e alta de 0,3 p.p. estão na nota do Banco Central, atribuída",
+  "hash": "19db1a319897b848cb18c77cdcb01b8db670343025ae2f6fec809da116808ef3",
+  "em": "2026-10-12"
+ }
 }

@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "sugestão: em setembro de 2025 o ministro Flávio Dino mandou a PF abrir inquérito sobre as conclusões do relatório final da CPI da Pandemia.",
+  "hash": "60550472c5e5f6914aaa465ef7f1ddd2a36a226f8552eeb9407063de3e7956a5",
+  "em": "2026-10-12"
+ }
 }

@@ -89,5 +89,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "Fiel ao Projeto de Resolução 1067/2005 da Alerj; Adriano é citado direto em documento oficial e o texto não lhe atribui crime.",
+  "hash": "6e6f79feb531bcf9cfbf371e026312d9fdedd11b19986374ddc2ab6418a1c9e1",
+  "em": "2026-10-12"
+ }
 }

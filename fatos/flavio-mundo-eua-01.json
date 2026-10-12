@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "diagnóstico atribuído ao plano (\"diz que\"), fiel ao trecho da p. 62; \"desgaste\" no título é mais brando que o original",
+  "hash": "8925c97332eaa0f81e96e317f7f0209e3ef29028f9e379ecf4140ff2f4839d83",
+  "em": "2026-10-12"
+ }
 }

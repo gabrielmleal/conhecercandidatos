@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "Fiel ao trecho da Casa Branca; sem acusação nem juízo.",
+  "hash": "1a2e4ea211327333387e3a68811b0263e6031785e40cc33d6f3f27e11980af9f",
+  "em": "2026-10-12"
+ }
 }

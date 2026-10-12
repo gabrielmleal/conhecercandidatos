@@ -84,5 +84,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "Fiel à Comissão Europeia e ao Parlamento Europeu, inclusive a assinatura em Assunção.",
+  "hash": "46477df4328271bf6315b502acbd29e4863ced47af29773ee1e4970e9cdd100d",
+  "em": "2026-10-12"
+ }
 }

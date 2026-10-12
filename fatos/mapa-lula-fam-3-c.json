@@ -83,5 +83,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "número, data e tributação mínima constam do texto da lei no Planalto; sem juízo",
+  "hash": "d4c7e763ddd94b853deaf414778bebc346521a381fad3d41ba5e36f11d6dbb87",
+  "em": "2026-10-12"
+ }
 }

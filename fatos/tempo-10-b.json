@@ -84,5 +84,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "Não acusa Lupi; data e ligação com a operação da PF fiéis ao trecho da Agência Senado.",
+  "hash": "bd5c41d889063a59f3922b79fa713c37a8d341de6ba53854621622998a2c2df2",
+  "em": "2026-10-12"
+ }
 }

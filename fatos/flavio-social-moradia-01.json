@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "promessa fiel ao trecho da p. 47; meta de 2,5 milhões está no trecho",
+  "hash": "c02163def3dc935ae1413907c58dceb370e6be4be59ecfa0df831de36ece3bc4",
+  "em": "2026-10-12"
+ }
 }
