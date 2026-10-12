@@ -95,5 +95,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "dado biográfico público; a frase expõe as duas datas com a fonte de cada uma",
+  "hash": "317176fb516be644ccc865cefd91229dcfd99de47038214e406fd4505c7d6087",
+  "em": "2026-10-12"
+ }
 }

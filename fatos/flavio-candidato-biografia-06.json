@@ -88,5 +88,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "filiação ao PL desde 30/11/2021 fiel aos dados abertos do Senado; notícia de 04/10/2026 confirma PL",
+  "hash": "65366185c11a08702ae02f0c9bf3cfd743a21c14af502488dc2bff042d7923c6",
+  "em": "2026-10-12"
+ }
 }

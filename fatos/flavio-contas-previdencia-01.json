@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "promessa fiel ao trecho do plano, p. 72; a frase omite a acusação genérica do trecho, sem juízo",
+  "hash": "179d8ffeb7f5cafa465ecfd2dc12057fe66ef0af77f711072428ce1743f56a59",
+  "em": "2026-10-12"
+ }
 }

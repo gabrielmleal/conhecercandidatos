@@ -88,5 +88,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "formação fiel à ficha da ALERJ e à notícia do Senado",
+  "hash": "bbfcde6ab00cbd52ff386a26dc292bd6e8da3ad94af1f2a08730d1f374d37a80",
+  "em": "2026-10-12"
+ }
 }

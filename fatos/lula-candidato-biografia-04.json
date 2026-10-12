@@ -88,5 +88,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": false,
+  "motivo": "item 4: 'primeiro mandato eletivo' não consta da âncora nem das fontes; trocar por 'Lula foi deputado federal por São Paulo, com posse em 1º de fevereiro de 1987'",
+  "hash": "ccb1d3cfc58193cf753f295b8b481233391bfa97358b8e16929366783acd64dc",
+  "em": "2026-10-12"
+ }
 }

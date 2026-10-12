@@ -88,5 +88,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "data e local de nascimento fiéis ao perfil do Senado e à ficha da ALERJ",
+  "hash": "591ae0efd9ff4d11761eed5e36529ccaecfc66fbd9654603e76681f5b7a335a6",
+  "em": "2026-10-12"
+ }
 }

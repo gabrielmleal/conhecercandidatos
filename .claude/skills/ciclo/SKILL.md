@@ -10,7 +10,7 @@ Rode a partir da raiz do repositório, numa branch nova a partir de `main` atual
 3. `radar`: monta a fila de lacunas em `fila/lacunas.json`.
 4. `investigar`: transforma itens da fila em rascunhos, sempre do lado e do tema com menos fatos primeiro.
 5. `provar`: caixas 1 a 6.
-6. `oticas`: caixas 7 a 9, em lotes de até 10.
+6. `oticas`: caixas 7 a 9, um subagente por visão.
 7. `juridico`: caixa 10, a revisão jurídica.
 8. `decidir`: publica, polêmico ou quarentena.
 9. `publicar`: monta o site, confere e abre o pedido de mudança. O merge é sempre do Gabriel.

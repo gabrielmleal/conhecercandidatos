@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "promessa fiel ao trecho da p. 33",
+  "hash": "31c5943ecce5a16bb579ea1d85e610ed6fe379033abd7902aa6db0f23bb164fb",
+  "em": "2026-10-12"
+ }
 }

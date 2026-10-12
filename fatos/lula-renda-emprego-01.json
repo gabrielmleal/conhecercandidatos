@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "Fiel ao trecho da p. 75; em 12/10/2026 a PEC do fim da 6x1 ainda não foi votada no plenário do Senado, promessa segue atual.",
+  "hash": "968c9b82cfbc3b1b95f61d5902090bed2b8de89557d6e2e2118c84b017213c46",
+  "em": "2026-10-12"
+ }
 }

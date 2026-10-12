@@ -94,5 +94,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "mandatos fiéis à Câmara e ao Senado; sem juízo",
+  "hash": "3bd19bcd371e2971cfdb8db77cf8ead36f91c574ee18781969e305b5c4f4291e",
+  "em": "2026-10-12"
+ }
 }

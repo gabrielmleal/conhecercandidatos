@@ -76,5 +76,11 @@
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
  "versao": 1,
- "publicado_em": "2026-10-12"
+ "publicado_em": "2026-10-12",
+ "juridica": {
+  "ok": true,
+  "motivo": "promessa fiel ao trecho do plano, p. 66; a frase omite a comparação com o PT",
+  "hash": "22753153324adf720d2edb113a41fa1ce45dfe8e5b53fface4b6cd1a8169771f",
+  "em": "2026-10-12"
+ }
 }
