@@ -1,0 +1,92 @@
+{
+ "id": "flavio-candidato-biografia-02",
+ "origem": "biografia",
+ "candidato": "flavio",
+ "tema": "candidato",
+ "subtema": "biografia",
+ "lente": "fez",
+ "data": "2019-01-18",
+ "titulo": "Flávio Bolsonaro é bacharel em Direito",
+ "frase": "Flávio Bolsonaro é bacharel em Direito pela Universidade Cândido Mendes, no Rio de Janeiro, segundo a Assembleia Legislativa do Estado do Rio de Janeiro.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [],
+ "ancora": {
+  "orgao": "Assembleia Legislativa do Estado do Rio de Janeiro",
+  "documento": "Ficha do deputado Flávio Bolsonaro",
+  "link": "https://www.alerj.rj.gov.br/Deputados/PerfilDeputado/275?Legislatura=18",
+  "trecho": "Bacharel em Direito pela Universidade Cândido Mendes, Rio de Janeiro, RJ."
+ },
+ "fontes": [
+  {
+   "veiculo": "Senado Federal",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2019/01/18/flavio-bolsonaro-psl",
+   "trecho": "Nascido em Resende (RJ), Flávio Bolsonaro tem 37 anos e é bacharel em direito pela Universidade Cândido Mendes."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.alerj.rj.gov.br/Deputados/PerfilDeputado/275?Legislatura=18": null,
+  "https://www12.senado.leg.br/noticias/materias/2019/01/18/flavio-bolsonaro-psl": null
+ },
+ "hash": "cd87dfb7997b2858201b499df53fc34fb1aeaef68c6d7ed66584daa9cc6df551",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F3574",
+   "confere": true,
+   "certeza": 0.97,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Curso e universidade batem com o primeiro trecho; a fonte é a ficha da Assembleia."
+  },
+  "contra": {
+   "rotulo": "F3574",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Graduação e instituição batem com os trechos e com a ficha da Assembleia; nada favorece além do que consta."
+  },
+  "neutra": {
+   "rotulo": "F3574",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Formação e universidade constam nos trechos; frase curta e sem juízo."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-1330",
+  "verificador": {
+   "rotulo": "F3574",
+   "sustenta": true,
+   "motivo": "Bacharelado em Direito pela Universidade Cândido Mendes, no Rio de Janeiro, está no primeiro trecho."
+  },
+  "espelho": {
+   "rotulo": "F3574",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Formação acadêmica, informação sem lado bom ou ruim."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

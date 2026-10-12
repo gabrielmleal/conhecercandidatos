@@ -11,5 +11,5 @@
   "democracia": {"nome": "Democracia e instituições", "governo": true, "subtemas": {"justica": "Justiça e STF", "eleicoes": "Eleições e urnas", "imprensa": "Imprensa e redes", "gestao": "Gestão e servidores"}},
   "mundo": {"nome": "Brasil no mundo", "governo": true, "subtemas": {"comercio": "Comércio exterior", "eua": "EUA e tarifas", "aliancas": "Alianças", "vizinhos": "Vizinhos"}},
   "aliados": {"nome": "Aliados", "governo": false, "subtemas": {"partido": "Partido e coligação", "familia": "Família", "apoios": "Apoios no Congresso e no governo", "investigados": "Aliados investigados"}},
-  "candidato": {"nome": "Quem é o candidato", "governo": false, "subtemas": {"trajetoria": "Trajetória", "patrimonio": "Patrimônio e campanha", "investigacoes": "Investigações", "votos": "Votos e discursos"}}
+  "candidato": {"nome": "Quem é o candidato", "governo": false, "subtemas": {"biografia": "Biografia", "trajetoria": "Trajetória", "patrimonio": "Patrimônio e campanha", "investigacoes": "Investigações", "votos": "Votos e discursos"}}
 }

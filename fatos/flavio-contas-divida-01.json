@@ -1,0 +1,80 @@
+{
+ "id": "flavio-contas-divida-01",
+ "origem": "plano:pl-p71",
+ "candidato": "flavio",
+ "tema": "contas",
+ "subtema": "divida",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Plano de Flávio tem meta de estabilizar e reduzir a relação dívida/PIB",
+ "frase": "O plano de governo de Flávio Bolsonaro tem a meta de alcançar, no menor prazo possível, a estabilidade e depois a queda da relação Dívida/PIB.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Flávio Bolsonaro (PL), registrado no TSE, p. 71",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "trecho": "A meta é alcançar, no menor prazo possível, a estabilidade e depois a queda da relação Dívida/PIB, o que puxa os juros para a média internacional e leva a inflação ao centro da meta."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf": "http://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf"
+ },
+ "hash": "045e6d38064b5df4c0d03b719c70c40c5961e31ebae8673847d13819b7dbe946",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F1555",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Frase fiel ao trecho; meta futura."
+  },
+  "contra": {
+   "rotulo": "F1555",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Promessa fiel ao trecho, sem número, causa ou juízo a mais; nada favorece indevidamente."
+  },
+  "neutra": {
+   "rotulo": "F1555",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Frase fiel ao trecho, sem adjetivo de juízo, dentro de 30 palavras; ainda não aconteceu."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-1730",
+  "verificador": {
+   "rotulo": "F1555",
+   "sustenta": true,
+   "motivo": "Título e frase sustentados pelo trecho, sem número, data ou causa a mais."
+  },
+  "espelho": {
+   "rotulo": "F1555",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Compromisso de programa de governo, ainda não realizado."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

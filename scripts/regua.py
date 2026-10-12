@@ -27,8 +27,8 @@ def publicar(r):
     destino = RAIZ / "fatos" / f"{r['id']}.json"
     antigo = ler(destino) if destino.exists() else None
     tipo = r["classificacao"]
-    fato = {k: v for k, v in r.items() if k not in ("classificacao", "peso_final", "reavaliando")}
-    fato.update({"tipo": tipo, "peso": r["peso_final"] if tipo in ("positivo", "problema") else 0, "conferido_em": HOJE.isoformat(),
+    fato = {k: v for k, v in r.items() if k not in ("classificacao", "peso_final", "para_quem_final", "reavaliando")}
+    fato.update({"tipo": tipo, "para_quem": r.get("para_quem_final", []), "peso": r["peso_final"] if tipo in ("positivo", "problema") else 0, "conferido_em": HOJE.isoformat(),
                  "reavaliar_em": (HOJE + datetime.timedelta(days=7)).isoformat(), "versao": antigo["versao"] + 1 if antigo else 1,
                  "publicado_em": antigo["publicado_em"] if antigo else HOJE.isoformat()})
     if antigo and (antigo["tipo"], antigo["frase"]) != (fato["tipo"], fato["frase"]):
@@ -76,7 +76,7 @@ def voltar():
             registrar("descartados.json", {"data": HOJE.isoformat(), "id": r["id"], "titulo": r["titulo"], "motivo": "; ".join(r["falhas"])})
             p.unlink()
         elif dias < 1:
-            limpo = {k: v for k, v in r.items() if k not in ("caixas", "revisao", "classificacao", "peso_final", "falhas", "copias", "hash", "provado_em")}
+            limpo = {k: v for k, v in r.items() if k not in ("caixas", "revisao", "classificacao", "peso_final", "para_quem_final", "falhas", "copias", "hash", "provado_em")}
             gravar(RAIZ / "rascunhos" / p.name, limpo)
 
 

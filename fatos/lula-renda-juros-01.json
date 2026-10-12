@@ -1,0 +1,80 @@
+{
+ "id": "lula-renda-juros-01",
+ "origem": "plano:pt-p49",
+ "candidato": "lula",
+ "tema": "renda",
+ "subtema": "juros",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Programa de Lula promete criar condições para redução sustentada dos juros",
+ "frase": "O programa de governo de Lula promete criar as condições para uma redução sustentada das taxas de juros, com inflação controlada e política fiscal responsável.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Lula (PT), registrado no TSE, p. 49",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
+  "trecho": "Para impulsionar ainda mais os investimentos produtivos e o crescimento econômico de longo prazo, vamos criar as condições para uma redução sustentada das taxas de juros, com inflação controlada e assegurando uma política fiscal responsável."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf": "http://web.archive.org/web/20261002034455/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf"
+ },
+ "hash": "db84dc1455c8dafb48ff139c6b9d7c7303664073be181cd81af8555611439cfe",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F9098",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Frase fiel ao trecho."
+  },
+  "contra": {
+   "rotulo": "F9098",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Promessa fiel ao trecho, sem número, causa ou juízo a mais; nada favorece indevidamente."
+  },
+  "neutra": {
+   "rotulo": "F9098",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Frase fiel ao trecho, sem adjetivo de juízo, dentro de 30 palavras; ainda não aconteceu."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-1730",
+  "verificador": {
+   "rotulo": "F9098",
+   "sustenta": true,
+   "motivo": "Título e frase sustentados pelo trecho, sem número, data ou causa a mais."
+  },
+  "espelho": {
+   "rotulo": "F9098",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Compromisso de programa de governo, ainda não realizado."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}
