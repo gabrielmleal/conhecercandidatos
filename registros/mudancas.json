@@ -120,9 +120,23 @@
  },
  {
   "data": "2026-10-12",
-  "id": "lula-mundo-vizinhos-01",
-  "titulo": "Plano de Lula prevê consolidar o Mercosul como plataforma de integração",
-  "o_que": "O texto foi corrigido.",
-  "motivo": "Reconferência semanal."
+  "id": "mapa-lula-jus-1-a",
+  "titulo": "TRF4 confirma a condenação de Lula em 2018; o STF a anula em 2021",
+  "o_que": "Voltou ao site, com o texto corrigido.",
+  "motivo": "Nova regra: condenação anulada ou acusação arquivada termina com \"Não há condenação válida.\""
+ },
+ {
+  "data": "2026-10-12",
+  "id": "tempo-2-a",
+  "titulo": "TRF4 confirma a condenação de Lula, anulada pelo STF em 2021",
+  "o_que": "Voltou ao site, com o texto corrigido.",
+  "motivo": "Nova regra: condenação anulada ou acusação arquivada termina com \"Não há condenação válida.\""
+ },
+ {
+  "data": "2026-10-12",
+  "id": "mapa-flavio-jus-2-a",
+  "titulo": "STF anula quatro de cinco relatórios financeiros contra Flávio Bolsonaro; a denúncia foi arquivada",
+  "o_que": "Voltou ao site, com o texto corrigido.",
+  "motivo": "Nova regra: condenação anulada ou acusação arquivada termina com \"Não há condenação válida.\""
  }
 ]

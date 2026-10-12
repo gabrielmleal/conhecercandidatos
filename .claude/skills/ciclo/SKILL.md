@@ -16,4 +16,6 @@ Rode a partir da raiz do repositório, numa branch nova a partir de `main` atual
 9. `publicar`: monta o site, confere e abre o pedido de mudança. O merge é sempre do Gabriel.
 10. Grave em `estado/status.json` a hora da rodada (`procurou_em`, horário de Brasília) e quantos fatos entraram, ficaram presos e saíram.
 
+A rotina `trig_01P3oxRRGb3eEvdcoyJ3CpMT` do Claude Code roda esta skill a cada 2 horas, no minuto 12 (cron `12 */2 * * *`, UTC), e não faz nada a partir de 22/10/2026 às 17h, horário de Brasília.
+
 A cota do Claude Code é o único teto: quando ela acabar no meio, pare depois do passo que estiver rodando e publique o que já passou.
