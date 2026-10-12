@@ -1,0 +1,91 @@
+{
+ "id": "lula-obras-ciencia-01",
+ "origem": "plano:pt-p55",
+ "candidato": "lula",
+ "tema": "obras",
+ "subtema": "ciencia",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Plano de Lula prevê hub nacional de competências digitais",
+ "frase": "O plano de governo de Lula promete formar talentos para consolidar um hub nacional de competências digitais, articulando polos de inovação, universidades, centros de pesquisa e setor produtivo.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [],
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Lula (PT), registrado no TSE, p. 55",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
+  "trecho": "Também formaremos talentos para consolidar um hub nacional de competências digitais, reforçando a articulação entre polos de inovação, universidades, centros de pesquisa e setor produtivo"
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true,
+  "10": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf": "http://web.archive.org/web/20261002034455/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf"
+ },
+ "hash": "37f697e06aa26c8983ab809a07ed5f7906493194a175b8811beeb450a376601f",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F1742",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Título e frase seguem o trecho; é promessa do plano, sem número nem adjetivo de juízo."
+  },
+  "contra": {
+   "rotulo": "F1742",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Promessa de plano registrado no TSE; frase e título seguem o trecho sem número, causa ou juízo a mais."
+  },
+  "neutra": {
+   "rotulo": "F1742",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Promessa de plano registrado; frase e título seguem o trecho, sem número, data ou adjetivo de juízo."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-2105",
+  "verificador": {
+   "rotulo": "F1742",
+   "sustenta": true,
+   "motivo": "Título e frase seguem o trecho: formar talentos, hub nacional de competências digitais, polos, universidades, centros de pesquisa e setor produtivo."
+  },
+  "espelho": {
+   "rotulo": "F1742",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Plano de governo promete hub de competências digitais; ainda não aconteceu."
+  }
+ },
+ "juridica": {
+  "ok": true,
+  "motivo": "Promessa atribuída ao plano registrado no TSE, fiel ao trecho; 'articulando' equivale a 'reforçando a articulação', sem acréscimo.",
+  "hash": "697619dbb47bcc0c8286063c9212752520508c5751b5dcf9274db6bd3be0aa0f",
+  "em": "2026-10-12"
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}
