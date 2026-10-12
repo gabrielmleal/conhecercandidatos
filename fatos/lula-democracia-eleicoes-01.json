@@ -1,0 +1,80 @@
+{
+ "id": "lula-democracia-eleicoes-01",
+ "origem": "plano:pt-p15",
+ "candidato": "lula",
+ "tema": "democracia",
+ "subtema": "eleicoes",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Programa de Lula defende reforma política e eleitoral",
+ "frase": "O programa de governo de Lula diz que a reforma política e eleitoral é inadiável para recuperar a confiança da sociedade no sistema político.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Lula (PT), registrado no TSE, p. 15",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
+  "trecho": "A reforma política e eleitoral é inadiável para superar a dissociação entre a representação política e a composição real da sociedade brasileira, para fortalecer a democracia brasileira, e recuperar a confiança da sociedade no sistema político."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf": null
+ },
+ "hash": "e9b552cfada701ef3d1dd28a47c0e4e891b673e8b2c824dd1382a6228c875982",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F9031",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Frase atribui a posição ao programa e corresponde ao trecho; proposta ainda não realizada."
+  },
+  "contra": {
+   "rotulo": "F9031",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Promessa fiel ao trecho, sem número, causa ou juízo a mais; nada favorece indevidamente."
+  },
+  "neutra": {
+   "rotulo": "F9031",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Frase fiel ao trecho, sem adjetivo de juízo, dentro de 30 palavras; ainda não aconteceu."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-1730",
+  "verificador": {
+   "rotulo": "F9031",
+   "sustenta": true,
+   "motivo": "Título e frase sustentados pelo trecho, sem número, data ou causa a mais."
+  },
+  "espelho": {
+   "rotulo": "F9031",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Compromisso de programa de governo, ainda não realizado."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}
