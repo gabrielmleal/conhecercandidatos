@@ -6,16 +6,17 @@
  "subtema": "vizinhos",
  "lente": "prometeu",
  "data": "2026-08",
- "titulo": "Programa de Lula promete consolidar o Mercosul como plataforma de integração",
- "frase": "O programa de governo de Lula promete consolidar o Mercosul como principal plataforma de integração econômica, produtiva, política e social da América do Sul.",
+ "titulo": "Plano de Lula prevê consolidar o Mercosul como plataforma de integração",
+ "frase": "O plano de governo de Lula promete consolidar o Mercosul como principal plataforma de integração econômica, produtiva, política e social da América do Sul.",
  "tipo": "promessa",
  "peso": 0,
  "marco": false,
+ "para_quem": [],
  "ancora": {
   "orgao": "Tribunal Superior Eleitoral",
   "documento": "Plano de governo de Lula (PT), registrado no TSE, p. 80",
   "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
-  "trecho": "Consolidaremos o Mercosul como principal plataforma de integração econômica, produtiva, política e social da América do Sul."
+  "trecho": "Consolidaremos o Mercosul como principal plataforma de integração econômica, produtiva, política e social da América do Sul"
  },
  "fontes": [],
  "caixas": {
@@ -27,60 +28,64 @@
   "6": true,
   "7": true,
   "8": true,
-  "9": true
+  "9": true,
+  "10": true
  },
  "copias": {
-  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf": null
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf": "http://web.archive.org/web/20261002034455/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf"
  },
- "hash": "2745bc9b12d20b65515bd5523caaf54d603d71d4211d2269feb9e8aee0d03bab",
+ "hash": "daa15b0fdee261300d54fc1e6db6f61e25d34aaa2e94daa52bef7447ac14abae",
  "provado_em": "2026-10-12",
  "revisao": {
   "favor": {
-   "rotulo": "F7077",
+   "rotulo": "F7709",
    "confere": true,
-   "certeza": 0.95,
+   "certeza": 0.96,
    "tipo": "promessa",
    "peso": 0,
-   "motivo": "Frase fiel ao trecho; compromisso futuro."
+   "para_quem": [],
+   "motivo": "Frase repete o trecho; promessa sem juízo."
   },
   "contra": {
-   "rotulo": "F7077",
-   "confere": true,
-   "certeza": 0.92,
-   "tipo": "promessa",
-   "peso": 0,
-   "motivo": "Promessa fiel ao trecho, sem número, causa ou juízo a mais; nada favorece indevidamente."
-  },
-  "neutra": {
-   "rotulo": "F7077",
+   "rotulo": "F7709",
    "confere": true,
    "certeza": 0.95,
    "tipo": "promessa",
    "peso": 0,
-   "motivo": "Frase fiel ao trecho, sem adjetivo de juízo, dentro de 30 palavras; ainda não aconteceu."
+   "para_quem": [],
+   "motivo": "Reproduz o trecho sem acréscimos."
   },
-  "modelo": "sonnet",
-  "rodada": "20261012-1730",
-  "verificador": {
-   "rotulo": "F7077",
-   "sustenta": true,
-   "motivo": "Título e frase sustentados pelo trecho, sem número, data ou causa a mais."
-  },
-  "espelho": {
-   "rotulo": "F7077",
+  "neutra": {
+   "rotulo": "F7709",
+   "confere": true,
+   "certeza": 0.95,
    "tipo": "promessa",
    "peso": 0,
-   "motivo": "Compromisso de programa de governo, ainda não realizado."
+   "para_quem": [],
+   "motivo": "Frase repete o trecho sem acrescentar nada."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-2102",
+  "verificador": {
+   "rotulo": "F7709",
+   "sustenta": true,
+   "motivo": "Frase reproduz o trecho: Mercosul como principal plataforma de integração econômica, produtiva, política e social."
+  },
+  "espelho": {
+   "rotulo": "F7709",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Plano promete consolidar o Mercosul como plataforma de integração; ainda não aconteceu."
   }
+ },
+ "juridica": {
+  "ok": true,
+  "motivo": "Promessa atribuída ao plano registrado no TSE; título e frase fiéis ao trecho, sem juízo nem acusação.",
+  "hash": "74df8e347605ed7046eb5d59dc04f53cd7bd3829ba619377ee6cd3f032a42984",
+  "em": "2026-10-12"
  },
  "conferido_em": "2026-10-12",
  "reavaliar_em": "2026-10-19",
- "versao": 1,
- "publicado_em": "2026-10-12",
- "juridica": {
-  "ok": true,
-  "motivo": "Promessa de programa registrado no TSE; título e frase fiéis ao trecho da p. 80.",
-  "hash": "c87d9cd44a2c9a7cfd1f4868d66d6eafb37001907a5cebbddc5984af76dc39ac",
-  "em": "2026-10-12"
- }
+ "versao": 2,
+ "publicado_em": "2026-10-12"
 }

@@ -1,0 +1,91 @@
+{
+ "id": "lula-producao-estatais-01",
+ "origem": "plano:pt-p67",
+ "candidato": "lula",
+ "tema": "producao",
+ "subtema": "estatais",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Plano de Lula prevê manter investimentos da Petrobras na indústria naval",
+ "frase": "O plano de governo de Lula promete assegurar que os investimentos da Petrobras continuem estimulando a indústria naval, com regras de conteúdo local.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [],
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Lula (PT), registrado no TSE, p. 67",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
+  "trecho": "Asseguraremos que os investimentos da Petrobras continuem estimulando a indústria naval, com reafirmação de regras de conteúdo local"
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true,
+  "10": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf": "http://web.archive.org/web/20261002034455/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf"
+ },
+ "hash": "aeab5092bc1bea7ec571b3281f7b0971662126a6e59c7c0e8d0fad5d8e7f7eef",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F7502",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Frase e título seguem o trecho; é compromisso do plano, ainda não cumprido."
+  },
+  "contra": {
+   "rotulo": "F7502",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Promessa fiel ao trecho; nada a mais nem favorecimento indevido."
+  },
+  "neutra": {
+   "rotulo": "F7502",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Frase e título seguem o trecho; promessa de plano de governo."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-2102",
+  "verificador": {
+   "rotulo": "F7502",
+   "sustenta": true,
+   "motivo": "Título e frase seguem o trecho: investimentos da Petrobras, indústria naval e regras de conteúdo local."
+  },
+  "espelho": {
+   "rotulo": "F7502",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Plano de governo promete manter investimentos da Petrobras na indústria naval; ainda não aconteceu."
+  }
+ },
+ "juridica": {
+  "ok": true,
+  "motivo": "Promessa atribuída ao plano registrado no TSE; título e frase fiéis ao trecho, sem juízo nem acusação.",
+  "hash": "62966041a9af63374900bc0270794a69c3348b6b0144f2b42caf75192942a765",
+  "em": "2026-10-12"
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

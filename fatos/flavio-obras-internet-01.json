@@ -1,0 +1,91 @@
+{
+ "id": "flavio-obras-internet-01",
+ "origem": "plano:pl-p24",
+ "candidato": "flavio",
+ "tema": "obras",
+ "subtema": "internet",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Plano de Flávio prevê internet em áreas de baixa cobertura",
+ "frase": "O plano de governo de Flávio Bolsonaro promete levar conectividade a localidades de baixa cobertura, priorizando escolas, áreas rurais e regiões de fronteira.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [],
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Flávio (PL), registrado no TSE, p. 24",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "trecho": "E vamos levar conectividade às localidades de baixa cobertura, priorizando escolas, áreas rurais e regiões de fronteira, dando continuidade ao trabalho que, no governo Bolsonaro, já havia conectado mais de 11 milhões de pessoas, por meio da instalação de mais de 21.000 pontos de inclusão digital pelo Programa Wi-Fi Brasil"
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true,
+  "10": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf": "http://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf"
+ },
+ "hash": "84d942a664eca8df6b97ab3ebf3630b037350971eee395641289f17def6b6777",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F7229",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Frase fiel ao trecho; promessa sem juízo e sem número a mais."
+  },
+  "contra": {
+   "rotulo": "F7229",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Frase usa só a promessa; o balanço do governo anterior ficou de fora. Sem adição."
+  },
+  "neutra": {
+   "rotulo": "F7229",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Frase fiel ao trecho; escolas e áreas rurais são prioridades de lugar, não grupos."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-2102",
+  "verificador": {
+   "rotulo": "F7229",
+   "sustenta": true,
+   "motivo": "Conectividade em áreas de baixa cobertura, com prioridade a escolas, áreas rurais e fronteira, consta no trecho."
+  },
+  "espelho": {
+   "rotulo": "F7229",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Plano promete levar conectividade a áreas de baixa cobertura; ainda não aconteceu."
+  }
+ },
+ "juridica": {
+  "ok": true,
+  "motivo": "Promessa fiel ao trecho; frase omite a alegação sobre o governo anterior, sem acrescentar números ou juízo.",
+  "hash": "1ff239a97099d161760d4d672d3f941ec62a09f8f59504b1ae08c17aeb1fdea8",
+  "em": "2026-10-12"
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

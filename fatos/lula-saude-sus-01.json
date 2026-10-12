@@ -1,0 +1,91 @@
+{
+ "id": "lula-saude-sus-01",
+ "origem": "plano:pt-p35",
+ "candidato": "lula",
+ "tema": "saude",
+ "subtema": "sus",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Plano de Lula prevê consolidar o prontuário único do cidadão",
+ "frase": "O plano de governo de Lula promete acelerar a consolidação do prontuário único do cidadão, que avança por meio da Rede Nacional de Dados em Saúde (RNDS).",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [],
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Lula (PT), registrado no TSE, p. 35",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
+  "trecho": "Vamos acelerar os esforços na consolidação do prontuário único do cidadão, que já avança por meio da Rede Nacional de Dados em Saúde (RNDS)"
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true,
+  "10": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf": "http://web.archive.org/web/20261002034455/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf"
+ },
+ "hash": "f75ea6a15b602c92149fab7f5a2627eae1d5e5d0138f3317877a904849e383ea",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5294",
+   "confere": true,
+   "certeza": 0.94,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Frase fiel ao trecho, inclusive a menção à RNDS; promessa."
+  },
+  "contra": {
+   "rotulo": "F5294",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Promessa de acelerar consolidação; menção ao avanço da RNDS está no trecho."
+  },
+  "neutra": {
+   "rotulo": "F5294",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Frase fiel ao trecho, inclusive o avanço pela RNDS."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-2102",
+  "verificador": {
+   "rotulo": "F5294",
+   "sustenta": true,
+   "motivo": "Acelerar a consolidação do prontuário único, que já avança pela RNDS, consta no trecho."
+  },
+  "espelho": {
+   "rotulo": "F5294",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Plano promete acelerar a consolidação do prontuário único; ainda não aconteceu."
+  }
+ },
+ "juridica": {
+  "ok": true,
+  "motivo": "Promessa atribuída ao plano registrado no TSE; título e frase fiéis ao trecho, sem juízo nem acusação.",
+  "hash": "fe3b0d22327e3a80ed9b04b7200d71ff8f5814824d97c96779bf492f74850c18",
+  "em": "2026-10-12"
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}
