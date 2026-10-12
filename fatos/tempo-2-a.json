@@ -1,0 +1,125 @@
+{
+ "id": "tempo-2-a",
+ "origem": "tempo:2",
+ "candidato": "brasil",
+ "tema": "democracia",
+ "subtema": "justica",
+ "lente": "fez",
+ "data": "2018-01-24",
+ "titulo": "TRF4 confirma a condenação de Lula, anulada pelo STF em 2021",
+ "frase": "Condenado pelo TRF4 por corrupção e lavagem no caso do triplex, Lula teve o processo anulado pelo STF por incompetência e arquivado por prescrição. Não há condenação válida.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": true,
+ "ancora": {
+  "orgao": "Tribunal Regional Federal da 4ª Região",
+  "documento": "Notícia: TRF4 confirma condenação do ex-presidente Lula (24/01/2018)",
+  "link": "https://www.trf4.jus.br/trf4/controlador.php?acao=noticia_visualizar&id_noticia=13418",
+  "trecho": "24/01/2018 - 20h07 Atualizada em 24/01/2018 - 20h07 A 8ª Turma do Tribunal Regional Federal da 4ª Região (TRF4) confirmou hoje (24/1), por unanimidade, a condenação do ex-presidente Luiz Inácio Lula da Silva pelos crimes de corrupção passiva e lavagem de dinheiro, passando a pena de nove anos e seis meses para 12 anos e um mês de reclusão em regime fechado e pagamento de 280 dias-multa (com valor unitário de cinco salários mínimos)."
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Senado",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente",
+   "trecho": "Em 2021, após as revelações de conversas entre então juiz federal Sérgio Moro e os promotores responsáveis pela Operação Lava Jato, o STF anulou a condenação de Lula, que recuperou os direitos políticos."
+  },
+  {
+   "veiculo": "Supremo Tribunal Federal",
+   "nivel": "A",
+   "link": "https://noticias.stf.jus.br/postsnoticias/stf-confirma-anulacao-de-condenacoes-do-ex-presidente-lula-na-lava-jato/",
+   "trecho": "O Plenário do Supremo Tribunal Federal (STF) confirmou, nesta quinta-feira (14), a decisão do ministro Edson Fachin que, ao declarar a incompetência da 13ª Vara da Justiça Federal de Curitiba (PR), anulou as ações penais contra o ex-presidente Luiz Inácio Lula da Silva por não se enquadrarem no contexto da operação Lava Jato."
+  },
+  {
+   "veiculo": "Poder360",
+   "nivel": "C",
+   "link": "https://www.poder360.com.br/justica/justica-arquiva-caso-do-triplex-contra-lula/",
+   "trecho": "A juíza Pollyanna Alves, da 12ª Vara Federal Criminal de Brasília, arquivou a ação contra o ex-presidente Luiz Inácio Lula da Silva (PT) no caso do tríplex do Guarujá"
+  },
+  {
+   "veiculo": "Poder360",
+   "nivel": "C",
+   "link": "https://www.poder360.com.br/justica/justica-arquiva-caso-do-triplex-contra-lula/",
+   "trecho": "A decisão é de 5ª feira (27.jan.2022), mas foi publicada nesta 6ª (28.jan). A magistrada acompanhou manifestação do MPF (Ministério Público Federal) em dezembro de 2021. O órgão se posicionou pelo arquivamento afirmando que os crimes imputados a Lula prescreveram."
+  },
+  {
+   "veiculo": "Tribunal Regional Federal da 4ª Região",
+   "nivel": "A",
+   "link": "https://www.trf4.jus.br/trf4/controlador.php?acao=noticia_visualizar&id_noticia=13418",
+   "trecho": "A apelação criminal envolve o favorecimento da Construtora OAS em contratos com a Petrobras, com o pagamento de propina destinada ao Partido dos Trabalhadores e ao ex-presidente Luiz Inácio Lula da Silva, por meio de apartamento triplex do Condomínio Edifício Solaris, no Guarujá, litoral de São Paulo, e do depósito do acervo presidencial."
+  }
+ ],
+ "versao": 1,
+ "publicado_em": "2026-10-12",
+ "copias": {
+  "https://www.trf4.jus.br/trf4/controlador.php?acao=noticia_visualizar&id_noticia=13418": "http://web.archive.org/web/20261012190933/https://www.trf4.jus.br/trf4/controlador.php?acao=noticia_visualizar&id_noticia=13418",
+  "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente": "http://web.archive.org/web/20261012194424/https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente",
+  "https://noticias.stf.jus.br/postsnoticias/stf-confirma-anulacao-de-condenacoes-do-ex-presidente-lula-na-lava-jato/": "http://web.archive.org/web/20261012192258/https://noticias.stf.jus.br/postsnoticias/stf-confirma-anulacao-de-condenacoes-do-ex-presidente-lula-na-lava-jato/",
+  "https://www.poder360.com.br/justica/justica-arquiva-caso-do-triplex-contra-lula/": "http://web.archive.org/web/20261012192956/https://www.poder360.com.br/justica/justica-arquiva-caso-do-triplex-contra-lula/"
+ },
+ "hash": "7b04cc7867741ada56ed8a42d49d5d831f6a8e110384d1bc72e74c20532edb52",
+ "provado_em": "2026-10-12",
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true,
+  "10": true
+ },
+ "revisao": {
+  "favor": {
+   "rotulo": "F4546",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "polemico",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Condenação, anulação por incompetência do STF e arquivamento por prescrição estão nos trechos. Fecho obrigatório presente. Nada injusto com a pessoa."
+  },
+  "contra": {
+   "rotulo": "F4546",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "polemico",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Condenação do TRF4, anulação do STF por incompetência e arquivamento por prescrição estão nos trechos; fecho obrigatório presente; nada favorece além do provado."
+  },
+  "neutra": {
+   "rotulo": "F4546",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Trechos apoiam condenação do TRF4, anulação do STF por incompetência, arquivamento por prescrição e o fecho obrigatório; 29 palavras."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-1741",
+  "verificador": {
+   "rotulo": "F4546",
+   "sustenta": true,
+   "motivo": "TRF4 confirmou a condenação, o STF anulou em ano B e a ação foi arquivada por prescrição; tudo está nos trechos."
+  },
+  "espelho": {
+   "rotulo": "F4546",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Condenação do TRF4 foi anulada pelo STF e o caso arquivado por prescrição; não há condenação válida."
+  }
+ },
+ "juridica": {
+  "ok": true,
+  "motivo": "Itens 1 a 11 cumpridos: título já diz a anulação pelo STF em 2021, frase diz arquivamento por prescrição e termina com \"Não há condenação válida.\".",
+  "hash": "7c4d7008756dba8f4045610e59df89dc0931b077290a71d4adeac9ca915d607b",
+  "em": "2026-10-12"
+ },
+ "para_quem": [],
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19"
+}
