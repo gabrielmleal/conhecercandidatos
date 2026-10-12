@@ -1,0 +1,82 @@
+{
+ "id": "lula-obras-saneamento-01",
+ "origem": "plano:pt-p46",
+ "candidato": "lula",
+ "tema": "obras",
+ "subtema": "saneamento",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Programa de Lula promete apoiar a universalização de água e esgoto",
+ "frase": "O programa de governo de Lula promete apoiar estados e municípios a universalizar o acesso à água tratada e ao esgotamento sanitário, priorizando periferias.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Lula (PT), registrado no TSE, p. 46",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
+  "trecho": "Continuaremos, no próximo mandato, a perseguir o objetivo de apoiar estados e municípios a universalizar acesso à água tratada e ao esgotamento sanitário, buscando priorizar periferias historicamente negligenciadas."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf": null
+ },
+ "hash": "1fcfd07301a96a80d5d60cb91d747eaf8c5330e5819ad96bfb015fd900586dca",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F4974",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Fiel ao trecho; 'priorizando' resume 'buscando priorizar' sem distorcer."
+  },
+  "contra": {
+   "rotulo": "F4974",
+   "confere": true,
+   "certeza": 0.86,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Frase tira as ressalvas 'perseguir o objetivo' e 'buscando priorizar', o que deixa a promessa um pouco mais firme; diferença pequena."
+  },
+  "neutra": {
+   "rotulo": "F4974",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Fiel ao trecho e clara; \"priorizando\" endurece levemente o \"buscando priorizar\" original."
+  },
+  "modelo": "opus",
+  "rodada": "20261012-1730",
+  "verificador": {
+   "rotulo": "F4974",
+   "sustenta": true,
+   "motivo": "Trecho sustenta apoio a estados e municípios para universalizar água e esgoto, priorizando periferias."
+  },
+  "espelho": {
+   "rotulo": "F4974",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Programa de governo promete apoiar universalização de água e esgoto; ainda não aconteceu."
+  }
+ },
+ "classificacao": "promessa",
+ "peso_final": 0,
+ "falhas": [
+  "as três revisões não concordaram"
+ ],
+ "entrou_em": "2026-10-12"
+}

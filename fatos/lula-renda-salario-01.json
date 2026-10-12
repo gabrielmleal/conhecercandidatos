@@ -1,0 +1,80 @@
+{
+ "id": "lula-renda-salario-01",
+ "origem": "plano:pt-p74",
+ "candidato": "lula",
+ "tema": "renda",
+ "subtema": "salario",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Programa de Lula promete manter a valorização do salário mínimo",
+ "frase": "O programa de governo de Lula promete dar continuidade à política de valorização do salário mínimo no novo mandato.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Lula (PT), registrado no TSE, p. 74",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
+  "trecho": "Por isto, o novo mandato de Lula dará continuidade à política de valorização do salário mínimo como meio estratégico de distribuição de renda, combate à pobreza e promoção do desenvolvimento econômico e social."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf": "http://web.archive.org/web/20261002034455/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf"
+ },
+ "hash": "bc8da7701ac7622c73eeeb67aa07ff37fe552e0f22d2561520ca2c5f82517967",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F6368",
+   "confere": true,
+   "certeza": 0.96,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Frase fiel ao trecho."
+  },
+  "contra": {
+   "rotulo": "F6368",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Promessa fiel ao trecho, sem número, causa ou juízo a mais; nada favorece indevidamente."
+  },
+  "neutra": {
+   "rotulo": "F6368",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Frase fiel ao trecho, sem adjetivo de juízo, dentro de 30 palavras; ainda não aconteceu."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-1730",
+  "verificador": {
+   "rotulo": "F6368",
+   "sustenta": true,
+   "motivo": "Título e frase sustentados pelo trecho, sem número, data ou causa a mais."
+  },
+  "espelho": {
+   "rotulo": "F6368",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Compromisso de programa de governo, ainda não realizado."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

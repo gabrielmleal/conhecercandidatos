@@ -1,0 +1,82 @@
+{
+ "id": "lula-saude-sus-01",
+ "origem": "plano:pt-p35",
+ "candidato": "lula",
+ "tema": "saude",
+ "subtema": "sus",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Programa de Lula promete acelerar o prontuário único do cidadão",
+ "frase": "O programa de governo de Lula promete acelerar a consolidação do prontuário único do cidadão, que já avança pela Rede Nacional de Dados em Saúde.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Lula (PT), registrado no TSE, p. 35",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
+  "trecho": "Vamos acelerar os esforços na consolidação do prontuário único do cidadão, que já avança por meio da Rede Nacional de Dados em Saúde (RNDS)."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf": "http://web.archive.org/web/20261002034455/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf"
+ },
+ "hash": "c2f7631cb00dc460bcb9dc5b4ec18f78eef11ba1fe24049142763f26dd89967f",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5305",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Fiel ao trecho, inclusive a menção à RNDS."
+  },
+  "contra": {
+   "rotulo": "F5305",
+   "confere": true,
+   "certeza": 0.91,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "O avanço via RNDS é afirmação do próprio plano e está no trecho; a frase o atribui ao programa."
+  },
+  "neutra": {
+   "rotulo": "F5305",
+   "confere": true,
+   "certeza": 0.85,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Fiel ao trecho; \"já avança\" é afirmação do próprio plano apresentada sem atribuição."
+  },
+  "modelo": "opus",
+  "rodada": "20261012-1730",
+  "verificador": {
+   "rotulo": "F5305",
+   "sustenta": true,
+   "motivo": "Trecho sustenta acelerar prontuário único do cidadão, já avançando pela RNDS."
+  },
+  "espelho": {
+   "rotulo": "F5305",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Programa de governo promete acelerar prontuário único do cidadão; ainda não aconteceu."
+  }
+ },
+ "classificacao": "promessa",
+ "peso_final": 0,
+ "falhas": [
+  "as três revisões não concordaram"
+ ],
+ "entrou_em": "2026-10-12"
+}

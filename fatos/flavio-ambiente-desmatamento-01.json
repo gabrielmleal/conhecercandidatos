@@ -1,0 +1,80 @@
+{
+ "id": "flavio-ambiente-desmatamento-01",
+ "origem": "plano:pl-p58",
+ "candidato": "flavio",
+ "tema": "ambiente",
+ "subtema": "desmatamento",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Plano de Flávio tem meta de zerar o desmatamento ilegal até 2029",
+ "frase": "O plano de governo de Flávio Bolsonaro tem a meta de zerar o desmatamento ilegal até 2029 e promete combater as queimadas ilegais.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Flávio Bolsonaro (PL), registrado no TSE, p. 58",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "trecho": "Teremos a meta de zerar o desmatamento ilegal até 2029, retomando e levando até o fim o compromisso que já assumimos no Governo Bolsonaro perante o mundo, e combateremos as queimadas ilegais, fortalecendo a prevenção, o monitoramento, a fiscalização e o combate aos crimes ambientais"
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf": "http://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf"
+ },
+ "hash": "a0cc2b6e5384209f589cce8b19c1f393aad7c81f93960ad8af50e3f9d77476c1",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5526",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Meta e combate às queimadas constam do trecho."
+  },
+  "contra": {
+   "rotulo": "F5526",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Promessa fiel ao trecho, sem número, causa ou juízo a mais; nada favorece indevidamente."
+  },
+  "neutra": {
+   "rotulo": "F5526",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Frase fiel ao trecho, sem adjetivo de juízo, dentro de 30 palavras; ainda não aconteceu."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-1730",
+  "verificador": {
+   "rotulo": "F5526",
+   "sustenta": true,
+   "motivo": "Título e frase sustentados pelo trecho, sem número, data ou causa a mais."
+  },
+  "espelho": {
+   "rotulo": "F5526",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Compromisso de programa de governo, ainda não realizado."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}
