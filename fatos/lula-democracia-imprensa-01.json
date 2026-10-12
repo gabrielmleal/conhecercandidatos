@@ -7,7 +7,7 @@
  "lente": "prometeu",
  "data": "2026-08",
  "titulo": "Programa de Lula propõe avançar na regulação das redes sociais e plataformas digitais",
- "frase": "O programa de governo de Lula propõe avançar na regulação democrática das redes sociais e das plataformas digitais, para impedir que difundam desinformação e campanhas de ódio.",
+ "frase": "O programa de governo de Lula propõe avançar na regulação das redes sociais e das plataformas digitais, para impedir que difundam desinformação e acolham campanhas de ódio.",
  "tipo": "promessa",
  "peso": 0,
  "marco": false,
@@ -18,6 +18,8 @@
   "trecho": "É parte da reafirmação da democracia avançar ainda mais na regulação democrática das redes sociais e das plataformas digitais, de modo a impedir que elas difundam desinformação, acolham campanhas de ódio e outras formas de comunicação nocivas para a democracia."
  },
  "fontes": [],
+ "versao": 2,
+ "publicado_em": "2026-10-12",
  "caixas": {
   "1": true,
   "2": true,
@@ -27,7 +29,8 @@
   "6": true,
   "7": true,
   "8": true,
-  "9": true
+  "9": true,
+  "10": true
  },
  "copias": {
   "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf": null
@@ -36,51 +39,53 @@
  "provado_em": "2026-10-12",
  "revisao": {
   "favor": {
-   "rotulo": "F9841",
+   "rotulo": "F5450",
    "confere": true,
-   "certeza": 0.95,
+   "certeza": 0.9,
    "tipo": "promessa",
    "peso": 0,
-   "motivo": "Frase fiel ao trecho; propósito atribuído à proposta."
+   "para_quem": [],
+   "motivo": "Proposta do plano e seus fins fiéis ao trecho. Sem adjetivo de juízo nosso; é promessa, peso 0."
   },
   "contra": {
-   "rotulo": "F9841",
+   "rotulo": "F5450",
    "confere": true,
-   "certeza": 0.92,
+   "certeza": 0.93,
    "tipo": "promessa",
    "peso": 0,
-   "motivo": "Promessa fiel ao trecho, sem número, causa ou juízo a mais; nada favorece indevidamente."
+   "para_quem": [],
+   "motivo": "Proposta atribuída ao plano registrado no TSE, sem adjetivo de juízo e sem prometer resultado. Promessa, peso 0."
   },
   "neutra": {
-   "rotulo": "F9841",
+   "rotulo": "F5450",
    "confere": true,
-   "certeza": 0.95,
+   "certeza": 0.9,
    "tipo": "promessa",
    "peso": 0,
-   "motivo": "Frase fiel ao trecho, sem adjetivo de juízo, dentro de 30 palavras; ainda não aconteceu."
+   "para_quem": [],
+   "motivo": "Frase fiel ao trecho do plano de governo, atribuída ao programa, sem adjetivo de juízo. Promessa: ainda não aconteceu."
   },
   "modelo": "sonnet",
-  "rodada": "20261012-1730",
+  "rodada": "20261012-1558",
   "verificador": {
-   "rotulo": "F9841",
+   "rotulo": "F5450",
    "sustenta": true,
-   "motivo": "Título e frase sustentados pelo trecho, sem número, data ou causa a mais."
+   "motivo": "O trecho do plano registrado no TSE fala em avançar na regulação das redes e plataformas para impedir desinformação e campanhas de ódio. A frase só omite palavras."
   },
   "espelho": {
-   "rotulo": "F9841",
+   "rotulo": "F5450",
    "tipo": "promessa",
    "peso": 0,
-   "motivo": "Compromisso de programa de governo, ainda não realizado."
+   "motivo": "Proposta de programa de governo sobre regulação das redes; ainda não aconteceu."
   }
  },
- "conferido_em": "2026-10-12",
- "reavaliar_em": "2026-10-19",
- "versao": 1,
- "publicado_em": "2026-10-12",
  "juridica": {
-  "ok": false,
-  "motivo": "item 4: o trecho diz que plataformas 'acolham campanhas de ódio', não que as difundam; trocar por 'difundam desinformação e acolham campanhas de ódio'.",
-  "hash": "dfc053289e39d7d2885ca2c1bbfd322e7c7a0fa1941e6651f4828df6ee455cc8",
+  "ok": true,
+  "motivo": "proposta fiel ao trecho do plano de governo registrado no TSE, p. 16; sem juízo, sem pedido de voto",
+  "hash": "096de75b983d2af27786ab2f81dc3430f9373033cc4e1c95e0a889a449245ece",
   "em": "2026-10-12"
- }
+ },
+ "para_quem": [],
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19"
 }
