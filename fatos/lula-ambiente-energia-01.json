@@ -1,0 +1,91 @@
+{
+ "id": "lula-ambiente-energia-01",
+ "origem": "plano:pt-p64",
+ "candidato": "lula",
+ "tema": "ambiente",
+ "subtema": "energia",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Plano de Lula prevê mais fontes renováveis e armazenamento de energia",
+ "frase": "O plano de governo de Lula promete incrementar a participação de fontes renováveis e ampliar os investimentos em armazenamento e flexibilidade do sistema elétrico.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [],
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Lula (PT), registrado no TSE, p. 64",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
+  "trecho": "Daremos sequência à estratégia de incrementar a participação de fontes renováveis, ampliar os investimentos em armazenamento e flexibilidade do sistema elétrico, e acelerar a substituição progressiva de combustíveis fósseis por biocombustíveis e combustíveis de baixa intensidade de carbono, incluindo derivados de hidrogênio"
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true,
+  "10": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf": "http://web.archive.org/web/20261002034455/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf"
+ },
+ "hash": "37cbf98f577f52c5d8b0d8f329761eda20ce55d677a7cf41c52801781df2f518",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F2983",
+   "confere": true,
+   "certeza": 0.94,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Frase resume o trecho sem acrescentar nada; promessa."
+  },
+  "contra": {
+   "rotulo": "F2983",
+   "confere": true,
+   "certeza": 0.94,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Fiel ao trecho."
+  },
+  "neutra": {
+   "rotulo": "F2983",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Frase fiel ao trecho, resumindo sem acrescentar."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-2102",
+  "verificador": {
+   "rotulo": "F2983",
+   "sustenta": true,
+   "motivo": "Mais fontes renováveis e mais investimento em armazenamento e flexibilidade do sistema elétrico constam no trecho."
+  },
+  "espelho": {
+   "rotulo": "F2983",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Plano promete mais fontes renováveis e armazenamento de energia; ainda não aconteceu."
+  }
+ },
+ "juridica": {
+  "ok": true,
+  "motivo": "Promessa atribuída ao plano registrado no TSE; título e frase fiéis ao trecho, sem juízo nem acusação.",
+  "hash": "26627a48f771d4e767e2596614faa01f91f2a53b5996de918d8f4d05bb11dbde",
+  "em": "2026-10-12"
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

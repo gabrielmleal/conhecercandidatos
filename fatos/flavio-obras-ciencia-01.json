@@ -1,0 +1,99 @@
+{
+ "id": "flavio-obras-ciencia-01",
+ "origem": "plano:pl-p56",
+ "candidato": "flavio",
+ "tema": "obras",
+ "subtema": "ciencia",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Plano de Flávio prevê levar inteligência artificial a micro, pequenas e médias empresas",
+ "frase": "O plano de governo de Flávio Bolsonaro promete difundir a inteligência artificial para micro, pequenas e médias empresas, com prioridade para indústria, agronegócio, saúde e logística.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [
+  "empresas"
+ ],
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Flávio (PL), registrado no TSE, p. 56",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "trecho": "A Estratégia Nacional de Inteligência Artificial vai difundir a IA para as micro, pequenas e médias empresas em larga escala, com prioridade para indústria, agronegócio, saúde e logística"
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true,
+  "10": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf": "http://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf"
+ },
+ "hash": "9d85ee9c543523af95a1c31396e69081016ad0f8628f219c9297c65d15934d55",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F6833",
+   "confere": true,
+   "certeza": 0.94,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [
+    "empresas"
+   ],
+   "motivo": "Frase fiel ao trecho; atinge micro, pequenas e médias empresas."
+  },
+  "contra": {
+   "rotulo": "F6833",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [
+    "empresas"
+   ],
+   "motivo": "Fiel ao trecho; micro, pequenas e médias empresas citadas."
+  },
+  "neutra": {
+   "rotulo": "F6833",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [
+    "empresas"
+   ],
+   "motivo": "Frase fiel ao trecho; atinge micro, pequenas e médias empresas."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-2102",
+  "verificador": {
+   "rotulo": "F6833",
+   "sustenta": true,
+   "motivo": "Difundir IA para micro, pequenas e médias empresas, com prioridade para indústria, agronegócio, saúde e logística, consta no trecho."
+  },
+  "espelho": {
+   "rotulo": "F6833",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Plano promete difundir inteligência artificial entre micro, pequenas e médias empresas; ainda não aconteceu."
+  }
+ },
+ "juridica": {
+  "ok": true,
+  "motivo": "Promessa fiel ao trecho do plano registrado no TSE; setores prioritários conferem com o documento; sem juízo.",
+  "hash": "318f216cfa4a47fcfe7e7cdb34d4cba3dc556871ca49c36b89ce3c545bfc20a6",
+  "em": "2026-10-12"
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

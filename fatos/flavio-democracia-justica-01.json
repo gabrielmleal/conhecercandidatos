@@ -1,0 +1,91 @@
+{
+ "id": "flavio-democracia-justica-01",
+ "origem": "plano:pl-p65",
+ "candidato": "flavio",
+ "tema": "democracia",
+ "subtema": "justica",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Plano de Flávio prevê fim das competências criminais originárias do STF",
+ "frase": "O plano de governo de Flávio Bolsonaro propõe acabar com as competências criminais originárias do STF, para que parlamentares sejam julgados por instâncias inferiores, como o STJ ou os TRFs.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [],
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Flávio (PL), registrado no TSE, p. 65",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "trecho": "Fim das competências criminais originárias do STF, permitindo que parlamentares sejam julgados por instâncias inferiores, como o STJ ou os TRFs, para que exerçam seus mandatos com mais altivez, sem que isso represente qualquer contrapartida de impunidade"
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true,
+  "10": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf": "http://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf"
+ },
+ "hash": "6372fece675c7776b491e2f883106141e8374dae091765d2cbeb853db4e3de64",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F1713",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Frase fiel ao trecho; proposta do plano, sem adjetivo de juízo."
+  },
+  "contra": {
+   "rotulo": "F1713",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Frase e título conferem com o trecho; a justificativa do plano não foi adotada como fato."
+  },
+  "neutra": {
+   "rotulo": "F1713",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Frase fiel ao trecho, dentro de 30 palavras; promessa."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-2102",
+  "verificador": {
+   "rotulo": "F1713",
+   "sustenta": true,
+   "motivo": "Fim das competências criminais originárias do STF e julgamento por STJ ou TRFs constam no trecho."
+  },
+  "espelho": {
+   "rotulo": "F1713",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Plano propõe acabar com competências criminais originárias do STF; ainda não aconteceu."
+  }
+ },
+ "juridica": {
+  "ok": true,
+  "motivo": "Proposta descrita como consta no plano, atribuída ao documento do TSE, sem juízo nem acréscimo além do trecho.",
+  "hash": "c771508a9f290a0536531e2b6db3e5e8c8d6320576903e9c07f7774332770fce",
+  "em": "2026-10-12"
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}
