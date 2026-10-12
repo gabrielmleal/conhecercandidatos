@@ -1,0 +1,98 @@
+{
+ "id": "flavio-candidato-biografia-04",
+ "origem": "biografia",
+ "candidato": "flavio",
+ "tema": "candidato",
+ "subtema": "biografia",
+ "lente": "fez",
+ "data": "2003-02-01",
+ "titulo": "Flávio Bolsonaro tomou posse como deputado estadual em 2003",
+ "frase": "O primeiro mandato eletivo de Flávio Bolsonaro foi o de deputado estadual do Rio de Janeiro, com posse em 1º de fevereiro de 2003, na legislatura de 2003 a 2007.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [],
+ "ancora": {
+  "orgao": "Assembleia Legislativa do Estado do Rio de Janeiro",
+  "documento": "Ficha do deputado Flávio Bolsonaro",
+  "link": "https://www.alerj.rj.gov.br/Deputados/PerfilDeputado/275?Legislatura=18",
+  "trecho": "Ingressou na vida pública como o Deputado Estadual mais jovem da legislatura 2003/2007"
+ },
+ "fontes": [
+  {
+   "veiculo": "Assembleia Legislativa do Estado do Rio de Janeiro",
+   "nivel": "A",
+   "link": "http://www2.alerj.rj.gov.br/biblioteca/assets/documentos/pdf/legislaturas/deputados/8aLegislatura.pdf",
+   "trecho": "ALERJ - 8º LEGISLATURA (2003-2007) Eleições: 06 de outubro de 2002 | Posse: 01 de fevereiro de 2003 | Término:31 de janeiro de 2007"
+  },
+  {
+   "veiculo": "Assembleia Legislativa do Estado do Rio de Janeiro",
+   "nivel": "A",
+   "link": "http://www2.alerj.rj.gov.br/biblioteca/assets/documentos/pdf/legislaturas/deputados/8aLegislatura.pdf",
+   "trecho": "32. Deputado Flávio Bolsonaro (PP)"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.alerj.rj.gov.br/Deputados/PerfilDeputado/275?Legislatura=18": null,
+  "http://www2.alerj.rj.gov.br/biblioteca/assets/documentos/pdf/legislaturas/deputados/8aLegislatura.pdf": "http://web.archive.org/web/20261012154748/http://www2.alerj.rj.gov.br/biblioteca/assets/documentos/pdf/legislaturas/deputados/8aLegislatura.pdf"
+ },
+ "hash": "39f2185e3da9eb725528fdecced3b766b5c0f6127910ce0febb571a5f7cb40f1",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5350",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Posse em 1º de fevereiro de ano B e legislatura de ano B a ano C estão nos trechos; nada a mais."
+  },
+  "contra": {
+   "rotulo": "F5350",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Posse, legislatura e cargo batem com os trechos; o 'mais jovem' do trecho nem entrou na frase, então nada favorece além dele."
+  },
+  "neutra": {
+   "rotulo": "F5350",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Posse em 1º de fevereiro, legislatura e cargo estão nos trechos; frase dentro de 30 palavras."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-1330",
+  "verificador": {
+   "rotulo": "F5350",
+   "sustenta": true,
+   "motivo": "Posse em 1º de fevereiro de ano B, legislatura ano B a ano C e cargo de deputado estadual estão nos trechos."
+  },
+  "espelho": {
+   "rotulo": "F5350",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data de posse no primeiro mandato, dado biográfico sem lado bom ou ruim."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

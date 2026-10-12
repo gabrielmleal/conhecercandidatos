@@ -1,0 +1,98 @@
+{
+ "id": "lula-candidato-biografia-05",
+ "origem": "biografia",
+ "candidato": "lula",
+ "tema": "candidato",
+ "subtema": "biografia",
+ "lente": "fez",
+ "data": "1987-02-01",
+ "titulo": "Lula foi deputado federal e está no terceiro mandato de presidente",
+ "frase": "Lula foi deputado federal por São Paulo, de 1987 a 1991. Foi presidente da República de 2003 a 2011 e voltou ao cargo em 2023, no terceiro mandato.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [],
+ "ancora": {
+  "orgao": "Câmara dos Deputados",
+  "documento": "Biografia do deputado Luiz Inácio Lula da Silva, Câmara dos Deputados",
+  "link": "https://www.camara.leg.br/deputados/139289/biografia",
+  "trecho": "Mandatos Externos: Presidente da República, Partido: PT, Período: 2003 a 2011; Presidente da República, Partido: PT, Período: 2023."
+ },
+ "fontes": [
+  {
+   "veiculo": "Câmara dos Deputados",
+   "nivel": "A",
+   "link": "https://www.camara.leg.br/deputados/139289/biografia",
+   "trecho": "Deputado(a) Federal - (Constituinte), 1987-1991, SP, PT , Dt. Posse: 01/02/1987."
+  },
+  {
+   "veiculo": "Senado Federal",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente",
+   "trecho": "Lula exerce seu terceiro mandato como presidente."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.camara.leg.br/deputados/139289/biografia": "http://web.archive.org/web/20261004061719/https://www.camara.leg.br/deputados/139289/biografia",
+  "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente": "http://web.archive.org/web/20261012161809/https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente"
+ },
+ "hash": "dbd501d6a777b1f7b1bd4d44200f37ebe9b3be5195bd9f047bee38774b5d787c",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F6649",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Mandatos e períodos batem com os trechos. Fato biográfico neutro, sem adjetivo nem número a mais."
+  },
+  "contra": {
+   "rotulo": "F6649",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Mandato de deputado federal por SP e os períodos de presidente batem com os trechos. Nada a mais."
+  },
+  "neutra": {
+   "rotulo": "F6649",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Cargos, estado e anos conferem com os trechos; 'está no Mandato L' sai de 'exerce seu Mandato L'. Sem juízo de valor."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-1337",
+  "verificador": {
+   "rotulo": "F6649",
+   "sustenta": true,
+   "motivo": "Deputado federal SP de ano A a ano B, presidente de ano C a ano D, retorno em ano E e Mandato L estão nos trechos."
+  },
+  "espelho": {
+   "rotulo": "F6649",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Cargos e períodos exercidos, informação biográfica sem efeito medido nem lado bom ou ruim."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

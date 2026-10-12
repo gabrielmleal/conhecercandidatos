@@ -1,0 +1,125 @@
+{
+ "id": "flavio-candidato-biografia-05",
+ "origem": "biografia",
+ "candidato": "flavio",
+ "tema": "candidato",
+ "subtema": "biografia",
+ "lente": "fez",
+ "data": "2003-02-01",
+ "titulo": "Flávio Bolsonaro: quatro mandatos de deputado estadual e senador de 2019 a 2027",
+ "frase": "Ele exerceu quatro mandatos de deputado estadual entre 2003 e 2019. O mandato de senador pelo Rio de Janeiro é de 2019 a 2027.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [],
+ "ancora": {
+  "orgao": "Assembleia Legislativa do Estado do Rio de Janeiro",
+  "documento": "Ficha do deputado Flávio Bolsonaro",
+  "link": "https://www.alerj.rj.gov.br/Deputados/PerfilDeputado/275?Legislatura=18",
+  "trecho": "Cargos Exercidos: Deputado Estadual Legislatura 2003 / 2007 Presidente da Comissão Permanente de Segurança Pública e Assuntos de Polícia Presidente da Comissão Permanente de Legislação Constitucional Complementar e Códigos Deputado Estadual Legislatura 2007 / 2011"
+ },
+ "fontes": [
+  {
+   "veiculo": "Senado Federal",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2019/01/18/flavio-bolsonaro-psl",
+   "trecho": "Exerceu quatro mandatos de deputado estadual."
+  },
+  {
+   "veiculo": "Assembleia Legislativa do Estado do Rio de Janeiro",
+   "nivel": "A",
+   "link": "http://www2.alerj.rj.gov.br/biblioteca/assets/documentos/pdf/legislaturas/deputados/10aLegislatura.pdf",
+   "trecho": "ALERJ - 10º LEGISLATURA (2011-2015) Eleições: 03 de outubro de 2010 | Posse: 01 de fevereiro de 2011 | Término:31 de janeiro de 2015"
+  },
+  {
+   "veiculo": "Assembleia Legislativa do Estado do Rio de Janeiro",
+   "nivel": "A",
+   "link": "http://www2.alerj.rj.gov.br/biblioteca/assets/documentos/pdf/legislaturas/deputados/10aLegislatura.pdf",
+   "trecho": "27. Deputado Flávio Bolsonaro (PP)"
+  },
+  {
+   "veiculo": "Assembleia Legislativa do Estado do Rio de Janeiro",
+   "nivel": "A",
+   "link": "http://www2.alerj.rj.gov.br/biblioteca/assets/documentos/pdf/legislaturas/deputados/11aLegislatura.pdf",
+   "trecho": "ALERJ - 11º LEGISLATURA (2015-2019) Eleições: 5 de outubro de 2014 | Posse: 01 de fevereiro de 2015 | Término:31 de janeiro de 2019"
+  },
+  {
+   "veiculo": "Assembleia Legislativa do Estado do Rio de Janeiro",
+   "nivel": "A",
+   "link": "http://www2.alerj.rj.gov.br/biblioteca/assets/documentos/pdf/legislaturas/deputados/11aLegislatura.pdf",
+   "trecho": "27. Deputado Flávio Bolsonaro (PSC)"
+  },
+  {
+   "veiculo": "Senado Federal",
+   "nivel": "A",
+   "link": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5894",
+   "trecho": "Mandatos Mandato Início Fim Senador - RJ 2019 2027"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.alerj.rj.gov.br/Deputados/PerfilDeputado/275?Legislatura=18": null,
+  "https://www12.senado.leg.br/noticias/materias/2019/01/18/flavio-bolsonaro-psl": "http://web.archive.org/web/20261012154810/https://www12.senado.leg.br/noticias/materias/2019/01/18/flavio-bolsonaro-psl",
+  "http://www2.alerj.rj.gov.br/biblioteca/assets/documentos/pdf/legislaturas/deputados/10aLegislatura.pdf": "http://web.archive.org/web/20240414232115/https://www2.alerj.rj.gov.br/biblioteca/assets/documentos/pdf/legislaturas/deputados/10aLegislatura.pdf",
+  "http://www2.alerj.rj.gov.br/biblioteca/assets/documentos/pdf/legislaturas/deputados/11aLegislatura.pdf": "http://web.archive.org/web/20261012161729/http://www2.alerj.rj.gov.br/biblioteca/assets/documentos/pdf/legislaturas/deputados/11aLegislatura.pdf",
+  "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5894": "http://web.archive.org/web/20261012153051/https://www25.senado.leg.br/web/senadores/senador/-/perfil/5894"
+ },
+ "hash": "fa65332b6f9c15e35b92a5a853d022e42c5ecd2f27db042a80de8c2544b2ce82",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F1971",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Quatro legislaturas na ALERJ e o Senado confirmam os quatro mandatos; o mandato de senador de ano G a ano H está no trecho."
+  },
+  "contra": {
+   "rotulo": "F1971",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Quatro legislaturas estaduais e o mandato de senador estão nos trechos. Só lista cargos, sem resultado atribuído nem adjetivo."
+  },
+  "neutra": {
+   "rotulo": "F1971",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Quatro legislaturas e o mandato de senador estão nos trechos, com as mesmas datas. Contexto sem lado, 28 palavras."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-1344",
+  "verificador": {
+   "rotulo": "F1971",
+   "sustenta": true,
+   "motivo": "Quatro legislaturas de deputado estadual de ano A a ano G (ALERJ) e o trecho do Senado diz quatro mandatos; senador pelo RJ de ano G a ano H."
+  },
+  "espelho": {
+   "rotulo": "F1971",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Registro biográfico de mandatos e período, sem efeito medido nem lado bom ou ruim."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

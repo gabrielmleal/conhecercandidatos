@@ -1,0 +1,92 @@
+{
+ "id": "flavio-candidato-biografia-06",
+ "origem": "biografia",
+ "candidato": "flavio",
+ "tema": "candidato",
+ "subtema": "biografia",
+ "lente": "fez",
+ "data": "2021-11-30",
+ "titulo": "Flávio Bolsonaro é do PL desde novembro de 2021",
+ "frase": "Flávio Bolsonaro é do PL, Partido Liberal, desde 30 de novembro de 2021, segundo os dados abertos do Senado.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [],
+ "ancora": {
+  "orgao": "Senado Federal",
+  "documento": "Filiações partidárias do senador Flávio Bolsonaro, dados abertos",
+  "link": "https://legis.senado.leg.br/dadosabertos/senador/5894/filiacoes",
+  "trecho": "Retorna a relação de Filiações Partidárias do Senador informado no parâmetro. 5894 Flávio Bolsonaro 523 PL Partido Liberal 2021-11-30"
+ },
+ "fontes": [
+  {
+   "veiculo": "Senado Federal",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente",
+   "trecho": "A disputa pela Presidência da República terá um segundo turno com Luiz Inácio Lula da Silva (PT), que busca a reeleição, e o senador Flávio Bolsonaro (PL)."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://legis.senado.leg.br/dadosabertos/senador/5894/filiacoes": null,
+  "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente": null
+ },
+ "hash": "7a3ef5ec38e4b1397d1cec1d2ef54c217e44ba8cc21c0f5274e9a353132d6f69",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5397",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Filiação em 30 de novembro de ano A está no primeiro trecho; o segundo mostra o partido atual."
+  },
+  "contra": {
+   "rotulo": "F5397",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Filiação e data batem com os dados abertos; o outro trecho confirma que é do partido hoje. Fato neutro."
+  },
+  "neutra": {
+   "rotulo": "F5397",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Data de filiação consta no trecho dos dados abertos do Senado; frase curta e sem juízo."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-1330",
+  "verificador": {
+   "rotulo": "F5397",
+   "sustenta": true,
+   "motivo": "Filiação ao Partido W em ano A-11-30 e a candidatura pelo Partido W estão nos trechos."
+  },
+  "espelho": {
+   "rotulo": "F5397",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Filiação partidária e data de entrada, informação sem lado bom ou ruim."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

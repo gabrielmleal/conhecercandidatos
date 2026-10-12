@@ -1,0 +1,92 @@
+{
+ "id": "lula-candidato-biografia-04",
+ "origem": "biografia",
+ "candidato": "lula",
+ "tema": "candidato",
+ "subtema": "biografia",
+ "lente": "fez",
+ "data": "1987-02-01",
+ "titulo": "Lula tomou posse como deputado federal em 1987",
+ "frase": "O primeiro mandato eletivo de Lula foi o de deputado federal por São Paulo, com posse em 1º de fevereiro de 1987, na legislatura de 1987 a 1991.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [],
+ "ancora": {
+  "orgao": "Câmara dos Deputados",
+  "documento": "Biografia do deputado Luiz Inácio Lula da Silva, Câmara dos Deputados",
+  "link": "https://www.camara.leg.br/deputados/139289/biografia",
+  "trecho": "Deputado(a) Federal - (Constituinte), 1987-1991, SP, PT , Dt. Posse: 01/02/1987."
+ },
+ "fontes": [
+  {
+   "veiculo": "Senado Federal",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente",
+   "trecho": "Foi eleito deputado federal por São Paulo em 1986 e participou da elaboração da Constituição de 1988, como deputado constituinte."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.camara.leg.br/deputados/139289/biografia": "http://web.archive.org/web/20261004061719/https://www.camara.leg.br/deputados/139289/biografia",
+  "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente": "http://web.archive.org/web/20261012161809/https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente"
+ },
+ "hash": "a22dcee2230d8cefdab1d62b89e65633eba4623eec3bdca61e79a2ceff305014",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F7710",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Cargo, estado, posse em 1º de fevereiro de ano B e legislatura de ano B a ano D batem com os trechos."
+  },
+  "contra": {
+   "rotulo": "F7710",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Posse, legislatura, estado e cargo batem com o trecho; 'Mandato A' é rótulo. Nada favorece além do que consta."
+  },
+  "neutra": {
+   "rotulo": "F7710",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Cargo, estado, data da posse e período constam nos trechos; frase dentro de 30 palavras."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-1330",
+  "verificador": {
+   "rotulo": "F7710",
+   "sustenta": true,
+   "motivo": "Posse em 01/02/ano B, legislatura ano B a ano D e deputado federal por SP estão nos trechos."
+  },
+  "espelho": {
+   "rotulo": "F7710",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data de posse no primeiro mandato, dado biográfico sem lado bom ou ruim."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

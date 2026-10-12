@@ -145,6 +145,7 @@
   "erro": "401",
   "copia": "https://web.archive.org/web/20260406185721/https://www.gov.br/anatel/pt-br/assuntos/noticias/leilao-da-tecnologia-de-quinta-geracao-alcanca-r-47-2-bilhoes",
   "copia_estado": "navegador mostra o trecho",
+  "pdf": false,
   "link": "https://www.gov.br/anatel/pt-br/assuntos/noticias/leilao-da-tecnologia-de-quinta-geracao-alcanca-r-47-2-bilhoes",
   "conferido_em": "2026-10-12"
  },
@@ -2284,5 +2285,212 @@
   "pagina": 31,
   "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
   "conferido_em": "2026-10-11"
+ },
+ "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biblioteca-da-pr/ex-presidentes/luiz-inacio-lula-da-silva-2/biografia#1f7dc35d": {
+  "estado": "mostra o trecho",
+  "pdf": false,
+  "link": "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biblioteca-da-pr/ex-presidentes/luiz-inacio-lula-da-silva-2/biografia",
+  "conferido_em": "2026-10-12"
+ },
+ "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=application/pdf&path=/candidaturas/oficial/2022/BR/BR/544/candidatos/893498/rrc.pdf#f3863cf6": {
+  "estado": "mostra o trecho",
+  "pdf": true,
+  "pagina": 1,
+  "link": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=application/pdf&path=/candidaturas/oficial/2022/BR/BR/544/candidatos/893498/rrc.pdf",
+  "conferido_em": "2026-10-12"
+ },
+ "https://www12.senado.leg.br/noticias/materias/2019/01/18/flavio-bolsonaro-psl#76fd3280": {
+  "estado": "mostra o trecho",
+  "pdf": false,
+  "link": "https://www12.senado.leg.br/noticias/materias/2019/01/18/flavio-bolsonaro-psl",
+  "conferido_em": "2026-10-12"
+ },
+ "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biblioteca-da-pr/ex-presidentes/luiz-inacio-lula-da-silva-2/biografia#aa850331": {
+  "estado": "mostra o trecho",
+  "pdf": false,
+  "link": "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biblioteca-da-pr/ex-presidentes/luiz-inacio-lula-da-silva-2/biografia",
+  "conferido_em": "2026-10-12"
+ },
+ "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5894#4bbfd32f": {
+  "estado": "mostra o trecho",
+  "pdf": false,
+  "link": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5894",
+  "conferido_em": "2026-10-12"
+ },
+ "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=application/pdf&path=/candidaturas/oficial/2022/BR/BR/544/candidatos/893498/rrc.pdf#0d12590a": {
+  "estado": "mostra o trecho",
+  "pdf": true,
+  "pagina": 1,
+  "link": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=application/pdf&path=/candidaturas/oficial/2022/BR/BR/544/candidatos/893498/rrc.pdf",
+  "conferido_em": "2026-10-12"
+ },
+ "https://www.camara.leg.br/deputados/139289/biografia#2cdbc861": {
+  "estado": "mostra o trecho",
+  "pdf": false,
+  "link": "https://www.camara.leg.br/deputados/139289/biografia",
+  "conferido_em": "2026-10-12"
+ },
+ "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biblioteca-da-pr/ex-presidentes/luiz-inacio-lula-da-silva-2/biografia#a1f12fc1": {
+  "estado": "mostra o trecho",
+  "pdf": false,
+  "link": "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biblioteca-da-pr/ex-presidentes/luiz-inacio-lula-da-silva-2/biografia",
+  "conferido_em": "2026-10-12"
+ },
+ "http://www2.alerj.rj.gov.br/biblioteca/assets/documentos/pdf/legislaturas/deputados/11aLegislatura.pdf#5b7c10c3": {
+  "estado": "mostra o trecho",
+  "pdf": true,
+  "pagina": 1,
+  "link": "http://www2.alerj.rj.gov.br/biblioteca/assets/documentos/pdf/legislaturas/deputados/11aLegislatura.pdf",
+  "conferido_em": "2026-10-12"
+ },
+ "https://www.alerj.rj.gov.br/Deputados/PerfilDeputado/275?Legislatura=18#c1d7d9f7": {
+  "estado": "mostra o trecho",
+  "pdf": false,
+  "link": "https://www.alerj.rj.gov.br/Deputados/PerfilDeputado/275?Legislatura=18",
+  "conferido_em": "2026-10-12"
+ },
+ "http://www2.alerj.rj.gov.br/biblioteca/assets/documentos/pdf/legislaturas/deputados/8aLegislatura.pdf#e0bccc0b": {
+  "estado": "mostra o trecho",
+  "pdf": true,
+  "pagina": 1,
+  "link": "http://www2.alerj.rj.gov.br/biblioteca/assets/documentos/pdf/legislaturas/deputados/8aLegislatura.pdf",
+  "conferido_em": "2026-10-12"
+ },
+ "https://www.camara.leg.br/deputados/139289/biografia#6fb8433b": {
+  "estado": "mostra o trecho",
+  "pdf": false,
+  "link": "https://www.camara.leg.br/deputados/139289/biografia",
+  "conferido_em": "2026-10-12"
+ },
+ "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente#5e1eec61": {
+  "estado": "mostra o trecho",
+  "pdf": false,
+  "link": "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente",
+  "conferido_em": "2026-10-12"
+ },
+ "https://www12.senado.leg.br/noticias/materias/2019/01/18/flavio-bolsonaro-psl#3cf991df": {
+  "estado": "mostra o trecho",
+  "pdf": false,
+  "link": "https://www12.senado.leg.br/noticias/materias/2019/01/18/flavio-bolsonaro-psl",
+  "conferido_em": "2026-10-12"
+ },
+ "https://dadosabertos.camara.leg.br/api/v2/deputados/139289?formato=json#9152e2cd": {
+  "estado": "mostra o trecho",
+  "pdf": false,
+  "link": "https://dadosabertos.camara.leg.br/api/v2/deputados/139289?formato=json",
+  "conferido_em": "2026-10-12"
+ },
+ "https://www.alerj.rj.gov.br/Deputados/PerfilDeputado/275?Legislatura=18#0ace068e": {
+  "estado": "mostra o trecho",
+  "pdf": false,
+  "link": "https://www.alerj.rj.gov.br/Deputados/PerfilDeputado/275?Legislatura=18",
+  "conferido_em": "2026-10-12"
+ },
+ "https://legis.senado.leg.br/dadosabertos/senador/5894/filiacoes#0f0e7017": {
+  "estado": "mostra o trecho",
+  "pdf": false,
+  "link": "https://legis.senado.leg.br/dadosabertos/senador/5894/filiacoes",
+  "conferido_em": "2026-10-12"
+ },
+ "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=application/pdf&path=/candidaturas/oficial/2022/BR/BR/544/candidatos/893498/rrc.pdf#cd1aa0d1": {
+  "estado": "mostra o trecho",
+  "pdf": true,
+  "pagina": 1,
+  "link": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=application/pdf&path=/candidaturas/oficial/2022/BR/BR/544/candidatos/893498/rrc.pdf",
+  "conferido_em": "2026-10-12"
+ },
+ "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente#2d476bc6": {
+  "estado": "mostra o trecho",
+  "pdf": false,
+  "link": "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente",
+  "conferido_em": "2026-10-12"
+ },
+ "https://www.alerj.rj.gov.br/Deputados/PerfilDeputado/275?Legislatura=18#e5cf4705": {
+  "estado": "mostra o trecho",
+  "pdf": false,
+  "link": "https://www.alerj.rj.gov.br/Deputados/PerfilDeputado/275?Legislatura=18",
+  "conferido_em": "2026-10-12"
+ },
+ "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente#01617dbd": {
+  "estado": "mostra o trecho",
+  "pdf": false,
+  "link": "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente",
+  "conferido_em": "2026-10-12"
+ },
+ "https://www.alerj.rj.gov.br/Deputados/PerfilDeputado/275?Legislatura=18#971a1275": {
+  "estado": "mostra o trecho",
+  "pdf": false,
+  "link": "https://www.alerj.rj.gov.br/Deputados/PerfilDeputado/275?Legislatura=18",
+  "conferido_em": "2026-10-12"
+ },
+ "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5894#352418f2": {
+  "estado": "mostra o trecho",
+  "pdf": false,
+  "link": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5894",
+  "conferido_em": "2026-10-12"
+ },
+ "http://www2.alerj.rj.gov.br/biblioteca/assets/documentos/pdf/legislaturas/deputados/10aLegislatura.pdf#1749f4cf": {
+  "estado": "mostra o trecho",
+  "pdf": true,
+  "pagina": 1,
+  "link": "http://www2.alerj.rj.gov.br/biblioteca/assets/documentos/pdf/legislaturas/deputados/10aLegislatura.pdf",
+  "conferido_em": "2026-10-12"
+ },
+ "https://www.camara.leg.br/deputados/139289/biografia#408ac442": {
+  "estado": "mostra o trecho",
+  "pdf": false,
+  "link": "https://www.camara.leg.br/deputados/139289/biografia",
+  "conferido_em": "2026-10-12"
+ },
+ "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biblioteca-da-pr/ex-presidentes/luiz-inacio-lula-da-silva-2/biografia#570fda38": {
+  "estado": "mostra o trecho",
+  "pdf": false,
+  "link": "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biblioteca-da-pr/ex-presidentes/luiz-inacio-lula-da-silva-2/biografia",
+  "conferido_em": "2026-10-12"
+ },
+ "https://www.camara.leg.br/deputados/139289/biografia#701dc356": {
+  "estado": "mostra o trecho",
+  "pdf": false,
+  "link": "https://www.camara.leg.br/deputados/139289/biografia",
+  "conferido_em": "2026-10-12"
+ },
+ "http://www2.alerj.rj.gov.br/biblioteca/assets/documentos/pdf/legislaturas/deputados/10aLegislatura.pdf#73daa38c": {
+  "estado": "mostra o trecho",
+  "pdf": true,
+  "pagina": 1,
+  "link": "http://www2.alerj.rj.gov.br/biblioteca/assets/documentos/pdf/legislaturas/deputados/10aLegislatura.pdf",
+  "conferido_em": "2026-10-12"
+ },
+ "https://www.camara.leg.br/deputados/139289/biografia#32cd7c4e": {
+  "estado": "mostra o trecho",
+  "pdf": false,
+  "link": "https://www.camara.leg.br/deputados/139289/biografia",
+  "conferido_em": "2026-10-12"
+ },
+ "http://www2.alerj.rj.gov.br/biblioteca/assets/documentos/pdf/legislaturas/deputados/11aLegislatura.pdf#e60bc0dc": {
+  "estado": "mostra o trecho",
+  "pdf": true,
+  "pagina": 1,
+  "link": "http://www2.alerj.rj.gov.br/biblioteca/assets/documentos/pdf/legislaturas/deputados/11aLegislatura.pdf",
+  "conferido_em": "2026-10-12"
+ },
+ "https://www.alerj.rj.gov.br/Deputados/PerfilDeputado/275?Legislatura=18#d7656558": {
+  "estado": "mostra o trecho",
+  "pdf": false,
+  "link": "https://www.alerj.rj.gov.br/Deputados/PerfilDeputado/275?Legislatura=18",
+  "conferido_em": "2026-10-12"
+ },
+ "http://www2.alerj.rj.gov.br/biblioteca/assets/documentos/pdf/legislaturas/deputados/8aLegislatura.pdf#c90a3a18": {
+  "estado": "mostra o trecho",
+  "pdf": true,
+  "pagina": 1,
+  "link": "http://www2.alerj.rj.gov.br/biblioteca/assets/documentos/pdf/legislaturas/deputados/8aLegislatura.pdf",
+  "conferido_em": "2026-10-12"
+ },
+ "https://www.alerj.rj.gov.br/Deputados/PerfilDeputado/275?Legislatura=18#74e7dfd0": {
+  "estado": "mostra o trecho",
+  "pdf": false,
+  "link": "https://www.alerj.rj.gov.br/Deputados/PerfilDeputado/275?Legislatura=18",
+  "conferido_em": "2026-10-12"
  }
 }
