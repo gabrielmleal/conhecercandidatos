@@ -28,7 +28,7 @@ Peso 2: dado oficial, lei ou ato oficial com efeito direto, orçamento oficial, 
 
 ## Temas sensíveis
 
-Acusação, investigação ou fato de familiar só entra com documento de órgão de Justiça ou de investigação, e a `frase` termina com "Investigação não é condenação." quando não houve julgamento. Parente sem cargo público só entra quando um documento oficial o cita diretamente.
+Acusação, investigação ou fato de familiar só entra com documento de órgão de Justiça ou de investigação, e a `frase` termina com "Investigação não é condenação." quando não houve julgamento final, ou com "Não há condenação válida." quando a condenação foi anulada ou a acusação inteira foi arquivada. Parente sem cargo público só entra quando um documento oficial o cita diretamente.
 
 ## Quem responde por quê
 
