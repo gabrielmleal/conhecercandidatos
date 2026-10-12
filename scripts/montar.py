@@ -50,7 +50,9 @@ def fonte(fato):
 
 
 def outras(fato):
-    return [(f["veiculo"], link) for f in fato.get("fontes", []) if (link := onde_ler(f["link"], f.get("trecho", ""), LIDOS))]
+    achadas = [(f["veiculo"], link) for f in fato.get("fontes", []) if (link := onde_ler(f["link"], f.get("trecho", ""), LIDOS))]
+    nomes = [v for v, _ in achadas]
+    return [(f"{v} ({nomes[:i + 1].count(v)})" if nomes.count(v) > 1 else v, link) for i, (v, link) in enumerate(achadas)]
 
 
 def para_site(fato, formas):
