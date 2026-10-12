@@ -1,48 +1,6 @@
 [
  {
   "candidato": "flavio",
-  "tema": "aliados",
-  "subtema": "apoios",
-  "mandato": "-",
-  "fatos": 0
- },
- {
-  "candidato": "lula",
-  "tema": "aliados",
-  "subtema": "apoios",
-  "mandato": "-",
-  "fatos": 0
- },
- {
-  "candidato": "flavio",
-  "tema": "aliados",
-  "subtema": "familia",
-  "mandato": "-",
-  "fatos": 0
- },
- {
-  "candidato": "lula",
-  "tema": "aliados",
-  "subtema": "familia",
-  "mandato": "-",
-  "fatos": 0
- },
- {
-  "candidato": "flavio",
-  "tema": "aliados",
-  "subtema": "investigados",
-  "mandato": "-",
-  "fatos": 0
- },
- {
-  "candidato": "lula",
-  "tema": "aliados",
-  "subtema": "investigados",
-  "mandato": "-",
-  "fatos": 0
- },
- {
-  "candidato": "flavio",
   "tema": "ambiente",
   "subtema": "clima",
   "mandato": "b",
@@ -65,20 +23,6 @@
  {
   "candidato": "lula",
   "tema": "ambiente",
-  "subtema": "clima",
-  "mandato": "l3",
-  "fatos": 0
- },
- {
-  "candidato": "flavio",
-  "tema": "ambiente",
-  "subtema": "desmatamento",
-  "mandato": "b",
-  "fatos": 0
- },
- {
-  "candidato": "lula",
-  "tema": "ambiente",
   "subtema": "desmatamento",
   "mandato": "l1",
   "fatos": 0
@@ -88,13 +32,6 @@
   "tema": "ambiente",
   "subtema": "desmatamento",
   "mandato": "l2",
-  "fatos": 0
- },
- {
-  "candidato": "lula",
-  "tema": "ambiente",
-  "subtema": "desmatamento",
-  "mandato": "l3",
   "fatos": 0
  },
  {
@@ -116,13 +53,6 @@
   "tema": "ambiente",
   "subtema": "energia",
   "mandato": "l2",
-  "fatos": 0
- },
- {
-  "candidato": "lula",
-  "tema": "ambiente",
-  "subtema": "energia",
-  "mandato": "l3",
   "fatos": 0
  },
  {
@@ -151,20 +81,6 @@
   "tema": "ambiente",
   "subtema": "indigenas",
   "mandato": "l3",
-  "fatos": 0
- },
- {
-  "candidato": "flavio",
-  "tema": "candidato",
-  "subtema": "investigacoes",
-  "mandato": "-",
-  "fatos": 0
- },
- {
-  "candidato": "lula",
-  "tema": "candidato",
-  "subtema": "investigacoes",
-  "mandato": "-",
   "fatos": 0
  },
  {
@@ -184,13 +100,6 @@
  {
   "candidato": "flavio",
   "tema": "candidato",
-  "subtema": "trajetoria",
-  "mandato": "-",
-  "fatos": 0
- },
- {
-  "candidato": "flavio",
-  "tema": "candidato",
   "subtema": "votos",
   "mandato": "-",
   "fatos": 0
@@ -203,13 +112,6 @@
   "fatos": 0
  },
  {
-  "candidato": "flavio",
-  "tema": "contas",
-  "subtema": "divida",
-  "mandato": "b",
-  "fatos": 0
- },
- {
   "candidato": "lula",
   "tema": "contas",
   "subtema": "divida",
@@ -226,20 +128,6 @@
  {
   "candidato": "lula",
   "tema": "contas",
-  "subtema": "divida",
-  "mandato": "l3",
-  "fatos": 0
- },
- {
-  "candidato": "flavio",
-  "tema": "contas",
-  "subtema": "gastos",
-  "mandato": "b",
-  "fatos": 0
- },
- {
-  "candidato": "lula",
-  "tema": "contas",
   "subtema": "gastos",
   "mandato": "l1",
   "fatos": 0
@@ -249,13 +137,6 @@
   "tema": "contas",
   "subtema": "gastos",
   "mandato": "l2",
-  "fatos": 0
- },
- {
-  "candidato": "lula",
-  "tema": "contas",
-  "subtema": "gastos",
-  "mandato": "l3",
   "fatos": 0
  },
  {
@@ -282,20 +163,6 @@
  {
   "candidato": "lula",
   "tema": "contas",
-  "subtema": "impostos",
-  "mandato": "l3",
-  "fatos": 0
- },
- {
-  "candidato": "flavio",
-  "tema": "contas",
-  "subtema": "previdencia",
-  "mandato": "b",
-  "fatos": 0
- },
- {
-  "candidato": "lula",
-  "tema": "contas",
   "subtema": "previdencia",
   "mandato": "l1",
   "fatos": 0
@@ -305,13 +172,6 @@
   "tema": "contas",
   "subtema": "previdencia",
   "mandato": "l2",
-  "fatos": 0
- },
- {
-  "candidato": "lula",
-  "tema": "contas",
-  "subtema": "previdencia",
-  "mandato": "l3",
   "fatos": 0
  },
  {
@@ -340,13 +200,6 @@
   "tema": "democracia",
   "subtema": "eleicoes",
   "mandato": "l3",
-  "fatos": 0
- },
- {
-  "candidato": "flavio",
-  "tema": "democracia",
-  "subtema": "gestao",
-  "mandato": "b",
   "fatos": 0
  },
  {
@@ -399,13 +252,6 @@
   "fatos": 0
  },
  {
-  "candidato": "flavio",
-  "tema": "democracia",
-  "subtema": "justica",
-  "mandato": "b",
-  "fatos": 0
- },
- {
   "candidato": "lula",
   "tema": "democracia",
   "subtema": "justica",
@@ -417,13 +263,6 @@
   "tema": "democracia",
   "subtema": "justica",
   "mandato": "l2",
-  "fatos": 0
- },
- {
-  "candidato": "lula",
-  "tema": "democracia",
-  "subtema": "justica",
-  "mandato": "l3",
   "fatos": 0
  },
  {
@@ -445,20 +284,6 @@
   "tema": "educacao",
   "subtema": "creche",
   "mandato": "l2",
-  "fatos": 0
- },
- {
-  "candidato": "lula",
-  "tema": "educacao",
-  "subtema": "creche",
-  "mandato": "l3",
-  "fatos": 0
- },
- {
-  "candidato": "flavio",
-  "tema": "educacao",
-  "subtema": "mec",
-  "mandato": "b",
   "fatos": 0
  },
  {
@@ -506,20 +331,6 @@
  {
   "candidato": "lula",
   "tema": "educacao",
-  "subtema": "medio",
-  "mandato": "l3",
-  "fatos": 0
- },
- {
-  "candidato": "flavio",
-  "tema": "educacao",
-  "subtema": "universidades",
-  "mandato": "b",
-  "fatos": 0
- },
- {
-  "candidato": "lula",
-  "tema": "educacao",
   "subtema": "universidades",
   "mandato": "l1",
   "fatos": 0
@@ -560,13 +371,6 @@
   "fatos": 0
  },
  {
-  "candidato": "lula",
-  "tema": "mundo",
-  "subtema": "aliancas",
-  "mandato": "l3",
-  "fatos": 0
- },
- {
   "candidato": "flavio",
   "tema": "mundo",
   "subtema": "comercio",
@@ -588,13 +392,6 @@
   "fatos": 0
  },
  {
-  "candidato": "lula",
-  "tema": "mundo",
-  "subtema": "comercio",
-  "mandato": "l3",
-  "fatos": 0
- },
- {
   "candidato": "flavio",
   "tema": "mundo",
   "subtema": "eua",
@@ -613,13 +410,6 @@
   "tema": "mundo",
   "subtema": "eua",
   "mandato": "l2",
-  "fatos": 0
- },
- {
-  "candidato": "lula",
-  "tema": "mundo",
-  "subtema": "eua",
-  "mandato": "l3",
   "fatos": 0
  },
  {
@@ -645,20 +435,6 @@
  },
  {
   "candidato": "lula",
-  "tema": "mundo",
-  "subtema": "vizinhos",
-  "mandato": "l3",
-  "fatos": 0
- },
- {
-  "candidato": "flavio",
-  "tema": "obras",
-  "subtema": "ciencia",
-  "mandato": "b",
-  "fatos": 0
- },
- {
-  "candidato": "lula",
   "tema": "obras",
   "subtema": "ciencia",
   "mandato": "l1",
@@ -669,20 +445,6 @@
   "tema": "obras",
   "subtema": "ciencia",
   "mandato": "l2",
-  "fatos": 0
- },
- {
-  "candidato": "lula",
-  "tema": "obras",
-  "subtema": "ciencia",
-  "mandato": "l3",
-  "fatos": 0
- },
- {
-  "candidato": "flavio",
-  "tema": "obras",
-  "subtema": "internet",
-  "mandato": "b",
   "fatos": 0
  },
  {
@@ -753,13 +515,6 @@
   "tema": "obras",
   "subtema": "transporte",
   "mandato": "l2",
-  "fatos": 0
- },
- {
-  "candidato": "lula",
-  "tema": "obras",
-  "subtema": "transporte",
-  "mandato": "l3",
   "fatos": 0
  },
  {
@@ -847,13 +602,6 @@
   "fatos": 0
  },
  {
-  "candidato": "flavio",
-  "tema": "producao",
-  "subtema": "pequenas",
-  "mandato": "b",
-  "fatos": 0
- },
- {
   "candidato": "lula",
   "tema": "producao",
   "subtema": "pequenas",
@@ -875,13 +623,6 @@
   "fatos": 0
  },
  {
-  "candidato": "flavio",
-  "tema": "renda",
-  "subtema": "emprego",
-  "mandato": "b",
-  "fatos": 0
- },
- {
   "candidato": "lula",
   "tema": "renda",
   "subtema": "emprego",
@@ -893,20 +634,6 @@
   "tema": "renda",
   "subtema": "emprego",
   "mandato": "l2",
-  "fatos": 0
- },
- {
-  "candidato": "lula",
-  "tema": "renda",
-  "subtema": "emprego",
-  "mandato": "l3",
-  "fatos": 0
- },
- {
-  "candidato": "flavio",
-  "tema": "renda",
-  "subtema": "juros",
-  "mandato": "b",
   "fatos": 0
  },
  {
@@ -926,20 +653,6 @@
  {
   "candidato": "lula",
   "tema": "renda",
-  "subtema": "juros",
-  "mandato": "l3",
-  "fatos": 0
- },
- {
-  "candidato": "flavio",
-  "tema": "renda",
-  "subtema": "precos",
-  "mandato": "b",
-  "fatos": 0
- },
- {
-  "candidato": "lula",
-  "tema": "renda",
   "subtema": "precos",
   "mandato": "l1",
   "fatos": 0
@@ -949,13 +662,6 @@
   "tema": "renda",
   "subtema": "precos",
   "mandato": "l2",
-  "fatos": 0
- },
- {
-  "candidato": "lula",
-  "tema": "renda",
-  "subtema": "precos",
-  "mandato": "l3",
   "fatos": 0
  },
  {
@@ -987,13 +693,6 @@
   "fatos": 0
  },
  {
-  "candidato": "flavio",
-  "tema": "saude",
-  "subtema": "epidemias",
-  "mandato": "b",
-  "fatos": 0
- },
- {
   "candidato": "lula",
   "tema": "saude",
   "subtema": "epidemias",
@@ -1005,13 +704,6 @@
   "tema": "saude",
   "subtema": "epidemias",
   "mandato": "l2",
-  "fatos": 0
- },
- {
-  "candidato": "lula",
-  "tema": "saude",
-  "subtema": "epidemias",
-  "mandato": "l3",
   "fatos": 0
  },
  {
@@ -1036,13 +728,6 @@
   "fatos": 0
  },
  {
-  "candidato": "lula",
-  "tema": "saude",
-  "subtema": "remedios",
-  "mandato": "l3",
-  "fatos": 0
- },
- {
   "candidato": "flavio",
   "tema": "saude",
   "subtema": "sus",
@@ -1064,13 +749,6 @@
   "fatos": 0
  },
  {
-  "candidato": "lula",
-  "tema": "saude",
-  "subtema": "sus",
-  "mandato": "l3",
-  "fatos": 0
- },
- {
   "candidato": "flavio",
   "tema": "saude",
   "subtema": "vacinas",
@@ -1089,13 +767,6 @@
   "tema": "saude",
   "subtema": "vacinas",
   "mandato": "l2",
-  "fatos": 0
- },
- {
-  "candidato": "lula",
-  "tema": "saude",
-  "subtema": "vacinas",
-  "mandato": "l3",
   "fatos": 0
  },
  {
@@ -1176,13 +847,6 @@
   "fatos": 0
  },
  {
-  "candidato": "lula",
-  "tema": "seguranca",
-  "subtema": "leis",
-  "mandato": "l3",
-  "fatos": 0
- },
- {
   "candidato": "flavio",
   "tema": "seguranca",
   "subtema": "policia",
@@ -1201,13 +865,6 @@
   "tema": "seguranca",
   "subtema": "policia",
   "mandato": "l2",
-  "fatos": 0
- },
- {
-  "candidato": "lula",
-  "tema": "seguranca",
-  "subtema": "policia",
-  "mandato": "l3",
   "fatos": 0
  },
  {
@@ -1234,20 +891,6 @@
  {
   "candidato": "lula",
   "tema": "social",
-  "subtema": "direitos",
-  "mandato": "l3",
-  "fatos": 0
- },
- {
-  "candidato": "flavio",
-  "tema": "social",
-  "subtema": "fome",
-  "mandato": "b",
-  "fatos": 0
- },
- {
-  "candidato": "lula",
-  "tema": "social",
   "subtema": "fome",
   "mandato": "l1",
   "fatos": 0
@@ -1257,13 +900,6 @@
   "tema": "social",
   "subtema": "fome",
   "mandato": "l2",
-  "fatos": 0
- },
- {
-  "candidato": "lula",
-  "tema": "social",
-  "subtema": "fome",
-  "mandato": "l3",
   "fatos": 0
  },
  {
@@ -1290,20 +926,6 @@
  {
   "candidato": "lula",
   "tema": "social",
-  "subtema": "moradia",
-  "mandato": "l3",
-  "fatos": 0
- },
- {
-  "candidato": "flavio",
-  "tema": "social",
-  "subtema": "transferencia",
-  "mandato": "b",
-  "fatos": 0
- },
- {
-  "candidato": "lula",
-  "tema": "social",
   "subtema": "transferencia",
   "mandato": "l1",
   "fatos": 0
@@ -1316,11 +938,11 @@
   "fatos": 0
  },
  {
-  "candidato": "lula",
-  "tema": "social",
-  "subtema": "transferencia",
-  "mandato": "l3",
-  "fatos": 0
+  "candidato": "flavio",
+  "tema": "aliados",
+  "subtema": "apoios",
+  "mandato": "-",
+  "fatos": 1
  },
  {
   "candidato": "flavio",
@@ -1338,9 +960,387 @@
  },
  {
   "candidato": "lula",
+  "tema": "ambiente",
+  "subtema": "clima",
+  "mandato": "l3",
+  "fatos": 1
+ },
+ {
+  "candidato": "lula",
+  "tema": "ambiente",
+  "subtema": "energia",
+  "mandato": "l3",
+  "fatos": 1
+ },
+ {
+  "candidato": "lula",
   "tema": "candidato",
   "subtema": "trajetoria",
   "mandato": "-",
   "fatos": 1
+ },
+ {
+  "candidato": "flavio",
+  "tema": "contas",
+  "subtema": "divida",
+  "mandato": "b",
+  "fatos": 1
+ },
+ {
+  "candidato": "flavio",
+  "tema": "democracia",
+  "subtema": "gestao",
+  "mandato": "b",
+  "fatos": 1
+ },
+ {
+  "candidato": "flavio",
+  "tema": "democracia",
+  "subtema": "justica",
+  "mandato": "b",
+  "fatos": 1
+ },
+ {
+  "candidato": "flavio",
+  "tema": "educacao",
+  "subtema": "universidades",
+  "mandato": "b",
+  "fatos": 1
+ },
+ {
+  "candidato": "flavio",
+  "tema": "obras",
+  "subtema": "ciencia",
+  "mandato": "b",
+  "fatos": 1
+ },
+ {
+  "candidato": "lula",
+  "tema": "obras",
+  "subtema": "transporte",
+  "mandato": "l3",
+  "fatos": 1
+ },
+ {
+  "candidato": "flavio",
+  "tema": "renda",
+  "subtema": "emprego",
+  "mandato": "b",
+  "fatos": 1
+ },
+ {
+  "candidato": "flavio",
+  "tema": "renda",
+  "subtema": "juros",
+  "mandato": "b",
+  "fatos": 1
+ },
+ {
+  "candidato": "flavio",
+  "tema": "renda",
+  "subtema": "precos",
+  "mandato": "b",
+  "fatos": 1
+ },
+ {
+  "candidato": "lula",
+  "tema": "saude",
+  "subtema": "epidemias",
+  "mandato": "l3",
+  "fatos": 1
+ },
+ {
+  "candidato": "lula",
+  "tema": "saude",
+  "subtema": "remedios",
+  "mandato": "l3",
+  "fatos": 1
+ },
+ {
+  "candidato": "lula",
+  "tema": "saude",
+  "subtema": "sus",
+  "mandato": "l3",
+  "fatos": 1
+ },
+ {
+  "candidato": "lula",
+  "tema": "saude",
+  "subtema": "vacinas",
+  "mandato": "l3",
+  "fatos": 1
+ },
+ {
+  "candidato": "lula",
+  "tema": "seguranca",
+  "subtema": "policia",
+  "mandato": "l3",
+  "fatos": 1
+ },
+ {
+  "candidato": "lula",
+  "tema": "social",
+  "subtema": "direitos",
+  "mandato": "l3",
+  "fatos": 1
+ },
+ {
+  "candidato": "flavio",
+  "tema": "social",
+  "subtema": "fome",
+  "mandato": "b",
+  "fatos": 1
+ },
+ {
+  "candidato": "lula",
+  "tema": "social",
+  "subtema": "fome",
+  "mandato": "l3",
+  "fatos": 1
+ },
+ {
+  "candidato": "lula",
+  "tema": "social",
+  "subtema": "moradia",
+  "mandato": "l3",
+  "fatos": 1
+ },
+ {
+  "candidato": "lula",
+  "tema": "aliados",
+  "subtema": "apoios",
+  "mandato": "-",
+  "fatos": 2
+ },
+ {
+  "candidato": "flavio",
+  "tema": "aliados",
+  "subtema": "investigados",
+  "mandato": "-",
+  "fatos": 2
+ },
+ {
+  "candidato": "flavio",
+  "tema": "ambiente",
+  "subtema": "desmatamento",
+  "mandato": "b",
+  "fatos": 2
+ },
+ {
+  "candidato": "lula",
+  "tema": "ambiente",
+  "subtema": "desmatamento",
+  "mandato": "l3",
+  "fatos": 2
+ },
+ {
+  "candidato": "flavio",
+  "tema": "candidato",
+  "subtema": "trajetoria",
+  "mandato": "-",
+  "fatos": 2
+ },
+ {
+  "candidato": "lula",
+  "tema": "contas",
+  "subtema": "divida",
+  "mandato": "l3",
+  "fatos": 2
+ },
+ {
+  "candidato": "flavio",
+  "tema": "contas",
+  "subtema": "gastos",
+  "mandato": "b",
+  "fatos": 2
+ },
+ {
+  "candidato": "lula",
+  "tema": "contas",
+  "subtema": "gastos",
+  "mandato": "l3",
+  "fatos": 2
+ },
+ {
+  "candidato": "flavio",
+  "tema": "contas",
+  "subtema": "previdencia",
+  "mandato": "b",
+  "fatos": 2
+ },
+ {
+  "candidato": "lula",
+  "tema": "mundo",
+  "subtema": "comercio",
+  "mandato": "l3",
+  "fatos": 2
+ },
+ {
+  "candidato": "flavio",
+  "tema": "obras",
+  "subtema": "internet",
+  "mandato": "b",
+  "fatos": 2
+ },
+ {
+  "candidato": "lula",
+  "tema": "renda",
+  "subtema": "juros",
+  "mandato": "l3",
+  "fatos": 2
+ },
+ {
+  "candidato": "lula",
+  "tema": "renda",
+  "subtema": "precos",
+  "mandato": "l3",
+  "fatos": 2
+ },
+ {
+  "candidato": "flavio",
+  "tema": "saude",
+  "subtema": "epidemias",
+  "mandato": "b",
+  "fatos": 2
+ },
+ {
+  "candidato": "lula",
+  "tema": "seguranca",
+  "subtema": "leis",
+  "mandato": "l3",
+  "fatos": 2
+ },
+ {
+  "candidato": "flavio",
+  "tema": "social",
+  "subtema": "transferencia",
+  "mandato": "b",
+  "fatos": 2
+ },
+ {
+  "candidato": "lula",
+  "tema": "social",
+  "subtema": "transferencia",
+  "mandato": "l3",
+  "fatos": 2
+ },
+ {
+  "candidato": "lula",
+  "tema": "aliados",
+  "subtema": "familia",
+  "mandato": "-",
+  "fatos": 3
+ },
+ {
+  "candidato": "lula",
+  "tema": "educacao",
+  "subtema": "creche",
+  "mandato": "l3",
+  "fatos": 3
+ },
+ {
+  "candidato": "lula",
+  "tema": "educacao",
+  "subtema": "medio",
+  "mandato": "l3",
+  "fatos": 3
+ },
+ {
+  "candidato": "lula",
+  "tema": "mundo",
+  "subtema": "vizinhos",
+  "mandato": "l3",
+  "fatos": 3
+ },
+ {
+  "candidato": "lula",
+  "tema": "obras",
+  "subtema": "ciencia",
+  "mandato": "l3",
+  "fatos": 3
+ },
+ {
+  "candidato": "flavio",
+  "tema": "producao",
+  "subtema": "pequenas",
+  "mandato": "b",
+  "fatos": 3
+ },
+ {
+  "candidato": "lula",
+  "tema": "renda",
+  "subtema": "emprego",
+  "mandato": "l3",
+  "fatos": 3
+ },
+ {
+  "candidato": "lula",
+  "tema": "aliados",
+  "subtema": "investigados",
+  "mandato": "-",
+  "fatos": 4
+ },
+ {
+  "candidato": "lula",
+  "tema": "candidato",
+  "subtema": "investigacoes",
+  "mandato": "-",
+  "fatos": 4
+ },
+ {
+  "candidato": "lula",
+  "tema": "contas",
+  "subtema": "previdencia",
+  "mandato": "l3",
+  "fatos": 4
+ },
+ {
+  "candidato": "lula",
+  "tema": "mundo",
+  "subtema": "aliancas",
+  "mandato": "l3",
+  "fatos": 4
+ },
+ {
+  "candidato": "lula",
+  "tema": "contas",
+  "subtema": "impostos",
+  "mandato": "l3",
+  "fatos": 5
+ },
+ {
+  "candidato": "lula",
+  "tema": "democracia",
+  "subtema": "justica",
+  "mandato": "l3",
+  "fatos": 5
+ },
+ {
+  "candidato": "flavio",
+  "tema": "educacao",
+  "subtema": "mec",
+  "mandato": "b",
+  "fatos": 5
+ },
+ {
+  "candidato": "flavio",
+  "tema": "candidato",
+  "subtema": "investigacoes",
+  "mandato": "-",
+  "fatos": 6
+ },
+ {
+  "candidato": "flavio",
+  "tema": "aliados",
+  "subtema": "familia",
+  "mandato": "-",
+  "fatos": 8
+ },
+ {
+  "candidato": "lula",
+  "tema": "mundo",
+  "subtema": "eua",
+  "mandato": "l3",
+  "fatos": 8
  }
 ]
