@@ -199,7 +199,7 @@ function fecharStory(){
   const t=S&&S.t;ST.hidden=true;S=null;travar();
   if(st.v==='mapa'){render(true);const el=t&&q(`[data-tema="${t}"]`);if(el)el.focus({preventScroll:true});}
   else if(quem&&document.contains(quem))quem.focus({preventScroll:true});
-  if(!tourVisto&&TR.hidden)abrirTour();
+  if(!tourVisto&&TR.hidden&&st.v==='mapa')abrirTour();
 }
 function dica(btn){
   const k=btn.dataset.term,t=TERMS[k],velha=CARD.querySelector('.dica');
@@ -361,5 +361,5 @@ function rota(){
 }
 q('#pxConf').textContent='Conferido em '+quando(D.conferido);
 aplicar();render();
-if(!rota()&&!tourVisto)abrirTour();
+if(!rota()&&!tourVisto&&st.v==='mapa')abrirTour();
 })();
