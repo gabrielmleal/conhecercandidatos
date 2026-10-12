@@ -9,6 +9,8 @@ import sys
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 LOTES = RAIZ / "registros/lotes"
 OTICAS = ["favor", "contra", "neutra"]
+VISOES = {"favor": "lote", "contra": "lote", "neutra": "lote", "verificador": "lote", "espelho": "espelho"}
+REFERENCIAS = RAIZ / ".claude/skills/oticas/referencias"
 GRUPOS = list(json.loads((RAIZ / "dados/grupos.json").read_text(encoding="utf-8")))
 PESSOAS = ["Luiz Inácio Lula da Silva", "Lula", "Lulinha", "Fábio Luís", "Janja", "Rosângela da Silva", "Flávio Bolsonaro", "Flávio Nantes Bolsonaro", "Flávio",
            "Jair Messias Bolsonaro", "Jair Bolsonaro", "Jair", "Bolsonaro", "Michelle Bolsonaro", "Michelle", "Eduardo Bolsonaro", "Carlos Bolsonaro", "Renan Bolsonaro",
@@ -118,7 +120,20 @@ def montar_lotes(o_que):
             (pasta / f"espelho-{numero:02d}.json").write_text(json.dumps(espelho, ensure_ascii=False, indent=1), encoding="utf-8")
     (RAIZ / "estado/vendas").mkdir(parents=True, exist_ok=True)
     (RAIZ / "estado/vendas" / f"{rodada}.json").write_text(json.dumps(chave, ensure_ascii=False, indent=1), encoding="utf-8")
-    print(rodada, len(itens), "itens em", (len(itens) + 9) // 10, "lotes")
+    print(rodada, len(itens), "itens em", (len(itens) + 9) // 10, "lotes e", pacotes(pasta), "pacotes")
+
+
+def pacotes(pasta):
+    comum = (REFERENCIAS / "comum.md").read_text(encoding="utf-8")
+    total = 0
+    for visao, origem in VISOES.items():
+        instrucao = (comum + "\n" if origem == "lote" else "") + (REFERENCIAS / f"{visao}.md").read_text(encoding="utf-8")
+        itens = [i for p in sorted(pasta.glob(f"{origem}-??.json")) for i in json.loads(p.read_text(encoding="utf-8")) if visao != "verificador" or i["e"] == "fato"]
+        for n in range(0, len(itens), 50):
+            corpo = json.dumps(itens[n:n + 50], ensure_ascii=False, indent=1)
+            (pasta / f"pacote-{n // 50 + 1:02d}-{visao}.md").write_text(f"{instrucao}\n# Itens\n\n```json\n{corpo}\n```\n", encoding="utf-8")
+            total += 1
+    return total
 
 
 def respostas(pasta, nome):
@@ -175,7 +190,7 @@ def lotes_desacordo(rodada):
         itens = [i for p in sorted(pasta.glob(f"{nome}-??.json")) for i in json.loads(p.read_text(encoding="utf-8")) if i["rotulo"] in desacordo]
         for n in range(0, len(itens), 10):
             (nova / f"{nome}-{n // 10 + 1:02d}.json").write_text(json.dumps(itens[n:n + 10], ensure_ascii=False, indent=1), encoding="utf-8")
-    print(len(desacordo), "itens para o Opus em", nova.relative_to(RAIZ))
+    print(len(desacordo), "itens para o Opus em", nova.relative_to(RAIZ), "em", pacotes(nova), "pacotes")
 
 
 def correcao(rodada):
