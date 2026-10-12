@@ -1,0 +1,102 @@
+{
+ "id": "mapa-lula-eco-3-a",
+ "origem": "mapa:lula-eco-3",
+ "candidato": "lula",
+ "tema": "renda",
+ "subtema": "juros",
+ "lente": "fez",
+ "data": "2026-09-16",
+ "titulo": "Copom decide reduzir a taxa básica de juros para 13,75%, diz relatório de setembro de 2026",
+ "frase": "Relatório do Banco Central de dezembro de 2025: o Comitê de Política Monetária (Copom) manteve a taxa básica de juros em 15,00%. Relatório de setembro de 2026: reduziu para 13,75%.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Banco Central do Brasil",
+  "documento": "Relatório de Política Monetária, setembro de 2026 (comunicado da 281ª reunião do Copom)",
+  "link": "https://www.bcb.gov.br/content/ri/relatorioinflacao/202609/rpm202609p.pdf",
+  "trecho": "O Copom decidiu reduzir a taxa básica de juros para 13,75% a.a., e entende que essa decisão é compatível com a estratégia de convergência da inflação para o redor da meta ao longo do horizonte relevante."
+ },
+ "fontes": [
+  {
+   "veiculo": "Banco Central (RPM setembro de 2026, capa)",
+   "nivel": "A",
+   "link": "https://www.bcb.gov.br/content/ri/relatorioinflacao/202609/rpm202609p.pdf",
+   "trecho": "Relatório de Política Monetária Volume 2 | Número 3 | Setembro 2026"
+  },
+  {
+   "veiculo": "Banco Central (RPM dezembro de 2025, comunicado da 275ª reunião)",
+   "nivel": "A",
+   "link": "https://www.bcb.gov.br/content/ri/relatorioinflacao/202512/rpm202512p.pdf",
+   "trecho": "O Copom decidiu manter a taxa básica de juros em 15,00% a.a., e entende que essa decisão é compatível com a estratégia de convergência da inflação para o redor da meta ao longo do horizonte relevante."
+  },
+  {
+   "veiculo": "Banco Central (RPM dezembro de 2025, capa)",
+   "nivel": "A",
+   "link": "https://www.bcb.gov.br/content/ri/relatorioinflacao/202512/rpm202512p.pdf",
+   "trecho": "Relatório de Política Monetária Volume 1 | Número 4 | Dezembro 2025"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": false
+ },
+ "copias": {
+  "https://www.bcb.gov.br/content/ri/relatorioinflacao/202609/rpm202609p.pdf": null,
+  "https://www.bcb.gov.br/content/ri/relatorioinflacao/202512/rpm202512p.pdf": "http://web.archive.org/web/20260215235435/https://www.bcb.gov.br/content/ri/relatorioinflacao/202512/rpm202512p.pdf"
+ },
+ "hash": "b9a51a0606c49e1ba095754cfab973fca0e85f9a24e28518c61ba4fed6113b7a",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F4579",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "15,00% em dezembro de ano A e 13,75% em setembro de ano B estão nos trechos dos relatórios do BC."
+  },
+  "contra": {
+   "rotulo": "F4579",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "As duas decisões do Copom e seus relatórios estão nos trechos; tratado como contexto, sem crédito indevido."
+  },
+  "neutra": {
+   "rotulo": "F4579",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Taxas de 15,00% e 13,75% e datas dos relatórios estão nos trechos; decisão de juros sem lado."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F4579",
+   "sustenta": true,
+   "motivo": "Trechos trazem 15,00% junto ao relatório de dezembro de ano A e 13,75% junto ao de setembro de ano B."
+  },
+  "espelho": {
+   "rotulo": "F4579",
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Dado oficial do Banco Central: juros caíram de 15,00% para 13,75%."
+  }
+ },
+ "classificacao": "contexto",
+ "peso_final": 0,
+ "falhas": [
+  "o espelho deu outro tipo"
+ ],
+ "entrou_em": "2026-10-12"
+}

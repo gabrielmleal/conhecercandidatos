@@ -1,0 +1,87 @@
+{
+ "id": "mapa-lula-eco-2-b",
+ "origem": "mapa:lula-eco-2",
+ "candidato": "lula",
+ "tema": "renda",
+ "subtema": "precos",
+ "lente": "fez",
+ "data": "2026-10-09",
+ "titulo": "Inflação em 12 meses sobe a 4,58% em setembro de 2026",
+ "frase": "Em setembro de 2026, o IPCA variou 0,82%, após -0,32% em agosto. Em 12 meses, chegou a 4,58%, acima dos 4,22% dos 12 meses anteriores, segundo o IBGE.",
+ "tipo": "problema",
+ "peso": 2,
+ "marco": false,
+ "ancora": {
+  "orgao": "IBGE",
+  "documento": "Indicadores IBGE: IPCA e INPC, setembro de 2026",
+  "link": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/236/inpc_ipca_2026_set.pdf",
+  "trecho": "O Índice Nacional de Preços ao Consumidor Amplo - IPCA do mês de setembro apresentou variação de 0,82%, 1,14 ponto percentual (p.p.) acima da taxa de -0,32% registrada em agosto. No ano, o IPCA acumula alta de 3,95% e, nos últimos doze meses, o índice ficou em 4,58%, acima dos 4,22% dos 12 meses imediatamente anteriores."
+ },
+ "fontes": [
+  {
+   "veiculo": "IBGE (capa do fascículo)",
+   "nivel": "A",
+   "link": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/236/inpc_ipca_2026_set.pdf",
+   "trecho": "IPCA e INPC Setembro de 2026"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://biblioteca.ibge.gov.br/visualizacao/periodicos/236/inpc_ipca_2026_set.pdf": null
+ },
+ "hash": "e1c8d87b10d1ebe96796cac62e2d3d1d597602c39925530a91acbfc7de9e1dcb",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F4177",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Todos os números batem com o IBGE. Piora de 4,22% para 4,58% em 12 meses; o acumulado do ano (3,95%) fica fora, sem mudar o fato."
+  },
+  "contra": {
+   "rotulo": "F4177",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Números batem com o IBGE; a inflação de 12 meses subiu de 4,22% para 4,58%. Nada favorece indevidamente."
+  },
+  "neutra": {
+   "rotulo": "F4177",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "0,82%, -0,32%, 4,58% e 4,22% batem com o trecho do IBGE. Inflação em 12 meses subiu; dado oficial."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1409",
+  "verificador": {
+   "rotulo": "F4177",
+   "sustenta": true,
+   "motivo": "IPCA de 0,82% em setembro, -0,32% em agosto, 4,58% em 12 meses contra 4,22% anteriores: todos no trecho do IBGE."
+  },
+  "espelho": {
+   "rotulo": "F4177",
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Dado oficial do IBGE: inflação em 12 meses subiu de 4,22% para 4,58%."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

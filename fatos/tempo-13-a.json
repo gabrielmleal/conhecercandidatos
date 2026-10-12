@@ -1,0 +1,87 @@
+{
+ "id": "tempo-13-a",
+ "origem": "tempo:13",
+ "candidato": "brasil",
+ "tema": "democracia",
+ "subtema": "justica",
+ "lente": "fez",
+ "data": "2025-11-22",
+ "titulo": "STF decreta a prisão preventiva de Jair Bolsonaro",
+ "frase": "Em 22 de novembro de 2025, o ministro Alexandre de Moraes, do Supremo Tribunal Federal, decretou a prisão preventiva de Jair Bolsonaro, com manifestação favorável da Procuradoria-Geral da República.",
+ "tipo": "problema",
+ "peso": 2,
+ "marco": true,
+ "ancora": {
+  "orgao": "Supremo Tribunal Federal",
+  "documento": "Notícia: A pedido da PF, STF decreta prisão preventiva de Jair Bolsonaro (22/11/2025)",
+  "link": "https://noticias.stf.jus.br/postsnoticias/stf-decreta-prisao-preventiva-de-jair-bolsonaro/",
+  "trecho": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal, decretou neste sábado (22) a prisão preventiva do ex-presidente da República Jair Messias Bolsonaro."
+ },
+ "fontes": [
+  {
+   "veiculo": "Supremo Tribunal Federal",
+   "nivel": "A",
+   "link": "https://noticias.stf.jus.br/postsnoticias/stf-decreta-prisao-preventiva-de-jair-bolsonaro/",
+   "trecho": "STF decreta prisão preventiva de Jair Bolsonaro Decisão do ministro Alexandre de Moraes contou com manifestação favorável da Procuradoria-Geral da República (PGR) 22/11/2025 08:38"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://noticias.stf.jus.br/postsnoticias/stf-decreta-prisao-preventiva-de-jair-bolsonaro/": "http://web.archive.org/web/20260614012840/https://noticias.stf.jus.br/postsnoticias/stf-decreta-prisao-preventiva-de-jair-bolsonaro/"
+ },
+ "hash": "da14ca18c0107ef9e4008fa881ef3b044a562f46d5e83c002de454360950f711",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F7442",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Data, ministro, prisão preventiva e parecer favorável da PGR estão no trecho; decisão de tribunal, peso 2."
+  },
+  "contra": {
+   "rotulo": "F7442",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Data, ministro, prisão preventiva e parecer favorável da PGR estão nos trechos."
+  },
+  "neutra": {
+   "rotulo": "F7442",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Data, ministro, prisão preventiva e parecer favorável da PGR estão nos trechos; decisão de tribunal tem peso 2."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2137",
+  "verificador": {
+   "rotulo": "F7442",
+   "sustenta": true,
+   "motivo": "Trechos: ministro Pessoa L, do STF, decretou a preventiva em 22/11/ano A, com manifestação favorável da PGR."
+  },
+  "espelho": {
+   "rotulo": "F7442",
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Prisão preventiva decretada por ministro do STF: decisão de tribunal."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

@@ -1,0 +1,82 @@
+{
+ "id": "mapa-lula-edu-2-a",
+ "origem": "mapa:lula-edu-2",
+ "candidato": "lula",
+ "tema": "educacao",
+ "subtema": "medio",
+ "lente": "disse",
+ "data": "2026-08",
+ "titulo": "Programa de Lula diz que houve 1,8 milhão de novas matrículas entre 2023 e 2025",
+ "frase": "Segundo o plano de governo de Lula (PT), registrado no TSE, foram registradas 1,8 milhão de novas matrículas entre 2023 e 2025.",
+ "tipo": "positivo",
+ "peso": 1,
+ "marco": false,
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Lula (PT), registrado no TSE, p. 31",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
+  "trecho": "O fomento à expansão da educação em tempo integral terá absoluta prioridade no novo mandato. Entre 2023 e 2025, 1,8 milhão de novas matrículas foram registradas."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017016005": "http://web.archive.org/web/20261003172403/https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017016005"
+ },
+ "hash": "289f1af311e429834c23ebefbe593ccb1b492890b1e74a6f862e66e2bd2bd49a",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F3882",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "positivo",
+   "peso": 1,
+   "motivo": "Número atribuído ao próprio plano, como no trecho. Balanço do próprio partido tem peso 1."
+  },
+  "contra": {
+   "rotulo": "F3882",
+   "confere": true,
+   "certeza": 0.82,
+   "tipo": "positivo",
+   "peso": 1,
+   "motivo": "Número fiel e atribuído ao plano, mas omite que as matrículas são de tempo integral, o que pode parecer crescimento geral."
+  },
+  "neutra": {
+   "rotulo": "F3882",
+   "confere": false,
+   "certeza": 0.75,
+   "tipo": "positivo",
+   "peso": 1,
+   "motivo": "Omite que são matrículas em educação em tempo integral; leigo pode ler como total de matrículas."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F3882",
+   "sustenta": true,
+   "motivo": "Trecho traz 1,8 milhão de novas matrículas entre ano A e ano B no plano."
+  },
+  "espelho": {
+   "rotulo": "F3882",
+   "tipo": "positivo",
+   "peso": 1,
+   "motivo": "Plano do próprio partido relata 1,8 milhão de novas matrículas já ocorridas."
+  }
+ },
+ "classificacao": "positivo",
+ "peso_final": 1,
+ "falhas": [
+  "as três revisões não concordaram"
+ ],
+ "entrou_em": "2026-10-12"
+}

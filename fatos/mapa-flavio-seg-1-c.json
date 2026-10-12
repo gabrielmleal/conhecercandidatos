@@ -1,0 +1,80 @@
+{
+ "id": "mapa-flavio-seg-1-c",
+ "origem": "mapa:flavio-seg-1",
+ "candidato": "flavio",
+ "tema": "seguranca",
+ "subtema": "leis",
+ "lente": "prometeu",
+ "data": "2026-08-13",
+ "titulo": "Plano de Flávio promete reduzir a maioridade penal para 16 anos",
+ "frase": "O plano de governo de Flávio Bolsonaro promete apoiar e sancionar a redução da maioridade penal de 18 para 16 anos.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "TSE",
+  "documento": "Plano de governo de Flávio Bolsonaro (PL), Eleições 2026",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "trecho": "O novo governo do Brasil vai apoiar e sancionar a redução da maioridade penal de 18 para 16 anos."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf": "http://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf"
+ },
+ "hash": "bcf8cc474aec8c3a3fbc4216692abbfa040ab8c5fdd782e8d96d50f2906a8d26",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F4668",
+   "confere": true,
+   "certeza": 0.94,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Frase repete o trecho do plano. Promessa tem peso 0, não 1."
+  },
+  "contra": {
+   "rotulo": "F4668",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Promessa idêntica ao trecho; promessa tem peso 0, não 1."
+  },
+  "neutra": {
+   "rotulo": "F4668",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Fiel ao trecho e clara. Promessa tem peso 0, não 1."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F4668",
+   "sustenta": true,
+   "motivo": "Trecho traz apoiar e sancionar a redução da maioridade penal de 18 para 16 anos."
+  },
+  "espelho": {
+   "rotulo": "F4668",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Plano de governo promete reduzir maioridade penal; ainda não aconteceu."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

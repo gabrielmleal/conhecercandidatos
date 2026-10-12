@@ -1,0 +1,94 @@
+{
+ "id": "mapa-lula-jus-3-d",
+ "origem": "mapa:lula-jus-3",
+ "candidato": "lula",
+ "tema": "aliados",
+ "subtema": "investigados",
+ "lente": "fez",
+ "data": "2026-10-09",
+ "titulo": "PF diz que Daniel Vorcaro não prestou o depoimento descrito pela revista Veja",
+ "frase": "Em 09/10/2026, a PF disse que Daniel Vorcaro não prestou o depoimento descrito pela revista Veja, segundo o qual ele liberou dinheiro para filme sobre Lula por negócios no governo.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Polícia Federal",
+  "documento": "Nota à imprensa (09/10/2026)",
+  "link": "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/nota-a-imprensa-1",
+  "trecho": "A Polícia Federal esclarece, em relação à reportagem intitulada “Vorcaro conta que liberou dinheiro para filme sobre Lula por negócios no governo”, publicada pela revista Veja, nesta sexta-feira (9/10), que Daniel Vorcaro não prestou depoimento com o teor relatado na matéria, tampouco entregou à instituição anexos, documentos ou informações com o conteúdo ali descrito. As propostas de colaboração premiada que foram apresentadas à PF pela defesa do investigado não foram acolhidas em razão do não atendimento aos requisitos legais, conforme decisão fundamentada de conhecimento da defesa."
+ },
+ "fontes": [
+  {
+   "veiculo": "Procuradoria-Geral da República",
+   "nivel": "A",
+   "link": "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/nota-de-esclarecimento-sobre-tratativas-para-colaboracao-premiada-de-daniel-vorcaro",
+   "trecho": "Não houve depoimento oral de Vorcaro, justamente por conta da rejeição da proposta, cujos motivos foram expostos à defesa."
+  },
+  {
+   "veiculo": "Procuradoria-Geral da República",
+   "nivel": "A",
+   "link": "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/nota-de-esclarecimento-sobre-tratativas-para-colaboracao-premiada-de-daniel-vorcaro",
+   "trecho": "Data: 09/10/2026 • 11:29 • Unidade: Procuradoria-Geral da República"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/nota-a-imprensa-1": "http://web.archive.org/web/20261009200143/https://www.gov.br/pf/pt-br/assuntos/noticias/2026/10/nota-a-imprensa-1",
+  "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/nota-de-esclarecimento-sobre-tratativas-para-colaboracao-premiada-de-daniel-vorcaro": "http://web.archive.org/web/20261009194257/https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/nota-de-esclarecimento-sobre-tratativas-para-colaboracao-premiada-de-daniel-vorcaro"
+ },
+ "hash": "a2f089f5d7704fd341bc520f77b9398b1436a64cddffd2f32822e4afa93bafd2",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5109",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Data e negativa da PF batem com a nota; a acusação aparece como reportagem desmentida, não como fato."
+  },
+  "contra": {
+   "rotulo": "F5109",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Nota da PF diz exatamente isso; frase atribui a negativa à PF sem ampliar o que foi negado."
+  },
+  "neutra": {
+   "rotulo": "F5109",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Data, órgão e teor da negativa batem com a nota; prova em disputa, sem adjetivo de juízo."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F5109",
+   "sustenta": true,
+   "motivo": "Nota da PF de 09/10 diz que Pessoa K não prestou depoimento com o teor da reportagem da Veja citada."
+  },
+  "espelho": {
+   "rotulo": "F5109",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "PF nega depoimento noticiado pela Veja; acusação sem prova confirmada."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

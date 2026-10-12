@@ -1,0 +1,91 @@
+{
+ "id": "mapa-flavio-tec-1-a",
+ "origem": "mapa:flavio-tec-1",
+ "candidato": "flavio",
+ "tema": "obras",
+ "subtema": "internet",
+ "lente": "fez",
+ "data": "2021-11-05",
+ "titulo": "Leilão do 5G tem lotes arrecadados de R$ 47,2 bilhões",
+ "frase": "No leilão do 5G, concluído em 5 de novembro de 2021, os lotes arrecadados somaram R$ 47,2 bilhões, segundo a Anatel.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Anatel",
+  "documento": "Leilão da tecnologia de quinta geração alcança R$ 47,2 bilhões, 05/11/2021",
+  "link": "https://www.gov.br/anatel/pt-br/assuntos/noticias/leilao-da-tecnologia-de-quinta-geracao-alcanca-r-47-2-bilhoes",
+  "trecho": "A Agência Nacional de Telecomunicações (Anatel) encerrou nesta sexta-feira, (5/11) a etapa de abertura, análise e julgamento de propostas de preço da licitação das radiofrequências nas faixas de 700 MHz, 2,3 GHz, 3,5 GHz e 26 GHz, o Leilão do 5G. Maior oferta de espectro da história da Anatel, a licitação proporcionará recursos de espectro para que as prestadoras possam expandir suas redes. Os lotes arrecadados somam R$ 47,2 bilhões, conforme detalhado na imagem a seguir."
+ },
+ "fontes": [
+  {
+   "veiculo": "CGU",
+   "nivel": "A",
+   "link": "https://eaud.cgu.gov.br/relatorios/download/1122265",
+   "trecho": "o evento licitatório ocorreu em 4 e 5 de novembro de 2021, com lotes arrecadados no valor de R$ 47,2 bilhões, um ágio de R$ 4,79 bilhões em relação ao previsto inicialmente"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": true,
+  "9": false
+ },
+ "copias": {
+  "https://www.gov.br/anatel/pt-br/assuntos/noticias/leilao-da-tecnologia-de-quinta-geracao-alcanca-r-47-2-bilhoes": "http://web.archive.org/web/20260406185721/https://www.gov.br/anatel/pt-br/assuntos/noticias/leilao-da-tecnologia-de-quinta-geracao-alcanca-r-47-2-bilhoes",
+  "https://eaud.cgu.gov.br/relatorios/download/1122265": "http://web.archive.org/web/20250419040246/https://eaud.cgu.gov.br/relatorios/download/1122265"
+ },
+ "hash": "3864e2e0ca1d260588ed582db4aab9411a51d2ea6014a810e7b523b7de20a11c",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F3891",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data e R$ 47,2 bilhões estão nos trechos da Anatel."
+  },
+  "contra": {
+   "rotulo": "F3891",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data e valor estão nos trechos; o ágio e o elogio ficaram de fora, o que não favorece ninguém."
+  },
+  "neutra": {
+   "rotulo": "F3891",
+   "confere": true,
+   "certeza": 0.88,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data e R$ 47,2 bilhões estão nos trechos. 'Lotes arrecadados somaram' soa estranho, mas é compreensível."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F3891",
+   "sustenta": true,
+   "motivo": "Trechos trazem leilão em 4 e 5 de novembro de ano A e lotes de R$ 47,2 bilhões."
+  },
+  "espelho": {
+   "rotulo": "F3891",
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Dado oficial da Anatel: leilão do 5G arrecadou R$ 47,2 bilhões."
+  }
+ },
+ "classificacao": "contexto",
+ "peso_final": 0,
+ "falhas": [
+  "as três revisões não concordaram",
+  "o espelho deu outro tipo"
+ ],
+ "entrou_em": "2026-10-12"
+}

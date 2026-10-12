@@ -1,0 +1,82 @@
+{
+ "id": "mapa-flavio-sau-3-a",
+ "origem": "mapa:flavio-sau-3",
+ "candidato": "flavio",
+ "tema": "saude",
+ "subtema": "sus",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Flávio promete corrigir a tabela SUS",
+ "frase": "Flávio Bolsonaro promete, no plano registrado no TSE, garantir as condições para a correção efetiva da tabela SUS, defasada para hospitais, santas casas e clínicas.",
+ "tipo": "promessa",
+ "peso": 1,
+ "marco": false,
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Flávio Bolsonaro (PL), registrado no TSE, p. 37",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "trecho": "Vamos garantir as condições para que seja possível a correção efetiva da tabela SUS. A lei de reajuste já existe, mas, presa ao orçamento, não enfrentou a defasagem que asfixia hospitais, santas casas e clínicas, sobretudo no interior."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf": "http://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf"
+ },
+ "hash": "ae88143767d49f99710e7187fbfec44caa9c7007f03577abe016873844795e71",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5916",
+   "confere": true,
+   "certeza": 0.85,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Frase fiel ao plano; o título \"corrigir\" encurta o \"garantir as condições para que seja possível\", ressalva menor."
+  },
+  "contra": {
+   "rotulo": "F5916",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Frase segue o trecho do plano sem acrescentar resultado; promessa tem peso 0, não 1."
+  },
+  "neutra": {
+   "rotulo": "F5916",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Frase fiel ao trecho do plano registrado no TSE, clara e curta. Promessa tem peso 0."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F5916",
+   "sustenta": true,
+   "motivo": "Trecho do plano promete condições para correção efetiva da tabela SUS e cita defasagem em hospitais, santas casas e clínicas."
+  },
+  "espelho": {
+   "rotulo": "F5916",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Plano de governo promete corrigir a tabela SUS; ainda não aconteceu."
+  }
+ },
+ "classificacao": "promessa",
+ "peso_final": 0,
+ "falhas": [
+  "as três revisões não concordaram"
+ ],
+ "entrou_em": "2026-10-12"
+}

@@ -1,0 +1,88 @@
+{
+ "id": "tempo-14-b",
+ "origem": "tempo:14",
+ "candidato": "brasil",
+ "tema": "mundo",
+ "subtema": "comercio",
+ "lente": "fez",
+ "data": "2026-01-17",
+ "titulo": "União Europeia e Mercosul assinam o acordo de parceria e o acordo comercial interino",
+ "frase": "Em 17 de janeiro de 2026, a União Europeia e o Mercosul assinaram o Acordo de Parceria e o Acordo Comercial Interino. O Acordo de Parceria foi assinado em Assunção.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": true,
+ "ancora": {
+  "orgao": "Comissão Europeia",
+  "documento": "EU-Mercosur agreement (EU Trade, Comissão Europeia)",
+  "link": "https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/mercosur/eu-mercosur-agreement_en",
+  "trecho": "On 17 January 2026, the European Union and Mercosur signed the EMPA and the iTA"
+ },
+ "fontes": [
+  {
+   "veiculo": "Parlamento Europeu",
+   "nivel": "A",
+   "link": "https://www.europarl.europa.eu/RegData/etudes/ATAG/2026/785694/EPRS_ATA(2026)785694_EN.pdf",
+   "trecho": "On 17 January 2026, the EU-Mercosur Partnership Agreement (EMPA) was signed in Asunción, Paraguay, for the Mercosur side by the four founding Mercosur members – Argentina, Brazil, Paraguay and Uruguay – and for the EU side by European Council and Commission Presidents António Costa and Ursula von der Leyen."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://policy.trade.ec.europa.eu/eu-trade-relationships-country-and-region/countries-and-regions/mercosur/eu-mercosur-agreement_en": null,
+  "https://www.europarl.europa.eu/RegData/etudes/ATAG/2026/785694/EPRS_ATA(2026)785694_EN.pdf": "http://web.archive.org/web/20260415185415/https://www.europarl.europa.eu/RegData/etudes/ATAG/2026/785694/EPRS_ATA(2026)785694_EN.pdf"
+ },
+ "hash": "32f6292550b1493bbccf96fe4bb611fffad0284e05a578fd1a04e689cff8e4b5",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F7314",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, os dois acordos e o local de assinatura do Acordo de Parceria estão nos trechos."
+  },
+  "contra": {
+   "rotulo": "F7314",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, os dois acordos e Assunção estão nos trechos; não atribui o resultado a nenhum governo."
+  },
+  "neutra": {
+   "rotulo": "F7314",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, os dois acordos e assinatura em Assunção estão nos trechos."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2137",
+  "verificador": {
+   "rotulo": "F7314",
+   "sustenta": true,
+   "motivo": "Trechos trazem 17 de janeiro de ano A, a assinatura do EMPA e do iTA e o EMPA assinado em Assunção."
+  },
+  "espelho": {
+   "rotulo": "F7314",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Assinatura de acordos UE-Mercosul, sem efeito medido."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

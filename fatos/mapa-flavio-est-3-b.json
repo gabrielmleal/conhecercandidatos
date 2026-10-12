@@ -1,0 +1,80 @@
+{
+ "id": "mapa-flavio-est-3-b",
+ "origem": "mapa:flavio-est-3",
+ "candidato": "flavio",
+ "tema": "democracia",
+ "subtema": "gestao",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Plano de Flávio Bolsonaro promete cortar ao menos 10 ministérios",
+ "frase": "O plano de governo de Flávio Bolsonaro promete cortar no mínimo 10 ministérios, reduzir cargos comissionados e despesas administrativas e combater penduricalhos e supersalários.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "TSE",
+  "documento": "Plano de governo de Flávio Bolsonaro (PL), Eleições 2026",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "trecho": "Isso inclui o corte de no mínimo 10 ministérios, a redução de cargos comissionados e de despesas administrativas e o combate aos penduricalhos e supersalários que corroem o orçamento, tudo com um objetivo: mais eficiência e racionalidade para servir à sociedade."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf": "http://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf"
+ },
+ "hash": "4cf2d8e97b93df39eca2f30fe4367f1eb9d5ec4546213ca1ad242b7de6fa5929",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F8983",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Itens da promessa batem com o trecho do plano."
+  },
+  "contra": {
+   "rotulo": "F8983",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Promessa fiel ao trecho do plano, sem adjetivo além do que o plano usa."
+  },
+  "neutra": {
+   "rotulo": "F8983",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Fiel ao trecho do plano registrado; promessa tem peso 0."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-1502",
+  "verificador": {
+   "rotulo": "F8983",
+   "sustenta": true,
+   "motivo": "Corte de ao menos 10 ministérios, cargos comissionados, despesas, penduricalhos e supersalários estão no trecho; autoria vem da fonte TSE."
+  },
+  "espelho": {
+   "rotulo": "F8983",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Plano de governo promete cortar ao menos 10 ministérios."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

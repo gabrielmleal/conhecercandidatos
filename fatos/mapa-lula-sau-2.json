@@ -1,0 +1,80 @@
+{
+ "id": "mapa-lula-sau-2",
+ "origem": "mapa:lula-sau-2",
+ "candidato": "lula",
+ "tema": "saude",
+ "subtema": "vacinas",
+ "lente": "fez",
+ "data": "2026-07-14",
+ "titulo": "Brasil sai da lista dos 20 países com mais crianças zero-dose, diz o Ministério da Saúde",
+ "frase": "Segundo o Ministério da Saúde, houve avanço na recuperação da cobertura vacinal infantil. Pela estimativa OMS-Unicef, crianças zero-dose caíram de 360 mil (2023) para 50 mil (2025).",
+ "tipo": "positivo",
+ "peso": 2,
+ "marco": false,
+ "ancora": {
+  "orgao": "Ministério da Saúde",
+  "documento": "Notícia de 15/07/2026: Relatório da OMS e do Unicef mostra aumento da vacinação infantil no Brasil",
+  "link": "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/julho/relatorio-da-oms-e-do-unicef-mostra-aumento-da-vacinacao-infantil-no-brasil",
+  "trecho": "Com isso, o país deixou de integrar a lista dos 20 países com o maior número dessas crianças e registrou um dos maiores avanços mundiais na recuperação da cobertura vacinal infantil. De acordo com as Estimativas OMS-Unicef de Cobertura Vacinal Nacional (WUENIC), o número de crianças zero-dose no Brasil caiu de 360 mil, em 2023, para 255 mil em 2024, alcançando 50 mil em 2025."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/julho/relatorio-da-oms-e-do-unicef-mostra-aumento-da-vacinacao-infantil-no-brasil": "http://web.archive.org/web/20261011163216/https://www.gov.br/saude/pt-br/assuntos/noticias-ms/2026/julho/relatorio-da-oms-e-do-unicef-mostra-aumento-da-vacinacao-infantil-no-brasil"
+ },
+ "hash": "ce8a880a3c4cbf1b2b075a9616756b6e7748c444621a6bbec7da9f3f5e95f13c",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F1850",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Saída da lista e queda de 360 mil para 50 mil estão no trecho, com estimativa OMS-Unicef."
+  },
+  "contra": {
+   "rotulo": "F1850",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Saída da lista e queda de 360 mil para 50 mil constam no trecho, com fonte OMS-Unicef."
+  },
+  "neutra": {
+   "rotulo": "F1850",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "360 mil, 50 mil e anos estão no trecho; estimativa OMS-Unicef é dado oficial mostrando melhora."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2137",
+  "verificador": {
+   "rotulo": "F1850",
+   "sustenta": true,
+   "motivo": "Trecho: saiu da lista dos 20 países, avanço na cobertura vacinal; WUENIC registra queda de 360 mil para 50 mil."
+  },
+  "espelho": {
+   "rotulo": "F1850",
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Crianças zero-dose caíram de 360 mil para 50 mil, estimativa oficial OMS-Unicef."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

@@ -1,0 +1,88 @@
+{
+ "id": "mapa-flavio-fam-1-a",
+ "origem": "mapa:flavio-fam-1",
+ "candidato": "flavio",
+ "tema": "aliados",
+ "subtema": "familia",
+ "lente": "fez",
+ "data": "2023-06-30",
+ "titulo": "TSE torna Jair Bolsonaro inelegível por oito anos",
+ "frase": "O TSE tornou Jair Bolsonaro, pai de Flávio, inelegível por oito anos, até 2030, por abuso de poder político e uso indevido dos meios de comunicação.",
+ "tipo": "problema",
+ "peso": 2,
+ "marco": true,
+ "ancora": {
+  "orgao": "Rádio Senado",
+  "documento": "Senadores comentam decisão do TSE que deixa Bolsonaro inelegível até 2030 (30/06/2023)",
+  "link": "https://www12.senado.leg.br/radio/1/noticia/2023/06/30/senadores-comentam-decisao-do-tse-que-deixa-bolsonaro-inelegivel-ate-2030",
+  "trecho": "Senadores comentam decisão do TSE que deixa Bolsonaro inelegível até 2030 O Tribunal Superior Eleitoral condenou o ex-presidente Jair Bolsonaro e o tornou inelegível por oito anos por abuso de poder político e uso indevido dos meios de comunicação."
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Senado",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente",
+   "trecho": "A escolha de Flávio como candidato do Partido Liberal (PL) partiu de seu pai, o ex-presidente Jair Bolsonaro, declarado inelegível pelo TSE por abuso de poder político e de comunicação nas eleições de 2022 e posteriormente condenado pelo Supremo Tribunal Federal (STF) por tentativa de golpe de Estado."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/radio/1/noticia/2023/06/30/senadores-comentam-decisao-do-tse-que-deixa-bolsonaro-inelegivel-ate-2030": null,
+  "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente": "http://web.archive.org/web/20261011142347/https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente"
+ },
+ "hash": "2278c0dac33a5f11952ed94f5f38abe3e0bc2540ed770b3b2d81e39562367176",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F8748",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Texto fiel aos trechos; condenação do TSE com efeito direto é problema peso 2."
+  },
+  "contra": {
+   "rotulo": "F8748",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Duração, motivo e parentesco batem com os trechos; condenação por tribunal, problema de peso 2."
+  },
+  "neutra": {
+   "rotulo": "F8748",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Decisão do TSE com pena de oito anos, fiel aos trechos, 28 palavras. Tipo e peso seguem a tabela."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1349",
+  "verificador": {
+   "rotulo": "F8748",
+   "sustenta": true,
+   "motivo": "TSE, oito anos de inelegibilidade, abuso de poder político e meios de comunicação, e filho candidato constam nos trechos."
+  },
+  "espelho": {
+   "rotulo": "F8748",
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Decisão de tribunal eleitoral: inelegibilidade por oito anos por abuso de poder."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

@@ -1,0 +1,80 @@
+{
+ "id": "mapa-flavio-emp-3-b",
+ "origem": "mapa:flavio-emp-3",
+ "candidato": "flavio",
+ "tema": "renda",
+ "subtema": "emprego",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Plano propõe reduzir o custo do trabalho sem retirar direitos",
+ "frase": "O plano de governo de Flávio no TSE propõe reduzir gradualmente o custo do trabalho, sem retirar direitos, para ampliar o emprego com carteira assinada.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Flávio Bolsonaro (PL), registrado no TSE, p. 43",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "trecho": "Vamos reduzir gradualmente o custo do trabalho, sem retirar direitos, para que mais brasileiros tenham carteira assinada e a proteção que vem com ela."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf": "http://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf"
+ },
+ "hash": "9666f8f41151b83e69aa82c881f7e2f0c283d3a5b6fb36eef39481c6fde433fd",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F3626",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Paráfrase fiel do plano, incluindo o \"sem retirar direitos\"."
+  },
+  "contra": {
+   "rotulo": "F3626",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "'Sem retirar direitos' fica atribuído ao plano, como no trecho; promessa tem peso 0, não 1."
+  },
+  "neutra": {
+   "rotulo": "F3626",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Frase repete o trecho do plano sem acréscimo, clara para leigo. Promessa tem peso 0."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F3626",
+   "sustenta": true,
+   "motivo": "Trecho do plano promete reduzir gradualmente o custo do trabalho, sem retirar direitos, para ampliar a carteira assinada."
+  },
+  "espelho": {
+   "rotulo": "F3626",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Plano propõe reduzir custo do trabalho; ainda não aconteceu."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

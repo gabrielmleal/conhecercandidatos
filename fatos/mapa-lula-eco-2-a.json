@@ -1,0 +1,87 @@
+{
+ "id": "mapa-lula-eco-2-a",
+ "origem": "mapa:lula-eco-2",
+ "candidato": "lula",
+ "tema": "renda",
+ "subtema": "precos",
+ "lente": "fez",
+ "data": "2026-09-11",
+ "titulo": "Inflação em 12 meses fica em 4,22% em agosto de 2026",
+ "frase": "O IPCA acumulou alta de 4,22% nos 12 meses até agosto de 2026, abaixo dos 4,44% do período anterior, segundo o IBGE.",
+ "tipo": "positivo",
+ "peso": 2,
+ "marco": false,
+ "ancora": {
+  "orgao": "IBGE",
+  "documento": "Indicadores IBGE: IPCA e INPC, agosto de 2026",
+  "link": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/236/inpc_ipca_2026_ago.pdf",
+  "trecho": "O Índice Nacional de Preços ao Consumidor Amplo - IPCA do mês de agosto apresentou variação de -0,32%, 0,39 ponto percentual (p.p.) abaixo da taxa de 0,07% registrada em julho. No ano, o IPCA acumula alta de 3,11% e, nos últimos doze meses, o índice ficou em 4,22%, abaixo dos 4,44% dos 12 meses imediatamente anteriores."
+ },
+ "fontes": [
+  {
+   "veiculo": "IBGE (capa do fascículo)",
+   "nivel": "A",
+   "link": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/236/inpc_ipca_2026_ago.pdf",
+   "trecho": "IPCA e INPC Agosto de 2026"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://biblioteca.ibge.gov.br/visualizacao/periodicos/236/inpc_ipca_2026_ago.pdf": null
+ },
+ "hash": "790b07f173c05e67ff51b5e5fc0469938708dfb0c95c93dabc03d8836cf32883",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F3336",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Números do IBGE iguais ao trecho; queda de 4,44% para 4,22% é melhora oficial, positivo peso 2."
+  },
+  "contra": {
+   "rotulo": "F3336",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Valores e comparação com os 12 meses anteriores batem com o IBGE; melhora medida, dado oficial."
+  },
+  "neutra": {
+   "rotulo": "F3336",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Números batem com o trecho do IBGE; queda de 4,44% para 4,22% é melhora medida e oficial."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1349",
+  "verificador": {
+   "rotulo": "F3336",
+   "sustenta": true,
+   "motivo": "IPCA de 4,22% em 12 meses até agosto, abaixo dos 4,44% anteriores, consta no trecho."
+  },
+  "espelho": {
+   "rotulo": "F3336",
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Dado oficial do IBGE: inflação em 12 meses caiu de 4,44% para 4,22%."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

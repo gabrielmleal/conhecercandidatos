@@ -1,0 +1,80 @@
+{
+ "id": "mapa-lula-emp-2-b",
+ "origem": "mapa:lula-emp-2",
+ "candidato": "lula",
+ "tema": "mundo",
+ "subtema": "eua",
+ "lente": "fez",
+ "data": "2026-07-22",
+ "titulo": "EUA fixam tarifa adicional de 25% sobre importações do Brasil",
+ "frase": "Aviso dos EUA fixa tarifa adicional de 25% sobre as importações do Brasil, com exceções, para produtos que entrarem a partir de 22 de julho de 2026.",
+ "tipo": "problema",
+ "peso": 2,
+ "marco": false,
+ "ancora": {
+  "orgao": "USTR (Federal Register)",
+  "documento": "Notice of Action: Brazil's Acts, Policies, and Practices (91 FR 45516)",
+  "link": "https://www.federalregister.gov/documents/2026/07/20/2026-14542/notice-of-action-brazils-acts-policies-and-practices-related-to-digital-trade-and-electronic-payment",
+  "trecho": "In accordance with the specific direction of the President, the Trade Representative is taking action by imposing 25 percent tariffs on all imports of Brazil, with certain exemptions. DATES: July 22, 2026: As set out in Annex I to this notice, the additional duty is applicable with respect to products that are entered for consumption, or withdrawn from warehouse for consumption, on or after 12:01 eastern time on July 22, 2026."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.federalregister.gov/documents/2026/07/20/2026-14542/notice-of-action-brazils-acts-policies-and-practices-related-to-digital-trade-and-electronic-payment": "http://web.archive.org/web/20261006005336/https://www.federalregister.gov/documents/2026/07/20/2026-14542/notice-of-action-brazils-acts-policies-and-practices-related-to-digital-trade-and-electronic-payment"
+ },
+ "hash": "b37e51062f832bff5186ccb54185455a64da1dbddcc0436e4f0e16e74d5b3707",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F1286",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Tarifa de 25%, exceções e data de 22 de julho estão no aviso oficial."
+  },
+  "contra": {
+   "rotulo": "F1286",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Tarifa de 25%, exceções e data de 22 de julho iguais ao aviso."
+  },
+  "neutra": {
+   "rotulo": "F1286",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Tarifa de 25%, exceções e data de 22 de julho estão no aviso citado."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-1502",
+  "verificador": {
+   "rotulo": "F1286",
+   "sustenta": true,
+   "motivo": "Tarifa de 25% sobre todas as importações do Brasil, com exceções, para produtos a partir de 22 de julho de ano A, está no trecho."
+  },
+  "espelho": {
+   "rotulo": "F1286",
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Aviso oficial dos EUA fixa tarifa adicional de 25% sobre importações do Brasil."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

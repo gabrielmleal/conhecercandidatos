@@ -1,0 +1,96 @@
+{
+ "id": "mapa-lula-jus-3-c",
+ "origem": "mapa:lula-jus-3",
+ "candidato": "lula",
+ "tema": "aliados",
+ "subtema": "investigados",
+ "lente": "fez",
+ "data": "2026-04-08",
+ "titulo": "Galípolo confirma à CPI reunião com Lula e Daniel Vorcaro no Planalto em dezembro de 2024",
+ "frase": "Galípolo, presidente do Banco Central, confirmou reunião no Planalto em dezembro de 2024 com o presidente Lula, ministros e Daniel Vorcaro, ex-controlador do Master. Negou atuação pessoal no caso Master.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Senado Federal",
+  "documento": "Agência Senado: Galípolo nega atuação do BC em favor do Master e justifica liquidação em 2025 (08/04/2026)",
+  "link": "https://www12.senado.leg.br/noticias/materias/2026/04/08/galipolo-nega-atuacao-do-bc-em-favor-do-master-e-justifica-liquidacao-em-2025",
+  "trecho": "Galípolo confirmou que se reuniu no Palácio do Planalto em dezembro de 2024 com o presidente da República, Luiz Inácio Lula da Silva, o ex-controlador do Master, Daniel Vorcaro, e alguns ministros."
+ },
+ "fontes": [
+  {
+   "veiculo": "Senado Federal",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2026/04/08/galipolo-nega-atuacao-do-bc-em-favor-do-master-e-justifica-liquidacao-em-2025",
+   "trecho": "Da Agência Senado | 08/04/2026, 14h48 O presidente do Banco Central, Gabriel Galípolo, negou ter atuado pessoalmente no caso do Banco Master perante o Supremo Tribunal Federal (STF) e o Palácio do Planalto."
+  },
+  {
+   "veiculo": "Senado Federal",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2026/04/08/galipolo-nega-atuacao-do-bc-em-favor-do-master-e-justifica-liquidacao-em-2025",
+   "trecho": "Em depoimento como convidado à CPI do Crime Organizado, nesta quarta-feira (8), ele também afirmou que não havia amparo técnico para suspender as atividades do banco antes do fim de 2025."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": true,
+  "9": false
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/materias/2026/04/08/galipolo-nega-atuacao-do-bc-em-favor-do-master-e-justifica-liquidacao-em-2025": null
+ },
+ "hash": "d964c34a8d0e8d0115e8cb14bcd67d62e534fa73c9d063b12a845bc0db118687",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F1546",
+   "confere": true,
+   "certeza": 0.88,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Reunião e negação estão nos trechos. A negação no trecho é perante STF e Planalto; a frase a deixa mais ampla."
+  },
+  "contra": {
+   "rotulo": "F1546",
+   "confere": false,
+   "certeza": 0.72,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Trecho diz que negou atuação pessoal 'perante o STF e o Planalto'; a frase amplia a negativa para todo o caso Master."
+  },
+  "neutra": {
+   "rotulo": "F1546",
+   "confere": true,
+   "certeza": 0.85,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Reunião e negativa estão nos trechos. 'Master' sem 'Banco' pode confundir leigo."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F1546",
+   "sustenta": true,
+   "motivo": "Trechos trazem reunião no Planalto em dezembro, participantes, depoimento à CPI e negativa de atuação pessoal."
+  },
+  "espelho": {
+   "rotulo": "F1546",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Reunião confirmada, mas atuação no caso negada; acusação sem investigação dele."
+  }
+ },
+ "classificacao": "contexto",
+ "peso_final": 0,
+ "falhas": [
+  "as três revisões não concordaram",
+  "o espelho deu outro tipo"
+ ],
+ "entrou_em": "2026-10-12"
+}

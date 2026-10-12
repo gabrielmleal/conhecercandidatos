@@ -1,0 +1,90 @@
+{
+ "id": "mapa-lula-int-3-g",
+ "origem": "mapa:lula-int-3",
+ "candidato": "lula",
+ "tema": "mundo",
+ "subtema": "vizinhos",
+ "lente": "fez",
+ "data": "2026-08-04",
+ "titulo": "Brasil rebaixa as relações diplomáticas com a Argentina",
+ "frase": "Em 4 de agosto, o Itamaraty rebaixou as relações com a Argentina: o embaixador não voltará a Buenos Aires enquanto o presidente argentino, Javier Milei, mantiver ataques ao Brasil.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "G1",
+  "documento": "Brasil rebaixa relações com a Argentina: relembre os ataques de Milei a Lula e a escalada da crise diplomática",
+  "link": "https://g1.globo.com/mundo/noticia/2026/08/04/brasil-rebaixa-relacoes-com-a-argentina-relembre-os-ataques-de-milei-a-lula-e-a-escalada-da-crise-diplomatica.ghtml",
+  "trecho": "O Brasil decidiu manter o embaixador brasileiro em Buenos Aires em solo brasileiro enquanto o presidente da Argentina , Javier Milei , mantiver ataques ao país, informou o Ministério das Relações Exteriores nesta terça-feira (4). Na prática, a medida representa um rebaixamento das relações diplomáticas entre os dois países."
+ },
+ "fontes": [
+  {
+   "veiculo": "Correio Braziliense",
+   "nivel": "C",
+   "link": "https://www.correiobraziliense.com.br/politica/2026/08/7473976-brasil-decide-rebaixar-relacoes-com-argentina-e-nao-reintegrar-embaixador.html",
+   "trecho": "O Brasil decidiu rebaixar o nível das relações diplomáticas com a Argentina e não reintegrará o embaixador Júlio Glinternick Bitelli a Buenos Aires. A informação foi confirmada ao Correio pelo Itamaraty na noite desta terça-feira (4/8)."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": false
+ },
+ "copias": {
+  "https://g1.globo.com/mundo/noticia/2026/08/04/brasil-rebaixa-relacoes-com-a-argentina-relembre-os-ataques-de-milei-a-lula-e-a-escalada-da-crise-diplomatica.ghtml": null,
+  "https://www.correiobraziliense.com.br/politica/2026/08/7473976-brasil-decide-rebaixar-relacoes-com-argentina-e-nao-reintegrar-embaixador.html": "http://web.archive.org/web/20260806061716/https://www.correiobraziliense.com.br/politica/2026/08/7473976-brasil-decide-rebaixar-relacoes-com-argentina-e-nao-reintegrar-embaixador.html"
+ },
+ "hash": "b18b90bd02d41485b70005509dce18f5025d88243e3e5de7c66bfa46bd55fab7",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F3505",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, rebaixamento e condição do retorno do embaixador estão nos trechos, sem juízo."
+  },
+  "contra": {
+   "rotulo": "F3505",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, rebaixamento e condição sobre os ataques estão nos trechos; não atribui mérito além do que dizem."
+  },
+  "neutra": {
+   "rotulo": "F3505",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, decisão do Itamaraty e condição sobre o embaixador batem com os trechos; sem número nem juízo."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F3505",
+   "sustenta": true,
+   "motivo": "Trechos dizem que em 4/8 o Itamaraty rebaixou as relações e manterá o embaixador fora enquanto houver ataques."
+  },
+  "espelho": {
+   "rotulo": "F3505",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Rebaixamento diplomático sem efeito medido; avaliação em disputa."
+  }
+ },
+ "classificacao": "contexto",
+ "peso_final": 0,
+ "falhas": [
+  "o espelho deu outro tipo"
+ ],
+ "entrou_em": "2026-10-12"
+}

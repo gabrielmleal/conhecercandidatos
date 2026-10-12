@@ -1,0 +1,87 @@
+{
+ "id": "mapa-lula-fam-3-a",
+ "origem": "mapa:lula-fam-3",
+ "candidato": "lula",
+ "tema": "aliados",
+ "subtema": "apoios",
+ "lente": "fez",
+ "data": "2026-04-29",
+ "titulo": "Senado rejeita Messias, indicado de Lula ao STF",
+ "frase": "O Senado rejeitou na quarta-feira (29), por 42 votos a 34, a indicação de Jorge Messias ao STF feita por Lula.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Agência Senado",
+  "documento": "Indicação de Jorge Messias ao STF é rejeitada pelo Senado (29/04/2026)",
+  "link": "https://www12.senado.leg.br/noticias/materias/2026/04/29/indicacao-de-jorge-messias-ao-stf-e-rejeitada-pelo-senado",
+  "trecho": "Por 42 contrários a 34 votos a favor, o Plenário rejeitou nesta quarta-feira (29) a indicação de Jorge Rodrigo Araújo Messias para ministro do Supremo Tribunal Federal. A aprovação da indicação ( MSF 7/2026 ) dependia do voto favorável de pelo menos 41 senadores."
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Senado",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2026/04/29/indicacao-de-jorge-messias-ao-stf-e-rejeitada-pelo-senado",
+   "trecho": "O atual advogado-geral da União foi indicado para o cargo pelo presidente Luiz Inácio Lula da Silva, na vaga decorrente da aposentadoria antecipada de Luís Roberto Barroso, que deixou o tribunal em outubro de 2025."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/materias/2026/04/29/indicacao-de-jorge-messias-ao-stf-e-rejeitada-pelo-senado": "http://web.archive.org/web/20260904202203/https://www12.senado.leg.br/noticias/materias/2026/04/29/indicacao-de-jorge-messias-ao-stf-e-rejeitada-pelo-senado"
+ },
+ "hash": "30aa36220f832be1ba9f548807a119c56927a16e40eb367ed8359a4a6777fe07",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F3744",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Quarta-feira (29), 42 contrários a 34 favoráveis e rejeição da indicação estão no trecho. Sem efeito medido: contexto."
+  },
+  "contra": {
+   "rotulo": "F3744",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Rejeição no plenário, quarta (29), 42 contra 34 a favor, e indicação pelo presidente batem com os trechos."
+  },
+  "neutra": {
+   "rotulo": "F3744",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Votos 42 a 34, quarta-feira (29) e indicação ao STF batem com o trecho. Decisão sem lado bom ou ruim: contexto."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1409",
+  "verificador": {
+   "rotulo": "F3744",
+   "sustenta": true,
+   "motivo": "Rejeição na quarta-feira (29), 42 votos contrários a 34 favoráveis e indicação feita por Pessoa D constam dos trechos."
+  },
+  "espelho": {
+   "rotulo": "F3744",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Resultado de votação no Senado por 42 a 34; fato institucional sem lado."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

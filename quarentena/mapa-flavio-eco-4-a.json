@@ -1,0 +1,82 @@
+{
+ "id": "mapa-flavio-eco-4-a",
+ "origem": "mapa:flavio-eco-4",
+ "candidato": "flavio",
+ "tema": "renda",
+ "subtema": "emprego",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Plano de Flávio defende o negociado sobre o legislado",
+ "frase": "O plano de governo de Flávio Bolsonaro defende jornada flexível e o negociado sobre o legislado, em que trabalhador e empresa combinam diretamente as condições de trabalho.",
+ "tipo": "promessa",
+ "peso": 1,
+ "marco": false,
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Flávio Bolsonaro (PL), registrado no TSE, p. 44",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "trecho": "Vamos também dar mais liberdade a quem trabalha, com jornada flexível que caiba na vida de mães, jovens e de quem tem mais dificuldade de entrar no mercado. Por isso defendemos o negociado sobre o legislado, ou seja, permitir que trabalhador e empresa combinem diretamente as condições de trabalho que funcionam para os dois, dentro da lei, em vez de seguir uma regra única imposta a todos."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf": "http://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf"
+ },
+ "hash": "02ff098e8113de88c66bf091e92d4d3e4d18196375ed9dda2829857094299ccb",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F6091",
+   "confere": true,
+   "certeza": 0.85,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Fiel ao trecho; omite só o \"dentro da lei\" que o plano usa para limitar o negociado, ressalva menor."
+  },
+  "contra": {
+   "rotulo": "F6091",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Frase reproduz o trecho do plano sem acrescentar efeito; promessa tem peso 0, não 1."
+  },
+  "neutra": {
+   "rotulo": "F6091",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Frase fiel ao trecho do plano, explica o termo técnico e fica em 27 palavras. Promessa tem peso 0."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F6091",
+   "sustenta": true,
+   "motivo": "Trecho do plano defende jornada flexível e negociado sobre o legislado, com trabalhador e empresa combinando condições diretamente."
+  },
+  "espelho": {
+   "rotulo": "F6091",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Plano de governo defende negociado sobre legislado; ainda não aconteceu."
+  }
+ },
+ "classificacao": "promessa",
+ "peso_final": 0,
+ "falhas": [
+  "as três revisões não concordaram"
+ ],
+ "entrou_em": "2026-10-12"
+}

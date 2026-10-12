@@ -1,0 +1,90 @@
+{
+ "id": "mapa-flavio-est-1-b",
+ "origem": "mapa:flavio-est-1",
+ "candidato": "flavio",
+ "tema": "democracia",
+ "subtema": "gestao",
+ "lente": "fez",
+ "data": "2025-06-17",
+ "titulo": "No caso da Abin paralela, PF aponta Jair Bolsonaro como centro decisório e principal destinatário de vantagens ilícitas",
+ "frase": "A PF aponta Bolsonaro como centro decisório e líder das ações da Abin paralela. Não foi formalmente indiciado: já responde por organização criminosa em outro processo. Investigação não é condenação.",
+ "tipo": "problema",
+ "peso": 1,
+ "marco": false,
+ "ancora": {
+  "orgao": "O Povo (Agência Estado)",
+  "documento": "Reportagem sobre o relatório final da PF na investigação da Abin paralela",
+  "link": "https://mais.opovo.com.br/jornal/politica/2025/06/19/pf-diz-que-bolsonaro-era-centro-decisorio-e-principal-beneficiado-da-abin-paralela.html",
+  "trecho": "Bolsonaro, segundo a Polícia Federal, era \"o centro decisório e o principal destinatário das 'vantagens' ilícitas\". O ex-presidente não foi formalmente indiciado, porque já responde por organização criminosa em outro processo, mas é apontado como líder das ações de arapongagem."
+ },
+ "fontes": [
+  {
+   "veiculo": "Jovem Pan",
+   "nivel": "C",
+   "link": "https://jovempan.com.br/noticias/politica/pgr-pede-ao-stf-reabertura-de-investigacao-sobre-interferencia-de-bolsonaro-na-pf.html",
+   "trecho": "Embora Jair Bolsonaro não tenha sido indiciado, o relatório da PF aponta indícios de que ele teria atuado como líder da organização criminosa."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://mais.opovo.com.br/jornal/politica/2025/06/19/pf-diz-que-bolsonaro-era-centro-decisorio-e-principal-beneficiado-da-abin-paralela.html": null,
+  "https://jovempan.com.br/noticias/politica/pgr-pede-ao-stf-reabertura-de-investigacao-sobre-interferencia-de-bolsonaro-na-pf.html": "http://web.archive.org/web/20251105021229/https://jovempan.com.br/noticias/politica/pgr-pede-ao-stf-reabertura-de-investigacao-sobre-interferencia-de-bolsonaro-na-pf.html"
+ },
+ "hash": "bb61adc7aeb4ec99a9b284a4630524b52eba6ad050a620f11b004fcd74afee9d",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F6155",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Atribui à PF, registra que não foi indiciado e fecha com a ressalva. Investigação formal sem julgamento: peso 1."
+  },
+  "contra": {
+   "rotulo": "F6155",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Frase e título fiéis ao relatório da PF; ausência de indiciamento vem com o motivo do próprio trecho e o aviso obrigatório."
+  },
+  "neutra": {
+   "rotulo": "F6155",
+   "confere": true,
+   "certeza": 0.85,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Trechos apoiam frase e título; aviso presente. 'Abin paralela' não é explicada, mas é nome do caso no documento."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F6155",
+   "sustenta": true,
+   "motivo": "Trechos trazem centro decisório, principal destinatário de vantagens, líder das ações, não indiciado por já responder por organização criminosa."
+  },
+  "espelho": {
+   "rotulo": "F6155",
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Investigação formal da PF aponta o político como centro decisório, sem julgamento."
+  }
+ },
+ "classificacao": "problema",
+ "peso_final": 1,
+ "falhas": [
+  "as três revisões não concordaram"
+ ],
+ "entrou_em": "2026-10-12"
+}

@@ -1,0 +1,88 @@
+{
+ "id": "mapa-flavio-int-3-b",
+ "origem": "mapa:flavio-int-3",
+ "candidato": "flavio",
+ "tema": "mundo",
+ "subtema": "eua",
+ "lente": "fez",
+ "data": "2026-07-07",
+ "titulo": "Flávio participa da audiência do USTR sobre tarifas de 25%",
+ "frase": "Em 7 de julho, Flávio participou de audiência do USTR (Escritório do Representante Comercial dos EUA) sobre tarifas de 25% propostas contra o Brasil. O governo brasileiro repudiou a intervenção.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Poder360",
+  "documento": "Lula colocou ego à frente do povo brasileiro, diz Rubio sobre tarifas (16/07/2026)",
+  "link": "https://www.poder360.com.br/poder-internacional/lula-colocou-ego-a-frente-do-povo-brasileiro-diz-rubio-sobre-tarifas/",
+  "trecho": "Em 6 e 7 de julho, o escritório promoveu uma audiência pública antes da decisão final sobre a proposta de imposição de tarifas de 25% . O governo Lula optou por não enviar representantes para discursar. Os únicos presentes foram integrantes da Embaixada do Brasil em Washington, que compareceram na condição de observadores. O senador e pré-candidato ao Planalto Flávio Bolsonaro (PL) esteve presente no 2º dia de audiência."
+ },
+ "fontes": [
+  {
+   "veiculo": "CartaCapital (nota da Secom)",
+   "nivel": "C",
+   "link": "https://www.cartacapital.com.br/wp-content/uploads/2026/07/0707-Nota-%C3%A0-imprensa-sobre-participa%C3%A7%C3%A3o-do-senador-Fl%C3%A1vio-Bolsonaro-em-audi%C3%AAncia-p%C3%BAblica-sobre-a-se%C3%A7%C3%A3o-301-.pdf",
+   "trecho": "O governo brasileiro repudia a intervenção do senador Flávio Bolsonaro em audiência pública realizada, nesta terça-feira (7), pelo Escritório do Representante Comercial dos Estados Unidos (USTR), aberta à participação do setor privado e da sociedade civil para discutir a imposição de tarifas contra o Brasil."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.poder360.com.br/poder-internacional/lula-colocou-ego-a-frente-do-povo-brasileiro-diz-rubio-sobre-tarifas/": "http://web.archive.org/web/20260808094930/https://www.poder360.com.br/poder-internacional/lula-colocou-ego-a-frente-do-povo-brasileiro-diz-rubio-sobre-tarifas/",
+  "https://www.cartacapital.com.br/wp-content/uploads/2026/07/0707-Nota-%C3%A0-imprensa-sobre-participa%C3%A7%C3%A3o-do-senador-Fl%C3%A1vio-Bolsonaro-em-audi%C3%AAncia-p%C3%BAblica-sobre-a-se%C3%A7%C3%A3o-301-.pdf": "http://web.archive.org/web/20260903235317/https://www.cartacapital.com.br/wp-content/uploads/2026/07/0707-Nota-%C3%A0-imprensa-sobre-participa%C3%A7%C3%A3o-do-senador-Fl%C3%A1vio-Bolsonaro-em-audi%C3%AAncia-p%C3%BAblica-sobre-a-se%C3%A7%C3%A3o-301-.pdf"
+ },
+ "hash": "360491a14f080d235f9e1687f26c8ca16b65a4d9531081b517530998b25a82a9",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F8723",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Presença no segundo dia e repúdio do governo estão nos trechos. A frase não diz o que ele defendeu; efeito não medido."
+  },
+  "contra": {
+   "rotulo": "F8723",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Presença no segundo dia de audiência, tarifas de 25% e repúdio do governo estão nos trechos. Nada o favorece indevidamente."
+  },
+  "neutra": {
+   "rotulo": "F8723",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Presença no 2º dia (7 de julho), tarifas de 25% e repúdio do governo estão nos trechos. Efeito não medido, polêmico."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-2137",
+  "verificador": {
+   "rotulo": "F8723",
+   "sustenta": true,
+   "motivo": "Presença no 2º dia (7 de julho), tarifas de 25% contra o Brasil e repúdio do governo constam nos trechos."
+  },
+  "espelho": {
+   "rotulo": "F8723",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Participação em audiência estrangeira repudiada pelo governo; efeito não medido e prova em disputa."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

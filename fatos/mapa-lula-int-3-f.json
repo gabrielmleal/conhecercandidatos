@@ -1,0 +1,87 @@
+{
+ "id": "mapa-lula-int-3-f",
+ "origem": "mapa:lula-int-3",
+ "candidato": "lula",
+ "tema": "mundo",
+ "subtema": "vizinhos",
+ "lente": "fez",
+ "data": "2026-07-26",
+ "titulo": "Itamaraty convoca o embaixador argentino e chama o brasileiro a consultas",
+ "frase": "Em 26 de julho de 2026, o Itamaraty convocou o embaixador argentino e chamou a consultas o brasileiro em Buenos Aires, após declarações de Milei em São Paulo.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Ministério das Relações Exteriores",
+  "documento": "Nota à Imprensa nº 244: Agressões do Presidente da Argentina em território brasileiro",
+  "link": "https://www.gov.br/mre/pt-br/canais_atendimento/imprensa/notas-a-imprensa/agressoes-do-presidente-da-argentina-em-territorio-brasileiro",
+  "trecho": "O Ministro das Relações Exteriores, Mauro Vieira, convocou na tarde deste domingo o Embaixador da República Argentina, Daniel Raimondi, para transmitir a repulsa do Governo brasileiro aos impropérios emitidos pelo Presidente Javier Milei durante a sua visita privada a São Paulo, em 25 de julho, e cobrar explicações sobre o comportamento do mandatário argentino em território brasileiro. Também neste domingo, por determinação do Ministro Mauro Vieira, o Embaixador do Brasil em Buenos Aires, Julio Bitelli, foi chamado a consultas ao Brasil."
+ },
+ "fontes": [
+  {
+   "veiculo": "Ministério das Relações Exteriores",
+   "nivel": "A",
+   "link": "https://www.gov.br/mre/pt-br/canais_atendimento/imprensa/notas-a-imprensa/agressoes-do-presidente-da-argentina-em-territorio-brasileiro",
+   "trecho": "Publicado em 26/07/2026 19h05 Atualizado em 26/07/2026 19h29"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.gov.br/mre/pt-br/canais_atendimento/imprensa/notas-a-imprensa/agressoes-do-presidente-da-argentina-em-territorio-brasileiro": "http://web.archive.org/web/20261011161600/https://www.gov.br/mre/pt-br/canais_atendimento/imprensa/notas-a-imprensa/agressoes-do-presidente-da-argentina-em-territorio-brasileiro"
+ },
+ "hash": "cb8a1fe3910177a3941cb833ce184393cc9750ce3cdb28b3be2b21b2c9c90343",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F6556",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Convocação do embaixador argentino e consultas ao brasileiro, em 26 de julho, estão no trecho. A frase usa declarações em vez de impropérios."
+  },
+  "contra": {
+   "rotulo": "F6556",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Convocação do embaixador argentino, consultas do brasileiro, 26 de julho e declarações em São Paulo batem com o comunicado. Frase omite o adjetivo 'impropérios'."
+  },
+  "neutra": {
+   "rotulo": "F6556",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data de 26 de julho, convocação do embaixador argentino, consultas ao embaixador brasileiro e declarações em São Paulo estão nos trechos. Contexto."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1409",
+  "verificador": {
+   "rotulo": "F6556",
+   "sustenta": true,
+   "motivo": "Convocação do embaixador argentino, consulta ao embaixador em Buenos Aires, declarações em São Paulo e data 26/07 constam dos trechos."
+  },
+  "espelho": {
+   "rotulo": "F6556",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Ato diplomático após declarações; fato sem número de resultado nem lado."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

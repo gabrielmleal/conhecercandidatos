@@ -1,0 +1,88 @@
+{
+ "id": "mapa-flavio-eco-1-a",
+ "origem": "mapa:flavio-eco-1",
+ "candidato": "flavio",
+ "tema": "contas",
+ "subtema": "previdencia",
+ "lente": "fez",
+ "data": "2019-11-12",
+ "titulo": "Emenda 103 fixa idade de 65 anos para homens e 62 para mulheres, com regras de transição",
+ "frase": "A Emenda Constitucional 103, de 2019, altera a Previdência Social: idade de 65 anos para homens e 62 para mulheres, com tempo mínimo de contribuição, e regras de transição.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": true,
+ "ancora": {
+  "orgao": "Presidência da República (Planalto)",
+  "documento": "Emenda Constitucional nº 103, de 12 de novembro de 2019 (art. 201, § 7º, I)",
+  "link": "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc103.htm",
+  "trecho": "I - 65 (sessenta e cinco) anos de idade, se homem, e 62 (sessenta e dois) anos de idade, se mulher, observado tempo mínimo de contribuição;"
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Senado",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2019/11/12/promulgada-emenda-constitucional-da-reforma-da-previdencia",
+   "trecho": "O Congresso promulgou nesta terça-feira (12) a Emenda Constitucional 103, de 2019, que altera o sistema de Previdência Social e estabelece regras de transição e disposições transitórias."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc103.htm": "http://web.archive.org/web/20261006221217/https://www.planalto.gov.br/ccivil_03/constituicao/emendas/emc/emc103.htm",
+  "https://www12.senado.leg.br/noticias/materias/2019/11/12/promulgada-emenda-constitucional-da-reforma-da-previdencia": null
+ },
+ "hash": "352414238c1659c129b9b523efbf6e38c4d1757bfa3764429a6e6fa1d5f20935",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F6708",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Idades, tempo mínimo de contribuição e regras de transição estão nos trechos. Sem efeito medido, fica contexto."
+  },
+  "contra": {
+   "rotulo": "F6708",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Idades, tempo mínimo e regras de transição estão nos trechos; nada favorável além deles. Sem lado bom ou ruim."
+  },
+  "neutra": {
+   "rotulo": "F6708",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Idades, tempo mínimo e transição estão nos trechos. Descreve o conteúdo da norma, sem lado bom ou ruim nem efeito medido."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1433",
+  "verificador": {
+   "rotulo": "F6708",
+   "sustenta": true,
+   "motivo": "Idades 65 e 62, tempo mínimo, regras de transição e ano A estão nos dois trechos."
+  },
+  "espelho": {
+   "rotulo": "F6708",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Descreve regras da emenda constitucional sem medir efeito nem indicar lado bom ou ruim."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

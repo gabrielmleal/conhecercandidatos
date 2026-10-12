@@ -1,0 +1,80 @@
+{
+ "id": "mapa-lula-dem-2-b",
+ "origem": "mapa:lula-dem-2",
+ "candidato": "lula",
+ "tema": "democracia",
+ "subtema": "justica",
+ "lente": "fez",
+ "data": "2023-12-13",
+ "titulo": "Senado aprova Flávio Dino para o STF",
+ "frase": "O Senado aprovou Flávio Dino, ex-ministro da Justiça, para o STF em 13 de dezembro de 2023, por 47 votos a 31.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Senado Federal",
+  "documento": "Agência Senado: Conheça os indicados para o STF desde a Constituição",
+  "link": "https://www12.senado.leg.br/noticias/infomaterias/2026/04/conheca-os-indicados-para-o-stf-desde-a-constituicao",
+  "trecho": "Flávio Dino Resultado: 47 votos a favor , 31 votos contra e 2 abstenções Data da votação: 13/12/2023 Relator no Senado: Weverton (MA) Mensagem presidencial: MSF 88/2023 Data da posse no STF: 22/02/2024 Substituiu: Rosa Weber (2011-2023) Juiz federal de carreira, atuou como juiz auxiliar da Presidência do STF e secretário-geral do Conselho Nacional de Justiça (CNJ). Deixou a magistratura para seguir na política, tendo sido deputado federal, governador do Maranhão e senador da República. Também foi presidente da Agência Brasileira de Promoção Internacional do Turismo (Embratur). Ocupou o cargo de ministro da Justiça antes de ser nomeado para o STF em 2024."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/infomaterias/2026/04/conheca-os-indicados-para-o-stf-desde-a-constituicao": "http://web.archive.org/web/20260517155516/https://www12.senado.leg.br/noticias/infomaterias/2026/04/conheca-os-indicados-para-o-stf-desde-a-constituicao"
+ },
+ "hash": "e5b0b0b61bcb1d7e3f7b5a0a945d95b887b20021ac7e3d6e0bce591c5536181e",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5570",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, 47 a 31 e cargo de ex-ministro da Justiça estão no trecho. Frase omite as 2 abstenções, sem prejuízo."
+  },
+  "contra": {
+   "rotulo": "F5570",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, 47 a 31 e cargo anterior estão no trecho. A frase deixa de fora as 2 abstenções, sem efeito no sentido."
+  },
+  "neutra": {
+   "rotulo": "F5570",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Votos 47 a 31, data e cargo anterior batem com o trecho. Ato de nomeação sem efeito medido: contexto."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1433",
+  "verificador": {
+   "rotulo": "F5570",
+   "sustenta": true,
+   "motivo": "Votação de 13/12/ano B com 47 a favor e 31 contra, vaga na posição de Rosa Weber e cargo anterior de ministro da Justiça constam."
+  },
+  "espelho": {
+   "rotulo": "F5570",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Aprovação de indicado ao STF pelo Senado, sem lado bom ou ruim."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

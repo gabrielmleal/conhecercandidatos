@@ -1,0 +1,80 @@
+{
+ "id": "mapa-lula-tec-2-b",
+ "origem": "mapa:lula-tec-2",
+ "candidato": "lula",
+ "tema": "contas",
+ "subtema": "impostos",
+ "lente": "fez",
+ "data": "2026-09-16",
+ "titulo": "Governo estima isenção de R$ 5,2 bilhões em 2026 com o Redata, incentivo a data centers",
+ "frase": "O governo estima que o Redata (incentivo a data centers) isente de tributos cerca de R$ 5,2 bilhões em 2026 e R$ 1 bilhão por ano nos dois anos seguintes.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Senado Federal (Agência Senado)",
+  "documento": "Sancionada lei de incentivo à instalação de data centers, 16/09/2026",
+  "link": "https://www12.senado.leg.br/noticias/materias/2026/09/16/sancionada-lei-de-incentivo-para-a-instalacao-de-data-centers",
+  "trecho": "A estimativa do governo é que o Redata, criado pela lei, gere uma isenção de tributos em torno de R$ 5,2 bilhões em 2026, caindo para R$ 1 bilhão em cada um dos dois anos seguintes."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/materias/2026/09/16/sancionada-lei-de-incentivo-para-a-instalacao-de-data-centers": "http://web.archive.org/web/20260928021907/https://www12.senado.leg.br/noticias/materias/2026/09/16/sancionada-lei-de-incentivo-para-a-instalacao-de-data-centers"
+ },
+ "hash": "2bf157dfc49f850a6dcf49e22c6b6c5715affcc2db6bc7b6ee28059ef0036436",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F9645",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Valores e anos batem com o trecho e a frase deixa claro que é estimativa do governo."
+  },
+  "contra": {
+   "rotulo": "F9645",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Valores e atribuição ao governo batem com o trecho; estimativa de renúncia, sem efeito medido."
+  },
+  "neutra": {
+   "rotulo": "F9645",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Valores e anos batem com a estimativa do governo no trecho; efeito futuro não medido."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F9645",
+   "sustenta": true,
+   "motivo": "Trecho traz estimativa do governo: R$ 5,2 bilhões em ano A e R$ 1 bilhão em cada um dos dois anos seguintes."
+  },
+  "espelho": {
+   "rotulo": "F9645",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Isenção de R$ 5,2 bilhões é estimativa futura; efeito não medido."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

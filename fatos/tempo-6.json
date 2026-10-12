@@ -1,0 +1,87 @@
+{
+ "id": "tempo-6",
+ "origem": "tempo:6",
+ "candidato": "brasil",
+ "tema": "democracia",
+ "subtema": "eleicoes",
+ "lente": "fez",
+ "data": "2022-10-30",
+ "titulo": "Lula vence Jair Bolsonaro e é eleito presidente em 2022",
+ "frase": "Em 30/10/2022, Lula foi eleito presidente, com 60.341.333 votos (50,90% dos válidos), contra 58.203.620 de Jair Bolsonaro (49,10%).",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": true,
+ "ancora": {
+  "orgao": "Senado Federal",
+  "documento": "Agência Senado: Lula é eleito presidente da República pela terceira vez (30/10/2022)",
+  "link": "https://www12.senado.leg.br/noticias/materias/2022/10/30/lula-e-eleito-presidente-da-republica-pela-terceira-vez",
+  "trecho": "Luiz Inácio Lula da Silva foi eleito neste domingo (30) presidente do Brasil com 60.341.333 votos — o equivalente a 50,90% dos válidos. No dia 1º de janeiro de 2023, ele assume o terceiro mandato não consecutivo à frente do Palácio do Planalto e se torna o político mais vezes levado ao comando do Poder Executivo pelo voto direto na história da República. O atual presidente Jair Bolsonaro, candidato à reeleição, obteve 58.203.620 votos — 49,10 % dos válidos."
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Senado",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2022/10/30/lula-e-eleito-presidente-da-republica-pela-terceira-vez",
+   "trecho": "Da Redação | 30/10/2022, 20h16 - ATUALIZADO EM 30/10/2022, 22h00"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/materias/2022/10/30/lula-e-eleito-presidente-da-republica-pela-terceira-vez": "http://web.archive.org/web/20261007184454/https://www12.senado.leg.br/noticias/materias/2022/10/30/lula-e-eleito-presidente-da-republica-pela-terceira-vez"
+ },
+ "hash": "e2b5614ded7fe51625327391df779d08798941be29ec2cddbc67667269c0ec96",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F6706",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, votos e percentuais dos dois candidatos batem com o trecho da Agência Senado. Frase neutra."
+  },
+  "contra": {
+   "rotulo": "F6706",
+   "confere": true,
+   "certeza": 0.96,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, votos e percentuais dos dois candidatos conferem com o trecho da Agência Senado."
+  },
+  "neutra": {
+   "rotulo": "F6706",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, votos e percentuais dos dois candidatos batem exatamente com o trecho. Resultado de eleição, sem lado bom ou ruim."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-2137",
+  "verificador": {
+   "rotulo": "F6706",
+   "sustenta": true,
+   "motivo": "Data, os dois totais de votos e os dois percentuais dos válidos conferem exatamente com o trecho."
+  },
+  "espelho": {
+   "rotulo": "F6706",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Resultado eleitoral de 2022 com votos de cada candidato; informação sem lado bom ou ruim."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

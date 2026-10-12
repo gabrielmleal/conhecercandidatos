@@ -1,0 +1,87 @@
+{
+ "id": "mapa-flavio-soc-1-a",
+ "origem": "mapa:flavio-soc-1",
+ "candidato": "flavio",
+ "tema": "social",
+ "subtema": "transferencia",
+ "lente": "fez",
+ "data": "2020-04-02",
+ "titulo": "Lei de 2020 prevê auxílio emergencial de R$ 600,00",
+ "frase": "A lei de 2 de abril de 2020 prevê auxílio emergencial de R$ 600,00 mensais por três meses ao trabalhador que cumpra todos os requisitos.",
+ "tipo": "positivo",
+ "peso": 2,
+ "marco": true,
+ "ancora": {
+  "orgao": "Planalto",
+  "documento": "Lei 13.982/2020, art. 2º",
+  "link": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13982.htm",
+  "trecho": "Art. 2º Durante o período de 3 (três) meses, a contar da publicação desta Lei, será concedido auxílio emergencial no valor de R$ 600,00 (seiscentos reais) mensais ao trabalhador que cumpra cumulativamente os seguintes requisitos:"
+ },
+ "fontes": [
+  {
+   "veiculo": "Planalto (assinatura da lei)",
+   "nivel": "A",
+   "link": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13982.htm",
+   "trecho": "Art. 7º Esta Lei entra em vigor na data de sua publicação. Brasília, 2 de abril de 2020; 199º da Independência e 132º da República."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13982.htm": "http://web.archive.org/web/20261004090451/http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13982.htm"
+ },
+ "hash": "938582bd3cedbae468b89f6817d5fad3e19932c82147d847bfc7d8fc79c66a8b",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F2406",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Data, valor, duração e requisitos estão no texto da lei citada."
+  },
+  "contra": {
+   "rotulo": "F2406",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Data, valor, três meses e requisitos estão na lei; a frase não atribui a lei a nenhuma pessoa."
+  },
+  "neutra": {
+   "rotulo": "F2406",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Valor, três meses, data de 2 de abril e requisitos cumulativos estão nos artigos da lei."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2137",
+  "verificador": {
+   "rotulo": "F2406",
+   "sustenta": true,
+   "motivo": "Art. 2º traz R$ 600,00 mensais por 3 meses com requisitos cumulativos; Art. 7º data a lei em 2 de abril de ano A."
+  },
+  "espelho": {
+   "rotulo": "F2406",
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Lei de 2020 instituiu auxílio emergencial de R$ 600 mensais por três meses."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

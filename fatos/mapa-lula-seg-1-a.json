@@ -1,0 +1,88 @@
+{
+ "id": "mapa-lula-seg-1-a",
+ "origem": "mapa:lula-seg-1",
+ "candidato": "lula",
+ "tema": "seguranca",
+ "subtema": "leis",
+ "lente": "fez",
+ "data": "2026-03-04",
+ "titulo": "Câmara aprova a PEC da Segurança Pública enviada pelo governo Lula",
+ "frase": "O governo Lula enviou a PEC da Segurança Pública em abril de 2025. A Câmara a aprovou em segundo turno, por 461 votos a 14, com alterações.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Câmara dos Deputados",
+  "documento": "Câmara aprova PEC da Segurança Pública em 2º turno, 04/03/2026",
+  "link": "https://www.camara.leg.br/noticias/1250434-CAMARA-APROVA-PEC-DA-SEGURANCA-PUBLICA-EM-2%C2%BA-TURNO",
+  "trecho": "A Câmara dos Deputados aprovou, em segundo turno, a PEC da Segurança Pública (PEC 18/25), que pretende melhorar a integração dos órgãos de segurança e garantir mais recursos para o setor. Aprovada com 461 votos a 14 , a proposta será enviada ao Senado."
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Senado",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2026/03/05/camara-aprova-pec-da-seguranca-texto-sera-analisado-pelo-senado",
+   "trecho": "Enviada ao Congresso pelo governo Lula ainda em abril de 2025, a proposta ficou por quase um ano em discussão na Câmara, foi aprovada com alterações no texto original."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.camara.leg.br/noticias/1250434-CAMARA-APROVA-PEC-DA-SEGURANCA-PUBLICA-EM-2%C2%BA-TURNO": null,
+  "https://www12.senado.leg.br/noticias/materias/2026/03/05/camara-aprova-pec-da-seguranca-texto-sera-analisado-pelo-senado": "http://web.archive.org/web/20260415012737/https://www12.senado.leg.br/noticias/materias/2026/03/05/camara-aprova-pec-da-seguranca-texto-sera-analisado-pelo-senado"
+ },
+ "hash": "6bc0812ffb0e916ea0a6d3b4dcc6f2080f0a05a946a61168d3097171ea037ff8",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F3421",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Envio em abril, segundo turno, 461 a 14 e alterações estão nos trechos. Aprovação na Câmara não mede efeito."
+  },
+  "contra": {
+   "rotulo": "F3421",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Envio em abril, segundo turno, 461 a 14 e alterações estão nos trechos. Não afirma efeito; falta só que segue ao Senado."
+  },
+  "neutra": {
+   "rotulo": "F3421",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Envio em abril, segundo turno, 461 a 14 e alterações estão nos trechos. Fato de tramitação, sem efeito medido."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1433",
+  "verificador": {
+   "rotulo": "F3421",
+   "sustenta": true,
+   "motivo": "Envio em abril de ano A, segundo turno, 461 a 14 e alterações no texto estão nos dois trechos."
+  },
+  "espelho": {
+   "rotulo": "F3421",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Registra aprovação de PEC na Câmara por 461 a 14; ainda falta o restante da tramitação, sem efeito medido."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

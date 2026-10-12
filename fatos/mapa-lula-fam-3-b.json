@@ -1,0 +1,88 @@
+{
+ "id": "mapa-lula-fam-3-b",
+ "origem": "mapa:lula-fam-3",
+ "candidato": "lula",
+ "tema": "aliados",
+ "subtema": "apoios",
+ "lente": "fez",
+ "data": "2026-04-30",
+ "titulo": "Congresso derruba veto de Lula ao projeto de lei da Dosimetria",
+ "frase": "Congresso derrubou o veto de Lula ao projeto que reduz penas de condenados pelos atos antidemocráticos de 8 de janeiro de 2023 e por tentativa de golpe, como Jair Bolsonaro.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": true,
+ "ancora": {
+  "orgao": "Agência Senado",
+  "documento": "Congresso derruba veto e possibilita redução de penas pelo 8 de janeiro (30/04/2026)",
+  "link": "https://www12.senado.leg.br/noticias/materias/2026/04/30/congresso-derruba-veto-e-possibilita-reducao-de-penas-pelo-8-de-janeiro",
+  "trecho": "É o que decidiu nesta quinta-feira (30) o Congresso Nacional ao derrubar o veto da Presidência da República ( VET 3/2026) — ressalvados dispositivos prejudicados — ao chamado PL da Dosimetria ( PL 2.162/2023 ), do deputado Marcelo Crivella (Republicanos-RJ). O texto vai à promulgação. Foram 49 senadores e 318 deputados favoráveis à derrubada, o que fará com que o texto vetado pelo presidente Lula passe a ser lei."
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Câmara",
+   "nivel": "A",
+   "link": "https://www.camara.leg.br/noticias/1267930-congresso-derruba-veto-ao-projeto-da-dosimetria/",
+   "trecho": "O Congresso Nacional derrubou o veto ao projeto de lei que diminui as penas de pessoas condenadas pelos atos antidemocráticos de 8 de janeiro de 2023 e pela tentativa de golpe de Estado, como o ex-presidente Jair Bolsonaro."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/materias/2026/04/30/congresso-derruba-veto-e-possibilita-reducao-de-penas-pelo-8-de-janeiro": null,
+  "https://www.camara.leg.br/noticias/1267930-congresso-derruba-veto-ao-projeto-da-dosimetria/": null
+ },
+ "hash": "775910b4e9955e588155eb85e8b0a1f129ff41b84d1eb3941bc864d3d12a000f",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F6665",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Derrubada do veto, objeto do projeto e menção ao condenado vêm da Agência Senado. O efeito ainda não foi medido."
+  },
+  "contra": {
+   "rotulo": "F6665",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Derrubada do veto, redução de penas do 8 de janeiro e da tentativa de golpe, incluindo Pessoa B, estão nos trechos. A frase não afirma que a pena dele cai."
+  },
+  "neutra": {
+   "rotulo": "F6665",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Derrubada do veto, redução de penas e menção a Pessoa B estão nos trechos. Efeito da lei não medido, polêmico."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-2137",
+  "verificador": {
+   "rotulo": "F6665",
+   "sustenta": true,
+   "motivo": "Congresso derrubou o veto; projeto reduz penas do 8 de janeiro e da tentativa de golpe, como o ex-presidente, conforme os trechos."
+  },
+  "espelho": {
+   "rotulo": "F6665",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Derrubada de veto a lei que reduz penas dos atos de 8 de janeiro; efeito não medido e muito disputada."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

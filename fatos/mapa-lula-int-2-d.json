@@ -1,0 +1,88 @@
+{
+ "id": "mapa-lula-int-2-d",
+ "origem": "mapa:lula-int-2",
+ "candidato": "lula",
+ "tema": "mundo",
+ "subtema": "eua",
+ "lente": "disse",
+ "data": "2026-07-26",
+ "titulo": "Lula escreve no Washington Post que as tarifas dos EUA são erro estratégico",
+ "frase": "O presidente Lula escreveu no Washington Post que as tarifas dos EUA são erro estratégico e que o governo não aceitará pressão por motivos políticos.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Poder360",
+  "documento": "Lula chama tarifas de Trump de erro estratégico em jornal dos EUA",
+  "link": "https://www.poder360.com.br/poder-governo/lula-chama-tarifas-de-trump-de-erro-estrategico-em-jornal-dos-eua/",
+  "trecho": "O presidente Luiz Inácio Lula da Silva (PT) publicou neste domingo (26.jul.2026) um artigo no Washington Post em que critica as tarifas impostas pelos Estados Unidos ao Brasil. No texto, afirma que as medidas do presidente Donald Trump (Partido Republicano) representam um “erro estratégico”."
+ },
+ "fontes": [
+  {
+   "veiculo": "G1",
+   "nivel": "C",
+   "link": "https://g1.globo.com/politica/noticia/2026/07/26/ninguem-vai-nos-derrotar-com-base-em-mentiras-diz-lula-em-artigo-ao-washington-post.ghtml",
+   "trecho": "O presidente Luiz Inácio Lula da Silva (PT) afirmou, em artigo publicado no jornal norte-americano \"The Washington Post\" neste domingo (26), que o governo não vai aceitar tentativas de usar a relação econômica entre Brasil e Estados Unidos para pressionar o país por motivos políticos ou influenciar as eleições."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.poder360.com.br/poder-governo/lula-chama-tarifas-de-trump-de-erro-estrategico-em-jornal-dos-eua/": "http://web.archive.org/web/20261011160317/https://www.poder360.com.br/poder-governo/lula-chama-tarifas-de-trump-de-erro-estrategico-em-jornal-dos-eua/",
+  "https://g1.globo.com/politica/noticia/2026/07/26/ninguem-vai-nos-derrotar-com-base-em-mentiras-diz-lula-em-artigo-ao-washington-post.ghtml": "http://web.archive.org/web/20260727073619/https://g1.globo.com/politica/noticia/2026/07/26/ninguem-vai-nos-derrotar-com-base-em-mentiras-diz-lula-em-artigo-ao-washington-post.ghtml"
+ },
+ "hash": "77eeaf96a0ccdd1acb6c6d9e0a85e5083cfdf7d1d6a4d7302a104538a9cb41de",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F4674",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "'Erro estratégico' e recusa a pressão política estão nos trechos, atribuídos ao artigo."
+  },
+  "contra": {
+   "rotulo": "F4674",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "'Erro estratégico' e recusa à pressão política estão nos dois trechos do artigo."
+  },
+  "neutra": {
+   "rotulo": "F4674",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "As duas afirmações do artigo estão nos trechos, sem acréscimo. Frase clara."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-1433",
+  "verificador": {
+   "rotulo": "F4674",
+   "sustenta": true,
+   "motivo": "Trechos dão artigo no Washington Post, tarifas como erro estratégico e recusa a pressão por motivos políticos."
+  },
+  "espelho": {
+   "rotulo": "F4674",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Posição do presidente sobre tarifas dos EUA, sem efeito medido."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

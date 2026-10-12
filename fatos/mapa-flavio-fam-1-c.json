@@ -1,0 +1,95 @@
+{
+ "id": "mapa-flavio-fam-1-c",
+ "origem": "mapa:flavio-fam-1",
+ "candidato": "flavio",
+ "tema": "aliados",
+ "subtema": "familia",
+ "lente": "fez",
+ "data": "2026-03-24",
+ "titulo": "Moraes concede prisão domiciliar de 90 dias a Jair Bolsonaro",
+ "frase": "Moraes concedeu prisão domiciliar de 90 dias a Jair Bolsonaro na terça-feira (24), a pedido da defesa, que alegou piora na saúde. Na mesma decisão, manteve a domiciliar humanitária.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": true,
+ "ancora": {
+  "orgao": "Agência Senado",
+  "documento": "Prisão domiciliar para Bolsonaro foi decisão humanitária, diz Izalci (24/03/2026)",
+  "link": "https://www12.senado.leg.br/noticias/materias/2026/03/24/prisao-domiciliar-para-bolsonaro-foi-decisao-humanitaria-diz-izalci",
+  "trecho": "O senador Izalci Lucas (PL-DF) saudou em Plenário nesta terça-feira (24) a decisão do ministro do Supremo Tribunal Federal (STF) Alexandre de Moraes de conceder prisão domiciliar de 90 dias ao ex-presidente Jair Bolsonaro"
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Brasil",
+   "nivel": "C",
+   "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-03/alexandre-de-moraes-concede-prisao-domiciliar-bolsonaro",
+   "trecho": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), concedeu nesta terça-feira (24) prisão domiciliar ao ex-presidente Jair Bolsonaro. Moraes atendeu ao pedido feito pela defesa do ex-presidente. Segundo os advogados, Bolsonaro não tem condições de voltar para a prisão devido ao agravamento de seus problemas de saúde."
+  },
+  {
+   "veiculo": "Agência Brasil",
+   "nivel": "C",
+   "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/moraes-manda-exercito-entregar-armas-registradas-em-nome-de-bolsonaro",
+   "trecho": "A determinação foi feita na mesma decisão em que Moraes manteve Bolsonaro em prisão domiciliar humanitária ."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/materias/2026/03/24/prisao-domiciliar-para-bolsonaro-foi-decisao-humanitaria-diz-izalci": "http://web.archive.org/web/20261011142543/https://www12.senado.leg.br/noticias/materias/2026/03/24/prisao-domiciliar-para-bolsonaro-foi-decisao-humanitaria-diz-izalci",
+  "https://agenciabrasil.ebc.com.br/justica/noticia/2026-03/alexandre-de-moraes-concede-prisao-domiciliar-bolsonaro": "http://web.archive.org/web/20261002061544/https://agenciabrasil.ebc.com.br/justica/noticia/2026-03/alexandre-de-moraes-concede-prisao-domiciliar-bolsonaro",
+  "https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/moraes-manda-exercito-entregar-armas-registradas-em-nome-de-bolsonaro": "http://web.archive.org/web/20260709151307/https://agenciabrasil.ebc.com.br/justica/noticia/2026-07/moraes-manda-exercito-entregar-armas-registradas-em-nome-de-bolsonaro"
+ },
+ "hash": "5481a7131467604dd435cde82c40b35e629532b2f1f0d26e57c9289002341b2d",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F9785",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "90 dias, terça-feira (24), pedido da defesa, alegação de saúde e domiciliar humanitária mantida estão nos trechos. Sem lado bom ou ruim."
+  },
+  "contra": {
+   "rotulo": "F9785",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Decisão, 90 dias, terça (24), pedido da defesa com alegação de saúde e manutenção da domiciliar humanitária estão nos trechos. Alegação aparece como alegação."
+  },
+  "neutra": {
+   "rotulo": "F9785",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Prisão domiciliar de 90 dias, pedido da defesa, piora na saúde e manutenção da domiciliar humanitária estão nos trechos. Decisão sem efeito medido: contexto."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1409",
+  "verificador": {
+   "rotulo": "F9785",
+   "sustenta": true,
+   "motivo": "Prisão domiciliar de 90 dias, terça-feira (24), pedido da defesa, saúde e domiciliar humanitária mantida constam dos trechos."
+  },
+  "espelho": {
+   "rotulo": "F9785",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Decisão judicial de domiciliar por saúde; sem melhora ou piora medida."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

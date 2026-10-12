@@ -1,0 +1,80 @@
+{
+ "id": "tempo-2-a",
+ "origem": "tempo:2",
+ "candidato": "brasil",
+ "tema": "democracia",
+ "subtema": "justica",
+ "lente": "fez",
+ "data": "2018-01-24",
+ "titulo": "Tribunal Regional Federal da 4ª Região confirma a condenação de Lula",
+ "frase": "TRF4 confirmou por unanimidade a condenação de Lula por corrupção passiva e lavagem de dinheiro. A pena subiu de nove anos e seis meses para 12 anos e um mês.",
+ "tipo": "problema",
+ "peso": 2,
+ "marco": true,
+ "ancora": {
+  "orgao": "Tribunal Regional Federal da 4ª Região",
+  "documento": "Notícia: TRF4 confirma condenação do ex-presidente Lula (24/01/2018)",
+  "link": "https://www.trf4.jus.br/trf4/controlador.php?acao=noticia_visualizar&id_noticia=13418",
+  "trecho": "24/01/2018 - 20h07 Atualizada em 24/01/2018 - 20h07 A 8ª Turma do Tribunal Regional Federal da 4ª Região (TRF4) confirmou hoje (24/1), por unanimidade, a condenação do ex-presidente Luiz Inácio Lula da Silva pelos crimes de corrupção passiva e lavagem de dinheiro, passando a pena de nove anos e seis meses para 12 anos e um mês de reclusão em regime fechado e pagamento de 280 dias-multa (com valor unitário de cinco salários mínimos)."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.trf4.jus.br/trf4/controlador.php?acao=noticia_visualizar&id_noticia=13418": "http://web.archive.org/web/20261011162015/https://www.trf4.jus.br/trf4/controlador.php?acao=noticia_visualizar&id_noticia=13418"
+ },
+ "hash": "7b04cc7867741ada56ed8a42d49d5d831f6a8e110384d1bc72e74c20532edb52",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F3103",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Unanimidade, crimes e penas estão no trecho do TRF4. Decisão de tribunal."
+  },
+  "contra": {
+   "rotulo": "F3103",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Unanimidade, crimes e aumento da pena estão no trecho; decisão de tribunal."
+  },
+  "neutra": {
+   "rotulo": "F3103",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Unanimidade, crimes e penas estão no trecho; decisão de tribunal."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F3103",
+   "sustenta": true,
+   "motivo": "Trecho traz confirmação unânime, os dois crimes e pena de nove anos e seis meses para 12 anos e um mês."
+  },
+  "espelho": {
+   "rotulo": "F3103",
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Tribunal confirmou condenação e elevou pena para 12 anos e um mês."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

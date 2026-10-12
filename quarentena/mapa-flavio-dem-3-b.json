@@ -1,0 +1,89 @@
+{
+ "id": "mapa-flavio-dem-3-b",
+ "origem": "mapa:flavio-dem-3",
+ "candidato": "flavio",
+ "tema": "democracia",
+ "subtema": "justica",
+ "lente": "disse",
+ "data": "2026-09-01",
+ "titulo": "Flávio defende afastamento de Moraes",
+ "frase": "Em 1º de setembro de 2026, Flávio Bolsonaro e mais oito senadores defenderam o afastamento de Alexandre de Moraes, por impeachment ou renúncia.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Senado Federal",
+  "documento": "Agência Senado: Senadores pedem impeachment do ministro Alexandre de Moraes",
+  "link": "https://www12.senado.leg.br/noticias/materias/2026/09/01/senadores-pedem-impeachment-do-ministro-alexandre-de-moraes-do-stf",
+  "trecho": "Diante das revelações do relatório, Alessandro Vieira (MDB-SE), Carlos Viana (PSD-MG), Cleitinho (Republicanos-MG), Damares Alves (Republicanos-DF), Esperidião Amin (PP-SC), Flávio Bolsonaro (PL-RJ), Izalci Lucas (PL-DF), Luis Carlos Heinze (PP-RS) e Magno Malta (PL-ES) defenderam o afastamento de Moraes, por impeachment ou renúncia."
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Senado",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2026/09/01/senadores-pedem-impeachment-do-ministro-alexandre-de-moraes-do-stf",
+   "trecho": "Da Agência Senado | 01/09/2026, 20h20 - ATUALIZADO EM 01/09/2026, 20h55"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/materias/2026/09/01/senadores-pedem-impeachment-do-ministro-alexandre-de-moraes-do-stf": null
+ },
+ "hash": "97dee5efb5d5a986999c63f111bfef8ae6ac45c12d8a42465f90c5a474aceea7",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F4807",
+   "confere": true,
+   "certeza": 0.88,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Data e os nove senadores batem; omite o \"diante das revelações do relatório\" que motivou o pedido, ressalva menor."
+  },
+  "contra": {
+   "rotulo": "F4807",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Data e os nove senadores, Pessoa U incluído, estão nos trechos; nada favorece quem é citado."
+  },
+  "neutra": {
+   "rotulo": "F4807",
+   "confere": false,
+   "certeza": 0.72,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Não diz que Pessoa V é ministro nem afastamento de qual cargo; leigo não entende o pedido. Data e contagem de nove senadores conferem."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F4807",
+   "sustenta": true,
+   "motivo": "Trecho lista nove senadores, entre eles Pessoa U, defendendo afastamento de Pessoa V; data 01/09/ano A confere."
+  },
+  "espelho": {
+   "rotulo": "F4807",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Defesa de afastamento de ministro do STF, posição política em disputa."
+  }
+ },
+ "classificacao": "polemico",
+ "peso_final": 0,
+ "falhas": [
+  "as três revisões não concordaram"
+ ],
+ "entrou_em": "2026-10-12"
+}

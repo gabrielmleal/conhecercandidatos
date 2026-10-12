@@ -91,6 +91,8 @@ if __name__ == "__main__":
         for item, resultado in grupo.map(conferir, novos):
             antes = visto.get(chave(*item[:2]), {})
             manual = {"estado": antes["estado"]} if antes.get("estado") == "navegador mostra o trecho" else {}
+            if antes.get("copia_estado") == "navegador mostra o trecho":
+                manual.update(copia=antes["copia"], copia_estado=antes["copia_estado"])
             visto[chave(*item[:2])] = {**resultado, **manual, "link": item[0], "conferido_em": hoje}
     REGISTRO.write_text(json.dumps(visto, ensure_ascii=False, indent=1), encoding="utf-8")
     contagem = {}

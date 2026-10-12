@@ -1,0 +1,91 @@
+{
+ "id": "mapa-lula-dem-1-a",
+ "origem": "mapa:lula-dem-1",
+ "candidato": "lula",
+ "tema": "democracia",
+ "subtema": "justica",
+ "lente": "fez",
+ "data": "2025-09-11",
+ "titulo": "MPF diz que etapas da trama golpista previam prisão e morte do presidente e do vice eleitos em 2022",
+ "frase": "Segundo o MPF, as etapas da trama golpista, cujo núcleo principal foi condenado, previam prisão e morte do presidente e do vice eleitos em 2022 e de ministros do Supremo.",
+ "tipo": "problema",
+ "peso": 1,
+ "marco": false,
+ "ancora": {
+  "orgao": "MPF",
+  "documento": "Notícia da PGR sobre a condenação do núcleo principal da trama golpista",
+  "link": "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/atos-antidemocraticos-stf-condena-todos-os-oito-reus-do-nucleo-principal-da-trama-golpista",
+  "trecho": "As etapas previam a prisão e morte do presidente e do vice eleitos em 2022 e de autoridades como ministros do Supremo, como ficou documentado nos planos Punhal Verde e Amarelo, Copa 2022 e Operação 142."
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Câmara",
+   "nivel": "A",
+   "link": "https://www.camara.leg.br/noticias/1114594-deputados-comentam-relatorio-da-pf-que-aponta-participacao-de-bolsonaro-em-plano-de-golpe-de-estado/",
+   "trecho": "tinha conhecimento de um plano para assassinar o presidente Lula, o vice Geraldo Alckmin e o ministro do Supremo Tribunal Federal (STF) Alexandre de Moraes."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": false,
+  "9": true
+ },
+ "copias": {
+  "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/atos-antidemocraticos-stf-condena-todos-os-oito-reus-do-nucleo-principal-da-trama-golpista": "http://web.archive.org/web/20260507102618/https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/atos-antidemocraticos-stf-condena-todos-os-oito-reus-do-nucleo-principal-da-trama-golpista",
+  "https://www.camara.leg.br/noticias/1114594-deputados-comentam-relatorio-da-pf-que-aponta-participacao-de-bolsonaro-em-plano-de-golpe-de-estado/": null
+ },
+ "hash": "83f387f20378d4d254c04fa0be1d913893b9b74d1b9e4f20054072dc4993bcbd",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F8526",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Descrição atribuída ao MPF, sem nomear pessoa; condenação vem do nome do documento. Relato do acusador, peso 1."
+  },
+  "contra": {
+   "rotulo": "F8526",
+   "confere": false,
+   "certeza": 0.7,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "'Cujo núcleo principal foi condenado' só aparece no nome do documento, não nos trechos; o resto confere."
+  },
+  "neutra": {
+   "rotulo": "F8526",
+   "confere": false,
+   "certeza": 0.7,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "'Cujo núcleo principal foi condenado' só aparece no nome do documento, não nos trechos."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F8526",
+   "sustenta": false,
+   "motivo": "Condenação do núcleo principal só aparece no nome do documento, não nos trechos; o resto está sustentado."
+  },
+  "espelho": {
+   "rotulo": "F8526",
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Trama golpista com núcleo principal condenado pela Justiça."
+  }
+ },
+ "classificacao": "problema",
+ "peso_final": 1,
+ "falhas": [
+  "as três revisões não concordaram",
+  "o texto vai além do trecho"
+ ],
+ "entrou_em": "2026-10-12"
+}

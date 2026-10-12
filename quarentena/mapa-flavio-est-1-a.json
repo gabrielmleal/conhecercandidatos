@@ -1,0 +1,82 @@
+{
+ "id": "mapa-flavio-est-1-a",
+ "origem": "mapa:flavio-est-1",
+ "candidato": "flavio",
+ "tema": "democracia",
+ "subtema": "gestao",
+ "lente": "fez",
+ "data": "2025-09-11",
+ "titulo": "PGR aponta estrutura paralela na Abin para espionar adversários do grupo",
+ "frase": "Segundo a PGR, na notícia sobre a condenação do núcleo principal da trama golpista, houve estrutura paralela na Abin para espionar autoridades e adversários do grupo.",
+ "tipo": "problema",
+ "peso": 1,
+ "marco": false,
+ "ancora": {
+  "orgao": "MPF",
+  "documento": "Notícia da PGR sobre a condenação do núcleo principal da trama golpista",
+  "link": "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/atos-antidemocraticos-stf-condena-todos-os-oito-reus-do-nucleo-principal-da-trama-golpista",
+  "trecho": "Houve uso de servidores e de recursos públicos no processo de descredibilizar as urnas e fomento à instabilidade social, com estrutura paralela montada na Agência Brasileira de Inteligência (Abin) para espionar autoridades, adversários do grupo e até mesmo empresas responsáveis pela fabricação das urnas eletrônicas."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/atos-antidemocraticos-stf-condena-todos-os-oito-reus-do-nucleo-principal-da-trama-golpista": "http://web.archive.org/web/20260507102618/https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/atos-antidemocraticos-stf-condena-todos-os-oito-reus-do-nucleo-principal-da-trama-golpista"
+ },
+ "hash": "63ec58ff5e351d6ca38a400df92a938dbed844b48bce1fe8471e0e81d349a94e",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F3863",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Estrutura paralela e alvos estão no trecho, atribuídos à PGR, que é a acusação. Peso 1."
+  },
+  "contra": {
+   "rotulo": "F3863",
+   "confere": true,
+   "certeza": 0.85,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Atribuído à PGR e fiel; omite do trecho o uso de recursos públicos contra as urnas e a espionagem de fabricantes."
+  },
+  "neutra": {
+   "rotulo": "F3863",
+   "confere": true,
+   "certeza": 0.8,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Trecho apoia a estrutura paralela e os alvos. 'Abin' e 'do grupo' ficam sem explicação para leigo."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F3863",
+   "sustenta": true,
+   "motivo": "Trecho traz estrutura paralela na Abin para espionar autoridades e adversários do grupo; notícia citada pelo nome do documento."
+  },
+  "espelho": {
+   "rotulo": "F3863",
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Espionagem pela Abin paralela ligada à trama cujo núcleo foi condenado."
+  }
+ },
+ "classificacao": "problema",
+ "peso_final": 1,
+ "falhas": [
+  "as três revisões não concordaram"
+ ],
+ "entrou_em": "2026-10-12"
+}

@@ -1,0 +1,84 @@
+{
+ "id": "mapa-lula-amb-2",
+ "origem": "mapa:lula-amb-2",
+ "candidato": "lula",
+ "tema": "ambiente",
+ "subtema": "energia",
+ "lente": "fez",
+ "data": "2025-10-20",
+ "titulo": "Ibama concede licença para a Petrobras perfurar na Foz do Amazonas",
+ "frase": "Em 20 de outubro de 2025, o Ibama concedeu à Petrobras a licença para perfurar o poço FZA-M-59, na Foz do Amazonas, segundo o Ministério de Minas e Energia.",
+ "tipo": "contexto",
+ "peso": 2,
+ "marco": false,
+ "ancora": {
+  "orgao": "Ministério de Minas e Energia",
+  "documento": "Silveira comemora liberação de licença para exploração do poço FZA-M-59, 20/10/2025",
+  "link": "https://www.gov.br/mme/pt-br/assuntos/noticias/silveira-comemora-liberacao-de-licenca-para-exploracao-do-poco-fza-m-59-na-margem-equatorial",
+  "trecho": "Publicado em 20/10/2025 13h32 O ministro de Minas e Energia, Alexandre Silveira, comemorou nesta segunda-feira (20/10) a concessão da licença ambiental para a perfuração do poço FZA-M-59, na Bacia da Foz do Amazonas, pela Petrobras. A autorização do Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis (Ibama) marca um avanço decisivo na exploração da Margem Equatorial, considerada uma das novas fronteiras mais promissoras do setor de petróleo e gás no mundo, com potencial de 10 bilhões de barris recuperáveis."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": false,
+  "9": false
+ },
+ "copias": {
+  "https://www.gov.br/mme/pt-br/assuntos/noticias/silveira-comemora-liberacao-de-licenca-para-exploracao-do-poco-fza-m-59-na-margem-equatorial": "http://web.archive.org/web/20260514052240/https://www.gov.br/mme/pt-br/assuntos/noticias/silveira-comemora-liberacao-de-licenca-para-exploracao-do-poco-fza-m-59-na-margem-equatorial/"
+ },
+ "hash": "a20bbdcdd9b75423197eb928d7c0c2825f781e418c0602f5ffffcb6da35edbc8",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F3805",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, poço e licença do Ibama estão no trecho do MME. Contexto tem peso 0, não 2."
+  },
+  "contra": {
+   "rotulo": "F3805",
+   "confere": true,
+   "certeza": 0.85,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Trecho data a comemoração do ministro em 20/10, não a concessão em si; contexto tem peso 0, não 2."
+  },
+  "neutra": {
+   "rotulo": "F3805",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, licença e poço estão no trecho. Contexto tem peso 0, não 2."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F3805",
+   "sustenta": false,
+   "motivo": "Trecho data em 20/10 a comemoração do ministro, não a concessão da licença pelo Ibama."
+  },
+  "espelho": {
+   "rotulo": "F3805",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Licença ambiental concedida, efeito não medido e avaliação em disputa."
+  }
+ },
+ "classificacao": "contexto",
+ "peso_final": 0,
+ "falhas": [
+  "as três revisões não concordaram",
+  "o texto vai além do trecho",
+  "o espelho deu outro tipo"
+ ],
+ "entrou_em": "2026-10-12"
+}

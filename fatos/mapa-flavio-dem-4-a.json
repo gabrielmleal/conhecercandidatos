@@ -1,0 +1,80 @@
+{
+ "id": "mapa-flavio-dem-4-a",
+ "origem": "mapa:flavio-dem-4",
+ "candidato": "flavio",
+ "tema": "democracia",
+ "subtema": "justica",
+ "lente": "fez",
+ "data": "2026-05-08",
+ "titulo": "Promulgada a Lei da Dosimetria",
+ "frase": "Em 8 de maio de 2026, o presidente do Congresso promulgou a Lei da Dosimetria (15.402), que permite reduzir penas pelos atos de 8 de janeiro de 2023.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": true,
+ "ancora": {
+  "orgao": "Senado Federal",
+  "documento": "Agência Senado: Promulgada lei que possibilita redução de penas pelo 8 de janeiro",
+  "link": "https://www12.senado.leg.br/noticias/materias/2026/05/08/promulgada-lei-que-possibilita-reducao-de-penas-pelo-8-de-janeiro",
+  "trecho": "Da Agência Senado | 08/05/2026, 18h18 O presidente do Senado e do Congresso, Davi Alcolumbre, promulgou nesta sexta-feira (8) a Lei da Dosimetria ( Lei 15.402, de 2026 ), que permite a redução de penas relacionadas aos atos antidemocráticos de 8 de janeiro de 2023."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/materias/2026/05/08/promulgada-lei-que-possibilita-reducao-de-penas-pelo-8-de-janeiro": "http://web.archive.org/web/20261009113638/https://www12.senado.leg.br/noticias/materias/2026/05/08/promulgada-lei-que-possibilita-reducao-de-penas-pelo-8-de-janeiro"
+ },
+ "hash": "045947742c646a4607decd1db241f8835c6b80c9661984b55b4381470e2586be",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F4679",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Data, número da lei e o que ela permite estão no trecho; a frase até dispensa o adjetivo antidemocráticos. Efeito não medido e disputa política: polêmico."
+  },
+  "contra": {
+   "rotulo": "F4679",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Data 8/5, promulgação pelo presidente do Congresso, Lei 15.402 e redução de penas do 8 de janeiro estão no trecho. Sem juízo; efeito não medido."
+  },
+  "neutra": {
+   "rotulo": "F4679",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Data, Lei 15.402 e redução de penas pelos atos de 8 de janeiro estão no trecho. Efeito não medido, em disputa."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-2137",
+  "verificador": {
+   "rotulo": "F4679",
+   "sustenta": true,
+   "motivo": "Trecho: promulgação em 08/05/ano B da Lei 15.402, Lei da Dosimetria, que permite reduzir penas ligadas aos atos de 8 de janeiro de ano A."
+  },
+  "espelho": {
+   "rotulo": "F4679",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Lei que permite reduzir penas dos atos de 8 de janeiro; efeito não medido e muito disputada."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

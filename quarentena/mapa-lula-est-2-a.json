@@ -1,0 +1,82 @@
+{
+ "id": "mapa-lula-est-2-a",
+ "origem": "mapa:lula-est-2",
+ "candidato": "lula",
+ "tema": "contas",
+ "subtema": "previdencia",
+ "lente": "fez",
+ "data": "2025-09-04",
+ "titulo": "Descontos associativos no INSS vão a R$ 3,4 bilhões e pedidos de suspensão a 192 mil em 2024",
+ "frase": "Segundo a CGU na CPMI do INSS, descontos associativos passaram de R$ 387 milhões em 2015 para R$ 3,4 bilhões em 2024, ano com 192 mil pedidos de suspensão.",
+ "tipo": "problema",
+ "peso": 1,
+ "marco": false,
+ "ancora": {
+  "orgao": "Câmara dos Deputados",
+  "documento": "Agência Câmara: depoimento da diretora da CGU à CPMI do INSS",
+  "link": "https://www.camara.leg.br/noticias/1196978-diretora-da-controladoria-geral-da-uniao-detalha-apuracao-sobre-descontos-indevidos-feitos-pelo-inss/",
+  "trecho": "Foi observado que os descontos associativos passaram de R$ 387 milhões em 2015 para R$ 3,4 bilhões em 2024. Já os pedidos para suspensão de descontos passaram de 900 em abril de 2022 para 192 mil em 2024."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.camara.leg.br/noticias/1196978-diretora-da-controladoria-geral-da-uniao-detalha-apuracao-sobre-descontos-indevidos-feitos-pelo-inss/": "http://web.archive.org/web/20251117152654/https://www.camara.leg.br/noticias/1196978-DIRETORA-DA-CONTROLADORIA-GERAL-DA-UNIAO-DETALHA-APURACAO-SOBRE-DESCONTOS-INDEVIDOS-FEITOS-PELO-INSS"
+ },
+ "hash": "5c3298629e70a386f98a44eebfa72227651fa4308756b948acd02cbcf11bdcae",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5667",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Números atribuídos à CGU estão no trecho. Depoimento em CPMI sem medir a parte fraudulenta: peso 1, não 2."
+  },
+  "contra": {
+   "rotulo": "F5667",
+   "confere": true,
+   "certeza": 0.85,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Números fiéis, mas omite que os pedidos de suspensão partiram de 900 em abril de ano B, o que suaviza o salto."
+  },
+  "neutra": {
+   "rotulo": "F5667",
+   "confere": true,
+   "certeza": 0.8,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Números batem com o trecho; dado oficial da CGU. 'Descontos associativos' não é explicado para leigo."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F5667",
+   "sustenta": true,
+   "motivo": "Trecho traz R$ 387 milhões, R$ 3,4 bilhões e 192 mil pedidos em ano C; documento atribui à CGU."
+  },
+  "espelho": {
+   "rotulo": "F5667",
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Dado da CGU: descontos subiram de R$ 387 milhões para R$ 3,4 bilhões."
+  }
+ },
+ "classificacao": "problema",
+ "peso_final": 2,
+ "falhas": [
+  "as três revisões não concordaram"
+ ],
+ "entrou_em": "2026-10-12"
+}

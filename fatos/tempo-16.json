@@ -1,0 +1,93 @@
+{
+ "id": "tempo-16",
+ "origem": "tempo:16",
+ "candidato": "brasil",
+ "tema": "democracia",
+ "subtema": "justica",
+ "lente": "fez",
+ "data": "2026-06-16",
+ "titulo": "STF condena Eduardo Bolsonaro por coação no curso do processo",
+ "frase": "Em 16/06/2026, o STF condenou Eduardo Bolsonaro por coação no curso do processo sobre tentativa de golpe. Pena: quatro anos e dois meses de prisão, em regime inicial semiaberto.",
+ "tipo": "problema",
+ "peso": 2,
+ "marco": true,
+ "ancora": {
+  "orgao": "Supremo Tribunal Federal",
+  "documento": "Notícia: STF condena Eduardo Bolsonaro por coação no curso do processo sobre tentativa de golpe (16/06/2026)",
+  "link": "https://noticias.stf.jus.br/postsnoticias/stf-condena-eduardo-bolsonaro-por-coacao-no-curso-do-processo-sobre-tentativa-de-golpe/",
+  "trecho": "Por unanimidade, a Primeira Turma do Supremo Tribunal Federal (STF) condenou, nesta terça-feira (16), o ex-deputado federal Eduardo Bolsonaro (PL-SP) pelo crime de coação no curso do processo."
+ },
+ "fontes": [
+  {
+   "veiculo": "Supremo Tribunal Federal",
+   "nivel": "A",
+   "link": "https://noticias.stf.jus.br/postsnoticias/stf-condena-eduardo-bolsonaro-por-coacao-no-curso-do-processo-sobre-tentativa-de-golpe/",
+   "trecho": "STF condena Eduardo Bolsonaro por coação no curso do processo sobre tentativa de golpe 1ª Turma seguiu o voto do relator da ação penal, ministro Alexandre de Moraes, e fixou a pena de 4 anos e 2 meses de prisão, em regime inicial semiaberto; em instantes, mais detalhes 16/06/2026 17:14"
+  },
+  {
+   "veiculo": "Supremo Tribunal Federal",
+   "nivel": "A",
+   "link": "https://noticias.stf.jus.br/postsnoticias/stf-condena-eduardo-bolsonaro-por-coacao-no-curso-do-processo-sobre-tentativa-de-golpe/",
+   "trecho": "O colegiado aplicou ao réu a pena de quatro anos e dois meses de prisão, em regime inicial semiaberto"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://noticias.stf.jus.br/postsnoticias/stf-condena-eduardo-bolsonaro-por-coacao-no-curso-do-processo-sobre-tentativa-de-golpe/": "http://web.archive.org/web/20261011020349/https://noticias.stf.jus.br/postsnoticias/stf-condena-eduardo-bolsonaro-por-coacao-no-curso-do-processo-sobre-tentativa-de-golpe/"
+ },
+ "hash": "df8b81829bd45b70f98a13cdb7b55d4e941292cd752636590e632108f7bc8002",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F6242",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Data, crime e pena (quatro anos e dois meses, semiaberto) estão nos trechos. Condenação do STF; a frase não afirma que é definitiva."
+  },
+  "contra": {
+   "rotulo": "F6242",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Condenação por unanimidade da Primeira Turma, data, pena de 4 anos e 2 meses e regime semiaberto estão nos trechos."
+  },
+  "neutra": {
+   "rotulo": "F6242",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Data, crime, pena e regime batem com os trechos. Condenação do STF, peso 2."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-2137",
+  "verificador": {
+   "rotulo": "F6242",
+   "sustenta": true,
+   "motivo": "Condenação em 16/06 por coação no curso do processo sobre tentativa de golpe, com pena de 4 anos e 2 meses em semiaberto, consta."
+  },
+  "espelho": {
+   "rotulo": "F6242",
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Condenação pelo STF por coação no curso do processo, pena de quatro anos e dois meses."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

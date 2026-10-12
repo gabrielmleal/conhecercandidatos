@@ -1,0 +1,79 @@
+{
+ "id": "mapa-lula-fam-2-a",
+ "origem": "mapa:lula-fam-2",
+ "candidato": "lula",
+ "tema": "candidato",
+ "subtema": "trajetoria",
+ "lente": "fez",
+ "data": "2026-10-04",
+ "titulo": "Lula tem 80 anos e disputa a reeleição",
+ "frase": "Lula nasceu em Garanhuns (PE) em 27 de outubro de 1945, tem 80 anos e busca a reeleição.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Agência Senado",
+  "documento": "Flávio Bolsonaro e Lula disputam o segundo turno das eleições para presidente (04/10/2026)",
+  "link": "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente",
+  "trecho": "Aos 80 anos de idade, Luiz Inácio Lula da Silva busca a reeleição. Nasceu em Garanhuns (PE) em 27 de outubro de 1945."
+ },
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente": "http://web.archive.org/web/20261011142347/https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente"
+ },
+ "hash": "2dafa6bc655d72960f6b052ffe49846412f67d9e7c8a433b9775d08882b3a654",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F2429",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Idade, local e data de nascimento e reeleição estão no trecho, sem adjetivo."
+  },
+  "contra": {
+   "rotulo": "F2429",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Idade, local e data de nascimento iguais ao trecho. Sem juízo."
+  },
+  "neutra": {
+   "rotulo": "F2429",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Local, data de nascimento, idade e reeleição batem com o trecho. Informação pessoal sem lado bom ou ruim: contexto."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1433",
+  "verificador": {
+   "rotulo": "F2429",
+   "sustenta": true,
+   "motivo": "Local e data de nascimento, 80 anos e busca da reeleição constam literalmente no trecho."
+  },
+  "espelho": {
+   "rotulo": "F2429",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Dado biográfico de idade e candidatura, sem lado bom ou ruim."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

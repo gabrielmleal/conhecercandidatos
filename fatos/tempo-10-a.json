@@ -1,0 +1,95 @@
+{
+ "id": "tempo-10-a",
+ "origem": "tempo:10",
+ "candidato": "brasil",
+ "tema": "contas",
+ "subtema": "previdencia",
+ "lente": "fez",
+ "data": "2025-04",
+ "titulo": "Operação Sem Desconto revela fraudes em descontos de aposentadorias e pensões",
+ "frase": "Em 2025, a Operação Sem Desconto, da PF e da CGU, revelou fraudes com descontos indevidos em aposentadorias e pensões. Investigação não é condenação.",
+ "tipo": "problema",
+ "peso": 1,
+ "marco": true,
+ "ancora": {
+  "orgao": "Câmara dos Deputados",
+  "documento": "Agência Câmara: Lupi nega omissão e diz à CPMI do INSS que só percebeu dimensão do problema após ação da PF (08/09/2025)",
+  "link": "https://www.camara.leg.br/noticias/1197929-lupi-nega-omissao-e-diz-a-cpmi-do-inss-que-so-percebeu-dimensao-do-problema-apos-acao-da-pf/",
+  "trecho": "Carlos Lupi ocupou o cargo de janeiro de 2023 a maio deste ano, quando a Operação Sem Desconto, coordenada pela PF e pela Controladoria-Geral da União (CGU), revelou as fraudes."
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Senado",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2025/09/08/carlos-lupi-nega-envolvimento-em-fraudes-no-inss-no-depoimento-a-cpmi",
+   "trecho": "Lupi esteve à frente do Ministério da Previdência de janeiro de 2023 até maio de 2025, tendo pedido demissão cerca de uma semana após a deflagração da operação da Polícia Federal que apura fraudes, com descontos indevidos em aposentadorias e pensões."
+  },
+  {
+   "veiculo": "Agência Câmara",
+   "nivel": "A",
+   "link": "https://www.camara.leg.br/noticias/1196978-diretora-da-controladoria-geral-da-uniao-detalha-apuracao-sobre-descontos-indevidos-feitos-pelo-inss/",
+   "trecho": "os descontos associativos passaram de R$ 387 milhões em 2015 para R$ 3,4 bilhões em 2024."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.camara.leg.br/noticias/1197929-lupi-nega-omissao-e-diz-a-cpmi-do-inss-que-so-percebeu-dimensao-do-problema-apos-acao-da-pf/": "http://web.archive.org/web/20261011143525/https://www.camara.leg.br/noticias/1197929-lupi-nega-omissao-e-diz-a-cpmi-do-inss-que-so-percebeu-dimensao-do-problema-apos-acao-da-pf/",
+  "https://www12.senado.leg.br/noticias/materias/2025/09/08/carlos-lupi-nega-envolvimento-em-fraudes-no-inss-no-depoimento-a-cpmi": null,
+  "https://www.camara.leg.br/noticias/1196978-diretora-da-controladoria-geral-da-uniao-detalha-apuracao-sobre-descontos-indevidos-feitos-pelo-inss/": "http://web.archive.org/web/20251117152654/https://www.camara.leg.br/noticias/1196978-DIRETORA-DA-CONTROLADORIA-GERAL-DA-UNIAO-DETALHA-APURACAO-SOBRE-DESCONTOS-INDEVIDOS-FEITOS-PELO-INSS"
+ },
+ "hash": "52d1357cd5a7a09d64f659c20f56bf71a281b527ae4b213c258b99f2a7edb019",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F3965",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Operação da PF e CGU e descontos indevidos estão no trecho; ano D vem de 'deste ano' e maio de ano D; aviso presente."
+  },
+  "contra": {
+   "rotulo": "F3965",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Data, órgãos e fraudes estão nos trechos; investigação formal sem julgamento, com a ressalva presente."
+  },
+  "neutra": {
+   "rotulo": "F3965",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Ano D, PF, CGU e descontos indevidos estão nos trechos; investigação formal sem julgamento, com a ressalva final."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2137",
+  "verificador": {
+   "rotulo": "F3965",
+   "sustenta": true,
+   "motivo": "Trechos ligam a Operação Sem Desconto, da PF e CGU, às fraudes em descontos em maio de ano D."
+  },
+  "espelho": {
+   "rotulo": "F3965",
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Operação da PF e CGU sobre fraudes em aposentadorias: investigação formal aberta, sem julgamento."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

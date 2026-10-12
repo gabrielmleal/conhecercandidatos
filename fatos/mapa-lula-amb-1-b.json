@@ -1,0 +1,80 @@
+{
+ "id": "mapa-lula-amb-1-b",
+ "origem": "mapa:lula-amb-1",
+ "candidato": "lula",
+ "tema": "ambiente",
+ "subtema": "desmatamento",
+ "lente": "fez",
+ "data": "2023-01-01",
+ "titulo": "Decreto 11.367 restabelece o plano de combate ao desmatamento na Amazônia",
+ "frase": "O Decreto 11.367, de 1º de janeiro de 2023, restabelece o Plano de Ação para a Prevenção e Controle do Desmatamento na Amazônia Legal (PPCDAm).",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Planalto",
+  "documento": "Decreto nº 11.367, de 1º de janeiro de 2023",
+  "link": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11367.htm",
+  "trecho": "DECRETO Nº 11.367, DE 1º DE JANEIRO DE 2023 Institui a Comissão Interministerial Permanente de Prevenção e Controle do Desmatamento, restabelece o Plano de Ação para a Prevenção e Controle do Desmatamento na Amazônia Legal - PPCDAm"
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/D11367.htm": "http://web.archive.org/web/20261004085108/https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/decreto/d11367.htm"
+ },
+ "hash": "b01ed91d807ef55543af9423f00e8757f96b7aec95237995dbcbc349408c2da5",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F3908",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Número, data e restabelecimento do PPCDAm batem com a ementa; \"combate\" no título é paráfrase de prevenção e controle."
+  },
+  "contra": {
+   "rotulo": "F3908",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Número, data e restabelecimento do PPCDAm iguais à ementa do decreto. Não afirma resultado."
+  },
+  "neutra": {
+   "rotulo": "F3908",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Número e data do decreto e o plano restabelecido batem com o trecho. Ato sem efeito medido: contexto."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1433",
+  "verificador": {
+   "rotulo": "F3908",
+   "sustenta": true,
+   "motivo": "Número e data do decreto e o restabelecimento do PPCDAm constam literalmente na ementa."
+  },
+  "espelho": {
+   "rotulo": "F3908",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Decreto restabelece plano, ato oficial sem efeito medido nem lado definido."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

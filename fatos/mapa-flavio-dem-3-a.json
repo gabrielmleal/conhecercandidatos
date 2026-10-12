@@ -1,0 +1,80 @@
+{
+ "id": "mapa-flavio-dem-3-a",
+ "origem": "mapa:flavio-dem-3",
+ "candidato": "flavio",
+ "tema": "democracia",
+ "subtema": "justica",
+ "lente": "disse",
+ "data": "2024-08-14",
+ "titulo": "Flávio pede impeachment de Moraes no Plenário",
+ "frase": "Em 14 de agosto de 2024, o senador Flávio Bolsonaro pediu no Plenário o impeachment do ministro Alexandre de Moraes, do STF.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Senado Federal",
+  "documento": "Agência Senado: Flávio Bolsonaro pede impeachment de Alexandre de Moraes",
+  "link": "https://www12.senado.leg.br/noticias/materias/2024/08/15/flavio-bolsonaro-pede-impeachment-de-alexandre-de-moraes",
+  "trecho": "Da Agência Senado | 15/08/2024, 12h28 O senador Flávio Bolsonaro (PL-RJ), em pronunciamento no Plenário nesta quarta-feira, 14 de agosto, criticou a atuação do ministro do Supremo Tribunal Federal (STF), Alexandre de Moraes, pedindo seu impeachment."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/materias/2024/08/15/flavio-bolsonaro-pede-impeachment-de-alexandre-de-moraes": "http://web.archive.org/web/20260115140420/https://www12.senado.leg.br/noticias/materias/2024/08/15/flavio-bolsonaro-pede-impeachment-de-alexandre-de-moraes"
+ },
+ "hash": "34105cc057e6ac7452687114b5efb32104cbc18cfd6c0a14bc509da9958b6daa",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F3387",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, local e pedido de impeachment estão no trecho da Agência Senado."
+  },
+  "contra": {
+   "rotulo": "F3387",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, local e pedido de impeachment estão no trecho da Agência Senado."
+  },
+  "neutra": {
+   "rotulo": "F3387",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, local e pedido de impeachment batem com a Agência Senado. Frase clara."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-1433",
+  "verificador": {
+   "rotulo": "F3387",
+   "sustenta": true,
+   "motivo": "Trecho da Agência Senado dá pronunciamento no Plenário em 14 de agosto pedindo o impeachment de Pessoa N, do STF."
+  },
+  "espelho": {
+   "rotulo": "F3387",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Registro de pedido de impeachment feito pelo senador, sem efeito medido."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

@@ -1,5 +1,7 @@
 import gzip
+import hashlib
 import html
+import pathlib
 import re
 import subprocess
 import sys
@@ -14,9 +16,12 @@ AGENTE = "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_0) AppleWebKit/537.36 (KHTML
 
 
 VEZ = threading.Lock()
+COPIAS = pathlib.Path(__file__).resolve().parent.parent / "estado/copias"
 
 
 def pegar(link, espera):
+    if (guardada := COPIAS / (hashlib.sha1(link.encode()).hexdigest()[:16] + ".pdf")).exists():
+        return guardada.read_bytes(), "application/pdf"
     pedido = urllib.request.Request(link, headers={"User-Agent": AGENTE, "Accept-Language": "pt-BR,pt;q=0.9"})
     arquivo = "archive.org" in link
     for pausa in [30, 90, 180, None] if arquivo else [None]:

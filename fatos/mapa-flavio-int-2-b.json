@@ -1,0 +1,94 @@
+{
+ "id": "mapa-flavio-int-2-b",
+ "origem": "mapa:flavio-int-2",
+ "candidato": "flavio",
+ "tema": "mundo",
+ "subtema": "eua",
+ "lente": "fez",
+ "data": "2025-07-30",
+ "titulo": "EUA sancionam o ministro Moraes",
+ "frase": "Em 30 de julho de 2025, o Tesouro dos EUA sancionou Alexandre de Moraes, ministro do STF, citando censura, detenções arbitrárias e processos politizados. Investigação não é condenação.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "SBT News",
+  "documento": "EUA usam Lei Magnitsky para aplicar sanções a Alexandre de Moraes, com base no comunicado do Departamento do Tesouro dos EUA (30/07/2025)",
+  "link": "https://sbtnews.sbt.com.br/noticia/mundo/eua-usam-lei-magnitsky-para-sancionar-alexandre-de-moraes",
+  "trecho": "Os Estados Unidos impuseram sanções ao ministro Alexandre de Moraes , do Supremo Tribunal Federal (STF), nesta quarta-feira (30), de acordo com uma publicação no site do Departamento do Tesouro dos EUA ."
+ },
+ "fontes": [
+  {
+   "veiculo": "SBT News",
+   "nivel": "C",
+   "link": "https://sbtnews.sbt.com.br/noticia/mundo/eua-usam-lei-magnitsky-para-sancionar-alexandre-de-moraes",
+   "trecho": "“Moraes é responsável por uma campanha opressiva de censura, detenções arbitrárias que violam os direitos humanos e processos politizados — inclusive contra o ex-presidente Jair Bolsonaro."
+  },
+  {
+   "veiculo": "Poder360",
+   "nivel": "C",
+   "link": "https://www.poder360.com.br/poder-justica/eduardo-diz-que-atuara-nos-eua-para-retomada-de-magnitsky-a-moraes/",
+   "trecho": "O governo dos Estados Unidos aplicou as sanções a Moraes em 30 de julho de 2025."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://sbtnews.sbt.com.br/noticia/mundo/eua-usam-lei-magnitsky-para-sancionar-alexandre-de-moraes": null,
+  "https://www.poder360.com.br/poder-justica/eduardo-diz-que-atuara-nos-eua-para-retomada-de-magnitsky-a-moraes/": null
+ },
+ "hash": "9cd8ddb747e1504a8c3e7455b1c6c27d1da57214d2db381458ba06127a9d4eb1",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F2448",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Sanção, data e motivos citados pelo Tesouro conferem com os trechos. Alegação sem julgamento e a frase final está presente."
+  },
+  "contra": {
+   "rotulo": "F2448",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Data, órgão e acusações citadas conferem com os trechos. Acusação estrangeira sem julgamento e a ressalva final está presente."
+  },
+  "neutra": {
+   "rotulo": "F2448",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Data, sanção do Tesouro e acusações citadas estão nos trechos, atribuídas aos EUA. Termina com a frase de cautela exigida."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1433",
+  "verificador": {
+   "rotulo": "F2448",
+   "sustenta": true,
+   "motivo": "Data, sanção, citações e aviso estão apoiados. O trecho põe o Tesouro como fonte da publicação, não como autor explícito da sanção."
+  },
+  "espelho": {
+   "rotulo": "F2448",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Sanção estrangeira baseada em acusações em disputa, sem condenação; efeito não medido."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

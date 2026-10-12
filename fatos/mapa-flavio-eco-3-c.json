@@ -1,0 +1,80 @@
+{
+ "id": "mapa-flavio-eco-3-c",
+ "origem": "mapa:flavio-eco-3",
+ "candidato": "flavio",
+ "tema": "producao",
+ "subtema": "estatais",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Plano de Flávio promete retomar o Programa Nacional de Desestatização",
+ "frase": "O plano de governo de Flávio Bolsonaro promete retomar o Programa Nacional de Desestatização, avaliando caso a caso onde a presença do Estado deixou de fazer sentido.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Flávio Bolsonaro (PL), registrado no TSE, p. 70",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "trecho": "E vamos retomar o Programa Nacional de Desestatização com critério, avaliando caso a caso onde a presença do Estado deixou de fazer sentido."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf": "http://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf"
+ },
+ "hash": "06b2e0fe47bb8fb800a1f8b9d3364192835f2d592f29954d3a193d864005c3a3",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F2442",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Frase fiel ao trecho, com a ressalva do caso a caso. Promessa tem peso 0, não 1."
+  },
+  "contra": {
+   "rotulo": "F2442",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Frase repete o trecho do plano sem acrescentar resultado. Promessa tem peso 0, não 1."
+  },
+  "neutra": {
+   "rotulo": "F2442",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Título e frase repetem o trecho sem acrescentar nada. Promessa tem peso 0."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F2442",
+   "sustenta": true,
+   "motivo": "Retomar o Programa Nacional de Desestatização avaliando caso a caso onde o Estado deixou de fazer sentido está no trecho."
+  },
+  "espelho": {
+   "rotulo": "F2442",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Plano de governo promete retomar o Programa Nacional de Desestatização; ainda não aconteceu."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

@@ -1,0 +1,83 @@
+{
+ "id": "mapa-flavio-edu-2-a",
+ "origem": "mapa:flavio-edu-2",
+ "candidato": "flavio",
+ "tema": "educacao",
+ "subtema": "mec",
+ "lente": "fez",
+ "data": "2022-03-30",
+ "titulo": "Galeria do MEC lista ministros da Educação do governo Bolsonaro",
+ "frase": "Segundo a galeria do Ministério da Educação, Ricardo Vélez Rodríguez (2019), Abraham Weintraub (2019-2020), Milton Ribeiro (2020-2022) e Victor Godoy Veiga (2022-2023) foram ministros no governo de Jair Messias Bolsonaro.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Ministério da Educação",
+  "documento": "Galeria de Ministros (1985 a atualmente)",
+  "link": "https://www.gov.br/mec/pt-br/acesso-a-informacao/institucional/galeria-de-ministros/1985-atualmente",
+  "trecho": "Victor Godoy Veiga Período: 30/3/2022 a 1/1/2023. Nasceu em 22 de janeiro de 1981, em Brasília, Distrito Federal. Formou-se em engenharia de redes de comunicação de dados pela Universidade de Brasília. Auditor Federal de Finanças de Controle da Controladoria-Geral da União licenciado, foi secretário-executivo do Ministério da Educação. Ministro no governo do presidente Jair Messias Bolsonaro. Durante sua gestão, foi instituída a ampliação do acesso ao Programa Universidade para Todos (Prouni). Milton Ribeiro Período: 10/7/2020 a 28/3/2022. Nasceu no dia 14 de março de 1958, em São Vicente, São Paulo. Professor e pastor, foi vice-reitor da Universidade Presbiteriana Mackenzie. Ministro no governo do presidente Jair Messias Bolsonaro. Durante sua gestão, foi instituído o Conselho de Acompanhamento e Controle Social (Cacs) do Fundo de Manutenção e Desenvolvimento da Educação Básica e de Valorização dos Profissionais da Educação (Fundeb). Abraham Bragança de Vasconcellos Weintraub Período: Período: 8/4/2019 a 20/6/2020. Nasceu no dia 11 de outubro de 1971, em São Paulo. Ministro no governo do presidente Jair Messias Bolsonaro. Foi diretor do Banco Votorantim e secretário-executivo da Casa Civil. Ricardo Vélez Rodríguez Período: 1/1/2019 a 8/4/2019"
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": false,
+  "9": true
+ },
+ "copias": {
+  "https://www.gov.br/mec/pt-br/acesso-a-informacao/institucional/galeria-de-ministros/1985-atualmente": null
+ },
+ "hash": "73179efb20e6545ed7204b266ca4f798bbf07a220663e17f87d1ef5e1abcf039",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F4297",
+   "confere": true,
+   "certeza": 0.88,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Períodos batem com a galeria. O trecho corta antes de dizer de qual governo foi Vélez Rodríguez."
+  },
+  "contra": {
+   "rotulo": "F4297",
+   "confere": true,
+   "certeza": 0.88,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Períodos conferem; o trecho é cortado antes de dizer que Vélez Rodríguez foi ministro no governo de Pessoa Z."
+  },
+  "neutra": {
+   "rotulo": "F4297",
+   "confere": true,
+   "certeza": 0.85,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Nomes e períodos batem com o trecho. Para Vélez Rodríguez, o vínculo ao governo Pessoa Z vem só da data."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F4297",
+   "sustenta": false,
+   "motivo": "Trecho termina nas datas de Ricardo Vélez Rodríguez sem dizer que foi ministro no governo de Pessoa Z."
+  },
+  "espelho": {
+   "rotulo": "F4297",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Lista de ministros por período, sem lado bom ou ruim."
+  }
+ },
+ "classificacao": "contexto",
+ "peso_final": 0,
+ "falhas": [
+  "as três revisões não concordaram",
+  "o texto vai além do trecho"
+ ],
+ "entrou_em": "2026-10-12"
+}

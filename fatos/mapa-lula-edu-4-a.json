@@ -1,0 +1,80 @@
+{
+ "id": "mapa-lula-edu-4-a",
+ "origem": "mapa:lula-edu-4",
+ "candidato": "lula",
+ "tema": "educacao",
+ "subtema": "creche",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Lula promete chegar a 80% de crianças alfabetizadas na idade certa",
+ "frase": "Lula promete, no programa registrado no TSE, seguir com as políticas pactuadas com estados e municípios para chegar a 80% das crianças alfabetizadas na idade certa.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Lula (PT), registrado no TSE, p. 31",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
+  "trecho": "Seguiremos com as ações e políticas já pactuadas com os estados e municípios brasileiros para chegarmos à meta de 80% das nossas crianças alfabetizadas na idade certa."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017016005": "http://web.archive.org/web/20261003172403/https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017016005"
+ },
+ "hash": "d267e216bcc088188854b91cd2304547be4f98a438d9f9f6f45fa0ab37949645",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F1146",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Meta de 80% e políticas pactuadas com estados e municípios estão no trecho. Promessa, peso 0."
+  },
+  "contra": {
+   "rotulo": "F1146",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Seguir as políticas pactuadas com estados e municípios para a meta de 80% está no trecho, atribuído ao programa. Promessa, peso 0."
+  },
+  "neutra": {
+   "rotulo": "F1146",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Meta de 80% das crianças alfabetizadas e as políticas pactuadas com estados e municípios estão literais no trecho."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-2137",
+  "verificador": {
+   "rotulo": "F1146",
+   "sustenta": true,
+   "motivo": "Trecho traz seguir com políticas pactuadas com estados e municípios para chegar à meta de 80% das crianças alfabetizadas na idade certa."
+  },
+  "espelho": {
+   "rotulo": "F1146",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Meta de 80% de crianças alfabetizadas prometida no programa; ainda não aconteceu."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

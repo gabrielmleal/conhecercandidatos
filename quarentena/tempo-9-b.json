@@ -1,0 +1,95 @@
+{
+ "id": "tempo-9-b",
+ "origem": "tempo:9",
+ "candidato": "brasil",
+ "tema": "democracia",
+ "subtema": "gestao",
+ "lente": "fez",
+ "data": "2024-01-25",
+ "titulo": "STF autoriza buscas na investigação sobre o uso da Abin para monitorar autoridades",
+ "frase": "Em janeiro de 2024, o STF autorizou, a pedido da PF, buscas em procedimento que apura o uso da Abin para monitoramento ilegal de autoridades. Investigação não é condenação.",
+ "tipo": "problema",
+ "peso": 1,
+ "marco": true,
+ "ancora": {
+  "orgao": "Supremo Tribunal Federal",
+  "documento": "Notícia: A pedido da PF e com parecer favorável da PGR, STF autoriza busca e apreensão contra mais investigados no caso Abin (29/01/2024)",
+  "link": "https://noticias.stf.jus.br/postsnoticias/a-pedido-da-pf-e-com-parecer-favoravel-da-pgr-stf-autoriza-busca-e-apreensao-contra-mais-investigados-no-caso-abin/",
+  "trecho": "O ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), atendeu a pedido da Polícia Federal e autorizou ação de busca e apreensão contra mais quatro pessoas investigadas no procedimento criminal que apura o uso da Agência Brasileira de Inteligência (Abin) para monitoramento ilegal de autoridades públicas."
+ },
+ "fontes": [
+  {
+   "veiculo": "Supremo Tribunal Federal",
+   "nivel": "A",
+   "link": "https://noticias.stf.jus.br/postsnoticias/a-pedido-da-pf-e-com-parecer-favoravel-da-pgr-stf-autoriza-busca-e-apreensao-contra-mais-investigados-no-caso-abin/",
+   "trecho": "A pedido da PF e com parecer favorável da PGR, STF autoriza busca e apreensão contra mais investigados no caso Abin Novos investigados, entre eles o vereador Carlos Bolsonaro, do Rio de Janeiro, são suspeitos de integrar o núcleo político de uma organização criminosa. 29/01/2024 17:51"
+  },
+  {
+   "veiculo": "Supremo Tribunal Federal",
+   "nivel": "A",
+   "link": "https://noticias.stf.jus.br/postsnoticias/a-pedido-da-pf-e-com-parecer-favoravel-da-pgr-stf-autoriza-busca-e-apreensao-contra-mais-investigados-no-caso-abin/",
+   "trecho": "Em 25/1, o ministro já havia autorizado medida semelhante contra o deputado federal Alexandre Ramagem (PL-RJ), ex-diretor da agência, e outras 11 pessoas."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://noticias.stf.jus.br/postsnoticias/a-pedido-da-pf-e-com-parecer-favoravel-da-pgr-stf-autoriza-busca-e-apreensao-contra-mais-investigados-no-caso-abin/": "http://web.archive.org/web/20261011175658/https://noticias.stf.jus.br/postsnoticias/a-pedido-da-pf-e-com-parecer-favoravel-da-pgr-stf-autoriza-busca-e-apreensao-contra-mais-investigados-no-caso-abin/"
+ },
+ "hash": "9aa7ce4c3b47b49fb63ae0311a9cee811c26d750b4869a6c85b7aab4b2706908",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F7045",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Autorização de buscas a pedido da PF consta do trecho; frase usa \"apura\" e traz a ressalva."
+  },
+  "contra": {
+   "rotulo": "F7045",
+   "confere": true,
+   "certeza": 0.88,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Fiel e com ressalva; omite que alvos incluíam o ex-diretor da Abin e suposto núcleo político de organização criminosa."
+  },
+  "neutra": {
+   "rotulo": "F7045",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Mês, pedido da PF e objeto da apuração batem com os trechos; investigação formal com o aviso."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F7045",
+   "sustenta": true,
+   "motivo": "Trechos mostram ministro do STF autorizando buscas a pedido da PF em janeiro de ano A no caso Abin."
+  },
+  "espelho": {
+   "rotulo": "F7045",
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "STF autorizou buscas em investigação formal da PF sobre a Abin, sem julgamento."
+  }
+ },
+ "classificacao": "problema",
+ "peso_final": 1,
+ "falhas": [
+  "as três revisões não concordaram"
+ ],
+ "entrou_em": "2026-10-12"
+}

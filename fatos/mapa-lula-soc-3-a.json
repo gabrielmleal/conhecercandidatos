@@ -1,0 +1,87 @@
+{
+ "id": "mapa-lula-soc-3-a",
+ "origem": "mapa:lula-soc-3",
+ "candidato": "lula",
+ "tema": "social",
+ "subtema": "transferencia",
+ "lente": "fez",
+ "data": "2023-06-19",
+ "titulo": "Lei 14.601 institui o Bolsa Família em 2023",
+ "frase": "A Lei 14.601, de 19 de junho de 2023, instituiu o Bolsa Família: R$ 142,00 por integrante; se a soma da família for menor que R$ 600,00, recebe a diferença.",
+ "tipo": "positivo",
+ "peso": 2,
+ "marco": true,
+ "ancora": {
+  "orgao": "Planalto",
+  "documento": "Lei 14.601/2023, art. 4º",
+  "link": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14601.htm",
+  "trecho": "I - Benefício de Renda de Cidadania, no valor de R$ 142,00 (cento e quarenta e dois reais) por integrante, destinado a todas as famílias beneficiárias do Programa Bolsa Família; II - Benefício Complementar, destinado às famílias beneficiárias do Programa Bolsa Família cuja soma dos valores relativos aos benefícios financeiros de que trata o inciso I deste parágrafo seja inferior a R$ 600,00 (seiscentos reais), calculado pela diferença entre este valor e a referida soma;"
+ },
+ "fontes": [
+  {
+   "veiculo": "Planalto (cabeçalho da lei)",
+   "nivel": "A",
+   "link": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14601.htm",
+   "trecho": "LEI Nº 14.601, DE 19 DE JUNHO DE 2023 Vigência Conversão da Medida Provisória nº 1.164, de 2023 Regulamento Institui o Programa Bolsa Família"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/L14601.htm": "http://web.archive.org/web/20261006121722/https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14601.htm"
+ },
+ "hash": "2005ac55ec9bf7d4324405e802e942744058d5f1a352ab65934022c3e13fd9a6",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F7216",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Valores de R$ 142,00 e R$ 600,00 e a regra da diferença batem com a lei."
+  },
+  "contra": {
+   "rotulo": "F7216",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Valores e regra do complemento batem com o texto da lei; nada além do trecho."
+  },
+  "neutra": {
+   "rotulo": "F7216",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Valores fiéis ao texto da lei; lei com efeito direto e número."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-1502",
+  "verificador": {
+   "rotulo": "F7216",
+   "sustenta": true,
+   "motivo": "Lei 14.601 de 19 de junho, R$ 142,00 por integrante e complemento até R$ 600,00 pela diferença estão nos trechos."
+  },
+  "espelho": {
+   "rotulo": "F7216",
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Lei 14.601 instituiu benefício de R$ 142 por pessoa, com piso de R$ 600 por família."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

@@ -1,0 +1,87 @@
+{
+ "id": "mapa-lula-obr-2-a",
+ "origem": "mapa:lula-obr-2",
+ "candidato": "lula",
+ "tema": "social",
+ "subtema": "moradia",
+ "lente": "disse",
+ "data": "2025-05-08",
+ "titulo": "Augusto Rabelo, secretário de Habitação, diz que o Minha Casa, Minha Vida contratou 1,5 milhão de residências",
+ "frase": "Segundo o secretário de Habitação, até 8 de maio de 2025 o Minha Casa, Minha Vida tinha contratado 1,5 milhão de residências. A meta subiu de 2 para 3 milhões.",
+ "tipo": "positivo",
+ "peso": 1,
+ "marco": false,
+ "ancora": {
+  "orgao": "Agência Câmara",
+  "documento": "Em reunião na Câmara, participantes sugerem melhorias para o programa Minha Casa, Minha Vida",
+  "link": "https://www.camara.leg.br/noticias/1156801-em-reuniao-na-camara-participantes-sugerem-melhorias-para-o-programa-minha-casa-minha-vida/",
+  "trecho": "Ainda de acordo com Augusto Rabelo, o projeto inicial do governo era contratar a construção de 2 milhões de unidades habitacionais em quatro anos. No entanto, ele disse que, até o momento, já foram contratadas 1,5 milhão de residências, e a meta foi atualizada para 3 milhões até o final do governo. A prioridade voltou a ser para a faixa 1 do programa, que atende famílias com renda inferior a 2 salários mínimos, acrescentou o secretário de Habitação."
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Câmara (data da reunião)",
+   "nivel": "A",
+   "link": "https://www.camara.leg.br/noticias/1156801-em-reuniao-na-camara-participantes-sugerem-melhorias-para-o-programa-minha-casa-minha-vida/",
+   "trecho": "Da Agência Câmara - 08/05/2025 - 20:01"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.camara.leg.br/noticias/1156801-em-reuniao-na-camara-participantes-sugerem-melhorias-para-o-programa-minha-casa-minha-vida/": "http://web.archive.org/web/20260606143932/https://www.camara.leg.br/noticias/1156801-em-reuniao-na-camara-participantes-sugerem-melhorias-para-o-programa-minha-casa-minha-vida/"
+ },
+ "hash": "59b710a1321eb8de0a2880feb1d74317885bf2320f7ac553212aecc976899474",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F6818",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "positivo",
+   "peso": 1,
+   "motivo": "1,5 milhão até 08/05 e meta de 2 para 3 milhões estão no trecho; fala do próprio governo, peso 1."
+  },
+  "contra": {
+   "rotulo": "F6818",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "positivo",
+   "peso": 1,
+   "motivo": "1,5 milhão contratadas e meta de 2 para 3 milhões constam no trecho; é fala do próprio governo."
+  },
+  "neutra": {
+   "rotulo": "F6818",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "positivo",
+   "peso": 1,
+   "motivo": "1,5 milhão, data e metas de 2 e 3 milhões estão nos trechos; fala do próprio governo tem peso 1."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2137",
+  "verificador": {
+   "rotulo": "F6818",
+   "sustenta": true,
+   "motivo": "Trechos: secretário disse em 08/05/ano A que 1,5 milhão foram contratadas; meta passou de 2 para 3 milhões."
+  },
+  "espelho": {
+   "rotulo": "F6818",
+   "tipo": "positivo",
+   "peso": 1,
+   "motivo": "Balanço do próprio governo: 1,5 milhão de moradias contratadas no Minha Casa, Minha Vida."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

@@ -1,0 +1,80 @@
+{
+ "id": "mapa-flavio-seg-3-a",
+ "origem": "mapa:flavio-seg-3",
+ "candidato": "flavio",
+ "tema": "seguranca",
+ "subtema": "leis",
+ "lente": "prometeu",
+ "data": "2026-08-13",
+ "titulo": "Plano de Flávio promete tornozeleira para agressores com medida protetiva",
+ "frase": "O plano de governo de Flávio Bolsonaro promete monitorar com tornozeleiras eletrônicas os agressores das mais de meio milhão de mulheres com medida protetiva.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "TSE",
+  "documento": "Plano de governo de Flávio Bolsonaro (PL), Eleições 2026",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "trecho": "Medida protetiva vai deixar de ser um pedaço de papel para ser um instrumento real de proteção às mulheres. Os agressores das mais de meio milhão de mulheres com medida protetiva no Brasil serão monitorados pelas autoridades com o uso de tornozeleiras eletrônicas."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf": "http://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf"
+ },
+ "hash": "9cc2dd15e8bd5851e8036e07858def35617cc0b89cf7b226beb9260a44aa6bab",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F3064",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "A frase repete a promessa do plano sem acrescentar nada. Promessa tem peso 0, não 1."
+  },
+  "contra": {
+   "rotulo": "F3064",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Diz 'promete' e repete o texto do plano, incluindo 'mais de meio milhão'. Promessa tem peso 0, não 1."
+  },
+  "neutra": {
+   "rotulo": "F3064",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Tornozeleira e meio milhão de mulheres estão no trecho do plano. Ainda não aconteceu; promessa tem peso 0."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1433",
+  "verificador": {
+   "rotulo": "F3064",
+   "sustenta": true,
+   "motivo": "Tornozeleiras e mais de meio milhão de mulheres estão no trecho. Que é o plano de Pessoa C vem do órgão TSE, não do trecho."
+  },
+  "espelho": {
+   "rotulo": "F3064",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Proposta de plano de governo, ainda não realizada."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

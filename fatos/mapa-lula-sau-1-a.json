@@ -1,0 +1,80 @@
+{
+ "id": "mapa-lula-sau-1-a",
+ "origem": "mapa:lula-sau-1",
+ "candidato": "lula",
+ "tema": "saude",
+ "subtema": "sus",
+ "lente": "fez",
+ "data": "2024-12",
+ "titulo": "Mais Médicos tem 26.756 médicos em atividade, 108% a mais que em 2022",
+ "frase": "Segundo balanço do Ministério da Saúde, o Mais Médicos tem 26.756 médicos em atividade, aumento de 108% em relação a 2022. Foram 6.729 novos médicos somente em 2024.",
+ "tipo": "positivo",
+ "peso": 1,
+ "marco": false,
+ "ancora": {
+  "orgao": "Ministério da Saúde",
+  "documento": "Balanços da Saúde 2024: Mais Médicos",
+  "link": "https://www.gov.br/saude/pt-br/assuntos/balancos/2024/mais-medicos",
+  "trecho": "26.756 médicos em atividade – aumento de 108% em relação a 2022 6.729 novos médicos somente em 2024"
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.gov.br/saude/pt-br/assuntos/balancos/2024/mais-medicos": "http://web.archive.org/web/20261011162835/https://www.gov.br/saude/pt-br/assuntos/balancos/2024/mais-medicos"
+ },
+ "hash": "b79936963a5e4839f1efa5eb74c58de33a40c7583b4262773272beb760611a75",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F6397",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "positivo",
+   "peso": 1,
+   "motivo": "Números literais do balanço do Ministério; balanço do próprio governo é peso 1."
+  },
+  "contra": {
+   "rotulo": "F6397",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "positivo",
+   "peso": 1,
+   "motivo": "Números conferem e a frase diz que é balanço do próprio ministério; peso 1 adequado."
+  },
+  "neutra": {
+   "rotulo": "F6397",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "positivo",
+   "peso": 1,
+   "motivo": "26.756 médicos, 108% e 6.729 novos estão no trecho; balanço do próprio governo tem peso 1."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2137",
+  "verificador": {
+   "rotulo": "F6397",
+   "sustenta": true,
+   "motivo": "Trecho do balanço: 26.756 médicos, aumento de 108% sobre ano A e 6.729 novos em ano B."
+  },
+  "espelho": {
+   "rotulo": "F6397",
+   "tipo": "positivo",
+   "peso": 1,
+   "motivo": "Balanço do próprio governo: 26.756 médicos no Mais Médicos, 108% a mais que 2022."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

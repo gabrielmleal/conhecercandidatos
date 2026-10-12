@@ -1,0 +1,88 @@
+{
+ "id": "mapa-flavio-int-2-d",
+ "origem": "mapa:flavio-int-2",
+ "candidato": "flavio",
+ "tema": "mundo",
+ "subtema": "eua",
+ "lente": "fez",
+ "data": "2025-12",
+ "titulo": "EUA retiram Moraes da lista da Lei Magnitsky em dezembro de 2025",
+ "frase": "Em dezembro de 2025, os EUA retiraram Alexandre de Moraes e a esposa da lista de sancionados pela Lei Magnitsky, aplicada em 30 de julho de 2025.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Agência Brasil",
+  "documento": "Brasil e EUA: entenda as relações após alerta sobre eleições (20/09/2026)",
+  "link": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-09/entenda-relacao-entre-brasil-e-estados-unidos",
+  "trecho": "Em dezembro de 2025, Moraes e sua esposa tiveram os nomes retirados da lista de sancionados pela Lei Magnitsky ."
+ },
+ "fontes": [
+  {
+   "veiculo": "Poder360",
+   "nivel": "C",
+   "link": "https://www.poder360.com.br/poder-justica/eduardo-diz-que-atuara-nos-eua-para-retomada-de-magnitsky-a-moraes/",
+   "trecho": "O governo dos Estados Unidos aplicou as sanções a Moraes em 30 de julho de 2025. A norma impôs congelamento de bens do ministro em território norte-americano, proibição de transações financeiras e cancelamento de vistos de entrada no país. Os EUA revogaram a medida em dezembro de 2025."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-09/entenda-relacao-entre-brasil-e-estados-unidos": null,
+  "https://www.poder360.com.br/poder-justica/eduardo-diz-que-atuara-nos-eua-para-retomada-de-magnitsky-a-moraes/": null
+ },
+ "hash": "4859c41e5327fe9867b0489b4d924885b12fcd9287f08027c8da75b06408793a",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F6918",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Datas e retirada da lista estão nos trechos; a frase não repete o conteúdo das sanções nem dá juízo."
+  },
+  "contra": {
+   "rotulo": "F6918",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Datas e retirada da lista batem com os trechos. Não afirma motivo nem inocência. Nada favorece além do trecho."
+  },
+  "neutra": {
+   "rotulo": "F6918",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Dezembro, 30 de julho e inclusão da esposa batem com os trechos. Retirada de sanção, sem lado bom ou ruim medido."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1409",
+  "verificador": {
+   "rotulo": "F6918",
+   "sustenta": true,
+   "motivo": "Retirada em dezembro de ano A, com a esposa, e sanção aplicada em 30 de julho de ano A constam nos dois trechos."
+  },
+  "espelho": {
+   "rotulo": "F6918",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Ato de governo estrangeiro retirando sanção; sem efeito medido nem número."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

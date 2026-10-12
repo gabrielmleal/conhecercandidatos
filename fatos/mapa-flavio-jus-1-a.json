@@ -1,0 +1,93 @@
+{
+ "id": "mapa-flavio-jus-1-a",
+ "origem": "mapa:flavio-jus-1",
+ "candidato": "flavio",
+ "tema": "candidato",
+ "subtema": "investigacoes",
+ "lente": "disse",
+ "data": "2026-05-13",
+ "titulo": "Flávio confirma que pediu ajuda financeira a Vorcaro para filme sobre Jair Bolsonaro",
+ "frase": "Flávio Bolsonaro confirmou em vídeo ter pedido ajuda financeira a Daniel Vorcaro, dono do Banco Master, para o filme biográfico do ex-presidente Jair Bolsonaro. Negou irregularidades.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Câmara dos Deputados",
+  "documento": "Agência Câmara: Repasse de recursos de Vorcaro a Flávio Bolsonaro reforça pressão por CPI do Banco Master (13/05/2026)",
+  "link": "https://www.camara.leg.br/noticias/1272121-repasse-de-recursos-de-vorcaro-a-flavio-bolsonaro-reforca-pressao-por-cpi-do-banco-master",
+  "trecho": "Em vídeo divulgado nas redes sociais, Flávio confirmou o pedido de ajuda financeira a Vorcaro, mas negou irregularidades."
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Câmara",
+   "nivel": "A",
+   "link": "https://www.camara.leg.br/noticias/1272121-repasse-de-recursos-de-vorcaro-a-flavio-bolsonaro-reforca-pressao-por-cpi-do-banco-master",
+   "trecho": "O pedido do senador Flávio Bolsonaro (PL-RJ) ao dono do Banco Master, Daniel Vorcaro, para ajudar a financiar o filme biográfico do ex-presidente Jair Bolsonaro, gerou debate na sessão do Plenário desta quarta-feira (13)."
+  },
+  {
+   "veiculo": "Agência Câmara",
+   "nivel": "A",
+   "link": "https://www.camara.leg.br/noticias/1272121-repasse-de-recursos-de-vorcaro-a-flavio-bolsonaro-reforca-pressao-por-cpi-do-banco-master",
+   "trecho": "Da Agência Câmara - 13/05/2026 - 20:06"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.camara.leg.br/noticias/1272121-repasse-de-recursos-de-vorcaro-a-flavio-bolsonaro-reforca-pressao-por-cpi-do-banco-master": "http://web.archive.org/web/20261011151856/https://www.camara.leg.br/noticias/1272121-repasse-de-recursos-de-vorcaro-a-flavio-bolsonaro-reforca-pressao-por-cpi-do-banco-master"
+ },
+ "hash": "a24bfb29dffabfd4e3aaaca6cb0c64878fe0dab25b806a208f075be3e1e8d2e2",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5518",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Pedido confirmado em vídeo e irregularidades negadas estão nos trechos. Traz a negativa dele, sem adjetivo de juízo."
+  },
+  "contra": {
+   "rotulo": "F5518",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Pedido de ajuda financeira ao dono do Banco Master, filme biográfico e negativa de irregularidades estão nos trechos. Sem investigação citada."
+  },
+  "neutra": {
+   "rotulo": "F5518",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Pedido de ajuda financeira, dono do Banco Master, filme biográfico e negativa de irregularidades estão nos trechos. Fala sem efeito medido: polêmico."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1409",
+  "verificador": {
+   "rotulo": "F5518",
+   "sustenta": true,
+   "motivo": "Pedido confirmado em vídeo, dono do Banco Master, filme biográfico do ex-presidente e negação de irregularidades constam dos trechos."
+  },
+  "espelho": {
+   "rotulo": "F5518",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Pedido de ajuda financeira confirmado, com negativa de irregularidade; sem investigação aberta."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

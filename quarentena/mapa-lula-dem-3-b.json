@@ -1,0 +1,82 @@
+{
+ "id": "mapa-lula-dem-3-b",
+ "origem": "mapa:lula-dem-3",
+ "candidato": "lula",
+ "tema": "mundo",
+ "subtema": "eua",
+ "lente": "fez",
+ "data": "2026-06-01",
+ "titulo": "USTR cita ordens secretas de tribunais brasileiros a empresas americanas de redes sociais",
+ "frase": "Segundo o USTR (Representante de Comércio dos EUA), ordens secretas de tribunais brasileiros a redes sociais americanas restringem o comércio. Isso permite ação pela Seção 301 da lei comercial americana.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "USTR",
+  "documento": "Seção 301: determinação sobre o Brasil, 1º de junho de 2026",
+  "link": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/june/ustr-section-301-determination-brazils-unreasonable-acts-policies-and-practices",
+  "trecho": "The U.S. Trade Representative today has determined that certain of Brazil’s acts, policies, and practices are unreasonable or discriminatory and burden or restrict U.S. commerce, and thus are actionable under Section 301(b)(1) of the Trade Act. The relevant acts, policies, and practices are: Digital Trade and Electronic Payment Services: Brazilian courts have issued secret orders directing U.S. social media companies to take down certain political content and to suspend the profiles of U.S. residents, sometimes globally, as well as prohibiting the platforms from disclosing these orders to profile owners."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/june/ustr-section-301-determination-brazils-unreasonable-acts-policies-and-practices": null
+ },
+ "hash": "dc610aa0a45fb7101029b75b8b2996aaeaf1b2ef42ac23e73fc7b183035238a5",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F4467",
+   "confere": false,
+   "certeza": 0.72,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Acusação do USTR contra tribunais brasileiros sem julgamento; falta fechar com \"Investigação não é condenação.\""
+  },
+  "contra": {
+   "rotulo": "F4467",
+   "confere": false,
+   "certeza": 0.75,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Acusação do USTR sem julgamento, mas falta terminar com 'Investigação não é condenação.'; o resto é fiel ao trecho."
+  },
+  "neutra": {
+   "rotulo": "F4467",
+   "confere": false,
+   "certeza": 0.6,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Acusação de investigação da Seção 301 sem julgamento, sem o aviso 'Investigação não é condenação.'; 'ação' fica vaga para leigo."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F4467",
+   "sustenta": true,
+   "motivo": "Trecho traz ordens secretas de tribunais a redes americanas, restrição ao comércio e ação pela Seção 301."
+  },
+  "espelho": {
+   "rotulo": "F4467",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Acusação do governo americano sobre ordens judiciais, sem julgamento e em disputa."
+  }
+ },
+ "classificacao": "polemico",
+ "peso_final": 0,
+ "falhas": [
+  "as três revisões não concordaram"
+ ],
+ "entrou_em": "2026-10-12"
+}

@@ -1,0 +1,88 @@
+{
+ "id": "tempo-1-a",
+ "origem": "tempo:1",
+ "candidato": "brasil",
+ "tema": null,
+ "subtema": null,
+ "lente": "fez",
+ "data": "2007-01-01",
+ "titulo": "Lula, reeleito, toma posse pela segunda vez em 1º de janeiro de 2007",
+ "frase": "O presidente reeleito Luiz Inácio Lula da Silva tomou posse no cargo, pela segunda vez, em 1º de janeiro de 2007.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": true,
+ "ancora": {
+  "orgao": "Senado Federal",
+  "documento": "Agência Senado: Lula toma posse para exercer o segundo mandato (01/01/2007)",
+  "link": "https://www12.senado.leg.br/noticias/materias/2007/01/01/lula-toma-posse-para-exercer-o-segundo-mandato",
+  "trecho": "Da Redação | 01/01/2007, 17h47 O presidente Luiz Inácio Lula da Silva tomou posse no cargo, pela segunda vez, nesta segunda-feira, 1 o de janeiro de 2007. O presidente reeleito chegou ao Congresso Nacional em carro aberto,"
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Senado",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente",
+   "trecho": "Eleito primeiramente em 2002, f oi reeleito e deixou o poder em 2010"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/materias/2007/01/01/lula-toma-posse-para-exercer-o-segundo-mandato": null,
+  "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente": "http://web.archive.org/web/20261011142347/https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente"
+ },
+ "hash": "2b5993404514cf9b80b099d3c011aac407b7585e117f6070a574acf94b79067c",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F9240",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Posse pela segunda vez em 1º de janeiro e reeleição batem com o trecho. Fato sem lado bom ou ruim: contexto, peso 0."
+  },
+  "contra": {
+   "rotulo": "F9240",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Posse pela segunda vez em 1º de janeiro do ano B e reeleição conferem com o trecho. Sem lado bom ou ruim."
+  },
+  "neutra": {
+   "rotulo": "F9240",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Posse, segunda vez e data batem com os trechos, em 19 palavras. Fato sem lado bom ou ruim: contexto, peso 0."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1502",
+  "verificador": {
+   "rotulo": "F9240",
+   "sustenta": true,
+   "motivo": "Posse pela segunda vez em 1º de janeiro de ano B do presidente reeleito consta nos dois trechos."
+  },
+  "espelho": {
+   "rotulo": "F9240",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Registra posse de presidente reeleito em data oficial, sem lado bom ou ruim."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

@@ -1,0 +1,80 @@
+{
+ "id": "mapa-flavio-sau-3-b",
+ "origem": "mapa:flavio-sau-3",
+ "candidato": "flavio",
+ "tema": "saude",
+ "subtema": "vacinas",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Flávio promete mais exames preventivos e incentivo a vacinas nacionais",
+ "frase": "Flávio Bolsonaro promete, no plano registrado no TSE, ampliar o acesso a exames preventivos e manter a imunização e o incentivo à produção nacional de vacinas.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Flávio Bolsonaro (PL), registrado no TSE, p. 37",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "trecho": "Vamos ainda ampliar o acesso a exames preventivos e manter a imunização e o incentivo à produção nacional de vacinas, porque prevenir é sempre mais barato e mais humano do que tratar tarde."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf": "http://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf"
+ },
+ "hash": "966e967119a811ae530dd1d625ceb9fcc81d95569f327d3bf6dba8d16a6fd422",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5870",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Paráfrase fiel do trecho do plano."
+  },
+  "contra": {
+   "rotulo": "F5870",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Frase segue o trecho e corta a justificativa opinativa; promessa tem peso 0, não 1."
+  },
+  "neutra": {
+   "rotulo": "F5870",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Frase fiel ao trecho do plano registrado no TSE, clara para leigo. Promessa tem peso 0."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F5870",
+   "sustenta": true,
+   "motivo": "Trecho do plano promete ampliar exames preventivos e manter imunização e incentivo à produção nacional de vacinas."
+  },
+  "espelho": {
+   "rotulo": "F5870",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Plano promete ampliar exames preventivos e vacinas; ainda não aconteceu."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

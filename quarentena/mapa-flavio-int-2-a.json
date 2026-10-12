@@ -1,0 +1,96 @@
+{
+ "id": "mapa-flavio-int-2-a",
+ "origem": "mapa:flavio-int-2",
+ "candidato": "flavio",
+ "tema": "mundo",
+ "subtema": "eua",
+ "lente": "fez",
+ "data": "2025-07-30",
+ "titulo": "Casa Branca eleva tarifa sobre o Brasil a 50% e cita perseguição a Jair Bolsonaro",
+ "frase": "Em 2025, os EUA criaram tarifa adicional de 40% sobre o Brasil. Segundo a Casa Branca, o governo brasileiro persegue e processa por motivação política o ex-presidente Jair Bolsonaro.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Casa Branca",
+  "documento": "Fact Sheet: President Donald J. Trump Addresses Threats to the United States from the Government of Brazil (30/07/2025)",
+  "link": "https://www.whitehouse.gov/fact-sheets/2025/07/fact-sheet-president-donald-j-trump-addresses-threats-to-the-united-states-from-the-government-of-brazil",
+  "trecho": "The White House July 30, 2025 ADDRESSING A NATIONAL EMERGENCY: Today, President Donald J. Trump signed an Executive Order implementing an additional 40% tariff on Brazil, bringing the total tariff amount to 50%, to deal with recent policies, practices, and actions by the Government of Brazil that constitute an unusual and extraordinary threat to the national security, foreign policy, and economy of the United States."
+ },
+ "fontes": [
+  {
+   "veiculo": "Casa Branca",
+   "nivel": "A",
+   "link": "https://www.whitehouse.gov/fact-sheets/2025/07/fact-sheet-president-donald-j-trump-addresses-threats-to-the-united-states-from-the-government-of-brazil",
+   "trecho": "The Order finds that the Government of Brazil’s politically motivated persecution, intimidation, harassment, censorship, and prosecution of former Brazilian President Jair Bolsonaro and thousands of his supporters are serious human rights abuses that have undermined the rule of law in Brazil."
+  },
+  {
+   "veiculo": "Agência Brasil",
+   "nivel": "C",
+   "link": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-09/entenda-relacao-entre-brasil-e-estados-unidos",
+   "trecho": "Outra justificativa para as tarifas passou pela condenação do ex-presidente Jair Bolsonaro por tentativa de abolição violenta do Estado Democrático de Direito."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.whitehouse.gov/fact-sheets/2025/07/fact-sheet-president-donald-j-trump-addresses-threats-to-the-united-states-from-the-government-of-brazil": null,
+  "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-09/entenda-relacao-entre-brasil-e-estados-unidos": null
+ },
+ "hash": "8623f22a50fa433db6b83721743be4e84a777ea9e6d3b769386e0c0364c02c99",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F1484",
+   "confere": false,
+   "certeza": 0.72,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Repete acusação da Casa Branca contra o governo brasileiro sem o contexto do trecho: condenação judicial. Falta \"Investigação não é condenação.\""
+  },
+  "contra": {
+   "rotulo": "F1484",
+   "confere": false,
+   "certeza": 0.75,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Repete só a versão de perseguição e omite que o próprio trecho cita a condenação de Pessoa D como justificativa das tarifas."
+  },
+  "neutra": {
+   "rotulo": "F1484",
+   "confere": false,
+   "certeza": 0.6,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Trechos apoiam, mas a acusação de perseguição, sem julgamento, não termina com 'Investigação não é condenação.'"
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F1484",
+   "sustenta": true,
+   "motivo": "Trechos trazem tarifa adicional de 40%, total de 50% e a alegação de perseguição política ao ex-presidente."
+  },
+  "espelho": {
+   "rotulo": "F1484",
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Ato oficial dos EUA criou tarifa adicional de 40% sobre o Brasil."
+  }
+ },
+ "classificacao": "polemico",
+ "peso_final": 2,
+ "falhas": [
+  "as três revisões não concordaram"
+ ],
+ "entrou_em": "2026-10-12"
+}

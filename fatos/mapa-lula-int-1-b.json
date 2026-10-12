@@ -1,0 +1,93 @@
+{
+ "id": "mapa-lula-int-1-b",
+ "origem": "mapa:lula-int-1",
+ "candidato": "lula",
+ "tema": "mundo",
+ "subtema": "comercio",
+ "lente": "fez",
+ "data": "2026-01-14",
+ "titulo": "UE diz que a presidência brasileira do Mercosul foi decisiva no avanço das negociações",
+ "frase": "A Delegação da UE no Brasil afirmou, em 14 de janeiro de 2026, que a presidência brasileira do Mercosul teve papel decisivo no avanço das negociações do acordo UE–Mercosul.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Delegação da União Europeia no Brasil (EEAS)",
+  "documento": "Presidentes da Comissão Europeia e do Conselho Europeu reúnem-se com o Presidente Lula no Rio de Janeiro (14/01/2026)",
+  "link": "https://www.eeas.europa.eu/delegations/brazil/presidentes-da-comiss%C3%A3o-europeia-e-do-conselho-europeu-re%C3%BAnem-se-com-o-presidente-lula-no-rio-de_pti",
+  "trecho": "A mais recente presidência brasileira do Mercosul desempenhou papel decisivo no avanço das negociações do acordo UE–Mercosul, abrindo caminho para sua assinatura ainda esta semana, no Paraguai."
+ },
+ "fontes": [
+  {
+   "veiculo": "Delegação da União Europeia no Brasil (EEAS)",
+   "nivel": "A",
+   "link": "https://www.eeas.europa.eu/delegations/brazil/presidentes-da-comiss%C3%A3o-europeia-e-do-conselho-europeu-re%C3%BAnem-se-com-o-presidente-lula-no-rio-de_pti",
+   "trecho": "Brasília, 14 de janeiro de 2026 A presidente da Comissão Europeia, Ursula von der Leyen, e o presidente do Conselho Europeu, António Costa, reúnem-se nesta sexta-feira, 16 de janeiro, com o presidente do Brasil, Luiz Inácio Lula da Silva, no Rio de Janeiro."
+  },
+  {
+   "veiculo": "Delegação da União Europeia no Brasil (EEAS)",
+   "nivel": "A",
+   "link": "https://www.eeas.europa.eu/delegations/brazil/presidentes-da-comiss%C3%A3o-europeia-e-do-conselho-europeu-re%C3%BAnem-se-com-o-presidente-lula-no-rio-de_pti",
+   "trecho": "A visita ocorre na véspera da cerimônia de assinatura dos acordos entre a União Europeia e o Mercosul, que será realizada em 17 de janeiro de 2026, em Assunção, no Paraguai."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.eeas.europa.eu/delegations/brazil/presidentes-da-comiss%C3%A3o-europeia-e-do-conselho-europeu-re%C3%BAnem-se-com-o-presidente-lula-no-rio-de_pti": "http://web.archive.org/web/20260518163407/https://www.eeas.europa.eu/delegations/brazil/presidentes-da-comiss%C3%A3o-europeia-e-do-conselho-europeu-re%C3%BAnem-se-com-o-presidente-lula-no-rio-de_pti"
+ },
+ "hash": "e916637fd0a0820156dbe5e42fe9996f6a6f17f676cb6c7bbbdd2f0997029fb0",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5816",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Declaração da Delegação da UE e data batem com os trechos."
+  },
+  "contra": {
+   "rotulo": "F5816",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Elogio da UE ao governo, atribuído corretamente. Papel 'decisivo' não é medido, então é polêmico, não contexto neutro."
+  },
+  "neutra": {
+   "rotulo": "F5816",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Data e afirmação batem e o 'decisivo' é atribuído à UE. Efeito alegado sem número: polêmico."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-1433",
+  "verificador": {
+   "rotulo": "F5816",
+   "sustenta": true,
+   "motivo": "Trecho datado de Brasília, 14 de janeiro de ano A, diz que a presidência brasileira do Mercosul teve papel decisivo."
+  },
+  "espelho": {
+   "rotulo": "F5816",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Elogio da UE ao papel brasileiro sem número nem efeito medido."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

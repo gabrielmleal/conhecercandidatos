@@ -1,0 +1,80 @@
+{
+ "id": "mapa-lula-tec-2-a",
+ "origem": "mapa:lula-tec-2",
+ "candidato": "lula",
+ "tema": "obras",
+ "subtema": "ciencia",
+ "lente": "fez",
+ "data": "2026-09-16",
+ "titulo": "Lei 15.504 cria incentivos fiscais para data centers",
+ "frase": "A Agência Senado informou em 16 de setembro de 2026 a sanção da Lei 15.504, que cria incentivos fiscais para a instalação de data centers, centros de processamento de dados.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": true,
+ "ancora": {
+  "orgao": "Senado Federal (Agência Senado)",
+  "documento": "Sancionada lei de incentivo à instalação de data centers, 16/09/2026",
+  "link": "https://www12.senado.leg.br/noticias/materias/2026/09/16/sancionada-lei-de-incentivo-para-a-instalacao-de-data-centers",
+  "trecho": "Da Agência Senado | 16/09/2026, 10h32 Foi sancionada pela Presidência da República a Lei 15.504 , que cria incentivos fiscais para estimular a instalação de data centers, os centros de processamento de dados, e favorecer investimentos em inteligência artificial (IA) no Brasil."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/materias/2026/09/16/sancionada-lei-de-incentivo-para-a-instalacao-de-data-centers": "http://web.archive.org/web/20260928021907/https://www12.senado.leg.br/noticias/materias/2026/09/16/sancionada-lei-de-incentivo-para-a-instalacao-de-data-centers"
+ },
+ "hash": "e663b365573590ee67932fb0c0a12fef4bbebf70e4be3f922afe0d007b60ad9c",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F2873",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Lei 15.504, sanção e incentivos a data centers estão no trecho, com a data da Agência Senado. Sem efeito medido: contexto."
+  },
+  "contra": {
+   "rotulo": "F2873",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Lei 15.504, sanção, incentivos fiscais para data centers e data da notícia (16 de setembro) estão no trecho. Atribuída à Agência Senado."
+  },
+  "neutra": {
+   "rotulo": "F2873",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Lei 15.504, sanção, incentivos fiscais para data centers e data de 16 de setembro estão no trecho. Contexto."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1409",
+  "verificador": {
+   "rotulo": "F2873",
+   "sustenta": true,
+   "motivo": "Data da Agência Senado, sanção da Lei 15.504 e incentivos fiscais para data centers constam do trecho."
+  },
+  "espelho": {
+   "rotulo": "F2873",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Lei sancionada cria incentivos fiscais; sem número de resultado nem lado."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

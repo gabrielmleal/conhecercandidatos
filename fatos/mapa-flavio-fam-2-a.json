@@ -1,0 +1,95 @@
+{
+ "id": "mapa-flavio-fam-2-a",
+ "origem": "mapa:flavio-fam-2",
+ "candidato": "flavio",
+ "tema": "aliados",
+ "subtema": "familia",
+ "lente": "fez",
+ "data": "2026-06-16",
+ "titulo": "STF condena Eduardo Bolsonaro por coação a 4 anos e 2 meses",
+ "frase": "A Primeira Turma do STF condenou o ex-deputado Eduardo Bolsonaro a 4 anos e 2 meses de prisão em regime semiaberto por coação no curso do processo.",
+ "tipo": "problema",
+ "peso": 2,
+ "marco": true,
+ "ancora": {
+  "orgao": "Agência Brasil (cobertura do julgamento do STF)",
+  "documento": "STF condena Eduardo Bolsonaro a inelegibilidade e a 4 anos de prisão (16/06/2026)",
+  "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/stf-condena-eduardo-bolsonaro-inelegibilidade-e-4-anos-de-prisao",
+  "trecho": "A Primeira Turma do Supremo Tribunal Federal (STF) condenou nesta terça-feira (16) o ex-deputado Eduardo Bolsonaro a 4 anos e dois meses anos de prisão em regime semiaberto pelo crime de coação no curso do processo."
+ },
+ "fontes": [
+  {
+   "veiculo": "Gazeta do Povo",
+   "nivel": "C",
+   "link": "https://www.gazetadopovo.com.br/republica/primeira-turma-do-stf-rejeita-recurso-e-mantem-condenacao-de-eduardo-bolsonaro/",
+   "trecho": "A Primeira Turma do Supremo Tribunal Federal (STF) rejeitou nesta sexta-feira (18) o recurso da Defensoria Pública da União (DPU) em favor do ex-deputado Eduardo Bolsonaro (PL-SP) e manteve sua condenação a 4 anos e 2 meses de prisão por suposta coação no curso do processo."
+  },
+  {
+   "veiculo": "Agência Brasil",
+   "nivel": "C",
+   "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/moraes-determina-emissao-de-mandado-de-prisao-contra-eduardo-bolsonaro",
+   "trecho": "A medida foi determinada após o ministro mandar executar a condenação de Eduardo a quatro anos e dois meses de prisão pelo crime de coação no curso do processo ."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/stf-condena-eduardo-bolsonaro-inelegibilidade-e-4-anos-de-prisao": "http://web.archive.org/web/20260918235620/https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/stf-condena-eduardo-bolsonaro-inelegibilidade-e-4-anos-de-prisao",
+  "https://www.gazetadopovo.com.br/republica/primeira-turma-do-stf-rejeita-recurso-e-mantem-condenacao-de-eduardo-bolsonaro/": "http://web.archive.org/web/20260919224437/https://www.gazetadopovo.com.br/republica/primeira-turma-do-stf-rejeita-recurso-e-mantem-condenacao-de-eduardo-bolsonaro/",
+  "https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/moraes-determina-emissao-de-mandado-de-prisao-contra-eduardo-bolsonaro": "http://web.archive.org/web/20261009152644/https://agenciabrasil.ebc.com.br/justica/noticia/2026-10/moraes-determina-emissao-de-mandado-de-prisao-contra-eduardo-bolsonaro"
+ },
+ "hash": "a9c90f393a21a2fbf0325499826227b69004e5362f37b9b803f891f727608c17",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5367",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Turma, pena de 4 anos e 2 meses, semiaberto e crime batem com os trechos; recurso rejeitado e condenação mantida. Decisão de tribunal."
+  },
+  "contra": {
+   "rotulo": "F5367",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Turma, pena, regime e crime batem com o trecho. Condenação de tribunal: problema, peso 2. Nada favorece."
+  },
+  "neutra": {
+   "rotulo": "F5367",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Primeira Turma, 4 anos e 2 meses, regime semiaberto e coação no curso do processo batem com os trechos. Condenação de tribunal."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1409",
+  "verificador": {
+   "rotulo": "F5367",
+   "sustenta": true,
+   "motivo": "Primeira Turma condenou o ex-deputado a 4 anos e 2 meses em regime semiaberto por coação no curso do processo: literal no primeiro trecho."
+  },
+  "espelho": {
+   "rotulo": "F5367",
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Condenação por tribunal (STF) a 4 anos e 2 meses de prisão por coação."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

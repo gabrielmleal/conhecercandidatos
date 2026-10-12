@@ -1,0 +1,80 @@
+{
+ "id": "tempo-13-b",
+ "origem": "tempo:13",
+ "candidato": "brasil",
+ "tema": null,
+ "subtema": null,
+ "lente": "fez",
+ "data": "2025-11-18",
+ "titulo": "Banco Central liquida o Banco Master",
+ "frase": "Em 18 de novembro de 2025, o Banco Central liquidou o Banco Master.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": true,
+ "ancora": {
+  "orgao": "Senado Federal",
+  "documento": "Agência Senado: Galípolo nega atuação do BC em favor do Master e justifica liquidação em 2025 (08/04/2026)",
+  "link": "https://www12.senado.leg.br/noticias/materias/2026/04/08/galipolo-nega-atuacao-do-bc-em-favor-do-master-e-justifica-liquidacao-em-2025",
+  "trecho": "em 18 de novembro de 2025, o Banco Central liquidou o Master;"
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/materias/2026/04/08/galipolo-nega-atuacao-do-bc-em-favor-do-master-e-justifica-liquidacao-em-2025": "http://web.archive.org/web/20261011162404/https://www12.senado.leg.br/noticias/materias/2026/04/08/galipolo-nega-atuacao-do-bc-em-favor-do-master-e-justifica-liquidacao-em-2025"
+ },
+ "hash": "b341a9efc6357fbcd4b241602fe650e9a66eeed311aa9816deccb98e8b4ef238",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F9441",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data e liquidação pelo Banco Central estão no trecho. Frase não dá causa nem juízo; sem lado bom ou ruim."
+  },
+  "contra": {
+   "rotulo": "F9441",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data e liquidação do Banco Master pelo Banco Central estão no trecho. A frase não traz causa nem juízo."
+  },
+  "neutra": {
+   "rotulo": "F9441",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data e liquidação do Banco Master estão no trecho, sem acréscimo. Ato oficial sem número nem efeito medido, então contexto."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-2137",
+  "verificador": {
+   "rotulo": "F9441",
+   "sustenta": true,
+   "motivo": "O trecho diz exatamente que em 18 de novembro de ano A o Banco Central liquidou o Master."
+  },
+  "espelho": {
+   "rotulo": "F9441",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Registra ato do Banco Central de liquidar um banco; sem número nem efeito medido para o candidato."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

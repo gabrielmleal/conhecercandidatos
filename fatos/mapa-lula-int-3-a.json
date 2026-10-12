@@ -1,0 +1,88 @@
+{
+ "id": "mapa-lula-int-3-a",
+ "origem": "mapa:lula-int-3",
+ "candidato": "lula",
+ "tema": "mundo",
+ "subtema": "aliancas",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Programa de Lula prevê aprofundar relações com Brics e fortalecer seus mecanismos financeiros",
+ "frase": "No programa, Lula propõe aprofundar relações com BRICS e G20 e fortalecer mecanismos financeiros do Brics.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "G1",
+  "documento": "Presidenciáveis querem Brasil próximo da Ásia e EUA, fortalecer o Mercosul e deixar o Brics: veja propostas para política externa (24/08/2026)",
+  "link": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/08/24/presidenciaveis-querem-brasil-proximo-da-asia-e-eua-fortalecer-o-mercosul-e-deixar-o-brics-veja-propostas-para-politica-externa.ghtml",
+  "trecho": "Lula (PT): diversificar parcerias estratégicas; abrir novos mercados; aprofundar relações com países da África; reaproximar de países da Ásia, do Oriente Médio e da Europa; defender reforma do Conselho de Segurança da ONU e da OMC; aprofundar relações com BRICS e G20."
+ },
+ "fontes": [
+  {
+   "veiculo": "Terra (DW)",
+   "nivel": "C",
+   "link": "https://www.terra.com.br/noticias/brics-eua-mercosul-as-propostas-de-lula-e-flavio-bolsonaro-para-politica-externa,491c46892567f575fe637c5e02b4ae79fjomy0xy.html",
+   "trecho": "No seu programa, Lula defende o aprofundamento das relações entre países do Brics e o fortalecimento de mecanismos financeiros do bloco - uma medida que é vista com hostilidade pelos EUA de Trump, que temem que o Brics possa minar a hegemonia do dólar no comércio mundial."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/08/24/presidenciaveis-querem-brasil-proximo-da-asia-e-eua-fortalecer-o-mercosul-e-deixar-o-brics-veja-propostas-para-politica-externa.ghtml": "http://web.archive.org/web/20260930075504/https://g1.globo.com/politica/eleicoes/2026/noticia/2026/08/24/presidenciaveis-querem-brasil-proximo-da-asia-e-eua-fortalecer-o-mercosul-e-deixar-o-brics-veja-propostas-para-politica-externa.ghtml",
+  "https://www.terra.com.br/noticias/brics-eua-mercosul-as-propostas-de-lula-e-flavio-bolsonaro-para-politica-externa,491c46892567f575fe637c5e02b4ae79fjomy0xy.html": "http://web.archive.org/web/20261005044904/https://www.terra.com.br/noticias/brics-eua-mercosul-as-propostas-de-lula-e-flavio-bolsonaro-para-politica-externa,491c46892567f575fe637c5e02b4ae79fjomy0xy.html"
+ },
+ "hash": "7828ea7de1749d8d1362d6b09e0cb4780a6d1ee0b9840900b581132318b74107",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F2594",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "BRICS, G20 e mecanismos financeiros batem com os trechos. A frase não repete a reação dos EUA. Proposta de programa, peso 0."
+  },
+  "contra": {
+   "rotulo": "F2594",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "BRICS, G20 e mecanismos financeiros estão nos dois trechos, sem o juízo dos EUA. Proposta de programa: promessa, peso 0."
+  },
+  "neutra": {
+   "rotulo": "F2594",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "BRICS, G20 e mecanismos financeiros batem com os dois trechos do programa. Ainda não aconteceu: promessa."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1502",
+  "verificador": {
+   "rotulo": "F2594",
+   "sustenta": true,
+   "motivo": "Aprofundar relações com BRICS e G20 e fortalecer mecanismos financeiros do bloco constam nos dois trechos, com Pessoa Q como autor."
+  },
+  "espelho": {
+   "rotulo": "F2594",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Proposta de programa de governo sobre Brics e G20; ainda não aconteceu."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

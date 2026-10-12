@@ -1,0 +1,97 @@
+{
+ "id": "mapa-lula-jus-2-b",
+ "origem": "mapa:lula-jus-2",
+ "candidato": "lula",
+ "tema": "aliados",
+ "subtema": "familia",
+ "lente": "fez",
+ "data": "2025-10-16",
+ "titulo": "CPMI do INSS rejeita convocar Frei Chico, vice-presidente do Sindnapi e irmão de Lula",
+ "frase": "Em 16/10/2025, a CPMI do INSS rejeitou convocar Frei Chico, irmão do presidente Lula e dirigente do Sindnapi, entidade investigada. Ele não é alvo da PF. Investigação não é condenação.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Câmara dos Deputados",
+  "documento": "Agência Câmara: CPMI do INSS rejeita convocação de Frei Chico, irmão de Lula (16/10/2025)",
+  "link": "https://www.camara.leg.br/noticias/1212823-cpmi-do-inss-rejeita-convocacao-de-frei-chico-irmao-de-lula",
+  "trecho": "A Comissão Parlamentar Mista de Inquérito (CPMI) que investiga as fraudes no INSS rejeitou nesta quinta-feira (16) a convocação de José Ferreira da Silva, mais conhecido como Frei Chico. Ele é dirigente do Sindicato Nacional dos Aposentados, Pensionistas e Idosos (Sindnapi) e irmão do presidente Luiz Inácio Lula da Silva. Todos os 11 requerimentos de convocação de Frei Chico foram negados, com uma única votação por 19 votos a 11. O Sindnapi é uma das entidades investigadas pelas fraudes no INSS, mas o irmão do presidente não é alvo das apurações da Polícia Federal (PF)."
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Câmara",
+   "nivel": "A",
+   "link": "https://www.camara.leg.br/noticias/1212823-cpmi-do-inss-rejeita-convocacao-de-frei-chico-irmao-de-lula",
+   "trecho": "Da Agência Câmara - 16/10/2025 - 15:03"
+  },
+  {
+   "veiculo": "Agência Senado",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2025/10/16/cpmi-pedira-ao-coaf-informacoes-sobre-eli-cohen-convocacao-de-frei-chico-e-rejeitada",
+   "trecho": "José Ferreira da Silva, mais conhecido como Frei Chico, é vice-presidente do Sindicato Nacional dos Aposentados, Pensionistas e Idosos (Sindnapi) e irmão do presidente Luiz Inácio Lula da Silva."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": true,
+  "9": false
+ },
+ "copias": {
+  "https://www.camara.leg.br/noticias/1212823-cpmi-do-inss-rejeita-convocacao-de-frei-chico-irmao-de-lula": "http://web.archive.org/web/20260930072123/https://www.camara.leg.br/noticias/1212823-cpmi-do-inss-rejeita-convocacao-de-frei-chico-irmao-de-lula",
+  "https://www12.senado.leg.br/noticias/materias/2025/10/16/cpmi-pedira-ao-coaf-informacoes-sobre-eli-cohen-convocacao-de-frei-chico-e-rejeitada": null
+ },
+ "hash": "e4debdeec7af5ce156b3fd05d5b13321f1b830f97f266f9ba4bda5fdaed5b5d9",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F7174",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Registra que ele não é alvo da PF; votação e cargo estão nos trechos. Sem efeito medido, peso 0."
+  },
+  "contra": {
+   "rotulo": "F7174",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Data, rejeição, parentesco e 'não é alvo da PF' estão no trecho; nada favorece além do texto."
+  },
+  "neutra": {
+   "rotulo": "F7174",
+   "confere": true,
+   "certeza": 0.88,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Trechos apoiam tudo. Rejeição de convocação é ato sem lado; siglas CPMI e Sindnapi ficam sem explicação."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F7174",
+   "sustenta": true,
+   "motivo": "Trechos trazem data, rejeição, vice-presidente do Sindnapi, irmão do presidente, entidade investigada e que ele não é alvo da PF."
+  },
+  "espelho": {
+   "rotulo": "F7174",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Convocação rejeitada; parente ligado a entidade investigada, mas ele não é alvo."
+  }
+ },
+ "classificacao": "polemico",
+ "peso_final": 0,
+ "falhas": [
+  "as três revisões não concordaram",
+  "o espelho deu outro tipo"
+ ],
+ "entrou_em": "2026-10-12"
+}

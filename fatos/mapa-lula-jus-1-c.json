@@ -1,0 +1,88 @@
+{
+ "id": "mapa-lula-jus-1-c",
+ "origem": "mapa:lula-jus-1",
+ "candidato": "lula",
+ "tema": "candidato",
+ "subtema": "investigacoes",
+ "lente": "fez",
+ "data": "2021-04-15",
+ "titulo": "STF confirma por 8 votos a 3 a anulação das ações penais contra Lula",
+ "frase": "O STF confirmou por 8 votos a 3 a decisão de Edson Fachin que anulou as ações penais contra Lula por incompetência da 13ª Vara de Curitiba.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Supremo Tribunal Federal",
+  "documento": "Notícia: STF confirma anulação de condenações do ex-presidente Lula na Lava Jato (15/04/2021)",
+  "link": "https://noticias.stf.jus.br/postsnoticias/stf-confirma-anulacao-de-condenacoes-do-ex-presidente-lula-na-lava-jato/",
+  "trecho": "O Plenário do Supremo Tribunal Federal (STF) confirmou, nesta quinta-feira (14), a decisão do ministro Edson Fachin que, ao declarar a incompetência da 13ª Vara da Justiça Federal de Curitiba (PR), anulou as ações penais contra o ex-presidente Luiz Inácio Lula da Silva por não se enquadrarem no contexto da operação Lava Jato. Por 8 votos a 3, o colegiado rejeitou recurso (agravo regimental) da Procuradoria-Geral da República (PGR) no Habeas Corpus (HC) 193726."
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Senado",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente",
+   "trecho": "Em 2021, após as revelações de conversas entre então juiz federal Sérgio Moro e os promotores responsáveis pela Operação Lava Jato, o STF anulou a condenação de Lula, que recuperou os direitos políticos."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://noticias.stf.jus.br/postsnoticias/stf-confirma-anulacao-de-condenacoes-do-ex-presidente-lula-na-lava-jato/": "http://web.archive.org/web/20251116043116/https://noticias.stf.jus.br/postsnoticias/stf-confirma-anulacao-de-condenacoes-do-ex-presidente-lula-na-lava-jato/",
+  "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente": "http://web.archive.org/web/20261011142347/https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente"
+ },
+ "hash": "d3cd33d273d68425ac63730dd96b8c81d9f8cd453cea5da8cd838696e4921389",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5788",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Votação, decisão e motivo (incompetência da vara) batem com o trecho; ações anuladas são polêmico."
+  },
+  "contra": {
+   "rotulo": "F5788",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Votação 8 a 3, decisão de Pessoa F e incompetência da 13ª Vara estão no trecho. A frase não trata anulação como absolvição."
+  },
+  "neutra": {
+   "rotulo": "F5788",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Votos, decisão e motivo da anulação batem com o trecho. Ação anulada: polêmico."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1433",
+  "verificador": {
+   "rotulo": "F5788",
+   "sustenta": true,
+   "motivo": "Plenário confirmou por 8 a 3 a decisão de Pessoa F que anulou as ações por incompetência da 13ª Vara; tudo no trecho."
+  },
+  "espelho": {
+   "rotulo": "F5788",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Ações penais anuladas por incompetência de vara, caso anulado."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

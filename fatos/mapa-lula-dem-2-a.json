@@ -1,0 +1,80 @@
+{
+ "id": "mapa-lula-dem-2-a",
+ "origem": "mapa:lula-dem-2",
+ "candidato": "lula",
+ "tema": "democracia",
+ "subtema": "justica",
+ "lente": "fez",
+ "data": "2023-06-21",
+ "titulo": "Zanin recebe 58 votos a favor e 18 contra no Senado para o STF",
+ "frase": "Zanin teve 58 votos a favor e 18 contra no Senado para o STF em 21/06/2023. Substituiu Ricardo Lewandowski. Foi advogado de Lula na Operação Lava Jato.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Senado Federal",
+  "documento": "Agência Senado: Conheça os indicados para o STF desde a Constituição",
+  "link": "https://www12.senado.leg.br/noticias/infomaterias/2026/04/conheca-os-indicados-para-o-stf-desde-a-constituicao",
+  "trecho": "Cristiano Zanin Resultado: 58 votos a favor e 18 votos contra Data da votação: 21/06/2023 Relator no Senado: Veneziano Vital do Rêgo (PB) Mensagem presidencial: MSF 34/2023 Data da posse: 03/08/2023 Substituiu: Ricardo Lewandowski (2006-2023) Construiu sua trajetória como advogado, com atuação em direito eleitoral e outras áreas. Foi advogado do presidente Luiz Inácio Lula da Silva na Operação Lava Jato e atuou como coordenador jurídico da eleição presidencial de 2022."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/infomaterias/2026/04/conheca-os-indicados-para-o-stf-desde-a-constituicao": "http://web.archive.org/web/20260517155516/https://www12.senado.leg.br/noticias/infomaterias/2026/04/conheca-os-indicados-para-o-stf-desde-a-constituicao"
+ },
+ "hash": "81990667aaa54078f1cef22652be19b2c6d93d7b85dc8ee97411775ff0f7630d",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5815",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Votação, data, antecessor e atuação na Lava Jato estão no trecho do Senado, sem juízo."
+  },
+  "contra": {
+   "rotulo": "F5815",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Placar, data, antecessor e atuação como advogado de Pessoa B batem com o trecho."
+  },
+  "neutra": {
+   "rotulo": "F5815",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Placar, data, antecessor e atuação na Lava Jato idênticos ao trecho do Senado."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-1433",
+  "verificador": {
+   "rotulo": "F5815",
+   "sustenta": true,
+   "motivo": "Placar 58 a 18, data 21/06/ano C, substituição de Lewandowski e atuação na Lava Jato constam."
+  },
+  "espelho": {
+   "rotulo": "F5815",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Votação de Zanin no Senado e histórico profissional, sem lado bom ou ruim."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

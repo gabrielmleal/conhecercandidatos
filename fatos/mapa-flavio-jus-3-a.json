@@ -1,0 +1,93 @@
+{
+ "id": "mapa-flavio-jus-3-a",
+ "origem": "mapa:flavio-jus-3",
+ "candidato": "flavio",
+ "tema": "candidato",
+ "subtema": "trajetoria",
+ "lente": "fez",
+ "data": "2005-06-15",
+ "titulo": "Flávio apresenta na Alerj projeto de Medalha Tiradentes para Adriano da Nóbrega",
+ "frase": "Em junho de 2005, o deputado estadual Flávio Bolsonaro apresentou na Alerj projeto de resolução para conceder a Medalha Tiradentes ao 1º tenente PM Adriano Magalhães da Nóbrega.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Assembleia Legislativa do Estado do Rio de Janeiro",
+  "documento": "Projeto de Resolução nº 1067/2005",
+  "link": "http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/e4bb858a5b3d42e383256cee006ab66a/66ed6d7f6f4d035583257021004902c3",
+  "trecho": "PROJETO DE RESOLUÇÃO Nº 1067/2005 EMENTA: CONCEDE A MEDALHA TIRADENTES E RESPECTIVO DIPLOMA AO 1º TEN PM ADRIANO MAGALHÃES DA NÓBREGA. Autor(es): Deputado FLÁVIO BOLSONARO"
+ },
+ "fontes": [
+  {
+   "veiculo": "Assembleia Legislativa do Estado do Rio de Janeiro",
+   "nivel": "A",
+   "link": "http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/e4bb858a5b3d42e383256cee006ab66a/66ed6d7f6f4d035583257021004902c3",
+   "trecho": "Art. 1º - Concede a Medalha Tiradentes e seu respectivo diploma ao 1º Tenente PM ADRIANO MAGALHÃES DA NÓBREGA ."
+  },
+  {
+   "veiculo": "Assembleia Legislativa do Estado do Rio de Janeiro",
+   "nivel": "A",
+   "link": "http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/e4bb858a5b3d42e383256cee006ab66a/66ed6d7f6f4d035583257021004902c3",
+   "trecho": "Plenário Barbosa Lima Sobrinho, 15 de junho de 2005. Deputado FLÁVIO BOLSONARO"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "http://alerjln1.alerj.rj.gov.br/scpro0307.nsf/e4bb858a5b3d42e383256cee006ab66a/66ed6d7f6f4d035583257021004902c3": "http://web.archive.org/web/20251217080836/https://alerjln1.alerj.rj.gov.br/scpro0307.nsf/e4bb858a5b3d42e383256cee006ab66a/66ed6d7f6f4d035583257021004902c3"
+ },
+ "hash": "c3ad4caa66f811f2ff121643cce329b943eec345ebd2faeec0a68becde71384a",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F3412",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Projeto, autoria, homenageado e data (15 de junho) estão nos trechos; Alerj indica deputado estadual. Descreve só a apresentação do projeto: contexto."
+  },
+  "contra": {
+   "rotulo": "F3412",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Projeto 1067, autoria, 15 de junho e Alerj estão no trecho. A frase não acrescenta nada sobre o homenageado, então não favorece nem agrava."
+  },
+  "neutra": {
+   "rotulo": "F3412",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Projeto de resolução de 15 de junho de ano A, autoria e medalha confirmados no documento. Informação sem lado bom ou ruim."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-2137",
+  "verificador": {
+   "rotulo": "F3412",
+   "sustenta": true,
+   "motivo": "Projeto de Resolução concede a Medalha Tiradentes ao 1º Ten PM citado, autor Deputado, datado de 15 de junho de ano A; Alerj vem do órgão."
+  },
+  "espelho": {
+   "rotulo": "F3412",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Registra projeto de resolução apresentado na Alerj; sem aprovação nem efeito medido."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

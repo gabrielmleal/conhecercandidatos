@@ -1,0 +1,88 @@
+{
+ "id": "mapa-flavio-dem-1-a",
+ "origem": "mapa:flavio-dem-1",
+ "candidato": "flavio",
+ "tema": "aliados",
+ "subtema": "familia",
+ "lente": "fez",
+ "data": "2025-09-11",
+ "titulo": "STF condena Jair Bolsonaro a 27 anos e 3 meses",
+ "frase": "A Primeira Turma do STF condenou Jair Bolsonaro a 27 anos e 3 meses de prisão por organização criminosa armada, golpe de Estado e outros crimes.",
+ "tipo": "problema",
+ "peso": 2,
+ "marco": true,
+ "ancora": {
+  "orgao": "MPF",
+  "documento": "Notícia da PGR sobre a condenação do núcleo principal da trama golpista",
+  "link": "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/atos-antidemocraticos-stf-condena-todos-os-oito-reus-do-nucleo-principal-da-trama-golpista",
+  "trecho": "A Primeira Turma do Supremo Tribunal Federal (STF) condenou os oito acusados de integrar o núcleo principal da trama golpista, segundo denúncia do Ministério Público Federal (MPF). Após analisar provas, depoimentos e argumentos apresentados pela acusação e pelas defesas, os ministros consideraram, por quatro votos a um, que os réus cometeram os crimes de organização criminosa armada, golpe de Estado, tentativa violenta de abolição do Estado Democrático de Direito, dano qualificado a patrimônio da União e deterioração de patrimônio tombado."
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Senado",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2026/05/08/promulgada-lei-que-possibilita-reducao-de-penas-pelo-8-de-janeiro",
+   "trecho": "No chamado “Núcleo 1” de condenados, considerado o “núcleo crucial” de tentativa de golpe de Estado, figuram o ex-presidente Jair Bolsonaro (27 anos e 3 meses de prisão);"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/atos-antidemocraticos-stf-condena-todos-os-oito-reus-do-nucleo-principal-da-trama-golpista": "http://web.archive.org/web/20260507102618/https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/atos-antidemocraticos-stf-condena-todos-os-oito-reus-do-nucleo-principal-da-trama-golpista",
+  "https://www12.senado.leg.br/noticias/materias/2026/05/08/promulgada-lei-que-possibilita-reducao-de-penas-pelo-8-de-janeiro": "http://web.archive.org/web/20261009113638/https://www12.senado.leg.br/noticias/materias/2026/05/08/promulgada-lei-que-possibilita-reducao-de-penas-pelo-8-de-janeiro"
+ },
+ "hash": "d9ac30f4d37308681fb8fee62a258846114e67040de2f5ee2fcd850a65f5d745",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F1901",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Pena e crimes estão no trecho; condenação de tribunal é problema peso 2 pela tabela. Frase não diz que foi unânime."
+  },
+  "contra": {
+   "rotulo": "F1901",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Condenação da Primeira Turma e pena de 27 anos e 3 meses constam nos trechos; crimes citados são os do trecho."
+  },
+  "neutra": {
+   "rotulo": "F1901",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Turma, pena e crimes batem com os trechos. Condenação por tribunal: problema, peso 2."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1433",
+  "verificador": {
+   "rotulo": "F1901",
+   "sustenta": true,
+   "motivo": "Primeira Turma condenou o núcleo; Pessoa R com 27 anos e 3 meses; crimes citados constam no trecho."
+  },
+  "espelho": {
+   "rotulo": "F1901",
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Condenação do STF a 27 anos e 3 meses de prisão, decisão de tribunal."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

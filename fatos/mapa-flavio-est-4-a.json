@@ -1,0 +1,80 @@
+{
+ "id": "mapa-flavio-est-4-a",
+ "origem": "mapa:flavio-est-4",
+ "candidato": "flavio",
+ "tema": "contas",
+ "subtema": "previdencia",
+ "lente": "fez",
+ "data": "2025-09-04",
+ "titulo": "Diretora da CGU diz que as primeiras reclamações sobre descontos indevidos chegaram em 2019",
+ "frase": "Eliane Mota, diretora de Previdência e Benefícios da CGU, disse que as primeiras reclamações de segurados sobre descontos indevidos chegaram em 2019, vindas do Ministério Público do Paraná.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Câmara dos Deputados",
+  "documento": "Agência Câmara: depoimento da diretora da CGU à CPMI do INSS",
+  "link": "https://www.camara.leg.br/noticias/1196978-diretora-da-controladoria-geral-da-uniao-detalha-apuracao-sobre-descontos-indevidos-feitos-pelo-inss/",
+  "trecho": "A diretora de Previdência e Benefícios da Controladoria-Geral da União (CGU), Eliane Mota, disse, nesta quinta-feira (4), que as primeiras reclamações de segurados relacionadas a descontos indevidos em benefícios vieram para o órgão em 2019 a partir de informações do Ministério Público do Paraná."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.camara.leg.br/noticias/1196978-diretora-da-controladoria-geral-da-uniao-detalha-apuracao-sobre-descontos-indevidos-feitos-pelo-inss/": "http://web.archive.org/web/20251117152654/https://www.camara.leg.br/noticias/1196978-DIRETORA-DA-CONTROLADORIA-GERAL-DA-UNIAO-DETALHA-APURACAO-SOBRE-DESCONTOS-INDEVIDOS-FEITOS-PELO-INSS"
+ },
+ "hash": "6d5bc644cf893de5dd87749335335aa06febb3bc8e141e0ebf0533377cf839e1",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F4783",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Declaração da diretora da CGU repetida como no trecho, sem acréscimo."
+  },
+  "contra": {
+   "rotulo": "F4783",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Fala da diretora da CGU reproduzida fielmente, com ano e origem das reclamações."
+  },
+  "neutra": {
+   "rotulo": "F4783",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Cargo, ano e origem das reclamações idênticos ao trecho."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-1433",
+  "verificador": {
+   "rotulo": "F4783",
+   "sustenta": true,
+   "motivo": "Eliane Mota, cargo na CGU, primeiras reclamações em ano A vindas do MP do Paraná: tudo no trecho."
+  },
+  "espelho": {
+   "rotulo": "F4783",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data das primeiras reclamações sobre descontos, sem lado bom ou ruim."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

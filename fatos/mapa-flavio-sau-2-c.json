@@ -1,0 +1,80 @@
+{
+ "id": "mapa-flavio-sau-2-c",
+ "origem": "mapa:flavio-sau-2",
+ "candidato": "flavio",
+ "tema": "saude",
+ "subtema": "epidemias",
+ "lente": "fez",
+ "data": "2024-03-22",
+ "titulo": "Augusto Aras recusou dez de onze pedidos de ação penal da CPI da Pandemia",
+ "frase": "Augusto Aras recusou dez dos onze pedidos de ação penal da CPI da Pandemia: quatro arquivados definitivamente, seis com recurso da CPI ao STF. Investigação não é condenação.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Senado Federal",
+  "documento": "Agência Senado, 22/03/2024: Senadores vão à PGR por desarquivamento de pedidos de inquérito da CPI da Pandemia",
+  "link": "https://www12.senado.leg.br/noticias/audios/2024/03/senadores-vao-a-pgr-por-desarquivamento-de-pedidos-de-inquerito-da-cpi-da-pandemia",
+  "trecho": "Dos onze pedidos de ação penal, Augusto Aras recusou dez. Desses, quatro foram arquivados definitivamente e outros seis foram objeto de recurso por parte da CPI no Supremo Tribunal Federal. Apenas um corre na Justiça Federal no Amazonas."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/audios/2024/03/senadores-vao-a-pgr-por-desarquivamento-de-pedidos-de-inquerito-da-cpi-da-pandemia": "http://web.archive.org/web/20260606141510/https://www12.senado.leg.br/noticias/audios/2024/03/senadores-vao-a-pgr-por-desarquivamento-de-pedidos-de-inquerito-da-cpi-da-pandemia"
+ },
+ "hash": "e33243317a9ee20ec048f53fc8bf1736f1ef4472f143b0f41922c0adb3429dc4",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F8646",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Números e destinos (quatro arquivados, seis em recurso ao STF) iguais ao trecho. Decisão contestada pela CPI: polêmico."
+  },
+  "contra": {
+   "rotulo": "F8646",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Dez de onze, quatro arquivados e seis com recurso ao STF estão no trecho. Fala de pedidos recusados, não de condenação."
+  },
+  "neutra": {
+   "rotulo": "F8646",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Números e destino dos pedidos batem com o trecho, com o aviso exigido. Pedidos recusados e arquivados: polêmico, peso 0."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F8646",
+   "sustenta": true,
+   "motivo": "Dez de onze pedidos recusados, quatro arquivados e seis com recurso da CPI ao STF constam literalmente no trecho."
+  },
+  "espelho": {
+   "rotulo": "F8646",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Dez de onze pedidos de ação penal recusados, quatro arquivados e seis em recurso ao STF."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

@@ -1,0 +1,80 @@
+{
+ "id": "mapa-flavio-soc-2",
+ "origem": "mapa:flavio-soc-2",
+ "candidato": "flavio",
+ "tema": "social",
+ "subtema": "fome",
+ "lente": "fez",
+ "data": "2021",
+ "titulo": "Brasil voltou ao Mapa da Fome em 2021",
+ "frase": "Segundo a ONU Brasil, o país saiu do Mapa da Fome em 2014. Voltou em 2021, após a mudança nas prioridades das políticas públicas e pelos impactos da pandemia.",
+ "tipo": "problema",
+ "peso": 2,
+ "marco": false,
+ "ancora": {
+  "orgao": "ONU Brasil (FAO)",
+  "documento": "Artigo: Brasil voltou a sair do Mapa da Fome",
+  "link": "https://brasil.un.org/pt-br/299851-artigo-brasil-voltou-sair-do-mapa-da-fome",
+  "trecho": "O Brasil já havia saído do Mapa da Fome em 2014, após mais de uma década de fortalecimento da rede de proteção social e de investimentos em segurança alimentar e nutricional. No entanto, após a mudança nas prioridades das políticas públicas e pelos impactos da pandemia da COVID-19, voltou a constar no Mapa em 2021."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://brasil.un.org/pt-br/299851-artigo-brasil-voltou-sair-do-mapa-da-fome": "http://web.archive.org/web/20261009113634/https://brasil.un.org/pt-br/299851-artigo-brasil-voltou-sair-do-mapa-da-fome"
+ },
+ "hash": "846e6e66d2fcdbb07c6f466ebdeef112fa20d4ceca1ea7dac90ac64b78a1535b",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F1159",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Saída, volta e as duas causas, inclusive a pandemia, estão no trecho e atribuídas à ONU; nada além."
+  },
+  "contra": {
+   "rotulo": "F1159",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Saída em ano A, volta em ano B e as duas causas constam no trecho da ONU."
+  },
+  "neutra": {
+   "rotulo": "F1159",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Anos e causas apontadas estão no trecho da ONU; voltar ao Mapa da Fome é piora medida por dado oficial."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2137",
+  "verificador": {
+   "rotulo": "F1159",
+   "sustenta": true,
+   "motivo": "Trecho: saiu do Mapa em ano A, voltou em ano B após mudança de prioridades e impactos da pandemia."
+  },
+  "espelho": {
+   "rotulo": "F1159",
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Volta ao Mapa da Fome em 2021, indicador oficial da ONU/FAO, piora já ocorrida."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

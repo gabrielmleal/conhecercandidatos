@@ -1,0 +1,94 @@
+{
+ "id": "mapa-lula-int-3-d",
+ "origem": "mapa:lula-int-3",
+ "candidato": "lula",
+ "tema": "mundo",
+ "subtema": "aliancas",
+ "lente": "disse",
+ "data": "2024-02-18",
+ "titulo": "Lula compara ações de Israel em Gaza ao Holocausto",
+ "frase": "Em entrevista na Etiópia, Lula comparou as ações de Israel na Faixa de Gaza ao Holocausto promovido pela Alemanha nazista.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Agência Senado",
+  "documento": "Pacheco condena fala de Lula sobre conflito entre Israel e Hamas",
+  "link": "https://www12.senado.leg.br/noticias/materias/2024/02/20/pacheco-condena-fala-de-lula-sobre-conflito-entre-israel-e-hamas",
+  "trecho": "Pacheco fez referência à fala do presidente Lula, que comparou a ação de Israel com o Holocausto nazista."
+ },
+ "fontes": [
+  {
+   "veiculo": "G1",
+   "nivel": "C",
+   "link": "https://g1.globo.com/politica/noticia/2024/02/19/apos-fala-de-lula-sobre-reacao-de-israel-e-holocausto-governo-manda-embaixador-voltar-ao-brasil.ghtml",
+   "trecho": "Em entrevista na Etiópia, Lula comparou as ações de Israel na Faixa de Gaza , na guerra contra o grupo terrorista islâmico Hamas, ao Holocausto promovido pela Alemanha nazista."
+  },
+  {
+   "veiculo": "G1",
+   "nivel": "C",
+   "link": "https://g1.globo.com/politica/noticia/2024/02/19/apos-fala-de-lula-sobre-reacao-de-israel-e-holocausto-governo-manda-embaixador-voltar-ao-brasil.ghtml",
+   "trecho": "O governo israelense declarou Lula \"persona non grata\" após uma declaração do petista no domingo (18)"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/materias/2024/02/20/pacheco-condena-fala-de-lula-sobre-conflito-entre-israel-e-hamas": "http://web.archive.org/web/20250725085722/https://www12.senado.leg.br/noticias/materias/2024/02/20/pacheco-condena-fala-de-lula-sobre-conflito-entre-israel-e-hamas",
+  "https://g1.globo.com/politica/noticia/2024/02/19/apos-fala-de-lula-sobre-reacao-de-israel-e-holocausto-governo-manda-embaixador-voltar-ao-brasil.ghtml": "http://web.archive.org/web/20261011161540/https://g1.globo.com/politica/noticia/2024/02/19/apos-fala-de-lula-sobre-reacao-de-israel-e-holocausto-governo-manda-embaixador-voltar-ao-brasil.ghtml"
+ },
+ "hash": "2717aa8d96e9000e9b7d66f269a77de9ac2ecf5dbb1bbafa8c6b3c0161054478",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F2758",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Frase repete a comparação como o trecho descreve, sem adjetivo; declaração sem efeito medido."
+  },
+  "contra": {
+   "rotulo": "F2758",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Comparação e local da entrevista batem com o trecho; nada atenua a fala."
+  },
+  "neutra": {
+   "rotulo": "F2758",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Declaração reproduzida fielmente, com local; fala sem efeito medido."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-1433",
+  "verificador": {
+   "rotulo": "F2758",
+   "sustenta": true,
+   "motivo": "Entrevista na Etiópia e comparação das ações em Gaza ao Holocausto nazista estão no trecho."
+  },
+  "espelho": {
+   "rotulo": "F2758",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Declaração controversa comparando Gaza ao Holocausto, sem efeito medido."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

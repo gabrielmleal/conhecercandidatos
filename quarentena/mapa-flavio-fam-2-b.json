@@ -1,0 +1,92 @@
+{
+ "id": "mapa-flavio-fam-2-b",
+ "origem": "mapa:flavio-fam-2",
+ "candidato": "flavio",
+ "tema": "aliados",
+ "subtema": "familia",
+ "lente": "fez",
+ "data": "2025-02",
+ "titulo": "Eduardo Bolsonaro está nos EUA desde fevereiro de 2025",
+ "frase": "Eduardo Bolsonaro, filho do ex-presidente Jair Bolsonaro, está nos EUA desde fevereiro de 2025. Deixou o Brasil dizendo sofrer perseguição política. Perdeu o mandato de parlamentar por faltar às sessões.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Poder360",
+  "documento": "Eduardo diz que atuará nos EUA para retomada de Magnitsky a Moraes (10/10/2026)",
+  "link": "https://www.poder360.com.br/poder-justica/eduardo-diz-que-atuara-nos-eua-para-retomada-de-magnitsky-a-moraes/",
+  "trecho": "Eduardo está nos Estados Unidos desde fevereiro de 2025. O filho do ex-presidente Jair Bolsonaro (PL) deixou o Brasil dizendo sofrer perseguição política."
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Brasil",
+   "nivel": "C",
+   "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/stf-condena-eduardo-bolsonaro-inelegibilidade-e-4-anos-de-prisao",
+   "trecho": "Desde o ano passado, Eduardo Bolsonaro está nos Estados Unidos, desta forma, perdeu o mandato de parlamentar por faltar às sessões da Câmara dos Deputados."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": false,
+  "9": false
+ },
+ "copias": {
+  "https://www.poder360.com.br/poder-justica/eduardo-diz-que-atuara-nos-eua-para-retomada-de-magnitsky-a-moraes/": null,
+  "https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/stf-condena-eduardo-bolsonaro-inelegibilidade-e-4-anos-de-prisao": "http://web.archive.org/web/20260918235620/https://agenciabrasil.ebc.com.br/justica/noticia/2026-06/stf-condena-eduardo-bolsonaro-inelegibilidade-e-4-anos-de-prisao"
+ },
+ "hash": "fe28afbaaff93cf83306989b39312057c27bf5589600cdd28aadfa3f17bd24a1",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F8282",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Data, alegação de perseguição e perda do mandato por faltas estão nos trechos; inclui a versão dele."
+  },
+  "contra": {
+   "rotulo": "F8282",
+   "confere": true,
+   "certeza": 0.85,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Fiel, mas o primeiro trecho nomeia 'Eduardo', não Pessoa I; a perda do mandato é ato oficial, logo problema."
+  },
+  "neutra": {
+   "rotulo": "F8282",
+   "confere": true,
+   "certeza": 0.8,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Fatos estão nos trechos, mas o trecho 1 chama de 'Eduardo' quem a frase chama de Pessoa I."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F8282",
+   "sustenta": false,
+   "motivo": "Fevereiro de ano A e perseguição política são ditos de \"Eduardo\"; os trechos não ligam esse nome a Pessoa I."
+  },
+  "espelho": {
+   "rotulo": "F8282",
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Perdeu o mandato parlamentar por faltas; ato oficial com efeito direto."
+  }
+ },
+ "classificacao": "polemico",
+ "peso_final": 0,
+ "falhas": [
+  "as três revisões não concordaram",
+  "o texto vai além do trecho",
+  "o espelho deu outro tipo"
+ ],
+ "entrou_em": "2026-10-12"
+}

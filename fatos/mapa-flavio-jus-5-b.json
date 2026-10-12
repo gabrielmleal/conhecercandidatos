@@ -1,0 +1,87 @@
+{
+ "id": "mapa-flavio-jus-5-b",
+ "origem": "mapa:flavio-jus-5",
+ "candidato": "flavio",
+ "tema": "aliados",
+ "subtema": "investigados",
+ "lente": "fez",
+ "data": "2026-05-07",
+ "titulo": "PF diz que emenda de Ciro Nogueira à PEC 65/2023 teria sido escrita pela assessoria do Banco Master",
+ "frase": "A PF aponta que Ciro Nogueira apresentou emenda à PEC 65/2023 cujo texto teria sido elaborado pela assessoria do Banco Master. Investigação não é condenação.",
+ "tipo": "problema",
+ "peso": 1,
+ "marco": false,
+ "ancora": {
+  "orgao": "Supremo Tribunal Federal",
+  "documento": "Notícia: STF autoriza nova fase da Operação Compliance Zero (07/05/2026)",
+  "link": "https://noticias.stf.jus.br/postsnoticias/stf-autoriza-nova-fase-da-operacao-compliance-zero/",
+  "trecho": "A PF aponta que Ciro Nogueira apresentou uma emenda à Proposta de Emenda à Constituição (PEC) 65/2023, que ampliava a cobertura do Fundo Garantidor de Crédito (FGC) de R$ 250 mil para R$ 1 milhão por depositante. Segundo a investigação, o texto teria sido elaborado pela assessoria do Banco Master e entregue ao parlamentar."
+ },
+ "fontes": [
+  {
+   "veiculo": "Supremo Tribunal Federal",
+   "nivel": "A",
+   "link": "https://noticias.stf.jus.br/postsnoticias/stf-autoriza-nova-fase-da-operacao-compliance-zero/",
+   "trecho": "STF autoriza nova fase da Operação Compliance Zero Ministro André Mendonça atendeu a pedido da PF, que aponta indícios de atuação do senador Ciro Nogueira (PP-PI) em benefício de interesses privados de Daniel Vorcaro 07/05/2026 11:20"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://noticias.stf.jus.br/postsnoticias/stf-autoriza-nova-fase-da-operacao-compliance-zero/": "http://web.archive.org/web/20260612141503/https://noticias.stf.jus.br/postsnoticias/stf-autoriza-nova-fase-da-operacao-compliance-zero/"
+ },
+ "hash": "1960a85c9a3095e9c19fec5c032520147c286113717f80dd38e9db4394071d13",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F7041",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Frase atribui à PF e usa teria sido, como o trecho. Operação autorizada pelo STF é investigação formal sem julgamento. Traz o aviso."
+  },
+  "contra": {
+   "rotulo": "F7041",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "A PF aponta emenda à PEC e texto que 'teria sido elaborado' pela assessoria do Master; ressalva presente. Investigação formal sem julgamento: peso 1."
+  },
+  "neutra": {
+   "rotulo": "F7041",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Emenda à PEC, texto da assessoria do Banco Master e atribuição à PF estão nos trechos. Investigação formal sem julgamento; ressalva presente."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1409",
+  "verificador": {
+   "rotulo": "F7041",
+   "sustenta": true,
+   "motivo": "PF, emenda à PEC 65/ano A e texto que teria sido elaborado pela assessoria do Banco Master constam do primeiro trecho."
+  },
+  "espelho": {
+   "rotulo": "F7041",
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "PF aponta emenda escrita por assessoria de banco; investigação formal, sem julgamento."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

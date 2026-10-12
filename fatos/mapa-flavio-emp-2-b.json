@@ -1,0 +1,80 @@
+{
+ "id": "mapa-flavio-emp-2-b",
+ "origem": "mapa:flavio-emp-2",
+ "candidato": "flavio",
+ "tema": "democracia",
+ "subtema": "justica",
+ "lente": "fez",
+ "data": "2021-08-26",
+ "titulo": "STF mantém lei de autonomia do Banco Central",
+ "frase": "Em agosto de 2021, o STF manteve, por oito votos a dois, a validade da lei de autonomia do Banco Central.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Agência Senado",
+  "documento": "STF valida lei de autonomia do Banco Central",
+  "link": "https://www12.senado.leg.br/noticias/materias/2021/08/27/stf-valida-lei-de-autonomia-do-banco-central-aprovada-pelo-congresso",
+  "trecho": "Da Agência Senado | 27/08/2021, 09h03 Por oito votos a dois, o Supremo Tribunal Federal (STF) manteve nessa quinta-feira (26) a validade da lei de autonomia do Banco Central, que passou por um amplo processo de discussão no Parlamento e foi aprovada em fevereiro."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/materias/2021/08/27/stf-valida-lei-de-autonomia-do-banco-central-aprovada-pelo-congresso": "http://web.archive.org/web/20260613090646/https://www12.senado.leg.br/noticias/materias/2021/08/27/stf-valida-lei-de-autonomia-do-banco-central-aprovada-pelo-congresso"
+ },
+ "hash": "45b27b881f694c90c5b45d138480462aa447b38710c4693eec4ade042bc1327c",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F7399",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Oito votos a dois e validade mantida da lei de autonomia estão no trecho de agosto. Sem lado bom ou ruim."
+  },
+  "contra": {
+   "rotulo": "F7399",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "STF, oito votos a dois, validade da lei de autonomia do Banco Central e mês de agosto batem com o trecho."
+  },
+  "neutra": {
+   "rotulo": "F7399",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Oito votos a dois, validade da lei de autonomia do Banco Central e agosto estão no trecho. Sem lado bom ou ruim: contexto."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1409",
+  "verificador": {
+   "rotulo": "F7399",
+   "sustenta": true,
+   "motivo": "Oito votos a dois, validade mantida da lei de autonomia do Banco Central e mês de agosto constam do trecho."
+  },
+  "espelho": {
+   "rotulo": "F7399",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Decisão do STF valida lei por 8 a 2; sem lado bom ou ruim nem efeito medido."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

@@ -1,0 +1,79 @@
+{
+ "id": "mapa-lula-fam-3-d",
+ "origem": "mapa:lula-fam-3",
+ "candidato": "lula",
+ "tema": "contas",
+ "subtema": "impostos",
+ "lente": "fez",
+ "data": "2025-01-16",
+ "titulo": "Lei Complementar 214 institui IBS, CBS e Imposto Seletivo",
+ "frase": "Lei Complementar 214, de 16 de janeiro de 2025, institui o Imposto sobre Bens e Serviços (IBS), a Contribuição Social sobre Bens e Serviços (CBS) e o Imposto Seletivo.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": true,
+ "ancora": {
+  "orgao": "Planalto",
+  "documento": "Lei Complementar nº 214, de 16 de janeiro de 2025",
+  "link": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm",
+  "trecho": "LEI COMPLEMENTAR Nº 214, DE 16 DE JANEIRO DE 2025 Mensagem de veto Produção de efeitos Produção de efeitos (Promulgação partes vetadas) Texto compilado (Vide Decreto nº 12.955, de 2026) Institui o Imposto sobre Bens e Serviços (IBS), a Contribuição Social sobre Bens e Serviços (CBS) e o Imposto Seletivo (IS); cria o Comitê Gestor do IBS e altera a legislação tributária. O PRESIDENTE DA REPÚBLICA Faço saber que o Congresso Nacional decreta e eu sanciono a seguinte Lei Complementar:"
+ },
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm": "http://web.archive.org/web/20261010001248/https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp214.htm"
+ },
+ "hash": "cdad9fad441d6896c58cf0e24d54081d29d63f7a722a7d2b41af1ded525fb29e",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5649",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Título e frase repetem a ementa da lei; sem efeito medido, fica contexto."
+  },
+  "contra": {
+   "rotulo": "F5649",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Título e frase repetem a ementa da lei. Sem efeito medido nem juízo de valor."
+  },
+  "neutra": {
+   "rotulo": "F5649",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Número e data da lei e os três tributos batem com o trecho. Lei sem efeito medido, sem lado bom ou ruim: contexto."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1433",
+  "verificador": {
+   "rotulo": "F5649",
+   "sustenta": true,
+   "motivo": "Número e data da lei e os três tributos instituídos (IBS, CBS, Imposto Seletivo) constam na ementa."
+  },
+  "espelho": {
+   "rotulo": "F5649",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Lei que institui tributos sem efeito medido nem lado bom ou ruim na frase."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

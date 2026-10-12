@@ -1,0 +1,82 @@
+{
+ "id": "mapa-flavio-edu-2-b",
+ "origem": "mapa:flavio-edu-2",
+ "candidato": "flavio",
+ "tema": "educacao",
+ "subtema": "universidades",
+ "lente": "fez",
+ "data": "2022-05-27",
+ "titulo": "Governo anuncia corte de R$ 3,2 bilhões no orçamento do MEC",
+ "frase": "Em 27 de maio, o governo anunciou corte de R$ 3,2 bilhões no MEC: bloqueio de 14,5% do orçamento discricionário de MEC, universidades e institutos federais (R$ 22,2 bilhões).",
+ "tipo": "problema",
+ "peso": 2,
+ "marco": false,
+ "ancora": {
+  "orgao": "Câmara dos Deputados",
+  "documento": "Agência Câmara, 15/06/2022: Professores e dirigentes de universidades criticam cortes no orçamento da educação",
+  "link": "https://www.camara.leg.br/noticias/887257-professores-e-dirigentes-de-universidades-criticam-cortes-no-orcamento-da-educacao",
+  "trecho": "Representantes de instituições de ensino superior criticaram o corte de R$ 3,2 bilhões no orçamento do Ministério da Educação (MEC), anunciado pelo governo no dia 27 de maio. O assunto foi debatido em audiência pública nesta quarta-feira (15) na Comissão de Educação da Câmara dos Deputados. A medida significa o bloqueio de 14,5% no orçamento discricionário do MEC e das universidades e institutos federais vinculados, que somavam R$ 22,2 bilhões."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.camara.leg.br/noticias/887257-professores-e-dirigentes-de-universidades-criticam-cortes-no-orcamento-da-educacao": null
+ },
+ "hash": "7cfdad6afcfb1b999ab0e90b3a7133a5ea07b3ac74abe10b86d3592da5c59407",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F7197",
+   "confere": true,
+   "certeza": 0.88,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Valores e data batem; o trecho chama de corte e de bloqueio, e a frase já explica que é bloqueio."
+  },
+  "contra": {
+   "rotulo": "F7197",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Corte de R$ 3,2 bilhões, 14,5% e R$ 22,2 bilhões estão no trecho; nada favorece o governo."
+  },
+  "neutra": {
+   "rotulo": "F7197",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Valores, percentual e data batem com o trecho; corte de orçamento oficial já anunciado, com número."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F7197",
+   "sustenta": true,
+   "motivo": "Trecho traz corte de R$ 3,2 bilhões anunciado em 27 de maio, bloqueio de 14,5% de R$ 22,2 bilhões."
+  },
+  "espelho": {
+   "rotulo": "F7197",
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Orçamento oficial: corte de R$ 3,2 bilhões no MEC, 14,5% do discricionário."
+  }
+ },
+ "classificacao": "problema",
+ "peso_final": 2,
+ "falhas": [
+  "as três revisões não concordaram"
+ ],
+ "entrou_em": "2026-10-12"
+}

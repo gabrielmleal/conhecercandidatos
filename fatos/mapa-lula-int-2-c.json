@@ -1,0 +1,94 @@
+{
+ "id": "mapa-lula-int-2-c",
+ "origem": "mapa:lula-int-2",
+ "candidato": "lula",
+ "tema": "mundo",
+ "subtema": "eua",
+ "lente": "fez",
+ "data": "2026-07-15",
+ "titulo": "Rubio diz que Lula não negociou de boa-fé e que as tarifas são o preço",
+ "frase": "Em julho de 2026, o secretário de Estado dos EUA, Marco Rubio, disse que Lula pôs o ego à frente de um acordo e que as tarifas são o preço.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Poder360",
+  "documento": "Lula colocou ego à frente do povo brasileiro, diz Rubio sobre tarifas",
+  "link": "https://www.poder360.com.br/poder-internacional/lula-colocou-ego-a-frente-do-povo-brasileiro-diz-rubio-sobre-tarifas/",
+  "trecho": "“Não haja confusão sobre o motivo: o presidente Lula e seu governo não negociaram com os EUA de boa-fé” , declarou o secretário de Estado. “Lula colocou seu próprio ego à frente de fazer um acordo pelo bem-estar do povo brasileiro, e essas tarifas são o preço por isso”"
+ },
+ "fontes": [
+  {
+   "veiculo": "Poder360",
+   "nivel": "C",
+   "link": "https://www.poder360.com.br/poder-internacional/lula-colocou-ego-a-frente-do-povo-brasileiro-diz-rubio-sobre-tarifas/",
+   "trecho": "O secretário de Estado dos Estados Unidos, Marco Rubio, afirmou nesta 4ª feira (15. jul. 2026) que o novo tarifaço imposto a produtos brasileiros foi decidido como forma de retaliação ao governo de Luiz Inácio Lula da Silva (PT)."
+  },
+  {
+   "veiculo": "G1",
+   "nivel": "C",
+   "link": "https://g1.globo.com/mundo/noticia/2026/07/16/lula-priorizou-proprio-ego-em-detrimento-de-acordo-e-nao-negociou-com-os-eua-de-boa-fe-o-ataque-de-ministro-de-trump-apos-tarifaco.ghtml",
+   "trecho": "Ao anunciar a decisão de aplicar tarifas de 25% sobre uma série de produtos brasileiros exportados aos EUA , o secretário de Estado americano Marco Rubio afirmou que o presidente Luiz Inácio Lula da Silva (PT) \"priorizou seu próprio ego em detrimento de um acordo que vise o bem-estar do povo brasileiro\". Em suas redes sociais, o secretário que faz parte da ala ideológica do governo Trump e é conhecido por sua política linha-dura contra países na América Latina, disse que a taxação é o preço que o Brasil paga pelo comportamento de Lula."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.poder360.com.br/poder-internacional/lula-colocou-ego-a-frente-do-povo-brasileiro-diz-rubio-sobre-tarifas/": null,
+  "https://g1.globo.com/mundo/noticia/2026/07/16/lula-priorizou-proprio-ego-em-detrimento-de-acordo-e-nao-negociou-com-os-eua-de-boa-fe-o-ataque-de-ministro-de-trump-apos-tarifaco.ghtml": "http://web.archive.org/web/20260717031917/https://g1.globo.com/mundo/noticia/2026/07/16/lula-priorizou-proprio-ego-em-detrimento-de-acordo-e-nao-negociou-com-os-eua-de-boa-fe-o-ataque-de-ministro-de-trump-apos-tarifaco.ghtml"
+ },
+ "hash": "7e5de547b0f675ba0a578225b42f5a03357008525602274d8357873272a3ff1c",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F3481",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Fala atribuída a Rubio, com data de julho de ano A e as palavras do trecho. Acusação de autoridade estrangeira, sem prova: polêmico."
+  },
+  "contra": {
+   "rotulo": "F3481",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Rubio, data de julho, ego à frente do acordo, má-fé na negociação e tarifas como preço estão nas citações. É acusação de governo estrangeiro."
+  },
+  "neutra": {
+   "rotulo": "F3481",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Fala em julho, ego à frente de acordo e tarifas como preço estão nos trechos. Declaração de autoridade estrangeira, efeito não medido: polêmico."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1409",
+  "verificador": {
+   "rotulo": "F3481",
+   "sustenta": true,
+   "motivo": "Rubio, data de julho, ego à frente do acordo, má-fé na negociação e tarifas como preço constam dos trechos."
+  },
+  "espelho": {
+   "rotulo": "F3481",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Acusação de autoridade estrangeira sobre negociação; sem prova nem decisão oficial."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

@@ -1,0 +1,90 @@
+{
+ "id": "mapa-flavio-edu-1-a",
+ "origem": "mapa:flavio-edu-1",
+ "candidato": "flavio",
+ "tema": "educacao",
+ "subtema": "mec",
+ "lente": "fez",
+ "data": "2022-03-28",
+ "titulo": "Ministro da Educação pede exoneração quatro dias após inquérito",
+ "frase": "Inquérito sobre irregularidades no MEC foi aberto em 24/3. Quatro dias depois, Milton Ribeiro pediu exoneração e perdeu o foro por prerrogativa de função no STF. Investigação não é condenação.",
+ "tipo": "problema",
+ "peso": 1,
+ "marco": false,
+ "ancora": {
+  "orgao": "Supremo Tribunal Federal",
+  "documento": "Notícia de 05/05/2022: Ministra Cármen Lúcia remete inquérito contra Milton Ribeiro à Justiça Federal",
+  "link": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=486516&ori=1",
+  "trecho": "Atendendo a pedido da Procuradoria-Geral da República (PGR), a ministra Cármen Lúcia, do Supremo Tribunal Federal (STF), determinou o envio, para a Justiça Federal, da investigação aberta contra o ex-ministro da Educação Milton Ribeiro, para apurar denúncias de irregularidades na liberação de recursos do Fundo Nacional de Desenvolvimento da Educação (FNDE) e do Ministério da Educação (MEC). No pedido, a PGR destaca que o Inquérito (INQ) 4896 foi instaurado em 24/3, mas, quatro dias depois, Ribeiro pediu exoneração do cargo, deixando, com isso, de ter foro por prerrogativa de função no Supremo."
+ },
+ "fontes": [
+  {
+   "veiculo": "Ministério da Educação (galeria de ministros)",
+   "nivel": "A",
+   "link": "https://www.gov.br/mec/pt-br/acesso-a-informacao/institucional/galeria-de-ministros/1985-atualmente",
+   "trecho": "Milton Ribeiro Período: 10/7/2020 a 28/3/2022."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=486516&ori=1": "http://web.archive.org/web/20220506195618/https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=486516&ori=1",
+  "https://www.gov.br/mec/pt-br/acesso-a-informacao/institucional/galeria-de-ministros/1985-atualmente": null
+ },
+ "hash": "4404f4d39227f4d2cb3811a903d300057ce0287a34b6d0afa15f36a5137e40c1",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5288",
+   "confere": false,
+   "certeza": 0.65,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Trecho fala em apurar \"denúncias de irregularidades\"; a frase corta o \"denúncias\" e apresenta as irregularidades como dadas."
+  },
+  "contra": {
+   "rotulo": "F5288",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Datas e perda de foro estão no trecho da PGR, com a ressalva exigida; nada favorece Pessoa Z."
+  },
+  "neutra": {
+   "rotulo": "F5288",
+   "confere": false,
+   "certeza": 0.72,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Frase não diz que o inquérito mira Pessoa Z nem que era ministro; 'foro por prerrogativa de função' sem explicação."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F5288",
+   "sustenta": true,
+   "motivo": "Trechos dão inquérito em 24/3, exoneração quatro dias depois com perda de foro e mandato de Pessoa Z até 28/3."
+  },
+  "espelho": {
+   "rotulo": "F5288",
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Inquérito formal aberto sobre irregularidades no MEC; ministro saiu, sem julgamento."
+  }
+ },
+ "classificacao": "problema",
+ "peso_final": 1,
+ "falhas": [
+  "as três revisões não concordaram"
+ ],
+ "entrou_em": "2026-10-12"
+}

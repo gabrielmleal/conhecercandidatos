@@ -1,0 +1,88 @@
+{
+ "id": "mapa-flavio-amb-1-a",
+ "origem": "mapa:flavio-amb-1",
+ "candidato": "flavio",
+ "tema": "ambiente",
+ "subtema": "desmatamento",
+ "lente": "fez",
+ "data": "2021-07",
+ "titulo": "Desmatamento na Amazônia chega a 13.038 km² em 2021",
+ "frase": "Segundo o Inpe, citado pelo TCU, a Amazônia teve desmatamento de 13.038 km² em 2021: 73% acima de 2018 e 185% acima de 2012, ano da menor taxa da série.",
+ "tipo": "problema",
+ "peso": 2,
+ "marco": false,
+ "ancora": {
+  "orgao": "TCU",
+  "documento": "Relatório de fiscalizações em políticas e programas de governo 2022: controle do desmatamento ilegal",
+  "link": "https://sites.tcu.gov.br/relatorio-de-politicas/2022/controle-do-desmatamento-ilegal.html",
+  "trecho": "De acordo com o Instituto Nacional de Pesquisas Espaciais (Inpe), que monitora o desmatamento da Floresta Amazônica brasileira por satélite, a taxa anual de desmatamento da região amazônica, em 2021, foi de 13.038 km2, 73% superior à existente em 2018 e 185% superior à de 2012, menor da série."
+ },
+ "fontes": [
+  {
+   "veiculo": "INPE",
+   "nivel": "A",
+   "link": "http://mtc-m21d.sid.inpe.br/col/sid.inpe.br/mtc-m21d/2023/12.29.14.19/doc/NotaTecnica_consolidado_PRODES_2021_rev.pdf",
+   "trecho": "O valor consolidado da área desmatada calculada para o período de 01 de agosto de 2020 e 31 de julho de 2021 foi de 13.038 km2."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://sites.tcu.gov.br/relatorio-de-politicas/2022/controle-do-desmatamento-ilegal.html": null,
+  "http://mtc-m21d.sid.inpe.br/col/sid.inpe.br/mtc-m21d/2023/12.29.14.19/doc/NotaTecnica_consolidado_PRODES_2021_rev.pdf": "http://web.archive.org/web/20250707081255/http://mtc-m21d.sid.inpe.br/col/sid.inpe.br/mtc-m21d/2023/12.29.14.19/doc/NotaTecnica_consolidado_PRODES_2021_rev.pdf"
+ },
+ "hash": "4ccae0143d1b791cf33e04ddf1e5202dc0f8a6fea4c498c0c7aec0cd72aa04e3",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F6207",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "13.038 km², 73% e 185% sobre o ano de menor taxa estão no trecho do Inpe via TCU; dado oficial."
+  },
+  "contra": {
+   "rotulo": "F6207",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "13.038 km², 73% e 185% e menor taxa da série constam no trecho do TCU."
+  },
+  "neutra": {
+   "rotulo": "F6207",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "13.038 km², 73% e 185% estão no trecho; dado oficial do Inpe mostrando piora."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2137",
+  "verificador": {
+   "rotulo": "F6207",
+   "sustenta": true,
+   "motivo": "Trecho do TCU cita Inpe: 13.038 km² em ano D, 73% acima de ano B, 185% acima de ano A, menor da série."
+  },
+  "espelho": {
+   "rotulo": "F6207",
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Desmatamento de 13.038 km² em 2021, 73% acima de 2018, dado oficial do Inpe."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

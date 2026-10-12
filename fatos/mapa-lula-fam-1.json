@@ -1,0 +1,95 @@
+{
+ "id": "mapa-lula-fam-1",
+ "origem": "mapa:lula-fam-1",
+ "candidato": "lula",
+ "tema": "aliados",
+ "subtema": "partido",
+ "lente": "fez",
+ "data": "2026-08",
+ "titulo": "Alckmin, que perdeu para Lula em 2006, é vice de Lula na chapa à reeleição",
+ "frase": "Geraldo Alckmin (PSB) perdeu para Lula na disputa pela Presidência em 2006. Tomou posse como vice-presidente ao lado de Lula e é vice na chapa à reeleição.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Agência Senado",
+  "documento": "Flávio Bolsonaro e Lula disputam o segundo turno das eleições para presidente (04/10/2026)",
+  "link": "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente",
+  "trecho": "O vice na chapa de Lula é Geraldo Alckmin (PSB), que começou a carreira política em 1973, como vereador em Pindamonhangaba (SP). Alckmin foi governador de São Paulo de 2001 a 2006 e de 2011 a 2018. Tentou a Presidência em 2006, quando perdeu para Lula, e em 2018, quando chegou em quarto lugar."
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Senado",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2026/08/17/eleicoes-2026-veja-os-numeros-das-candidaturas-oficializadas",
+   "trecho": "Entre os candidatos estão Luiz Inácio Lula da Silva (PT) e Geraldo Alckmin (PSB), que buscam a reeleição. É a única chapa formada por candidatos de partidos diferentes."
+  },
+  {
+   "veiculo": "Planalto",
+   "nivel": "A",
+   "link": "https://www.gov.br/planalto/pt-br/vice-presidencia/assuntos/noticias/2023/geraldo-alckmin-toma-posse-como-vice-presidente-da-republica",
+   "trecho": "Ao lado do presidente Luis Inácio Lula da Silva, Geraldo José Rodrigues Alckmin Filho tomou posse como 26º vice-presidente da República, em sessão solene realizada no plenário do Congresso Nacional, no último domingo (1º)."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente": "http://web.archive.org/web/20261011142347/https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente",
+  "https://www12.senado.leg.br/noticias/materias/2026/08/17/eleicoes-2026-veja-os-numeros-das-candidaturas-oficializadas": null,
+  "https://www.gov.br/planalto/pt-br/vice-presidencia/assuntos/noticias/2023/geraldo-alckmin-toma-posse-como-vice-presidente-da-republica": "http://web.archive.org/web/20261011142648/https://www.gov.br/planalto/pt-br/vice-presidencia/assuntos/noticias/2023/geraldo-alckmin-toma-posse-como-vice-presidente-da-republica"
+ },
+ "hash": "61efcc1935289efed21cc9b9959c04806d3fd6efe03c1f6e72403517d0194d4c",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5616",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Derrota em ano C, posse como vice e chapa à reeleição estão nos trechos, sem juízo."
+  },
+  "contra": {
+   "rotulo": "F5616",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Derrota em ano C, posse como vice e chapa à reeleição estão nos trechos. Nada favorece além disso."
+  },
+  "neutra": {
+   "rotulo": "F5616",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Derrota em ano C, posse como vice e chapa à reeleição estão nos trechos. Frase clara."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-1433",
+  "verificador": {
+   "rotulo": "F5616",
+   "sustenta": true,
+   "motivo": "Trechos confirmam derrota para Pessoa T em ano C, posse como vice-presidente e chapa à reeleição com Partido Q."
+  },
+  "espelho": {
+   "rotulo": "F5616",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Histórico eleitoral e composição da chapa, sem lado bom ou ruim."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}
