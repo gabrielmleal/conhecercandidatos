@@ -1,0 +1,91 @@
+{
+ "id": "flavio-ambiente-indigenas-01",
+ "origem": "plano:pl-p50",
+ "candidato": "flavio",
+ "tema": "ambiente",
+ "subtema": "indigenas",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Plano de Flávio prevê autonomia produtiva em terras indígenas e quilombolas",
+ "frase": "O plano de governo de Flávio Bolsonaro prevê dar autonomia aos povos indígenas e quilombolas para decidir sobre atividades produtivas em suas terras, com respeito às regras ambientais.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [],
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Flávio Bolsonaro (PL), registrado no TSE, p. 50",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "trecho": "Será conferida autonomia aos povos indígenas e quilombolas para decidir sobre atividades produtivas em suas terras, com respeito ao desenvolvimento sustentável e às regras ambientais, e com indenização de eventuais restrições ao usufruto e mecanismos de compensação, para que quem vive na terra possa dela tirar o próprio sustento."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true,
+  "10": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf": "http://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf"
+ },
+ "hash": "cd980cbe7cc6d4d10795eeafb9a567d03f10f2cd6e5542bf96be0f03b21abe10",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F8734",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Frase fiel ao trecho; é promessa de plano de governo."
+  },
+  "contra": {
+   "rotulo": "F8734",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Promessa fiel ao trecho; nada a mais favorece o candidato."
+  },
+  "neutra": {
+   "rotulo": "F8734",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Frase e título seguem o trecho; é plano ainda não executado. Povos indígenas e quilombolas não estão na lista de grupos."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-2218",
+  "verificador": {
+   "rotulo": "F8734",
+   "sustenta": true,
+   "motivo": "Autonomia para decidir sobre atividades produtivas e respeito às regras ambientais estão no trecho."
+  },
+  "espelho": {
+   "rotulo": "F8734",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Plano de governo prevê autonomia produtiva; ainda não aconteceu."
+  }
+ },
+ "juridica": {
+  "ok": true,
+  "motivo": "Promessa do plano registrado no TSE; título e frase fiéis ao trecho da p. 50, sem acréscimos.",
+  "hash": "236ebfbf85dc16c647163b8c29203213c1e6718f279695a6f92f428cd98395ac",
+  "em": "2026-10-12"
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

@@ -1,0 +1,99 @@
+{
+ "id": "flavio-obras-ciencia-01",
+ "origem": "plano:pl-p56",
+ "candidato": "flavio",
+ "tema": "obras",
+ "subtema": "ciencia",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Plano de Flávio prevê estratégia nacional de inteligência artificial",
+ "frase": "O plano de governo de Flávio Bolsonaro prevê uma Estratégia Nacional de Inteligência Artificial para difundir a IA em larga escala entre micro, pequenas e médias empresas.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [
+  "empresas"
+ ],
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Flávio Bolsonaro (PL), registrado no TSE, p. 56",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "trecho": "A Estratégia Nacional de Inteligência Artificial vai difundir a IA para as micro, pequenas e médias empresas em larga escala, com prioridade para indústria, agronegócio, saúde e logística."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true,
+  "10": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf": "http://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf"
+ },
+ "hash": "3110973e5f78ee9b48731565f3454697a94e70f0133178a40ebf5d40f6aee094",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F1328",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [
+    "empresas"
+   ],
+   "motivo": "Frase fiel ao trecho; micro, pequenas e médias empresas nomeadas."
+  },
+  "contra": {
+   "rotulo": "F1328",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [
+    "empresas"
+   ],
+   "motivo": "Fiel ao trecho; micro, pequenas e médias empresas nomeadas."
+  },
+  "neutra": {
+   "rotulo": "F1328",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [
+    "empresas"
+   ],
+   "motivo": "Estratégia Nacional de IA para micro, pequenas e médias empresas está no trecho. Promessa, peso 0."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-2218",
+  "verificador": {
+   "rotulo": "F1328",
+   "sustenta": true,
+   "motivo": "Estratégia Nacional de IA difundindo IA em larga escala para micro, pequenas e médias empresas consta no trecho."
+  },
+  "espelho": {
+   "rotulo": "F1328",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Prevê Estratégia Nacional de IA; proposta ainda não executada."
+  }
+ },
+ "juridica": {
+  "ok": true,
+  "motivo": "Promessa do plano registrado no TSE; título e frase fiéis ao trecho da p. 56.",
+  "hash": "9e6c4fbfb107911a48669362f5920314266b31d597a6f2d008ffd40d834c5dbd",
+  "em": "2026-10-12"
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

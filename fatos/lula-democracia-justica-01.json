@@ -1,0 +1,91 @@
+{
+ "id": "lula-democracia-justica-01",
+ "origem": "plano:pt-p16",
+ "candidato": "lula",
+ "tema": "democracia",
+ "subtema": "justica",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Programa de Lula propõe diálogo permanente com o Judiciário",
+ "frase": "O programa de governo de Lula propõe a continuidade do diálogo permanente com os atores do Judiciário, respeitada a autonomia dos Poderes, para aperfeiçoar o sistema de Justiça.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [],
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Lula (PT), registrado no TSE, p. 16",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
+  "trecho": "Não obstante os avanços recentes, o sistema de Justiça brasileira ainda é marcado por uma morosidade decisória decorrente da quantidade excessiva de processos e instâncias recursais. Nesse sentido, propomos a continuidade do diálogo permanente com os atores do judiciário, respeitada a autonomia dos Poderes, para estimular o aperfeiçoamento do sistema de Justiça."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true,
+  "10": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf": "http://web.archive.org/web/20261002034455/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf"
+ },
+ "hash": "a0b5295c30d29a2f3277394c52aa67ccdc1dbfc97f785c621ed0449435fbacd2",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F8667",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Frase fiel ao trecho, com a ressalva da autonomia dos Poderes."
+  },
+  "contra": {
+   "rotulo": "F8667",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Proposta fiel ao trecho; sem efeito atribuído."
+  },
+  "neutra": {
+   "rotulo": "F8667",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Diálogo com o Judiciário e respeito à autonomia dos Poderes estão no trecho. Promessa, peso 0."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-2218",
+  "verificador": {
+   "rotulo": "F8667",
+   "sustenta": true,
+   "motivo": "Diálogo permanente com o Judiciário, autonomia dos Poderes e aperfeiçoamento da Justiça constam no trecho."
+  },
+  "espelho": {
+   "rotulo": "F8667",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Propõe diálogo permanente com o Judiciário; proposta futura."
+  }
+ },
+ "juridica": {
+  "ok": true,
+  "motivo": "Promessa fiel ao trecho da p. 16; neutra, sem juízo.",
+  "hash": "16f97489a742268f5c4b5645303e96950512754f2233a8a2a5fdeb364e8053ed",
+  "em": "2026-10-12"
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

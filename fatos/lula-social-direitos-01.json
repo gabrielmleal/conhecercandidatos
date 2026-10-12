@@ -1,0 +1,91 @@
+{
+ "id": "lula-social-direitos-01",
+ "origem": "plano:pt-p75",
+ "candidato": "lula",
+ "tema": "social",
+ "subtema": "direitos",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Programa de Lula promete seguir com a inclusão produtiva de pessoas com deficiência",
+ "frase": "O programa de governo de Lula promete seguir com as políticas de inclusão produtiva das pessoas com deficiência e fortalecer a erradicação do trabalho infantil.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [],
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Lula (PT), registrado no TSE, p. 75",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
+  "trecho": "Seguiremos com as políticas de inclusão produtiva das pessoas com deficiência, privadas das oportunidades de trabalho em decorrência do capacitismo, e fortalecer as políticas de erradicação do trabalho análogo ao escravo e do trabalho infantil, em todas as suas formas e espaços de ocorrência, incluindo o meio rural, urbano e as plataformas digitais."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true,
+  "10": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf": "http://web.archive.org/web/20261002034455/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf"
+ },
+ "hash": "fc3beed84868f003884ba83411a81d487dc6bf6a16810c7a9e87f93f4cc25a64",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F4375",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Frase resume fielmente o trecho; promessa."
+  },
+  "contra": {
+   "rotulo": "F4375",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Promessa fiel ao trecho; sem número ou resultado a mais."
+  },
+  "neutra": {
+   "rotulo": "F4375",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Inclusão produtiva de pessoas com deficiência e trabalho infantil estão no trecho. Promessa, peso 0."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-2218",
+  "verificador": {
+   "rotulo": "F4375",
+   "sustenta": true,
+   "motivo": "Inclusão produtiva de pessoas com deficiência e erradicação do trabalho infantil constam no trecho."
+  },
+  "espelho": {
+   "rotulo": "F4375",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Promete seguir com inclusão produtiva; compromisso futuro."
+  }
+ },
+ "juridica": {
+  "ok": true,
+  "motivo": "Promessa fiel ao trecho da p. 75; omite trabalho análogo ao escravo, mas não acrescenta nada. Sem acusação, juízo, terceiros ou pedido de voto.",
+  "hash": "e82be475a7a05325d0c19ae743445cdb0f56c33069b73b571ea9b828aae59671",
+  "em": "2026-10-12"
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

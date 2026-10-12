@@ -1,0 +1,91 @@
+{
+ "id": "lula-ambiente-energia-01",
+ "origem": "plano:pt-p64",
+ "candidato": "lula",
+ "tema": "ambiente",
+ "subtema": "energia",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Programa de Lula promete ampliar renováveis e armazenamento no setor elétrico",
+ "frase": "O programa de governo de Lula promete dar sequência à estratégia de aumentar a participação de fontes renováveis e ampliar os investimentos em armazenamento e flexibilidade do sistema elétrico.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [],
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Lula (PT), registrado no TSE, p. 64",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
+  "trecho": "Daremos sequência à estratégia de incrementar a participação de fontes renováveis, ampliar os investimentos em armazenamento e flexibilidade do sistema elétrico, e acelerar a substituição progressiva de combustíveis fósseis por biocombustíveis e combustíveis de baixa intensidade de carbono, incluindo derivados de hidrogênio."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true,
+  "10": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf": "http://web.archive.org/web/20261002034455/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf"
+ },
+ "hash": "c78103ff50c035dcd912db269eb03b34f53ee2dacfd21249e2f0bccb720264bf",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F7827",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Frase fiel ao trecho, resumindo parte dele."
+  },
+  "contra": {
+   "rotulo": "F7827",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Frase segue o trecho; sem resultado atribuído."
+  },
+  "neutra": {
+   "rotulo": "F7827",
+   "confere": true,
+   "certeza": 0.91,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Renováveis, armazenamento e flexibilidade do sistema elétrico estão no trecho. Frase com 30 palavras, no limite."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-2218",
+  "verificador": {
+   "rotulo": "F7827",
+   "sustenta": true,
+   "motivo": "Sequência à estratégia de renováveis e investimentos em armazenamento e flexibilidade do sistema elétrico constam no trecho."
+  },
+  "espelho": {
+   "rotulo": "F7827",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Promete ampliar renováveis e armazenamento; compromisso futuro."
+  }
+ },
+ "juridica": {
+  "ok": true,
+  "motivo": "Promessa fiel ao trecho da p. 64; sem juízo, neutra, sem acusação.",
+  "hash": "b5df49dfdbeb69102e5c90ae942484c9fc0470c609b2f87e4e45af11fd0582ce",
+  "em": "2026-10-12"
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

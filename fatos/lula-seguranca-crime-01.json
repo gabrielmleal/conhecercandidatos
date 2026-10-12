@@ -1,0 +1,91 @@
+{
+ "id": "lula-seguranca-crime-01",
+ "origem": "plano:pt-p27",
+ "candidato": "lula",
+ "tema": "seguranca",
+ "subtema": "crime",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Programa de Lula promete fortalecer o Brasil Contra o Crime Organizado",
+ "frase": "O programa de governo de Lula promete fortalecer o Programa Brasil Contra o Crime Organizado, com ações contra o tráfico de armas e a asfixia financeira de milícias.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [],
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Lula (PT), registrado no TSE, p. 27",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
+  "trecho": "Fortaleceremos o Programa Brasil Contra o Crime Organizado, lançado em maio de 2026. Em cooperação com estados e municípios, vamos avançar no enfrentamento ao tráfico de armas, munições, acessórios e explosivos; asfixia financeira do crime organizado e das milícias; qualificação da investigação de homicídios; retomada de territórios; e fortalecimento da segurança no sistema prisional."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true,
+  "10": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf": "http://web.archive.org/web/20261002034455/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf"
+ },
+ "hash": "c5727b89eb9d680efc794bf0d749a2c6ed282335ec0169d8722b7ded01da4413",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F4752",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Frase fiel ao trecho; nome do programa está no trecho."
+  },
+  "contra": {
+   "rotulo": "F4752",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Nome do programa apoiado pelo documento e trecho; ações citadas conferem."
+  },
+  "neutra": {
+   "rotulo": "F4752",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Nome do programa e as ações citadas estão no trecho; frase com 29 palavras. Promessa, peso 0."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-2218",
+  "verificador": {
+   "rotulo": "F4752",
+   "sustenta": true,
+   "motivo": "Nome do programa, tráfico de armas e asfixia financeira de milícias constam no trecho."
+  },
+  "espelho": {
+   "rotulo": "F4752",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Promete fortalecer programa contra crime organizado; ainda não aconteceu."
+  }
+ },
+ "juridica": {
+  "ok": true,
+  "motivo": "Promessa de programa registrado no TSE, fiel ao trecho da p. 27, sem acusação, juízo, pesquisa ou pedido de voto.",
+  "hash": "9e081aa71bfd081b2d38a896767eb52b643c4c16138803df47dd73e2bf0214c4",
+  "em": "2026-10-12"
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

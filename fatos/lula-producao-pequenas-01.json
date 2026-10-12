@@ -1,0 +1,103 @@
+{
+ "id": "lula-producao-pequenas-01",
+ "origem": "plano:pt-p57",
+ "candidato": "lula",
+ "tema": "producao",
+ "subtema": "pequenas",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Programa de Lula promete tornar as micro e pequenas empresas protagonistas da inovação",
+ "frase": "O programa de governo de Lula promete transformar as micro e pequenas empresas em protagonistas da inovação, das exportações e da transição verde, fortalecendo o empreendedorismo feminino.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [
+  "empresas",
+  "mulheres"
+ ],
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Lula (PT), registrado no TSE, p. 57",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
+  "trecho": "Vamos transformar as micro e pequenas empresas em protagonistas da inovação, das exportações e da transição verde, fortalecendo o empreendedorismo feminino."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true,
+  "10": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf": "http://web.archive.org/web/20261002034455/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf"
+ },
+ "hash": "5b765b63d35a6854820eb7c1763fb531d0cab6bc1899a1637f56eaae26bcb3d5",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5583",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [
+    "empresas",
+    "mulheres"
+   ],
+   "motivo": "Frase igual ao trecho; empreendedorismo feminino atinge mulheres."
+  },
+  "contra": {
+   "rotulo": "F5583",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [
+    "empresas",
+    "mulheres"
+   ],
+   "motivo": "Frase repete o trecho; empresas e empreendedorismo feminino nomeados."
+  },
+  "neutra": {
+   "rotulo": "F5583",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [
+    "empresas",
+    "mulheres"
+   ],
+   "motivo": "Frase igual ao trecho. Micro e pequenas empresas e empreendedorismo feminino são nomeados."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-2218",
+  "verificador": {
+   "rotulo": "F5583",
+   "sustenta": true,
+   "motivo": "Texto da frase reproduz o trecho: micro e pequenas empresas, inovação, exportações, transição verde, empreendedorismo feminino."
+  },
+  "espelho": {
+   "rotulo": "F5583",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Promete tornar micro e pequenas empresas protagonistas da inovação; futuro."
+  }
+ },
+ "juridica": {
+  "ok": true,
+  "motivo": "Promessa reproduz o trecho da p. 57; neutra, sem juízo.",
+  "hash": "72a4971f47b76b71fe228516085f95ec95fc7ce0a82a1483e288e0dbdb88c401",
+  "em": "2026-10-12"
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

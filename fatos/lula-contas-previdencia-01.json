@@ -1,0 +1,91 @@
+{
+ "id": "lula-contas-previdencia-01",
+ "origem": "plano:pt-p77",
+ "candidato": "lula",
+ "tema": "contas",
+ "subtema": "previdencia",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Programa de Lula promete concluir a modernização dos serviços previdenciários",
+ "frase": "O programa de governo de Lula promete concluir o processo de modernização e aprimoramento da prestação dos serviços previdenciários e buscar diversificar as fontes de custeio da Previdência.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [],
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Lula (PT), registrado no TSE, p. 77",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
+  "trecho": "Estamos seguros de que, no próximo mandato, concluiremos o processo de modernização e aprimoramento da prestação dos serviços previdenciários. Vamos continuar, em diálogo com a sociedade, a aprimorar a política de acesso e buscar reestruturar a base de financiamento da Previdência, buscando a diversidade das fontes de custeio."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true,
+  "10": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf": "http://web.archive.org/web/20261002034455/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf"
+ },
+ "hash": "77e2d78d95a5e3a224a4cbf4d3e721ede397fa4e489b0d4e5e17fb1bf5b6b1f7",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F3234",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Frase fiel ao trecho; texto não nomeia aposentados, só serviços previdenciários."
+  },
+  "contra": {
+   "rotulo": "F3234",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Fiel ao trecho; texto não nomeia aposentados, só serviços previdenciários."
+  },
+  "neutra": {
+   "rotulo": "F3234",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Modernização dos serviços e fontes de custeio estão no trecho. O texto não nomeia aposentados, então lista vazia."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-2218",
+  "verificador": {
+   "rotulo": "F3234",
+   "sustenta": true,
+   "motivo": "Concluir modernização dos serviços previdenciários e diversificar fontes de custeio constam no trecho."
+  },
+  "espelho": {
+   "rotulo": "F3234",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Promete concluir modernização dos serviços previdenciários; futuro."
+  }
+ },
+ "juridica": {
+  "ok": true,
+  "motivo": "Promessa fiel ao trecho da p. 77 (modernização e diversidade das fontes de custeio); neutra.",
+  "hash": "6cb1c3f8d79a81e00a6a9b17e359984021fafe22b06500affed2baefab5a0d13",
+  "em": "2026-10-12"
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

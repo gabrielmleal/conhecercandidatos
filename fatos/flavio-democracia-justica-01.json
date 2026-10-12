@@ -1,0 +1,91 @@
+{
+ "id": "flavio-democracia-justica-01",
+ "origem": "plano:pl-p65",
+ "candidato": "flavio",
+ "tema": "democracia",
+ "subtema": "justica",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Plano de Flávio propõe limitar decisões monocráticas do STF",
+ "frase": "O plano de governo de Flávio Bolsonaro propõe limitar as decisões monocráticas do STF, privilegiando as decisões colegiadas.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [],
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Flávio Bolsonaro (PL), registrado no TSE, p. 65",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "trecho": "Limitação das decisões monocráticas do STF, privilegiando as decisões colegiadas e presumindo a constitucionalidade do processo legislativo, para que a caneta de um só ministro não se sobreponha ao trabalho de todo o Congresso."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true,
+  "10": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf": "http://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf"
+ },
+ "hash": "f24c2a65be9ac6da0a064abed4665426160a8ffcc122493fddcc6856bfd7cdb7",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F6546",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Frase fiel ao trecho; sem juízo próprio."
+  },
+  "contra": {
+   "rotulo": "F6546",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Proposta fiel ao trecho, sem efeito afirmado."
+  },
+  "neutra": {
+   "rotulo": "F6546",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Limitar decisões monocráticas do STF e privilegiar as colegiadas estão no trecho. Promessa, peso 0."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-2218",
+  "verificador": {
+   "rotulo": "F6546",
+   "sustenta": true,
+   "motivo": "Limitar decisões monocráticas do STF privilegiando decisões colegiadas consta no trecho."
+  },
+  "espelho": {
+   "rotulo": "F6546",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Propõe limitar decisões monocráticas do STF; proposta futura."
+  }
+ },
+ "juridica": {
+  "ok": true,
+  "motivo": "Promessa do plano registrado no TSE; título e frase fiéis ao trecho da p. 65.",
+  "hash": "a3482b45fea0700cb3746c0c066e1386b949aaf158ea9c69484df1ccda38f84c",
+  "em": "2026-10-12"
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

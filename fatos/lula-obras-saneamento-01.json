@@ -1,0 +1,91 @@
+{
+ "id": "lula-obras-saneamento-01",
+ "origem": "plano:pt-p60",
+ "candidato": "lula",
+ "tema": "obras",
+ "subtema": "saneamento",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Programa de Lula promete ampliar o Programa Cisternas e o saneamento rural ecológico",
+ "frase": "O programa de governo de Lula promete ampliar os investimentos em saneamento rural ecológico e o Programa Cisternas em regiões com estresse hídrico.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [],
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Lula (PT), registrado no TSE, p. 60",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
+  "trecho": "Ampliar a busca pela universalização do acesso à água potável e ampliar os investimentos em saneamento rural ecológico. Ampliaremos o Programa Cisternas em regiões com estresse hídrico, garantindo água para consumo e produção."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true,
+  "10": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf": "http://web.archive.org/web/20261002034455/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf"
+ },
+ "hash": "ea78d7e9027b1231fb56816a83746318b337f9fb062e2450a58fdb4d235d0453",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F6608",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Frase e título batem com o trecho; Programa Cisternas aparece no trecho."
+  },
+  "contra": {
+   "rotulo": "F6608",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Frase e título seguem o trecho, sem resultado atribuído."
+  },
+  "neutra": {
+   "rotulo": "F6608",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Ampliar saneamento rural e Programa Cisternas está no trecho; sem número ou causa extra. Promessa, peso 0."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-2218",
+  "verificador": {
+   "rotulo": "F6608",
+   "sustenta": true,
+   "motivo": "Saneamento rural ecológico e Programa Cisternas em regiões com estresse hídrico constam no trecho."
+  },
+  "espelho": {
+   "rotulo": "F6608",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Promete ampliar Cisternas e saneamento rural; ainda não aconteceu."
+  }
+ },
+ "juridica": {
+  "ok": true,
+  "motivo": "Promessa fiel ao trecho da p. 60; neutra, sem juízo.",
+  "hash": "1987ab69dc015a410e76404229543398d34d4cf3a55ef4a801bb12cb1bae7805",
+  "em": "2026-10-12"
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

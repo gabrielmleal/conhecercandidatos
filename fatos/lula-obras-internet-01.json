@@ -1,0 +1,91 @@
+{
+ "id": "lula-obras-internet-01",
+ "origem": "plano:pt-p55",
+ "candidato": "lula",
+ "tema": "obras",
+ "subtema": "internet",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Programa de Lula promete reduzir o déficit de fibra óptica e ampliar o 5G no campo",
+ "frase": "O programa de governo de Lula promete reduzir o déficit de fibra óptica, que atinge 11% dos municípios, e ampliar o 5G no campo.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [],
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Lula (PT), registrado no TSE, p. 55",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
+  "trecho": "Vamos reduzir o déficit de fibra óptica que ainda atinge 11% dos municípios e ampliar o 5G no campo, com prioridade para Norte, Nordeste e periferias."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true,
+  "10": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf": "http://web.archive.org/web/20261002034455/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf"
+ },
+ "hash": "16c32160c5519cb295250577f144c3d01d246853880bdc4c848821943997e425",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F2227",
+   "confere": true,
+   "certeza": 0.94,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Número 11% e 5G estão no trecho."
+  },
+  "contra": {
+   "rotulo": "F2227",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Os 11% e o 5G no campo constam do trecho."
+  },
+  "neutra": {
+   "rotulo": "F2227",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Os 11% dos municípios e o 5G no campo estão no trecho. Promessa, peso 0."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-2218",
+  "verificador": {
+   "rotulo": "F2227",
+   "sustenta": true,
+   "motivo": "Déficit de fibra óptica que atinge 11% dos municípios e 5G no campo constam no trecho."
+  },
+  "espelho": {
+   "rotulo": "F2227",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Promete reduzir déficit de fibra óptica e ampliar 5G; compromisso futuro."
+  }
+ },
+ "juridica": {
+  "ok": true,
+  "motivo": "Promessa e número de 11% constam no trecho da p. 55; neutra.",
+  "hash": "b68ac8a19564f0ce5864c38d9e6963e11bd8e62ef6c99b0090fcb0ab78fe53c1",
+  "em": "2026-10-12"
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

@@ -1,0 +1,91 @@
+{
+ "id": "flavio-democracia-imprensa-01",
+ "origem": "plano:pl-p66",
+ "candidato": "flavio",
+ "tema": "democracia",
+ "subtema": "imprensa",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Plano de Flávio promete acabar com estruturas estatais que vigiem o que as pessoas dizem",
+ "frase": "O plano de governo de Flávio Bolsonaro promete acabar com qualquer estrutura estatal encarregada de vigiar, rotular ou punir o que as pessoas dizem.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [],
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Flávio Bolsonaro (PL), registrado no TSE, p. 66",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "trecho": "Vamos fazer um Tesouraço da Censura: acabar com qualquer estrutura estatal que funcione como um “Ministério da Verdade\", encarregada de vigiar, rotular ou punir o que as pessoas dizem."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true,
+  "10": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf": "http://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf"
+ },
+ "hash": "4e88e084e3509d358c9b87a1ce6f7827637acd514331f42580db32bb0e561ed0",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F3928",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Frase reproduz a promessa sem os rótulos retóricos do trecho; nada acrescentado nem injusto."
+  },
+  "contra": {
+   "rotulo": "F3928",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Frase reproduz a promessa em tom neutro, sem adjetivo nem acréscimo ao trecho."
+  },
+  "neutra": {
+   "rotulo": "F3928",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Reproduz o trecho sem o rótulo retórico, clara, sem adjetivo de juízo e dentro de 30 palavras."
+  },
+  "modelo": "opus",
+  "rodada": "20261012-2218",
+  "verificador": {
+   "rotulo": "F3928",
+   "sustenta": true,
+   "motivo": "Trecho promete acabar com estrutura estatal encarregada de vigiar, rotular ou punir o que as pessoas dizem; omissões não alteram sentido."
+  },
+  "espelho": {
+   "rotulo": "F3928",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Compromisso do plano de governo de extinguir estruturas estatais de vigilância do discurso; ainda não aconteceu."
+  }
+ },
+ "juridica": {
+  "ok": true,
+  "motivo": "Promessa do plano registrado no TSE; frase reproduz o trecho da p. 66 sem acusar terceiros nem acrescentar juízo.",
+  "hash": "f395f75f0c3d73fabc5570de59d10f4488ccb1b75f59b95188875ece453d241a",
+  "em": "2026-10-12"
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

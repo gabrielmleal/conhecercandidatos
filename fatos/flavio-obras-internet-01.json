@@ -1,0 +1,91 @@
+{
+ "id": "flavio-obras-internet-01",
+ "origem": "plano:pl-p24",
+ "candidato": "flavio",
+ "tema": "obras",
+ "subtema": "internet",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Plano de Flávio promete levar conectividade a locais de baixa cobertura",
+ "frase": "O plano de governo de Flávio Bolsonaro promete levar conectividade às localidades de baixa cobertura, priorizando escolas, áreas rurais e regiões de fronteira.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [],
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Flávio Bolsonaro (PL), registrado no TSE, p. 24",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "trecho": "E vamos levar conectividade às localidades de baixa cobertura, priorizando escolas, áreas rurais e regiões de fronteira"
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true,
+  "10": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf": "http://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf"
+ },
+ "hash": "cc8944559f48b6b426430ba6024e7a2e0bd9b96293ccd78319d181f91bb6b86f",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F3112",
+   "confere": true,
+   "certeza": 0.94,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Frase repete o trecho."
+  },
+  "contra": {
+   "rotulo": "F3112",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Promessa fiel ao trecho."
+  },
+  "neutra": {
+   "rotulo": "F3112",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Conectividade em locais de baixa cobertura, com prioridade a escolas, áreas rurais e fronteira, está no trecho."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-2218",
+  "verificador": {
+   "rotulo": "F3112",
+   "sustenta": true,
+   "motivo": "Conectividade a localidades de baixa cobertura, priorizando escolas, áreas rurais e fronteira, consta no trecho."
+  },
+  "espelho": {
+   "rotulo": "F3112",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Promete levar conectividade a locais de baixa cobertura; futuro."
+  }
+ },
+ "juridica": {
+  "ok": true,
+  "motivo": "Promessa do plano registrado no TSE; título e frase fiéis ao trecho da p. 24.",
+  "hash": "70d1659130530fc6e9f65250e73c43ef490afdb5f4ff57ae4e59d522ea9e6cee",
+  "em": "2026-10-12"
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

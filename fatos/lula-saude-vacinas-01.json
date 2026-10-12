@@ -1,0 +1,91 @@
+{
+ "id": "lula-saude-vacinas-01",
+ "origem": "plano:pt-p36",
+ "candidato": "lula",
+ "tema": "saude",
+ "subtema": "vacinas",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Programa de Lula promete ampliar o acesso e a adesão à vacinação",
+ "frase": "O programa de governo de Lula promete manter os esforços para ampliar o acesso e a adesão da população à vacinação em todo o território nacional.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [],
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Lula (PT), registrado no TSE, p. 36",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
+  "trecho": "Vamos manter todos os esforços para continuar ampliando o acesso e a adesão da população à vacinação em todo o território nacional, com campanhas nacionais e ações em locais de fácil acesso e grande visibilidade."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true,
+  "10": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf": "http://web.archive.org/web/20261002034455/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf"
+ },
+ "hash": "138c6cda16bf34bb518f81b1ebce5e084d2a8a0e5490846f7b7e5ae80150dbe2",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F9543",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Frase fiel ao trecho; promessa."
+  },
+  "contra": {
+   "rotulo": "F9543",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Promessa fiel ao trecho, sem número ou resultado."
+  },
+  "neutra": {
+   "rotulo": "F9543",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Ampliar acesso e adesão à vacinação em todo o território está no trecho. Promessa, peso 0."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-2218",
+  "verificador": {
+   "rotulo": "F9543",
+   "sustenta": true,
+   "motivo": "Manter esforços para ampliar acesso e adesão à vacinação em todo o território nacional constam no trecho."
+  },
+  "espelho": {
+   "rotulo": "F9543",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Promete ampliar acesso e adesão à vacinação; compromisso futuro."
+  }
+ },
+ "juridica": {
+  "ok": true,
+  "motivo": "Promessa fiel ao trecho da p. 36; neutra, sem juízo.",
+  "hash": "33ca48dc3e3f289be680b5110017983628b9ba6cf5cae9a476f005daeed558f1",
+  "em": "2026-10-12"
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}
