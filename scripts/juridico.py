@@ -44,7 +44,7 @@ def item(f, caminho):
 
 def lotes(onde):
     if onde == "fatos":
-        alvos = [p for p in sorted((RAIZ / "fatos").glob("*.json")) if not valida(ler(p))]
+        alvos = [p for p in sorted((RAIZ / "fatos").glob("*.json")) if not valida(ler(p)) and not (RAIZ / "rascunhos" / p.name).exists()]
     else:
         alvos = [p for p in sorted((RAIZ / "rascunhos").glob("*.json")) if pronto(ler(p).get("caixas", {}))]
     rodada = "juridico-" + datetime.datetime.now().strftime("%Y%m%d-%H%M")

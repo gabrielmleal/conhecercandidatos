@@ -1,0 +1,92 @@
+{
+ "id": "flavio-candidato-biografia-01",
+ "origem": "biografia",
+ "candidato": "flavio",
+ "tema": "candidato",
+ "subtema": "biografia",
+ "lente": "fez",
+ "data": "1981-04-30",
+ "titulo": "Flávio Bolsonaro nasceu em Resende (RJ), em 1981",
+ "frase": "Flávio Bolsonaro nasceu em 30 de abril de 1981, em Resende, no Rio de Janeiro, segundo o perfil dele no Senado.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [],
+ "ancora": {
+  "orgao": "Senado Federal",
+  "documento": "Perfil do senador Flávio Bolsonaro",
+  "link": "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5894",
+  "trecho": "Nome civil: Flávio Nantes Bolsonaro Data de Nascimento: 30/04/1981 Naturalidade: Resende (RJ)"
+ },
+ "fontes": [
+  {
+   "veiculo": "Assembleia Legislativa do Estado do Rio de Janeiro",
+   "nivel": "A",
+   "link": "https://www.alerj.rj.gov.br/Deputados/PerfilDeputado/275?Legislatura=18",
+   "trecho": "NASCIMENTO 30 de abril de 1981"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www25.senado.leg.br/web/senadores/senador/-/perfil/5894": null,
+  "https://www.alerj.rj.gov.br/Deputados/PerfilDeputado/275?Legislatura=18": null
+ },
+ "hash": "b0b71e09359dce319caecb8a9ab177780ba4b663b5e5d7e1aa7a15f15018b81f",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F7195",
+   "confere": true,
+   "certeza": 0.97,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Data de nascimento e naturalidade batem com os dois trechos e com a fonte, o perfil do Senado."
+  },
+  "contra": {
+   "rotulo": "F7195",
+   "confere": true,
+   "certeza": 0.97,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Data e naturalidade batem com o perfil do Senado; fato neutro."
+  },
+  "neutra": {
+   "rotulo": "F7195",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Data e naturalidade (Resende, RJ) constam nos dois trechos; frase curta e sem adjetivo."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-1330",
+  "verificador": {
+   "rotulo": "F7195",
+   "sustenta": true,
+   "motivo": "Data, cidade e UF de nascimento aparecem nos dois trechos."
+  },
+  "espelho": {
+   "rotulo": "F7195",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data e local de nascimento, dado biográfico sem lado bom ou ruim."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

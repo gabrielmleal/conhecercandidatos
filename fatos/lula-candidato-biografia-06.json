@@ -1,0 +1,99 @@
+{
+ "id": "lula-candidato-biografia-06",
+ "origem": "biografia",
+ "candidato": "lula",
+ "tema": "candidato",
+ "subtema": "biografia",
+ "lente": "fez",
+ "data": "1980-02-10",
+ "titulo": "Lula é do PT desde a fundação, em 1980",
+ "frase": "Lula é do PT, Partido dos Trabalhadores, que fundou em 10 de fevereiro de 1980, segundo a Biblioteca da Presidência.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [],
+ "ancora": {
+  "orgao": "Presidência da República",
+  "documento": "Biografia de Luiz Inácio Lula da Silva, Biblioteca da Presidência da República",
+  "link": "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biblioteca-da-pr/ex-presidentes/luiz-inacio-lula-da-silva-2/biografia",
+  "trecho": "Em 10 de fevereiro de 1980, Lula fundou o PT, juntamente com outros sindicalistas, intelectuais, políticos e representantes de movimentos sociais, como lideranças rurais e religiosas."
+ },
+ "fontes": [
+  {
+   "veiculo": "Câmara dos Deputados",
+   "nivel": "A",
+   "link": "https://www.camara.leg.br/deputados/139289/biografia",
+   "trecho": "Atividades Partidárias: Presidente, PT, desde sua fundação até 1988"
+  },
+  {
+   "veiculo": "Senado Federal",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente",
+   "trecho": "A disputa pela Presidência da República terá um segundo turno com Luiz Inácio Lula da Silva (PT), que busca a reeleição, e o senador Flávio Bolsonaro (PL)."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biblioteca-da-pr/ex-presidentes/luiz-inacio-lula-da-silva-2/biografia": "http://web.archive.org/web/20261012160605/https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biblioteca-da-pr/ex-presidentes/luiz-inacio-lula-da-silva-2/biografia",
+  "https://www.camara.leg.br/deputados/139289/biografia": "http://web.archive.org/web/20261004061719/https://www.camara.leg.br/deputados/139289/biografia",
+  "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente": "http://web.archive.org/web/20261012161809/https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente"
+ },
+ "hash": "f3595b75e14b370d220ac3c9980c4a246400ea0bd5d98ee00b3c15ec72f9145a",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5097",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Fundação em 10 de fevereiro de ano A, presidência do partido desde a fundação e candidatura atual pelo Partido Y estão nos trechos."
+  },
+  "contra": {
+   "rotulo": "F5097",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Fundação, presidência do partido e candidatura batem com os trechos; 'desde a fundação' decorre deles. Nada favorece indevidamente."
+  },
+  "neutra": {
+   "rotulo": "F5097",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Fundação em 10 de fevereiro e presidência do partido estão nos trechos; frase curta e sem juízo."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-1330",
+  "verificador": {
+   "rotulo": "F5097",
+   "sustenta": true,
+   "motivo": "Fundação em 10 de fevereiro de ano A, presidência desde a fundação e candidatura pelo Partido Y estão nos trechos."
+  },
+  "espelho": {
+   "rotulo": "F5097",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Filiação partidária e data de fundação, informação sem lado bom ou ruim."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

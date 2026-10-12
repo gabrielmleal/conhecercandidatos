@@ -1,0 +1,80 @@
+{
+ "id": "lula-social-moradia-01",
+ "origem": "plano:pt-p45",
+ "candidato": "lula",
+ "tema": "social",
+ "subtema": "moradia",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Programa de Lula promete manter e ampliar o Minha Casa Minha Vida",
+ "frase": "O programa de governo de Lula promete manter e ampliar o Minha Casa Minha Vida no próximo mandato, para todas as faixas de renda.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Lula (PT), registrado no TSE, p. 45",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
+  "trecho": "Esta equação bem-sucedida continuará. O MCMV será mantido e ampliado no próximo mandato, para todas as faixas de renda e preservando seu foco nas famílias de mais baixa renda."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf": "http://web.archive.org/web/20261002034455/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf"
+ },
+ "hash": "7c2168ea549e40b89622fee480b06717800955739141b6f9bab621c902cde3d4",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F9408",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Frase fiel; omite o foco nas famílias de menor renda, mas nada é afirmado a mais."
+  },
+  "contra": {
+   "rotulo": "F9408",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Promessa fiel ao trecho, sem número, causa ou juízo a mais; nada favorece indevidamente."
+  },
+  "neutra": {
+   "rotulo": "F9408",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Frase fiel ao trecho, sem adjetivo de juízo, dentro de 30 palavras; ainda não aconteceu."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-1730",
+  "verificador": {
+   "rotulo": "F9408",
+   "sustenta": true,
+   "motivo": "Título e frase sustentados pelo trecho, sem número, data ou causa a mais."
+  },
+  "espelho": {
+   "rotulo": "F9408",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Compromisso de programa de governo, ainda não realizado."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

@@ -1,0 +1,105 @@
+{
+ "id": "lula-candidato-biografia-02",
+ "origem": "biografia",
+ "candidato": "lula",
+ "tema": "candidato",
+ "subtema": "biografia",
+ "lente": "fez",
+ "data": "2022-08-06",
+ "titulo": "Lula: ensino fundamental completo no Tribunal Superior Eleitoral, primário na Câmara",
+ "frase": "No Tribunal Superior Eleitoral, ensino fundamental completo; na Câmara, primário. Lula obteve vaga no curso de torneiro mecânico do Serviço Nacional de Aprendizagem Industrial, de 3 anos.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [],
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Requerimento de Registro de Candidatura de Luiz Inácio Lula da Silva, eleição de 2022",
+  "link": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=application/pdf&path=/candidaturas/oficial/2022/BR/BR/544/candidatos/893498/rrc.pdf",
+  "trecho": "grau de instrução ensino fundamental completo, Torneiro Mecânico"
+ },
+ "fontes": [
+  {
+   "veiculo": "Tribunal Superior Eleitoral",
+   "nivel": "A",
+   "link": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=application/pdf&path=/candidaturas/oficial/2022/BR/BR/544/candidatos/893498/rrc.pdf",
+   "trecho": "Enviado eletronicamente à Justiça Eleitoral em: 06/08/2022"
+  },
+  {
+   "veiculo": "Câmara dos Deputados",
+   "nivel": "A",
+   "link": "https://www.camara.leg.br/deputados/139289/biografia",
+   "trecho": "Profissões: Metalúrgico Escolaridade: Primário"
+  },
+  {
+   "veiculo": "Presidência da República",
+   "nivel": "A",
+   "link": "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biblioteca-da-pr/ex-presidentes/luiz-inacio-lula-da-silva-2/biografia",
+   "trecho": "Lula transferiu-se depois para a Fábrica de Parafusos Marte e obteve uma vaga no curso de torneiro mecânico do Senai - Serviço Nacional de Aprendizagem Industrial. O curso durou 3 anos e Lula tornou-se metalúrgico."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=application/pdf&path=/candidaturas/oficial/2022/BR/BR/544/candidatos/893498/rrc.pdf": "http://web.archive.org/web/20250119193949/https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=application/pdf&path=/candidaturas/oficial/2022/BR/BR/544/candidatos/893498/rrc.pdf",
+  "https://www.camara.leg.br/deputados/139289/biografia": "http://web.archive.org/web/20261004061719/https://www.camara.leg.br/deputados/139289/biografia",
+  "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biblioteca-da-pr/ex-presidentes/luiz-inacio-lula-da-silva-2/biografia": null
+ },
+ "hash": "129c53562e9f9f409526266a5742e17138e015e0213ef931aebb88629fb46e42",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F4536",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Os dois graus de instrução e o curso de 3 anos estão nos trechos, cada um atribuído à sua fonte; sem juízo."
+  },
+  "contra": {
+   "rotulo": "F4536",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Escolaridade em cada órgão e curso de 3 anos estão nos trechos. Nada favorece além do que provam."
+  },
+  "neutra": {
+   "rotulo": "F4536",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Os dois graus de instrução vêm atribuídos ao TSE e à Câmara; curso do Senai e duração de 3 anos constam na biografia."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-1344",
+  "verificador": {
+   "rotulo": "F4536",
+   "sustenta": true,
+   "motivo": "TSE diz ensino fundamental completo, Câmara diz primário, e a Presidência cita a vaga no curso de torneiro mecânico do Senai, que durou 3 anos."
+  },
+  "espelho": {
+   "rotulo": "F4536",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Escolaridade declarada e vaga em curso técnico; informação biográfica sem lado bom ou ruim."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

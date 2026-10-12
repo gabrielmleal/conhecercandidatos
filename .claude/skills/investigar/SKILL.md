@@ -29,11 +29,12 @@ Formato do rascunho:
   "tipo": "problema",
   "peso": 2,
   "marco": false,
+  "para_quem": [],
   "ancora": {"orgao": "IBGE", "documento": "IPCA de dezembro de 2021", "link": "https://...", "trecho": "..."},
   "fontes": [{"veiculo": "Folha de S.Paulo", "nivel": "C", "link": "https://...", "trecho": "..."}]
 }
 ```
 
-`lente`: `fez`, `prometeu`, `disse` ou `votou`. `data`: `AAAA-MM-DD` ou `AAAA-MM`, do resultado medido ou do ato oficial. `marco`: posse, eleição, crise nacional oficial, lei ou emenda nacional, decisão de tribunal superior sobre candidato, família ou aliado, ou recorde em série oficial.
+`lente`: `fez`, `prometeu`, `disse` ou `votou`. `data`: `AAAA-MM-DD` ou `AAAA-MM`, do resultado medido ou do ato oficial. `para_quem`: chaves de `dados/grupos.json` que o trecho nomeia ou descreve como atingidos, para o bem ou para o mal; lista vazia quando não diz. `marco`: posse, eleição, crise nacional oficial, lei ou emenda nacional, decisão de tribunal superior sobre candidato, família ou aliado, ou recorde em série oficial.
 
 Você escreve rascunhos e nunca os aprova: quem julga são as óticas, em sessões separadas.

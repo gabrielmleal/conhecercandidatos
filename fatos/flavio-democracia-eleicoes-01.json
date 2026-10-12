@@ -1,0 +1,80 @@
+{
+ "id": "flavio-democracia-eleicoes-01",
+ "origem": "plano:pl-p66",
+ "candidato": "flavio",
+ "tema": "democracia",
+ "subtema": "eleicoes",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Plano de Flávio propõe o fim da reeleição para presidente",
+ "frase": "O plano de governo de Flávio Bolsonaro propõe o fim da reeleição para o cargo de Presidente da República.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Flávio Bolsonaro (PL), registrado no TSE, p. 66",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "trecho": "E propomos o fim da reeleição para o cargo de Presidente da República. Ao contrário do PT, o nosso projeto é de país, não de poder."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf": "http://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf"
+ },
+ "hash": "421a31113371dee26efa309a04cb08e8a751deef2e8d6fc372af68645da324dd",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F6413",
+   "confere": true,
+   "certeza": 0.96,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Frase fiel ao trecho; proposta futura."
+  },
+  "contra": {
+   "rotulo": "F6413",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Promessa fiel ao trecho, sem número, causa ou juízo a mais; nada favorece indevidamente."
+  },
+  "neutra": {
+   "rotulo": "F6413",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Frase fiel ao trecho, sem adjetivo de juízo, dentro de 30 palavras; ainda não aconteceu."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-1730",
+  "verificador": {
+   "rotulo": "F6413",
+   "sustenta": true,
+   "motivo": "Título e frase sustentados pelo trecho, sem número, data ou causa a mais."
+  },
+  "espelho": {
+   "rotulo": "F6413",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Compromisso de programa de governo, ainda não realizado."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

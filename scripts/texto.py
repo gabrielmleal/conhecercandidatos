@@ -69,7 +69,7 @@ def normalizar(texto):
     texto = re.sub(r"[“”«»]", '"', texto)
     texto = re.sub(r"[‘’]", "'", texto)
     texto = re.sub(r"[‐-‒–—]", "-", texto)
-    return re.sub(r"\s+", " ", texto).strip().lower()
+    return re.sub(r"[\s\x00-\x1f\x7f]+", " ", texto).strip().lower()
 
 
 def contem(texto, trecho):

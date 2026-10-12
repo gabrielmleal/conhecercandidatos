@@ -1,0 +1,80 @@
+{
+ "id": "lula-educacao-medio-01",
+ "origem": "plano:pt-p32",
+ "candidato": "lula",
+ "tema": "educacao",
+ "subtema": "medio",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Programa de Lula promete fortalecer o Pé-de-Meia",
+ "frase": "O programa de governo de Lula promete dar continuidade e fortalecer o Pé-de-Meia, para que jovens pobres não deixem a escola por falta de renda.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Lula (PT), registrado no TSE, p. 32",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
+  "trecho": "Vamos dar continuidade e fortalecer o Pé-de-Meia. Nenhum jovem em situação de pobreza ou vulnerabilidade social no Brasil deve deixar a escola por falta de renda."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf": null
+ },
+ "hash": "ac35a7a3757357c59c71a6a9132915f1ecd18893416d303813331a9ff9e7c6a5",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F6195",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Frase fiel ao trecho; propósito vem do próprio texto."
+  },
+  "contra": {
+   "rotulo": "F6195",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Promessa fiel ao trecho, sem número, causa ou juízo a mais; nada favorece indevidamente."
+  },
+  "neutra": {
+   "rotulo": "F6195",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Frase fiel ao trecho, sem adjetivo de juízo, dentro de 30 palavras; ainda não aconteceu."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-1730",
+  "verificador": {
+   "rotulo": "F6195",
+   "sustenta": true,
+   "motivo": "Título e frase sustentados pelo trecho, sem número, data ou causa a mais."
+  },
+  "espelho": {
+   "rotulo": "F6195",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Compromisso de programa de governo, ainda não realizado."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}
