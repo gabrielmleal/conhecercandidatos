@@ -61,7 +61,7 @@ def para_site(fato, formas):
         "mk": 2 if fato["candidato"] == "brasil" and fato.get("marco") else 1 if fato.get("marco") else 0,
         "tipo": TIPO[fato["tipo"]], "w": peso(fato), "tit": fato["titulo"], "txt": marcar(fato["frase"], formas),
         "orgao": fato["ancora"]["orgao"], "doc": fato["ancora"].get("documento", ""), "link": fonte(fato), "arq": int("web.archive.org" in fonte(fato)),
-        "fontes": outras(fato), "conf": data_br(fato["conferido_em"]),
+        "fontes": outras(fato), "conf": data_br(fato["conferido_em"]), "g": fato.get("para_quem", []),
     }
 
 
@@ -130,6 +130,7 @@ def montar():
     dados = {
         "conferido": conferido,
         "temas": {k: {"nome": v["nome"], "curto": CURTO[k], "governo": v["governo"], "subtemas": v["subtemas"]} for k, v in temas.items()},
+        "grupos": json.loads((RAIZ / "dados/grupos.json").read_text(encoding="utf-8")),
         "fatos": [para_site(f, formas) for f in fatos],
         "termos": {k: [v["nome"], marcar(v["definicao"], {f: t for f, t in formas.items() if t != k})] for k, v in termos.items()},
     }

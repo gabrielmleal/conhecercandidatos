@@ -1,0 +1,91 @@
+{
+ "id": "flavio-candidato-biografia-03",
+ "origem": "biografia",
+ "candidato": "flavio",
+ "tema": "candidato",
+ "subtema": "biografia",
+ "lente": "fez",
+ "data": "1998-03",
+ "titulo": "Flávio Bolsonaro foi estagiário no Instituto Militar de Engenharia e na Defensoria Pública",
+ "frase": "Foi estagiário no Instituto Militar de Engenharia em 1998 e na Defensoria Pública do Rio, no Núcleo de Sistema Penitenciário, de 2000 a 2001.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [],
+ "ancora": {
+  "orgao": "Assembleia Legislativa do Estado do Rio de Janeiro",
+  "documento": "Ficha do deputado Flávio Bolsonaro",
+  "link": "https://www.alerj.rj.gov.br/Deputados/PerfilDeputado/275?Legislatura=18",
+  "trecho": "Estágios Estagiário no Instituto Militar de Engenharia - IME Mar 1998 / Dez 1998 Defensoria Pública Geral do Estado do Rio de Janeiro - DPGE Ago 2000 / Out 2001 (Núcleo de Sistema Penitenciário)"
+ },
+ "fontes": [
+  {
+   "veiculo": "Assembleia Legislativa do Estado do Rio de Janeiro",
+   "nivel": "A",
+   "link": "https://www.alerj.rj.gov.br/Deputados/PerfilDeputado/275?Legislatura=18",
+   "trecho": "Estagiário no Instituto Militar de Engenharia - IME Mar 1998 / Dez 1998"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.alerj.rj.gov.br/Deputados/PerfilDeputado/275?Legislatura=18": "http://web.archive.org/web/20261012153054/https://www.alerj.rj.gov.br/Deputados/PerfilDeputado/275?Legislatura=18"
+ },
+ "hash": "1586f36e03d774715e4b030124d40af50c2376c90d02bf910c75cdb55de2d071",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F8647",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Título e frase repetem os dois estágios e as datas dos trechos, sem adjetivo nem número extra. Biografia sem lado bom ou ruim."
+  },
+  "contra": {
+   "rotulo": "F8647",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Biografia neutra, sem número nem causa; estágios, períodos e núcleo estão nos trechos. Nada o favorece indevidamente."
+  },
+  "neutra": {
+   "rotulo": "F8647",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Frase com 27 palavras e título dizem só o que os trechos dizem; biografia sem lado bom ou ruim."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-1439",
+  "verificador": {
+   "rotulo": "F8647",
+   "sustenta": true,
+   "motivo": "Os dois trechos da Assembleia confirmam o estágio no IME em ano A e na Defensoria (DPGE), Núcleo de Sistema Penitenciário, de ano B a ano C."
+  },
+  "espelho": {
+   "rotulo": "F8647",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Informação biográfica sobre estágios passados, sem lado bom ou ruim nem efeito medido."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

@@ -66,6 +66,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,[tabindex]:focus-visibl
 .pxvistos{font-size:.8rem;color:var(--m-mut);display:flex;align-items:center;gap:8px}
 .pxvistos i{display:block;width:90px;height:6px;border-radius:3px;background:var(--m-s2);overflow:hidden}
 .pxvistos i b{display:block;height:100%;background:var(--m-ink);border-radius:3px}
+.pxtodos{display:inline-flex;align-items:center;gap:6px;border:0;background:none;color:var(--m-ink);font-weight:700;font-size:.92rem;min-height:44px;padding:0 12px;text-decoration:underline;text-underline-offset:3px}
 
 .pxrow{display:flex;align-items:center;gap:12px;width:100%;text-align:left;border:0;background:var(--m-s1);border-radius:14px;padding:12px 14px;margin-bottom:8px;min-height:56px}
 .pxrow:active{transform:scale(.99)}
@@ -186,6 +187,7 @@ a:focus-visible,button:focus-visible,input:focus-visible,[tabindex]:focus-visibl
 .rs button>span{flex:1;min-width:0}
 .rs small{display:block;font-size:.78rem;color:var(--m-mut);margin-top:2px}
 .rs i{transform:translateY(-1px)}
+.rs .quem{flex:none;align-self:flex-start}
 .fimbtn{display:grid;gap:8px;margin-top:auto;padding-top:14px}
 .fimbtn button{display:flex;align-items:center;justify-content:space-between;border:0;border-radius:16px;background:var(--m-s2);padding:14px 16px;font-weight:700;font-size:1rem;min-height:56px;text-align:left}
 .fimbtn button.prim{background:var(--m-ink);color:var(--m-bg)}
@@ -218,3 +220,24 @@ a:focus-visible,button:focus-visible,input:focus-visible,[tabindex]:focus-visibl
 .pagina .partilha{border:0;border-radius:999px;background:var(--m-ink);color:var(--m-bg);font-weight:700;min-height:44px;padding:0 16px}
 .pagina blockquote{margin:12px 0;padding:10px 14px;border-left:4px solid var(--m-line2);background:var(--m-s1);border-radius:0 10px 10px 0}
 .pagina .ir{display:inline-flex;align-items:center;min-height:48px;padding:0 18px;border-radius:14px;background:var(--m-ink);color:var(--m-bg);font-weight:700;text-decoration:none;margin:8px 0}
+.abas{display:grid;grid-template-columns:1fr 1fr;gap:4px;background:var(--m-s2);border-radius:12px;padding:4px;margin:0 0 10px}
+.abas button{border:0;background:none;border-radius:9px;min-height:44px;font-weight:700;color:var(--m-mut)}
+.abas button[aria-pressed="true"]{background:var(--m-s1);color:var(--m-ink);box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.abas small{font-weight:400;font-size:.85rem}
+.tfiltro{align-self:flex-start;display:inline-flex;align-items:center;gap:6px;border:1.5px solid var(--m-line2);background:var(--m-s1);border-radius:999px;min-height:44px;padding:0 14px;margin:0 0 12px;font-size:.92rem}
+.tfiltro.on{background:var(--m-ink);color:var(--m-bg);border-color:var(--m-ink)}
+.sb{border:1px solid var(--m-line);background:var(--m-s2);border-radius:14px;margin:0 0 8px}
+.sb h3{margin:0;font-size:1rem}
+.sb h3 button{display:flex;align-items:center;gap:10px;width:100%;border:0;background:none;padding:12px;min-height:52px;text-align:left;border-radius:14px}
+.sb h3 b{flex:1}
+.sb h3 small{color:var(--m-mut);font-weight:400;font-size:.85rem;white-space:nowrap}
+.sb h3 .ico{transition:transform .2s var(--mola)}
+.sb h3 button[aria-expanded="true"] .ico{transform:rotate(180deg)}
+.sbd{padding:0 10px 10px}
+.sbd .rs button{background:var(--m-s1)}
+.lane{display:flex;align-items:center;gap:8px;font-size:.85rem;font-weight:700;color:var(--m-mut);margin:8px 2px 6px}
+.lane .quem{width:24px;height:24px;font-size:.7rem}
+.vz{margin:0 0 6px;color:var(--m-mut);font-size:.88rem}
+@media (prefers-reduced-motion:reduce){.sb h3 .ico{transition:none}}
+.qn{display:inline-flex;align-items:center;gap:4px;margin-left:10px;color:var(--m-ink);font-weight:700}
+.qn .quem{width:18px;height:18px;font-size:.55rem;border-width:1.5px}

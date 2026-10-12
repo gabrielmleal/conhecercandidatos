@@ -1,0 +1,92 @@
+{
+ "id": "lula-candidato-biografia-03",
+ "origem": "biografia",
+ "candidato": "lula",
+ "tema": "candidato",
+ "subtema": "biografia",
+ "lente": "fez",
+ "data": "1969",
+ "titulo": "Lula: de suplente a presidente do Sindicato dos Metalúrgicos",
+ "frase": "A Câmara lista Lula como metalúrgico. No Sindicato dos Metalúrgicos, foi suplente em 1969, primeiro-secretário em 1972 e presidente em 1975.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [],
+ "ancora": {
+  "orgao": "Presidência da República",
+  "documento": "Biografia de Luiz Inácio Lula da Silva, Biblioteca da Presidência da República",
+  "link": "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biblioteca-da-pr/ex-presidentes/luiz-inacio-lula-da-silva-2/biografia",
+  "trecho": "Em 1969, o Sindicato dos Metalúrgicos de São Bernardo do Campo e Diadema fez eleição para escolher uma nova diretoria e Lula foi eleito suplente. Na eleição seguinte, em 1972, tornou-se primeiro-secretário. Em 1975, foi eleito presidente do sindicato com 92 por cento dos votos, passando a representar 100 mil trabalhadores."
+ },
+ "fontes": [
+  {
+   "veiculo": "Câmara dos Deputados",
+   "nivel": "A",
+   "link": "https://www.camara.leg.br/deputados/139289/biografia",
+   "trecho": "Profissões: Metalúrgico"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biblioteca-da-pr/ex-presidentes/luiz-inacio-lula-da-silva-2/biografia": "http://web.archive.org/web/20261012160605/https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biblioteca-da-pr/ex-presidentes/luiz-inacio-lula-da-silva-2/biografia",
+  "https://www.camara.leg.br/deputados/139289/biografia": "http://web.archive.org/web/20261004061719/https://www.camara.leg.br/deputados/139289/biografia"
+ },
+ "hash": "ef43509cdb690d9e527b15f9017102636fa21783ae10a9c21578dd511456ed3f",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F3588",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Cargos e anos batem com a biografia e a profissão com a Câmara; omitir os 92% não distorce fato neutro."
+  },
+  "contra": {
+   "rotulo": "F3588",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Cargos e anos batem com a biografia e a Câmara; frase até omite os 92 por cento, sem exagero favorável."
+  },
+  "neutra": {
+   "rotulo": "F3588",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Cargos e anos batem com o trecho da Presidência; profissão bate com a Câmara; 25 palavras, claro."
+  },
+  "modelo": "opus",
+  "rodada": "20261012-1344",
+  "verificador": {
+   "rotulo": "F3588",
+   "sustenta": true,
+   "motivo": "Trecho da Presidência dá suplente em ano A, primeiro-secretário em ano B, presidente em ano C; Câmara lista profissão metalúrgico."
+  },
+  "espelho": {
+   "rotulo": "F3588",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Histórico de cargos no sindicato entre 1969 e 1975, informação biográfica sem lado bom ou ruim."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

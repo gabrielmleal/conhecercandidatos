@@ -9,6 +9,7 @@ import sys
 RAIZ = pathlib.Path(__file__).resolve().parent.parent
 LOTES = RAIZ / "registros/lotes"
 OTICAS = ["favor", "contra", "neutra"]
+GRUPOS = list(json.loads((RAIZ / "dados/grupos.json").read_text(encoding="utf-8")))
 PESSOAS = ["Luiz Inácio Lula da Silva", "Lula", "Lulinha", "Fábio Luís", "Janja", "Rosângela da Silva", "Flávio Bolsonaro", "Flávio Nantes Bolsonaro", "Flávio",
            "Jair Messias Bolsonaro", "Jair Bolsonaro", "Jair", "Bolsonaro", "Michelle Bolsonaro", "Michelle", "Eduardo Bolsonaro", "Carlos Bolsonaro", "Renan Bolsonaro",
            "Geraldo Alckmin", "Alckmin", "Alfredo Gaspar", "Hamilton Mourão", "Mourão", "Dilma Rousseff", "Dilma", "Michel Temer", "Temer", "Fernando Haddad", "Haddad",
@@ -70,7 +71,7 @@ def item_vendado(r):
     if "definicao" in r:
         return {"rotulo": r["rotulo"], "e": "definicao", "termo": vendar(r["nome"], troca, sorteio), "definicao": vendar(r["definicao"], troca, sorteio)}, troca
     item = {"rotulo": r["rotulo"], "e": "fato", "titulo": vendar(r["titulo"], troca, sorteio), "frase": vendar(r["frase"], troca, sorteio), "tipo_proposto": r["tipo"], "peso_proposto": r["peso"],
-            "lente": r["lente"], "orgao": r["ancora"]["orgao"], "documento": vendar(r["ancora"]["documento"], troca, sorteio), "trechos": [vendar(r["ancora"]["trecho"], troca, sorteio)] + [vendar(f["trecho"], troca, sorteio) for f in r.get("fontes", []) if f.get("trecho")]}
+            "lente": r["lente"], "para_quem_proposto": r.get("para_quem", []), "orgao": r["ancora"]["orgao"], "documento": vendar(r["ancora"]["documento"], troca, sorteio), "trechos": [vendar(f'{r["ancora"]["orgao"]}: {r["ancora"]["trecho"]}', troca, sorteio)] + [vendar(f'{f["veiculo"]}: {f["trecho"]}', troca, sorteio) for f in r.get("fontes", []) if f.get("trecho")]}
     return item, troca
 
 
@@ -158,6 +159,7 @@ def juntar(rodada, modelo):
         r["caixas"].update({"7": confere, "8": bool(verificador and verificador["sustenta"]), "9": bool(espelho and espelho["tipo"] == neutra["tipo"])})
         r["classificacao"] = neutra["tipo"] if len(tipos) == 1 else "polemico"
         r["peso_final"] = neutra.get("peso", r["peso"])
+        r["para_quem_final"] = [g for g in GRUPOS if all(g in (v.get("para_quem") or []) for v in oticas.values())]
         caminho.write_text(json.dumps(r, ensure_ascii=False, indent=1), encoding="utf-8")
     (RAIZ / "dados/dicionario.json").write_text(json.dumps(dicionario, ensure_ascii=False, indent=1), encoding="utf-8")
     (pasta / "desacordo.json").write_text(json.dumps(desacordo, indent=1), encoding="utf-8")

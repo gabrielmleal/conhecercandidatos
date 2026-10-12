@@ -1,0 +1,99 @@
+{
+ "id": "lula-candidato-biografia-01",
+ "origem": "biografia",
+ "candidato": "lula",
+ "tema": "candidato",
+ "subtema": "biografia",
+ "lente": "fez",
+ "data": "1945-10",
+ "titulo": "Lula nasceu em Garanhuns (PE), em outubro de 1945",
+ "frase": "Lula nasceu em Garanhuns (PE). A Biblioteca da Presidência indica 27 de outubro de 1945; o Tribunal Superior Eleitoral e a Câmara dos Deputados indicam 06/10/1945.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "para_quem": [],
+ "ancora": {
+  "orgao": "Presidência da República",
+  "documento": "Biografia de Luiz Inácio Lula da Silva, Biblioteca da Presidência da República",
+  "link": "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biblioteca-da-pr/ex-presidentes/luiz-inacio-lula-da-silva-2/biografia",
+  "trecho": "Luiz Inácio Lula da Silva nasceu em 27 de outubro de 1945 na cidade de Garanhuns, interior de Pernambuco."
+ },
+ "fontes": [
+  {
+   "veiculo": "Tribunal Superior Eleitoral",
+   "nivel": "A",
+   "link": "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=application/pdf&path=/candidaturas/oficial/2022/BR/BR/544/candidatos/893498/rrc.pdf",
+   "trecho": "nascido(a) em GARANHUNS - PERNAMBUCO, no dia 06/10/1945"
+  },
+  {
+   "veiculo": "Câmara dos Deputados",
+   "nivel": "A",
+   "link": "https://dadosabertos.camara.leg.br/api/v2/deputados/139289?formato=json",
+   "trecho": "\"dataNascimento\":\"1945-10-06\",\"dataFalecimento\":null,\"ufNascimento\":\"PE\",\"municipioNascimento\":\"Garanhuns\""
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biblioteca-da-pr/ex-presidentes/luiz-inacio-lula-da-silva-2/biografia": null,
+  "https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=application/pdf&path=/candidaturas/oficial/2022/BR/BR/544/candidatos/893498/rrc.pdf": "http://web.archive.org/web/20250119193949/https://consultaunificadapje.tse.jus.br/consulta-publica-unificada/documento?extensaoArquivo=application/pdf&path=/candidaturas/oficial/2022/BR/BR/544/candidatos/893498/rrc.pdf",
+  "https://dadosabertos.camara.leg.br/api/v2/deputados/139289?formato=json": null
+ },
+ "hash": "b77f2d11fd14ab184f752cd663ac9bdd42ef5391ce1763796541401d6182c7fb",
+ "provado_em": "2026-10-12",
+ "revisao": {
+  "favor": {
+   "rotulo": "F3958",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Cidade e as duas datas estão nos trechos, cada uma com sua fonte. A divergência é mostrada sem tomar lado."
+  },
+  "contra": {
+   "rotulo": "F3958",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "Local e as duas datas conflitantes estão nos trechos, cada uma atribuída à fonte certa. Sem juízo."
+  },
+  "neutra": {
+   "rotulo": "F3958",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "para_quem": [],
+   "motivo": "29 palavras. Local e as duas datas batem com os três trechos, e a divergência entre fontes está dita sem tomar lado."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261012-1340",
+  "verificador": {
+   "rotulo": "F3958",
+   "sustenta": true,
+   "motivo": "Garanhuns, PE e as duas datas (27/10 pela Presidência, 06/10 por TSE e Câmara) estão nos três trechos, com a atribuição correta."
+  },
+  "espelho": {
+   "rotulo": "F3958",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Local e data de nascimento, com divergência de dia entre fontes; sem lado bom ou ruim."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}
