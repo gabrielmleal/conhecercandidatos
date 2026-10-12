@@ -1,0 +1,80 @@
+{
+ "id": "mapa-flavio-edu-3-c",
+ "origem": "mapa:flavio-edu-3",
+ "candidato": "flavio",
+ "tema": "educacao",
+ "subtema": "mec",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Flávio promete ampliar as escolas cívico-militares",
+ "frase": "Flávio Bolsonaro promete, no plano registrado no TSE, ampliar as Escolas Cívico-Militares.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Flávio Bolsonaro (PL), registrado no TSE, p. 35",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "trecho": "Vamos ampliar as Escolas Cívico-Militares, que uniram disciplina e bom desempenho onde foram implantadas"
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf": "http://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf"
+ },
+ "hash": "2c33837cce0f2341f8bea8b3c9e9ddf11fd70cf4713702abd0079c8eb8148b70",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F1969",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "O plano registrado diz 'vamos ampliar as Escolas Cívico-Militares'. Frase não repete o elogio do plano, o que evita afirmar desempenho. Promessa pesa 0."
+  },
+  "contra": {
+   "rotulo": "F1969",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "A promessa de ampliar as escolas cívico-militares está no plano. A frase deixa de fora a afirmação do plano sobre bom desempenho. Promessa tem peso 0, não 1."
+  },
+  "neutra": {
+   "rotulo": "F1969",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "A frase repete o compromisso do plano registrado no TSE e deixa de fora o elogio do trecho. Promessa vale peso 0, não 1."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-2137",
+  "verificador": {
+   "rotulo": "F1969",
+   "sustenta": true,
+   "motivo": "O trecho do plano diz 'Vamos ampliar as Escolas Cívico-Militares'; o registro no TSE vem do documento."
+  },
+  "espelho": {
+   "rotulo": "F1969",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Compromisso do plano registrado no TSE de ampliar escolas cívico-militares; ainda não aconteceu."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

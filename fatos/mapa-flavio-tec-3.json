@@ -1,0 +1,88 @@
+{
+ "id": "mapa-flavio-tec-3",
+ "origem": "mapa:flavio-tec-3",
+ "candidato": "flavio",
+ "tema": "obras",
+ "subtema": "ciencia",
+ "lente": "fez",
+ "data": "2020-11-16",
+ "titulo": "Pix começa em 16 de novembro de 2020, instituído pelo Banco Central",
+ "frase": "Em 16 de novembro de 2020, começou o Pix, nova forma de pagamento instituída pelo Banco Central. Em 2018, o Banco Central definiu os requisitos fundamentais dos pagamentos instantâneos.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Banco Central do Brasil",
+  "documento": "Requisitos Fundamentais para o Ecossistema de Pagamentos Instantâneos Brasileiro, dezembro de 2018",
+  "link": "https://www.bcb.gov.br/content/estabilidadefinanceira/gt_pagamentos_instantaneos/Requisitos%20fundamentais%20-%20vers%C3%A3o%20final.pdf",
+  "trecho": "A coordenação do GT–Pagamentos Instantâneos, cumprindo o disposto no Regulamento anexo à Portaria nº 97.909, de 3 de maio de 2018, apresenta, por meio deste documento, os requisitos fundamentais para o ecossistema de pagamentos instantâneos brasileiro, definidos pela Diretoria Colegiada e divulgados por meio do Comunicado 32.927, de 21 de dezembro de 2018, e a definição dos próximos passos do projeto de implantação do ecossistema no Brasil."
+ },
+ "fontes": [
+  {
+   "veiculo": "Banco Central do Brasil",
+   "nivel": "A",
+   "link": "https://www.bcb.gov.br/content/publicacoes/Documents/reb/boxesreb2018/boxe_19_pix.pdf",
+   "trecho": "Em 16 de novembro de 2020, os cidadãos, empresas e entes governamentais brasileiros passaram a ter o Pix como uma nova alternativa para realizar seus pagamentos e transferências. O Pix é um arranjo de pagamentos, instituído pelo Banco Central do Brasil (BCB), que disciplina a prestação de serviços de pagamento relacionados a transações de pagamentos instantâneos."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.bcb.gov.br/content/estabilidadefinanceira/gt_pagamentos_instantaneos/Requisitos%20fundamentais%20-%20vers%C3%A3o%20final.pdf": "http://web.archive.org/web/20260416174712/https://www.bcb.gov.br/content/estabilidadefinanceira/gt_pagamentos_instantaneos/Requisitos%20fundamentais%20-%20vers%C3%A3o%20final.pdf",
+  "https://www.bcb.gov.br/content/publicacoes/Documents/reb/boxesreb2018/boxe_19_pix.pdf": "http://web.archive.org/web/20261005201842/https://www.bcb.gov.br/content/publicacoes/Documents/reb/boxesreb2018/boxe_19_pix.pdf"
+ },
+ "hash": "6defa66ff5df6ab8c73140dd0c77acc72496dab295034a4093975fec272b566f",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F3190",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Início do Pix em 16 de novembro, instituição pelo Banco Central e requisitos de ano A estão nos trechos. Sem efeito medido."
+  },
+  "contra": {
+   "rotulo": "F3190",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "A data de início do Pix, o Banco Central como instituidor e os requisitos de dezembro de ano A estão nos trechos. Sem número de melhora, então contexto."
+  },
+  "neutra": {
+   "rotulo": "F3190",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Início do Pix em 16 de novembro de ano B e requisitos definidos em ano A estão nos trechos. Sem efeito medido nem lado bom ou ruim."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-2137",
+  "verificador": {
+   "rotulo": "F3190",
+   "sustenta": true,
+   "motivo": "Pix em 16 de novembro de ano B, instituído pelo BCB; requisitos fundamentais definidos pela Diretoria Colegiada e divulgados em dezembro de ano A."
+  },
+  "espelho": {
+   "rotulo": "F3190",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Registra o início do Pix e a regulação prévia; sem resultado medido nem lado bom ou ruim."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

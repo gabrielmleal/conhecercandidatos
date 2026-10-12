@@ -1,0 +1,80 @@
+{
+ "id": "mapa-flavio-est-4-d",
+ "origem": "mapa:flavio-est-4",
+ "candidato": "flavio",
+ "tema": "contas",
+ "subtema": "previdencia",
+ "lente": "fez",
+ "data": "2025-09-08",
+ "titulo": "PF aponta descontos indevidos em benefícios do INSS desde 2019",
+ "frase": "Segundo a PF, associações praticaram descontos indevidos em benefícios do INSS desde 2019. A fraude pode ter chegado a R$ 6,4 bilhões em seis anos. Investigação não é condenação.",
+ "tipo": "problema",
+ "peso": 1,
+ "marco": false,
+ "ancora": {
+  "orgao": "Câmara dos Deputados",
+  "documento": "Agência Câmara: CPMI do INSS ouve o ex-ministro Carlos Lupi",
+  "link": "https://www.camara.leg.br/noticias/1197213-cpmi-do-inss-ouve-o-ex-ministro-da-previdencia-carlos-lupi-nesta-segunda-feira/",
+  "trecho": "A comissão vai investigar os descontos indevidos em benefícios do INSS praticados por associações de representação de aposentados, a partir de 2019, segundo investigações da Polícia Federal. A fraude pode ter chegado a R$ 6,4 bilhões ao longo de seis anos."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.camara.leg.br/noticias/1197213-cpmi-do-inss-ouve-o-ex-ministro-da-previdencia-carlos-lupi-nesta-segunda-feira/": "http://web.archive.org/web/20261011151447/https://www.camara.leg.br/noticias/1197213-cpmi-do-inss-ouve-o-ex-ministro-da-previdencia-carlos-lupi-nesta-segunda-feira/"
+ },
+ "hash": "78956ef53e125c48f33f023b6259ead84b180793caa35acdc0da7949d6570129",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F9129",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Atribuído à PF, com R$ 6,4 bilhões em seis anos e o aviso. Os descontos são de associações, não da pessoa. Investigação sem julgamento: peso 1."
+  },
+  "contra": {
+   "rotulo": "F9129",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Descontos indevidos 'segundo a PF', R$ 6,4 bilhões como 'pode ter chegado' em seis anos e ressalva estão no trecho. Investigação sem julgamento: peso 1."
+  },
+  "neutra": {
+   "rotulo": "F9129",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Atribuição à PF, início no ano, R$ 6,4 bilhões em seis anos e o 'pode' estão no trecho. Investigação sem julgamento, ressalva presente."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1409",
+  "verificador": {
+   "rotulo": "F9129",
+   "sustenta": true,
+   "motivo": "Descontos indevidos por associações a partir de ano A, segundo a PF, e R$ 6,4 bilhões em seis anos constam do trecho."
+  },
+  "espelho": {
+   "rotulo": "F9129",
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "PF aponta descontos indevidos, fraude de até R$ 6,4 bilhões; investigação sem julgamento."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

@@ -1,0 +1,80 @@
+{
+ "id": "mapa-flavio-tec-2-a",
+ "origem": "mapa:flavio-tec-2",
+ "candidato": "flavio",
+ "tema": "producao",
+ "subtema": "pequenas",
+ "lente": "fez",
+ "data": "2021-06-01",
+ "titulo": "Lei Complementar 182 cria o marco legal das startups",
+ "frase": "A Lei Complementar 182, de 1º de junho de 2021, institui o marco legal das startups e do empreendedorismo inovador.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": true,
+ "ancora": {
+  "orgao": "Planalto",
+  "documento": "Lei Complementar nº 182, de 1º de junho de 2021",
+  "link": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp182.htm",
+  "trecho": "LEI COMPLEMENTAR Nº 182, DE 1º DE JUNHO DE 2021 Vigência Mensagem de veto Institui o marco legal das startups e do empreendedorismo inovador"
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp182.htm": "http://web.archive.org/web/20260927175307/https://planalto.gov.br/ccivil_03/leis/lcp/lcp182.htm"
+ },
+ "hash": "c857d19aae0201342928ddb42c78f5d17f1f66bef376607d48e8e623e2674d7d",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F8823",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Número, data e nome da Lei Complementar coincidem com o trecho. Sem efeito medido: contexto."
+  },
+  "contra": {
+   "rotulo": "F8823",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Número, data e objeto da lei batem com o trecho. Só institui o marco, sem efeito medido nem juízo."
+  },
+  "neutra": {
+   "rotulo": "F8823",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Número, data e objeto da lei são idênticos ao trecho oficial. Lei sem efeito medido: contexto."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1409",
+  "verificador": {
+   "rotulo": "F8823",
+   "sustenta": true,
+   "motivo": "Número, data e objeto da Lei Complementar 182 constam literalmente do trecho."
+  },
+  "espelho": {
+   "rotulo": "F8823",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Lei institui marco legal; descreve regra, sem número de resultado nem lado."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

@@ -1,0 +1,94 @@
+{
+ "id": "mapa-lula-jus-2-a",
+ "origem": "mapa:lula-jus-2",
+ "candidato": "lula",
+ "tema": "aliados",
+ "subtema": "familia",
+ "lente": "fez",
+ "data": "2026-03-28",
+ "titulo": "CPMI do INSS rejeita relatório que pedia indiciar Fábio Luiz Lula da Silva",
+ "frase": "A CPMI do INSS rejeitou por 19 a 12 o relatório que pedia indiciar Fábio Luiz Lula da Silva por tráfico de influência e outros crimes. Investigação não é condenação.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Câmara dos Deputados",
+  "documento": "Agência Câmara: CPMI do INSS encerra os trabalhos sem aprovação de relatório final (28/03/2026)",
+  "link": "https://www.camara.leg.br/noticias/1258866-cpmi-do-inss-encerra-os-trabalhos-sem-aprovacao-de-relatorio-final/",
+  "trecho": "Indicia-se Fábio Luiz Lula da Silva nos seguintes tipos penais: tráfico de influência; lavagem ou ocultação de bem, direitos e valores; organização criminosa; e participação em corrupção ativa."
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Câmara",
+   "nivel": "A",
+   "link": "https://www.camara.leg.br/noticias/1258866-cpmi-do-inss-encerra-os-trabalhos-sem-aprovacao-de-relatorio-final/",
+   "trecho": "Por 19 votos a 12, a CPMI do INSS rejeitou o relatório do deputado Alfredo Gaspar (União-AL). A votação só foi concluída na madrugada de sábado (28/03), no último dia de funcionamento da comissão."
+  },
+  {
+   "veiculo": "Agência Senado",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2026/03/28/cpmi-do-inss-termina-sem-relatorio-final",
+   "trecho": "Depois de sete meses de trabalho, a CPMI do INSS terminou sem relatório final. O parecer do deputado Alfredo Gaspar (União-AL) foi rejeitado pela maioria dos membros da comissão (19 a 12)."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.camara.leg.br/noticias/1258866-cpmi-do-inss-encerra-os-trabalhos-sem-aprovacao-de-relatorio-final/": "http://web.archive.org/web/20261011143413/https://www.camara.leg.br/noticias/1258866-cpmi-do-inss-encerra-os-trabalhos-sem-aprovacao-de-relatorio-final/",
+  "https://www12.senado.leg.br/noticias/materias/2026/03/28/cpmi-do-inss-termina-sem-relatorio-final": null
+ },
+ "hash": "079404313dd0b624cf28b32d6f756f94fdd9781357f017a772dc87f90b379d62",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F2701",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Deixa claro que o relatório foi rejeitado por 19 a 12 e fecha com a ressalva. Pedido derrubado, peso 0."
+  },
+  "contra": {
+   "rotulo": "F2701",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Placar, pedido de indiciamento e crimes resumidos fielmente; aviso presente; nada favorece além do trecho."
+  },
+  "neutra": {
+   "rotulo": "F2701",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Placar 19 a 12 e crimes estão nos trechos; acusação de relatório rejeitado, com aviso."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F2701",
+   "sustenta": true,
+   "motivo": "Trechos trazem rejeição por 19 a 12 e pedido de indiciamento por tráfico de influência e outros crimes."
+  },
+  "espelho": {
+   "rotulo": "F2701",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Relatório que pedia indiciamento foi rejeitado por 19 a 12; pedido não prosperou."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

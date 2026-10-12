@@ -1,0 +1,38 @@
+{
+ "id": "mapa-flavio-eco-3-b",
+ "origem": "mapa:flavio-eco-3",
+ "candidato": "flavio",
+ "tema": "democracia",
+ "subtema": "gestao",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Plano de Flávio promete cortar no mínimo 10 ministérios",
+ "frase": "O plano de governo de Flávio Bolsonaro promete cortar no mínimo 10 ministérios e reduzir cargos comissionados e despesas administrativas.",
+ "tipo": "promessa",
+ "peso": 1,
+ "marco": false,
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Flávio Bolsonaro (PL), registrado no TSE, p. 69",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "trecho": "Isso inclui o corte de no mínimo 10 ministérios, a redução de cargos comissionados e de despesas administrativas e o combate aos penduricalhos e supersalários que corroem o orçamento, tudo com um objetivo: mais eficiência e racionalidade para servir à sociedade."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": false,
+  "6": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf": "http://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf"
+ },
+ "hash": "4cf2d8e97b93df39eca2f30fe4367f1eb9d5ec4546213ca1ad242b7de6fa5929",
+ "provado_em": "2026-10-11",
+ "falhas": [
+  "fato repetido"
+ ],
+ "entrou_em": "2026-10-12"
+}

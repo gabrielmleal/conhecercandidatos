@@ -1,0 +1,88 @@
+{
+ "id": "tempo-5-a",
+ "origem": "tempo:5",
+ "candidato": "brasil",
+ "tema": "democracia",
+ "subtema": "justica",
+ "lente": "fez",
+ "data": "2021-04-15",
+ "titulo": "STF confirma a anulação das condenações de Lula por 8 votos a 3",
+ "frase": "Em 2021, por 8 votos a 3, o STF confirmou a anulação das ações penais contra Lula: a 13ª Vara Federal de Curitiba não tinha competência para julgá-las.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": true,
+ "ancora": {
+  "orgao": "Supremo Tribunal Federal",
+  "documento": "Notícia: STF confirma anulação de condenações do ex-presidente Lula na Lava Jato (15/04/2021)",
+  "link": "https://noticias.stf.jus.br/postsnoticias/stf-confirma-anulacao-de-condenacoes-do-ex-presidente-lula-na-lava-jato/",
+  "trecho": "O Plenário do Supremo Tribunal Federal (STF) confirmou, nesta quinta-feira (14), a decisão do ministro Edson Fachin que, ao declarar a incompetência da 13ª Vara da Justiça Federal de Curitiba (PR), anulou as ações penais contra o ex-presidente Luiz Inácio Lula da Silva por não se enquadrarem no contexto da operação Lava Jato. Por 8 votos a 3, o colegiado rejeitou recurso (agravo regimental) da Procuradoria-Geral da República (PGR) no Habeas Corpus (HC) 193726."
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Senado",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente",
+   "trecho": "Em 2021, após as revelações de conversas entre então juiz federal Sérgio Moro e os promotores responsáveis pela Operação Lava Jato, o STF anulou a condenação de Lula, que recuperou os direitos políticos."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://noticias.stf.jus.br/postsnoticias/stf-confirma-anulacao-de-condenacoes-do-ex-presidente-lula-na-lava-jato/": "http://web.archive.org/web/20251116043116/https://noticias.stf.jus.br/postsnoticias/stf-confirma-anulacao-de-condenacoes-do-ex-presidente-lula-na-lava-jato/",
+  "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente": null
+ },
+ "hash": "d3cd33d273d68425ac63730dd96b8c81d9f8cd453cea5da8cd838696e4921389",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F4431",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Placar, recurso rejeitado e incompetência da 13ª Vara estão nos trechos; a frase diz que a anulação foi por competência. Caso anulado: polêmico, peso 0."
+  },
+  "contra": {
+   "rotulo": "F4431",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "8 votos a 3, anulação confirmada e incompetência da 13ª Vara estão no trecho. A frase diz que o motivo é a competência, não o mérito. Caso anulado, peso 0."
+  },
+  "neutra": {
+   "rotulo": "F4431",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Placar de 8 a 3, anulação das ações penais e incompetência da 13ª Vara estão nos trechos, 30 palavras. Caso anulado: polêmico, peso 0."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-2137",
+  "verificador": {
+   "rotulo": "F4431",
+   "sustenta": true,
+   "motivo": "Trechos: plenário confirmou por 8 votos a 3 a anulação, por incompetência da 13ª Vara de Curitiba. O ano vem do trecho sobre a anulação."
+  },
+  "espelho": {
+   "rotulo": "F4431",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "STF anulou as ações penais por incompetência do juízo; caso anulado, sem decisão de mérito."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

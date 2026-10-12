@@ -1,0 +1,88 @@
+{
+ "id": "mapa-lula-fis-2",
+ "origem": "mapa:lula-fis-2",
+ "candidato": "lula",
+ "tema": "contas",
+ "subtema": "gastos",
+ "lente": "fez",
+ "data": "2026-01-30",
+ "titulo": "Déficit primário foi de 2,28% do PIB em 2023, 0,40% em 2024 e 0,43% em 2025",
+ "frase": "O déficit primário do setor público consolidado foi de 2,28% do PIB em 2023, 0,40% em 2024 e 0,43% em 2025, segundo o Banco Central.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Banco Central do Brasil",
+  "documento": "Nota para a Imprensa: Estatísticas fiscais, 30.1.2026",
+  "link": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202601_Texto_de_estatisticas_fiscais.pdf",
+  "trecho": "O setor público consolidado registrou em 2025 déficit primário de R$55,0 bilhões (0,43% do PIB), ante déficit de R$47,6 bilhões (0,40% do PIB) em 2024."
+ },
+ "fontes": [
+  {
+   "veiculo": "Banco Central (nota de 31.1.2025)",
+   "nivel": "A",
+   "link": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202501_Texto_de_estatisticas_fiscais.pdf",
+   "trecho": "O setor público consolidado registrou em 2024 déficit primário de R$47,6 bilhões (0,40% do PIB), ante déficit de R$249,1 bilhões (2,28% do PIB) em 2023."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202601_Texto_de_estatisticas_fiscais.pdf": "http://web.archive.org/web/20260425164736/https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202601_Texto_de_estatisticas_fiscais.pdf",
+  "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202501_Texto_de_estatisticas_fiscais.pdf": "http://web.archive.org/web/20260513022441/https://bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202501_Texto_de_estatisticas_fiscais.pdf"
+ },
+ "hash": "c22e680289b937ad080cd781609575d645642d5667e1a531fc1218d141511ebd",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5167",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Os três percentuais batem com os dados do Banco Central."
+  },
+  "contra": {
+   "rotulo": "F5167",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Números fiéis ao BC. A série melhora e depois piora (0,40% para 0,43%); positivo com peso 2 exagera."
+  },
+  "neutra": {
+   "rotulo": "F5167",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Números iguais aos do Banco Central; dado oficial. Queda forte e leve alta no último ano, saldo de melhora."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-1502",
+  "verificador": {
+   "rotulo": "F5167",
+   "sustenta": true,
+   "motivo": "2,28% em ano A, 0,40% em ano B e 0,43% em ano C do PIB estão nos trechos do Banco Central."
+  },
+  "espelho": {
+   "rotulo": "F5167",
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Banco Central: déficit primário caiu de 2,28% do PIB em 2023 para 0,43% em 2025."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

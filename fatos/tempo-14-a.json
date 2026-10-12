@@ -1,0 +1,88 @@
+{
+ "id": "tempo-14-a",
+ "origem": "tempo:14",
+ "candidato": "brasil",
+ "tema": "contas",
+ "subtema": "impostos",
+ "lente": "fez",
+ "data": "2025-11-26",
+ "titulo": "Lula sanciona a Lei 15.270, que isenta do Imposto de Renda quem ganha até R$ 5 mil",
+ "frase": "Lula sancionou a Lei 15.270, que isenta do Imposto de Renda quem ganha até R$ 5 mil por mês a partir de 2026 e aumenta a taxação para altas rendas.",
+ "tipo": "positivo",
+ "peso": 2,
+ "marco": true,
+ "ancora": {
+  "orgao": "Senado Federal",
+  "documento": "Agência Senado: Sancionada isenção do Imposto de Renda para quem ganha até R$ 5 mil por mês (27/11/2025)",
+  "link": "https://www12.senado.leg.br/noticias/materias/2025/11/27/sancionada-isencao-do-imposto-de-renda-para-quem-ganha-ate-r-5-mil-por-mes",
+  "trecho": "O presidente da República, Luiz Inácio Lula da Silva, sancionou na quarta-feira (26) a isenção do Imposto de Renda da Pessoa Física (IRPF) para quem ganha até R$ 5 mil por mês. Além de ampliar a faixa de isenção, a Lei 15.270, de 2025 , estabelece descontos a quem recebe até R$ 7.350 mensais e aumenta a taxação para altas rendas."
+ },
+ "fontes": [
+  {
+   "veiculo": "Presidência da República",
+   "nivel": "A",
+   "link": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm",
+   "trecho": "Art. 8º Esta Lei entra em vigor na data de sua publicação e produzirá efeitos a partir de 1º de janeiro de 2026"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/materias/2025/11/27/sancionada-isencao-do-imposto-de-renda-para-quem-ganha-ate-r-5-mil-por-mes": "http://web.archive.org/web/20260926185145/https://www12.senado.leg.br/noticias/materias/2025/11/27/sancionada-isencao-do-imposto-de-renda-para-quem-ganha-ate-r-5-mil-por-mes",
+  "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm": "http://web.archive.org/web/20261011174527/https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2025/lei/l15270.htm"
+ },
+ "hash": "8bea7d111f995983350db6ae4281d4bb3241f296b2ccfc1fae1dc054370568b8",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F6132",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Lei sancionada com efeito direto, isenção e vigência confirmadas pelos trechos."
+  },
+  "contra": {
+   "rotulo": "F6132",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Lei sancionada, limite de R$ 5 mil, vigência em ano B e alta para altas rendas estão nos trechos."
+  },
+  "neutra": {
+   "rotulo": "F6132",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Lei sancionada, isenção até R$ 5 mil, vigência em ano B e maior taxação de altas rendas estão nos trechos."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2137",
+  "verificador": {
+   "rotulo": "F6132",
+   "sustenta": true,
+   "motivo": "Trechos trazem a sanção da Lei 15.270, a isenção até R$ 5 mil, a taxação de altas rendas e o efeito em ano B."
+  },
+  "espelho": {
+   "rotulo": "F6132",
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Lei 15.270 sancionada isenta do IR quem ganha até R$ 5 mil a partir de 2026."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

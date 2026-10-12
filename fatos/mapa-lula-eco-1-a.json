@@ -1,0 +1,88 @@
+{
+ "id": "mapa-lula-eco-1-a",
+ "origem": "mapa:lula-eco-1",
+ "candidato": "lula",
+ "tema": "renda",
+ "subtema": "emprego",
+ "lente": "fez",
+ "data": "2026-08-14",
+ "titulo": "Desocupação cai de 9,3% para 5,4% entre o 2º trimestre de 2022 e o de 2026",
+ "frase": "A taxa de desocupação foi de 5,4% no 2º trimestre de 2026, contra 9,3% no 2º trimestre de 2022, segundo o IBGE.",
+ "tipo": "positivo",
+ "peso": 2,
+ "marco": false,
+ "ancora": {
+  "orgao": "IBGE",
+  "documento": "Indicadores IBGE: PNAD Contínua trimestral, 2º trimestre de 2026",
+  "link": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/2421/pnact_2026_2tri.pdf",
+  "trecho": "No 2º trimestre de 2026, a taxa de desocupação, no Brasil, foi estimada em 5,4%."
+ },
+ "fontes": [
+  {
+   "veiculo": "IBGE (PNAD Contínua trimestral, 2º trimestre de 2022)",
+   "nivel": "A",
+   "link": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/2421/pnact_2022_2tri.pdf",
+   "trecho": "No 2º trimestre de 2022, a taxa de desocupação, no Brasil, foi estimada em 9,3%."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://biblioteca.ibge.gov.br/visualizacao/periodicos/2421/pnact_2026_2tri.pdf": null,
+  "https://biblioteca.ibge.gov.br/visualizacao/periodicos/2421/pnact_2022_2tri.pdf": null
+ },
+ "hash": "07ed7a23d31144ae198a2a233c889e9569cfe4b3c8b43846c080dc106182f704",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F7633",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Os dois números do IBGE batem com os trechos; 'cai' é só a comparação entre eles. Dado oficial com melhora e número: positivo, peso 2."
+  },
+  "contra": {
+   "rotulo": "F7633",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "As duas taxas do IBGE e os trimestres conferem com os trechos. Nenhuma causa é atribuída a ninguém. Dado oficial, peso 2."
+  },
+  "neutra": {
+   "rotulo": "F7633",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Os dois valores e os trimestres batem com os trechos, em 24 palavras. Dado oficial do IBGE com queda da desocupação: positivo, peso 2."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1502",
+  "verificador": {
+   "rotulo": "F7633",
+   "sustenta": true,
+   "motivo": "Taxas de 5,4% e 9,3% no 2º trimestre de ano B e de ano A constam nos dois trechos."
+  },
+  "espelho": {
+   "rotulo": "F7633",
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Dado oficial do IBGE: desocupação caiu de 9,3% para 5,4% entre o 2º trimestre de 2022 e o de 2026."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

@@ -1,0 +1,80 @@
+{
+ "id": "mapa-lula-edu-4-b",
+ "origem": "mapa:lula-edu-4",
+ "candidato": "lula",
+ "tema": "educacao",
+ "subtema": "creche",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Lula promete prioridade à educação em tempo integral",
+ "frase": "Lula promete, no programa registrado no TSE, dar absoluta prioridade ao fomento à educação em tempo integral no novo mandato.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Lula (PT), registrado no TSE, p. 31",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
+  "trecho": "O fomento à expansão da educação em tempo integral terá absoluta prioridade no novo mandato."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017016005": "http://web.archive.org/web/20261003172403/https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017016005"
+ },
+ "hash": "172ebda94e5aeba83345f0f00e4a62255b3812bbbf549799d6f29f8890acf82a",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5688",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Promessa fiel ao plano registrado; só omite 'expansão'. Promessa tem peso 0, não 1."
+  },
+  "contra": {
+   "rotulo": "F5688",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Promessa fiel ao plano; peso proposto 1 é alto demais para promessa."
+  },
+  "neutra": {
+   "rotulo": "F5688",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Promessa do programa no TSE confere com o trecho; promessa tem peso 0, não 1."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2137",
+  "verificador": {
+   "rotulo": "F5688",
+   "sustenta": true,
+   "motivo": "Trecho promete absoluta prioridade ao fomento da expansão da educação em tempo integral; frase só omite 'expansão'."
+  },
+  "espelho": {
+   "rotulo": "F5688",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Promessa de programa de governo sobre educação em tempo integral."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

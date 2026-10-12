@@ -1,0 +1,87 @@
+{
+ "id": "mapa-lula-obr-1-a",
+ "origem": "mapa:lula-obr-1",
+ "candidato": "lula",
+ "tema": "obras",
+ "subtema": "transporte",
+ "lente": "prometeu",
+ "data": "2024-04-30",
+ "titulo": "Governo prevê R$ 1,7 trilhão de investimentos no novo PAC",
+ "frase": "Segundo o governo, o novo PAC prevê R$ 1,7 trilhão: setor privado R$ 632 bilhões, estatais R$ 394 bilhões, Orçamento R$ 377 bilhões e financiamentos R$ 354 bilhões.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Agência Senado",
+  "documento": "Rui Costa detalha investimentos do PAC e pede apoio de senadores",
+  "link": "https://www12.senado.leg.br/noticias/materias/2024/04/30/rui-costa-detalha-investimentos-do-pac-e-pede-apoio-de-senadores",
+  "trecho": "De acordo com o governo, a previsão de investimento para o novo PAC é de R$ 1,7 trilhão, sendo R$ 632 bilhões do setor privado; R$ 377 bilhões do Orçamento Geral da União; R$ 354 bilhões de financiamentos; e R$ 394 bilhões de empresas estatais, como a Petrobras."
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Senado (data da audiência)",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2024/04/30/rui-costa-detalha-investimentos-do-pac-e-pede-apoio-de-senadores",
+   "trecho": "Da Agência Senado | 30/04/2024, 13h51 Em audiência da Comissão de Infraestrutura (CI) nesta terça-feira (30), o ministro-chefe da Casa Civil, Rui Costa, detalhou o planejamento de investimentos e os avanços do novo Programa de Aceleração do Crescimento (PAC), lançado em agosto de 2023."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/materias/2024/04/30/rui-costa-detalha-investimentos-do-pac-e-pede-apoio-de-senadores": null
+ },
+ "hash": "1b47bfd0c061bab4cb5e51e88b0cacac73036253ddd6ad45d14b21d7358a3f77",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F4893",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Valores e fontes batem com o trecho e estão atribuídos ao governo; é previsão."
+  },
+  "contra": {
+   "rotulo": "F4893",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Valores e divisão batem com o trecho e são atribuídos ao governo; mostra que só R$ 377 bilhões vêm do Orçamento."
+  },
+  "neutra": {
+   "rotulo": "F4893",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Total e as quatro parcelas batem com o trecho, atribuídos ao governo; é previsão, não gasto feito."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-1433",
+  "verificador": {
+   "rotulo": "F4893",
+   "sustenta": true,
+   "motivo": "Total de R$ 1,7 trilhão e as quatro parcelas batem com o trecho atribuído ao governo."
+  },
+  "espelho": {
+   "rotulo": "F4893",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Novo PAC prevê R$ 1,7 trilhão em investimentos; ainda não aconteceu."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

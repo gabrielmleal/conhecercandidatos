@@ -1,0 +1,88 @@
+{
+ "id": "mapa-flavio-int-1-b",
+ "origem": "mapa:flavio-int-1",
+ "candidato": "flavio",
+ "tema": "mundo",
+ "subtema": "comercio",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Plano de Flávio prevê abertura comercial, acordos comerciais e adesão à OCDE",
+ "frase": "O plano de Flávio Bolsonaro propõe abertura comercial, acordos comerciais, evitar dependência excessiva em áreas críticas e aderir à Organização para a Cooperação e Desenvolvimento Econômico (OCDE).",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "G1",
+  "documento": "Presidenciáveis querem Brasil próximo da Ásia e EUA, fortalecer o Mercosul e deixar o Brics: veja propostas para política externa (24/08/2026)",
+  "link": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/08/24/presidenciaveis-querem-brasil-proximo-da-asia-e-eua-fortalecer-o-mercosul-e-deixar-o-brics-veja-propostas-para-politica-externa.ghtml",
+  "trecho": "Flávio Bolsonaro (PL): abertura comercial (bens de capital, tecnologia e insumos); evitar dependência excessiva em áreas críticas (como tecnologia); avançar em acordos comerciais; aderir à OCDE;"
+ },
+ "fontes": [
+  {
+   "veiculo": "Terra (DW)",
+   "nivel": "C",
+   "link": "https://www.terra.com.br/noticias/brics-eua-mercosul-as-propostas-de-lula-e-flavio-bolsonaro-para-politica-externa,491c46892567f575fe637c5e02b4ae79fjomy0xy.html",
+   "trecho": "De específico, o programa de Flávio menciona que seu governo pretende retomar a inserção do Brasil na Organização para a Cooperação e Desenvolvimento Econômico (OCDE). E, de maneira mais genérica, o plano fala em aumentar a abertura comercial e ampliar acordos que abram novos mercados para o Brasil."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/08/24/presidenciaveis-querem-brasil-proximo-da-asia-e-eua-fortalecer-o-mercosul-e-deixar-o-brics-veja-propostas-para-politica-externa.ghtml": "http://web.archive.org/web/20260930075504/https://g1.globo.com/politica/eleicoes/2026/noticia/2026/08/24/presidenciaveis-querem-brasil-proximo-da-asia-e-eua-fortalecer-o-mercosul-e-deixar-o-brics-veja-propostas-para-politica-externa.ghtml",
+  "https://www.terra.com.br/noticias/brics-eua-mercosul-as-propostas-de-lula-e-flavio-bolsonaro-para-politica-externa,491c46892567f575fe637c5e02b4ae79fjomy0xy.html": null
+ },
+ "hash": "d3cbe948673ce195aac88a69f614f40061d0166c91ba882dff0cc7e9395ae12f",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F8415",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Os quatro pontos da proposta batem com os trechos. Ainda não aconteceu: promessa, peso 0."
+  },
+  "contra": {
+   "rotulo": "F8415",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "As quatro propostas batem com os trechos; o G1 as chama de genéricas e a frase não diz. Proposta de plano: promessa, peso 0."
+  },
+  "neutra": {
+   "rotulo": "F8415",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Os quatro pontos do plano batem com os trechos e a sigla OCDE vem por extenso. Ainda não aconteceu: promessa."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1502",
+  "verificador": {
+   "rotulo": "F8415",
+   "sustenta": true,
+   "motivo": "Abertura comercial, evitar dependência em áreas críticas, acordos comerciais e adesão à OCDE constam, com Pessoa S como autor."
+  },
+  "espelho": {
+   "rotulo": "F8415",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Plano de governo propõe abertura comercial e adesão à OCDE; ainda não aconteceu."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

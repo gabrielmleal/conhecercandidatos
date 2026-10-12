@@ -1,0 +1,87 @@
+{
+ "id": "mapa-lula-dem-2-c",
+ "origem": "mapa:lula-dem-2",
+ "candidato": "lula",
+ "tema": "democracia",
+ "subtema": "justica",
+ "lente": "fez",
+ "data": "2026-04-29",
+ "titulo": "Senado rejeita Jorge Messias para o STF",
+ "frase": "Em 29 de abril de 2026, o Senado rejeitou, por 42 votos a 34, Jorge Messias, indicado por Lula ao STF. Foi a primeira rejeição em 132 anos.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Senado Federal",
+  "documento": "Agência Senado: Indicação de Jorge Messias ao STF é rejeitada pelo Senado",
+  "link": "https://www12.senado.leg.br/noticias/materias/2026/04/29/indicacao-de-jorge-messias-ao-stf-e-rejeitada-pelo-senado",
+  "trecho": "Da Agência Senado | 29/04/2026, 19h32 Por 42 contrários a 34 votos a favor, o Plenário rejeitou nesta quarta-feira (29) a indicação de Jorge Rodrigo Araújo Messias para ministro do Supremo Tribunal Federal. A aprovação da indicação ( MSF 7/2026 ) dependia do voto favorável de pelo menos 41 senadores. Esta foi a primeira vez que uma indicação ao STF foi rejeitada em 132 anos."
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Senado",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2026/04/29/indicacao-de-jorge-messias-ao-stf-e-rejeitada-pelo-senado",
+   "trecho": "O atual advogado-geral da União foi indicado para o cargo pelo presidente Luiz Inácio Lula da Silva, na vaga decorrente da aposentadoria antecipada de Luís Roberto Barroso, que deixou o tribunal em outubro de 2025."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/materias/2026/04/29/indicacao-de-jorge-messias-ao-stf-e-rejeitada-pelo-senado": "http://web.archive.org/web/20260904202203/https://www12.senado.leg.br/noticias/materias/2026/04/29/indicacao-de-jorge-messias-ao-stf-e-rejeitada-pelo-senado"
+ },
+ "hash": "2852b192723713006221be25f669b1c6f90918d7a33f62d316710da51d2beec4",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F9157",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, placar 42 a 34, indicação por Pessoa L e primeira rejeição em 132 anos estão no trecho; sem juízo, sem lado bom ou ruim."
+  },
+  "contra": {
+   "rotulo": "F9157",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Votos, data e '132 anos' batem com o trecho. Rejeição de indicado não tem lado bom ou ruim medido: contexto."
+  },
+  "neutra": {
+   "rotulo": "F9157",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, 42 a 34, indicação por Pessoa L e 132 anos batem com o trecho. Fato sem lado bom ou ruim."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1409",
+  "verificador": {
+   "rotulo": "F9157",
+   "sustenta": true,
+   "motivo": "29 de abril, 42 a 34, indicação por Pessoa L e primeira rejeição em 132 anos constam nos trechos."
+  },
+  "espelho": {
+   "rotulo": "F9157",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Rejeição de indicado ao STF pelo Senado; ato sem efeito medido nem lado bom ou ruim."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

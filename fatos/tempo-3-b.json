@@ -1,0 +1,80 @@
+{
+ "id": "tempo-3-b",
+ "origem": "tempo:3",
+ "candidato": "brasil",
+ "tema": "contas",
+ "subtema": "previdencia",
+ "lente": "fez",
+ "data": "2019-11-12",
+ "titulo": "Congresso promulga a Emenda Constitucional 103, sobre a Previdência Social",
+ "frase": "O Congresso promulgou em 12 de novembro de 2019 a Emenda Constitucional 103, que mudou o sistema de Previdência Social e criou regras de transição.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": true,
+ "ancora": {
+  "orgao": "Senado Federal",
+  "documento": "Agência Senado: Promulgada Emenda Constitucional da reforma da Previdência (12/11/2019)",
+  "link": "https://www12.senado.leg.br/noticias/materias/2019/11/12/promulgada-emenda-constitucional-da-reforma-da-previdencia",
+  "trecho": "Da Redação | 12/11/2019, 11h20 O Congresso promulgou nesta terça-feira (12) a Emenda Constitucional 103, de 2019, que altera o sistema de Previdência Social e estabelece regras de transição e disposições transitórias."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/materias/2019/11/12/promulgada-emenda-constitucional-da-reforma-da-previdencia": "http://web.archive.org/web/20261005001743/https://www12.senado.leg.br/noticias/materias/2019/11/12/promulgada-emenda-constitucional-da-reforma-da-previdencia"
+ },
+ "hash": "6e6f2531c593b1f59a7b8b0234433a98402ec8ed6d5a94f6c7a3968912177753",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F2368",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, emenda e conteúdo (sistema de Previdência e regras de transição) batem com o trecho."
+  },
+  "contra": {
+   "rotulo": "F2368",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, número da emenda e conteúdo conferem com a matéria da Agência Senado. Descreve o ato, sem efeito medido."
+  },
+  "neutra": {
+   "rotulo": "F2368",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data de 12 de novembro, Emenda 103 e regras de transição estão no trecho. Ato de tramitação, sem efeito medido."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1433",
+  "verificador": {
+   "rotulo": "F2368",
+   "sustenta": true,
+   "motivo": "Promulgação da EC 103, data 12/11/ano A (cabeçalho e 'terça-feira (12)'), mudança da Previdência e regras de transição estão no trecho."
+  },
+  "espelho": {
+   "rotulo": "F2368",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Registra a promulgação da emenda e seu conteúdo, sem efeito medido e sem lado bom ou ruim."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

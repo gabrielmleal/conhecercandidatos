@@ -1,0 +1,80 @@
+{
+ "id": "mapa-lula-edu-1-a",
+ "origem": "mapa:lula-edu-1",
+ "candidato": "lula",
+ "tema": "educacao",
+ "subtema": "medio",
+ "lente": "fez",
+ "data": "2024-01-16",
+ "titulo": "Lei 14.818 cria incentivo financeiro-educacional em poupança",
+ "frase": "A Lei 14.818, de 16 de janeiro de 2024, instituiu incentivo financeiro-educacional em poupança para estudantes do ensino médio público.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": true,
+ "ancora": {
+  "orgao": "Presidência da República",
+  "documento": "Lei nº 14.818, de 16 de janeiro de 2024",
+  "link": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14818.htm",
+  "trecho": "LEI Nº 14.818, DE 16 DE JANEIRO DE 2024 Mensagem de veto Vigência Regulamento (Promulgação partes vetadas) Institui incentivo financeiro-educacional, na modalidade de poupança, aos estudantes matriculados no ensino médio público"
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/L14818.htm": "http://web.archive.org/web/20260908210326/https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2024/lei/l14818.htm"
+ },
+ "hash": "67ac314e2dd16eb2efe3676026cb7cf8c7e3a6c2f5f790bb8504901a3f075f31",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F4778",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Número e data da lei e público do incentivo batem com a ementa; sem efeito ou número medido."
+  },
+  "contra": {
+   "rotulo": "F4778",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Número e data da lei e público (ensino médio público) iguais à ementa. Sem resultado afirmado."
+  },
+  "neutra": {
+   "rotulo": "F4778",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Número, data e objeto da lei batem com o trecho. Lei sem efeito medido: contexto."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1433",
+  "verificador": {
+   "rotulo": "F4778",
+   "sustenta": true,
+   "motivo": "Número e data da lei e o incentivo financeiro-educacional em poupança para o ensino médio público constam na ementa."
+  },
+  "espelho": {
+   "rotulo": "F4778",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Lei criou incentivo em poupança para estudantes, efeito ainda não medido."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

@@ -1,0 +1,638 @@
+[
+ {
+  "origem": "mapa:flavio-jus-1",
+  "candidato": "flavio",
+  "area_do_mapa": "Investigações",
+  "titulo": "Banco Master e o filme",
+  "tipo_no_mapa": "problema",
+  "natureza": "fato",
+  "texto": "A PF diz que Flávio negociou direto com o banqueiro Daniel Vorcaro, do Banco Master, dinheiro para o filme “Dark Horse”, sobre o pai. Ele teria pedido cerca de R$ 130 milhões; planilhas indicam ao menos R$ 60 milhões pagos. É investigado no STF por suspeita de corrupção e lavagem de dinheiro. Diz que foi patrocínio privado.",
+  "quem_apoia_diz": "Foi uma captação privada e legal.",
+  "quem_critica_diz": "Antes, disse que não conhecia Vorcaro; o Aos Fatos achou 43 falas enganosas dele sobre o caso.",
+  "destaque": [
+   "R$ 60 mi",
+   "pagos ao filme, segundo planilhas da PF"
+  ],
+  "pistas": [
+   {
+    "veiculo": "Folha de Pernambuco",
+    "data": "set/2026",
+    "titulo": "PF: Flávio foi “interlocutor direto” de Vorcaro",
+    "link": "https://www.folhape.com.br/politica/pf-diz-que-flavio-foi-interlocutor-direto-de-vorcaro-no/511983/"
+   },
+   {
+    "veiculo": "Itatiaia",
+    "data": "set/2026",
+    "titulo": "Valores pedidos e pagos para o filme",
+    "link": "https://www.itatiaia.com.br/politica/pf-flavio-bolsonaro-interlocutor-direto-financiamento-dark-horse/"
+   },
+   {
+    "veiculo": "Brasil de Fato",
+    "data": "set/2026",
+    "titulo": "O que a PF revela sobre Flávio e Vorcaro",
+    "link": "https://www.brasildefato.com.br/2026/09/11/interlocutor-direto-o-que-as-investigacoes-da-pf-revelam-sobre-a-relacao-de-flavio-bolsonaro-com-daniel-vorcaro/"
+   },
+   {
+    "veiculo": "Correio da Manhã",
+    "data": "set/2026",
+    "titulo": "Flávio defende relação com Vorcaro",
+    "link": "https://www.correiodamanha.com.br/politica/2026/09/318548-flavio-diz-nao-temer-exposicao-do-caso-master-e-volta-a-defender-relacao-com-vorcaro.html"
+   },
+   {
+    "veiculo": "Agência Pública",
+    "data": "out/2026",
+    "titulo": "Caso Master no 1º turno e falas de Flávio",
+    "link": "https://apublica.org/2026/10/escandalo-master-pesa-na-urna-para-uns-e-passa-batido-para-outros/"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:flavio-jus-2",
+  "candidato": "flavio",
+  "area_do_mapa": "Investigações",
+  "titulo": "Rachadinha",
+  "tipo_no_mapa": "polemico",
+  "natureza": "fato",
+  "texto": "O Ministério Público do Rio o acusou de ficar com parte do salário de assessores (rachadinha) quando era deputado estadual. O STJ anulou provas e o caso foi arquivado em 2022. Ele sempre negou.",
+  "quem_apoia_diz": "Arquivado, sem condenação.",
+  "quem_critica_diz": "Foi arquivado por problema no processo, não por inocência.",
+  "destaque": null,
+  "pistas": [
+   {
+    "veiculo": "Gazeta SP",
+    "data": "2022",
+    "titulo": "Justiça arquiva denúncia da rachadinha",
+    "link": "https://www.gazetasp.com.br/cotidiano/tribunal-do-rj-arquiva-denuncia-contra-flavio-bolsonaro-no-caso-das/1109828"
+   },
+   {
+    "veiculo": "Poder360",
+    "data": "2025",
+    "titulo": "Queiroz e o arquivamento de 2022",
+    "link": "https://www.poder360.com.br/poder-brasil/ex-assessor-de-flavio-no-caso-da-rachadinha-assume-cargo-no-rj/"
+   },
+   {
+    "veiculo": "Correio Braziliense",
+    "data": "out/2022",
+    "titulo": "O que aconteceu com o caso da rachadinha",
+    "link": "https://www.correiobraziliense.com.br/politica/2022/10/amp/5043990-rachadinha-o-que-aconteceu-com-caso-que-envolve-filho-de-bolsonaro.html"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:flavio-jus-3",
+  "candidato": "flavio",
+  "area_do_mapa": "Investigações",
+  "titulo": "Ligação com miliciano",
+  "tipo_no_mapa": "polemico",
+  "natureza": "fato",
+  "texto": "A mãe e a ex-mulher de Adriano da Nóbrega, chefe de milícia morto em 2020, trabalharam no gabinete de Flávio. Ele deu uma medalha ao miliciano quando ele estava preso.",
+  "quem_apoia_diz": "Flávio e o ex-assessor Queiroz negam todas as acusações.",
+  "quem_critica_diz": "Mostra proximidade com o crime organizado do Rio.",
+  "destaque": null,
+  "pistas": [
+   {
+    "veiculo": "CartaCapital",
+    "data": "jun/2020",
+    "titulo": "Queiroz e o miliciano Adriano da Nóbrega",
+    "link": "https://www.cartacapital.com.br/?p=132345"
+   },
+   {
+    "veiculo": "Congresso em Foco",
+    "data": "2020",
+    "titulo": "Miliciano ligado ao gabinete de Flávio",
+    "link": "https://congressoemfoco.com.br/legislativo/miliciano-ligado-a-gabinete-de-flavio-bolsonaro-escapa-de-acao-policial"
+   },
+   {
+    "veiculo": "Correio Braziliense",
+    "data": "out/2022",
+    "titulo": "O que aconteceu com o caso da rachadinha",
+    "link": "https://www.correiobraziliense.com.br/politica/2022/10/amp/5043990-rachadinha-o-que-aconteceu-com-caso-que-envolve-filho-de-bolsonaro.html"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:flavio-jus-4",
+  "candidato": "flavio",
+  "area_do_mapa": "Investigações",
+  "titulo": "Suspeita de armação",
+  "tipo_no_mapa": "polemico",
+  "natureza": "fato",
+  "texto": "Advogados pediram que a PF investigue se Vorcaro e a campanha de Flávio combinaram divulgar acusações contra Lula perto do 2º turno.",
+  "quem_apoia_diz": "É só um pedido, sem conclusão.",
+  "quem_critica_diz": "Se for confirmado, seria usar um crime para influenciar a eleição.",
+  "destaque": null,
+  "pistas": [
+   {
+    "veiculo": "CartaCapital",
+    "data": "out/2026",
+    "titulo": "Pedido de investigação sobre Vorcaro e campanha",
+    "link": "https://www.cartacapital.com.br/justica/advogados-acionam-pf-para-investigar-suspeita-de-articulacao-entre-vorcaro-e-campanha-de-flavio-bolsonaro/"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:flavio-jus-5",
+  "candidato": "flavio",
+  "area_do_mapa": "Investigações",
+  "titulo": "Centrão e Ciro Nogueira",
+  "tipo_no_mapa": "problema",
+  "natureza": "pessoa",
+  "texto": "O aliado Ciro Nogueira (PP), ex-ministro de Jair, é investigado no caso Master. A PF diz que uma emenda dele foi escrita pelo banco.",
+  "quem_apoia_diz": "Alianças são necessárias para governar.",
+  "quem_critica_diz": "Velha política envolvida no mesmo escândalo.",
+  "destaque": null,
+  "pistas": [
+   {
+    "veiculo": "Nexo",
+    "data": "set/2026",
+    "titulo": "Políticos da teia do Master investigados no STF",
+    "link": "https://www.nexojornal.com.br/expresso/2026/09/12/sigilo-master-vorcaro-mendonca-vorcaro"
+   },
+   {
+    "veiculo": "Bloomberg",
+    "data": "set/2026",
+    "titulo": "Como o caso Master mexe com a eleição",
+    "link": "https://www.bloomberg.com/graphics/2026-banco-master-brazil-supreme-court-presidential-election/"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:lula-jus-1",
+  "candidato": "lula",
+  "area_do_mapa": "Investigações",
+  "titulo": "Lava Jato",
+  "tipo_no_mapa": "polemico",
+  "natureza": "fato",
+  "texto": "Lula foi condenado em 2017 na Lava Jato e ficou 580 dias preso. Em 2021, o STF anulou as condenações porque o caso não deveria ter sido julgado em Curitiba, e decidiu que o juiz Moro foi parcial. Hoje não há condenação contra ele.",
+  "quem_apoia_diz": "A defesa diz que a inocência foi confirmada.",
+  "quem_critica_diz": "Moro diz que a culpa foi reconhecida por 10 juízes; a anulação não julgou o mérito.",
+  "destaque": [
+   "580 dias",
+   "preso, antes da anulação"
+  ],
+  "pistas": [
+   {
+    "veiculo": "TNH1 (Folhapress)",
+    "data": "jun/2021",
+    "titulo": "STF confirma que Moro foi parcial",
+    "link": "https://www.tnh1.com.br/noticia/nid/supremo-confirma-decisao-que-declarou-moro-parcial-em-caso-de-lula/"
+   },
+   {
+    "veiculo": "Poder360",
+    "data": "jun/2021",
+    "titulo": "Defesa de Lula e resposta de Moro",
+    "link": "https://www.poder360.com.br/brasil/defesa-de-lula-afirma-que-decisao-do-stf-consolida-inocencia-do-petista/"
+   },
+   {
+    "veiculo": "O Povo",
+    "data": "abr/2021",
+    "titulo": "Maioria do STF confirma parcialidade de Moro",
+    "link": "https://mais.opovo.com.br/jornal/politica/2021/04/23/maioria-do-stf-confirma-parcialidade-de-moro.html"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:lula-jus-2",
+  "candidato": "lula",
+  "area_do_mapa": "Investigações",
+  "titulo": "Lulinha e Frei Chico",
+  "tipo_no_mapa": "polemico",
+  "natureza": "pessoa",
+  "texto": "O relatório da CPMI do INSS pediu o indiciamento do filho de Lula, citando um depoimento sobre repasses do “Careca do INSS”. A comissão rejeitou o texto. O irmão, Frei Chico, é vice-presidente de um sindicato investigado. Ambos negam.",
+  "quem_apoia_diz": "Acusação política e sem prova, diz a defesa.",
+  "quem_critica_diz": "A família do presidente aparece perto do esquema.",
+  "destaque": null,
+  "pistas": [
+   {
+    "veiculo": "Investing (Poder360)",
+    "data": "mar/2026",
+    "titulo": "O que o relatório diz sobre Lulinha",
+    "link": "https://br.investing.com/news/politics-news/relatorio-cita-mesada-do-careca-do-inss-para-lulinha-1883198"
+   },
+   {
+    "veiculo": "Gazeta do Povo",
+    "data": "mar/2026",
+    "titulo": "Os principais citados pela CPMI",
+    "link": "https://www.gazetadopovo.com.br/republica/quem-sao-os-principais-citados-no-relatorio-final-da-cpmi-do-inss/"
+   },
+   {
+    "veiculo": "Jovem Pan",
+    "data": "mar/2026",
+    "titulo": "CPMI rejeita o relatório final",
+    "link": "https://jovempan.com.br/noticias/politica/cpmi-do-inss-relatorio-que-indiciava-lulinha-e-rejeitado.html"
+   },
+   {
+    "veiculo": "Revista Oeste",
+    "data": "2025",
+    "titulo": "CPMI mira sindicato de Frei Chico",
+    "link": "https://www.revistaoeste.com/politica/lupi-depoe-na-cpmi-do-inss-sobre-fraude-bilionaria/"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:lula-jus-3",
+  "candidato": "lula",
+  "area_do_mapa": "Investigações",
+  "titulo": "Banco Master: aliados",
+  "tipo_no_mapa": "problema",
+  "natureza": "fato",
+  "texto": "O senador Jaques Wagner, então líder do governo no Senado, é investigado no STF por ligações com Vorcaro e perdeu a liderança. Lula recebeu Vorcaro em 2024. Em outubro de 2026, a revista Veja publicou áudio citando R$ 30 milhões para um filme sobre Lula; a PF e a PGR dizem que não há depoimento e rejeitaram as delações por falta de provas.",
+  "quem_apoia_diz": "O banco foi fechado e o dono preso neste governo.",
+  "quem_critica_diz": "Aliados próximos aparecem na rede do banqueiro.",
+  "destaque": null,
+  "pistas": [
+   {
+    "veiculo": "Nexo",
+    "data": "set/2026",
+    "titulo": "Políticos da teia do Master investigados no STF",
+    "link": "https://www.nexojornal.com.br/expresso/2026/09/12/sigilo-master-vorcaro-mendonca-vorcaro"
+   },
+   {
+    "veiculo": "Diário de Notícias (Portugal)",
+    "data": "jul/2026",
+    "titulo": "Quem foi atingido pelo caso Vorcaro",
+    "link": "https://www.dn.pt/internacional/vorcaro-2026-quem-j-foi-atingido-pelo-material-radioativo-da-poltica-brasileira"
+   },
+   {
+    "veiculo": "Estado de Minas",
+    "data": "set/2026",
+    "titulo": "Quem são os envolvidos no caso Master",
+    "link": "https://www.em.com.br/politica/2026/09/7507043-banco-master-quem-sao-as-pessoas-envolvidas-na-fraude-bilionaria.html"
+   },
+   {
+    "veiculo": "O Tempo",
+    "data": "out/2026",
+    "titulo": "Áudio de Vorcaro e falta de provas",
+    "link": "https://www.otempo.com.br/politica/judiciario/2026/10/9/vorcaro-cita-r-30-milhoes-a-filme-de-lula-segundo-revista-mas-pf-e-pgr-apontam-falta-de-provas"
+   },
+   {
+    "veiculo": "Forbes Brasil",
+    "data": "out/2026",
+    "titulo": "PF rejeita delação e nega depoimento",
+    "link": "https://forbes.com.br/forbes-money/2026/10/pf-rejeita-delacao-vorcaro-nega-depoimento-filme-lula/"
+   }
+  ]
+ },
+ {
+  "origem": "tempo:1",
+  "candidato": "brasil",
+  "area_do_mapa": "Linha do tempo",
+  "titulo": "2003–2010",
+  "tipo_no_mapa": "contexto",
+  "natureza": "fato",
+  "texto": "Lula governa por dois mandatos e sai com 83% de aprovação.",
+  "pistas": [
+   {
+    "veiculo": "DGABC",
+    "data": "set/2026",
+    "titulo": "Avaliação do governo Lula ao longo dos mandatos",
+    "link": "https://www.dgabc.com.br/Noticia/4346937/lula-busca-quarto-mandato-com-pior-avaliacao-de-governo"
+   }
+  ]
+ },
+ {
+  "origem": "tempo:2",
+  "candidato": "brasil",
+  "area_do_mapa": "Linha do tempo",
+  "titulo": "2017–2019",
+  "tipo_no_mapa": "contexto",
+  "natureza": "fato",
+  "texto": "Lula é condenado na Lava Jato e fica 580 dias preso.",
+  "pistas": [
+   {
+    "veiculo": "TNH1 (Folhapress)",
+    "data": "jun/2021",
+    "titulo": "STF confirma que Moro foi parcial",
+    "link": "https://www.tnh1.com.br/noticia/nid/supremo-confirma-decisao-que-declarou-moro-parcial-em-caso-de-lula/"
+   },
+   {
+    "veiculo": "Poder360",
+    "data": "jun/2021",
+    "titulo": "Defesa de Lula e resposta de Moro",
+    "link": "https://www.poder360.com.br/brasil/defesa-de-lula-afirma-que-decisao-do-stf-consolida-inocencia-do-petista/"
+   }
+  ]
+ },
+ {
+  "origem": "tempo:3",
+  "candidato": "brasil",
+  "area_do_mapa": "Linha do tempo",
+  "titulo": "2019",
+  "tipo_no_mapa": "contexto",
+  "natureza": "fato",
+  "texto": "Jair Bolsonaro assume a Presidência. A reforma da Previdência é aprovada.",
+  "pistas": []
+ },
+ {
+  "origem": "tempo:4",
+  "candidato": "brasil",
+  "area_do_mapa": "Linha do tempo",
+  "titulo": "2020",
+  "tipo_no_mapa": "contexto",
+  "natureza": "fato",
+  "texto": "Pandemia de Covid. A economia encolhe e o Auxílio Emergencial é pago.",
+  "pistas": [
+   {
+    "veiculo": "IHU Unisinos",
+    "data": "mar/2021",
+    "titulo": "Queda do PIB em 2020",
+    "link": "https://ihu.unisinos.br/categorias/607258-o-que-esperar-de-2021"
+   },
+   {
+    "veiculo": "CartaCapital",
+    "data": "2020",
+    "titulo": "Medidas do governo na pandemia",
+    "link": "https://www.cartacapital.com.br/?p=117594"
+   }
+  ]
+ },
+ {
+  "origem": "tempo:5",
+  "candidato": "brasil",
+  "area_do_mapa": "Linha do tempo",
+  "titulo": "2021",
+  "tipo_no_mapa": "contexto",
+  "natureza": "fato",
+  "texto": "O STF anula as condenações de Lula e declara o juiz Moro parcial. A CPI da Covid pede o indiciamento de Bolsonaro.",
+  "pistas": [
+   {
+    "veiculo": "O Povo",
+    "data": "abr/2021",
+    "titulo": "Maioria do STF confirma parcialidade de Moro",
+    "link": "https://mais.opovo.com.br/jornal/politica/2021/04/23/maioria-do-stf-confirma-parcialidade-de-moro.html"
+   },
+   {
+    "veiculo": "Poder360",
+    "data": "out/2021",
+    "titulo": "CPI da Covid aprova relatório final",
+    "link": "https://www.poder360.com.br/governo/cpi-da-covid-aprova-relatorio-final-com-80-pedidos-de-indiciamento/"
+   }
+  ]
+ },
+ {
+  "origem": "tempo:6",
+  "candidato": "brasil",
+  "area_do_mapa": "Linha do tempo",
+  "titulo": "2022",
+  "tipo_no_mapa": "contexto",
+  "natureza": "fato",
+  "texto": "Lula vence Bolsonaro na eleição presidencial.",
+  "pistas": []
+ },
+ {
+  "origem": "tempo:7",
+  "candidato": "brasil",
+  "area_do_mapa": "Linha do tempo",
+  "titulo": "8/1/2023",
+  "tipo_no_mapa": "contexto",
+  "natureza": "fato",
+  "texto": "Apoiadores de Bolsonaro depredam as sedes dos Três Poderes.",
+  "pistas": []
+ },
+ {
+  "origem": "tempo:8",
+  "candidato": "brasil",
+  "area_do_mapa": "Linha do tempo",
+  "titulo": "dez/2023",
+  "tipo_no_mapa": "contexto",
+  "natureza": "fato",
+  "texto": "O Congresso aprova a reforma tributária.",
+  "pistas": [
+   {
+    "veiculo": "O Povo",
+    "data": "dez/2023",
+    "titulo": "Entenda a reforma tributária promulgada",
+    "link": "https://www.opovo.com.br/noticias/brasil/2023/12/20/amp/entenda-a-reforma-tributaria-promulgada-nesta-quarta.html"
+   }
+  ]
+ },
+ {
+  "origem": "tempo:9",
+  "candidato": "brasil",
+  "area_do_mapa": "Linha do tempo",
+  "titulo": "2024",
+  "tipo_no_mapa": "contexto",
+  "natureza": "fato",
+  "texto": "Ano com recorde de mortes por dengue. A PF aponta uso ilegal da Abin no governo anterior.",
+  "pistas": [
+   {
+    "veiculo": "Poder360",
+    "data": "ago/2024",
+    "titulo": "Brasil passa de 5 mil mortes por dengue",
+    "link": "https://www.poder360.com.br/poder-saude/brasil-ultrapassa-marca-de-5-000-mortes-por-dengue/"
+   },
+   {
+    "veiculo": "O Povo",
+    "data": "jan/2024",
+    "titulo": "PF: Abin usada para monitorar promotora",
+    "link": "https://www.opovo.com.br/noticias/politica/2024/01/25/abin-foi-usada-para-monitorar-promotora-do-caso-marielle-diz-pf.html"
+   }
+  ]
+ },
+ {
+  "origem": "tempo:10",
+  "candidato": "brasil",
+  "area_do_mapa": "Linha do tempo",
+  "titulo": "abr–mai/2025",
+  "tipo_no_mapa": "contexto",
+  "natureza": "fato",
+  "texto": "Estoura a fraude do INSS; o ministro Carlos Lupi deixa o governo.",
+  "pistas": [
+   {
+    "veiculo": "O Povo / BBC",
+    "data": "mai/2025",
+    "titulo": "O que se sabe da fraude no INSS",
+    "link": "https://www.opovo.com.br/agencia/bbc/2025/05/03/o-que-se-sabe-sobre-fraude-no-inss-que-levou-lula-a-demitir-presidente-do-orgao.html"
+   },
+   {
+    "veiculo": "Diário do Nordeste",
+    "data": "mai/2025",
+    "titulo": "Lupi deixa o Ministério da Previdência",
+    "link": "https://diariodonordeste.verdesmares.com.br/pontopoder/carlos-lupi-pede-demissao-e-deixa-ministerio-da-previdencia-apos-escandalo-de-fraude-no-inss-1.3646382"
+   }
+  ]
+ },
+ {
+  "origem": "tempo:11",
+  "candidato": "brasil",
+  "area_do_mapa": "Linha do tempo",
+  "titulo": "jul/2025",
+  "tipo_no_mapa": "contexto",
+  "natureza": "fato",
+  "texto": "O Brasil sai do Mapa da Fome. Os EUA anunciam tarifa de 50%.",
+  "pistas": [
+   {
+    "veiculo": "O Povo",
+    "data": "jul/2025",
+    "titulo": "Brasil sai do Mapa da Fome",
+    "link": "https://www.opovo.com.br/noticias/brasil/2025/07/28/brasil-sai-do-mapa-da-fome-anuncia-onu.html"
+   },
+   {
+    "veiculo": "Agência Brasil",
+    "data": "set/2026",
+    "titulo": "Entenda a relação Brasil–Estados Unidos",
+    "link": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-09/entenda-relacao-entre-brasil-e-estados-unidos"
+   }
+  ]
+ },
+ {
+  "origem": "tempo:12",
+  "candidato": "brasil",
+  "area_do_mapa": "Linha do tempo",
+  "titulo": "set/2025",
+  "tipo_no_mapa": "contexto",
+  "natureza": "fato",
+  "texto": "O STF condena Jair Bolsonaro a 27 anos e 3 meses por tentativa de golpe.",
+  "pistas": [
+   {
+    "veiculo": "A União",
+    "data": "mar/2026",
+    "titulo": "Bolsonaro vai para prisão domiciliar",
+    "link": "https://auniao.pb.gov.br/noticias/caderno_politicas/bolsonaro-vai-para-prisao-domiciliar"
+   }
+  ]
+ },
+ {
+  "origem": "tempo:13",
+  "candidato": "brasil",
+  "area_do_mapa": "Linha do tempo",
+  "titulo": "nov/2025",
+  "tipo_no_mapa": "contexto",
+  "natureza": "fato",
+  "texto": "Jair é preso. O Banco Central fecha o Banco Master.",
+  "pistas": [
+   {
+    "veiculo": "A União",
+    "data": "mar/2026",
+    "titulo": "Bolsonaro vai para prisão domiciliar",
+    "link": "https://auniao.pb.gov.br/noticias/caderno_politicas/bolsonaro-vai-para-prisao-domiciliar"
+   },
+   {
+    "veiculo": "Bloomberg",
+    "data": "set/2026",
+    "titulo": "Como o caso Master mexe com a eleição",
+    "link": "https://www.bloomberg.com/graphics/2026-banco-master-brazil-supreme-court-presidential-election/"
+   }
+  ]
+ },
+ {
+  "origem": "tempo:14",
+  "candidato": "brasil",
+  "area_do_mapa": "Linha do tempo",
+  "titulo": "jan/2026",
+  "tipo_no_mapa": "contexto",
+  "natureza": "fato",
+  "texto": "Começa o IR zero até R$ 5 mil. É assinado o acordo Mercosul–União Europeia.",
+  "pistas": [
+   {
+    "veiculo": "CNN Brasil",
+    "data": "nov/2025",
+    "titulo": "Sancionado o IR zero até R$ 5 mil",
+    "link": "https://www.cnnbrasil.com.br/politica/lula-sanciona-isencao-do-ir-para-quem-ganha-ate-r-5-mil/"
+   },
+   {
+    "veiculo": "Delegação da União Europeia",
+    "data": "jan/2026",
+    "titulo": "Assinatura do acordo UE–Mercosul",
+    "link": "https://www.eeas.europa.eu/delegations/brazil/presidentes-da-comiss%C3%A3o-europeia-e-do-conselho-europeu-re%C3%BAnem-se-com-o-presidente-lula-no-rio-de_pti"
+   }
+  ]
+ },
+ {
+  "origem": "tempo:15",
+  "candidato": "brasil",
+  "area_do_mapa": "Linha do tempo",
+  "titulo": "mar/2026",
+  "tipo_no_mapa": "contexto",
+  "natureza": "fato",
+  "texto": "A CPMI do INSS termina sem relatório aprovado. Jair vai para prisão domiciliar.",
+  "pistas": [
+   {
+    "veiculo": "Jovem Pan",
+    "data": "mar/2026",
+    "titulo": "CPMI rejeita o relatório final",
+    "link": "https://jovempan.com.br/noticias/politica/cpmi-do-inss-relatorio-que-indiciava-lulinha-e-rejeitado.html"
+   },
+   {
+    "veiculo": "A União",
+    "data": "mar/2026",
+    "titulo": "Bolsonaro vai para prisão domiciliar",
+    "link": "https://auniao.pb.gov.br/noticias/caderno_politicas/bolsonaro-vai-para-prisao-domiciliar"
+   }
+  ]
+ },
+ {
+  "origem": "tempo:16",
+  "candidato": "brasil",
+  "area_do_mapa": "Linha do tempo",
+  "titulo": "jun/2026",
+  "tipo_no_mapa": "contexto",
+  "natureza": "fato",
+  "texto": "O STF condena Eduardo Bolsonaro por coação.",
+  "pistas": [
+   {
+    "veiculo": "Agência Brasil",
+    "data": "set/2026",
+    "titulo": "Entenda a relação Brasil–Estados Unidos",
+    "link": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-09/entenda-relacao-entre-brasil-e-estados-unidos"
+   }
+  ]
+ },
+ {
+  "origem": "tempo:17",
+  "candidato": "brasil",
+  "area_do_mapa": "Linha do tempo",
+  "titulo": "jul/2026",
+  "tipo_no_mapa": "contexto",
+  "natureza": "fato",
+  "texto": "Flávio passa a ser investigado no caso Dark Horse. Os EUA aplicam novas tarifas de até 37,5%.",
+  "pistas": [
+   {
+    "veiculo": "Nexo",
+    "data": "set/2026",
+    "titulo": "Políticos da teia do Master investigados no STF",
+    "link": "https://www.nexojornal.com.br/expresso/2026/09/12/sigilo-master-vorcaro-mendonca-vorcaro"
+   },
+   {
+    "veiculo": "O Povo",
+    "data": "jul/2026",
+    "titulo": "Tarifa de até 37,5% atinge exportações",
+    "link": "https://www.opovo.com.br/noticias/economia/2026/07/24/tarifa-de-375-dos-eua-atinge-uss-66-bi-em-exportacoes-do-brasil.html"
+   }
+  ]
+ },
+ {
+  "origem": "tempo:18",
+  "candidato": "brasil",
+  "area_do_mapa": "Linha do tempo",
+  "titulo": "4/10/2026",
+  "tipo_no_mapa": "contexto",
+  "natureza": "fato",
+  "texto": "1º turno: Flávio e Lula vão para o 2º turno.",
+  "pistas": [
+   {
+    "veiculo": "Senado Notícias",
+    "data": "out/2026",
+    "titulo": "Resultado do 1º turno e data do 2º turno",
+    "link": "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente"
+   }
+  ]
+ },
+ {
+  "origem": "tempo:19",
+  "candidato": "brasil",
+  "area_do_mapa": "Linha do tempo",
+  "titulo": "25/10/2026",
+  "tipo_no_mapa": "contexto",
+  "natureza": "fato",
+  "texto": "2º turno.",
+  "pistas": [
+   {
+    "veiculo": "Senado Notícias",
+    "data": "out/2026",
+    "titulo": "Resultado do 1º turno e data do 2º turno",
+    "link": "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente"
+   }
+  ]
+ }
+]

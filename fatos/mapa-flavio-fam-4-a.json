@@ -1,0 +1,88 @@
+{
+ "id": "mapa-flavio-fam-4-a",
+ "origem": "mapa:flavio-fam-4",
+ "candidato": "flavio",
+ "tema": "aliados",
+ "subtema": "partido",
+ "lente": "fez",
+ "data": "2026-08",
+ "titulo": "Alfredo Gaspar, ex-promotor, é vice na chapa de Flávio",
+ "frase": "Alfredo Gaspar (PL), ex-promotor de justiça de Alagoas, que se tornou deputado federal pela primeira vez em 2023, é o vice-presidente na chapa de Flávio Bolsonaro.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Agência Senado",
+  "documento": "Flávio Bolsonaro e Lula disputam o segundo turno das eleições para presidente (04/10/2026)",
+  "link": "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente",
+  "trecho": "O vice-presidente na chapa de Flávio é Alfredo Gaspar (PL), ex-promotor de justiça de Alagoas, que se tornou deputado federal pela primeira vez em 2023. Em 2025, foi relator da CPMI do INSS, que investigou fraudes em aposentadorias e pensões."
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Senado",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2026/08/17/eleicoes-2026-veja-os-numeros-das-candidaturas-oficializadas",
+   "trecho": "Também foram registradas as chapas do senador Flávio Bolsonaro (PL), com Alfredo Gaspar (PL) como vice;"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente": "http://web.archive.org/web/20261011142347/https://www12.senado.leg.br/noticias/materias/2026/10/04/flavio-bolsonaro-e-lula-disputam-o-segundo-turno-das-eleicoes-para-presidente",
+  "https://www12.senado.leg.br/noticias/materias/2026/08/17/eleicoes-2026-veja-os-numeros-das-candidaturas-oficializadas": "http://web.archive.org/web/20261004095222/https://www12.senado.leg.br/noticias/materias/2026/08/17/eleicoes-2026-veja-os-numeros-das-candidaturas-oficializadas"
+ },
+ "hash": "d2e939d68ec5330490162f9beb55e2c68246afbaeb1b9d63d99ca785eca6173a",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F2485",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Partido, profissão anterior, primeiro mandato e posição na chapa batem com o trecho."
+  },
+  "contra": {
+   "rotulo": "F2485",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Partido, passado de promotor, primeiro mandato e posição na chapa estão no trecho. Descrição sem juízo e sem resultado."
+  },
+  "neutra": {
+   "rotulo": "F2485",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Partido, ex-promotor em Alagoas, primeiro mandato de deputado federal e vaga de vice estão nos trechos. Sem lado bom ou ruim."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1433",
+  "verificador": {
+   "rotulo": "F2485",
+   "sustenta": true,
+   "motivo": "Vice na chapa, ex-promotor de Alagoas e deputado federal pela primeira vez em ano A copiam o trecho."
+  },
+  "espelho": {
+   "rotulo": "F2485",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Informa quem é o candidato a vice e sua trajetória, sem lado bom ou ruim."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

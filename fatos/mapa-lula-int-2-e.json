@@ -1,0 +1,88 @@
+{
+ "id": "mapa-lula-int-2-e",
+ "origem": "mapa:lula-int-2",
+ "candidato": "lula",
+ "tema": "mundo",
+ "subtema": "eua",
+ "lente": "fez",
+ "data": "2026-07-15",
+ "titulo": "Governo Lula responde à tarifa de 25% com nota e cita a Lei da Reciprocidade",
+ "frase": "Em 15 de julho de 2026, o governo Lula chamou de \"marco lastimável\" a tarifa adicional de 25% dos EUA e disse que poderá recorrer à Lei da Reciprocidade.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Poder360",
+  "documento": "Leia a íntegra da nota do governo Lula contra tarifaço dos EUA",
+  "link": "https://www.poder360.com.br/poder-governo/leia-a-integra-da-nota-do-governo-lula-contra-tarifaco-dos-eua/",
+  "trecho": "O governo do presidente Luiz Inácio Lula da Silva (PT) divulgou na 4ª feira (15.jul.2026) uma nota em resposta ao anúncio dos Estados Unidos de aplicar uma tarifa adicional de 25% sobre produtos brasileiros. O Planalto classificou a medida como um “marco lastimável” nas relações entre os 2 países e informou que adotará medidas estabelecidas na Lei de Reciprocidade e recorrerá à OMC (Organização Mundial do Comércio)."
+ },
+ "fontes": [
+  {
+   "veiculo": "G1",
+   "nivel": "C",
+   "link": "https://g1.globo.com/politica/noticia/2026/07/16/mauro-vieira-diz-que-nao-ha-justificativa-para-novas-tarifas-do-eua.ghtml",
+   "trecho": "Em nota, o governo do presidente Lula classificou a decisão como um \"marco lastimável\" na relação bilateral e afirmou que poderá recorrer à Lei da Reciprocidade Econômica."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.poder360.com.br/poder-governo/leia-a-integra-da-nota-do-governo-lula-contra-tarifaco-dos-eua/": "http://web.archive.org/web/20261011160534/https://www.poder360.com.br/poder-governo/leia-a-integra-da-nota-do-governo-lula-contra-tarifaco-dos-eua/",
+  "https://g1.globo.com/politica/noticia/2026/07/16/mauro-vieira-diz-que-nao-ha-justificativa-para-novas-tarifas-do-eua.ghtml": null
+ },
+ "hash": "60fbeaaee9dd7d8f68639532c14cd8cb1439c589c4ee89d68bff1bbe02ead307",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F6381",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Nota de 15 de julho, expressão marco lastimável e possível uso da Lei da Reciprocidade estão nos trechos. Reação do governo, sem efeito medido: contexto."
+  },
+  "contra": {
+   "rotulo": "F6381",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Nota de 15 de julho, 'marco lastimável', tarifa de 25% e Lei da Reciprocidade batem. A frase usa 'poderá' (trecho 2); o trecho 1 diz 'adotará' e cita a OMC."
+  },
+  "neutra": {
+   "rotulo": "F6381",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, nota do governo, 'marco lastimável', 25% e Lei da Reciprocidade estão nos trechos. Citação atribuída ao governo. Contexto."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1409",
+  "verificador": {
+   "rotulo": "F6381",
+   "sustenta": true,
+   "motivo": "Data de 15 de julho, 'marco lastimável', tarifa adicional de 25% e possível recurso à Lei da Reciprocidade constam dos trechos."
+  },
+  "espelho": {
+   "rotulo": "F6381",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Nota do governo reagindo à tarifa; posição oficial sem efeito medido."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

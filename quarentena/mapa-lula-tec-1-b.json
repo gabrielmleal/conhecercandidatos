@@ -1,0 +1,38 @@
+{
+ "id": "mapa-lula-tec-1-b",
+ "origem": "mapa:lula-tec-1",
+ "candidato": "lula",
+ "tema": "obras",
+ "subtema": "ciencia",
+ "lente": "fez",
+ "data": "2026-02-20",
+ "titulo": "Plano de IA já mobilizou R$ 7 bilhões, diz o MCTI",
+ "frase": "O Ministério da Ciência, Tecnologia e Inovação informou que, desde o lançamento do Plano Brasileiro de Inteligência Artificial, R$ 7 bilhões já foram mobilizados.",
+ "tipo": "contexto",
+ "peso": 1,
+ "marco": false,
+ "ancora": {
+  "orgao": "MCTI",
+  "documento": "Brasil apresenta plano de IA e reforça parcerias estratégicas na Índia, 20/02/2026",
+  "link": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2026/02/brasil-apresenta-plano-de-ia-e-reforca-parcerias-estrategicas-na-india",
+  "trecho": "Desde o lançamento, R$ 7 bilhões já foram mobilizados."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": false,
+  "4": true,
+  "5": true,
+  "6": true
+ },
+ "copias": {
+  "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2026/02/brasil-apresenta-plano-de-ia-e-reforca-parcerias-estrategicas-na-india": "http://web.archive.org/web/20260511190302/https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2026/02/brasil-apresenta-plano-de-ia-e-reforca-parcerias-estrategicas-na-india"
+ },
+ "hash": "83e164e74c39b34c594d913ea727c63f779e1c244675d341df7c1ac869990d32",
+ "provado_em": "2026-10-11",
+ "falhas": [
+  "trecho não encontrado na página"
+ ],
+ "entrou_em": "2026-10-12"
+}

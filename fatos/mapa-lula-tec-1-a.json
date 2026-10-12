@@ -1,0 +1,80 @@
+{
+ "id": "mapa-lula-tec-1-a",
+ "origem": "mapa:lula-tec-1",
+ "candidato": "lula",
+ "tema": "obras",
+ "subtema": "ciencia",
+ "lente": "prometeu",
+ "data": "2026-02-20",
+ "titulo": "Segundo o MCTI, plano de inteligência artificial prevê R$ 23 bilhões de investimento público até 2028",
+ "frase": "Segundo o MCTI, o plano de inteligência artificial que ele coordena prevê investimento público de R$ 23 bilhões até 2028, cerca de US$ 4,5 bilhões.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "MCTI",
+  "documento": "Brasil apresenta plano de IA e reforça parcerias estratégicas na Índia, 20/02/2026",
+  "link": "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2026/02/brasil-apresenta-plano-de-ia-e-reforca-parcerias-estrategicas-na-india",
+  "trecho": "Coordenado pelo MCTI, o plano prevê investimento público de R$ 23 bilhões até 2028, o equivalente a aproximadamente US$ 4,5 bilhões."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2026/02/brasil-apresenta-plano-de-ia-e-reforca-parcerias-estrategicas-na-india": "http://web.archive.org/web/20260511190302/https://www.gov.br/mcti/pt-br/acompanhe-o-mcti/noticias/2026/02/brasil-apresenta-plano-de-ia-e-reforca-parcerias-estrategicas-na-india"
+ },
+ "hash": "4fbe2e7d2883b50f9fa59f1f9e67459079cfe4942cf659401bf723a21e4e1127",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F4196",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Atribuída ao MCTI, com valores e prazo iguais ao trecho. Investimento previsto ainda não feito: promessa, peso 0."
+  },
+  "contra": {
+   "rotulo": "F4196",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Valor, dólar aproximado e prazo estão no trecho, atribuídos ao MCTI, que coordena o plano. É previsão, sem resultado afirmado."
+  },
+  "neutra": {
+   "rotulo": "F4196",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Valor, prazo e conversão em dólar estão no trecho, com autoria do MCTI. Investimento ainda não feito: promessa, peso 0."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F4196",
+   "sustenta": true,
+   "motivo": "Plano coordenado pelo MCTI, R$ 23 bilhões até ano B e cerca de US$ 4,5 bilhões estão literalmente no trecho."
+  },
+  "espelho": {
+   "rotulo": "F4196",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Plano prevê R$ 23 bilhões de investimento público até 2028; ainda não aconteceu."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

@@ -1,0 +1,80 @@
+{
+ "id": "mapa-lula-seg-2",
+ "origem": "mapa:lula-seg-2",
+ "candidato": "lula",
+ "tema": "seguranca",
+ "subtema": "policia",
+ "lente": "prometeu",
+ "data": "2026-08-07",
+ "titulo": "Plano de Lula promete criar o Ministério da Segurança Pública",
+ "frase": "O plano de governo de Lula promete criar o Ministério da Segurança Pública depois de aprovada a PEC da Segurança Pública proposta pelo Executivo.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "TSE",
+  "documento": "Programa de governo de Lula (PT), Eleições 2026",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
+  "trecho": "Uma vez aprovada a PEC da Segurança Pública proposta pelo Executivo, criaremos o Ministério da Segurança Pública para coordenar, em articulação com estados e municípios, a execução das políticas nacionais de segurança pública no âmbito do Sistema Único de Segurança Pública (SUSP)."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf": "http://web.archive.org/web/20261002034455/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf"
+ },
+ "hash": "27727113debe3497dae0ad3ea8233dcd06f28bbf32d0f1f2e5abb4c8b77a7bde",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5164",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Promessa e condição da PEC estão no trecho; promessa tem peso 0."
+  },
+  "contra": {
+   "rotulo": "F5164",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Promessa fiel ao plano, com a condição da PEC. Promessa tem peso 0, não 1."
+  },
+  "neutra": {
+   "rotulo": "F5164",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Promessa fiel ao plano; promessa tem peso 0, não 1. 'PEC' poderia ser explicada."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-1502",
+  "verificador": {
+   "rotulo": "F5164",
+   "sustenta": true,
+   "motivo": "O trecho do plano diz que, aprovada a PEC da Segurança Pública do Executivo, criará o Ministério da Segurança Pública."
+  },
+  "espelho": {
+   "rotulo": "F5164",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Plano de governo promete criar ministério; ainda não aconteceu."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

@@ -1,0 +1,90 @@
+{
+ "id": "mapa-flavio-fis-1",
+ "origem": "mapa:flavio-fis-1",
+ "candidato": "flavio",
+ "tema": "contas",
+ "subtema": "divida",
+ "lente": "fez",
+ "data": "2022-12",
+ "titulo": "Dívida bruta do governo geral foi de 87,66% do PIB em 01/10/2020 e de 71,68% em 01/12/2022",
+ "frase": "Segundo o Banco Central, a dívida bruta do governo geral foi de 87,66% do PIB em 01/10/2020 e de 71,68% do PIB em 01/12/2022.",
+ "tipo": "positivo",
+ "peso": 2,
+ "marco": false,
+ "ancora": {
+  "orgao": "Banco Central do Brasil",
+  "documento": "Série 13762 do SGS: Dívida bruta do governo geral (% do PIB), dezembro de 2022",
+  "link": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=csv&dataInicial=01/12/2022&dataFinal=01/12/2022",
+  "trecho": "\"data\";\"valor\" \"01/12/2022\";\"71,68\""
+ },
+ "fontes": [
+  {
+   "veiculo": "Banco Central do Brasil (SGS 13762, outubro de 2020)",
+   "nivel": "A",
+   "link": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=csv&dataInicial=01/10/2020&dataFinal=01/10/2020",
+   "trecho": "\"data\";\"valor\" \"01/10/2020\";\"87,66\""
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=csv&dataInicial=01/12/2022&dataFinal=01/12/2022": null,
+  "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=csv&dataInicial=01/10/2020&dataFinal=01/10/2020": null
+ },
+ "hash": "57193e18afa3a9c122ffc43dd6d6ba2e570a4f6b96636f868edc5e54cfd41e4c",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5271",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Os dois valores e datas batem com a série do BC; queda medida em dado oficial."
+  },
+  "contra": {
+   "rotulo": "F5271",
+   "confere": true,
+   "certeza": 0.75,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Números batem com a série; compara outubro com dezembro, meses diferentes, e nenhum trecho liga a queda a ação do governo."
+  },
+  "neutra": {
+   "rotulo": "F5271",
+   "confere": true,
+   "certeza": 0.88,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Valores batem com a série do Banco Central; '01/10/ano A' parece dia exato, melhor 'outubro de ano A'."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F5271",
+   "sustenta": true,
+   "motivo": "Série 13762 do SGS traz 87,66 em 01/10/ano A e 71,68 em 01/12/ano B."
+  },
+  "espelho": {
+   "rotulo": "F5271",
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Dado do Banco Central: dívida bruta caiu de 87,66% para 71,68% do PIB."
+  }
+ },
+ "classificacao": "positivo",
+ "peso_final": 2,
+ "falhas": [
+  "as três revisões não concordaram"
+ ],
+ "entrou_em": "2026-10-12"
+}

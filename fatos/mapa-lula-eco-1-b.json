@@ -1,0 +1,100 @@
+{
+ "id": "mapa-lula-eco-1-b",
+ "origem": "mapa:lula-eco-1",
+ "candidato": "lula",
+ "tema": "renda",
+ "subtema": "emprego",
+ "lente": "fez",
+ "data": "2026-08-14",
+ "titulo": "Desocupação de jovens de 18 a 24 anos cai de 19,3% para 11,7%",
+ "frase": "No 2º trimestre, a desocupação de jovens de 18 a 24 anos caiu de 19,3% (2022) para 11,7% (2026), acima da taxa total de 5,4%, segundo o IBGE.",
+ "tipo": "positivo",
+ "peso": 2,
+ "marco": false,
+ "ancora": {
+  "orgao": "IBGE",
+  "documento": "Indicadores IBGE: PNAD Contínua trimestral, 2º trimestre de 2026",
+  "link": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/2421/pnact_2026_2tri.pdf",
+  "trecho": "A taxa de desocupação dos jovens de 18 a 24 anos de idade, (11,7%), apresentou patamar elevado em relação à taxa média total (5,4%)."
+ },
+ "fontes": [
+  {
+   "veiculo": "IBGE (PNAD Contínua trimestral, 2º trimestre de 2026)",
+   "nivel": "A",
+   "link": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/2421/pnact_2026_2tri.pdf",
+   "trecho": "No 2º trimestre de 2026, a taxa de desocupação, no Brasil, foi estimada em 5,4%."
+  },
+  {
+   "veiculo": "IBGE (PNAD Contínua trimestral, 2º trimestre de 2022)",
+   "nivel": "A",
+   "link": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/2421/pnact_2022_2tri.pdf",
+   "trecho": "taxa de desocupação dos jovens de 18 a 24 anos de idade, (19,3%), apresentou patamar elevado em relação à taxa média total (9,3%)."
+  },
+  {
+   "veiculo": "IBGE (PNAD Contínua trimestral, 2º trimestre de 2022, resumo)",
+   "nivel": "A",
+   "link": "https://biblioteca.ibge.gov.br/visualizacao/periodicos/2421/pnact_2022_2tri.pdf",
+   "trecho": "No 2º trimestre de 2022, a taxa de desocupação, no Brasil, foi estimada em 9,3%."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://biblioteca.ibge.gov.br/visualizacao/periodicos/2421/pnact_2026_2tri.pdf": "http://web.archive.org/web/20260827203428/https://biblioteca.ibge.gov.br/visualizacao/periodicos/2421/pnact_2026_2tri.pdf",
+  "https://biblioteca.ibge.gov.br/visualizacao/periodicos/2421/pnact_2022_2tri.pdf": null
+ },
+ "hash": "6c527abb1c822e946e6408a5afaedda7ba24dc3ec3e0e382b53a5b8567dc600c",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F8708",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Taxas de 19,3%, 11,7% e 5,4% batem com o IBGE."
+  },
+  "contra": {
+   "rotulo": "F8708",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Taxas fiéis ao IBGE, com a ressalva de que segue acima da média; não atribui a queda a ninguém."
+  },
+  "neutra": {
+   "rotulo": "F8708",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Taxas iguais às do IBGE nos dois anos; dado oficial com melhora medida."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-1502",
+  "verificador": {
+   "rotulo": "F8708",
+   "sustenta": true,
+   "motivo": "19,3% no 2º tri de ano A, 11,7% no 2º tri de ano B e total de 5,4% estão nos trechos do IBGE."
+  },
+  "espelho": {
+   "rotulo": "F8708",
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "IBGE: desocupação de jovens de 18 a 24 anos caiu de 19,3% para 11,7%."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

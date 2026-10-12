@@ -2,9 +2,11 @@
   "name": "conhecercandidatos",
   "compatibility_date": "2026-10-01",
   "assets": {
-    "directory": "./public"
+    "directory": "./site",
+    "not_found_handling": "404-page"
   },
   "workers_dev": true,
+  "previews": {},
   "routes": [
     { "pattern": "conhecercandidatos.com.br", "custom_domain": true }
   ]

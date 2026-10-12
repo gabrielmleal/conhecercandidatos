@@ -1,0 +1,82 @@
+{
+ "id": "mapa-flavio-eco-1-b",
+ "origem": "mapa:flavio-eco-1",
+ "candidato": "flavio",
+ "tema": "contas",
+ "subtema": "previdencia",
+ "lente": "fez",
+ "data": "2019-11-12",
+ "titulo": "Reforma da Previdência tem estimativa de economia de cerca de R$ 800 bilhões em 10 anos",
+ "frase": "Segundo a Agência Senado, a estimativa de economia com a reforma da Previdência é de cerca de R$ 800 bilhões em 10 anos.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Senado Federal",
+  "documento": "Agência Senado: Promulgada Emenda Constitucional da reforma da Previdência (12/11/2019)",
+  "link": "https://www12.senado.leg.br/noticias/materias/2019/11/12/promulgada-emenda-constitucional-da-reforma-da-previdencia",
+  "trecho": "A estimativa de economia é de cerca de R$ 800 bilhões em 10 anos."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/materias/2019/11/12/promulgada-emenda-constitucional-da-reforma-da-previdencia": null
+ },
+ "hash": "59fc0447486341f65a71b3ab9813ef8962fa0eb5d88d8cf6cb47c95cbe904ad6",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F7565",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Estimativa de cerca de R$ 800 bilhões em 10 anos está no trecho; efeito ainda não medido."
+  },
+  "contra": {
+   "rotulo": "F7565",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "É estimativa, apresentada como tal e não como economia realizada; nada favorece além do trecho."
+  },
+  "neutra": {
+   "rotulo": "F7565",
+   "confere": true,
+   "certeza": 0.85,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Valor e prazo estão no trecho; estimativa é efeito não medido. Frase não diz de qual reforma, nem quando."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F7565",
+   "sustenta": true,
+   "motivo": "Trecho traz estimativa de economia de cerca de R$ 800 bilhões em 10 anos."
+  },
+  "espelho": {
+   "rotulo": "F7565",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Economia de R$ 800 bilhões é estimativa; efeito ainda não medido."
+  }
+ },
+ "classificacao": "polemico",
+ "peso_final": 0,
+ "falhas": [
+  "as três revisões não concordaram"
+ ],
+ "entrou_em": "2026-10-12"
+}

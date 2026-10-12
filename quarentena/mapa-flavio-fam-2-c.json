@@ -1,0 +1,96 @@
+{
+ "id": "mapa-flavio-fam-2-c",
+ "origem": "mapa:flavio-fam-2",
+ "candidato": "flavio",
+ "tema": "aliados",
+ "subtema": "familia",
+ "lente": "disse",
+ "data": "2026-10-10",
+ "titulo": "Eduardo Bolsonaro diz que articula nos EUA o retorno das sanções da Lei Magnitsky contra Moraes",
+ "frase": "Eduardo diz que articula nos EUA o retorno das sanções da Lei Magnitsky contra o ministro do STF Alexandre de Moraes. Se o irmão Flávio vencer, Eduardo trabalhará pela retomada.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Poder360",
+  "documento": "Eduardo diz que atuará nos EUA para retomada de Magnitsky a Moraes (10/10/2026)",
+  "link": "https://www.poder360.com.br/poder-justica/eduardo-diz-que-atuara-nos-eua-para-retomada-de-magnitsky-a-moraes/",
+  "trecho": "De acordo com ele, caso o seu irmão Flávio Bolsonaro (PL) vença as eleições presidenciais de 2026, ele próprio trabalhará pela retomada da norma."
+ },
+ "fontes": [
+  {
+   "veiculo": "Poder360",
+   "nivel": "C",
+   "link": "https://www.poder360.com.br/poder-justica/eduardo-diz-que-atuara-nos-eua-para-retomada-de-magnitsky-a-moraes/",
+   "trecho": "O ex-deputado federal Eduardo Bolsonaro declarou neste sábado (10.out.2026) ser “provável” o retorno da aplicação da Lei Magnitsky contra o ministro do Supremo Tribunal Federal Alexandre de Moraes pelo governo de Donald Trump (republicano). Eduardo deu a declaração em entrevista ao canal SBT News ."
+  },
+  {
+   "veiculo": "SBT News",
+   "nivel": "C",
+   "link": "https://sbtnews.sbt.com.br/noticia/politica/eduardo-bolsonaro-admite-buscar-nova-magnitsky-contra-moraes",
+   "trecho": "Eduardo Bolsonaro (PL-SP) afirmou nesta quarta-feira (17) que continua articulando nos Estados Unidos o retorno das sanções da Lei Magnitsky contra o ministro do Supremo Tribunal Federal (STF) Alexandre de Moraes ."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.poder360.com.br/poder-justica/eduardo-diz-que-atuara-nos-eua-para-retomada-de-magnitsky-a-moraes/": null,
+  "https://sbtnews.sbt.com.br/noticia/politica/eduardo-bolsonaro-admite-buscar-nova-magnitsky-contra-moraes": null
+ },
+ "hash": "a42ffb7109049d839d408327f6ecd71837d7401f3a164faab21a4c7f8c669cd9",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F3086",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Articulação nos EUA e trabalho pela retomada se o irmão vencer estão nos trechos, atribuídos a ele."
+  },
+  "contra": {
+   "rotulo": "F3086",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Articulação nos EUA e compromisso condicionado à vitória do irmão estão nos trechos; nada favorece."
+  },
+  "neutra": {
+   "rotulo": "F3086",
+   "confere": false,
+   "certeza": 0.7,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Frase chama de 'Eduardo' quem o título chama de Pessoa Q, sem cargo; Lei Magnitsky e o 'retorno' das sanções não são explicados."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F3086",
+   "sustenta": true,
+   "motivo": "Trechos trazem articulação nos EUA pelo retorno da Magnitsky e retomada se o irmão vencer."
+  },
+  "espelho": {
+   "rotulo": "F3086",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Articulação para retomar sanções futuras; ainda não aconteceu."
+  }
+ },
+ "classificacao": "polemico",
+ "peso_final": 0,
+ "falhas": [
+  "as três revisões não concordaram"
+ ],
+ "entrou_em": "2026-10-12"
+}

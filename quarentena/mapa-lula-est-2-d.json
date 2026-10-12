@@ -1,0 +1,84 @@
+{
+ "id": "mapa-lula-est-2-d",
+ "origem": "mapa:lula-est-2",
+ "candidato": "lula",
+ "tema": "contas",
+ "subtema": "previdencia",
+ "lente": "fez",
+ "data": "2025-10-02",
+ "titulo": "Ministro da CGU diz que os ressarcimentos já começavam 90 dias após a operação",
+ "frase": "Segundo o ministro da CGU, em depoimento à CPMI do INSS: “90 dias depois da operação, nós já estávamos começando os ressarcimentos dos aposentados e dos pensionistas”.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Câmara dos Deputados",
+  "documento": "Agência Câmara: ministro da CGU depõe na CPMI do INSS",
+  "link": "https://www.camara.leg.br/noticias/1207297-na-cpmi-do-inss-ministro-afirma-que-cgu-agiu-rapido-para-investigar-denuncias-levantadas-em-2024/",
+  "trecho": "E 90 dias depois da operação, nós já estávamos começando os ressarcimentos dos aposentados e dos pensionistas”"
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": false,
+  "9": false
+ },
+ "copias": {
+  "https://www.camara.leg.br/noticias/1207297-na-cpmi-do-inss-ministro-afirma-que-cgu-agiu-rapido-para-investigar-denuncias-levantadas-em-2024/": "http://web.archive.org/web/20251016010347/https://www.camara.leg.br/noticias/1207297-na-cpmi-do-inss-ministro-afirma-que-cgu-agiu-rapido-para-investigar-denuncias-levantadas-em-2024/"
+ },
+ "hash": "0cb96333dd44ff23f7866da59129eafabe1ed39deb994c3424fdf9eca3a97f6d",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F7165",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "positivo",
+   "peso": 1,
+   "motivo": "Citação literal do ministro; balanço do próprio governo sobre ressarcimento já iniciado, peso 1."
+  },
+  "contra": {
+   "rotulo": "F7165",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Fala do próprio governo, citada literalmente e atribuída; sem dado que meça os ressarcimentos, fica polêmico com peso 0."
+  },
+  "neutra": {
+   "rotulo": "F7165",
+   "confere": false,
+   "certeza": 0.76,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Leigo não sabe qual é 'a operação' nem por que há ressarcimentos; título e frase dependem de contexto ausente."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F7165",
+   "sustenta": false,
+   "motivo": "Trecho traz só a citação, sem dizer quem falou; atribuir ao ministro da CGU depende apenas do título do documento."
+  },
+  "espelho": {
+   "rotulo": "F7165",
+   "tipo": "positivo",
+   "peso": 1,
+   "motivo": "Balanço do próprio governo: ressarcimentos começaram 90 dias após a operação."
+  }
+ },
+ "classificacao": "polemico",
+ "peso_final": 0,
+ "falhas": [
+  "as três revisões não concordaram",
+  "o texto vai além do trecho",
+  "o espelho deu outro tipo"
+ ],
+ "entrou_em": "2026-10-12"
+}

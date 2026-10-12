@@ -1,0 +1,80 @@
+{
+ "id": "mapa-flavio-edu-3-a",
+ "origem": "mapa:flavio-edu-3",
+ "candidato": "flavio",
+ "tema": "educacao",
+ "subtema": "mec",
+ "lente": "fez",
+ "data": "2019-09-05",
+ "titulo": "Decreto institui o Programa Nacional das Escolas Cívico-Militares",
+ "frase": "O Decreto 10.004, de 5 de setembro de 2019, instituiu o Programa Nacional das Escolas Cívico-Militares.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Presidência da República",
+  "documento": "Decreto nº 10.004, de 5 de setembro de 2019 (texto original, Câmara dos Deputados)",
+  "link": "https://www2.camara.leg.br/legin/fed/decret/2019/decreto-10004-5-setembro-2019-789086-publicacaooriginal-159009-pe.html",
+  "trecho": "DECRETO Nº 10.004, DE 5 DE SETEMBRO DE 2019 Institui o Programa Nacional das Escolas Cívico-Militares."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www2.camara.leg.br/legin/fed/decret/2019/decreto-10004-5-setembro-2019-789086-publicacaooriginal-159009-pe.html": "http://web.archive.org/web/20260510085457/https://www2.camara.leg.br/legin/fed/decret/2019/decreto-10004-5-setembro-2019-789086-publicacaooriginal-159009-pe.html"
+ },
+ "hash": "36c353116b82cda591809080e463c50be5c24a72613dfeb0a52da0b83ab4b577",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5147",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Número, data e nome do programa são os da ementa do decreto; sem efeito medido."
+  },
+  "contra": {
+   "rotulo": "F5147",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Número, data e nome do programa iguais à ementa do decreto. Sem resultado afirmado."
+  },
+  "neutra": {
+   "rotulo": "F5147",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Número, data e nome do programa batem com o trecho do decreto. Ato sem efeito medido: contexto."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1433",
+  "verificador": {
+   "rotulo": "F5147",
+   "sustenta": true,
+   "motivo": "Decreto 10.004 de 5 de setembro de ano A institui o Programa Nacional das Escolas Cívico-Militares, igual ao trecho."
+  },
+  "espelho": {
+   "rotulo": "F5147",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Decreto instituiu programa, ato sem efeito medido nem lado definido."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

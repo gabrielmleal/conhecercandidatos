@@ -1,0 +1,80 @@
+{
+ "id": "mapa-lula-dem-1-b",
+ "origem": "mapa:lula-dem-1",
+ "candidato": "lula",
+ "tema": "democracia",
+ "subtema": "justica",
+ "lente": "fez",
+ "data": "2023-01-08",
+ "titulo": "8 de janeiro: invasão e depredação das sedes dos Três Poderes",
+ "frase": "Os ataques de 8 de janeiro de 2023 incluíram a invasão e a depredação das sedes dos Três Poderes em Brasília.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": true,
+ "ancora": {
+  "orgao": "MPF",
+  "documento": "Notícia da PGR sobre a condenação do núcleo principal da trama golpista",
+  "link": "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/atos-antidemocraticos-stf-condena-todos-os-oito-reus-do-nucleo-principal-da-trama-golpista",
+  "trecho": "As penas foram fixadas conforme a participação de cada um na sequência de eventos que começou em junho de 2021 e culminou com os ataques de 8 de janeiro de 2023, com a invasão e depredação das sedes dos Três Poderes em Brasília."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/atos-antidemocraticos-stf-condena-todos-os-oito-reus-do-nucleo-principal-da-trama-golpista": "http://web.archive.org/web/20260507102618/https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/atos-antidemocraticos-stf-condena-todos-os-oito-reus-do-nucleo-principal-da-trama-golpista"
+ },
+ "hash": "b47ae88b11c19f5d63c72a54c227236cf34de3452ebc790f92861209136da37a",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F3851",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Invasão e depredação das sedes dos Três Poderes estão no trecho; nenhuma atribuição a pessoa."
+  },
+  "contra": {
+   "rotulo": "F3851",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data e invasão e depredação das sedes dos Três Poderes estão no trecho. Sem adjetivo nem autoria atribuída."
+  },
+  "neutra": {
+   "rotulo": "F3851",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, invasão, depredação e Três Poderes em Brasília batem com o trecho. Sem número de efeito: contexto."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1433",
+  "verificador": {
+   "rotulo": "F3851",
+   "sustenta": true,
+   "motivo": "Os ataques de 8 de janeiro de ano B, com invasão e depredação das sedes dos Três Poderes em Brasília, constam no trecho."
+  },
+  "espelho": {
+   "rotulo": "F3851",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Registro do fato histórico do 8 de janeiro, sem número nem condenação na frase."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

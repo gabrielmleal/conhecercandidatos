@@ -1,0 +1,90 @@
+{
+ "id": "mapa-flavio-int-2-c",
+ "origem": "mapa:flavio-int-2",
+ "candidato": "flavio",
+ "tema": "mundo",
+ "subtema": "eua",
+ "lente": "disse",
+ "data": "2025-07-09",
+ "titulo": "Eduardo e Paulo Figueiredo Filho dizem que a carta de Trump confirma o sucesso na transmissão do que apresentaram",
+ "frase": "Em 9 de julho, Eduardo e Paulo Figueiredo Filho disseram que a carta de Trump confirma o sucesso na transmissão do que apresentaram. Segundo o Aos Fatos, Bolsonaro os contradiz.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Aos Fatos",
+  "documento": "Bolsonaro contradiz o filho ao negar atuação de Eduardo em tarifaço de Trump (17/07/2025)",
+  "link": "https://www.aosfatos.org/noticias/bolsonaro-contradiz-filho-negar-atuacao-eduardo-tarifaco-trump/",
+  "trecho": "Os posicionamentos do ex-presidente vão de encontro à nota conjunta divulgada em 9 de julho, data do anúncio de Trump, por Eduardo e Paulo Figueiredo Filho, ex-comentarista da Jovem Pan investigado por suposto envolvimento com militares que tentaram promover um golpe de Estado em 2022. O texto diz: “Nos últimos meses, temos mantido intenso diálogo com autoridades do governo do presidente Trump — sempre com o objetivo de apresentar, com precisão e documentos, a realidade que o Brasil vive hoje. A carta do presidente dos Estados Unidos apenas confirma o sucesso na transmissão daquilo que viemos apresentando com seriedade e responsabilidade”."
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Brasil",
+   "nivel": "C",
+   "link": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-09/entenda-relacao-entre-brasil-e-estados-unidos",
+   "trecho": "Além disso, Eduardo afirmou ter atuado junto às autoridades americanas em prol desse resultado."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.aosfatos.org/noticias/bolsonaro-contradiz-filho-negar-atuacao-eduardo-tarifaco-trump/": null,
+  "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-09/entenda-relacao-entre-brasil-e-estados-unidos": "http://web.archive.org/web/20260922151850/https://agenciabrasil.ebc.com.br/internacional/noticia/2026-09/entenda-relacao-entre-brasil-e-estados-unidos"
+ },
+ "hash": "bc1605340aa3acbaca7c1c870d082e5bc3e6860291013e93beb7c3a665b36944",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F9621",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Citação e data batem com o trecho; a contradição do ex-presidente está no trecho e no documento."
+  },
+  "contra": {
+   "rotulo": "F9621",
+   "confere": true,
+   "certeza": 0.82,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Fiel ao trecho e traz a contradição; omite que Eduardo disse ter atuado junto aos americanos por esse resultado."
+  },
+  "neutra": {
+   "rotulo": "F9621",
+   "confere": false,
+   "certeza": 0.78,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Obscuro para leigo: não diz o que apresentaram, a quem, nem em que ponto Pessoa Z os contradiz."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F9621",
+   "sustenta": true,
+   "motivo": "Nota conjunta de 9 de julho diz que a carta confirma o sucesso; trecho e documento sustentam a contradição do ex-presidente."
+  },
+  "espelho": {
+   "rotulo": "F9621",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Alegação sobre carta de Trump contestada pelo Aos Fatos; prova em disputa."
+  }
+ },
+ "classificacao": "polemico",
+ "peso_final": 0,
+ "falhas": [
+  "as três revisões não concordaram"
+ ],
+ "entrou_em": "2026-10-12"
+}

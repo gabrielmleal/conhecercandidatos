@@ -1,0 +1,87 @@
+{
+ "id": "mapa-lula-emp-2-a",
+ "origem": "mapa:lula-emp-2",
+ "candidato": "lula",
+ "tema": "renda",
+ "subtema": "juros",
+ "lente": "fez",
+ "data": "2026-09-16",
+ "titulo": "Copom reduz a Selic para 13,75% em setembro de 2026",
+ "frase": "Em 16 de setembro de 2026, na 281ª reunião, o Copom reduziu a taxa Selic para 13,75% ao ano.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Banco Central do Brasil",
+  "documento": "Comunicado do Copom, 281ª reunião",
+  "link": "https://www.bcb.gov.br/api/servico/sitebcb/copom/comunicados_detalhes?nro_reuniao=281",
+  "trecho": "\"nro_reuniao\":281,\"dataReferencia\":\"2026-09-16\",\"titulo\":\"Copom reduz a taxa Selic para 13,75% a.a."
+ },
+ "fontes": [
+  {
+   "veiculo": "Banco Central (decisão do Copom)",
+   "nivel": "A",
+   "link": "https://www.bcb.gov.br/api/servico/sitebcb/copom/comunicados_detalhes?nro_reuniao=281",
+   "trecho": "O Copom decidiu reduzir a taxa básica de juros para 13,75% a.a., e entende que essa decisão é compatível com a estratégia de convergência da inflação para o redor da meta ao longo do horizonte relevante."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.bcb.gov.br/api/servico/sitebcb/copom/comunicados_detalhes?nro_reuniao=281": "http://web.archive.org/web/20261003025537/https://www.bcb.gov.br/api/servico/sitebcb/copom/comunicados_detalhes?nro_reuniao=281"
+ },
+ "hash": "8fcd3684542403d76d4df94e60b81945bca23286cb335f8ef747bdcf9e1fc248",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F7424",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Reunião, data e taxa de 13,75% estão nos trechos. Decisão de juros sem lado claro e sem valor anterior no trecho: contexto, peso 0."
+  },
+  "contra": {
+   "rotulo": "F7424",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "16 de setembro, 281ª reunião e Selic em 13,75% ao ano estão nos trechos. Decisão do Copom sem efeito medido; sem juízo."
+  },
+  "neutra": {
+   "rotulo": "F7424",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data 16/09, 281ª reunião e Selic em 13,75% estão nos trechos, 20 palavras. Sem lado definido."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-2137",
+  "verificador": {
+   "rotulo": "F7424",
+   "sustenta": true,
+   "motivo": "Trechos: 281ª reunião, data de referência 16/09 de ano A, Copom reduz a Selic para 13,75% a.a."
+  },
+  "espelho": {
+   "rotulo": "F7424",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Decisão do Copom reduziu a Selic para 13,75%; efeito ainda não medido e sem lado claro."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

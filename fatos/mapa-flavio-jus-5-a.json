@@ -1,0 +1,101 @@
+{
+ "id": "mapa-flavio-jus-5-a",
+ "origem": "mapa:flavio-jus-5",
+ "candidato": "flavio",
+ "tema": "aliados",
+ "subtema": "investigados",
+ "lente": "fez",
+ "data": "2026-05-07",
+ "titulo": "STF autoriza nova fase da investigação do Banco Master sobre Ciro Nogueira",
+ "frase": "O STF autorizou nova fase da investigação sobre suposta atuação de Ciro Nogueira em favor do banqueiro Daniel Vorcaro em troca de vantagens indevidas. Investigação não é condenação.",
+ "tipo": "problema",
+ "peso": 1,
+ "marco": false,
+ "ancora": {
+  "orgao": "Supremo Tribunal Federal",
+  "documento": "Notícia: STF autoriza nova fase da Operação Compliance Zero (07/05/2026)",
+  "link": "https://noticias.stf.jus.br/postsnoticias/stf-autoriza-nova-fase-da-operacao-compliance-zero/",
+  "trecho": "O ministro André Mendonça, do Supremo Tribunal Federal (STF), autorizou uma nova fase da Operação Compliance Zero, que apura suposto esquema de fraudes envolvendo o Banco Master. Nesta fase, a investigação envolve suposta atuação do senador Ciro Nogueira (PP-PI) em favor do banqueiro Daniel Vorcaro, dono do Banco Master, em troca de recebimento de vantagens indevidas."
+ },
+ "fontes": [
+  {
+   "veiculo": "Supremo Tribunal Federal",
+   "nivel": "A",
+   "link": "https://noticias.stf.jus.br/postsnoticias/stf-autoriza-nova-fase-da-operacao-compliance-zero/",
+   "trecho": "STF autoriza nova fase da Operação Compliance Zero Ministro André Mendonça atendeu a pedido da PF, que aponta indícios de atuação do senador Ciro Nogueira (PP-PI) em benefício de interesses privados de Daniel Vorcaro 07/05/2026 11:20"
+  },
+  {
+   "veiculo": "Câmara dos Deputados",
+   "nivel": "A",
+   "link": "https://www.camara.leg.br/deputados/74313/biografia",
+   "trecho": "Ministro de Estado, Ministro-Chefe da Casa Civil, Brasília, DF, 2021."
+  },
+  {
+   "veiculo": "Agência Senado",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2021/07/27/ciro-nogueira-aceita-convite-para-casa-civil-eliane-nogueira-e-a-primeira-suplente",
+   "trecho": "Por meio das redes sociais, ele afirmou que aceitou o convite feito pelo presidente da República, Jair Bolsonaro"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://noticias.stf.jus.br/postsnoticias/stf-autoriza-nova-fase-da-operacao-compliance-zero/": "http://web.archive.org/web/20260612141503/https://noticias.stf.jus.br/postsnoticias/stf-autoriza-nova-fase-da-operacao-compliance-zero/",
+  "https://www.camara.leg.br/deputados/74313/biografia": null,
+  "https://www12.senado.leg.br/noticias/materias/2021/07/27/ciro-nogueira-aceita-convite-para-casa-civil-eliane-nogueira-e-a-primeira-suplente": "http://web.archive.org/web/20260617105207/https://www12.senado.leg.br/noticias/materias/2021/07/27/ciro-nogueira-aceita-convite-para-casa-civil-eliane-nogueira-e-a-primeira-suplente"
+ },
+ "hash": "6a6d564362909dbf763ea9e61e24c9c41bdf8acf7821d490672e59975c69f3f4",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F9065",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Frase usa 'suposta' e termina com 'Investigação não é condenação.' Investigação formal autorizada, sem julgamento: problema, peso 1."
+  },
+  "contra": {
+   "rotulo": "F9065",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Diz 'suposta atuação' e termina com a ressalva. Investigação formal autorizada pelo STF sem julgamento: problema, peso 1."
+  },
+  "neutra": {
+   "rotulo": "F9065",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Nova fase autorizada e suposta atuação estão nos trechos. Investigação formal sem julgamento, com a frase de cautela no fim."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1433",
+  "verificador": {
+   "rotulo": "F9065",
+   "sustenta": true,
+   "motivo": "Autorização de nova fase, suposta atuação em favor do banqueiro e vantagens indevidas estão no trecho; autoria é de um ministro do STF."
+  },
+  "espelho": {
+   "rotulo": "F9065",
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Investigação formal autorizada pelo STF, ainda sem julgamento nem condenação."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

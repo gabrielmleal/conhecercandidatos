@@ -1,0 +1,107 @@
+{
+ "id": "tempo-17-b",
+ "origem": "tempo:17",
+ "candidato": "brasil",
+ "tema": "mundo",
+ "subtema": "comercio",
+ "lente": "fez",
+ "data": "2026-07-20",
+ "titulo": "EUA aplicam tarifas de 25% e de 12,5% a produtos do Brasil",
+ "frase": "Em julho de 2026, os EUA aplicaram tarifa de 25% a produtos do Brasil. Dias depois, veio outra, de 12,5%. Parte dos produtos pode ser tributada em até 37,5%.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": true,
+ "ancora": {
+  "orgao": "Federal Register (EUA)",
+  "documento": "Notice of Action: Brazil's Acts, Policies, and Practices Related to Digital Trade and Electronic Payment Services (20/07/2026)",
+  "link": "https://www.federalregister.gov/documents/2026/07/20/2026-14542/notice-of-action-brazils-acts-policies-and-practices-related-to-digital-trade-and-electronic-payment",
+  "trecho": "the application of tariffs of 25 percent to all imports of Brazil, with certain exemptions as detailed in Annex I and II to this notice."
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Brasil",
+   "nivel": "C",
+   "link": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-09/entenda-relacao-entre-brasil-e-estados-unidos",
+   "trecho": "Dias depois, uma nova tarifa, de 12,5%, foi aplicada."
+  },
+  {
+   "veiculo": "Federal Register (EUA)",
+   "nivel": "A",
+   "link": "https://www.federalregister.gov/documents/2026/07/20/2026-14542/notice-of-action-brazils-acts-policies-and-practices-related-to-digital-trade-and-electronic-payment",
+   "trecho": "Agency Office of the United States Trade Representative Document Citation 91 FR 45516 Document Number 2026-14542 Document Type Notice Pages 45516-45615 (100 pages) Publication Date 07/20/2026"
+  },
+  {
+   "veiculo": "Federal Register (EUA)",
+   "nivel": "A",
+   "link": "https://www.federalregister.gov/documents/2026/07/28/2026-15181/notice-of-actions-in-section-301-investigations-of-acts-policies-and-practices-of-various-economies",
+   "trecho": "the Trade Representative has determined to impose 12.5 percent tariffs on products of Brazil, except as provided in Annex I and Annex II, Part A, of this Notice."
+  },
+  {
+   "veiculo": "Agência Brasil",
+   "nivel": "C",
+   "link": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-09/entenda-relacao-entre-brasil-e-estados-unidos",
+   "trecho": "Atualmente, parte dos produtos exportados para o país norte-americano podem ser tributados em até 37,5%."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.federalregister.gov/documents/2026/07/20/2026-14542/notice-of-action-brazils-acts-policies-and-practices-related-to-digital-trade-and-electronic-payment": null,
+  "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-09/entenda-relacao-entre-brasil-e-estados-unidos": null,
+  "https://www.federalregister.gov/documents/2026/07/28/2026-15181/notice-of-actions-in-section-301-investigations-of-acts-policies-and-practices-of-various-economies": "http://web.archive.org/web/20261009014852/https://www.federalregister.gov/documents/2026/07/28/2026-15181/notice-of-actions-in-section-301-investigations-of-acts-policies-and-practices-of-various-economies"
+ },
+ "hash": "7e1d79d733ac2269ad443018c15f28701e4ccb1b83ecc8b16b961f49657afb1c",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F6137",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Texto fiel aos trechos, mas tarifa imposta por outro país, sem efeito medido, não é piora causada pelo governo: contexto."
+  },
+  "contra": {
+   "rotulo": "F6137",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Tarifas de 25% e 12,5% e teto de 37,5% estão nos trechos; ato oficial com efeito direto."
+  },
+  "neutra": {
+   "rotulo": "F6137",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Tarifas de 25%, 12,5% e teto de 37,5% estão nos trechos; data de julho vem da publicação no Federal Register."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2137",
+  "verificador": {
+   "rotulo": "F6137",
+   "sustenta": true,
+   "motivo": "Trechos trazem 25% (aviso de 20/07/ano A), a nova tarifa de 12,5% dias depois e o teto de 37,5%."
+  },
+  "espelho": {
+   "rotulo": "F6137",
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Ato oficial dos EUA aplica tarifas de 25% e 12,5%, até 37,5% em produtos brasileiros."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

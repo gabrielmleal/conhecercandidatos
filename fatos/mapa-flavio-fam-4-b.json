@@ -1,0 +1,88 @@
+{
+ "id": "mapa-flavio-fam-4-b",
+ "origem": "mapa:flavio-fam-4",
+ "candidato": "flavio",
+ "tema": "aliados",
+ "subtema": "apoios",
+ "lente": "fez",
+ "data": "2026-03-27",
+ "titulo": "Relatório de Gaspar na CPMI do INSS é rejeitado",
+ "frase": "O relator da CPMI do INSS, Alfredo Gaspar, apresentou relatório com pedido de indiciamento de 216 pessoas. A comissão rejeitou o relatório por 19 a 12. Investigação não é condenação.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Agência Senado",
+  "documento": "Relator da CPMI do INSS pede o indiciamento de 216 pessoas (27/03/2026)",
+  "link": "https://www12.senado.leg.br/noticias/audios/2026/03/relator-da-cpmi-do-inss-pede-o-indiciamento-de-216-pessoas",
+  "trecho": "O relator da CPMI do INSS, deputado Alfredo Gaspar (União-AL), apresentou relatório final da comissão com mais de 4 mil páginas e pedido de indiciamento de 216 pessoas."
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Senado",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2026/03/28/cpmi-do-inss-termina-sem-relatorio-final",
+   "trecho": "Depois de sete meses de trabalho, a CPMI do INSS terminou sem relatório final. O parecer do deputado Alfredo Gaspar (União-AL) foi rejeitado pela maioria dos membros da comissão (19 a 12)."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/audios/2026/03/relator-da-cpmi-do-inss-pede-o-indiciamento-de-216-pessoas": "http://web.archive.org/web/20260328110412/https://www12.senado.leg.br/noticias/audios/2026/03/relator-da-cpmi-do-inss-pede-o-indiciamento-de-216-pessoas",
+  "https://www12.senado.leg.br/noticias/materias/2026/03/28/cpmi-do-inss-termina-sem-relatorio-final": "http://web.archive.org/web/20260516212514/https://www12.senado.leg.br/noticias/materias/2026/03/28/cpmi-do-inss-termina-sem-relatorio-final"
+ },
+ "hash": "d50a3a129c4612a1c40d729e8c0477d874a8577ede9e91c19a069e6c66fe83c8",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F2711",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "216 pessoas, 19 a 12 e rejeição estão nos trechos; ressalva presente, sem adjetivo. Acusação rejeitada é polêmico."
+  },
+  "contra": {
+   "rotulo": "F2711",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "216 pessoas e 19 a 12 batem com os trechos. Traz o aviso de que investigação não é condenação. Nada favorece indevidamente."
+  },
+  "neutra": {
+   "rotulo": "F2711",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "216 pessoas e 19 a 12 batem com os trechos; relatório rejeitado, sem julgamento. Tem 30 palavras e a ressalva exigida."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1409",
+  "verificador": {
+   "rotulo": "F2711",
+   "sustenta": true,
+   "motivo": "Relator Pessoa J, 216 indiciamentos pedidos e rejeição por 19 a 12 constam nos trechos."
+  },
+  "espelho": {
+   "rotulo": "F2711",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Relatório com pedido de indiciamento rejeitado por 19 a 12; sem condenação."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

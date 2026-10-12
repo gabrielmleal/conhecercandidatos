@@ -1,0 +1,80 @@
+{
+ "id": "mapa-flavio-tec-1-b",
+ "origem": "mapa:flavio-tec-1",
+ "candidato": "flavio",
+ "tema": "obras",
+ "subtema": "internet",
+ "lente": "fez",
+ "data": "2021-11-05",
+ "titulo": "Leilão do 5G não vendeu todos os lotes, e as vencedoras assumiram todos os compromissos de cobertura",
+ "frase": "Segundo a Anatel, no leilão do 5G nem todos os lotes foram vendidos. Todos os compromissos de cobertura definidos antes foram assumidos pelas vencedoras.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Anatel",
+  "documento": "Leilão da tecnologia de quinta geração alcança R$ 47,2 bilhões, 05/11/2021",
+  "link": "https://www.gov.br/anatel/pt-br/assuntos/noticias/leilao-da-tecnologia-de-quinta-geracao-alcanca-r-47-2-bilhoes",
+  "trecho": "Embora nem todos os lotes tenham sido comercializados, todas as obrigações de cobertura foram contratadas, ou seja, todos os compromissos previamente definidos foram assumidos pelas proponentes vencedoras."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.gov.br/anatel/pt-br/assuntos/noticias/leilao-da-tecnologia-de-quinta-geracao-alcanca-r-47-2-bilhoes": "http://web.archive.org/web/20260406185721/https://www.gov.br/anatel/pt-br/assuntos/noticias/leilao-da-tecnologia-de-quinta-geracao-alcanca-r-47-2-bilhoes"
+ },
+ "hash": "c118625378e32e973f6aed461cd986112430a89337cf542a741dc44067db0c7e",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F4933",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Frase e título dizem o que o trecho diz, os dois lados juntos, atribuído à Anatel. Sem número nem juízo: contexto."
+  },
+  "contra": {
+   "rotulo": "F4933",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Lotes não vendidos e compromissos de cobertura assumidos estão no trecho, atribuídos à Anatel. Mostra os dois lados; sem número nem juízo."
+  },
+  "neutra": {
+   "rotulo": "F4933",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Lotes não vendidos e compromissos de cobertura assumidos estão literais no trecho da Anatel. Sem número, sem lado."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-2137",
+  "verificador": {
+   "rotulo": "F4933",
+   "sustenta": true,
+   "motivo": "Trecho diz quase igual: nem todos os lotes foram comercializados, mas todos os compromissos de cobertura foram assumidos pelas vencedoras."
+  },
+  "espelho": {
+   "rotulo": "F4933",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Lotes não vendidos e compromissos de cobertura assumidos; informação sem lado bom ou ruim."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

@@ -1,0 +1,88 @@
+{
+ "id": "tempo-3-a",
+ "origem": "tempo:3",
+ "candidato": "brasil",
+ "tema": null,
+ "subtema": null,
+ "lente": "fez",
+ "data": "2019-01-01",
+ "titulo": "Jair Bolsonaro toma posse como presidente em 2019",
+ "frase": "Jair Bolsonaro tomou posse como presidente da República em 1º de janeiro de 2019, o 38º presidente desde a Proclamação da República.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": true,
+ "ancora": {
+  "orgao": "Senado Federal",
+  "documento": "TV Senado: Veja como foi a posse de Jair Bolsonaro (01/01/2019)",
+  "link": "https://www12.senado.leg.br/tv/programas/noticias-1/2019/01/veja-como-foi-a-posse-de-jair-bolsonaro",
+  "trecho": "Notícias 01/01/2019 Veja como foi a posse de Jair Bolsonaro Jair Bolsonaro é o 38º presidente do Brasil desde a Proclamação da República, em 1889. Ele tomou posse nesta terça-feira, 1º de janeiro. No Plenário da Câmara dos Deputados, ele assumiu oficialmente a Presidência da República e prestou compromisso constitucional perante o Congresso Nacional."
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Câmara",
+   "nivel": "A",
+   "link": "https://www.camara.leg.br/noticias/550383-novo-presidente-da-republica-bolsonaro-toma-posse-em-1o-de-janeiro/",
+   "trecho": "A cerimônia de posse do novo presidente da República, Jair Bolsonaro, ocorre nesta terça-feira (1º). No início da tarde, às 14h30, o presidente sai da Catedral de Brasília, acompanhado por batedores da Polícia do Exército e fuzileiros navais, rumo ao Congresso Nacional."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/tv/programas/noticias-1/2019/01/veja-como-foi-a-posse-de-jair-bolsonaro": "http://web.archive.org/web/20261011164213/https://www12.senado.leg.br/tv/programas/noticias-1/2019/01/veja-como-foi-a-posse-de-jair-bolsonaro",
+  "https://www.camara.leg.br/noticias/550383-novo-presidente-da-republica-bolsonaro-toma-posse-em-1o-de-janeiro/": "http://web.archive.org/web/20241202020939/https://www.camara.leg.br/noticias/550383-novo-presidente-da-republica-bolsonaro-toma-posse-em-1o-de-janeiro/"
+ },
+ "hash": "2feb829b3910f54abbc244fa5d6eb6b8f71c5391465a8575bc80e8e08a5afb9c",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F1783",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Posse em 1º de janeiro e 38º presidente desde a Proclamação da República estão nos trechos. Sem lado bom ou ruim."
+  },
+  "contra": {
+   "rotulo": "F1783",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Posse em 1º de janeiro como 38º presidente desde a Proclamação bate com os dois trechos. Sem juízo."
+  },
+  "neutra": {
+   "rotulo": "F1783",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Posse em 1º de janeiro e 38º presidente desde a Proclamação estão nos trechos. Ato sem lado bom ou ruim: contexto."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1409",
+  "verificador": {
+   "rotulo": "F1783",
+   "sustenta": true,
+   "motivo": "Posse em 1º de janeiro de ano A como 38º presidente desde a Proclamação da República consta dos trechos."
+  },
+  "espelho": {
+   "rotulo": "F1783",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data da posse e ordem na lista de presidentes; informação sem lado."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

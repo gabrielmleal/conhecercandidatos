@@ -1,0 +1,90 @@
+{
+ "id": "mapa-lula-fis-1-b",
+ "origem": "mapa:lula-fis-1",
+ "candidato": "lula",
+ "tema": "contas",
+ "subtema": "divida",
+ "lente": "fez",
+ "data": "2026-09-30",
+ "titulo": "Juros da dívida somam R$ 1.182,2 bilhões em doze meses até agosto de 2026",
+ "frase": "Os juros nominais do setor público consolidado somaram R$ 1.182,2 bilhões, ou 8,86% do PIB, nos doze meses até agosto de 2026, ante R$ 946,5 bilhões um ano antes.",
+ "tipo": "problema",
+ "peso": 2,
+ "marco": false,
+ "ancora": {
+  "orgao": "Banco Central do Brasil",
+  "documento": "Nota para a Imprensa: Estatísticas fiscais, 30.9.2026",
+  "link": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202609_Texto_de_estatisticas_fiscais.pdf",
+  "trecho": "No acumulado em doze meses até agosto, os juros nominais alcançaram R$1.182,2 bilhões (8,86% do PIB), comparativamente a R$946,5 bilhões (7,61% do PIB) nos doze meses até agosto de 2025."
+ },
+ "fontes": [
+  {
+   "veiculo": "Banco Central (nota de 30.9.2026, data)",
+   "nivel": "A",
+   "link": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202609_Texto_de_estatisticas_fiscais.pdf",
+   "trecho": "Nota para a Imprensa – 30.9.2026"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": false,
+  "9": true
+ },
+ "copias": {
+  "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202609_Texto_de_estatisticas_fiscais.pdf": null
+ },
+ "hash": "4bc52c44c4c3da6622075f1f40ddad795a8592c6cd9acfc916549198b44a778f",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F2282",
+   "confere": true,
+   "certeza": 0.85,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Valores batem com a nota do BC; omite os 7,61% do PIB do ano anterior, que mostram alta menor que o valor nominal."
+  },
+  "contra": {
+   "rotulo": "F2282",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "R$ 1.182,2 bilhões, 8,86% do PIB e R$ 946,5 bilhões estão na nota do Banco Central."
+  },
+  "neutra": {
+   "rotulo": "F2282",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Valores, percentual e período batem com a nota do Banco Central; dado oficial que piorou."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F2282",
+   "sustenta": false,
+   "motivo": "Valores e percentuais conferem, mas \"setor público consolidado\" não aparece nos trechos; o trecho diz só \"juros nominais\"."
+  },
+  "espelho": {
+   "rotulo": "F2282",
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Dado do Banco Central: juros da dívida subiram de R$ 946,5 bi para R$ 1.182,2 bi."
+  }
+ },
+ "classificacao": "problema",
+ "peso_final": 2,
+ "falhas": [
+  "as três revisões não concordaram",
+  "o texto vai além do trecho"
+ ],
+ "entrou_em": "2026-10-12"
+}

@@ -1,0 +1,88 @@
+{
+ "id": "tempo-4-a",
+ "origem": "tempo:4",
+ "candidato": "brasil",
+ "tema": "saude",
+ "subtema": "epidemias",
+ "lente": "fez",
+ "data": "2020-02-06",
+ "titulo": "Lei 13.979 define medidas contra a emergência de saúde pública do coronavírus",
+ "frase": "A Lei 13.979, de 6 de fevereiro de 2020, definiu as medidas de enfrentamento da emergência de saúde pública causada pelo coronavírus.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": true,
+ "ancora": {
+  "orgao": "Presidência da República",
+  "documento": "Lei nº 13.979, de 6 de fevereiro de 2020",
+  "link": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13979.htm",
+  "trecho": "LEI Nº 13.979, DE 6 DE FEVEREIRO DE 2020 Dispõe sobre as medidas para enfrentamento da emergência de saúde pública de importância internacional decorrente do coronavírus responsável pelo surto de 2019."
+ },
+ "fontes": [
+  {
+   "veiculo": "Câmara dos Deputados",
+   "nivel": "A",
+   "link": "https://www2.camara.leg.br/legin/fed/decleg/2020/decretolegislativo-6-20-marco-2020-789861-norma-pl.html",
+   "trecho": "EMENTA: Reconhece, para os fins do art. 65 da Lei Complementar nº 101, de 4 de maio de 2000, a ocorrência do estado de calamidade pública, nos termos da solicitação do Presidente da República encaminhada por meio da Mensagem nº 93, de 18 de março de 2020."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13979.htm": "http://web.archive.org/web/20261004212713/http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13979.htm",
+  "https://www2.camara.leg.br/legin/fed/decleg/2020/decretolegislativo-6-20-marco-2020-789861-norma-pl.html": "http://web.archive.org/web/20260921165454/https://www2.camara.leg.br/legin/fed/decleg/2020/decretolegislativo-6-20-marco-2020-789861-norma-pl.html"
+ },
+ "hash": "4ebbf0ef951601f9e8162e3e73ec280094377c810cf23bb7f9bf798ed67d6098",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F7364",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Número, data e objeto da lei conferem com a ementa. O segundo trecho trata de outro ato e não foi usado."
+  },
+  "contra": {
+   "rotulo": "F7364",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Número e data da lei e seu objeto conferem com a ementa. O segundo trecho trata de outro ato e não entrou na frase."
+  },
+  "neutra": {
+   "rotulo": "F7364",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Número, data e objeto da lei batem com a ementa. Descreve o que a norma trata, sem lado bom ou ruim."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1433",
+  "verificador": {
+   "rotulo": "F7364",
+   "sustenta": true,
+   "motivo": "Número da lei, data de 6 de fevereiro de ano C e medidas contra a emergência de saúde pública pelo coronavírus estão na ementa."
+  },
+  "espelho": {
+   "rotulo": "F7364",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Descreve o que a lei definiu, sem efeito medido e sem lado bom ou ruim."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

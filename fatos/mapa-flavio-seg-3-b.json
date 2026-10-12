@@ -1,0 +1,80 @@
+{
+ "id": "mapa-flavio-seg-3-b",
+ "origem": "mapa:flavio-seg-3",
+ "candidato": "flavio",
+ "tema": "seguranca",
+ "subtema": "leis",
+ "lente": "prometeu",
+ "data": "2026-08-13",
+ "titulo": "Plano de Flávio promete passar recursos das famílias de presos às das vítimas",
+ "frase": "O plano de governo de Flávio Bolsonaro promete redirecionar às famílias das vítimas os recursos hoje destinados às famílias de detentos.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "TSE",
+  "documento": "Plano de governo de Flávio Bolsonaro (PL), Eleições 2026",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "trecho": "Os recursos hoje direcionados às famílias de detentos serão redirecionados às famílias das vítimas"
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf": "http://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf"
+ },
+ "hash": "5b7c70f671eadcbb52a4b2bef5e3b9e4099a745f2223f411b3ea1555f1f923e8",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F8255",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Frase repete o trecho do plano de governo quase palavra por palavra. Promessa pesa 0, não 1."
+  },
+  "contra": {
+   "rotulo": "F8255",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Redirecionar os recursos das famílias de detentos às famílias das vítimas está no trecho do plano. Promessa tem peso 0, não 1."
+  },
+  "neutra": {
+   "rotulo": "F8255",
+   "confere": true,
+   "certeza": 0.94,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "A frase repete o trecho do plano de governo sem acrescentar nada. Promessa ainda não cumprida vale peso 0, não 1."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-2137",
+  "verificador": {
+   "rotulo": "F8255",
+   "sustenta": true,
+   "motivo": "Redirecionar às famílias das vítimas os recursos hoje destinados às famílias de detentos está no trecho."
+  },
+  "espelho": {
+   "rotulo": "F8255",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Compromisso do plano de governo no TSE de redirecionar recursos; ainda não aconteceu."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

@@ -1,0 +1,82 @@
+{
+ "id": "tempo-15-a",
+ "origem": "tempo:15",
+ "candidato": "brasil",
+ "tema": "democracia",
+ "subtema": "gestao",
+ "lente": "fez",
+ "data": "2026-03",
+ "titulo": "CPMI do INSS termina sem relatório final",
+ "frase": "Em 28/03/2026, a CPMI do INSS terminou sem relatório final. O parecer do deputado Alfredo Gaspar (União-AL) foi rejeitado por 19 a 12.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": true,
+ "ancora": {
+  "orgao": "Senado Federal",
+  "documento": "Agência Senado: CPMI do INSS termina sem relatório final (28/03/2026)",
+  "link": "https://www12.senado.leg.br/noticias/materias/2026/03/28/cpmi-do-inss-termina-sem-relatorio-final",
+  "trecho": "Da Agência Senado | 28/03/2026, 01h57 Depois de sete meses de trabalho, a CPMI do INSS terminou sem relatório final. O parecer do deputado Alfredo Gaspar (União-AL) foi rejeitado pela maioria dos membros da comissão (19 a 12)."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": false
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/materias/2026/03/28/cpmi-do-inss-termina-sem-relatorio-final": "http://web.archive.org/web/20261011162539/https://www12.senado.leg.br/noticias/materias/2026/03/28/cpmi-do-inss-termina-sem-relatorio-final"
+ },
+ "hash": "95a07ee9ffe7457fc8167ede8c5fe6aeac28771704436a71326f81104faec431",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F7323",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, fim sem relatório, autor do parecer e placar de 19 a 12 estão no trecho. Sem lado bom ou ruim."
+  },
+  "contra": {
+   "rotulo": "F7323",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, placar de 19 a 12 e rejeição do parecer estão no trecho. Fato institucional sem lado bom ou ruim."
+  },
+  "neutra": {
+   "rotulo": "F7323",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, placar e fim sem relatório estão no trecho. 24 palavras. Sem lado bom ou ruim: contexto."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F7323",
+   "sustenta": true,
+   "motivo": "Data 28/03, fim sem relatório final, parecer de Pessoa F (União-AL) rejeitado por 19 a 12: tudo literal no trecho."
+  },
+  "espelho": {
+   "rotulo": "F7323",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "CPMI terminou sem relatório final, parecer rejeitado por 19 a 12; investigação encerrada sem conclusão."
+  }
+ },
+ "classificacao": "contexto",
+ "peso_final": 0,
+ "falhas": [
+  "o espelho deu outro tipo"
+ ],
+ "entrou_em": "2026-10-12"
+}

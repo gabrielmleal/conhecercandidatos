@@ -1,0 +1,90 @@
+{
+ "id": "tempo-2-b",
+ "origem": "tempo:2",
+ "candidato": "brasil",
+ "tema": "democracia",
+ "subtema": "justica",
+ "lente": "fez",
+ "data": "2019-11-08",
+ "titulo": "Lula ficou 580 dias preso até 8 de novembro de 2019",
+ "frase": "Segundo a Presidência da República, Lula ficou 580 dias preso, até ser solto em 8 de novembro de 2019, após decisão do STF sobre cumprimento de pena em segunda instância.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": true,
+ "ancora": {
+  "orgao": "Presidência da República",
+  "documento": "Biografia do presidente Luiz Inácio Lula da Silva",
+  "link": "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biografia-do-presidente",
+  "trecho": "Os movimentos sociais organizaram a Vigília Lula Livre, permanecendo diante do prédio da Polícia Federal de 7 de abril de 2018 até o momento da libertação, em 8 de novembro de 2019. Em cada um dos 580 dias de cárcere, Lula foi saudado pelos populares com o coro de “bom dia”, “boa tarde”, “boa noite, presidente Lula”."
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Câmara",
+   "nivel": "A",
+   "link": "https://www.camara.leg.br/noticias/612680-libertacao-do-ex-presidente-lula-domina-discursos-no-plenario-da-camara/",
+   "trecho": "Lula foi solto na sexta-feira (8) após decisão do Supremo Tribunal Federal (STF) que reviu a posição sobre o cumprimento de pena obrigatório a partir da condenação em segunda instância."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": false
+ },
+ "copias": {
+  "https://www.gov.br/planalto/pt-br/conheca-a-presidencia/biografia-do-presidente": null,
+  "https://www.camara.leg.br/noticias/612680-libertacao-do-ex-presidente-lula-domina-discursos-no-plenario-da-camara/": null
+ },
+ "hash": "357098ee87be2908838301801492bee1f4761ecce455a580f4035f307b8761bd",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5358",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "580 dias, 8 de novembro e decisão do STF sobre segunda instância estão nos trechos, sem juízo."
+  },
+  "contra": {
+   "rotulo": "F5358",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "580 dias, data de soltura e decisão do STF estão nos trechos; atribuído à Presidência, sem o tom da vigília."
+  },
+  "neutra": {
+   "rotulo": "F5358",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Números, data e causa batem com os trechos da biografia oficial; no limite de 30 palavras contando rótulos como uma."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F5358",
+   "sustenta": true,
+   "motivo": "Trechos dão 580 dias de cárcere, soltura em 8 de novembro de ano B e decisão do STF sobre segunda instância."
+  },
+  "espelho": {
+   "rotulo": "F5358",
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Cumpriu 580 dias de prisão por condenação até decisão do STF."
+  }
+ },
+ "classificacao": "contexto",
+ "peso_final": 0,
+ "falhas": [
+  "o espelho deu outro tipo"
+ ],
+ "entrou_em": "2026-10-12"
+}

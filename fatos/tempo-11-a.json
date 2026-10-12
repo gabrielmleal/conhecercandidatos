@@ -1,0 +1,87 @@
+{
+ "id": "tempo-11-a",
+ "origem": "tempo:11",
+ "candidato": "brasil",
+ "tema": "social",
+ "subtema": "fome",
+ "lente": "fez",
+ "data": "2025-07-28",
+ "titulo": "Brasil volta a sair do Mapa da Fome da FAO",
+ "frase": "Segundo a ONU, estudo noticiado em julho de 2025 mostra queda da desnutrição no Brasil para menos de 2,5%. O país volta a sair do Mapa da Fome da FAO.",
+ "tipo": "positivo",
+ "peso": 2,
+ "marco": true,
+ "ancora": {
+  "orgao": "Organização das Nações Unidas",
+  "documento": "ONU News: Fome diminui no mundo, mas sobe na África e na Ásia Ocidental (28/07/2025)",
+  "link": "https://news.un.org/pt/story/2025/07/1850571",
+  "trecho": "Uma das novidades do estudo é a queda da desnutrição no Brasil para menos de 2,5%, o limite para inclusão de um país no Mapa da Fome da Organização das Nações Unidas para Agricultura e Alimentação, FAO . Com isso, o país volta a sair do Mapa da Fome da FAO, uma conquista realizada em 2014, mas que depois retrocedeu."
+ },
+ "fontes": [
+  {
+   "veiculo": "Organização das Nações Unidas",
+   "nivel": "A",
+   "link": "https://news.un.org/pt/story/2025/07/1850571",
+   "trecho": "Fome diminui no mundo, mas sobe na África e na Ásia Ocidental 28 Julho 2025 Desenvolvimento econômico Brasil deixa o Mapa da Fome da FAO"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://news.un.org/pt/story/2025/07/1850571": "http://web.archive.org/web/20260411182544/https://news.un.org/pt/story/2025/07/1850571"
+ },
+ "hash": "5ae05617e88c5c5ad37274301cd6a23f2674dbbc45eaa5a119fa13c47fa54cc3",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F7799",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Queda para menos de 2,5% e saída do Mapa da Fome estão no trecho da ONU. Dado oficial."
+  },
+  "contra": {
+   "rotulo": "F7799",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Número e saída do Mapa da Fome no trecho; a frase não credita o resultado a governo, e o trecho também não."
+  },
+  "neutra": {
+   "rotulo": "F7799",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Queda abaixo de 2,5% e saída do Mapa da Fome estão no trecho; dado oficial da ONU."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F7799",
+   "sustenta": true,
+   "motivo": "Trechos trazem julho de ano B, desnutrição abaixo de 2,5% e saída do Mapa da Fome."
+  },
+  "espelho": {
+   "rotulo": "F7799",
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Dado da ONU: desnutrição abaixo de 2,5%, país sai do Mapa da Fome."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

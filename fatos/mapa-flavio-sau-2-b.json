@@ -1,0 +1,80 @@
+{
+ "id": "mapa-flavio-sau-2-b",
+ "origem": "mapa:flavio-sau-2",
+ "candidato": "flavio",
+ "tema": "candidato",
+ "subtema": "investigacoes",
+ "lente": "fez",
+ "data": "2021-10-26",
+ "titulo": "Relator da CPI da Pandemia acusou Flávio Bolsonaro de incitação ao crime",
+ "frase": "O relator da CPI da Pandemia acusou de incitação ao crime três filhos do presidente, entre eles o senador Flávio Bolsonaro. Investigação não é condenação.",
+ "tipo": "problema",
+ "peso": 1,
+ "marco": false,
+ "ancora": {
+  "orgao": "Senado Federal",
+  "documento": "Agência Senado, 26/10/2021: Após seis meses, CPI da Pandemia é encerrada com 80 pedidos de indiciamento",
+  "link": "https://www12.senado.leg.br/noticias/materias/2021/10/26/apos-seis-meses-cpi-da-pandemia-e-encerrada-com-80-pedidos-de-indiciamento",
+  "trecho": "Três filhos do presidente também não foram poupados pelo relator, que os acusou da prática de incitação ao crime: o senador Flávio Bolsonaro (Patriota-RJ), o deputado federal Eduardo Bolsonaro (PSL-SP) e o vereador Carlos Bolsonaro (Republicanos-RJ)."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/materias/2021/10/26/apos-seis-meses-cpi-da-pandemia-e-encerrada-com-80-pedidos-de-indiciamento": "http://web.archive.org/web/20261004153323/https://www12.senado.leg.br/noticias/materias/2021/10/26/apos-seis-meses-cpi-da-pandemia-e-encerrada-com-80-pedidos-de-indiciamento"
+ },
+ "hash": "52152aaf8798f12e79fc63f322ccfd642adf7bc071c89fa27540d98a1ddda042",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5674",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Trecho diz que o relator acusou os três filhos de incitação; frase traz a ressalva de investigação."
+  },
+  "contra": {
+   "rotulo": "F5674",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Acusação do relator está no trecho e a frase fecha com a ressalva exigida; nada suavizado."
+  },
+  "neutra": {
+   "rotulo": "F5674",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Acusação do relator da CPI bate com o trecho e traz o aviso; investigação formal sem julgamento, peso 1."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F5674",
+   "sustenta": true,
+   "motivo": "Trecho diz que o relator acusou três filhos do presidente de incitação ao crime, incluindo o senador Pessoa R."
+  },
+  "espelho": {
+   "rotulo": "F5674",
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Relator de CPI acusa de incitação ao crime; investigação formal sem julgamento."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

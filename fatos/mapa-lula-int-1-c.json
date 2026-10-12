@@ -1,0 +1,87 @@
+{
+ "id": "mapa-lula-int-1-c",
+ "origem": "mapa:lula-int-1",
+ "candidato": "lula",
+ "tema": "ambiente",
+ "subtema": "clima",
+ "lente": "fez",
+ "data": "2025-11-22",
+ "titulo": "COP30 foi em Belém e terminou em 22 de novembro",
+ "frase": "A conferência do clima da ONU em Belém terminou em 22 de novembro com acordo que pede triplicar o financiamento a países em desenvolvimento para protegê-los dos impactos do clima.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "ONU (Mudança Climática)",
+  "documento": "COP30 (Belém, novembro de 2025)",
+  "link": "https://www.un.org/en/climatechange/cop30",
+  "trecho": "The 30th Conference of the Parties to the UN Framework Convention on Climate Change took place in Belém, Brazil, in November 2025."
+ },
+ "fontes": [
+  {
+   "veiculo": "ONU (Mudança Climática)",
+   "nivel": "A",
+   "link": "https://www.un.org/en/climatechange/cop30",
+   "trecho": "The UN climate conference in Belém, Brazil, concluded on 22 November with an agreement calling for a tripling of funding for developing nations to protect their people from the growing impacts of the climate crisis, and for stepping up support for workers and communities in the transition to clean energy."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.un.org/en/climatechange/cop30": null
+ },
+ "hash": "4fe9d231f798040c1ca70f99422dbae623a513f1edf5a2cf74e2669bf6efbcf3",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F6922",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Belém, 22 de novembro e o acordo para triplicar o financiamento estão nos trechos. Evento sem lado bom ou ruim: contexto, peso 0."
+  },
+  "contra": {
+   "rotulo": "F6922",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Local, mês, data final e acordo pedindo triplicar o financiamento conferem com os trechos da ONU. Pede, não entrega: contexto."
+  },
+  "neutra": {
+   "rotulo": "F6922",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Local, data de término e pedido de triplicar o financiamento batem com os trechos, em 30 palavras. Sem lado bom ou ruim: contexto, peso 0."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1502",
+  "verificador": {
+   "rotulo": "F6922",
+   "sustenta": true,
+   "motivo": "COP30 em Belém, término em 22 de novembro e acordo para triplicar o financiamento a países em desenvolvimento constam nos trechos."
+  },
+  "espelho": {
+   "rotulo": "F6922",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Registra o fim da conferência e o acordo firmado, sem efeito medido nem lado bom ou ruim."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

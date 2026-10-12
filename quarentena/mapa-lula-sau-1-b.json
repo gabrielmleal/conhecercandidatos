@@ -1,0 +1,82 @@
+{
+ "id": "mapa-lula-sau-1-b",
+ "origem": "mapa:lula-sau-1",
+ "candidato": "lula",
+ "tema": "saude",
+ "subtema": "remedios",
+ "lente": "fez",
+ "data": "2024-12",
+ "titulo": "Ministério da Saúde diz, sobre o Farmácia Popular, que agora 95% dos medicamentos e insumos podem ser retirados de graça",
+ "frase": "Segundo o balanço do Ministério da Saúde sobre o Farmácia Popular, agora 95% dos medicamentos e insumos podem ser retirados de graça pela população.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Ministério da Saúde",
+  "documento": "Balanços da Saúde 2024: Farmácia Popular",
+  "link": "https://www.gov.br/saude/pt-br/assuntos/balancos/2024/farmacia-popular",
+  "trecho": "Agora 95% dos medicamentos e insumos podem ser retirados de graça pela população"
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.gov.br/saude/pt-br/assuntos/balancos/2024/farmacia-popular": null
+ },
+ "hash": "7fa68ff491ceaf1ceef089259a36ff2611c030974e6f186c99b3e60c9d1a84ef",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F8049",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "positivo",
+   "peso": 1,
+   "motivo": "95% de graça está no balanço do próprio ministério: é positivo com número, peso 1, não polêmico."
+  },
+  "contra": {
+   "rotulo": "F8049",
+   "confere": true,
+   "certeza": 0.88,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Fiel ao balanço do próprio ministério; 95% não mostra de quanto melhorou nem o efeito medido, então não é positivo."
+  },
+  "neutra": {
+   "rotulo": "F8049",
+   "confere": true,
+   "certeza": 0.8,
+   "tipo": "positivo",
+   "peso": 1,
+   "motivo": "Fiel ao trecho; balanço do próprio governo com número. 'Agora' fica sem data para o leitor."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F8049",
+   "sustenta": true,
+   "motivo": "Trecho traz 95% dos medicamentos e insumos retirados de graça."
+  },
+  "espelho": {
+   "rotulo": "F8049",
+   "tipo": "positivo",
+   "peso": 1,
+   "motivo": "Balanço do próprio governo: 95% dos medicamentos agora gratuitos."
+  }
+ },
+ "classificacao": "polemico",
+ "peso_final": 1,
+ "falhas": [
+  "as três revisões não concordaram"
+ ],
+ "entrou_em": "2026-10-12"
+}

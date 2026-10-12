@@ -1,0 +1,88 @@
+{
+ "id": "mapa-lula-fis-1-a",
+ "origem": "mapa:lula-fis-1",
+ "candidato": "lula",
+ "tema": "contas",
+ "subtema": "divida",
+ "lente": "fez",
+ "data": "2026-09-30",
+ "titulo": "Dívida bruta do governo geral chega a 82,9% do PIB em agosto de 2026",
+ "frase": "A dívida bruta do governo geral (DBGG) atingiu 82,9% do PIB em agosto de 2026, 0,3 ponto a mais que no mês anterior, diz o Banco Central.",
+ "tipo": "problema",
+ "peso": 2,
+ "marco": false,
+ "ancora": {
+  "orgao": "Banco Central do Brasil",
+  "documento": "Nota para a Imprensa: Estatísticas fiscais, 30.9.2026",
+  "link": "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202609_Texto_de_estatisticas_fiscais.pdf",
+  "trecho": "A DBGG – que compreende Governo Federal, INSS e governos estaduais e municipais – atingiu 82,9% do PIB (R$11,1 trilhões) em agosto de 2026, aumento de 0,3 p.p. do PIB em relação ao mês anterior."
+ },
+ "fontes": [
+  {
+   "veiculo": "Banco Central do Brasil (SGS 13762, dezembro de 2022)",
+   "nivel": "A",
+   "link": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=csv&dataInicial=01/12/2022&dataFinal=01/12/2022",
+   "trecho": "\"data\";\"valor\" \"01/12/2022\";\"71,68\""
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.bcb.gov.br/content/estatisticas/hist_estatisticasfiscais/202609_Texto_de_estatisticas_fiscais.pdf": null,
+  "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados?formato=csv&dataInicial=01/12/2022&dataFinal=01/12/2022": null
+ },
+ "hash": "1e840ae6f9972c04c05d1e9e00968a543ff245dd75e0acb4eb37fff6ccb056b4",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F9292",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "82,9% do PIB e alta de 0,3 ponto batem com o trecho do Banco Central. A frase diz governo geral, sem atribuir só ao federal."
+  },
+  "contra": {
+   "rotulo": "F9292",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "82,9% do PIB em agosto, alta de 0,3 ponto sobre o mês anterior e fonte Banco Central constam no trecho. Dado oficial que piorou, com número."
+  },
+  "neutra": {
+   "rotulo": "F9292",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "82,9% do PIB em agosto e alta de 0,3 ponto sobre o mês anterior estão no trecho do Banco Central; piora com número, dado oficial."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1409",
+  "verificador": {
+   "rotulo": "F9292",
+   "sustenta": true,
+   "motivo": "82,9% do PIB em agosto e aumento de 0,3 p.p. sobre o mês anterior estão no trecho do Banco Central."
+  },
+  "espelho": {
+   "rotulo": "F9292",
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Dado oficial do Banco Central: dívida bruta subiu 0,3 ponto, para 82,9% do PIB."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

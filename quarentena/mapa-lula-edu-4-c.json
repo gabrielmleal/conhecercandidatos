@@ -1,0 +1,82 @@
+{
+ "id": "mapa-lula-edu-4-c",
+ "origem": "mapa:lula-edu-4",
+ "candidato": "lula",
+ "tema": "educacao",
+ "subtema": "creche",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Lula promete ampliar o fomento a estados e municípios no Novo PAC",
+ "frase": "No programa de governo que registrou no TSE, Lula promete, na segunda edição do Novo PAC, ampliar o fomento a estados e municípios para alcançar as metas do PNE.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Tribunal Superior Eleitoral",
+  "documento": "Plano de governo de Lula (PT), registrado no TSE, p. 31",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt/@@display-file/file/proposta-pt.pdf",
+  "trecho": "O Novo PAC apoiou a construção de 3.562 creches e escolas de educação infantil em 2.360 municípios. Na segunda edição do Novo PAC, ampliaremos ainda mais o fomento a estados e municípios para juntos alcançarmos a metas do PNE."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017016005": "http://web.archive.org/web/20261003172403/https://divulgacandcontas.tse.jus.br/divulga/rest/arquivo/doc/280017016005"
+ },
+ "hash": "8931696fcbe60d895085d39866c34150e29397c98c2e7ba5ff8e0ea7e2c14447",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5115",
+   "confere": true,
+   "certeza": 0.94,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Frase repete a promessa da p. 31 sem acréscimo."
+  },
+  "contra": {
+   "rotulo": "F5115",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Promessa fiel ao trecho; o autoelogio sobre creches ficou de fora, o que não favorece."
+  },
+  "neutra": {
+   "rotulo": "F5115",
+   "confere": true,
+   "certeza": 0.85,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Fiel ao trecho. A sigla PNE fica sem explicação para leigo."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F5115",
+   "sustenta": true,
+   "motivo": "Trecho traz segunda edição do Programa W ampliando fomento a estados e municípios para metas do PNE."
+  },
+  "espelho": {
+   "rotulo": "F5115",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Programa de governo promete ampliar fomento no Novo PAC; ainda não aconteceu."
+  }
+ },
+ "classificacao": "promessa",
+ "peso_final": 0,
+ "falhas": [
+  "as três revisões não concordaram"
+ ],
+ "entrou_em": "2026-10-12"
+}

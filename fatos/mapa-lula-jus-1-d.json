@@ -1,0 +1,87 @@
+{
+ "id": "mapa-lula-jus-1-d",
+ "origem": "mapa:lula-jus-1",
+ "candidato": "lula",
+ "tema": "candidato",
+ "subtema": "investigacoes",
+ "lente": "fez",
+ "data": "2021-06-23",
+ "titulo": "STF mantém, por sete votos a quatro, que Moro foi parcial no caso do triplex",
+ "frase": "Em junho de 2021, o STF manteve, por sete votos a quatro, o entendimento de que o ex-juiz Sergio Moro agiu com parcialidade na ação do triplex contra Lula.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Supremo Tribunal Federal",
+  "documento": "Notícia: STF confirma suspeição de Sergio Moro na ação do triplex do Guarujá (23/06/2021)",
+  "link": "https://noticias.stf.jus.br/postsnoticias/stf-confirma-suspeicao-de-sergio-moro-na-acao-do-triplex-do-guaruja/",
+  "trecho": "STF confirma suspeição de Sergio Moro na ação do triplex do Guarujá Por sete votos a quatro, o Plenário manteve entendimento da Segunda Turma de que o ex-juiz agiu com parcialidade na condução do processo. 23/06/2021 18:08"
+ },
+ "fontes": [
+  {
+   "veiculo": "Supremo Tribunal Federal",
+   "nivel": "A",
+   "link": "https://noticias.stf.jus.br/postsnoticias/stf-confirma-suspeicao-de-sergio-moro-na-acao-do-triplex-do-guaruja/",
+   "trecho": "O Plenário do Supremo Tribunal Federal (STF) manteve, nesta quarta-feira (23), a decisão da Segunda Turma do Tribunal que declarou a suspeição do ex-juiz Sergio Moro na ação penal contra o ex-presidente Luiz Inácio Lula da Silva referente ao triplex no Guarujá (SP). Por maioria de votos, o colegiado entendeu que Moro demonstrou parcialidade na condução do processo na 13ª Vara Federal de Curitiba (PR)."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://noticias.stf.jus.br/postsnoticias/stf-confirma-suspeicao-de-sergio-moro-na-acao-do-triplex-do-guaruja/": "http://web.archive.org/web/20260613030107/https://noticias.stf.jus.br/postsnoticias/stf-confirma-suspeicao-de-sergio-moro-na-acao-do-triplex-do-guaruja/"
+ },
+ "hash": "8301f6505ff5040c9eb08d7a70514960655eee8c02fab80f092ffa236924fcac",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F9997",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Placar, data e parcialidade estão no trecho do STF; decisão anulou a ação, não é condenação de ninguém."
+  },
+  "contra": {
+   "rotulo": "F9997",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Placar 7 a 4, data e suspeição batem com o trecho. Caso anulado, logo polêmico."
+  },
+  "neutra": {
+   "rotulo": "F9997",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Placar, data e parcialidade batem com os trechos. Decisão que anulou o caso: polêmico pela tabela."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-1433",
+  "verificador": {
+   "rotulo": "F9997",
+   "sustenta": true,
+   "motivo": "Trechos dão 23/06/ano A, sete votos a quatro, Plenário mantendo a parcialidade de Pessoa Y na ação do triplex contra Pessoa M."
+  },
+  "espelho": {
+   "rotulo": "F9997",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "STF manteve parcialidade de Moro, anulando a ação do triplex; caso anulado."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

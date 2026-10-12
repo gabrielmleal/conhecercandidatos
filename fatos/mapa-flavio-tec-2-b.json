@@ -1,0 +1,80 @@
+{
+ "id": "mapa-flavio-tec-2-b",
+ "origem": "mapa:flavio-tec-2",
+ "candidato": "flavio",
+ "tema": "producao",
+ "subtema": "pequenas",
+ "lente": "fez",
+ "data": "2021-06-01",
+ "titulo": "Lei Complementar permite contratar teste de soluções inovadoras por licitação especial",
+ "frase": "O artigo 13 de uma lei complementar permite que a administração pública contrate pessoas ou empresas, em licitação na modalidade especial, para testar soluções inovadoras.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": true,
+ "ancora": {
+  "orgao": "Planalto",
+  "documento": "Lei Complementar nº 182, de 1º de junho de 2021, art. 13",
+  "link": "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp182.htm",
+  "trecho": "Art. 13. A administração pública poderá contratar pessoas físicas ou jurídicas, isoladamente ou em consórcio, para o teste de soluções inovadoras por elas desenvolvidas ou a ser desenvolvidas, com ou sem risco tecnológico, por meio de licitação na modalidade especial regida por esta Lei Complementar."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp182.htm": "http://web.archive.org/web/20260927175307/https://planalto.gov.br/ccivil_03/leis/lcp/lcp182.htm"
+ },
+ "hash": "a730af1ab41d0ae3c5a0aadf097ad06a9573f959ccbfd6265fe31ddef81ebe6e",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F1839",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "O artigo 13 diz exatamente isso. Sem lado bom ou ruim."
+  },
+  "contra": {
+   "rotulo": "F1839",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Reproduz o artigo 13 sem acrescentar resultado nem juízo; descreve permissão legal, não efeito."
+  },
+  "neutra": {
+   "rotulo": "F1839",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Reproduz o artigo 13 sem acrescentar nada. Informação sobre o que a lei permite, sem efeito medido."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1433",
+  "verificador": {
+   "rotulo": "F1839",
+   "sustenta": true,
+   "motivo": "Art. 13 do trecho diz exatamente isso: contratar pessoas físicas ou jurídicas para testar soluções inovadoras por licitação especial."
+  },
+  "espelho": {
+   "rotulo": "F1839",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Descreve o que a lei permite, sem efeito medido e sem lado bom ou ruim."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

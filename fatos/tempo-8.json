@@ -1,0 +1,80 @@
+{
+ "id": "tempo-8",
+ "origem": "tempo:8",
+ "candidato": "brasil",
+ "tema": "contas",
+ "subtema": "impostos",
+ "lente": "fez",
+ "data": "2023-12-20",
+ "titulo": "Congresso promulga a Emenda Constitucional 132, da reforma tributária",
+ "frase": "O Congresso promulgou em 20 de dezembro de 2023 a Emenda Constitucional 132. Segundo a Agência Senado, é a primeira reforma ampla do sistema tributário sob a Constituição de 1988.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": true,
+ "ancora": {
+  "orgao": "Senado Federal",
+  "documento": "Agência Senado: Congresso promulga reforma tributária (20/12/2023)",
+  "link": "https://www12.senado.leg.br/noticias/materias/2023/12/20/congresso-promulga-reforma-tributaria",
+  "trecho": "Da Agência Senado | 20/12/2023, 16h02 - ATUALIZADO EM 20/12/2023, 17h55 O Congresso Nacional promulgou nesta quarta-feira (20) a Emenda Constitucional 132, da reforma tributária. É a primeira reforma ampla sobre o sistema tributário nacional realizada sob a vigência da Constituição Federal de 1988."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/materias/2023/12/20/congresso-promulga-reforma-tributaria": "http://web.archive.org/web/20261011164459/https://www12.senado.leg.br/noticias/materias/2023/12/20/congresso-promulga-reforma-tributaria"
+ },
+ "hash": "559a2e9d2c1b4c34f39968cc108f88976ea93453333dc8a5def8607d06d7d805",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F2239",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, Emenda 132 e a atribuição à Agência Senado batem com o trecho. Ato sem lado bom ou ruim, sem efeito medido."
+  },
+  "contra": {
+   "rotulo": "F2239",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, emenda e 'primeira reforma ampla', atribuída à Agência Senado, batem com o trecho. Ato sem efeito medido: contexto, peso 0 (peso 2 não vale para contexto)."
+  },
+  "neutra": {
+   "rotulo": "F2239",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, número da emenda e atribuição à Agência Senado batem com o trecho. Marco sem lado bom ou ruim dito."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1502",
+  "verificador": {
+   "rotulo": "F2239",
+   "sustenta": true,
+   "motivo": "Promulgação em 20/12 de ano B e \"primeira reforma ampla\" sob a Constituição de ano A constam na Agência Senado."
+  },
+  "espelho": {
+   "rotulo": "F2239",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Registra a promulgação da reforma tributária, sem número de melhora ou piora nem lado bom ou ruim definido."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

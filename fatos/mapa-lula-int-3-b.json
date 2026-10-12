@@ -1,0 +1,100 @@
+{
+ "id": "mapa-lula-int-3-b",
+ "origem": "mapa:lula-int-3",
+ "candidato": "lula",
+ "tema": "mundo",
+ "subtema": "aliancas",
+ "lente": "disse",
+ "data": "2023-04",
+ "titulo": "Lula sugere moedas próprias no comércio e uma moeda para negociações do Brics",
+ "frase": "Lula sugeriu que países usem suas próprias moedas no comércio. Defendeu uma unidade de referência para o comércio, sem substituir as moedas nacionais, e uma moeda para negociações do Brics.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Gazeta do Povo",
+  "documento": "Com críticas ao dólar, Lula defende moedas do Brics no comércio global em Xangai",
+  "link": "https://www.gazetadopovo.com.br/economia/com-criticas-ao-dolar-lula-defende-moedas-do-brics-no-comercio-global-em-xangai/",
+  "trecho": "Lula ainda sugeriu que os países usassem suas próprias moedas nas relações comerciais, indicando que os \"bancos centrais certamente poderiam cuidar disso"
+ },
+ "fontes": [
+  {
+   "veiculo": "Gazeta do Povo",
+   "nivel": "C",
+   "link": "https://www.gazetadopovo.com.br/economia/com-criticas-ao-dolar-lula-defende-moedas-do-brics-no-comercio-global-em-xangai/",
+   "trecho": "As declarações foram feitas durante a cerimônia de posse da ex-presidente Dilma Rousseff como presidente do Novo Banco do Desenvolvimento (NBD), o banco do Brics, em Xangai, nesta quinta-feira (13)."
+  },
+  {
+   "veiculo": "G1 (Jornal Nacional)",
+   "nivel": "C",
+   "link": "https://g1.globo.com/jornal-nacional/noticia/2023/08/22/lula-volta-a-defender-adocao-de-moeda-diferente-do-dolar-para-comercio-entre-paises-do-brics.ghtml",
+   "trecho": "O presidente brasileiro reforçou a ideia de criar uma moeda para as negociações entre os países do Brics para diminuir a dependência do dólar."
+  },
+  {
+   "veiculo": "G1 (Jornal Nacional)",
+   "nivel": "C",
+   "link": "https://g1.globo.com/jornal-nacional/noticia/2023/08/22/lula-volta-a-defender-adocao-de-moeda-diferente-do-dolar-para-comercio-entre-paises-do-brics.ghtml",
+   "trecho": "Por essa razão, tenho defendido a ideia de adoção de uma unidade de conta de referência para o comércio, que não substituirá nossas moedas nacionais”, declarou Lula."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.gazetadopovo.com.br/economia/com-criticas-ao-dolar-lula-defende-moedas-do-brics-no-comercio-global-em-xangai/": "http://web.archive.org/web/20241205011207/https://www.gazetadopovo.com.br/economia/com-criticas-ao-dolar-lula-defende-moedas-do-brics-no-comercio-global-em-xangai/",
+  "https://g1.globo.com/jornal-nacional/noticia/2023/08/22/lula-volta-a-defender-adocao-de-moeda-diferente-do-dolar-para-comercio-entre-paises-do-brics.ghtml": "http://web.archive.org/web/20250709064334/https://g1.globo.com/jornal-nacional/noticia/2023/08/22/lula-volta-a-defender-adocao-de-moeda-diferente-do-dolar-para-comercio-entre-paises-do-brics.ghtml"
+ },
+ "hash": "b36a9b09b750ed953299fc3d15fb9bf939735afc44fbafd3f453c7b8d5b041df",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F2636",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "As três propostas estão nos trechos, inclusive que a unidade de referência não substitui moedas nacionais."
+  },
+  "contra": {
+   "rotulo": "F2636",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Moedas próprias, unidade de referência e moeda do Brics estão nos trechos, sem juízo."
+  },
+  "neutra": {
+   "rotulo": "F2636",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Moedas próprias, unidade de referência sem substituir moedas nacionais e moeda do Brics estão nos trechos."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2137",
+  "verificador": {
+   "rotulo": "F2636",
+   "sustenta": true,
+   "motivo": "Trechos trazem moedas próprias no comércio, a unidade de conta que não substitui moedas nacionais e a moeda do Brics."
+  },
+  "espelho": {
+   "rotulo": "F2636",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Sugestão sobre moedas no comércio internacional, sem compromisso nem efeito."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

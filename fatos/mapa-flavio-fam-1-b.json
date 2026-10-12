@@ -1,0 +1,79 @@
+{
+ "id": "mapa-flavio-fam-1-b",
+ "origem": "mapa:flavio-fam-1",
+ "candidato": "flavio",
+ "tema": "aliados",
+ "subtema": "familia",
+ "lente": "fez",
+ "data": "2025-11-25",
+ "titulo": "Jair Bolsonaro começa a cumprir 27 anos e 3 meses de prisão",
+ "frase": "Jair Bolsonaro começou a cumprir a pena de 27 anos e 3 meses de prisão por golpe de Estado, em regime fechado, na sede da PF em Brasília.",
+ "tipo": "problema",
+ "peso": 2,
+ "marco": true,
+ "ancora": {
+  "orgao": "Agência Câmara",
+  "documento": "Prisão de Bolsonaro repercute nos discursos de deputados no Plenário da Câmara (25/11/2025)",
+  "link": "https://www.camara.leg.br/noticias/1226584-prisao-de-bolsonaro-repercute-nos-discursos-de-deputados-no-plenario-da-camara",
+  "trecho": "O Supremo Tribunal Federal (STF) declarou nesta terça que o processo do ex-presidente por golpe de Estado transitou em julgado , ou seja, não cabem mais recursos. Assim, ele já pode cumprir a pena de 27 anos e 3 meses de prisão. Bolsonaro começou a cumprir a pena em regime fechado na sede da Polícia Federal em Brasília."
+ },
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.camara.leg.br/noticias/1226584-prisao-de-bolsonaro-repercute-nos-discursos-de-deputados-no-plenario-da-camara": "http://web.archive.org/web/20261011142511/https://www.camara.leg.br/noticias/1226584-prisao-de-bolsonaro-repercute-nos-discursos-de-deputados-no-plenario-da-camara"
+ },
+ "hash": "ac5086e6f02b752c840e0c63a34ed41e6b56d31484e6aee56f0bb4b4dc0c2205",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F3719",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Pena, regime fechado, sede da PF e trânsito em julgado vêm do trecho. Frase não diz mais do que ele."
+  },
+  "contra": {
+   "rotulo": "F3719",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Pena de 27 anos e 3 meses, golpe de Estado, regime fechado e sede da PF em Brasília constam no trecho, com trânsito em julgado pelo STF."
+  },
+  "neutra": {
+   "rotulo": "F3719",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Pena de 27 anos e 3 meses, regime fechado e sede da PF em Brasília estão no trecho; condenação por decisão do STF."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1409",
+  "verificador": {
+   "rotulo": "F3719",
+   "sustenta": true,
+   "motivo": "Pena de 27 anos e 3 meses, golpe de Estado, regime fechado e sede da PF em Brasília constam do trecho."
+  },
+  "espelho": {
+   "rotulo": "F3719",
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Condenação cumprida: 27 anos e 3 meses de prisão em regime fechado."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

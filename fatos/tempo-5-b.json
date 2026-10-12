@@ -1,0 +1,87 @@
+{
+ "id": "tempo-5-b",
+ "origem": "tempo:5",
+ "candidato": "brasil",
+ "tema": "democracia",
+ "subtema": "justica",
+ "lente": "fez",
+ "data": "2021-06-23",
+ "titulo": "STF mantém, por sete votos a quatro, que Moro foi parcial no caso do triplex",
+ "frase": "Em junho de 2021, o Plenário do STF manteve, por sete votos a quatro, o entendimento de que Sergio Moro agiu com parcialidade no caso do triplex de Lula.",
+ "tipo": "problema",
+ "peso": 2,
+ "marco": true,
+ "ancora": {
+  "orgao": "Supremo Tribunal Federal",
+  "documento": "Notícia: STF confirma suspeição de Sergio Moro na ação do triplex do Guarujá (23/06/2021)",
+  "link": "https://noticias.stf.jus.br/postsnoticias/stf-confirma-suspeicao-de-sergio-moro-na-acao-do-triplex-do-guaruja/",
+  "trecho": "STF confirma suspeição de Sergio Moro na ação do triplex do Guarujá Por sete votos a quatro, o Plenário manteve entendimento da Segunda Turma de que o ex-juiz agiu com parcialidade na condução do processo. 23/06/2021 18:08"
+ },
+ "fontes": [
+  {
+   "veiculo": "Supremo Tribunal Federal",
+   "nivel": "A",
+   "link": "https://noticias.stf.jus.br/postsnoticias/stf-confirma-suspeicao-de-sergio-moro-na-acao-do-triplex-do-guaruja/",
+   "trecho": "O Plenário do Supremo Tribunal Federal (STF) manteve, nesta quarta-feira (23), a decisão da Segunda Turma do Tribunal que declarou a suspeição do ex-juiz Sergio Moro na ação penal contra o ex-presidente Luiz Inácio Lula da Silva referente ao triplex no Guarujá (SP). Por maioria de votos, o colegiado entendeu que Moro demonstrou parcialidade na condução do processo na 13ª Vara Federal de Curitiba (PR)."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://noticias.stf.jus.br/postsnoticias/stf-confirma-suspeicao-de-sergio-moro-na-acao-do-triplex-do-guaruja/": "http://web.archive.org/web/20260613030107/https://noticias.stf.jus.br/postsnoticias/stf-confirma-suspeicao-de-sergio-moro-na-acao-do-triplex-do-guaruja/"
+ },
+ "hash": "8301f6505ff5040c9eb08d7a70514960655eee8c02fab80f092ffa236924fcac",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F3357",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Data, placar 7 a 4 e parcialidade batem com o trecho. Decisão de tribunal contra o juiz, peso 2; os quatro votos contrários já estão na frase."
+  },
+  "contra": {
+   "rotulo": "F3357",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Placar, data (23/06), órgão e o entendimento batem com os trechos. Decisão de tribunal contra Pessoa J: problema, peso 2; contexto não cabe."
+  },
+  "neutra": {
+   "rotulo": "F3357",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Placar 7 a 4, data de junho e a decisão do Plenário batem com os trechos. Decisão de tribunal contra Pessoa J; contexto não tem peso 2."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1502",
+  "verificador": {
+   "rotulo": "F3357",
+   "sustenta": true,
+   "motivo": "Plenário do STF, 7 a 4, parcialidade no caso do triplex e data 23/06 de ano A constam nos trechos."
+  },
+  "espelho": {
+   "rotulo": "F3357",
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Decisão de tribunal: STF manteve, por 7 a 4, que o juiz agiu com parcialidade no caso."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

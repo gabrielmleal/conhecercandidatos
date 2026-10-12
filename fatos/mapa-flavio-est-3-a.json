@@ -1,0 +1,80 @@
+{
+ "id": "mapa-flavio-est-3-a",
+ "origem": "mapa:flavio-est-3",
+ "candidato": "flavio",
+ "tema": "democracia",
+ "subtema": "gestao",
+ "lente": "prometeu",
+ "data": "2026-08",
+ "titulo": "Promessa de digitalizar 100% dos serviços do Governo Federal passíveis de digitalização",
+ "frase": "Promessa: digitalizar 100% dos serviços públicos do Governo Federal passíveis de digitalização e eliminar a exigência de reapresentar documentos que o Estado já possui.",
+ "tipo": "promessa",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "TSE",
+  "documento": "Plano de governo de Flávio Bolsonaro (PL), Eleições 2026",
+  "link": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf",
+  "trecho": "Vamos digitalizar 100% dos serviços públicos do Governo Federal passíveis de digitalização, sob o princípio do digital by design, e eliminar a exigência de reapresentar documentos que o Estado já possui."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf": "http://web.archive.org/web/20261009113610/https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl/@@display-file/file/proposta-pl.pdf"
+ },
+ "hash": "e4349b579ca0d455d80a23a38a5992aed56737db647233aa58f0e1b32486e1c1",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F3419",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "A frase repete a promessa do programa, com 100% e a eliminação de documentos repetidos, sem acrescentar nada."
+  },
+  "contra": {
+   "rotulo": "F3419",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Repete a promessa do plano com a própria ressalva 'passíveis de digitalização'. Ainda não aconteceu; peso 0."
+  },
+  "neutra": {
+   "rotulo": "F3419",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "A frase repete a promessa do trecho sem acréscimo. Ainda não aconteceu; promessa tem peso 0."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1433",
+  "verificador": {
+   "rotulo": "F3419",
+   "sustenta": true,
+   "motivo": "Digitalizar 100% dos serviços do Governo Federal passíveis e eliminar a reapresentação de documentos copiam o trecho."
+  },
+  "espelho": {
+   "rotulo": "F3419",
+   "tipo": "promessa",
+   "peso": 0,
+   "motivo": "Promessa de plano de governo, ainda não realizada."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

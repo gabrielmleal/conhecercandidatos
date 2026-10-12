@@ -1,0 +1,80 @@
+{
+ "id": "mapa-flavio-soc-1-b",
+ "origem": "mapa:flavio-soc-1",
+ "candidato": "flavio",
+ "tema": "social",
+ "subtema": "transferencia",
+ "lente": "fez",
+ "data": "2022-11-17",
+ "titulo": "Lei 14.469 financia aumento do Auxílio Brasil de R$ 400 para R$ 600",
+ "frase": "A Lei 14.469, de 2022, financia até dezembro o aumento do Auxílio Brasil de R$ 400 para R$ 600, pago a mais de 21 milhões de famílias.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": true,
+ "ancora": {
+  "orgao": "Agência Senado",
+  "documento": "Promulgada lei que garante Auxílio Brasil até dezembro de 2022",
+  "link": "https://www12.senado.leg.br/noticias/materias/2022/11/17/promulgada-lei-que-garante-auxilio-brasil-ate-dezembro-de-2022",
+  "trecho": "Da Agência Senado | 17/11/2022, 15h57 O presidente do Senado, Rodrigo Pacheco, promulgou a Lei 14.469, de 2022 , que atende ao financiamento, até dezembro, do aumento de R$ 400 para R$ 600 no valor do Auxílio Brasil, pago a mais de 21 milhões de famílias."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/materias/2022/11/17/promulgada-lei-que-garante-auxilio-brasil-ate-dezembro-de-2022": "http://web.archive.org/web/20260711212642/https://www12.senado.leg.br/noticias/materias/2022/11/17/promulgada-lei-que-garante-auxilio-brasil-ate-dezembro-de-2022"
+ },
+ "hash": "d1ce82d006d4579f1584daa2ca5127874ac36fb0994fab74974bf131f5689544",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F7946",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Lei, financiamento até dezembro, R$ 400 para R$ 600 e 21 milhões de famílias estão no trecho. Lei com efeito direto e número: positivo, peso 2."
+  },
+  "contra": {
+   "rotulo": "F7946",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Lei, valores, prazo até dezembro e 21 milhões de famílias batem com o trecho. Não mostra efeito medido do aumento: contexto, não positivo."
+  },
+  "neutra": {
+   "rotulo": "F7946",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Lei 14.469, até dezembro, R$ 400 para R$ 600 e 21 milhões de famílias batem com o trecho. Lei com efeito direto e número."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1409",
+  "verificador": {
+   "rotulo": "F7946",
+   "sustenta": true,
+   "motivo": "Lei 14.469, financiamento até dezembro, aumento de R$ 400 para R$ 600 e mais de 21 milhões de famílias constam no trecho."
+  },
+  "espelho": {
+   "rotulo": "F7946",
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Lei oficial financia aumento de R$ 400 para R$ 600 a mais de 21 milhões de famílias."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

@@ -1,0 +1,87 @@
+{
+ "id": "mapa-flavio-eco-2-b",
+ "origem": "mapa:flavio-eco-2",
+ "candidato": "flavio",
+ "tema": "renda",
+ "subtema": "precos",
+ "lente": "fez",
+ "data": "2022-01-11",
+ "titulo": "Inflação de 2021 fecha em 10,06%",
+ "frase": "A inflação oficial de 2021, medida pelo IPCA, foi de 10,06%, acima dos 4,52% de 2020, segundo o IBGE.",
+ "tipo": "problema",
+ "peso": 2,
+ "marco": false,
+ "ancora": {
+  "orgao": "IBGE",
+  "documento": "Indicadores IBGE: IPCA e INPC, dezembro de 2021",
+  "link": "https://ftp.ibge.gov.br/Precos_Indices_de_Precos_ao_Consumidor/INPC/Fasciculo_Indicadores_IBGE/2021/ipca-inpc_202112caderno.pdf",
+  "trecho": "O IPCA encerrou o ano com variação de 10,06%, acima dos 4,52% registrados em 2020."
+ },
+ "fontes": [
+  {
+   "veiculo": "IBGE (capa do fascículo)",
+   "nivel": "A",
+   "link": "https://ftp.ibge.gov.br/Precos_Indices_de_Precos_ao_Consumidor/INPC/Fasciculo_Indicadores_IBGE/2021/ipca-inpc_202112caderno.pdf",
+   "trecho": "IPCA e INPC Dezembro de 2021"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://ftp.ibge.gov.br/Precos_Indices_de_Precos_ao_Consumidor/INPC/Fasciculo_Indicadores_IBGE/2021/ipca-inpc_202112caderno.pdf": "http://web.archive.org/web/20260119013337/https://ftp.ibge.gov.br/Precos_Indices_de_Precos_ao_Consumidor/INPC/Fasciculo_Indicadores_IBGE/2021/ipca-inpc_202112caderno.pdf"
+ },
+ "hash": "8e7c60afd30d9ac90632087c679b9b29c85b502d21d8e1a903d95d7cd0a7986f",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5872",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Os dois índices e a fonte IBGE estão nos trechos, sem causa atribuída. Dado oficial que piorou: peso 2."
+  },
+  "contra": {
+   "rotulo": "F5872",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Valores e comparação batem com o trecho do IBGE; dado oficial que piorou, com número, peso 2."
+  },
+  "neutra": {
+   "rotulo": "F5872",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Números e fonte batem com o trecho do IBGE. 21 palavras. Inflação subiu de 4,52% para 10,06%: problema, dado oficial."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F5872",
+   "sustenta": true,
+   "motivo": "IPCA de 10,06%, acima dos 4,52% de ano A, e referência a dezembro de ano B constam nos trechos; IBGE é a fonte."
+  },
+  "espelho": {
+   "rotulo": "F5872",
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Dado oficial do IBGE: IPCA de 10,06% em 2021, acima dos 4,52% de 2020."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

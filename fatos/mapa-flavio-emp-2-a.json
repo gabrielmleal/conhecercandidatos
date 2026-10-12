@@ -1,0 +1,87 @@
+{
+ "id": "mapa-flavio-emp-2-a",
+ "origem": "mapa:flavio-emp-2",
+ "candidato": "flavio",
+ "tema": "renda",
+ "subtema": "juros",
+ "lente": "fez",
+ "data": "2021-02-24",
+ "titulo": "Lei Complementar 179 dá autonomia ao Banco Central",
+ "frase": "A Lei Complementar 179, de 24 de fevereiro de 2021, dispôs sobre a autonomia do Banco Central e fixou mandatos de 4 anos para o presidente e os diretores.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": true,
+ "ancora": {
+  "orgao": "Planalto",
+  "documento": "Lei Complementar 179/2021, art. 4º",
+  "link": "https://www.planalto.gov.br/ccivil_03/leis/lcp/Lcp179.htm",
+  "trecho": "§ 1º O mandato do Presidente do Banco Central do Brasil terá duração de 4 (quatro) anos, com início no dia 1º de janeiro do terceiro ano de mandato do Presidente da República. § 2º Os mandatos dos Diretores do Banco Central do Brasil terão duração de 4 (quatro) anos"
+ },
+ "fontes": [
+  {
+   "veiculo": "Planalto (cabeçalho da lei)",
+   "nivel": "A",
+   "link": "https://www.planalto.gov.br/ccivil_03/leis/lcp/Lcp179.htm",
+   "trecho": "LEI COMPLEMENTAR Nº 179, DE 24 DE FEVEREIRO DE 2021 Mensagem de veto Define os objetivos do Banco Central do Brasil e dispõe sobre sua autonomia"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.planalto.gov.br/ccivil_03/leis/lcp/Lcp179.htm": "http://web.archive.org/web/20261007111835/https://www.planalto.gov.br/ccivil_03/leis/lcp/lcp179.htm"
+ },
+ "hash": "68ca7c405c47011fe9147c877d9326669a938d75f5eb35ef9878621079e40f97",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5473",
+   "confere": true,
+   "certeza": 0.95,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Autonomia do Banco Central e mandatos de 4 anos para presidente e diretores estão nos trechos. Sem lado bom ou ruim."
+  },
+  "contra": {
+   "rotulo": "F5473",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data e mandatos de 4 anos para presidente e diretores constam no trecho. 'Dá autonomia' é paráfrase aceitável de 'dispõe sobre sua autonomia'."
+  },
+  "neutra": {
+   "rotulo": "F5473",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, autonomia e mandatos de 4 anos para presidente e diretores estão nos trechos. Lei sem efeito medido: contexto."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1409",
+  "verificador": {
+   "rotulo": "F5473",
+   "sustenta": true,
+   "motivo": "Data, tema da autonomia e mandatos de 4 anos para presidente e diretores estão nos trechos."
+  },
+  "espelho": {
+   "rotulo": "F5473",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Lei que define autonomia e mandatos de 4 anos; descreve regra, sem efeito medido nem lado."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

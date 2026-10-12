@@ -1,0 +1,96 @@
+{
+ "id": "mapa-flavio-int-3-a",
+ "origem": "mapa:flavio-int-3",
+ "candidato": "flavio",
+ "tema": "mundo",
+ "subtema": "eua",
+ "lente": "disse",
+ "data": "2026-07",
+ "titulo": "Flávio pede ao USTR suspender a tarifa proposta e negociar",
+ "frase": "Flávio Bolsonaro propôs ao USTR (governo Trump) suspender a tarifa sobre bens brasileiros e negociar, preservando a alavancagem americana. Foi o único dos 34 inscritos a não se opor.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Jovem Pan",
+  "documento": "Flávio diz ao governo Trump que nova tarifa daria ‘vitória política’ para Lula (02/07/2026)",
+  "link": "https://jovempan.com.br/politica/flavio-diz-ao-governo-trump-que-nova-tarifa-ajudaria-lula-a-se-eleger/",
+  "trecho": "Nos documentos enviados ao USTR (Dockets USTR-2026-0397 para inscrição e USTR-2026-0331 para comentários escritos), Flávio Bolsonaro argumenta que: • As tarifas não atingem o objetivo da Seção 301 (“eliminação da prática”), mas prejudicam exportadores brasileiros, importadores americanos, consumidores dos EUA e a oposição brasileira. • Propõe suspensão da medida e abertura imediata de mecanismo bilateral de negociação com agenda e calendário definidos, preservando a alavancagem americana."
+ },
+ "fontes": [
+  {
+   "veiculo": "Jovem Pan",
+   "nivel": "C",
+   "link": "https://jovempan.com.br/politica/flavio-diz-ao-governo-trump-que-nova-tarifa-ajudaria-lula-a-se-eleger/",
+   "trecho": "Como ação proposta, o USTR recomenda tarifas de 25% sobre a maioria dos bens brasileiros , com algumas exceções (ex.: certos produtos agrícolas ou energéticos)."
+  },
+  {
+   "veiculo": "CartaCapital (nota da Secom)",
+   "nivel": "C",
+   "link": "https://www.cartacapital.com.br/wp-content/uploads/2026/07/0707-Nota-%C3%A0-imprensa-sobre-participa%C3%A7%C3%A3o-do-senador-Fl%C3%A1vio-Bolsonaro-em-audi%C3%AAncia-p%C3%BAblica-sobre-a-se%C3%A7%C3%A3o-301-.pdf",
+   "trecho": "Entre os 34 brasileiros inscritos, só Flávio Bolsonaro não se posicionou contrário às medidas contra o Brasil, optando por sugerir o seu adiamento, com claro objetivo eleitoreiro."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://jovempan.com.br/politica/flavio-diz-ao-governo-trump-que-nova-tarifa-ajudaria-lula-a-se-eleger/": "http://web.archive.org/web/20260703074817/https://jovempan.com.br/politica/flavio-diz-ao-governo-trump-que-nova-tarifa-ajudaria-lula-a-se-eleger/",
+  "https://www.cartacapital.com.br/wp-content/uploads/2026/07/0707-Nota-%C3%A0-imprensa-sobre-participa%C3%A7%C3%A3o-do-senador-Fl%C3%A1vio-Bolsonaro-em-audi%C3%AAncia-p%C3%BAblica-sobre-a-se%C3%A7%C3%A3o-301-.pdf": "http://web.archive.org/web/20260903235317/https://www.cartacapital.com.br/wp-content/uploads/2026/07/0707-Nota-%C3%A0-imprensa-sobre-participa%C3%A7%C3%A3o-do-senador-Fl%C3%A1vio-Bolsonaro-em-audi%C3%AAncia-p%C3%BAblica-sobre-a-se%C3%A7%C3%A3o-301-.pdf"
+ },
+ "hash": "010f3ca65d48f3bae3c172a8aa464a94a030067c1998b8a65a1ae8f42c8a0bfe",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F1551",
+   "confere": false,
+   "certeza": 0.7,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Afirma como fato que só ele não se opôs; o trecho mostra que ele criticou a tarifa e pediu suspensão. É juízo do veículo."
+  },
+  "contra": {
+   "rotulo": "F1551",
+   "confere": true,
+   "certeza": 0.85,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Frase traz que foi o único a não se opor; omite que ele alegou dano à oposição brasileira, e o título soa favorável."
+  },
+  "neutra": {
+   "rotulo": "F1551",
+   "confere": false,
+   "certeza": 0.7,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "USTR, 'alavancagem americana' e '34 inscritos' sem explicação; leigo não entende a consulta nem a que os outros se opunham."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F1551",
+   "sustenta": true,
+   "motivo": "Trechos trazem pedido de suspensão e negociação, alavancagem americana e único dos 34 inscritos a não se opor."
+  },
+  "espelho": {
+   "rotulo": "F1551",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Posição sobre tarifa americana, efeito não medido e avaliação em disputa."
+  }
+ },
+ "classificacao": "polemico",
+ "peso_final": 0,
+ "falhas": [
+  "as três revisões não concordaram"
+ ],
+ "entrou_em": "2026-10-12"
+}

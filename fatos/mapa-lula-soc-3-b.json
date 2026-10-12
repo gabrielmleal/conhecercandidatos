@@ -1,0 +1,80 @@
+{
+ "id": "mapa-lula-soc-3-b",
+ "origem": "mapa:lula-soc-3",
+ "candidato": "lula",
+ "tema": "social",
+ "subtema": "transferencia",
+ "lente": "fez",
+ "data": "2025-01",
+ "titulo": "Ministério do Desenvolvimento e Assistência Social diz que 293 mil famílias saíram do Bolsa Família",
+ "frase": "Segundo o ministério, cerca de 293 mil famílias saíram do Bolsa Família em janeiro de 2025 por renda acima de meio salário mínimo por pessoa e não estão mais vulneráveis.",
+ "tipo": "positivo",
+ "peso": 1,
+ "marco": false,
+ "ancora": {
+  "orgao": "Ministério do Desenvolvimento e Assistência Social",
+  "documento": "Informe Bolsa Família nº 69, 30 de janeiro de 2025",
+  "link": "https://mds.gov.br/webarquivos/MDS/2_Acoes_e_Programas/Bolsa_Familia/Informes/2025/Informe_Bolsa_Familia_N_69.pdf",
+  "trecho": "Neste mês de janeiro de 2025, a atualização automática de renda do CNIS migrou cerca de 464 mil famílias para a Regra de Proteção, enquanto aproximadamente 293 mil famílias saíram do Programa, pois ultrapassaram o limite de renda de meio salário-mínimo por pessoa da família e não estão mais em situação de vulnerabilidade."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://mds.gov.br/webarquivos/MDS/2_Acoes_e_Programas/Bolsa_Familia/Informes/2025/Informe_Bolsa_Familia_N_69.pdf": "http://web.archive.org/web/20250219143909/https://mds.gov.br/webarquivos/MDS/2_Acoes_e_Programas/Bolsa_Familia/Informes/2025/Informe_Bolsa_Familia_N_69.pdf"
+ },
+ "hash": "02925b610834b0f2f6e39691cd424f13e17914638b3e9a1990eaa94cba54a7ed",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F6302",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "positivo",
+   "peso": 1,
+   "motivo": "293 mil famílias, motivo da saída e mês estão no trecho; é balanço do próprio ministério."
+  },
+  "contra": {
+   "rotulo": "F6302",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "positivo",
+   "peso": 1,
+   "motivo": "Número, mês e motivo da saída estão no trecho; 'não estão mais vulneráveis' está atribuído ao ministério."
+  },
+  "neutra": {
+   "rotulo": "F6302",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "positivo",
+   "peso": 1,
+   "motivo": "Número, mês e motivo da saída estão no trecho do ministério; balanço do governo pesa 1."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-1502",
+  "verificador": {
+   "rotulo": "F6302",
+   "sustenta": true,
+   "motivo": "Cerca de 293 mil famílias saíram em janeiro de ano A por renda acima de meio salário-mínimo por pessoa, conforme o trecho."
+  },
+  "espelho": {
+   "rotulo": "F6302",
+   "tipo": "positivo",
+   "peso": 1,
+   "motivo": "Ministério diz que 293 mil famílias saíram do Bolsa Família por renda maior; balanço do governo."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

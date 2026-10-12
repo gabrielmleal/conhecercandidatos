@@ -1,0 +1,95 @@
+{
+ "id": "mapa-flavio-fam-4-c",
+ "origem": "mapa:flavio-fam-4",
+ "candidato": "lula",
+ "tema": "aliados",
+ "subtema": "familia",
+ "lente": "fez",
+ "data": "2026-03-27",
+ "titulo": "Relatório rejeitado da CPMI pedia indiciar filho de Lula",
+ "frase": "O relatório do deputado Alfredo Gaspar na CPMI, rejeitado por 19 a 12, pedia o indiciamento de Fábio Luís Lula da Silva, filho de Lula. Investigação não é condenação.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Agência Senado",
+  "documento": "",
+  "link": "https://www12.senado.leg.br/noticias/materias/2026/03/28/cpmi-do-inss-termina-sem-relatorio-final",
+  "trecho": "O parecer do deputado Alfredo Gaspar (União-AL) foi rejeitado pela maioria dos membros da comissão (19 a 12)."
+ },
+ "fontes": [
+  {
+   "veiculo": "CPMI do INSS (Congresso Nacional)",
+   "nivel": "C",
+   "link": "https://static.poder360.com.br/2026/03/2-CPMI-INSS-Relatorio-final-compressed-27mar2026.pdf",
+   "trecho": "O indiciamento de Fábio Luís Lula da Silva, conhecido publicamente como \"Lulinha\", filho do atual Presidente da República Luiz Inácio Lula da Silva, fundamenta-se nos elementos probatórios colhidos ao longo dos trabalhos desta CPMI,"
+  },
+  {
+   "veiculo": "Poder360",
+   "nivel": "C",
+   "link": "https://www.poder360.com.br/poder-congresso/leia-a-integra-do-relatorio-final-da-cpmi-do-inss/",
+   "trecho": "O relatório menciona Fábio Luís Lula da Silva, o Lulinha, filho do presidente Luiz Inácio Lula da Silva (PT);"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://static.poder360.com.br/2026/03/2-CPMI-INSS-Relatorio-final-compressed-27mar2026.pdf": "http://web.archive.org/web/20260805135135/https://static.poder360.com.br/2026/03/2-CPMI-INSS-Relatorio-final-compressed-27mar2026.pdf",
+  "https://www12.senado.leg.br/noticias/materias/2026/03/28/cpmi-do-inss-termina-sem-relatorio-final": "http://web.archive.org/web/20260516212514/https://www12.senado.leg.br/noticias/materias/2026/03/28/cpmi-do-inss-termina-sem-relatorio-final",
+  "https://www.poder360.com.br/poder-congresso/leia-a-integra-do-relatorio-final-da-cpmi-do-inss/": "http://web.archive.org/web/20260806194057/https://www.poder360.com.br/poder-congresso/leia-a-integra-do-relatorio-final-da-cpmi-do-inss/"
+ },
+ "hash": "921af589342878a0e483e908255bf804a9e81d5d1830b968164d012f7c811ee6",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F2529",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Rejeição por 19 a 12 e pedido de indiciamento do filho estão nos trechos. Acusação em relatório rejeitado, com o aviso: polêmico."
+  },
+  "contra": {
+   "rotulo": "F2529",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Relatório rejeitado por 19 a 12, pedido de indiciamento do filho do presidente e autoria do deputado estão nos trechos. Ressalva presente."
+  },
+  "neutra": {
+   "rotulo": "F2529",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Rejeição por 19 a 12, indiciamento de Pessoa Q e parentesco com Pessoa W estão nos trechos. Relatório rejeitado, sem investigação formal aberta: polêmico."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-1409",
+  "verificador": {
+   "rotulo": "F2529",
+   "sustenta": true,
+   "motivo": "Parecer rejeitado por 19 a 12, indiciamento do filho do presidente no relatório e deputado Pessoa A constam dos trechos."
+  },
+  "espelho": {
+   "rotulo": "F2529",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Relatório de CPMI rejeitado por 19 a 12; pedido de indiciamento sem investigação formal."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

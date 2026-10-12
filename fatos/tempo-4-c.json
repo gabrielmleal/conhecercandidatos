@@ -1,0 +1,87 @@
+{
+ "id": "tempo-4-c",
+ "origem": "tempo:4",
+ "candidato": "brasil",
+ "tema": "social",
+ "subtema": "transferencia",
+ "lente": "fez",
+ "data": "2020-04-02",
+ "titulo": "Lei 13.982 cria o auxílio emergencial de R$ 600,00",
+ "frase": "Em abril de 2020, a Lei 13.982 criou auxílio de R$ 600,00 mensais por três meses, com requisitos como ser maior de 18 anos e não ter emprego formal ativo.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": true,
+ "ancora": {
+  "orgao": "Presidência da República",
+  "documento": "Lei nº 13.982, de 2 de abril de 2020, art. 2º",
+  "link": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13982.htm",
+  "trecho": "Art. 2º Durante o período de 3 (três) meses, a contar da publicação desta Lei, será concedido auxílio emergencial no valor de R$ 600,00 (seiscentos reais) mensais ao trabalhador que cumpra cumulativamente os seguintes requisitos: I - seja maior de 18 (dezoito) anos de idade; I - seja maior de 18 (dezoito) anos de idade, salvo no caso de mães adolescentes; (Redação dada pela Lei nº 13.998, de 2020) II - não tenha emprego formal ativo;"
+ },
+ "fontes": [
+  {
+   "veiculo": "Presidência da República",
+   "nivel": "A",
+   "link": "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13982.htm",
+   "trecho": "LEI Nº 13.982, DE 2 DE ABRIL DE 2020 Altera a Lei nº 8.742, de 7 de dezembro de 1993, para dispor sobre parâmetros adicionais de caracterização da situação de vulnerabilidade social para fins de elegibilidade ao benefício de prestação continuada (BPC), e estabelece medidas excepcionais de proteção social a serem adotadas durante o período de enfrentamento da emergência de saúde pública de importância internacional decorrente do coronavírus (Covid-19) responsável pelo surto de 2019, a que se refere a Lei nº 13.979, de 6 de fevereiro de 2020."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13982.htm": "http://web.archive.org/web/20261004090451/http://www.planalto.gov.br/ccivil_03/_ato2019-2022/2020/lei/l13982.htm"
+ },
+ "hash": "3c48ffd1125e2ea21ec5a8c786e3d2fa714ee3cd06dde85ae2faeddf8519f042",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F3833",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Valor, prazo de três meses e requisitos estão no artigo 2º; data de abril está no cabeçalho da lei."
+  },
+  "contra": {
+   "rotulo": "F3833",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Valor, prazo e requisitos iguais à lei; não credita resultado a ninguém."
+  },
+  "neutra": {
+   "rotulo": "F3833",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Valor, prazo de três meses e requisitos batem com o texto da lei."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-1502",
+  "verificador": {
+   "rotulo": "F3833",
+   "sustenta": true,
+   "motivo": "Lei 13.982 de 2 de abril de ano C, R$ 600 mensais por três meses, maior de 18 anos e sem emprego formal estão nos trechos."
+  },
+  "espelho": {
+   "rotulo": "F3833",
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Lei 13.982 criou auxílio de R$ 600 mensais por três meses."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

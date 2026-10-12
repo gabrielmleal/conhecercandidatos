@@ -1,0 +1,87 @@
+{
+ "id": "mapa-flavio-fam-3-a",
+ "origem": "mapa:flavio-fam-3",
+ "candidato": "flavio",
+ "tema": "aliados",
+ "subtema": "familia",
+ "lente": "fez",
+ "data": "2026-10-04",
+ "titulo": "Michelle Bolsonaro é eleita senadora pelo Distrito Federal",
+ "frase": "Em 4 de outubro de 2026, Michelle Bolsonaro (PL) foi eleita senadora pelo Distrito Federal, com mandato de oito anos a partir de 1º de fevereiro de 2027.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Agência Senado",
+  "documento": "Conheça os 54 senadores eleitos neste domingo (04/10/2026)",
+  "link": "https://www12.senado.leg.br/noticias/materias/2026/10/04/conheca-os-54-senadores-eleitos-neste-domingo",
+  "trecho": "Distrito Federal Michelle Bolsonaro (PL) e Bia Kicis (PL)"
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Senado",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2026/10/04/conheca-os-54-senadores-eleitos-neste-domingo",
+   "trecho": "Da Agência Senado | 04/10/2026, 22h51 Neste domingo (4), os eleitores do país escolheram 54 senadores. Eles terão mandato de oito anos, entre 1º de fevereiro de 2027 e 31 de janeiro de 2035."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/materias/2026/10/04/conheca-os-54-senadores-eleitos-neste-domingo": "http://web.archive.org/web/20261008160842/https://www12.senado.leg.br/noticias/materias/2026/10/04/conheca-os-54-senadores-eleitos-neste-domingo"
+ },
+ "hash": "48a1c32a516b8bc6fba761cce200513104e684ac0a05bb6919fa7673492c06a2",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F3012",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Eleição em 4 de outubro e mandato de oito anos a partir de 1º de fevereiro estão nos trechos."
+  },
+  "contra": {
+   "rotulo": "F3012",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Eleição pelo DF, data e mandato de oito anos batem com os trechos."
+  },
+  "neutra": {
+   "rotulo": "F3012",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Eleição pelo DF, data e mandato de oito anos estão nos trechos."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-1502",
+  "verificador": {
+   "rotulo": "F3012",
+   "sustenta": true,
+   "motivo": "Pessoa B listada pelo Distrito Federal na eleição de 04/10/ano A, mandato de oito anos desde 1º de fevereiro de ano B."
+  },
+  "espelho": {
+   "rotulo": "F3012",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Resultado eleitoral, sem lado bom ou ruim."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

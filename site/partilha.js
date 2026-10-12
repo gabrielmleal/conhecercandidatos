@@ -1,0 +1,1 @@
+document.querySelectorAll('[data-share]').forEach(b=>b.addEventListener('click',()=>{const url=location.href,text=document.title;if(navigator.share)navigator.share({title:text,url}).catch(()=>{});else window.open('https://wa.me/?text='+encodeURIComponent(text+' '+url),'_blank','noopener');}));

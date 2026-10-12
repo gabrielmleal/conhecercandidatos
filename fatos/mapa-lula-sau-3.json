@@ -1,0 +1,80 @@
+{
+ "id": "mapa-lula-sau-3",
+ "origem": "mapa:lula-sau-3",
+ "candidato": "lula",
+ "tema": "saude",
+ "subtema": "epidemias",
+ "lente": "fez",
+ "data": "2024-07-04",
+ "titulo": "Dengue: 4.269 mortes confirmadas até a semana 26 de 2024",
+ "frase": "Segundo o Ministério da Saúde, entre as semanas 1 e 26 de 2024 foram confirmados 4.269 óbitos por dengue.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Ministério da Saúde",
+  "documento": "Boletim Epidemiológico, volume 55, nº 11, de 4 de julho de 2024: monitoramento das arboviroses",
+  "link": "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/boletins/epidemiologicos/edicoes/2024/boletim-epidemiologico-volume-55-no-11.pdf",
+  "trecho": "No período entre as SEs 1 e 26 de 2024 foram con- confirmados e em investigação no ano de 2024. O pico firmados 4.269 óbitos por dengue"
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/boletins/epidemiologicos/edicoes/2024/boletim-epidemiologico-volume-55-no-11.pdf": "http://web.archive.org/web/20261004185040/https://www.gov.br/saude/pt-br/centrais-de-conteudo/publicacoes/boletins/epidemiologicos/edicoes/2024/boletim-epidemiologico-volume-55-no-11.pdf"
+ },
+ "hash": "eb7b2668cddcf487c05f5d998dab285a8a9ba312bdd8f9e456d1c4307edc9b87",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F2293",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Número fiel ao boletim, mas é contagem sem comparação nem ligação a ato do governo; não mostra piora."
+  },
+  "contra": {
+   "rotulo": "F2293",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "4.269 óbitos nas semanas 1 a 26 estão no boletim oficial, apesar do trecho truncado."
+  },
+  "neutra": {
+   "rotulo": "F2293",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "4.269 óbitos entre as semanas epidemiológicas 1 e 26 estão no trecho; boletim oficial."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2137",
+  "verificador": {
+   "rotulo": "F2293",
+   "sustenta": true,
+   "motivo": "Trecho, quebrado em colunas, traz 4.269 óbitos por dengue confirmados entre as semanas 1 e 26 de ano A."
+  },
+  "espelho": {
+   "rotulo": "F2293",
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "4.269 mortes por dengue confirmadas até a semana 26 de 2024, dado oficial."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

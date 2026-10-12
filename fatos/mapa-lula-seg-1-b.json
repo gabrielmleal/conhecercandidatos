@@ -1,0 +1,87 @@
+{
+ "id": "mapa-lula-seg-1-b",
+ "origem": "mapa:lula-seg-1",
+ "candidato": "lula",
+ "tema": "seguranca",
+ "subtema": "leis",
+ "lente": "fez",
+ "data": "2026-09-02",
+ "titulo": "CCJ do Senado aprovou a PEC da Segurança Pública sem concluir a votação",
+ "frase": "Em 2 de setembro de 2026, a Comissão de Constituição e Justiça (CCJ) do Senado aprovou a PEC da Segurança Pública. Faltava votar destaques, que analisam emendas ao texto.",
+ "tipo": "contexto",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Senado Federal (Agência Senado)",
+  "documento": "CCJ aprova relatório da PEC da Segurança, mas não conclui votação, 02/09/2026",
+  "link": "https://www12.senado.leg.br/noticias/materias/2026/09/02/pec-da-seguranca-ccj-aprova-texto-base-com-retirada-de-regra-sobre-bets",
+  "trecho": "Da Agência Senado | 02/09/2026, 17h02 - ATUALIZADO EM 02/09/2026, 18h30 A Comissão de Constituição e Justiça (CCJ) aprovou nesta quarta-feira (2) a PEC da Segurança Pública."
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Senado",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2026/09/02/pec-da-seguranca-ccj-aprova-texto-base-com-retirada-de-regra-sobre-bets",
+   "trecho": "Os senadores da CCJ ainda terão que votar destaques para análise de emendas ao texto aprovado. A reunião para essa deliberação, porém, ainda não foi agendada. Só depois da conclusão dessas votações, a PEC poderá ser enviada para o Plenário do Senado."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/materias/2026/09/02/pec-da-seguranca-ccj-aprova-texto-base-com-retirada-de-regra-sobre-bets": null
+ },
+ "hash": "2a0c28230ffd67c471d31b1f12c4b08d9483a6b2fec435abaa3483289ad3037b",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5470",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, aprovação e destaques pendentes estão nos trechos da Agência Senado."
+  },
+  "contra": {
+   "rotulo": "F5470",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, aprovação e pendência dos destaques estão nos trechos; título já registra que a votação não terminou."
+  },
+  "neutra": {
+   "rotulo": "F5470",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Data, aprovação e destaques pendentes estão nos trechos; frase clara e neutra."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F5470",
+   "sustenta": true,
+   "motivo": "Trechos trazem data 02/09, aprovação na CCJ e destaques ainda por votar."
+  },
+  "espelho": {
+   "rotulo": "F5470",
+   "tipo": "contexto",
+   "peso": 0,
+   "motivo": "Etapa de tramitação na CCJ, sem efeito direto nem lado bom ou ruim."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

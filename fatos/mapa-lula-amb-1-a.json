@@ -1,0 +1,80 @@
+{
+ "id": "mapa-lula-amb-1-a",
+ "origem": "mapa:lula-amb-1",
+ "candidato": "lula",
+ "tema": "ambiente",
+ "subtema": "desmatamento",
+ "lente": "fez",
+ "data": "2026-07",
+ "titulo": "Sistema Deter registra queda de 36% nos alertas de desmatamento na Amazônia, o menor valor da série",
+ "frase": "Segundo o Deter, de agosto de 2025 a julho de 2026, a Amazônia teve 2.874,38 km² sob alertas de desmatamento: 36% menos que no período anterior, o menor da série.",
+ "tipo": "positivo",
+ "peso": 2,
+ "marco": true,
+ "ancora": {
+  "orgao": "INPE",
+  "documento": "Governo Federal apresenta dados que indicam redução do desmatamento nos biomas brasileiros, 07/08/2026",
+  "link": "https://www.gov.br/inpe/pt-br/assuntos/ultimas-noticias/governo-federal-apresenta-dados-que-indicam-reducao-do-desmatamento-nos-biomas-brasileiros",
+  "trecho": "Na ocasião, foram apresentados os dados do Sistema de Detecção do Desmatamento em Tempo Real (Deter) referentes ao período de agosto de 2025 a julho de 2026, que indicam redução da área sob alertas de desmatamento na Amazônia e no Cerrado. Na Amazônia, a área sob alertas foi de 2.874,38 km², o que representa uma redução de 36% em relação ao período anterior, o menor valor registrado na série histórica e um resultado 55,6% abaixo da média dos últimos dez anos (2015/2016 a 2024/2025)."
+ },
+ "fontes": [],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.gov.br/inpe/pt-br/assuntos/ultimas-noticias/governo-federal-apresenta-dados-que-indicam-reducao-do-desmatamento-nos-biomas-brasileiros": null
+ },
+ "hash": "53f3a6a26003359ccc1341249186badc5822ec92866863cdb3f5014194450ee2",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F5711",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Área, período, queda de 36% e menor valor da série estão no trecho; dado oficial do Deter."
+  },
+  "contra": {
+   "rotulo": "F5711",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Área, queda de 36% e menor valor da série estão no trecho; dado oficial, sem atribuir causa ao governo."
+  },
+  "neutra": {
+   "rotulo": "F5711",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Área, período, queda de 36% e menor valor da série estão no trecho; dado oficial do Deter."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2137",
+  "verificador": {
+   "rotulo": "F5711",
+   "sustenta": true,
+   "motivo": "Trecho traz 2.874,38 km², queda de 36% e o menor valor da série, de agosto de ano D a julho de ano E."
+  },
+  "espelho": {
+   "rotulo": "F5711",
+   "tipo": "positivo",
+   "peso": 2,
+   "motivo": "Alertas de desmatamento caíram 36%, menor valor da série, dado oficial do Inpe."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

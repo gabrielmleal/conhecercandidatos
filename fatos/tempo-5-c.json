@@ -1,0 +1,94 @@
+{
+ "id": "tempo-5-c",
+ "origem": "tempo:5",
+ "candidato": "brasil",
+ "tema": "saude",
+ "subtema": "epidemias",
+ "lente": "fez",
+ "data": "2021-10-26",
+ "titulo": "CPI da Pandemia aprova relatório que recomenda indiciar Bolsonaro por nove infrações",
+ "frase": "Em 2021, o relatório final da CPI da Pandemia, aprovado por sete votos a quatro, recomendou o indiciamento de Jair Bolsonaro por nove infrações. Investigação não é condenação.",
+ "tipo": "problema",
+ "peso": 1,
+ "marco": true,
+ "ancora": {
+  "orgao": "Senado Federal",
+  "documento": "Agência Senado: Após seis meses, CPI da Pandemia é encerrada com 80 pedidos de indiciamento (26/10/2021)",
+  "link": "https://www12.senado.leg.br/noticias/materias/2021/10/26/apos-seis-meses-cpi-da-pandemia-e-encerrada-com-80-pedidos-de-indiciamento",
+  "trecho": "A versão final do parecer, que tem 1.279 páginas, recomenda o indiciamento do presidente Jair Bolsonaro pela prática de nove infrações."
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Senado",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2021/10/26/apos-seis-meses-cpi-da-pandemia-e-encerrada-com-80-pedidos-de-indiciamento",
+   "trecho": "Prevaleceu o texto do senador Renan Calheiros (MDB-AL), que recebeu sete votos favoráveis e quatro contrários."
+  },
+  {
+   "veiculo": "Agência Senado",
+   "nivel": "A",
+   "link": "https://www12.senado.leg.br/noticias/materias/2021/10/20/com-nove-crimes-atribuidos-a-bolsonaro-relatorio-da-cpi-e-oficialmente-apresentado",
+   "trecho": "20/10/2021, 14h25 Após quase seis meses de trabalho, o senador Renan Calheiros (MDB-AL) apresentou oficialmente, nesta quarta-feira (20), seu relatório à CPI da Pandemia."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www12.senado.leg.br/noticias/materias/2021/10/26/apos-seis-meses-cpi-da-pandemia-e-encerrada-com-80-pedidos-de-indiciamento": "http://web.archive.org/web/20261011164440/https://www12.senado.leg.br/noticias/materias/2021/10/26/apos-seis-meses-cpi-da-pandemia-e-encerrada-com-80-pedidos-de-indiciamento",
+  "https://www12.senado.leg.br/noticias/materias/2021/10/20/com-nove-crimes-atribuidos-a-bolsonaro-relatorio-da-cpi-e-oficialmente-apresentado": null
+ },
+ "hash": "fe3ae2592f26467d75636ad7802ff25e10cecf193baf3f44d52d9b30ac26d045",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F2665",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Placar e nove infrações batem com o trecho; CPI é investigação formal sem julgamento e a ressalva está no fim."
+  },
+  "contra": {
+   "rotulo": "F2665",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Placar de sete a quatro e nove infrações batem com o trecho; investigação formal sem julgamento, com a ressalva."
+  },
+  "neutra": {
+   "rotulo": "F2665",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Placar 7 a 4 e nove infrações batem; recomendação de CPI é investigação formal sem julgamento."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-1433",
+  "verificador": {
+   "rotulo": "F2665",
+   "sustenta": true,
+   "motivo": "Relatório de ano A, placar de sete a quatro e indiciamento de Pessoa G por nove infrações constam dos trechos."
+  },
+  "espelho": {
+   "rotulo": "F2665",
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Relatório aprovado da CPI recomenda indiciamento por nove infrações; investigação formal sem julgamento."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

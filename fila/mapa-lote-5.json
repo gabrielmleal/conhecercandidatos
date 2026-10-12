@@ -1,0 +1,351 @@
+[
+ {
+  "origem": "mapa:flavio-est-1",
+  "candidato": "flavio",
+  "area_do_mapa": "Gestão e órgãos públicos",
+  "titulo": "Abin paralela",
+  "tipo_no_mapa": "problema",
+  "natureza": "fato",
+  "texto": "A Polícia Federal concluiu que a agência de inteligência (Abin) foi usada para espionar adversários e para tentar ajudar filhos de Bolsonaro em investigações. Para a PF, Jair era o centro das decisões.",
+  "quem_apoia_diz": "Flávio nega ter sido favorecido; aliados falam em perseguição.",
+  "quem_critica_diz": "Uso de um órgão do Estado contra adversários.",
+  "destaque": null,
+  "pistas": [
+   {
+    "veiculo": "O Povo",
+    "data": "jan/2024",
+    "titulo": "PF: Abin usada para monitorar promotora",
+    "link": "https://www.opovo.com.br/noticias/politica/2024/01/25/abin-foi-usada-para-monitorar-promotora-do-caso-marielle-diz-pf.html"
+   },
+   {
+    "veiculo": "Correio Braziliense",
+    "data": "jun/2025",
+    "titulo": "PF coloca Bolsonaro no centro da Abin paralela",
+    "link": "https://edicao.correiobraziliense.com.br/correiobraziliense/2025/06/19/10318c/pdf/A02-POL-1906-DIG.pdf"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:flavio-est-2",
+  "candidato": "flavio",
+  "area_do_mapa": "Gestão e órgãos públicos",
+  "titulo": "Saída de Moro",
+  "tipo_no_mapa": "polemico",
+  "natureza": "fato",
+  "texto": "Em 2020, Sergio Moro deixou o Ministério da Justiça acusando Bolsonaro de interferir na PF. Em 2022, a própria PF disse não ter achado crime nesse caso.",
+  "quem_apoia_diz": "A PF não viu crime.",
+  "quem_critica_diz": "As trocas no comando da polícia levantaram suspeitas.",
+  "destaque": null,
+  "pistas": [
+   {
+    "veiculo": "NSC Total",
+    "data": "2022",
+    "titulo": "PF não vê crime na troca de comando",
+    "link": "https://www.nsctotal.com.br/?p=2403561"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:flavio-est-3",
+  "candidato": "flavio",
+  "area_do_mapa": "Gestão e órgãos públicos",
+  "titulo": "Plano: governo digital",
+  "tipo_no_mapa": "polemico",
+  "natureza": "promessa",
+  "texto": "Promete segurar o crescimento da folha de servidores e digitalizar serviços públicos.",
+  "quem_apoia_diz": "Estado mais enxuto e prático.",
+  "quem_critica_diz": "Menos servidores pode piorar o atendimento.",
+  "destaque": null,
+  "pistas": [
+   {
+    "veiculo": "Estado de Minas",
+    "data": "ago/2026",
+    "titulo": "Principais propostas do plano de Flávio",
+    "link": "https://www.em.com.br/politica/2026/08/7490602-flavio-bolsonaro-2026-conheca-as-principais-propostas-do-plano-de-governo.html"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:flavio-est-4",
+  "candidato": "flavio",
+  "area_do_mapa": "Gestão e órgãos públicos",
+  "titulo": "INSS: descontos antes de 2023",
+  "tipo_no_mapa": "problema",
+  "natureza": "fato",
+  "texto": "Os descontos indevidos em aposentadorias já existiam no governo Bolsonaro: somavam R$ 706 milhões em 2022, segundo a CPMI. O relatório governista da CPMI chegou a apontar Jair como “chefe” do esquema, mas não foi aprovado.",
+  "quem_apoia_diz": "A fraude explodiu depois, já no governo Lula.",
+  "quem_critica_diz": "O esquema nasceu sob a gestão bolsonarista.",
+  "destaque": [
+   "R$ 706 mi",
+   "em descontos em aposentadorias em 2022, segundo a CPMI"
+  ],
+  "pistas": [
+   {
+    "veiculo": "Investing (Poder360)",
+    "data": "mar/2026",
+    "titulo": "O que o relatório diz sobre Lulinha",
+    "link": "https://br.investing.com/news/politics-news/relatorio-cita-mesada-do-careca-do-inss-para-lulinha-1883198"
+   },
+   {
+    "veiculo": "Jovem Pan",
+    "data": "mar/2026",
+    "titulo": "CPMI rejeita o relatório final",
+    "link": "https://jovempan.com.br/noticias/politica/cpmi-do-inss-relatorio-que-indiciava-lulinha-e-rejeitado.html"
+   },
+   {
+    "veiculo": "O Povo / BBC",
+    "data": "mai/2025",
+    "titulo": "O que se sabe da fraude no INSS",
+    "link": "https://www.opovo.com.br/agencia/bbc/2025/05/03/o-que-se-sabe-sobre-fraude-no-inss-que-levou-lula-a-demitir-presidente-do-orgao.html"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:flavio-dem-1",
+  "candidato": "flavio",
+  "area_do_mapa": "Democracia e Justiça",
+  "titulo": "Pai condenado por golpe",
+  "tipo_no_mapa": "problema",
+  "natureza": "fato",
+  "texto": "Em setembro de 2025, o STF condenou Jair Bolsonaro a 27 anos e 3 meses por tentar um golpe de Estado depois de perder a eleição de 2022. Segundo a PF, o plano previa matar Lula, Alckmin e o ministro Moraes. Flávio chama o processo de “farsa”.",
+  "quem_apoia_diz": "A família diz que é perseguição política.",
+  "quem_critica_diz": "Juristas veem o caso como um ataque grave à democracia.",
+  "destaque": [
+   "27 anos e 3 meses",
+   "pena de Jair por tentativa de golpe"
+  ],
+  "pistas": [
+   {
+    "veiculo": "A União",
+    "data": "mar/2026",
+    "titulo": "Bolsonaro vai para prisão domiciliar",
+    "link": "https://auniao.pb.gov.br/noticias/caderno_politicas/bolsonaro-vai-para-prisao-domiciliar"
+   },
+   {
+    "veiculo": "ES Hoje",
+    "data": "2026",
+    "titulo": "Indulto, anistia e a promessa de Flávio",
+    "link": "https://eshoje.com.br/?p=900916"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:flavio-dem-2",
+  "candidato": "flavio",
+  "area_do_mapa": "Democracia e Justiça",
+  "titulo": "Perdão ao pai",
+  "tipo_no_mapa": "polemico",
+  "natureza": "promessa",
+  "texto": "Promete dar indulto ao pai e anistia a quem foi condenado pelo 8 de janeiro. Diz que vai subir a rampa do Planalto com Jair em 2027. Em 2025, falou em “uso da força” se o STF derrubasse o perdão.",
+  "quem_apoia_diz": "Seria uma forma de pacificar o país.",
+  "quem_critica_diz": "Juristas dizem que premiaria uma tentativa de golpe.",
+  "destaque": null,
+  "pistas": [
+   {
+    "veiculo": "ES Hoje",
+    "data": "2026",
+    "titulo": "Indulto, anistia e a promessa de Flávio",
+    "link": "https://eshoje.com.br/?p=900916"
+   },
+   {
+    "veiculo": "BNews",
+    "data": "2025",
+    "titulo": "Flávio fala em “uso da força”",
+    "link": "https://www.bnews.com.br/noticias/politica/flavio-diz-que-candidato-de-bolsonaro-para-2026-precisa-garantir-indulto-e-cita-uso-da-forca.html"
+   },
+   {
+    "veiculo": "IstoÉ",
+    "data": "mar/2026",
+    "titulo": "Flávio promete levar o pai de volta ao poder",
+    "link": "https://istoe.com.br/em-ato-na-paulista-flavio-promete-levar-bolsonaro-de-volta-ao-poder"
+   },
+   {
+    "veiculo": "A Crítica",
+    "data": "2026",
+    "titulo": "Flávio promete anistia ao pai",
+    "link": "https://acritica.net/eleicoes-2026/flavio-bolsonaro-critica-atuacao-no-caso-lulinha-e-promete-anistia-ao-pai/"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:flavio-dem-3",
+  "candidato": "flavio",
+  "area_do_mapa": "Democracia e Justiça",
+  "titulo": "Briga com o STF",
+  "tipo_no_mapa": "polemico",
+  "natureza": "fato",
+  "texto": "Defende o impeachment de ministros do STF que, segundo ele, descumprem a lei. O PL deve ter a maior bancada eleita no Senado, que é quem julga esses pedidos.",
+  "quem_apoia_diz": "Reação a um Judiciário que exagera.",
+  "quem_critica_diz": "Pressão sobre a independência dos Poderes.",
+  "destaque": null,
+  "pistas": [
+   {
+    "veiculo": "IstoÉ",
+    "data": "mar/2026",
+    "titulo": "Flávio promete levar o pai de volta ao poder",
+    "link": "https://istoe.com.br/em-ato-na-paulista-flavio-promete-levar-bolsonaro-de-volta-ao-poder"
+   },
+   {
+    "veiculo": "Times Brasil (CNBC)",
+    "data": "out/2026",
+    "titulo": "Michelle eleita; PL forte no Senado",
+    "link": "https://timesbrasil.com.br/eleicoes-2026/michelle-bolsonaro-bia-kicis-eleitas-senado-distrito-federal/"
+   },
+   {
+    "veiculo": "Nexo",
+    "data": "out/2026",
+    "titulo": "Pontos-chave da eleição de 2026",
+    "link": "https://nexojornal.com.br/expresso/2026/10/03/eleicao-2026-explicada-lula-flavio-bolsonaro-presidente-brasil"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:flavio-dem-4",
+  "candidato": "flavio",
+  "area_do_mapa": "Democracia e Justiça",
+  "titulo": "Lei da Dosimetria",
+  "tipo_no_mapa": "polemico",
+  "natureza": "fato",
+  "texto": "O Congresso aprovou a Lei da Dosimetria, que pode diminuir penas do 8 de janeiro. Moraes suspendeu o uso dela no caso de Jair até o STF decidir.",
+  "quem_apoia_diz": "Corrige penas consideradas exageradas.",
+  "quem_critica_diz": "Pode aliviar quem tentou o golpe.",
+  "destaque": null,
+  "pistas": [
+   {
+    "veiculo": "O Brasilianista",
+    "data": "out/2026",
+    "titulo": "Revisão da pena e Lei da Dosimetria",
+    "link": "https://obrasilianista.com.br/2026/10/08/justica/bolsonaro-solto-o-primeiro-teste-de-forca-de-um-eventual-governo-flavio"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:lula-est-1",
+  "candidato": "lula",
+  "area_do_mapa": "Gestão e órgãos públicos",
+  "titulo": "Concurso unificado",
+  "tipo_no_mapa": "positivo",
+  "natureza": "fato",
+  "texto": "Criou o “Enem dos concursos”, com mais de 6.600 vagas em órgãos federais, para repor servidores.",
+  "quem_apoia_diz": "Seleção mais justa e em mais cidades.",
+  "quem_critica_diz": "Mais servidores significa mais gasto com pessoal.",
+  "destaque": [
+   "6.600+",
+   "vagas em órgãos federais"
+  ],
+  "pistas": [
+   {
+    "veiculo": "Poder360",
+    "data": "jan/2024",
+    "titulo": "Concurso Nacional Unificado",
+    "link": "https://www.poder360.com.br/governo/governo-quer-replicar-concurso-unificado-em-cidades-e-estados/"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:lula-est-2",
+  "candidato": "lula",
+  "area_do_mapa": "Gestão e órgãos públicos",
+  "titulo": "Fraude do INSS",
+  "tipo_no_mapa": "problema",
+  "natureza": "fato",
+  "texto": "Descontos falsos em aposentadorias subiram de R$ 706 milhões em 2022 para mais de R$ 3,3 bilhões em 2024, segundo a CPMI. O esquema começou em 2019. A PF e a CGU descobriram em 2025; o ministro Carlos Lupi saiu e o governo prometeu devolver o dinheiro.",
+  "quem_apoia_diz": "Foi o próprio governo que desmontou o esquema.",
+  "quem_critica_diz": "Alertas foram ignorados por anos.",
+  "destaque": [
+   "R$ 3,3 bi",
+   "em descontos indevidos em 2024"
+  ],
+  "pistas": [
+   {
+    "veiculo": "Investing (Poder360)",
+    "data": "mar/2026",
+    "titulo": "O que o relatório diz sobre Lulinha",
+    "link": "https://br.investing.com/news/politics-news/relatorio-cita-mesada-do-careca-do-inss-para-lulinha-1883198"
+   },
+   {
+    "veiculo": "O Povo / BBC",
+    "data": "mai/2025",
+    "titulo": "O que se sabe da fraude no INSS",
+    "link": "https://www.opovo.com.br/agencia/bbc/2025/05/03/o-que-se-sabe-sobre-fraude-no-inss-que-levou-lula-a-demitir-presidente-do-orgao.html"
+   },
+   {
+    "veiculo": "Diário do Nordeste",
+    "data": "mai/2025",
+    "titulo": "Lupi deixa o Ministério da Previdência",
+    "link": "https://diariodonordeste.verdesmares.com.br/pontopoder/carlos-lupi-pede-demissao-e-deixa-ministerio-da-previdencia-apos-escandalo-de-fraude-no-inss-1.3646382"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:lula-dem-1",
+  "candidato": "lula",
+  "area_do_mapa": "Democracia e Justiça",
+  "titulo": "Alvo da trama golpista",
+  "tipo_no_mapa": "contexto",
+  "natureza": "fato",
+  "texto": "Segundo a PF, o plano golpista de 2022 previa matar Lula e Alckmin. No 8 de janeiro de 2023, prédios dos Três Poderes foram depredados.",
+  "quem_apoia_diz": "O governo se apresenta como defensor da democracia.",
+  "quem_critica_diz": "A oposição diz que o 8 de janeiro é usado contra adversários.",
+  "destaque": null,
+  "pistas": []
+ },
+ {
+  "origem": "mapa:lula-dem-2",
+  "candidato": "lula",
+  "area_do_mapa": "Democracia e Justiça",
+  "titulo": "Advogado no STF",
+  "tipo_no_mapa": "polemico",
+  "natureza": "fato",
+  "texto": "Lula indicou ao STF seu advogado pessoal na Lava Jato, Cristiano Zanin, e depois seu ministro da Justiça, Flávio Dino. Em 2026, o Senado rejeitou Jorge Messias, outro indicado dele.",
+  "quem_apoia_diz": "Os indicados cumprem as exigências da lei.",
+  "quem_critica_diz": "Críticos veem falta de imparcialidade.",
+  "destaque": null,
+  "pistas": [
+   {
+    "veiculo": "Poder360",
+    "data": "jun/2023",
+    "titulo": "Indicação de Zanin ao STF",
+    "link": "https://www.poder360.com.br/congresso/governistas-elogiam-e-oposicao-critica-indicacao-de-zanin-no-stf/"
+   },
+   {
+    "veiculo": "Diario de Pernambuco",
+    "data": "jun/2023",
+    "titulo": "Críticas à indicação de Zanin",
+    "link": "https://www.diariodepernambuco.com.br/noticia/politica/2023/06/lula-confirma-indicacao-de-zanin-para-ocupar-a-vaga-de-ministro-do-stf.html"
+   },
+   {
+    "veiculo": "Nexo",
+    "data": "set/2026",
+    "titulo": "Políticos da teia do Master investigados no STF",
+    "link": "https://www.nexojornal.com.br/expresso/2026/09/12/sigilo-master-vorcaro-mendonca-vorcaro"
+   }
+  ]
+ },
+ {
+  "origem": "mapa:lula-dem-3",
+  "candidato": "lula",
+  "area_do_mapa": "Democracia e Justiça",
+  "titulo": "Redes e “censura”",
+  "tipo_no_mapa": "polemico",
+  "natureza": "fato",
+  "texto": "O governo apoia decisões contra perfis e plataformas acusados de espalhar mentiras. Os EUA citaram essas ordens às empresas de tecnologia para justificar tarifas.",
+  "quem_apoia_diz": "Combate a notícias falsas.",
+  "quem_critica_diz": "Críticos falam em ameaça à liberdade de expressão.",
+  "destaque": null,
+  "pistas": [
+   {
+    "veiculo": "Agência Brasil",
+    "data": "set/2026",
+    "titulo": "Entenda a relação Brasil–Estados Unidos",
+    "link": "https://agenciabrasil.ebc.com.br/internacional/noticia/2026-09/entenda-relacao-entre-brasil-e-estados-unidos"
+   },
+   {
+    "veiculo": "Benzinga (via Webull)",
+    "data": "jul/2026",
+    "titulo": "Motivos alegados pelos EUA para a tarifa",
+    "link": "https://www.webull.com/news/15235773953172480"
+   }
+  ]
+ }
+]

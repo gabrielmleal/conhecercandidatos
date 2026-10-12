@@ -1,0 +1,102 @@
+{
+ "id": "mapa-flavio-jus-2-b",
+ "origem": "mapa:flavio-jus-2",
+ "candidato": "flavio",
+ "tema": "candidato",
+ "subtema": "investigacoes",
+ "lente": "fez",
+ "data": "2025-02-26",
+ "titulo": "Gilmar Mendes rejeita dois recursos do MP-RJ no caso das rachadinhas",
+ "frase": "Gilmar Mendes, do STF, rejeitou dois recursos do Ministério Público do RJ no caso das rachadinhas de Flávio Bolsonaro. Disse que a anulação de provas não impedia nova denúncia.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Supremo Tribunal Federal",
+  "documento": "Notícia: STF rejeita dois recursos do Ministério Público do RJ no caso das rachadinhas (27/02/2025)",
+  "link": "https://noticias.stf.jus.br/postsnoticias/stf-rejeita-dois-recursos-do-ministerio-publico-do-rj-no-caso-das-rachadinhas/",
+  "trecho": "O ministro Gilmar Mendes, do Supremo Tribunal Federal (STF), rejeitou nesta quarta-feira (26) dois recursos apresentados pelo Ministério Público do Estado do Rio de Janeiro (MP-RJ) relacionados ao caso das rachadinhas."
+ },
+ "fontes": [
+  {
+   "veiculo": "Supremo Tribunal Federal",
+   "nivel": "A",
+   "link": "https://noticias.stf.jus.br/postsnoticias/stf-rejeita-dois-recursos-do-ministerio-publico-do-rj-no-caso-das-rachadinhas/",
+   "trecho": "No caso dos autos, o MP alegava que a decisão do Tribunal de Justiça do Rio de Janeiro (TJ-RJ) que atendeu ao pedido de arquivamento da própria Promotoria e rejeitou a denúncia oferecida pelo órgão no caso teria violado regras do Código de Processo Penal."
+  },
+  {
+   "veiculo": "Supremo Tribunal Federal",
+   "nivel": "A",
+   "link": "https://noticias.stf.jus.br/postsnoticias/stf-rejeita-dois-recursos-do-ministerio-publico-do-rj-no-caso-das-rachadinhas/",
+   "trecho": "STF rejeita dois recursos do Ministério Público do RJ no caso das rachadinhas Ministro Gilmar Mendes ressaltou que anulação de provas não impedia oferecimento de nova denúncia ou eventual instauração de nova apuração 27/02/2025 10:37"
+  },
+  {
+   "veiculo": "Supremo Tribunal Federal",
+   "nivel": "A",
+   "link": "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=477496&ori=1",
+   "trecho": "2ª Turma decide que provas contra Flávio Bolsonaro no caso das chamadas \"rachadinhas\" são ilegais Para o colegiado, os relatórios de informação financeira que embasaram denúncia contra o senador foram obtidos de forma irregular. 30/11/2021 20h29"
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://noticias.stf.jus.br/postsnoticias/stf-rejeita-dois-recursos-do-ministerio-publico-do-rj-no-caso-das-rachadinhas/": "http://web.archive.org/web/20250529101403/https://noticias.stf.jus.br/postsnoticias/stf-rejeita-dois-recursos-do-ministerio-publico-do-rj-no-caso-das-rachadinhas/",
+  "https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=477496&ori=1": "http://web.archive.org/web/20220726024727/https://portal.stf.jus.br/noticias/verNoticiaDetalhe.asp?idConteudo=477496&ori=1"
+ },
+ "hash": "4086aead40136244bb52dc428cfc6c89ec8e0f6100d98587c6929d0ecd36d464",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F6167",
+   "confere": true,
+   "certeza": 0.88,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Rejeição dos recursos e fala sobre nova denúncia estão nos trechos; omite o arquivamento a pedido da Promotoria, ressalva menor."
+  },
+  "contra": {
+   "rotulo": "F6167",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Rejeição dos recursos e ressalva sobre nova denúncia estão nos trechos; nada suaviza a situação de Pessoa G."
+  },
+  "neutra": {
+   "rotulo": "F6167",
+   "confere": false,
+   "certeza": 0.75,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "'Rachadinhas' sem explicação; leigo não sabe que os recursos contestavam o arquivamento nem que provas foram anuladas."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F6167",
+   "sustenta": true,
+   "motivo": "Trechos mostram rejeição de dois recursos do MP-RJ e a ressalva de que anulação de provas não impedia nova denúncia."
+  },
+  "espelho": {
+   "rotulo": "F6167",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Caso com provas anuladas; recursos do MP rejeitados no STF."
+  }
+ },
+ "classificacao": "polemico",
+ "peso_final": 0,
+ "falhas": [
+  "as três revisões não concordaram"
+ ],
+ "entrou_em": "2026-10-12"
+}

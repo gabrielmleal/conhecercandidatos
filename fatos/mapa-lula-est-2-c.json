@@ -1,0 +1,87 @@
+{
+ "id": "mapa-lula-est-2-c",
+ "origem": "mapa:lula-est-2",
+ "candidato": "lula",
+ "tema": "contas",
+ "subtema": "previdencia",
+ "lente": "fez",
+ "data": "2026-03-28",
+ "titulo": "Relatório do relator da CPMI do INSS é rejeitado",
+ "frase": "Por 19 a 12, a CPMI do INSS rejeitou o relatório que pedia 216 indiciamentos, incluindo o filho de Lula por suposto envolvimento com um lobista. Investigação não é condenação.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Câmara dos Deputados",
+  "documento": "Agência Câmara: CPMI do INSS encerra os trabalhos sem aprovação de relatório final",
+  "link": "https://www.camara.leg.br/noticias/1258866-cpmi-do-inss-encerra-os-trabalhos-sem-aprovacao-de-relatorio-final/",
+  "trecho": "Por 19 votos a 12, a CPMI do INSS rejeitou o relatório do deputado Alfredo Gaspar (União-AL)."
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Câmara",
+   "nivel": "A",
+   "link": "https://www.camara.leg.br/noticias/1258866-cpmi-do-inss-encerra-os-trabalhos-sem-aprovacao-de-relatorio-final/",
+   "trecho": "Gaspar pediu o indiciamento de 216 pessoas, incluindo ex-dirigentes do INSS e da Dataprev, ex-ministros, parlamentares e representantes de entidades associativas. O nome mais polêmico da lista é o do filho do presidente Lula, por suposto envolvimento com o lobista Antônio Carlos Camilo Antunes, o “Careca do INSS”, principal responsável pelas irregularidades apuradas."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.camara.leg.br/noticias/1258866-cpmi-do-inss-encerra-os-trabalhos-sem-aprovacao-de-relatorio-final/": null
+ },
+ "hash": "0f735cbcbafe5659fd97bfe64af20586c81e23701f9b047ed922cff08a7d7ec8",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F6311",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Frase diz que o relatório foi rejeitado, usa 'suposto' e fecha com a ressalva; justo com o filho de Pessoa D."
+  },
+  "contra": {
+   "rotulo": "F6311",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Placar, 216 indiciamentos e menção ao filho batem com o trecho; nada favorece além do provado."
+  },
+  "neutra": {
+   "rotulo": "F6311",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Placar, 216 indiciamentos e menção ao filho batem com os trechos; relatório rejeitado, acusação sem efeito."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-1433",
+  "verificador": {
+   "rotulo": "F6311",
+   "sustenta": true,
+   "motivo": "Placar 19 a 12, 216 indiciamentos e filho de Pessoa D ligado a lobista constam do trecho."
+  },
+  "espelho": {
+   "rotulo": "F6311",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Relatório com pedidos de indiciamento rejeitado pela CPMI por 19 a 12."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

@@ -1,0 +1,90 @@
+{
+ "id": "mapa-lula-dem-3-a",
+ "origem": "mapa:lula-dem-3",
+ "candidato": "lula",
+ "tema": "mundo",
+ "subtema": "eua",
+ "lente": "fez",
+ "data": "2025-07-30",
+ "titulo": "Ordem dos EUA cita ordens de Moraes a redes sociais e impõe tarifa de 40%",
+ "frase": "Segundo ordem americana, o juiz Moraes autorizou bloqueios de contas bancárias e ordens secretas de censura. Ela impôs tarifa extra de 40% a certos produtos brasileiros. Investigação não é condenação.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Presidência dos EUA",
+  "documento": "Executive Order 14323, Federal Register",
+  "link": "https://www.federalregister.gov/documents/2025/08/05/2025-14896/addressing-threats-to-the-united-states-by-the-government-of-brazil",
+  "trecho": "Justice de Moraes has authorized politically motivated police raids, arrests, and bank account freezes. He has also authorized the confiscation of passports, jailed individuals without trial for social media posts, opened unprecedented criminal investigations, including into United States citizens for their constitutionally protected speech in the United States, and issued secret orders to United States social media companies to censor thousands of posts and de-platform dozens of political critics, including United States persons, for lawful speech on United States soil."
+ },
+ "fontes": [
+  {
+   "veiculo": "Federal Register",
+   "nivel": "A",
+   "link": "https://www.federalregister.gov/documents/2025/08/05/2025-14896/addressing-threats-to-the-united-states-by-the-government-of-brazil",
+   "trecho": "To deal with the national emergency declared in this order, I determine that it is necessary and appropriate to impose an additional ad valorem duty rate of 40 percent on certain products of Brazil, as detailed below."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": false,
+  "8": true,
+  "9": false
+ },
+ "copias": {
+  "https://www.federalregister.gov/documents/2025/08/05/2025-14896/addressing-threats-to-the-united-states-by-the-government-of-brazil": "http://web.archive.org/web/20260807025720/https://www.federalregister.gov/documents/2025/08/05/2025-14896/addressing-threats-to-the-united-states-by-the-government-of-brazil"
+ },
+ "hash": "f886455d46c8fe1c970436d6c84947965739204e8bbcf9c299ae40bb2761f44c",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F4908",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Acusações atribuídas à ordem americana, sem o politicamente motivado do trecho, e fecha com a ressalva. Tarifa de 40% está no trecho."
+  },
+  "contra": {
+   "rotulo": "F4908",
+   "confere": true,
+   "certeza": 0.85,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Fiel ao trecho e com o aviso; omite as acusações mais graves da ordem, como prisões sem julgamento e buscas policiais."
+  },
+  "neutra": {
+   "rotulo": "F4908",
+   "confere": false,
+   "certeza": 0.65,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "'Ela' logo após 'o juiz' confunde o leitor; 'ordem americana' não diz que é decreto do presidente dos EUA."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F4908",
+   "sustenta": true,
+   "motivo": "Trechos trazem bloqueio de contas, ordens secretas de censura a redes sociais e tarifa adicional de 40%."
+  },
+  "espelho": {
+   "rotulo": "F4908",
+   "tipo": "problema",
+   "peso": 2,
+   "motivo": "Ato oficial dos EUA impôs tarifa extra de 40% a produtos brasileiros."
+  }
+ },
+ "classificacao": "polemico",
+ "peso_final": 0,
+ "falhas": [
+  "as três revisões não concordaram",
+  "o espelho deu outro tipo"
+ ],
+ "entrou_em": "2026-10-12"
+}

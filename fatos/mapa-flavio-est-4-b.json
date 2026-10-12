@@ -1,0 +1,87 @@
+{
+ "id": "mapa-flavio-est-4-b",
+ "origem": "mapa:flavio-est-4",
+ "candidato": "flavio",
+ "tema": "contas",
+ "subtema": "previdencia",
+ "lente": "fez",
+ "data": "2026-03-28",
+ "titulo": "Relatório paralelo de governistas na CPMI do INSS aponta Jair Bolsonaro e não foi apreciado",
+ "frase": "O líder do governo na CPMI do INSS apresentou relatório paralelo pedindo 130 indiciamentos e apontando Jair Bolsonaro como líder de organização criminosa. Não foi apreciado. Investigação não é condenação.",
+ "tipo": "polemico",
+ "peso": 0,
+ "marco": false,
+ "ancora": {
+  "orgao": "Câmara dos Deputados",
+  "documento": "Agência Câmara: CPMI do INSS encerra os trabalhos sem aprovação de relatório final",
+  "link": "https://www.camara.leg.br/noticias/1258866-cpmi-do-inss-encerra-os-trabalhos-sem-aprovacao-de-relatorio-final/",
+  "trecho": "Já o líder do governo na CPMI, deputado Paulo Pimenta (PT-RS), apresentou relatório paralelo com pedido de 130 indiciamentos, incluindo o ex-presidente da República. “O nosso relatório está indicando Jair Bolsonaro como líder dessa organização criminosa."
+ },
+ "fontes": [
+  {
+   "veiculo": "Agência Câmara",
+   "nivel": "A",
+   "link": "https://www.camara.leg.br/noticias/1258866-cpmi-do-inss-encerra-os-trabalhos-sem-aprovacao-de-relatorio-final/",
+   "trecho": "O presidente da CPMI, senador Carlos Viana (Podemos-MG), decidiu então encerrar os trabalhos sem apreciação do relatório paralelo apresentado pelos governistas."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://www.camara.leg.br/noticias/1258866-cpmi-do-inss-encerra-os-trabalhos-sem-aprovacao-de-relatorio-final/": null
+ },
+ "hash": "a5ab5da8643e72fd9d9719ed2523a2fa68834bb82e6758c1a0f6ba0d596cff95",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F4240",
+   "confere": true,
+   "certeza": 0.92,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Atribui ao líder do governo, diz que não foi apreciado e traz o aviso final. Acusação sem julgamento: polêmico."
+  },
+  "contra": {
+   "rotulo": "F4240",
+   "confere": true,
+   "certeza": 0.93,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Líder do governo, 130 indiciamentos e falta de apreciação estão nos trechos. Acusação sem julgamento, com a ressalva exigida."
+  },
+  "neutra": {
+   "rotulo": "F4240",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Todos os dados estão nos trechos, termina com o aviso exigido. Relatório paralelo não apreciado, sem julgamento: polêmico, peso 0."
+  },
+  "modelo": "sonnet",
+  "rodada": "20261011-2222",
+  "verificador": {
+   "rotulo": "F4240",
+   "sustenta": true,
+   "motivo": "Relatório paralelo do líder do governo, 130 indiciamentos, Pessoa E apontado como líder e encerramento sem apreciação estão nos trechos."
+  },
+  "espelho": {
+   "rotulo": "F4240",
+   "tipo": "polemico",
+   "peso": 0,
+   "motivo": "Relatório paralelo pedindo 130 indiciamentos não foi apreciado; acusação sem apuração concluída."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}

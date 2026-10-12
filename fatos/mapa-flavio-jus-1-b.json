@@ -1,0 +1,108 @@
+{
+ "id": "mapa-flavio-jus-1-b",
+ "origem": "mapa:flavio-jus-1",
+ "candidato": "flavio",
+ "tema": "candidato",
+ "subtema": "investigacoes",
+ "lente": "fez",
+ "data": "2026-07-22",
+ "titulo": "Flávio Bolsonaro é incluído em investigação sobre o filme Dark Horse",
+ "frase": "A PF pediu ao STF apurar possível lavagem de dinheiro, evasão de divisas e corrupção de Flávio no financiamento do filme Dark Horse pelo Banco Master. Investigação não é condenação.",
+ "tipo": "problema",
+ "peso": 1,
+ "marco": false,
+ "ancora": {
+  "orgao": "Supremo Tribunal Federal",
+  "documento": "Pet 16369: partes (REQTE.(S) delegado de Polícia Federal; REQDO.(A/S) Flavio Nantes Bolsonaro)",
+  "link": "https://portal.stf.jus.br/processos/abaPartes.asp?incidente=7642290",
+  "trecho": "REQTE.(S) DELEGADO DE POLÍCIA FEDERAL ADV.(A/S) SEM REPRESENTAÇÃO NOS AUTOS REQDO.(A/S) ENTRE INVESTIMENTOS E PARTICIPACOES LTDA. ADV.(A/S) SEM REPRESENTAÇÃO NOS AUTOS REQDO.(A/S) ANTONIO CARLOS FREIXO JUNIOR ADV.(A/S) SEM REPRESENTAÇÃO NOS AUTOS REQDO.(A/S) HAVENGATE DEVELOPMENT FUND LP ADV.(A/S) SEM REPRESENTAÇÃO NOS AUTOS REQDO.(A/S) HAVENGATE DEVELOPMENT FUND GP LLC ADV.(A/S) SEM REPRESENTAÇÃO NOS AUTOS REQDO.(A/S) FLAVIO NANTES BOLSONARO"
+ },
+ "fontes": [
+  {
+   "veiculo": "Supremo Tribunal Federal",
+   "nivel": "A",
+   "link": "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7642290",
+   "trecho": "Pet 16369 Processo Eletrônico Público Criminal Número Único: 0178995-38.2026.1.00.0000 Dje Jurisprudência Peças Push PETIÇÃO Origem: Relator(a): MIN. ANDRÉ MENDONÇA"
+  },
+  {
+   "veiculo": "Supremo Tribunal Federal",
+   "nivel": "A",
+   "link": "https://portal.stf.jus.br/processos/abaAndamentos.asp?incidente=7642290",
+   "trecho": "22/07/2026 Despacho Despacho MIN. ANDRÉ MENDONÇA 22/07/2026 21/07/2026 Conclusos ao(à) Relator(a)"
+  },
+  {
+   "veiculo": "Agência Brasil",
+   "nivel": "C",
+   "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/mendonca-incluiu-flavio-bolsonaro-como-investigado-no-caso-dark-horse",
+   "trecho": "A Polícia Federal requer a instauração de PET sigilosa em apartado, vinculada ao INQ 5026, para apurar a possível prática dos crimes de lavagem de dinheiro, evasão de divisas, corrupção e outros delitos correlatos, que teriam sido praticados, em tese, pelo Senador da República Flávio Nantes Bolsonaro, no contexto de financiamento para a produção de obra cinematográfica denominada Dark Horse junto ao Banco Master do banqueiro Daniel Bueno Vorcaro”"
+  },
+  {
+   "veiculo": "Agência Brasil",
+   "nivel": "C",
+   "link": "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/mendonca-incluiu-flavio-bolsonaro-como-investigado-no-caso-dark-horse",
+   "trecho": "Flávio foi incluído em 22 de julho na investigação que apura o repasse para custear a produção do filme de R$ 61 milhões pelo ex-banqueiro Daniel Vorcaro, dono do antigo Banco Master."
+  }
+ ],
+ "caixas": {
+  "1": true,
+  "2": true,
+  "3": true,
+  "4": true,
+  "5": true,
+  "6": true,
+  "7": true,
+  "8": true,
+  "9": true
+ },
+ "copias": {
+  "https://portal.stf.jus.br/processos/abaPartes.asp?incidente=7642290": "http://web.archive.org/web/20261011151817/https://portal.stf.jus.br/processos/abaPartes.asp?incidente=7642290",
+  "https://portal.stf.jus.br/processos/detalhe.asp?incidente=7642290": "http://web.archive.org/web/20261011152443/https://portal.stf.jus.br/processos/detalhe.asp?incidente=7642290",
+  "https://portal.stf.jus.br/processos/abaAndamentos.asp?incidente=7642290": null,
+  "https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/mendonca-incluiu-flavio-bolsonaro-como-investigado-no-caso-dark-horse": "http://web.archive.org/web/20261009062901/https://agenciabrasil.ebc.com.br/justica/noticia/2026-09/mendonca-incluiu-flavio-bolsonaro-como-investigado-no-caso-dark-horse"
+ },
+ "hash": "0986995a4eca25ab1cca0b45ade78cf50b1143c2994f77eecb0b4c9ede9719bd",
+ "provado_em": "2026-10-11",
+ "revisao": {
+  "favor": {
+   "rotulo": "F1201",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Pedido da PF e inclusão na investigação estão nos trechos; usa 'possível' e fecha com a ressalva."
+  },
+  "contra": {
+   "rotulo": "F1201",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Crimes, filme e Banco Master estão no pedido da PF; termina com a ressalva. Omite os R$ 61 milhões, sem distorcer."
+  },
+  "neutra": {
+   "rotulo": "F1201",
+   "confere": true,
+   "certeza": 0.9,
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "Pedido da PF ao STF e crimes apurados estão nos trechos; termina com a ressalva exigida."
+  },
+  "modelo": "opus",
+  "rodada": "20261011-2137",
+  "verificador": {
+   "rotulo": "F1201",
+   "sustenta": true,
+   "motivo": "Pedido da PF na Pet 16369 cita lavagem, evasão e corrupção no financiamento do Dark Horse; inclusão em 22 de julho."
+  },
+  "espelho": {
+   "rotulo": "F1201",
+   "tipo": "problema",
+   "peso": 1,
+   "motivo": "PF pede ao STF investigação sobre lavagem, evasão e corrupção: investigação formal sem julgamento."
+  }
+ },
+ "conferido_em": "2026-10-12",
+ "reavaliar_em": "2026-10-19",
+ "versao": 1,
+ "publicado_em": "2026-10-12"
+}
