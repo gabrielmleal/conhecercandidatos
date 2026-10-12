@@ -13,22 +13,23 @@ const TIPOS=Object.keys(TIPO);
 const MESES=['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'];
 const TERMS=D.termos,G=D.grupos;
 function mandOf(c,d,t){if(!t||c==='BR'||!GOV[t])return null;const y=+d.slice(0,4);if(c==='L')return y<=2006?'l1':y<=2010?'l2':y>=2023?'l3':null;return y>=2019&&y<=2022?'b':null;}
-const F=D.fatos.map(f=>({...f,m:mandOf(f.c,f.d,f.t)})).sort((a,b)=>a.d.localeCompare(b.d));
-const st={c:'all',v:'mapa',dq:'',tipos:new Set(TIPOS),g:''};
+const F=D.fatos.map(f=>({...f,m:f.tipo==='pro'?null:mandOf(f.c,f.d,f.t)})).sort((a,b)=>a.d.localeCompare(b.d));
+const st={c:'all',v:'ini',dq:'',tipos:new Set(TIPOS),g:'',para:'',pi:0};
 const ler=(k,p)=>{try{return JSON.parse(localStorage.getItem(k))||p;}catch(e){return p;}};
 const guardar=(k,v)=>{try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}};
 const vistos=new Set(ler('cc-vistos',[]));
 const PREF=Object.assign({escala:1,contraste:false,lista:false},ler('cc-acesso',{}));
 const ESCALAS=[0.9,1,1.15,1.3,1.5];
 const svgI=p=>`<svg class="ico" viewBox="0 0 24 24" aria-hidden="true">${p}</svg>`;
-const IC={seta:svgI('<path d="m9 18 6-6-6-6"/>'),baixo:svgI('<path d="m6 9 6 6 6-6"/>'),lista:svgI('<path d="M9 6h12M9 12h12M9 18h12M4 6h.01M4 12h.01M4 18h.01"/>'),brilho:svgI('<path d="M12 3l1.9 5.8L20 10l-6.1 1.9L12 18l-1.9-6.1L4 10l6.1-1.2Z"/><path d="M19 17v4M17 19h4"/>'),doc:svgI('<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v5h6"/><path d="M8 13h8M8 17h5"/>'),sai:svgI('<path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>'),zap:svgI('<path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/>'),funil:svgI('<path d="M3 5h18l-7 8v5l-4 2v-7Z"/>'),copia:svgI('<rect width="14" height="14" x="8" y="8" rx="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/>')};
+const IC={seta:svgI('<path d="m9 18 6-6-6-6"/>'),baixo:svgI('<path d="m6 9 6 6 6-6"/>'),lista:svgI('<path d="M9 6h12M9 12h12M9 18h12M4 6h.01M4 12h.01M4 18h.01"/>'),brilho:svgI('<path d="M12 3l1.9 5.8L20 10l-6.1 1.9L12 18l-1.9-6.1L4 10l6.1-1.2Z"/><path d="M19 17v4M17 19h4"/>'),doc:svgI('<path d="M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z"/><path d="M14 2v5h6"/><path d="M8 13h8M8 17h5"/>'),sai:svgI('<path d="M15 3h6v6"/><path d="M10 14 21 3"/><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/>'),zap:svgI('<path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"/>'),funil:svgI('<path d="M3 5h18l-7 8v5l-4 2v-7Z"/>'),som:svgI('<path d="M11 5 6 9H3v6h3l5 4Z"/><path d="M15.5 8.5a5 5 0 0 1 0 7M18.5 5.5a9 9 0 0 1 0 13"/>'),pessoa:svgI('<circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/>'),lado:svgI('<rect x="3" y="4" width="8" height="16" rx="2"/><rect x="13" y="4" width="8" height="16" rx="2"/>'),relogio:svgI('<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>'),esq:svgI('<path d="m15 18-6-6 6-6"/>'),copia:svgI('<rect width="14" height="14" x="8" y="8" rx="2"/><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/>')};
 
 function rich(s){return esc(s).replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g,(m,k,d)=>{const key=k.toLowerCase();return TERMS[key]?`<button class="pxterm" data-term="${esc(key)}">${d||k}</button>`:(d||k);});}
 const plain=s=>String(s).replace(/\[\[([^\]|]+)(?:\|([^\]]+))?\]\]/g,(m,k,d)=>d||k);
 const norm=s=>String(s).toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
 const diaMes=d=>(d.length>7?+d.slice(8,10)+' ':'')+MESES[+d.slice(5,7)-1];
 const mes=d=>d.length<7?d:diaMes(d)+' '+d.slice(0,4);
-function quando(iso){return new Date(iso).toLocaleString('pt-BR',{timeZone:'America/Sao_Paulo',day:'numeric',month:'short',hour:'numeric',minute:'2-digit'}).replace(/\./g,'');}
+const MESL=['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro'];
+const quando=d=>`${+d.slice(8,10)} de ${MESL[+d.slice(5,7)-1]}`;
 const say=t=>{q('#pxSR').textContent=t;};
 function toast(m){const el=q('#pxToast');el.textContent=m;el.hidden=false;clearTimeout(toast.t);toast.t=setTimeout(()=>{el.hidden=true;},5000);}
 const plural=(n,s)=>`${n} ${s}${n===1?'':'s'}`;
@@ -73,10 +74,50 @@ function constelacao(rs){
   });
   return `<figure class="pxconst"><svg viewBox="-60 10 470 314" role="group" aria-label="Temas">${nos.map(n=>n.lin).join('')}<circle cx="${cx}" cy="${cy}" r="25" fill="var(--m-ink)"/><text x="${cx}" y="${cy+5}" text-anchor="middle" fill="var(--m-bg)" font-weight="700" font-size="15">${st.c==='all'?'F · L':st.c}</text>${nos.map(n=>n.no).join('')}</svg></figure>`;
 }
-function vMapa(){
+const PERFIL={F:{nome:'Flávio Bolsonaro',partido:'PL',hoje:'Senador pelo Rio de Janeiro',nasc:'Nasceu em 1981, em Resende (RJ)'},L:{nome:'Lula',partido:'PT',hoje:'Presidente da República',nasc:'Nasceu em 1945, em Garanhuns (PE)'}};
+const subNome=f=>f.t?(D.temas[f.t].subtemas[f.s]||CURTO[f.t]):'Brasil';
+function vIni(){
   const rs=temas(),fs=doSite(),vi=fs.filter(f=>vistos.has(f.id)).length;
+  const cand=c=>`<button class="cand" data-quem="${c}"><span class="quem ${c}" aria-hidden="true">${c}</span><b>${PERFIL[c].nome}</b><small>${PERFIL[c].partido} · ${PERFIL[c].hoje}</small><small>${PERFIL[c].nasc}</small><span class="mais">Quem é ${IC.seta}</span></button>`;
+  const porta=(attr,ic,t,x)=>`<button class="porta" ${attr}>${ic}<span><b>${t}</b><small>${x}</small></span>${IC.seta}</button>`;
   const corpo=PREF.lista?rs.map(r=>`<button class="pxrow" data-tema="${r.t}"><span class="tx"><b>${esc(TEMAS[r.t])}</b><small>${resumo(r)}</small></span>${IC.seta}</button>`).join(''):constelacao(rs);
-  return `${avisoFiltro()||'<p class="pxhint">Toque num tema para ver os fatos</p>'}${corpo}<div class="pxacao"><button class="pxsurpresa" data-surpresa="1">${IC.brilho}Fato surpresa</button>${fs.length?`<p class="pxvistos"><i aria-hidden="true"><b style="width:${Math.round(vi/fs.length*100)}%"></b></i>Você já viu ${vi} de ${fs.length} fatos</p><button class="pxtodos" data-lista="1">${IC.lista}Ver todos os fatos</button>`:''}</div>`;
+  return `<button class="turno" data-tl="tempo-19">2º turno para presidente · domingo, 25 de outubro</button><div class="duo">${cand('F')}${cand('L')}</div><h2 class="pxh">O que você quer saber?</h2><div class="portas">${porta('data-v="pro"',IC.lado,'O que cada um propõe','As propostas dos dois, lado a lado')}${porta('data-para="1"',IC.pessoa,'Propostas para a minha situação','Aposentados, estudantes, agro e outros')}${porta('data-v="tempo"',IC.relogio,'O que já aconteceu','Do mais novo ao mais antigo')}</div><h2 class="pxh">Ou escolha um assunto</h2>${avisoFiltro()||(PREF.lista?'':'<p class="pxhint">O número em cada bolinha é quantos fatos você ainda não viu</p>')}${corpo}<div class="pxacao"><button class="pxsurpresa" data-surpresa="1">${IC.brilho}Fato surpresa</button>${fs.length?`<p class="pxvistos"><i aria-hidden="true"><b style="width:${Math.round(vi/fs.length*100)}%"></b></i>Você já viu ${vi} de ${fs.length} fatos</p><button class="pxtodos" data-lista="1">${IC.lista}Ver todos os fatos</button>`:''}</div>`;
+}
+
+const PARA={aposentados:['contas.previdencia','saude.sus','saude.remedios','renda.precos'],clt:['renda.emprego','renda.salario','contas.previdencia','contas.impostos'],informais:['renda.emprego','renda.juros','social.transferencia','producao.pequenas'],servidores:['contas.gastos','contas.previdencia','democracia.gestao','educacao.mec'],policiais:['seguranca.policia','seguranca.crime','seguranca.armas','seguranca.leis'],beneficiarios:['social.transferencia','social.fome','social.moradia','renda.salario'],estudantes:['educacao.creche','educacao.medio','educacao.universidades','obras.ciencia'],agro:['producao.agro','ambiente.desmatamento','mundo.comercio','ambiente.clima'],empresas:['contas.impostos','producao.pequenas','producao.industria','renda.juros'],mulheres:['social.direitos','educacao.creche','saude.sus','seguranca.crime']};
+const propostas=()=>F.filter(f=>f.tipo==='pro'&&f.c!=='BR');
+function blocosPro(){
+  const alvo=st.para?new Set(PARA[st.para]):null,ps=propostas();
+  return ORDEM.filter(t=>GOV[t]).map(t=>{
+    const subs=Object.entries(D.temas[t].subtemas).filter(([k])=>!alvo||alvo.has(t+'.'+k)).map(([k,nome])=>({k,nome,fs:ps.filter(f=>f.t===t&&f.s===k).sort(importa)}));
+    return {t,com:subs.filter(x=>x.fs.length),sem:subs.filter(x=>!x.fs.length)};
+  }).filter(b=>b.com.length||(alvo&&b.sem.length));
+}
+let recua=false;
+const foca=s=>{const el=q(s);if(el)el.focus({preventScroll:true});};
+const pares=()=>blocosPro().flatMap(b=>b.com.map(x=>({t:b.t,nome:x.nome,F:x.fs.filter(f=>f.c==='F'),L:x.fs.filter(f=>f.c==='L')})));
+const fonteMini=f=>`<a class="mini" href="${esc(f.link)}" target="_blank" rel="noopener">${IC.doc}Ver a fonte<small>${esc(f.orgao)}</small></a>`;
+function vPro(){
+  const topo=st.para?`<p class="pxfiltro">Assuntos ligados a: ${esc(G[st.para])}<button data-para="1">Trocar</button><button data-tudo="1">Ver tudo</button></p>`:`<button class="pxpara" data-para="1">${IC.pessoa}Propostas para a minha situação</button>`;
+  const ps=pares();if(!ps.length)return topo+'<p class="pxhint">Ainda não há propostas aqui.</p>';
+  st.pi=Math.max(0,Math.min(st.pi,ps.length-1));const p=ps[st.pi];
+  [...p.F,...p.L].forEach(f=>vistos.add(f.id));guardar('cc-vistos',[...vistos]);
+  const lado=c=>`<section class="umlado"><p class="lado"><span class="quem ${c}" aria-hidden="true">${c}</span>${WHO[c]}</p>${p[c].length?p[c].map(f=>`<h3>${esc(f.tit)}</h3><p class="umtx">${rich(f.txt)}</p>${fonteMini(f)}`).join(''):`<p class="vz">Ainda não registramos proposta de ${WHO[c]} sobre isso.</p>`}</section>`;
+  const saltos=[...new Set(ps.map(x=>x.t))].map(t=>`<button data-salto="${ps.findIndex(x=>x.t===t)}" aria-pressed="${p.t===t}">${esc(CURTO[t])}</button>`).join('');
+  return `${topo}<nav class="saltos" aria-label="Ir para o assunto">${saltos}</nav><div class="um${recua?' volta':''}"><i class="umbar" aria-hidden="true"><b style="width:${((st.pi+1)/ps.length*100).toFixed(1)}%"></b></i><p class="umonde">${esc(TEMAS[p.t])}<small>${st.pi+1} de ${ps.length}</small></p><h2 id="pxUmT" tabindex="-1">${esc(p.nome)}</h2><button class="ouvir" data-ouvirum="1">${IC.som}Ouvir os dois</button>${lado('F')}${lado('L')}</div><div class="umnav"><button data-um="-1" aria-label="Assunto anterior"${st.pi?'':' disabled'}>${IC.esq}</button>${st.pi<ps.length-1?'<button class="prim" data-um="1">Próximo assunto</button>':st.para?'<button class="prim" data-tudo="1">Ver todos os assuntos</button>':'<button class="prim" data-v="tempo">Ver o que já aconteceu</button>'}</div>`;
+}
+function irPara(i,foco){
+  const ps=pares();if(i<0||i>=ps.length)return;
+  calar();recua=i<st.pi;st.pi=i;render();recua=false;
+  const el=foco&&q(foco);(el&&!el.disabled?el:q('#pxUmT')).focus({preventScroll:true});
+  say(`Assunto ${i+1} de ${ps.length}: ${ps[i].nome}`);
+}
+function ouvirUm(){
+  const p=pares()[st.pi],fala=c=>p[c].length?p[c].map(f=>`${f.tit}. ${plain(f.txt)}`).join(' '):'Ainda não registramos proposta sobre isso.';
+  try{if(speechSynthesis.speaking)return calar();const u=new SpeechSynthesisUtterance(`${p.nome}. Propostas de Flávio Bolsonaro: ${fala('F')} Propostas de Lula: ${fala('L')}`);u.lang='pt-BR';u.rate=.9;speechSynthesis.speak(u);}catch(e){toast('Este aparelho não consegue ler em voz alta.');}
+}
+function para(){
+  return `<h2 id="shT" tabindex="-1">Qual é a sua situação?</h2><p>Mostramos as propostas dos dois nos assuntos ligados a ela.</p><div class="pxmenu">${Object.keys(PARA).filter(k=>G[k]).map(k=>`<button data-escolhe="${k}" aria-pressed="${st.para===k}"><span>${esc(G[k])}<small>${esc(junta(PARA[k].map(x=>{const[t,sb]=x.split('.');return D.temas[t].subtemas[sb];})))}</small></span>${IC.seta}</button>`).join('')}</div>`;
 }
 
 const PER=[[2023,2026,'Lula (terceiro mandato)'],[2019,2022,'Jair Bolsonaro'],[2011,2018,'Dilma Rousseff e Michel Temer'],[2007,2010,'Lula (segundo mandato)'],[2003,2006,'Lula (primeiro mandato)'],[1995,2002,'Fernando Henrique Cardoso'],[0,1994,'']];
@@ -101,36 +142,54 @@ function pular(){
   return `<h2 id="shT" tabindex="-1">Ir para o período</h2><div class="pxmenu">${PER.map((p,k)=>{const n=noPer(it,p).length;return n?`<button data-per="${k}"><span>${anos(p)}<small>${p[2]?`Presidente: ${esc(p[2])} · `:''}${plural(n,'fato')}</small></span>${IC.seta}</button>`:'';}).join('')}</div>`;
 }
 
-function linha(f,attr){return `<li><button class="pxrow" ${attr}><span class="quem ${f.c}">${f.c}</span><span class="tx"><span class="${f.mk?'marco':''}">${esc(f.tit)}</span><small>${mes(f.d)}</small></span></button></li>`;}
+function linha(f,attr){return `<li><button class="pxrow" ${attr}><span class="quem ${f.c}">${f.c}</span><span class="tx"><span class="${f.mk?'marco':''}">${esc(f.tit)}</span><small>${esc(subNome(f))} · ${TIPO[f.tipo][0]} · ${mes(f.d)}</small></span></button></li>`;}
+const SUG=['Previdência','Impostos','Transferência de renda','Salário','Escola','Saúde','Segurança','Desmatamento','Corrupção','Inflação'];
 let achadosFs=[];
 function achados(){
   const qn=norm(st.dq.trim());
-  achadosFs=qn.length>1?F.filter(f=>norm(f.tit+' '+plain(f.txt)).includes(qn)).slice(0,30):[];
-  const ks=Object.keys(TERMS).filter(k=>!qn||norm(TERMS[k][0]+' '+plain(TERMS[k][1])).includes(qn)).sort((a,b)=>TERMS[a][0].localeCompare(TERMS[b][0],'pt'));
-  return (achadosFs.length?`<h2 class="pxh">Fatos</h2><ul class="pxtl">${achadosFs.map((f,i)=>linha(f,`data-busca="${i}"`)).join('')}</ul>`:'')+(ks.length?`<h2 class="pxh">${qn?'Palavras':'Palavras explicadas'}</h2>`+ks.map(k=>`<div class="pxrow"><span class="tx"><b>${esc(TERMS[k][0])}</b><small>${esc(plain(TERMS[k][1]))}</small></span></div>`).join(''):'')||'<p class="pxhint">Nada encontrado. Tente outra palavra.</p>';
+  const dic=ks=>ks.map(k=>`<div class="pxrow"><span class="tx"><b>${esc(TERMS[k][0])}</b><small>${esc(plain(TERMS[k][1]))}</small></span></div>`).join('');
+  const todas=Object.keys(TERMS).sort((a,b)=>TERMS[a][0].localeCompare(TERMS[b][0],'pt'));
+  if(qn.length<2)return `<h2 class="pxh">Sugestões</h2><div class="sug">${SUG.map(x=>`<button data-sug="${esc(x)}">${esc(x)}</button>`).join('')}</div><details class="todas"><summary>Todas as ${todas.length} palavras explicadas</summary>${dic(todas)}</details>`;
+  const fs=F.filter(f=>norm([f.tit,plain(f.txt),f.t?TEMAS[f.t]:'',subNome(f)].join(' ')).includes(qn)).sort(importa);
+  achadosFs=['F','L','BR'].flatMap(c=>fs.filter(f=>f.c===c));
+  const ks=todas.filter(k=>norm(TERMS[k][0]+' '+plain(TERMS[k][1])).includes(qn));
+  const grupo=c=>{const xs=achadosFs.map((f,i)=>[f,i]).filter(([f])=>f.c===c);return xs.length?`<h2 class="pxh">${WHO[c]}</h2><ul class="pxtl">${xs.map(([f,i])=>linha(f,`data-busca="${i}"`)).join('')}</ul>`:'';};
+  return (['F','L','BR'].map(grupo).join('')+(ks.length?`<h2 class="pxh">Palavras explicadas</h2>${dic(ks)}`:''))||'<p class="pxhint">Nada encontrado. Tente outra palavra ou uma sugestão.</p>';
 }
-const vDic=()=>`<input class="pxsearch" id="pxDq" type="search" placeholder="Buscar palavra ou assunto" value="${esc(st.dq)}" aria-label="Buscar palavras e fatos" autocomplete="off"><div id="pxDl" aria-live="polite">${achados()}</div>`;
-const VIEWS={mapa:[vMapa,'os temas'],tempo:[vTempo,'a linha do tempo'],dic:[vDic,'a busca']};
+const vDic=()=>`<input class="pxsearch" id="pxDq" type="search" placeholder="Ex.: aposentadoria, escola, impostos" value="${esc(st.dq)}" aria-label="Buscar palavras e fatos" autocomplete="off"><div id="pxDl" aria-live="polite">${achados()}</div>`;
+const VIEWS={ini:[vIni,'o início'],pro:[vPro,'as propostas'],tempo:[vTempo,'a linha do tempo'],dic:[vDic,'a busca']};
 function render(manter){
   const b=q('#pxBody'),y=b.scrollTop;
-  b.innerHTML=VIEWS[st.v][0]();b.scrollTop=manter?y:0;
+  b.classList.remove('entra');b.innerHTML=VIEWS[st.v][0]();b.scrollTop=manter?y:0;
   root.querySelectorAll('.pxnav button').forEach(x=>x.setAttribute('aria-current',x.dataset.v===st.v));
   root.querySelectorAll('.pxseg button').forEach(x=>x.setAttribute('aria-pressed',x.dataset.c===st.c));
-  q('.pxctl').hidden=st.v==='dic';
+  q('.pxctl').hidden=st.v!=='tempo';
   const fb=q('#pxFil');fb.classList.toggle('on',filtrado());fb.setAttribute('aria-label',filtrado()?'Filtrar. Mostrando só '+escolhidos():'Filtrar por tipo de fato');
-  const di=q('#pxDq');if(di)di.addEventListener('input',e=>{st.dq=e.target.value;q('#pxDl').innerHTML=achados();});
+  const di=q('#pxDq');if(di){di.addEventListener('input',e=>{st.dq=e.target.value;q('#pxDl').innerHTML=achados();});di.addEventListener('keydown',e=>{if(e.key==='Enter')di.blur();});}
+  const sa=q('.saltos [aria-pressed="true"]');if(sa)sa.parentNode.scrollLeft=sa.offsetLeft-(sa.parentNode.clientWidth-sa.offsetWidth)/2;
+}
+const POS={};
+function ir(v,nova){
+  const b=q('#pxBody');
+  if(v===st.v){if(nova)b.scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth'});return;}
+  calar();POS[st.v]=b.scrollTop;
+  if(v!=='tempo')st.c='all';
+  st.v=v;if(nova)history.pushState({v},'');
+  render();b.scrollTop=POS[v]||0;void b.offsetWidth;b.classList.add('entra');
+  const a=document.activeElement;if(nova&&v==='dic')foca('#pxDq');else if(!a||a===document.body||!document.contains(a))foca(`.pxnav [data-v="${v}"]`);
+  say('Mostrando '+VIEWS[v][1]);
 }
 
 const ST=q('#story'),CARD=q('#stCard'),SH=q('#pxSheet'),SCRIM=q('#pxScrim');
-let S=null,quem=null,quemSh=null,depois=null;
+let S=null,quem=null,quemSh=null,depois=null,volta=null;
 function travar(){const sheet=!SH.hidden,story=!ST.hidden;['.pxhead','#pxBody','.pxnav'].forEach(s=>{q(s).inert=sheet||story;});ST.inert=sheet;}
 function abrir(s,i){
-  if(ST.hidden){quem=document.activeElement;history.pushState({cc:1},'');}
+  if(ST.hidden){quem=alvo(document.activeElement);history.pushState({cc:1,v:st.v},'');}
   S=s;S.i=i;ST.hidden=false;travar();mostrar(1);
 }
 function abrirTema(t,c,id){
   const fs=doTema(t,c);
-  abrir({itens:fs,t,c,onde:`${c==='all'?'Os dois':WHO[c]} · ${TEMAS[t]}`,res:true,aba:GOV[t]&&fs.some(f=>f.tipo==='pro')?'pro':'fez',aberto:{},mais:{}},id?fs.findIndex(f=>f.id===id):-1);
+  abrir({itens:fs,t,c,onde:`${c==='all'?'Os dois':WHO[c]} · ${CURTO[t]}`,res:true,aba:GOV[t]&&fs.some(f=>f.tipo==='pro')?'pro':'fez',aberto:{},mais:{}},id?fs.findIndex(f=>f.id===id):-1);
 }
 function proximoTema(){
   const k=ORDEM.indexOf(S.t);if(!S.res||k<0)return null;
@@ -139,9 +198,14 @@ function proximoTema(){
 }
 function erro(f){return `mailto:contato@conhecercandidatos.com.br?subject=${encodeURIComponent('Apontar erro: '+f.id)}&body=${encodeURIComponent('Fato: '+f.tit+'\nO que está errado:\n')}`;}
 const mandato=f=>f.m?f.c==='L'?` (${MANDATO[f.m]})`:' · '+MANDATO[f.m]:'';
+function outroDe(f){
+  if(f.c==='BR'||!f.t)return '';
+  const o=f.c==='F'?'L':'F',xs=F.filter(x=>x.c===o&&x.t===f.t&&x.s===f.s).sort((a,b)=>(b.id===volta)-(a.id===volta)||(b.tipo===f.tipo)-(a.tipo===f.tipo)||importa(a,b));
+  return xs.length?`<button class="outro" data-ver="${xs[0].id}"><span class="quem ${o}" aria-hidden="true">${o}</span><span><b>${WHO[o]} no mesmo assunto</b><small>${esc(xs[0].tit)}</small></span>${IC.seta}</button>`:`<p class="outro vazio"><span class="quem ${o}" aria-hidden="true">${o}</span>Ainda não registramos nada de ${WHO[o]} neste assunto.</p>`;
+}
 function cartao(f){
   const tp=TIPO[f.tipo];
-  return `<p class="stmeta"><span class="quem ${f.c}">${f.c}</span><span><b>${WHO[f.c]}</b>${mandato(f)} · ${mes(f.d)}</span></p><h2 id="stT" tabindex="-1">${esc(f.tit)}</h2><p class="txt">${rich(f.txt)}</p><p class="tipo" style="--c:${tp[1]}"><i aria-hidden="true"></i>${tp[0]}<small>${tp[2]}</small></p><a class="fonte" href="${esc(f.link)}" target="_blank" rel="noopener">${IC.doc}<span>Ver a fonte<small>${esc(f.orgao)}${f.doc?', '+esc(f.doc):''}${f.arq?' · cópia arquivada':''}</small></span>${IC.sai}</a>${f.fontes.length?`<p class="stextra"><span>Também em ${f.fontes.map(x=>`<a href="${esc(x[1])}" target="_blank" rel="noopener">${esc(x[0])}</a>`).join(', ')}</span></p>`:''}<p class="stextra"><span>Conferido em ${esc(f.conf)}</span><a href="${erro(f)}">Apontar erro</a></p>`;
+  return `<p class="stmeta"><span class="quem ${f.c}">${f.c}</span><span><b>${WHO[f.c]}</b>${mandato(f)} · ${mes(f.d)}</span><button class="ouvir" data-ouvir="1">${IC.som}Ouvir</button></p><h2 id="stT" tabindex="-1">${esc(f.tit)}</h2><p class="txt">${rich(f.txt)}</p><p class="tipo" style="--c:${tp[1]}"><i aria-hidden="true"></i>${tp[0]}<small>${tp[2]}</small></p>${outroDe(f)}<a class="fonte" href="${esc(f.link)}" target="_blank" rel="noopener">${IC.doc}<span>Ver a fonte<small>${esc(f.orgao)}${f.doc?', '+esc(f.doc):''}${f.arq?' · cópia arquivada':''}</small></span>${IC.sai}</a>${f.fontes.length?`<p class="stextra"><span>Também em ${f.fontes.map(x=>`<a href="${esc(x[1])}" target="_blank" rel="noopener">${esc(x[0])}</a>`).join(', ')}</span></p>`:''}<p class="stextra"><span>Conferido em ${esc(f.conf)}</span><a href="${erro(f)}">Apontar erro</a></p>`;
 }
 const so=()=>filtrado()?' · só '+esc(escolhidos()):'';
 const rs=(fs,quem)=>`<ul class="rs">${fs.map(([f,i])=>`<li><button data-ir="${i}">${quem?`<span class="quem ${f.c}" aria-hidden="true">${f.c}</span>`:`<i style="--c:${TIPO[f.tipo][1]}" aria-hidden="true"></i>`}<span>${esc(f.tit)}<small>${quem?[WHO[f.c],CURTO[f.t]].filter(Boolean).map(esc).join(' · ')+' · ':''}${bio(f)?'Biografia':TIPO[f.tipo][0]} · ${mes(f.d)}</small></span></button></li>`).join('')}</ul>`;
@@ -174,7 +238,8 @@ function resumoTodos(){
 }
 function mostrar(dir){
   const n=S.itens.length,r=S.res?1:0,tot=n+r,k=S.i+r,f=S.itens[S.i];
-  q('#stWhere').textContent=S.onde;
+  q('#stWhere').textContent=f&&f.t?subNome(f):S.onde;
+  calar();
   q('#stBars').innerHTML=tot>20?`<i><b style="width:${((k+1)/tot*100).toFixed(1)}%"></b></i>`:Array.from({length:tot},(_,j)=>`<i class="${j<k?'on':j===k?'agora':''}"></i>`).join('');
   CARD.classList.toggle('volta',dir<0);
   CARD.innerHTML=f?cartao(f):S.t?resumoTema():resumoTodos();CARD.scrollTop=0;
@@ -196,13 +261,17 @@ function avancar(){
 }
 function voltar(){if(S.i+(S.res?1:0)>0){S.i--;mostrar(-1);}}
 function fecharStory(){
-  const t=S&&S.t;ST.hidden=true;S=null;travar();
-  if(st.v==='mapa'){render(true);const el=t&&q(`[data-tema="${t}"]`);if(el)el.focus({preventScroll:true});}
-  else if(quem&&document.contains(quem))quem.focus({preventScroll:true});
-  if(!tourVisto&&TR.hidden&&st.v==='mapa')abrirTour();
+  const t=S&&S.t;ST.hidden=true;S=null;volta=null;travar();calar();
+  if(st.v==='ini')render(true);
+  const el=achar(quem&&quem.startsWith('[data-tema')&&t?`[data-tema="${t}"]`:quem||'#pxBody');if(el)el.focus({preventScroll:true});
 }
+function alvo(el){
+  const k=el&&el.dataset&&Object.keys(el.dataset)[0];
+  return el&&el.id?'#'+el.id:k?`[data-${k}="${CSS.escape(el.dataset[k])}"]`:null;
+}
+const achar=s=>s&&((!ST.hidden&&ST.querySelector(s))||q(s));
 function dica(btn){
-  const k=btn.dataset.term,t=TERMS[k],velha=CARD.querySelector('.dica');
+  const k=btn.dataset.term,t=TERMS[k],velha=btn.closest('.stcard,.pxbody').querySelector('.dica');
   if(velha){velha.remove();if(velha.dataset.k===k)return;}
   const d=document.createElement('p');d.className='dica';d.dataset.k=k;d.setAttribute('role','status');
   d.innerHTML=`<b>${esc(t[0])}</b>${esc(plain(t[1]))}`;btn.closest('p').after(d);
@@ -216,16 +285,22 @@ function surpresa(){
 }
 
 function abrirSheet(html){
-  if(SH.hidden){quemSh=document.activeElement;history.pushState({cc:1},'');}
+  if(SH.hidden){quemSh=alvo(document.activeElement);history.pushState({cc:1,v:st.v},'');}
   q('#pxShB').innerHTML=html;SH.hidden=false;SCRIM.hidden=false;travar();q('#pxShB').scrollTop=0;q('#shT').focus({preventScroll:true});
 }
 function fecharSheet(){
   SH.hidden=true;SCRIM.hidden=true;travar();
   const f=depois;depois=null;
-  if(f)f();else if(quemSh&&document.contains(quemSh))quemSh.focus({preventScroll:true});
+  const el=achar(quemSh)||(ST.hidden?q('#pxBody'):q('#stT'));if(f)f();else el.focus({preventScroll:true});
 }
 const fechar=()=>history.back();
-window.addEventListener('popstate',()=>{if(!SH.hidden)fecharSheet();else if(!ST.hidden)fecharStory();});
+window.addEventListener('popstate',e=>{
+  if(!SH.hidden)return fecharSheet();
+  if(!ST.hidden)return fecharStory();
+  const s=e.state;if(!s)return;
+  if(s.cc)return history.back();
+  ir(s.v);
+});
 
 function filtro(){
   const base=daVez(st.v);
@@ -253,7 +328,7 @@ function trocaTipo(btn){
 
 function partilhar(){
   const f=S&&S.itens[S.i],base=location.origin+'/';
-  const url=f?`${base}fato/${f.id}.html`:S&&S.t?`${base}#t=${S.t}${S.c!=='all'?'&c='+S.c:''}`:base+(st.v!=='mapa'?'#v='+st.v:st.c!=='all'?'#c='+st.c:'');
+  const url=f?`${base}fato/${f.id}.html`:S&&S.t?`${base}#t=${S.t}${S.c!=='all'?'&c='+S.c:''}`:base+(st.v!=='ini'?'#v='+st.v+(st.c!=='all'?'&c='+st.c:''):'');
   const texto=f?`${f.tit}. Fato com fonte, no Conhecer Candidatos:`:'Fatos sobre Flávio e Lula, cada um com a fonte oficial:';
   if(navigator.share)return navigator.share({title:'Conhecer Candidatos',text:texto,url}).catch(()=>{});
   abrirSheet(`<h2 id="shT" tabindex="-1">Compartilhar</h2><p>${esc(texto)}</p><div class="pxpartilha"><a class="zap" href="https://wa.me/?text=${encodeURIComponent(texto+' '+url)}" target="_blank" rel="noopener">${IC.zap}WhatsApp</a><button data-copiar="${esc(url)}">${IC.copia}Copiar link</button></div>`);
@@ -265,45 +340,20 @@ function copiar(url){
 
 function aplicar(){const h=document.documentElement;h.style.setProperty('--escala',PREF.escala);h.toggleAttribute('data-contraste',!!PREF.contraste);guardar('cc-acesso',PREF);}
 function menu(){
-  return `<h2 id="shT" tabindex="-1">Menu</h2><div class="pxmenu"><button data-acao="tour">Como usar ${IC.seta}</button><div class="linha"><span>Tamanho da letra</span><span class="letra"><button data-escala="-1" aria-label="Letra menor">A−</button><button data-escala="1" aria-label="Letra maior">A+</button></span></div><button data-pref="contraste" aria-pressed="${!!PREF.contraste}">Alto contraste<i class="chave" aria-hidden="true"></i></button><button data-pref="lista" aria-pressed="${!!PREF.lista}">Temas em lista<i class="chave" aria-hidden="true"></i></button>${'speechSynthesis' in window?`<button data-acao="ouvir">Ouvir esta tela ${IC.seta}</button>`:''}<button data-acao="libras">Libras ${IC.seta}</button><hr><a href="como-funciona.html">Como funciona ${IC.seta}</a><a href="o-que-mudou.html">O que mudou ${IC.seta}</a><a href="mailto:contato@conhecercandidatos.com.br">Contato<small>contato@conhecercandidatos.com.br</small></a></div>`;
+  return `<h2 id="shT" tabindex="-1">Menu</h2><div class="pxmenu"><div class="linha"><span>Tamanho da letra</span><span class="letra"><button data-escala="-1" aria-label="Letra menor">A−</button><button data-escala="1" aria-label="Letra maior">A+</button></span></div><button data-pref="contraste" aria-pressed="${!!PREF.contraste}">Alto contraste<i class="chave" aria-hidden="true"></i></button><button data-pref="lista" aria-pressed="${!!PREF.lista}">Temas em lista<i class="chave" aria-hidden="true"></i></button>${'speechSynthesis' in window?`<button data-acao="ouvir">Ouvir esta tela ${IC.seta}</button>`:''}<button data-acao="libras">Libras ${IC.seta}</button><hr><a href="como-funciona.html">Como funciona ${IC.seta}</a><a href="o-que-mudou.html">O que mudou ${IC.seta}</a><a href="mailto:contato@conhecercandidatos.com.br">Contato<small>contato@conhecercandidatos.com.br</small></a></div>`;
 }
 function ouvir(){try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance((ST.hidden?q('#pxBody'):CARD).innerText.slice(0,4000));u.lang='pt-BR';u.rate=.9;speechSynthesis.speak(u);}catch(e){}}
 function libras(){if(window.VLibras){toast('O botão de Libras está no canto da tela.');return;}const w=document.createElement('div');w.setAttribute('vw','');w.className='enabled';w.innerHTML='<div vw-access-button class="active"></div><div vw-plugin-wrapper><div class="vw-plugin-top-wrapper"></div></div>';document.body.appendChild(w);const s=document.createElement('script');s.src='https://vlibras.gov.br/app/vlibras-plugin.js';s.onload=()=>{new window.VLibras.Widget('https://vlibras.gov.br/app');toast('Toque no botão azul de Libras, no canto da tela.');};document.body.appendChild(s);}
-const ACOES={tour:()=>abrirTour(),ouvir,libras};
-
-const TR=q('#tour');let ti=0,tourVisto=false;
-try{tourVisto=localStorage.getItem('cc-passeio-visto')==='1';}catch(e){}
-const TS=[
- {t:'Bem-vindo!',x:'Aqui você vê fatos sobre Flávio e Lula, um de cada vez, cada um com a fonte de onde veio.'},
- {t:'Toque num tema',x:'Cada tema abre com a lista de todos os fatos dele. Toque num fato ou em Ver um por um. Cada estrela acende quando você vê todos os fatos dela.',el:()=>q('.pxconst')||q('#pxBody')},
- {t:'Compartilhe',x:'Achou algo importante? Este botão manda para quem você quiser, de qualquer tela.',el:()=>q('#pxShare')}
-];
-function lugar(){
-  if(TR.hidden)return;
-  const s=TS[ti],el=s.el&&s.el(),sp=q('#tSpot'),card=q('#tCard'),R=root.getBoundingClientRect(),bx=R.left+root.clientLeft,ph=root.clientHeight;
-  let r={x:root.clientWidth/2,y:ph/2,w:0,h:0};
-  if(el){const b=el.getBoundingClientRect();r={x:b.left-bx-6,y:Math.max(0,b.top-R.top-6),w:b.width+12,h:Math.min(b.height+12,ph)};}
-  sp.classList.toggle('none',!el);
-  Object.assign(sp.style,{left:r.x+'px',top:r.y+'px',width:r.w+'px',height:r.h+'px'});
-  const ch=card.offsetHeight;
-  card.style.top=Math.max(8,!r.w?(ph-ch)/2:r.y+r.h+12+ch<=ph-8?r.y+r.h+12:r.y-12-ch>=8?r.y-12-ch:8)+'px';
+const ACOES={ouvir,libras};
+function calar(){try{speechSynthesis.cancel();}catch(e){}}
+function ouvirFato(){
+  const f=S&&S.itens[S.i];if(!f)return;
+  try{if(speechSynthesis.speaking)return calar();const u=new SpeechSynthesisUtterance(`${WHO[f.c]}. ${f.tit}. ${plain(f.txt)} Fonte: ${f.orgao}.`);u.lang='pt-BR';u.rate=.9;speechSynthesis.speak(u);}catch(e){toast('Este aparelho não consegue ler em voz alta.');}
 }
-function tPasso(){
-  const s=TS[ti];
-  q('#tDots').innerHTML=TS.map((x,i)=>`<i class="${i<=ti?'on':''}"></i>`).join('');
-  q('#tT').textContent=s.t;q('#tX').textContent=s.x;
-  q('#tNext').textContent=ti===TS.length-1?'Começar':'Próximo';
-  q('#tSkip').hidden=ti===TS.length-1;
-  requestAnimationFrame(()=>{lugar();q('#tT').focus({preventScroll:true});});
-}
-function abrirTour(){if(st.v!=='mapa'){st.v='mapa';render();}ti=0;TR.hidden=false;tPasso();}
-function fecharTour(){TR.hidden=true;tourVisto=true;try{localStorage.setItem('cc-passeio-visto','1');}catch(e){}toast('Para rever o passeio: Menu, depois Como usar.');q('#pxBody').focus({preventScroll:true});}
 
 root.addEventListener('click',e=>{
   const t=e.target.closest('button,[data-tema]');if(!t)return;
   const d=t.dataset;
-  if(t.id==='tSkip')return fecharTour();
-  if(t.id==='tNext'){if(ti===TS.length-1)return fecharTour();ti++;return tPasso();}
   if(t.id==='stNext')return avancar();
   if(t.id==='stPrev')return voltar();
   if(t.id==='stRes'){S.i=-1;return mostrar(-1);}
@@ -316,10 +366,20 @@ root.addEventListener('click',e=>{
   if(d.todos)return todos();
   if(d.pular)return abrirSheet(pular());
   if(d.per){depois=()=>{const el=q('#per'+d.per);if(el){el.scrollIntoView({block:'start'});el.querySelector('button').focus({preventScroll:true});}};return fechar();}
-  if(d.v){st.v=d.v;render();return say('Mostrando '+VIEWS[st.v][1]);}
+  if(d.v)return ir(d.v,true);
+  if(d.quem)return abrirTema('candidato',d.quem);
+  if(d.para)return abrirSheet(para());
+  if(d.escolhe){depois=()=>{st.para=d.escolhe;st.pi=0;POS.pro=0;st.v==='pro'?render():ir('pro',true);foca('#pxUmT');say('Mostrando assuntos ligados a '+G[st.para]);};return fechar();}
+  if(d.tudo){st.para='';st.pi=0;render();return foca('#pxUmT');}
+  if(d.um)return irPara(st.pi+ +d.um,`[data-um="${d.um}"]`);
+  if(d.ouvirum)return ouvirUm();
+  if(d.salto)return irPara(+d.salto,`[data-salto="${d.salto}"]`);
+  if(d.ver){volta=S.itens[S.i]&&S.itens[S.i].id;const k=S.itens.findIndex(f=>f.id===d.ver);if(k>=0){S.i=k;return mostrar(1);}const f=F.find(x=>x.id===d.ver);return abrirTema(f.t,'all',f.id);}
+  if(d.ouvir)return ouvirFato();
+  if(d.sug){st.dq=d.sug;return render();}
   if(d.c){st.c=d.c;render();return say('Mostrando '+(st.c==='all'?'os dois':WHO[st.c]));}
-  if(d.tema)return abrirTema(d.tema,st.c);
-  if(d.tl){const it=linhaTempo();return abrir({itens:it,onde:'Linha do tempo',fim:false},it.findIndex(f=>f.id===d.tl));}
+  if(d.tema)return abrirTema(d.tema,'all');
+  if(d.tl){const it=st.v==='tempo'?linhaTempo():F.filter(f=>f.id===d.tl);return abrir({itens:it,onde:'Linha do tempo',fim:false},it.findIndex(f=>f.id===d.tl));}
   if(d.busca)return abrir({itens:achadosFs,onde:'Busca',fim:false},+d.busca);
   if(d.ir){S.i=+d.ir;return mostrar(1);}
   if(d.aba){S.aba=d.aba;S.aberto={};S.mais={};return redesenha(`[data-aba="${d.aba}"]`);}
@@ -336,30 +396,35 @@ root.addEventListener('click',e=>{
 });
 SCRIM.addEventListener('click',fechar);
 document.addEventListener('keydown',e=>{
-  if(e.key==='Escape'){if(!TR.hidden)return fecharTour();if(!SH.hidden||!ST.hidden)return fechar();}
+  if(e.key==='Escape'&&(!SH.hidden||!ST.hidden))return fechar();
   const g=e.target.closest&&e.target.closest('.pxn');
-  if(g&&(e.key==='Enter'||e.key===' ')){e.preventDefault();return abrirTema(g.dataset.tema,st.c);}
-  if(!ST.hidden&&SH.hidden&&TR.hidden&&!e.target.closest('input')){if(e.key==='ArrowRight')avancar();if(e.key==='ArrowLeft')voltar();}
+  if(g&&(e.key==='Enter'||e.key===' ')){e.preventDefault();return abrirTema(g.dataset.tema,'all');}
+  if(!SH.hidden||e.target.closest('input')||!['ArrowRight','ArrowLeft'].includes(e.key))return;
+  const dir=e.key==='ArrowRight'?1:-1;
+  if(!ST.hidden)return dir>0?avancar():voltar();
+  if(st.v==='pro')irPara(st.pi+dir);
 });
-let x0=null,y0=0;
+let x0=null,y0=0,u0=null,v0=0;
+q('#pxBody').addEventListener('touchstart',e=>{u0=e.touches[0].clientX;v0=e.touches[0].clientY;},{passive:true});
+q('#pxBody').addEventListener('touchend',e=>{if(u0===null||st.v!=='pro')return;const dx=e.changedTouches[0].clientX-u0,dy=e.changedTouches[0].clientY-v0;u0=null;if(Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy)*1.5)irPara(st.pi+(dx<0?1:-1));},{passive:true});
 CARD.addEventListener('touchstart',e=>{x0=e.touches[0].clientX;y0=e.touches[0].clientY;},{passive:true});
 CARD.addEventListener('touchend',e=>{if(x0===null)return;const dx=e.changedTouches[0].clientX-x0,dy=e.changedTouches[0].clientY-y0;x0=null;if(Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy)*1.5)(dx<0?avancar:voltar)();},{passive:true});
-window.addEventListener('resize',lugar);
 
 function rota(){
   const h=new URLSearchParams(location.hash.slice(1)),v=k=>(h.get(k)||'').match(/^[\w-]*/)[0];
-  if(!location.hash)return false;
-  history.replaceState(null,'',location.pathname+location.search);
-  if(['F','L'].includes(v('c')))st.c=v('c');
-  if(VIEWS[v('v')])st.v=v('v');
+  const c=['F','L'].includes(v('c'))?v('c'):'all';
+  const s0=history.state||{};
+  st.v=VIEWS[v('v')]?v('v'):VIEWS[s0.v]?s0.v:'ini';
+  if(st.v==='tempo')st.c=c;
+  history.replaceState({v:st.v},'',location.pathname+location.search);
   render();
   const id=v('f'),f=F.find(x=>x.id===id);
   if(id&&!f){toast('Esse fato saiu do site. Veja o motivo em Menu, O que mudou.');return false;}
-  if(f){f.t?abrirTema(f.t,st.c==='all'||st.c===f.c?st.c:'all',f.id):abrir({itens:[f],onde:'Linha do tempo',fim:false},0);return true;}
-  if(TEMAS[v('t')]){abrirTema(v('t'),st.c);return true;}
+  if(f){f.t&&f.c!=='BR'?abrirTema(f.t,c===f.c?c:'all',f.id):abrir({itens:[f],onde:'Linha do tempo',fim:false},0);return true;}
+  if(TEMAS[v('t')]){abrirTema(v('t'),c);return true;}
   return false;
 }
-q('#pxConf').textContent='Conferido em '+quando(D.conferido);
-aplicar();render();
-if(!rota()&&!tourVisto&&st.v==='mapa')abrirTour();
+q('#pxConf').textContent='Atualizado em '+quando(D.conferido);
+aplicar();
+rota();
 })();
